@@ -201,7 +201,6 @@
 
   <main>
     <h1>harmonies.</h1>
-
     <div class="grid-container">
       {#each clearedCategories as category}
         <ClearedCategory category={category}></ClearedCategory>
@@ -265,21 +264,24 @@
         </button>
         <h3>Clear</h3>
       </div>
-
-    </div>
-
+  </div>
 
     <p> Made by tommy rennolds & paul pursifull </p>
   </main>
 
   <style>
+
+    main {
+      
+    }
+
     .grid-container {
       justify-content: center;
       display: grid;
-      grid-template-rows: repeat(4, minmax(0, 1fr)); /* Change from 1fr to minmax(0, 1fr) */
+      grid-template-rows: repeat(4, minmax(0, 1fr));
       grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-gap: 11px;
-      max-width: 390px; /* Remove fixed max-width */
+      max-width: 379px;
       margin: auto;
       font-weight: bold;
       padding: 2px;
@@ -310,8 +312,7 @@
       }
 
       .grid-container {
-        padding-left: 10px;
-        padding-right: 10px;
+        max-width: 96vw;
       }
 
     
