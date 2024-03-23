@@ -304,11 +304,16 @@
       overflow: hidden; /* Hide overflowing content */
     }
 
-    @media (max-width:850px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
       .grid-item {
         font-size: 3.25vw;
       }
+
+      .grid-container {
+        padding: 0 20px;
+      }
     
+
     }
 
     .selected {
