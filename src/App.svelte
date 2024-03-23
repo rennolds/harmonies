@@ -281,7 +281,7 @@
       grid-template-rows: repeat(4, minmax(0, 1fr));
       grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-gap: 11px;
-      max-width: 379px;
+      max-width: 400px;
       margin: auto;
       font-weight: bold;
       padding: 2px;
@@ -296,24 +296,25 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 90px;
-      width: 90px;
+      height: 6vw;
+      width: 6vw;
       text-align: center;
       cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
       font-size: .9vw;
-      line-height: 25px;
+      line-height: 20px;
       overflow: hidden; /* Hide overflowing content */
     }
 
     @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
       .grid-item {
         font-size: 3.25vw;
+        height: 20vw;
+        width: 20vw;
       }
 
       .grid-container {
         max-width: 92vw;
-        padding-right: 4vw;
       }
 
     
