@@ -312,7 +312,8 @@
       }
 
       .grid-container {
-        max-width: 96vw;
+        max-width: 92vw;
+        padding-right: 4vw;
       }
 
     
