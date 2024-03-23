@@ -35,6 +35,7 @@
     let remainingElements = categories.map(item => item.elements).flat();
     $: clearedCategories = [];
     $: selectedElements = [];
+    let gameOver = true;
     console.log(clearedCategories)
 
 
@@ -113,7 +114,7 @@
         selectedElements = [];
 
         if (clearedCategories.length == 4) {
-          // won
+          gameOver = true;
         }
 
         break;
@@ -200,6 +201,13 @@
   </script>
 
   <main>
+    <div class="win-overlay {gameOver ? '' : 'hidden'}">
+    
+    
+    </div>
+
+
+
     <h1>harmonies.</h1>
     <div class="grid-container">
       {#each clearedCategories as category}
@@ -271,13 +279,24 @@
 
   <style>
 
-    main {
+    .win-overlay {
+      /* width: 300px;
+      height: 415px;
+
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center; */
       
     }
 
+    .hidden {
+      visibility: hidden;
+    }
+
     .grid-container {
-      justify-content: center;
       display: grid;
+      align-items: center;
       grid-template-rows: repeat(4, minmax(0, 1fr));
       grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-gap: 11px;
@@ -311,14 +330,21 @@
         font-size: 3.25vw;
         height: 20vw;
         width: 20vw;
+        padding-left: 2px;
       }
 
       .grid-container {
         max-width: 92vw;
       }
+    }
 
-    
-
+    @media only screen and (max-width: 1200px) and (min-width: 601px) {
+      .grid-item {
+        font-size: 1.5vw;
+        height: 90px;
+        width: 90px;
+        padding-left: 2px;
+      }
     }
 
     .selected {

@@ -29,13 +29,13 @@ body {
 
 .full-row {
     grid-column: 1 / -1; /* Spans entire row */
-    height: 100px;
     border-style: none;
     border-radius: 8px;
     color: black;
     line-height: 25px;
     overflow: hidden;
-    height: 6vw;
+    height: 100%;
+    width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
