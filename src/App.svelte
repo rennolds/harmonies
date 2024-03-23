@@ -310,8 +310,10 @@
       }
 
       .grid-container {
-        padding: 0 20px;
+        padding-left: 5px;
+        padding-right: 5px;
       }
+
     
 
     }
