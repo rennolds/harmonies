@@ -1,5 +1,5 @@
 <script>
-    import { elasticInOut } from "svelte/easing";
+    import { sineInOut } from "svelte/easing";
     export let category;
 
     let isActive = true;
@@ -10,8 +10,9 @@
             transform: scale(${t});
             `;
         },
-        easing: elasticInOut,
-        duration: 1750,
+        delay: 1250,
+        duration: 1000,
+        easing: sineInOut
         };
     };
     
@@ -32,21 +33,23 @@ body {
     border-style: none;
     border-radius: 8px;
     color: black;
-    font-size: 20px;
     line-height: 25px;
-    overflow: hidden; /* Hide overflowing content */
-    height: 100px; /* Fixed height */
+    overflow: hidden;
+    height: 90px; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
     position: relative;
     left: 50;
-    font-size: 21px;
+    font-size: 18px;
     margin-bottom: -12px;
 }
 
 p {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 </style>

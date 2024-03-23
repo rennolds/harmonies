@@ -78,6 +78,10 @@
       return count;
   }
 
+  function removeElements() {
+    remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
+  }
+
   function handleSubmit() {
     // check if selectedElements match any categories
 
@@ -89,9 +93,23 @@
         clearedCategories.push(categories[i]);
         clearedCategories = clearedCategories;
 
-        setTimeout(swapElements(), 400);
+        setTimeout(swapElements, 5000);
+        
+        setTimeout(function(){
+          remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
+        }, 3000);
 
         remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
+        // setTimeout(function(){this.value='Buy now'}, 3000);
+
+        // var that = this; // hold a reference to "this" as "that"
+        // setTimeout(function(){that.value='Buy now'}, 3000); // use "that" instead of   "this" 
+          
+
+        
+        
+
+        console.log(remainingElements);
         selectedElements = [];
 
         if (clearedCategories.length == 4) {
@@ -261,7 +279,7 @@
       grid-template-rows: repeat(4, minmax(0, 1fr)); /* Change from 1fr to minmax(0, 1fr) */
       grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-gap: 11px;
-      max-width: 100%; /* Remove fixed max-width */
+      max-width: 390px; /* Remove fixed max-width */
       margin: auto;
       font-weight: bold;
       padding: 2px;
@@ -281,7 +299,7 @@
       text-align: center;
       cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
-      font-size: 1vw;
+      font-size: .9vw;
       line-height: 25px;
       overflow: hidden; /* Hide overflowing content */
     }
