@@ -140,17 +140,14 @@
 
   }
 
-  function deslect() {
+  function deselect() {
     selectedElements = [];
   }
 
   </script>
 
   <main>
-    <div class="revealed-container"> 
-
-
-    </div>
+    <h1>harmonies.</h1>
 
     <div class="grid-container">
       {#each clearedCategories as category}
@@ -228,8 +225,8 @@
       display: grid;
       grid-template-rows: repeat(4, 1fr);
       grid-template-columns: repeat(4, 1fr);
-      grid-gap: 10px;
-      max-width: 400px;
+      grid-gap: 12px;
+      max-width: 390px;
       margin: auto;
       font-weight: bold;
     }
@@ -242,14 +239,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100px;
-      width: 100px;
+      height: 93px;
+      width: 93px;
       text-align: center;
       cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
       font-size: 20px;
       line-height: 25px;
       overflow: hidden; /* Hide overflowing content */
+      text-transform: uppercase;
     }
 
     .selected {
@@ -258,7 +256,7 @@
     }
 
     .grid-item:hover {
-      background-color: pink;
+      background-color: #b7b7b7;
       transition: background-color 0.2s;
     }
 
@@ -275,10 +273,15 @@
       margin-left: 18px;
     }
 
+    .play-button:hover {
+      transform: scale(1.1) perspective(1px);
+    }
+
     .play-button-container {
       display: flex;
       justify-content: space-between;
-      margin-top: 25px;
+      align-items: center;
+      margin-top: 30px;
     }
 
     .play-container {
@@ -289,17 +292,11 @@
 
     .button-container h3 {
       color: #BA81C2;
-      font-size: 14px;
+      font-size: 10px;
       margin: auto;
+      text-transform: lowercase;
     }
 
-    .left-btn {
-      float: left;
-    }
-
-    .right {
-      float: right;
-    }
 
     
 </style>

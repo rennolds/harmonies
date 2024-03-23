@@ -32,7 +32,6 @@ body {
     border-style: none;
     border-radius: 8px;
     color: black;
-    /* background-color: {category.color}; */
     font-size: 20px;
     line-height: 25px;
     overflow: hidden; /* Hide overflowing content */
