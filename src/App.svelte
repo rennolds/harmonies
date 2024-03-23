@@ -223,12 +223,13 @@
     .grid-container {
       justify-content: center;
       display: grid;
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 12px;
-      max-width: 390px;
+      grid-template-rows: repeat(4, minmax(0, 1fr)); /* Change from 1fr to minmax(0, 1fr) */
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-gap: .8vw;
+      max-width: 100%; /* Remove fixed max-width */
       margin: auto;
       font-weight: bold;
+      padding: 2px;
     }
 
     .grid-item {
@@ -239,8 +240,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 93px;
-      width: 93px;
+      height: 90px;
+      width: 90px;
       text-align: center;
       cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
