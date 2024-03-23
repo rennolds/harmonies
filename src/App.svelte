@@ -23,7 +23,7 @@
       {
         'color': "#78DAF9",
         'name': 'Artists with alphanumeric characters in their name',
-        'elements': ['Ke$ha', 'P!nk', '$uicideboy$', 'AS@P Rocky']
+        'elements': ['Ke$ha', 'P!nk', 'Ty Dolla $ign', 'AS@P Rocky']
       },
       {
         'color': "#FFBC21",
@@ -51,6 +51,8 @@
         [remainingElements[currentIndex], remainingElements[randomIndex]] = [
           remainingElements[randomIndex], remainingElements[currentIndex]];
       }
+
+      test();
 
       return remainingElements;
   } 
@@ -144,6 +146,39 @@
     selectedElements = [];
   }
 
+  function test() {
+    var gridItems = document.querySelectorAll('.grid-item');
+
+// Loop through each grid item
+    // gridItems.forEach(function(item) {
+    //   console.log(item.style.fontSize);
+    //   var length = item.textContent.length;
+    //   if (length > 20) {
+    //     var adjustedLength = 20 / length;
+    //     console.log(adjustedLength);
+    //     item.style.fontSize = adjustedLength + "vw";
+    //     console.log(item.style.fontSize);
+    //   }
+
+    //   // var individualWords = item.textContent.split(" ");
+    //   // console.log(individualWords);
+    //   // var longest = individualWords.reduce(
+    //   // function (a, b) {
+    //   //     return a.length > b.length ? a : b;
+    //   // });
+
+    //   if (length < 8 && length > 5) {
+    //     var increasedLength = length * 1.1;
+    //     item.style.fontSize = increasedLength + "vw";
+    //   }
+
+    //   if (length < 6) {
+    //     var increasedLength = length * 1.5;
+    //     item.style.fontSize = increasedLength + "vw";
+    //   }
+    // });
+  }
+
   </script>
 
   <main>
@@ -225,11 +260,12 @@
       display: grid;
       grid-template-rows: repeat(4, minmax(0, 1fr)); /* Change from 1fr to minmax(0, 1fr) */
       grid-template-columns: repeat(4, minmax(0, 1fr));
-      grid-gap: .8vw;
+      grid-gap: 11px;
       max-width: 100%; /* Remove fixed max-width */
       margin: auto;
       font-weight: bold;
       padding: 2px;
+      text-transform: uppercase;
     }
 
     .grid-item {
@@ -245,10 +281,16 @@
       text-align: center;
       cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
-      font-size: 20px;
+      font-size: 1vw;
       line-height: 25px;
       overflow: hidden; /* Hide overflowing content */
-      text-transform: uppercase;
+    }
+
+    @media (max-width:850px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+      .grid-item {
+        font-size: 3.25vw;
+      }
+    
     }
 
     .selected {
