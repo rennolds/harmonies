@@ -35,7 +35,7 @@ body {
     color: black;
     line-height: 25px;
     overflow: hidden;
-    height: 90px; 
+    height: 6vw;
     justify-content: center;
     display: flex;
     flex-direction: column;
