@@ -1,6 +1,7 @@
 <script>
     import { flip } from 'svelte/animate';
     import ClearedCategory from './lib/ClearedCategory.svelte'
+    import ResultGrid from './lib/ResultGrid.svelte'
 
     /*
 
@@ -30,13 +31,14 @@
         'name': 'blink-182 and their side projects',
         'elements': ['Boxcar Racer', '+44', 'Angels & Airwaves', 'blink-182']
       }
-    ]
+    ];
 
     let remainingElements = categories.map(item => item.elements).flat();
     $: clearedCategories = [];
     $: selectedElements = [];
-    let gameOver = true;
-    console.log(clearedCategories)
+    $: guessHistory = [];
+    let gameOver = false;
+    let hideOverlay = true;
 
 
   function shuffleElements() {
@@ -52,8 +54,6 @@
         [remainingElements[currentIndex], remainingElements[randomIndex]] = [
           remainingElements[randomIndex], remainingElements[currentIndex]];
       }
-
-      test();
 
       return remainingElements;
   } 
@@ -83,52 +83,71 @@
     remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
   }
 
+  function toggleOverlay() {
+    // console.log(hideOverlay);
+    // if (hideOverlay) {
+    //   hideOverlay = false;
+    // } else {
+    //   hideOverlay = true;
+    // }
+    // console.log(hideOverlay)
+  }
+
   function handleSubmit() {
     // check if selectedElements match any categories
-
+    if (selectedElements.length != 4) {
+      //do  nothing, not valid guess
+      return
+    }
+    else {
+      // Iterate over selectedElements, add this guess to guessHistory
+      let tempGuessHistory = [];
+      selectedElements.forEach(element => {
+        // Find the category that contains the current element
+        const category = categories.find(cat => cat.elements.includes(element));
+        // If category is found, add guess and color to guessHistory
+        if (category) {
+            tempGuessHistory.push({ guess: element, color: category.color });
+        }
+      });
+      guessHistory.push(tempGuessHistory);
+      guessHistory = guessHistory;
+    }
     for (let i = 0; i < categories.length; i++) {
       const commonItems = countSimilarItems(selectedElements, categories[i].elements);
+      // if found 4 items in common, a cleared category
       if (commonItems == 4) {
-        console.log("Winner Winner");
         // trigger animation or sound effect
         clearedCategories.push(categories[i]);
         clearedCategories = clearedCategories;
 
-        setTimeout(swapElements, 5000);
+        setTimeout(swapElements, 300);
         
-        setTimeout(function(){
-          remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
-        }, 3000);
+        // setTimeout(function(){
+        //   remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
+        // }, 3000);
 
-        remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
-        // setTimeout(function(){this.value='Buy now'}, 3000);
-
-        // var that = this; // hold a reference to "this" as "that"
-        // setTimeout(function(){that.value='Buy now'}, 3000); // use "that" instead of   "this" 
-          
-
-        
-        
-
-        console.log(remainingElements);
+        remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
         selectedElements = [];
 
-        if (clearedCategories.length == 4) {
-          gameOver = true;
-        }
-
+        // if (clearedCategories.length == 4) {
+        //   toggleOverlay();
+        // }
         break;
       }
       else if (commonItems == 3) {
-        console.log("One away : )");
+        // one away
         break;
       }
       else {
-        console.log("No good friendo");
+        //incorrect guess
       }
     }
+
+    if (guessHistory.length == 7) {
+      toggleOverlay();
+    }
   }
-      
 
   function toggleSelection(element) {
     const index = selectedElements.indexOf(element);
@@ -157,54 +176,39 @@
     });
   }
 
-  function wonGame() {
-
-  }
-
   function deselect() {
     selectedElements = [];
-  }
-
-  function test() {
-    var gridItems = document.querySelectorAll('.grid-item');
-
-// Loop through each grid item
-    // gridItems.forEach(function(item) {
-    //   console.log(item.style.fontSize);
-    //   var length = item.textContent.length;
-    //   if (length > 20) {
-    //     var adjustedLength = 20 / length;
-    //     console.log(adjustedLength);
-    //     item.style.fontSize = adjustedLength + "vw";
-    //     console.log(item.style.fontSize);
-    //   }
-
-    //   // var individualWords = item.textContent.split(" ");
-    //   // console.log(individualWords);
-    //   // var longest = individualWords.reduce(
-    //   // function (a, b) {
-    //   //     return a.length > b.length ? a : b;
-    //   // });
-
-    //   if (length < 8 && length > 5) {
-    //     var increasedLength = length * 1.1;
-    //     item.style.fontSize = increasedLength + "vw";
-    //   }
-
-    //   if (length < 6) {
-    //     var increasedLength = length * 1.5;
-    //     item.style.fontSize = increasedLength + "vw";
-    //   }
-    // });
   }
 
   </script>
 
   <main>
-    <div class="win-overlay {gameOver ? '' : 'hidden'}">
     
+    <div class="gameover-overlay {!hideOverlay ? '' : 'hidden'}">
     
+      <div class="gameover-header">Try again tmr</div>
+      <div class="results-container">
+        <button class="exit-btn" on:click={toggleOverlay()}>
+          <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="ph:x">
+            <path id="Vector" d="M20.8878 19.7376C20.9633 19.8131 21.0232 19.9027 21.064 20.0014C21.1049 20.1 21.1259 20.2057 21.1259 20.3125C21.1259 20.4192 21.1049 20.5249 21.064 20.6236C21.0232 20.7222 20.9633 20.8118 20.8878 20.8873C20.8123 20.9628 20.7227 21.0227 20.6241 21.0635C20.5254 21.1044 20.4197 21.1254 20.313 21.1254C20.2062 21.1254 20.1005 21.1044 20.0019 21.0635C19.9032 21.0227 19.8136 20.9628 19.7381 20.8873L13.0005 14.1486L6.2628 20.8873C6.11034 21.0398 5.90356 21.1254 5.68795 21.1254C5.47234 21.1254 5.26557 21.0398 5.11311 20.8873C4.96065 20.7349 4.875 20.5281 4.875 20.3125C4.875 20.0969 4.96065 19.8901 5.11311 19.7376L11.8518 13L5.11311 6.26231C4.96065 6.10985 4.875 5.90307 4.875 5.68746C4.875 5.47186 4.96065 5.26508 5.11311 5.11262C5.26557 4.96016 5.47234 4.87451 5.68795 4.87451C5.90356 4.87451 6.11034 4.96016 6.2628 5.11262L13.0005 11.8513L19.7381 5.11262C19.8906 4.96016 20.0973 4.87451 20.313 4.87451C20.5286 4.87451 20.7353 4.96016 20.8878 5.11262C21.0403 5.26508 21.1259 5.47186 21.1259 5.68746C21.1259 5.90307 21.0403 6.10985 20.8878 6.26231L14.1491 13L20.8878 19.7376Z" fill="black"/>
+            </g>
+            </svg>            
+        </button>
+        <h2>Harmonies #1</h2>
+        <ResultGrid bind:guesses={guessHistory}></ResultGrid>
+      </div>
+
+      <div class="next-harmony-container">
+        <h2>Next Harmony</h2>
+        <p>12:03:02</p>
+      </div>
+
+      <button style="background-color: #000;" class="results-button">SHARE RESULT</button>
+      <a href="https://spotle.io" target="_blank"><button style="background-color: #1DB954;" class="results-button">PLAY SPOTLE</button></a>
     </div>
+
+
 
 
 
@@ -279,15 +283,42 @@
 
   <style>
 
-    .win-overlay {
-      /* width: 300px;
-      height: 415px;
+    .gameover-overlay {
+        position: absolute;
+        top: 50%; /* Position at the vertical center */
+        left: 50%; /* Position at the horizontal center */
+        transform: translate(-50%, -50%); /* Center the element */
+        background-color: white; /* Semi-transparent black overlay */
+        width: 360px; /* Cover the entire parent */
+        height: 500px; /* Cover the entire parent */
+        z-index: 9999; /* Ensure the overlay appears on top */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
-      background-color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center; */
-      
+    .results-button {
+        height: 34px;
+        width: 130px;
+        font-size: 15px;
+        text-align: center;
+        line-height: normal;
+        color: #fff;
+        border-style: none;
+        width: 176px;
+        height: 52px;
+        margin-bottom: 10px;
+        border-radius: 100px;
+    }
+
+    .exit-btn {
+      align-self: flex-end;
+      background: none;
+      border-style: none;
+    }
+
+    .exit-btn:hover {
+      cursor: pointer;
     }
 
     .hidden {
@@ -393,7 +424,4 @@
       margin: auto;
       text-transform: lowercase;
     }
-
-
-    
 </style>
