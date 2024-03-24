@@ -1,0 +1,26 @@
+{
+    "3/24/2024": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Olivia Rodrigo's \"GUTS\"",
+        "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "All things Panic! At the Disco",
+        "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists with alphanumeric characters in their name",
+        "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "blink-182 and their side projects",
+        "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
+      }
+    ],
+    "3/25/2024": [],
+    "3/26/2024": []
+}

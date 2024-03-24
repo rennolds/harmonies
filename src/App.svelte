@@ -1,44 +1,55 @@
 <script>
     import { flip } from 'svelte/animate';
+    import { writable } from 'svelte/store';
+    import { fade } from 'svelte/transition';
+    import { onMount } from 'svelte';
     import ClearedCategory from './lib/ClearedCategory.svelte'
     import ResultGrid from './lib/ResultGrid.svelte'
+    import gameBoards from "./static/data/gameboards.json";
 
-    /*
+    function getEasternTimeDate() {
+      const date = new Date();
+      const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
+      const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
+      const easternTime = new Date(utc + (3600000 * easternTimeOffset));
+      return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
+    } 
 
-      need to get the associations for the day. color, name, elements
-      get list of elements, and shuffle the order
-      
-    */
+    const todaysDate = getEasternTimeDate();
+    const categories = gameBoards[todaysDate.toString()] || [];
 
-    const categories = [
-      {
-        'color': "#CBff70",
-        'name': 'Songs from Olivia Rodrigo\'s "GUTS"',
-        'elements': ['all-american bitch', 'get him back!', 'pretty isn\'t pretty', 'bad idea right?']
-      },
-      {
-        'color': "#FAA3FF",
-        'name': 'All things Panic! At the Disco',
-        'elements': ['Panic! At the Disco', 'Pretty. Odd.', 'I Write Sins Not Tragedies', 'Don\'t Threaten Me With A Good Time']
-      },
-      {
-        'color': "#78DAF9",
-        'name': 'Artists with alphanumeric characters in their name',
-        'elements': ['Ke$ha', 'P!nk', 'Ty Dolla $ign', 'AS@P Rocky']
-      },
-      {
-        'color': "#FFBC21",
-        'name': 'blink-182 and their side projects',
-        'elements': ['Boxcar Racer', '+44', 'Angels & Airwaves', 'blink-182']
-      }
-    ];
+    const gameoverStore = writable({
+      isOver: false,
+      won: false,
+      lost: false,
+      headerMessage: ''
+    });
+
+    const alertStore = writable({
+      message: '',
+      visible: false
+    });
+
+    function showAlert(message) {
+      alertStore.set({
+        message,
+        visible: true
+      });
+
+      setTimeout(() => {
+        alertStore.set({
+          message: '',
+          visible: false
+        });
+      }, 3000); 
+    }
 
     let remainingElements = categories.map(item => item.elements).flat();
-    $: clearedCategories = [];
-    $: selectedElements = [];
-    $: guessHistory = [];
+    let clearedCategories = [];
+    let selectedElements = [];
+    let guessHistory = [];
+    let mistakesCount = 0;
     let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0]
-    let gameOver = false;
     let hideOverlay = true;
 
 
@@ -137,7 +148,7 @@
         break;
       }
       if (commonItems == 3) {
-        // show 
+        showAlert("One away...");
         break;
       }
     }
@@ -190,8 +201,8 @@
 
   <main>
     
-    <div class="gameover-overlay {!hideOverlay ? '' : 'hidden'}">
-    
+    {#if $gameoverStore.isOver}
+    <div class="gameover-overlay">
       <div class="gameover-header">Try again tmr</div>
       <div class="results-container">
         <button class="exit-btn" on:click={toggleOverlay()}>
@@ -213,12 +224,21 @@
       <button style="background-color: #000;" class="results-button">SHARE RESULT</button>
       <a href="https://spotle.io" target="_blank"><button style="background-color: #1DB954;" class="results-button">PLAY SPOTLE</button></a>
     </div>
+    {/if}
 
+    <div class="logo-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+          <!-- Your SVG code here -->
+          <circle cx="50" cy="50" r="40" fill="red" />
+      </svg>
+    </div>
+    <!-- <h1>harmonies.</h1> -->
+    <div class="alert-message-container">
+      {#if $alertStore.message}
+        <div transition:fade class="alert">{ $alertStore.message }</div>
+      {/if}
+    </div>
 
-
-
-
-    <h1>harmonies.</h1>
     <div class="grid-container">
       {#each clearedCategories as category}
         <ClearedCategory category={category}></ClearedCategory>
@@ -227,6 +247,15 @@
           <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
       {/each}
     </div>
+
+    <div class="mistakes-remaining-container">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="ph:x">
+        <path id="Vector" d="M20.8878 19.7376C20.9633 19.8131 21.0232 19.9027 21.064 20.0014C21.1049 20.1 21.1259 20.2057 21.1259 20.3125C21.1259 20.4192 21.1049 20.5249 21.064 20.6236C21.0232 20.7222 20.9633 20.8118 20.8878 20.8873C20.8123 20.9628 20.7227 21.0227 20.6241 21.0635C20.5254 21.1044 20.4197 21.1254 20.313 21.1254C20.2062 21.1254 20.1005 21.1044 20.0019 21.0635C19.9032 21.0227 19.8136 20.9628 19.7381 20.8873L13.0005 14.1486L6.2628 20.8873C6.11034 21.0398 5.90356 21.1254 5.68795 21.1254C5.47234 21.1254 5.26557 21.0398 5.11311 20.8873C4.96065 20.7349 4.875 20.5281 4.875 20.3125C4.875 20.0969 4.96065 19.8901 5.11311 19.7376L11.8518 13L5.11311 6.26231C4.96065 6.10985 4.875 5.90307 4.875 5.68746C4.875 5.47186 4.96065 5.26508 5.11311 5.11262C5.26557 4.96016 5.47234 4.87451 5.68795 4.87451C5.90356 4.87451 6.11034 4.96016 6.2628 5.11262L13.0005 11.8513L19.7381 5.11262C19.8906 4.96016 20.0973 4.87451 20.313 4.87451C20.5286 4.87451 20.7353 4.96016 20.8878 5.11262C21.0403 5.26508 21.1259 5.47186 21.1259 5.68746C21.1259 5.90307 21.0403 6.10985 20.8878 6.26231L14.1491 13L20.8878 19.7376Z" fill="black"/>
+        </g>
+        </svg>        
+    </div>
+
     <div class="play-button-container">
       <div class="button-container">
         <button class="play-button left-btn" on:click={shuffleElements(remainingElements)}>
@@ -327,8 +356,21 @@
       cursor: pointer;
     }
 
-    .hidden {
-      visibility: hidden;
+    .logo-container {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px; /* Optional: Adjust padding as needed */
+      z-index: 9999; /* Optional: If you want the logo to be on top of other elements */
+    }
+
+    .alert-message-container {
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9999;  
     }
 
     .grid-container {
@@ -341,6 +383,7 @@
       margin: auto;
       font-weight: bold;
       padding: 2px;
+      margin-top: 75px;
       text-transform: uppercase;
     }
 
