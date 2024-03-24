@@ -37,6 +37,7 @@
     $: clearedCategories = [];
     $: selectedElements = [];
     $: guessHistory = [];
+    let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0]
     let gameOver = false;
     let hideOverlay = true;
 
@@ -135,18 +136,23 @@
         // }
         break;
       }
-      else if (commonItems == 3) {
-        // one away
+      if (commonItems == 3) {
+        // show 
         break;
-      }
-      else {
-        //incorrect guess
       }
     }
 
-    if (guessHistory.length == 7) {
-      toggleOverlay();
+    // If we got here, we are dealing with a wrong guess.
+    for (let i = 0; i < remainingElements.length; i++) {
+      if (selectedElements.includes(remainingElements[i])) {
+        shake[i] = true;
+        shake = shake;
+      }
     }
+
+    setTimeout(() => {
+        shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    }, 1000); // Wait 3 seconds to execute code
   }
 
   function toggleSelection(element) {
@@ -217,8 +223,8 @@
       {#each clearedCategories as category}
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
-      {#each remainingElements as element (element)}
-          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''}"> {element} </div>
+      {#each remainingElements as element, i (element)}
+          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
       {/each}
     </div>
     <div class="play-button-container">
@@ -423,5 +429,18 @@
       font-size: 10px;
       margin: auto;
       text-transform: lowercase;
+    }
+
+    @keyframes shake {
+      0% { transform: translate(0, 0); }
+      10%, 90% { transform: translate(-5px, 0); }
+      20%, 80% { transform: translate(5px, 0); }
+      30%, 50%, 70% { transform: translate(-5px, 0); }
+      40%, 60% { transform: translate(5px, 0); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .shake {
+      animation: shake 0.5s ease-in-out;
     }
 </style>
