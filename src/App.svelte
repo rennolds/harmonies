@@ -114,9 +114,6 @@
         }
       }
 
-      
-
-      // Iterate over selectedElements, add this guess to guessHistory
       let tempGuessHistory = [];
       selectedElements.forEach(element => {
         // Find the category that contains the current element
@@ -140,10 +137,6 @@
         clearedCategories = clearedCategories;
 
         setTimeout(swapElements(selectedElements), 300);
-        
-        // setTimeout(function(){
-        //   remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
-        // }, 3000);
 
         remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
         selectedElements = [];
@@ -175,21 +168,21 @@
 
     setTimeout(() => {
         shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-    }, 1000); // Wait 3 seconds to execute code
+    }, 1000);
 
     mistakesCount++;
 
     if (mistakesCount == 4) {
       //reveal categories not found
-      const remainingCategories = categories.filter(category => !clearedCategories.includes(category));
-      remainingCategories.forEach((category) => {
-      swapElements(category.elements);
-      clearedCategories.push(category);
-      clearedCategories = clearedCategories;
-      remainingElements = remainingElements.filter(item => !category.elements.includes(item));
-      console.log(remainingCategories)
-      });
-
+      setTimeout(() => {
+        const remainingCategories = categories.filter(category => !clearedCategories.includes(category));
+        remainingCategories.forEach((category) => {
+          swapElements(category.elements);
+          clearedCategories.push(category);
+          clearedCategories = clearedCategories;
+          remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+        });
+      }, 1000);
 
       setTimeout(() => {
           gameoverStore.set({
@@ -241,6 +234,46 @@
     }
   }
 
+  function shareResult() {
+    const emoji_mapping = {
+      "#CBff70": "🟩",
+      "#FAA3FF": "🟪",
+      "#78DAF9": "🟦",
+      "#FFBC21": "🟧"
+    }
+
+    var header = "harmonies #" + harmonyNumber + "🎧\n\n";
+    
+    let grid = '';
+
+    for (let i = 0; i < guessHistory.length; i++) {
+      const block_one = emoji_mapping[guessHistory[i][0].color];
+      const block_two = emoji_mapping[guessHistory[i][1].color];
+      const block_three = emoji_mapping[guessHistory[i][2].color];
+      const block_four = emoji_mapping[guessHistory[i][3].color];
+      const row = block_one + block_two + block_three + block_four;
+      grid = grid + row + "\n";
+      console.log(grid);
+      console.log(row);
+    }
+
+    const result = header + grid + "\n" + "harmonies.io";
+
+    if (navigator.share) { 
+      navigator.share({
+        text: result
+      }).then(() => {
+        console.log('Thanks for sharing!');
+      })
+      .catch(console.error);
+      } else {
+        navigator.clipboard.writeText(result)
+        .then(() => { console.log('copied'); })
+        .catch((error) => { alert(`Copy failed! ${error}`) })
+    }
+
+  }
+
   </script>
 
   <main>
@@ -265,7 +298,7 @@
         <p>12:03:02</p>
       </div>
 
-      <button style="background-color: #000;" class="results-button">SHARE RESULT</button>
+      <button on:click={shareResult} style="background-color: #000;" class="results-button">SHARE RESULT</button>
       <a href="https://spotle.io" target="_blank"><button style="background-color: #1DB954;" class="results-button">PLAY SPOTLE</button></a>
     </div>
     {/if}
@@ -388,6 +421,7 @@
         height: 52px;
         margin-bottom: 10px;
         border-radius: 100px;
+        cursor: pointer;
     }
 
     .exit-btn {
