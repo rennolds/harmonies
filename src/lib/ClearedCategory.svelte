@@ -1,5 +1,6 @@
 <script>
     import { sineInOut } from "svelte/easing";
+    import { fade } from "svelte/transition";
     export let category;
 
     let isActive = true;
@@ -10,7 +11,7 @@
             transform: scale(${t});
             `;
         },
-        delay: 1250,
+        delay: 1500,
         duration: 1000,
         easing: sineInOut
         };

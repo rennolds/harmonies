@@ -1,7 +1,7 @@
 <script>
     import { flip } from 'svelte/animate';
     import { writable } from 'svelte/store';
-    import { fade } from 'svelte/transition';
+    import { fade, fly, slide } from 'svelte/transition';
     import { onMount } from 'svelte';
     import ClearedCategory from './lib/ClearedCategory.svelte'
     import ResultGrid from './lib/ResultGrid.svelte'
@@ -17,6 +17,8 @@
 
     const todaysDate = getEasternTimeDate();
     const categories = gameBoards[todaysDate.toString()] || [];
+    const keys = Object.keys(gameBoards);
+    const harmonyNumber = keys.indexOf(todaysDate) + 1; // Adding 1 to make it 1-based index
 
     const gameoverStore = writable({
       isOver: false,
@@ -95,16 +97,6 @@
     remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
   }
 
-  function toggleOverlay() {
-    // console.log(hideOverlay);
-    // if (hideOverlay) {
-    //   hideOverlay = false;
-    // } else {
-    //   hideOverlay = true;
-    // }
-    // console.log(hideOverlay)
-  }
-
   function handleSubmit() {
     // check if selectedElements match any categories
     if (selectedElements.length != 4) {
@@ -112,6 +104,20 @@
       return
     }
     else {
+      
+      let guessHistoryFlattened = [];
+      for (let i = 0; i < guessHistory.length; i++) {
+        categories.map(item => item.elements).flat();
+        const guess = guessHistory[i].map(entry => entry.guess);
+        const commonItems = countSimilarItems(guess, selectedElements);
+        if (commonItems == selectedElements.length) {
+          showAlert("Already guessed!");
+          return;
+        }
+      }
+
+      
+
       // Iterate over selectedElements, add this guess to guessHistory
       let tempGuessHistory = [];
       selectedElements.forEach(element => {
@@ -124,6 +130,8 @@
       });
       guessHistory.push(tempGuessHistory);
       guessHistory = guessHistory;
+      console.log(guessHistory);
+
     }
     for (let i = 0; i < categories.length; i++) {
       const commonItems = countSimilarItems(selectedElements, categories[i].elements);
@@ -133,7 +141,7 @@
         clearedCategories.push(categories[i]);
         clearedCategories = clearedCategories;
 
-        setTimeout(swapElements, 300);
+        setTimeout(swapElements(selectedElements), 300);
         
         // setTimeout(function(){
         //   remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
@@ -142,9 +150,16 @@
         remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
         selectedElements = [];
 
-        // if (clearedCategories.length == 4) {
-        //   toggleOverlay();
-        // }
+        if (clearedCategories.length == 4) {
+          setTimeout(() => {
+            gameoverStore.set({
+            isOver: true,
+            won: true,
+            lost: false,
+            headerMessage: "Nice job!",
+          });
+          }, 2000);
+        }
         break;
       }
       if (commonItems == 3) {
@@ -164,6 +179,30 @@
     setTimeout(() => {
         shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
     }, 1000); // Wait 3 seconds to execute code
+
+    mistakesCount++;
+
+    if (mistakesCount == 4) {
+      //reveal categories not found
+      const remainingCategories = categories.filter(category => !clearedCategories.includes(category));
+      remainingCategories.forEach((category) => {
+      swapElements(category.elements);
+      clearedCategories.push(category);
+      clearedCategories = clearedCategories;
+      remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+      console.log(remainingCategories)
+      });
+
+
+      setTimeout(() => {
+            gameoverStore.set({
+            isOver: true,
+            won: false,
+            lost: true,
+            headerMessage: "Better luck tmr...",
+          });
+      }, 4000);
+    }
   }
 
   function toggleSelection(element) {
@@ -177,9 +216,9 @@
     }
   }
 
-  function swapElements() {
+  function swapElements(elementsToSwap) {
     // remainingElements and selectedElements, selectedElements to the top
-    selectedElements.forEach((element) => {
+    elementsToSwap.forEach((element) => {
       let index;
       for (let i = 0; i < remainingElements.length; i++) {
           if (element == remainingElements[i]) {
@@ -202,10 +241,10 @@
   <main>
     
     {#if $gameoverStore.isOver}
-    <div class="gameover-overlay">
+    <div transition:slide class="gameover-overlay">
       <div class="gameover-header">Try again tmr</div>
       <div class="results-container">
-        <button class="exit-btn" on:click={toggleOverlay()}>
+        <button class="exit-btn">
           <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="ph:x">
             <path id="Vector" d="M20.8878 19.7376C20.9633 19.8131 21.0232 19.9027 21.064 20.0014C21.1049 20.1 21.1259 20.2057 21.1259 20.3125C21.1259 20.4192 21.1049 20.5249 21.064 20.6236C21.0232 20.7222 20.9633 20.8118 20.8878 20.8873C20.8123 20.9628 20.7227 21.0227 20.6241 21.0635C20.5254 21.1044 20.4197 21.1254 20.313 21.1254C20.2062 21.1254 20.1005 21.1044 20.0019 21.0635C19.9032 21.0227 19.8136 20.9628 19.7381 20.8873L13.0005 14.1486L6.2628 20.8873C6.11034 21.0398 5.90356 21.1254 5.68795 21.1254C5.47234 21.1254 5.26557 21.0398 5.11311 20.8873C4.96065 20.7349 4.875 20.5281 4.875 20.3125C4.875 20.0969 4.96065 19.8901 5.11311 19.7376L11.8518 13L5.11311 6.26231C4.96065 6.10985 4.875 5.90307 4.875 5.68746C4.875 5.47186 4.96065 5.26508 5.11311 5.11262C5.26557 4.96016 5.47234 4.87451 5.68795 4.87451C5.90356 4.87451 6.11034 4.96016 6.2628 5.11262L13.0005 11.8513L19.7381 5.11262C19.8906 4.96016 20.0973 4.87451 20.313 4.87451C20.5286 4.87451 20.7353 4.96016 20.8878 5.11262C21.0403 5.26508 21.1259 5.47186 21.1259 5.68746C21.1259 5.90307 21.0403 6.10985 20.8878 6.26231L14.1491 13L20.8878 19.7376Z" fill="black"/>
@@ -244,7 +283,7 @@
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
+          <div animate:flip out:fade={{ delay: 0, duration: 1000 }} on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
       {/each}
     </div>
 
