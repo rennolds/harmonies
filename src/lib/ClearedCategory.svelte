@@ -44,7 +44,7 @@ body {
 
 @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .full-row {
-    height: 20vw;
+     height: 20vw;
     }
 }
 
@@ -57,7 +57,7 @@ body {
 h2 {
     position: relative;
     left: 50;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: -12px;
 }
 
