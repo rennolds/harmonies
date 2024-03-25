@@ -160,7 +160,7 @@
               toggleOverlay();
             }, 2000);
           }
-          break;
+          return;
         }
         if (commonItems == 3) {
           showAlert("One away...");
