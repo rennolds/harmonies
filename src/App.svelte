@@ -317,13 +317,18 @@
     </div>
     {/if}
 
-    <div class="logo-container">
-      <h1>harmonies.</h1>
+    <div class="header">
+      <div class="logo-container">
+        <h1>harmonies.</h1>
+      </div>
+      <div class="header-button-container">
+
+      </div>
     </div>
     <!-- <h1>harmonies.</h1> -->
     <div class="alert-message-container">
       {#if $alertStore.message}
-        <div transition:fade class="alert">{ $alertStore.message }</div>
+        <h2 transition:fade class="alert">{ $alertStore.message }</h2>
       {/if}
     </div>
 
@@ -340,11 +345,11 @@
       <h3>mistakes remaining:</h3>
       {#each {length: (4 - $mistakeCount)} as _, i}
         {#if i % 2 == 0}
-          <svg out:fade={{delay: 300, duration: 500}} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg out:fly={{ y: 200, duration: 1000 }} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8.75 18.375C7.7875 18.375 6.96354 18.0323 6.27813 17.3469C5.59271 16.6615 5.25 15.8375 5.25 14.875C5.25 13.9125 5.59271 13.0885 6.27813 12.4031C6.96354 11.7177 7.7875 11.375 8.75 11.375C9.08542 11.375 9.39546 11.4152 9.68012 11.4957C9.96479 11.5762 10.2381 11.6964 10.5 11.8562V2.625H15.75V6.125H12.25V14.875C12.25 15.8375 11.9073 16.6615 11.2219 17.3469C10.5365 18.0323 9.7125 18.375 8.75 18.375Z" fill="white"/>
           </svg>
         {:else}
-          <svg out:fade={{delay: 300, duration: 500}} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg out:fade={{ y: 200, duration: 1000 }} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18.375 2.625V13.5625C18.375 14.3747 18.0523 15.1537 17.478 15.728C16.9037 16.3023 16.1247 16.625 15.3125 16.625C14.5003 16.625 13.7213 16.3023 13.147 15.728C12.5727 15.1537 12.25 14.3747 12.25 13.5625C12.25 12.7503 12.5727 11.9713 13.147 11.397C13.7213 10.8227 14.5003 10.5 15.3125 10.5C15.785 10.5 16.2312 10.605 16.625 10.7975V5.66125L7.875 7.525V15.3125C7.875 16.1247 7.55234 16.9037 6.97801 17.478C6.40368 18.0523 5.62473 18.375 4.8125 18.375C4.00027 18.375 3.22132 18.0523 2.64699 17.478C2.07266 16.9037 1.75 16.1247 1.75 15.3125C1.75 14.5003 2.07266 13.7213 2.64699 13.147C3.22132 12.5727 4.00027 12.25 4.8125 12.25C5.285 12.25 5.73125 12.355 6.125 12.5475V5.25L18.375 2.625Z" fill="white"/>
           </svg>
         {/if}
@@ -409,7 +414,7 @@
   </div>
 
   <div class="footer">
-    <p> Made by tommy & paul  </p>
+    <p> made by <a>tommy rennolds</a> & <a>paul pursifull<a/></p>
   </div>
 
 </div>
@@ -464,12 +469,9 @@
     }
 
     .logo-container {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 10px; /* Optional: Adjust padding as needed */
-      z-index: 9999; /* Optional: If you want the logo to be on top of other elements */
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; 
     }
 
     .alert-message-container {
@@ -477,8 +479,14 @@
       top: 15%;
       left: 50%;
       transform: translate(-50%, -50%);
-      z-index: 9999;  
+      z-index: 9999; 
+      background-color: #D9D9D9;
+      color: black;
+      border-radius: 5px;
+
     }
+
+    
 
     .grid-container {
       display: grid;
@@ -491,7 +499,6 @@
       padding: 2px;
       text-transform: uppercase;
       margin-bottom: 3px;
-      margin-top: 20vh;
     }
 
     .grid-item {
@@ -596,6 +603,18 @@
       margin-top: auto; /* Pushes the footer to the bottom */
       display: flex;
       align-items: flex-end; /* Aligns items to the bottom */
+      color: #fff;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .footer a {
+      color: #A18CD1;
+      text-decoration: underline;
+
     }
 
     @keyframes shake {
