@@ -609,6 +609,9 @@
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      position: fixed;
+      bottom: 0; /* Align to the bottom */
+      width: 100%; /* Full width */
     }
 
     .footer a {
