@@ -7,6 +7,14 @@
     import ResultGrid from './lib/ResultGrid.svelte'
     import gameBoards from "./static/data/gameboards.json";
 
+    const stored = localStorage.$mistakeCount;
+    export const mistakeCount = writable(Number(stored) || 0);
+    mistakeCount.subscribe((value) => localStorage.$mistakeCount = value);
+
+    console.log($mistakeCount);
+
+
+
     function getEasternTimeDate() {
       const date = new Date();
       const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
@@ -48,236 +56,242 @@
     let clearedCategories = [];
     let selectedElements = [];
     let guessHistory = [];
-    let mistakesCount = 0;
+    // let $mistakeCount = 0;
     let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
+    let shakeGuesses = [0,0,0,0];
     let hideOverlay = true;
 
 
-  function shuffleElements() {
-      let currentIndex = remainingElements.length, randomIndex;
 
-      // While there remain elements to shuffle.
-      while (currentIndex > 0) {
-        // Pick a remaining element.
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
+    function shuffleElements() {
+        let currentIndex = remainingElements.length, randomIndex;
 
-        // And swap it with the current element.
-        [remainingElements[currentIndex], remainingElements[randomIndex]] = [
-          remainingElements[randomIndex], remainingElements[currentIndex]];
+        // While there remain elements to shuffle.
+        while (currentIndex > 0) {
+          // Pick a remaining element.
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex--;
+
+          // And swap it with the current element.
+          [remainingElements[currentIndex], remainingElements[randomIndex]] = [
+            remainingElements[randomIndex], remainingElements[currentIndex]];
+        }
+
+        return remainingElements;
+    } 
+    remainingElements = shuffleElements(remainingElements);
+
+    function countSimilarItems(list1, list2) {
+        let count = 0;
+        const map = new Map();
+        
+        // Count occurrences of items in list1
+        for (const item of list1) {
+            map.set(item, (map.get(item) || 0) + 1);
+        }
+        
+        // Check occurrences of items in list2 and update count
+        for (const item of list2) {
+            if (map.has(item) && map.get(item) > 0) {
+                count++;
+                map.set(item, map.get(item) - 1);
+            }
+        }
+        
+        return count;
+    }
+
+    function removeElements() {
+      remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
+    }
+
+    function handleSubmit() {
+      // check if selectedElements match any categories
+      if (selectedElements.length != 4) {
+        //do  nothing, not valid guess
+        return
       }
-
-      return remainingElements;
-  } 
-  remainingElements = shuffleElements(remainingElements);
-
-  function countSimilarItems(list1, list2) {
-      let count = 0;
-      const map = new Map();
-      
-      // Count occurrences of items in list1
-      for (const item of list1) {
-          map.set(item, (map.get(item) || 0) + 1);
-      }
-      
-      // Check occurrences of items in list2 and update count
-      for (const item of list2) {
-          if (map.has(item) && map.get(item) > 0) {
-              count++;
-              map.set(item, map.get(item) - 1);
+      else {
+        
+        let guessHistoryFlattened = [];
+        for (let i = 0; i < guessHistory.length; i++) {
+          categories.map(item => item.elements).flat();
+          const guess = guessHistory[i].map(entry => entry.guess);
+          const commonItems = countSimilarItems(guess, selectedElements);
+          if (commonItems == selectedElements.length) {
+            showAlert("Already guessed!");
+            return;
           }
-      }
-      
-      return count;
-  }
-
-  function removeElements() {
-    remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
-  }
-
-  function handleSubmit() {
-    // check if selectedElements match any categories
-    if (selectedElements.length != 4) {
-      //do  nothing, not valid guess
-      return
-    }
-    else {
-      
-      let guessHistoryFlattened = [];
-      for (let i = 0; i < guessHistory.length; i++) {
-        categories.map(item => item.elements).flat();
-        const guess = guessHistory[i].map(entry => entry.guess);
-        const commonItems = countSimilarItems(guess, selectedElements);
-        if (commonItems == selectedElements.length) {
-          showAlert("Already guessed!");
-          return;
         }
-      }
 
-      let tempGuessHistory = [];
-      selectedElements.forEach(element => {
-        // Find the category that contains the current element
-        const category = categories.find(cat => cat.elements.includes(element));
-        // If category is found, add guess and color to guessHistory
-        if (category) {
-            tempGuessHistory.push({ guess: element, color: category.color });
-        }
-      });
-      guessHistory.push(tempGuessHistory);
-      guessHistory = guessHistory;
-      console.log(guessHistory);
-
-    }
-    for (let i = 0; i < categories.length; i++) {
-      const commonItems = countSimilarItems(selectedElements, categories[i].elements);
-      // if found 4 items in common, a cleared category
-      if (commonItems == 4) {
-        // trigger animation or sound effect
-        clearedCategories.push(categories[i]);
-        clearedCategories = clearedCategories;
-
-        setTimeout(swapElements(selectedElements), 300);
-
-        remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
-        selectedElements = [];
-
-        if (clearedCategories.length == 4) {
-          setTimeout(() => {
-            gameoverStore.set({
-            isOver: true,
-            headerMessage: "Nice job!",
-            });
-            toggleOverlay();
-          }, 2000);
-        }
-        break;
-      }
-      if (commonItems == 3) {
-        showAlert("One away...");
-        break;
-      }
-    }
-
-    // If we got here, we are dealing with a wrong guess.
-    for (let i = 0; i < remainingElements.length; i++) {
-      if (selectedElements.includes(remainingElements[i])) {
-        shake[i] = true;
-        shake = shake;
-      }
-    }
-
-    setTimeout(() => {
-        shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-    }, 1000);
-
-    mistakesCount++;
-
-    if (mistakesCount == 4) {
-      //reveal categories not found
-      setTimeout(() => {
-        const remainingCategories = categories.filter(category => !clearedCategories.includes(category));
-        remainingCategories.forEach((category) => {
-          swapElements(category.elements);
-          clearedCategories.push(category);
-          clearedCategories = clearedCategories;
-          remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+        let tempGuessHistory = [];
+        selectedElements.forEach(element => {
+          // Find the category that contains the current element
+          const category = categories.find(cat => cat.elements.includes(element));
+          // If category is found, add guess and color to guessHistory
+          if (category) {
+              tempGuessHistory.push({ guess: element, color: category.color });
+          }
         });
+        guessHistory.push(tempGuessHistory);
+        guessHistory = guessHistory;
+        console.log(guessHistory);
+
+      }
+      for (let i = 0; i < categories.length; i++) {
+        const commonItems = countSimilarItems(selectedElements, categories[i].elements);
+        // if found 4 items in common, a cleared category
+        if (commonItems == 4) {
+          // trigger animation or sound effect
+          clearedCategories.push(categories[i]);
+          clearedCategories = clearedCategories;
+
+          setTimeout(swapElements(selectedElements), 300);
+
+          remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
+          selectedElements = [];
+
+          if (clearedCategories.length == 4) {
+            setTimeout(() => {
+              gameoverStore.set({
+              isOver: true,
+              headerMessage: "Nice job!",
+              });
+              toggleOverlay();
+            }, 2000);
+          }
+          break;
+        }
+        if (commonItems == 3) {
+          showAlert("One away...");
+          break;
+        }
+      }
+
+      // If we got here, we are dealing with a wrong guess.
+      for (let i = 0; i < remainingElements.length; i++) {
+        if (selectedElements.includes(remainingElements[i])) {
+          shake[i] = true;
+          shake = shake;
+        }
+      }
+
+      shakeGuesses = [1,1,1,1];
+
+      setTimeout(() => {
+          shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+          shakeGuesses = [0,0,0,0];
       }, 1000);
 
-      setTimeout(() => {
-          gameoverStore.set({
-          isOver: true,
-          headerMessage: "Better luck tmr...",
-        });
-          toggleOverlay();
-      }, 4000);
-    }
-  }
 
-  function toggleSelection(element) {
-    const index = selectedElements.indexOf(element);
-    if (index > -1) {
-      selectedElements.splice(index, 1); // Remove the element if it's already selected
-      selectedElements = selectedElements;
-      } else if (selectedElements.length < 4) {
-        selectedElements.push(element); // Add the element if less than 4 are selected
-        selectedElements = selectedElements;
-    }
-  }
+      $mistakeCount++;
 
-  function swapElements(elementsToSwap) {
-    // remainingElements and selectedElements, selectedElements to the top
-    elementsToSwap.forEach((element) => {
-      let index;
-      for (let i = 0; i < remainingElements.length; i++) {
-          if (element == remainingElements[i]) {
-              index = i;
-          }
+      if ($mistakeCount == 4) {
+        //reveal categories not found
+        setTimeout(() => {
+          const remainingCategories = categories.filter(category => !clearedCategories.includes(category));
+          remainingCategories.forEach((category) => {
+            swapElements(category.elements);
+            clearedCategories.push(category);
+            clearedCategories = clearedCategories;
+            remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+          });
+        }, 1000);
+
+        setTimeout(() => {
+            gameoverStore.set({
+            isOver: true,
+            headerMessage: "Better luck tmr...",
+          });
+            toggleOverlay();
+        }, 4000);
       }
-      const temp = remainingElements[0];
-      remainingElements[0] = element;
-      remainingElements[index] = temp;
-      remainingElements = remainingElements;
-    });
-  }
-
-  function deselect() {
-    selectedElements = [];
-  }
-
-  function toggleOverlay() {
-    if (hideOverlay) {
-      hideOverlay = false;
-    }
-    else {
-      hideOverlay = true;
-    }
-  }
-
-  function shareResult() {
-    const emoji_mapping = {
-      "#CBff70": "🟩",
-      "#FAA3FF": "🟪",
-      "#78DAF9": "🟦",
-      "#FFBC21": "🟧"
     }
 
-    var header = "harmonies #" + harmonyNumber + "🎧\n\n";
-    
-    let grid = '';
-
-    for (let i = 0; i < guessHistory.length; i++) {
-      const block_one = emoji_mapping[guessHistory[i][0].color];
-      const block_two = emoji_mapping[guessHistory[i][1].color];
-      const block_three = emoji_mapping[guessHistory[i][2].color];
-      const block_four = emoji_mapping[guessHistory[i][3].color];
-      const row = block_one + block_two + block_three + block_four;
-      grid = grid + row + "\n";
-      console.log(grid);
-      console.log(row);
+    function toggleSelection(element) {
+      const index = selectedElements.indexOf(element);
+      if (index > -1) {
+        selectedElements.splice(index, 1); // Remove the element if it's already selected
+        selectedElements = selectedElements;
+        } else if (selectedElements.length < 4) {
+          selectedElements.push(element); // Add the element if less than 4 are selected
+          selectedElements = selectedElements;
+      }
     }
 
-    const result = header + grid + "\n" + "harmonies.io";
-
-    if (navigator.share) { 
-      navigator.share({
-        text: result
-      }).then(() => {
-        console.log('Thanks for sharing!');
-      })
-      .catch(console.error);
-      } else {
-        navigator.clipboard.writeText(result)
-        .then(() => { console.log('copied'); })
-        .catch((error) => { alert(`Copy failed! ${error}`) })
+    function swapElements(elementsToSwap) {
+      // remainingElements and selectedElements, selectedElements to the top
+      elementsToSwap.forEach((element) => {
+        let index;
+        for (let i = 0; i < remainingElements.length; i++) {
+            if (element == remainingElements[i]) {
+                index = i;
+            }
+        }
+        const temp = remainingElements[0];
+        remainingElements[0] = element;
+        remainingElements[index] = temp;
+        remainingElements = remainingElements;
+      });
     }
 
-  }
+    function deselect() {
+      selectedElements = [];
+    }
+
+    function toggleOverlay() {
+      if (hideOverlay) {
+        hideOverlay = false;
+      }
+      else {
+        hideOverlay = true;
+      }
+    }
+
+    function shareResult() {
+      const emoji_mapping = {
+        "#CBff70": "🟩",
+        "#FAA3FF": "🟪",
+        "#78DAF9": "🟦",
+        "#FFBC21": "🟧"
+      }
+
+      var header = "harmonies #" + harmonyNumber + "🎧\n\n";
+      
+      let grid = '';
+
+      for (let i = 0; i < guessHistory.length; i++) {
+        const block_one = emoji_mapping[guessHistory[i][0].color];
+        const block_two = emoji_mapping[guessHistory[i][1].color];
+        const block_three = emoji_mapping[guessHistory[i][2].color];
+        const block_four = emoji_mapping[guessHistory[i][3].color];
+        const row = block_one + block_two + block_three + block_four;
+        grid = grid + row + "\n";
+        console.log(grid);
+        console.log(row);
+      }
+
+      const result = header + grid + "\n" + "harmonies.io";
+
+      if (navigator.share) { 
+        navigator.share({
+          text: result
+        }).then(() => {
+          console.log('Thanks for sharing!');
+        })
+        .catch(console.error);
+        } else {
+          navigator.clipboard.writeText(result)
+          .then(() => { console.log('copied'); })
+          .catch((error) => { alert(`Copy failed! ${error}`) })
+      }
+
+    }
 
   </script>
 
   <main>
-    
+    <div class="container">
     {#if !hideOverlay}
     <div transition:slide class="gameover-overlay">
       <div class="gameover-header">Try again tmr</div>
@@ -304,10 +318,7 @@
     {/if}
 
     <div class="logo-container">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-          <!-- Your SVG code here -->
-          <circle cx="50" cy="50" r="40" fill="red" />
-      </svg>
+      <h1>harmonies.</h1>
     </div>
     <!-- <h1>harmonies.</h1> -->
     <div class="alert-message-container">
@@ -326,11 +337,18 @@
     </div>
 
     <div class="mistakes-remaining-container">
-      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="ph:x">
-        <path id="Vector" d="M20.8878 19.7376C20.9633 19.8131 21.0232 19.9027 21.064 20.0014C21.1049 20.1 21.1259 20.2057 21.1259 20.3125C21.1259 20.4192 21.1049 20.5249 21.064 20.6236C21.0232 20.7222 20.9633 20.8118 20.8878 20.8873C20.8123 20.9628 20.7227 21.0227 20.6241 21.0635C20.5254 21.1044 20.4197 21.1254 20.313 21.1254C20.2062 21.1254 20.1005 21.1044 20.0019 21.0635C19.9032 21.0227 19.8136 20.9628 19.7381 20.8873L13.0005 14.1486L6.2628 20.8873C6.11034 21.0398 5.90356 21.1254 5.68795 21.1254C5.47234 21.1254 5.26557 21.0398 5.11311 20.8873C4.96065 20.7349 4.875 20.5281 4.875 20.3125C4.875 20.0969 4.96065 19.8901 5.11311 19.7376L11.8518 13L5.11311 6.26231C4.96065 6.10985 4.875 5.90307 4.875 5.68746C4.875 5.47186 4.96065 5.26508 5.11311 5.11262C5.26557 4.96016 5.47234 4.87451 5.68795 4.87451C5.90356 4.87451 6.11034 4.96016 6.2628 5.11262L13.0005 11.8513L19.7381 5.11262C19.8906 4.96016 20.0973 4.87451 20.313 4.87451C20.5286 4.87451 20.7353 4.96016 20.8878 5.11262C21.0403 5.26508 21.1259 5.47186 21.1259 5.68746C21.1259 5.90307 21.0403 6.10985 20.8878 6.26231L14.1491 13L20.8878 19.7376Z" fill="black"/>
-        </g>
-        </svg>        
+      <h3>mistakes remaining:</h3>
+      {#each {length: (4 - $mistakeCount)} as _, i}
+        {#if i % 2 == 0}
+          <svg out:fade={{delay: 300, duration: 500}} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.75 18.375C7.7875 18.375 6.96354 18.0323 6.27813 17.3469C5.59271 16.6615 5.25 15.8375 5.25 14.875C5.25 13.9125 5.59271 13.0885 6.27813 12.4031C6.96354 11.7177 7.7875 11.375 8.75 11.375C9.08542 11.375 9.39546 11.4152 9.68012 11.4957C9.96479 11.5762 10.2381 11.6964 10.5 11.8562V2.625H15.75V6.125H12.25V14.875C12.25 15.8375 11.9073 16.6615 11.2219 17.3469C10.5365 18.0323 9.7125 18.375 8.75 18.375Z" fill="white"/>
+          </svg>
+        {:else}
+          <svg out:fade={{delay: 300, duration: 500}} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.375 2.625V13.5625C18.375 14.3747 18.0523 15.1537 17.478 15.728C16.9037 16.3023 16.1247 16.625 15.3125 16.625C14.5003 16.625 13.7213 16.3023 13.147 15.728C12.5727 15.1537 12.25 14.3747 12.25 13.5625C12.25 12.7503 12.5727 11.9713 13.147 11.397C13.7213 10.8227 14.5003 10.5 15.3125 10.5C15.785 10.5 16.2312 10.605 16.625 10.7975V5.66125L7.875 7.525V15.3125C7.875 16.1247 7.55234 16.9037 6.97801 17.478C6.40368 18.0523 5.62473 18.375 4.8125 18.375C4.00027 18.375 3.22132 18.0523 2.64699 17.478C2.07266 16.9037 1.75 16.1247 1.75 15.3125C1.75 14.5003 2.07266 13.7213 2.64699 13.147C3.22132 12.5727 4.00027 12.25 4.8125 12.25C5.285 12.25 5.73125 12.355 6.125 12.5475V5.25L18.375 2.625Z" fill="white"/>
+          </svg>
+        {/if}
+      {/each}
     </div>
 
     <div class="play-button-container">
@@ -390,10 +408,21 @@
       </div>
   </div>
 
-    <p> Made by tommy rennolds & paul pursifull </p>
+  <div class="footer">
+    <p> Made by tommy & paul  </p>
+  </div>
+
+</div>
   </main>
 
   <style>
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: flex-start;
+    }
 
     .gameover-overlay {
         position: absolute;
@@ -458,11 +487,11 @@
       grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-gap: 11px;
       max-width: 400px;
-      margin: auto;
       font-weight: bold;
       padding: 2px;
-      margin-top: 75px;
       text-transform: uppercase;
+      margin-bottom: 3px;
+      margin-top: 20vh;
     }
 
     .grid-item {
@@ -536,13 +565,26 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 30px;
     }
 
     .play-container {
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+
+    .mistakes-remaining-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      
+    }
+
+    .mistakes-remaining-container h3 {
+      font-size: 12px;
+      padding-right: 2px;
+      color: #fff;
+      text-transform: lowercase;
     }
 
     .button-container h3 {
@@ -552,16 +594,35 @@
       text-transform: lowercase;
     }
 
+    .footer {
+      margin-top: auto; /* Pushes the footer to the bottom */
+      display: flex;
+      align-items: flex-end; /* Aligns items to the bottom */
+    }
+
     @keyframes shake {
       0% { transform: translate(0, 0); }
-      10%, 90% { transform: translate(-5px, 0); }
-      20%, 80% { transform: translate(5px, 0); }
-      30%, 50%, 70% { transform: translate(-5px, 0); }
-      40%, 60% { transform: translate(5px, 0); }
+      10%, 90% { transform: translate(-4px, 0); }
+      20%, 80% { transform: translate(4px, 0); }
+      30%, 50%, 70% { transform: translate(-4px, 0); }
+      40%, 60% { transform: translate(4px, 0); }
       100% { transform: translate(0, 0); }
     }
 
     .shake {
       animation: shake 0.5s ease-in-out;
+    }
+
+    @keyframes shake-guesses {
+      0% { transform: translate(0, 0); }
+      10%, 90% { transform: translate(0, -1px); }
+      20%, 80% { transform: translate(0, 1.25px); }
+      30%, 50%, 70% { transform: translate(0, -1px); }
+      40%, 60% { transform: translate(0px, 1.25px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .shake-guesses {
+      animation: shake 1s ease-in-out;
     }
 </style>

@@ -42,6 +42,18 @@ body {
     flex-direction: column;
 }
 
+@media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .full-row {
+    height: 20vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 601px) {
+    .full-row {
+    height: 90px;
+    }
+}
+
 h2 {
     position: relative;
     left: 50;
