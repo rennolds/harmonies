@@ -194,7 +194,7 @@
               headerMessage: "Incredible!",
               });
               toggleOverlay();
-            }, 2000);
+            }, 3250);
           }
           return;
         }
@@ -368,7 +368,7 @@
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-          <div animate:flip out:fly={{ delay: 0, duration: 1000 }} on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
+          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
       {/each}
     </div>
 
@@ -715,7 +715,7 @@
       left: 10%;
       width: 80%;
       height: 45%;
-      background-color: #ccc; /* Background color of the progress bar */
+      background-color: #505050; /* Background color of the progress bar */
       border-radius: 10px;
     }
 
