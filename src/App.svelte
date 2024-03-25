@@ -1,7 +1,7 @@
 <script>
     import { flip } from 'svelte/animate';
     import { writable } from 'svelte/store';
-    import { fade, fly, slide } from 'svelte/transition';
+    import { fade, fly, slide, scale } from 'svelte/transition';
     import { onMount } from 'svelte';
     import ClearedCategory from './lib/ClearedCategory.svelte'
     import ResultGrid from './lib/ResultGrid.svelte'
@@ -12,6 +12,7 @@
     mistakeCount.subscribe((value) => localStorage.$mistakeCount = value);
 
     console.log($mistakeCount);
+    $mistakeCount = 0;
 
 
     //date stuff, see if this can be moved to another component
@@ -87,10 +88,15 @@
     let clearedCategories = [];
     let selectedElements = [];
     let guessHistory = [];
-    // let $mistakeCount = 0;
     let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
-    let shakeGuesses = [0,0,0,0];
     let hideOverlay = true;
+
+
+    let playbackWidth = (5 + $mistakeCount * 20);
+    if (playbackWidth > 80) {
+      playbackWidth = 80;
+    }
+    console.log(playbackWidth);
 
 
 
@@ -206,15 +212,17 @@
         }
       }
 
-      shakeGuesses = [1,1,1,1];
-
       setTimeout(() => {
           shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-          shakeGuesses = [0,0,0,0];
       }, 1000);
 
-
       $mistakeCount++;
+      if ($mistakeCount == 4) {
+        playbackWidth = 80;
+      }
+      else {
+        playbackWidth += 20;
+      }
 
       if ($mistakeCount == 4) {
         //reveal categories not found
@@ -360,23 +368,21 @@
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-          <div animate:flip out:fade={{ delay: 0, duration: 1000 }} on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
+          <div animate:flip out:fly={{ delay: 0, duration: 1000 }} on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
       {/each}
     </div>
 
     <div class="mistakes-remaining-container">
-      <h3>mistakes remaining:</h3>
-      {#each {length: (4 - $mistakeCount)} as _, i}
-        {#if i % 2 == 0}
-          <svg out:fly={{ y: 200, duration: 1000 }} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.75 18.375C7.7875 18.375 6.96354 18.0323 6.27813 17.3469C5.59271 16.6615 5.25 15.8375 5.25 14.875C5.25 13.9125 5.59271 13.0885 6.27813 12.4031C6.96354 11.7177 7.7875 11.375 8.75 11.375C9.08542 11.375 9.39546 11.4152 9.68012 11.4957C9.96479 11.5762 10.2381 11.6964 10.5 11.8562V2.625H15.75V6.125H12.25V14.875C12.25 15.8375 11.9073 16.6615 11.2219 17.3469C10.5365 18.0323 9.7125 18.375 8.75 18.375Z" fill="white"/>
-          </svg>
-        {:else}
-          <svg out:fade={{ y: 200, duration: 1000 }} class="guess-svg {shakeGuesses[i] ? 'shake-guesses' : ''}" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18.375 2.625V13.5625C18.375 14.3747 18.0523 15.1537 17.478 15.728C16.9037 16.3023 16.1247 16.625 15.3125 16.625C14.5003 16.625 13.7213 16.3023 13.147 15.728C12.5727 15.1537 12.25 14.3747 12.25 13.5625C12.25 12.7503 12.5727 11.9713 13.147 11.397C13.7213 10.8227 14.5003 10.5 15.3125 10.5C15.785 10.5 16.2312 10.605 16.625 10.7975V5.66125L7.875 7.525V15.3125C7.875 16.1247 7.55234 16.9037 6.97801 17.478C6.40368 18.0523 5.62473 18.375 4.8125 18.375C4.00027 18.375 3.22132 18.0523 2.64699 17.478C2.07266 16.9037 1.75 16.1247 1.75 15.3125C1.75 14.5003 2.07266 13.7213 2.64699 13.147C3.22132 12.5727 4.00027 12.25 4.8125 12.25C5.285 12.25 5.73125 12.355 6.125 12.5475V5.25L18.375 2.625Z" fill="white"/>
-          </svg>
-        {/if}
-      {/each}
+      <div class="mistakes-remaining-text-container">
+        <div class="mistakes-remaining-text">mistakes remaining:&nbsp;</div>
+        {#key $mistakeCount} <div in:scale={{duration: 1000, opacity: 100}} class="mistakes-remaining-number">{4-$mistakeCount}</div>{/key}
+      </div>
+      <div class="mistakes-playback-container">
+        <div class="left-playback-number">{$mistakeCount}:05</div>
+        <div class="background"></div>
+        <div style="width: {playbackWidth}%;" class="foreground"></div>
+        <div class="right-playback-number">{4-$mistakeCount}:00</div>
+      </div>
     </div>
 
     <div class="play-button-container">
@@ -650,15 +656,83 @@
 
     .mistakes-remaining-container {
       display: flex;
-      justify-content: flex-start;
-      align-items: center; 
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 15px;
+      margin-bottom: 20px;
     }
 
-    .mistakes-remaining-container h3 {
-      font-size: 12px;
-      padding-right: 2px;
-      text-transform: lowercase;
+    .mistakes-remaining-text-container {
+      display: flex;
+      align-items: center; /* Optional: Align items vertically center */
     }
+
+    .mistakes-remaining-text {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    .mistakes-remaining-number {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    .mistakes-playback-container {
+      position: relative;
+      width: 100%;
+      height: 10px; /* Adjust height as needed */
+      border-radius: 10px; /* Rounded corners */
+      overflow: hidden; /* Hide overflow */
+      display: flex; /* Add this line */
+      align-items: center; /* Add this line */
+    }
+
+    .left-playback-number,
+    .right-playback-number {
+      color: #fff; /* Color of the playback numbers */
+      font-size: 11px; /* Adjust font size as needed */
+      padding: 0 5px; /* Padding around the playback numbers */
+      position: absolute;
+      top: 44%;
+      transform: translateY(-50%);
+      overflow: visible;
+      
+    }
+
+    .left-playback-number {
+      left: 0;
+    }
+
+    .right-playback-number {
+      right: 0;
+      overflow: visible;
+    }
+
+    .background {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      width: 80%;
+      height: 45%;
+      background-color: #ccc; /* Background color of the progress bar */
+      border-radius: 10px;
+    }
+
+    .foreground {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      height: 45%;
+      background-color: #fff; /* Color of the progress bar */
+      border-radius: 5px;
+      width: 20%;
+      -webkit-transition: width 1s ease-in-out;
+      -moz-transition: width 1s ease-in-out;
+      -o-transition: width 1s ease-in-out;
+      transition: width 1s ease-in-out;
+    }
+
 
     .button-container h3 {
       color: #BA81C2;
@@ -700,7 +774,6 @@
     .shake {
       animation: shake 0.5s ease-in-out;
     }
-
     @keyframes shake-guesses {
       0% { transform: translate(0, 0); }
       10%, 90% { transform: translate(0, -1px); }
