@@ -576,14 +576,12 @@
     .mistakes-remaining-container {
       display: flex;
       justify-content: flex-start;
-      align-items: center;
-      
+      align-items: center; 
     }
 
     .mistakes-remaining-container h3 {
       font-size: 12px;
       padding-right: 2px;
-      color: #fff;
       text-transform: lowercase;
     }
 
