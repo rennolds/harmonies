@@ -1,93 +1,112 @@
 {
-    "3/25/2024": [
-      {
-        "color": "#CBff70",
-        "name": "Songs by Justin Timberlake",
-        "elements": ["SexyBack", "Rock Your Body", "Mirrors", "Selfish"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "Justin Bieber Features",
-        "elements": ["Cold Water", "10,000 Hours", "I'm the One", "STAY"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Songs about Shawtys",
-        "elements": ["Buy U a Drank", "Low", "I Don't Mind", "Eenie Meenie"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Songs featured in Pitch Perfect's \"Riff Off\"",
-        "elements": ["No Diggity", "S&M", "Let's Talk About Sex", "Like a Virgin"]
-      }
-    ],
-    "3/26/2024": [
-      {
-        "color": "#CBff70",
-        "name": "Albums by The Beatles",
-        "elements": ["Abbey Road", "Help!", "Please Please Me", "A Hard Day's Night"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "Lyrics from Natasha Bedingfield's \"Unwritten\"",
-        "elements": ["Feel the Rain", "On Your Skin", "Only You Can", "Let It In"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Billboard Charting Songs in 2002",
-        "elements": ["Complicated", "How You Remind Me", "Hot in Herre", "In The End"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Songs about being cheated on",
-        "elements": ["Cry Me a River", "I'm Not The Only One", "Mr. Brightside", "Hold Up"]
-      }
-    ],
-    "3/27/2024": [
-      {
-        "color": "#CBff70",
-        "name": "Songs from Olivia Rodrigo's \"GUTS\"",
-        "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "All things Panic! At the Disco",
-        "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Artists with non-alphanumeric characters in their name",
-        "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "blink-182 and their side projects",
-        "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
-      }
-    ],
-    "3/28/2024": [
-      {
-        "color": "#CBff70",
-        "name": "Legendary British Bands",
-        "elements": ["The Beatles", "The Who", "The Rolling Stones", "Pink Floyd"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "All things Oasis",
-        "elements": ["Oasis", "Wonderwall", "(What's The Story) Morning Glory", "Champagne Supernova"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Why are girls in songs always 17?",
-        "elements": ["1980s Horror Film II", "Dancing Queen", "I Saw Her Standing There", "betty"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Taylor Swift F-Bombs",
-        "elements": ["All Too Well (10m Ver)", "Maroon", "mad woman", "champagne problems"]
-      }
-    ],
-    "3/29/2024": [
+    "3/25/2024": {
+      "playlist": "https://example.com/playlist",
+      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
+      "categories": [
+        {
+          "color": "#CBff70",
+          "name": "Songs by Justin Timberlake",
+          "elements": ["SexyBack", "Rock Your Body", "Mirrors", "Selfish"]
+        },
+        {
+          "color": "#FAA3FF",
+          "name": "Justin Bieber Features",
+          "elements": ["Cold Water", "10,000 Hours", "I'm the One", "STAY"]
+        },
+        {
+          "color": "#78DAF9",
+          "name": "Songs about Shawtys",
+          "elements": ["Buy U a Drank", "Low", "I Don't Mind", "Eenie Meenie"]
+        },
+        {
+          "color": "#FFBC21",
+          "name": "Songs featured in Pitch Perfect's \"Riff Off\"",
+          "elements": ["No Diggity", "S&M", "Let's Talk About Sex", "Like a Virgin"]
+        }
+      ]
+    },
+    "3/26/2024": {
+      "playlist": "https://example.com/playlist",
+      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
+      "categories": [
+        {
+          "color": "#CBff70",
+          "name": "Albums by The Beatles",
+          "elements": ["Abbey Road", "Help!", "Please Please Me", "A Hard Day's Night"]
+        },
+        {
+          "color": "#FAA3FF",
+          "name": "Lyrics from Natasha Bedingfield's \"Unwritten\"",
+          "elements": ["Feel the Rain", "On Your Skin", "Only You Can", "Let It In"]
+        },
+        {
+          "color": "#78DAF9",
+          "name": "Billboard Charting Songs in 2002",
+          "elements": ["Complicated", "How You Remind Me", "Hot in Herre", "In The End"]
+        },
+        {
+          "color": "#FFBC21",
+          "name": "Songs about being cheated on",
+          "elements": ["Cry Me a River", "I'm Not The Only One", "Mr. Brightside", "Hold Up"]
+        }
+      ]
+    },
+    "3/27/2024": {
+      "playlist": "https://example.com/playlist",
+      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
+      "categories": [
+        {
+          "color": "#CBff70",
+          "name": "Songs from Olivia Rodrigo's \"GUTS\"",
+          "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
+        },
+        {
+          "color": "#FAA3FF",
+          "name": "All things Panic! At the Disco",
+          "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
+        },
+        {
+          "color": "#78DAF9",
+          "name": "Artists with non-alphanumeric characters in their name",
+          "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
+        },
+        {
+          "color": "#FFBC21",
+          "name": "blink-182 and their side projects",
+          "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
+        }
+      ]
+    },
+    "3/28/2024": {
+      "playlist": "https://example.com/playlist",
+      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
+      "categories": [
+        {
+          "color": "#CBff70",
+          "name": "Legendary British Bands",
+          "elements": ["The Beatles", "The Who", "The Rolling Stones", "Pink Floyd"]
+        },
+        {
+          "color": "#FAA3FF",
+          "name": "All things Oasis",
+          "elements": ["Oasis", "Wonderwall", "(What's The Story) Morning Glory", "Champagne Supernova"]
+        },
+        {
+          "color": "#78DAF9",
+          "name": "Why are girls in songs always 17?",
+          "elements": ["1980s Horror Film II", "Dancing Queen", "I Saw Her Standing There", "betty"]
+        },
+        {
+          "color": "#FFBC21",
+          "name": "Taylor Swift F-Bombs",
+          "elements": ["All Too Well (10m Ver)", "Maroon", "mad woman", "champagne problems"]
+        }
+      ]
+    },
+    "3/29/2024": {
+      "playlist": "https://example.com/playlist",
+      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
+      "categories": [
       {
         "color": "#CBff70",
         "name": "",
@@ -109,4 +128,5 @@
         "elements": ["", "", "", ""]
       }
     ]
+  }
 }

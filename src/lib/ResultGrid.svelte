@@ -1,8 +1,10 @@
 <script>
+    import { scale } from 'svelte/transition';
+ 
     export let guesses;
 </script>
 
-<div class="grid-container">
+<div in:scale={{ duration: 1000 }} class="grid-container">
     {#each guesses as guess}
         {#each guess as g}
             <div style="background-color:{g.color}" class="block"></div>
@@ -23,8 +25,8 @@
     }
 
     .block {
-        height: 25px;
-        width: 25px;
+        height: 15px;
+        width: 15px;
         border-radius: 5px;
     }
 </style>
