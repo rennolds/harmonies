@@ -11,7 +11,7 @@
             transform: scale(${t});
             `;
         },
-        delay: 1500,
+        delay: 500,
         duration: 1000,
         easing: sineInOut
         };

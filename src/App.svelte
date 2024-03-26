@@ -116,9 +116,9 @@
             remainingElements[randomIndex], remainingElements[currentIndex]];
         }
 
-        return remainingElements;
+        return;
     } 
-    remainingElements = shuffleElements(remainingElements);
+    shuffleElements(remainingElements);
 
     function countSimilarItems(list1, list2) {
         let count = 0;
@@ -138,10 +138,6 @@
         }
         
         return count;
-    }
-
-    function removeElements() {
-      remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
     }
 
     function handleSubmit() {
@@ -181,23 +177,34 @@
         // if found 4 items in common, a cleared category
         if (commonItems == 4) {
           // trigger animation or sound effect
-          clearedCategories.push(categories[i]);
-          clearedCategories = clearedCategories;
 
-          setTimeout(swapElements(selectedElements), 300);
+          const tempElements = selectedElements;
+  
+          setTimeout(() => {
+            swapElements(selectedElements);
+            selectedElements = [];
+          }, 300);
+          
+          setTimeout(() => {
+            remainingElements = remainingElements.filter(item => !tempElements.includes(item)); 
+          }, 1250);
 
-          remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
-          selectedElements = [];
+          setTimeout(() => {
+            clearedCategories.push(categories[i]);
+            clearedCategories = clearedCategories;
+    
+            if (clearedCategories.length == 4) {
+              setTimeout(() => {
+                gameoverStore.set({
+                isOver: true,
+                headerMessage: "Incredible!",
+                });
+                toggleOverlay();
+              }, 750);
+            }
 
-          if (clearedCategories.length == 4) {
-            setTimeout(() => {
-              gameoverStore.set({
-              isOver: true,
-              headerMessage: "Incredible!",
-              });
-              toggleOverlay();
-            }, 3250);
-          }
+          }, 2050);
+
           return;
         }
         if (commonItems == 3) {
@@ -261,18 +268,22 @@
 
     function swapElements(elementsToSwap) {
       // remainingElements and selectedElements, selectedElements to the top
-      elementsToSwap.forEach((element) => {
-        let index;
-        for (let i = 0; i < remainingElements.length; i++) {
-            if (element == remainingElements[i]) {
-                index = i;
-            }
-        }
-        const temp = remainingElements[0];
-        remainingElements[0] = element;
-        remainingElements[index] = temp;
-        remainingElements = remainingElements;
-      });
+       var tempElements = remainingElements.filter(item => !elementsToSwap.includes(item)); 
+       remainingElements = [...elementsToSwap, ...tempElements];
+      // elementsToSwap.forEach((element) => {
+      //   let index;
+      //   let swappedElements = 0;
+      //   for (let i = 0; i < remainingElements.length; i++) {
+      //       if (element == remainingElements[i]) {
+      //           index = i;
+      //       }
+      //   }
+      //   const temp = remainingElements[0];
+      //   remainingElements[swappedElements] = element;
+      //   swappedElements++;
+      //   remainingElements[index] = temp;
+      //   remainingElements = remainingElements;
+      // });
     }
 
     function deselect() {
@@ -377,7 +388,7 @@
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> <h3>{element}</h3> </div>
+          <div animate:flip={{duration: 500}} on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> <h3>{element}</h3> </div>
       {/each}
     </div>
 
