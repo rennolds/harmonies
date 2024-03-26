@@ -181,10 +181,10 @@
         // if found 4 items in common, a cleared category
         if (commonItems == 4) {
           // trigger animation or sound effect
-          clearedCategories.push(categories[i]);
-          clearedCategories = clearedCategories;
 
           setTimeout(swapElements(selectedElements), 300);
+          clearedCategories.push(categories[i]);
+          clearedCategories = clearedCategories;
 
           remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
           selectedElements = [];
@@ -261,18 +261,8 @@
 
     function swapElements(elementsToSwap) {
       // remainingElements and selectedElements, selectedElements to the top
-      elementsToSwap.forEach((element) => {
-        let index;
-        for (let i = 0; i < remainingElements.length; i++) {
-            if (element == remainingElements[i]) {
-                index = i;
-            }
-        }
-        const temp = remainingElements[0];
-        remainingElements[0] = element;
-        remainingElements[index] = temp;
-        remainingElements = remainingElements;
-      });
+      var tempElements = remainingElements.filter(item => !elementsToSwap.includes(item)); 
+      remainingElements = [...elementsToSwap, ...tempElements];
     }
 
     function deselect() {
