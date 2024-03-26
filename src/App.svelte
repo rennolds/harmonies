@@ -377,7 +377,7 @@
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> {element} </div>
+          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"> <h3>{element}</h3> </div>
       {/each}
     </div>
 
@@ -617,7 +617,6 @@
     .grid-item {
       border-style: none;
       border-radius: 8px;
-      color: black;
       background-color: #fff;
       display: flex;
       justify-content: center;
@@ -627,9 +626,15 @@
       text-align: center;
       cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
-      font-size: .9vw;
-      line-height: 20px;
       overflow: hidden; /* Hide overflowing content */
+    }
+
+    .grid-item h3 {
+      max-width: 90%;
+      font-weight: 700;
+      font-size: .9vw;
+      color: black;
+      line-height: 20px;
     }
 
     @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
