@@ -781,15 +781,15 @@
     }
 
     .footer {
+      position: sticky;
       margin-top: auto; /* Pushes the footer to the bottom */
       display: flex;
       align-items: flex-end; /* Aligns items to the bottom */
       color: #fff;
-      font-size: 16px;
+      font-size: 12px;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
-      position: fixed;
       bottom: 0; /* Align to the bottom */
       width: 100%; /* Full width */
     }
