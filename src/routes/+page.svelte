@@ -3,57 +3,58 @@
     import { writable } from 'svelte/store';
     import { fade, fly, slide, scale } from 'svelte/transition';
     import { onMount } from 'svelte';
-    import ClearedCategory from './lib/ClearedCategory.svelte'
-    import ResultGrid from './lib/ResultGrid.svelte'
-    import gameBoards from "./static/data/gameboards.json";
+    import ClearedCategory from './ClearedCategory.svelte';
+    import ResultGrid from './ResultGrid.svelte';
+    import gameBoards from './gameboards.json';
+    import './styles.css';
+    
 
-    const stored = localStorage.$mistakeCount;
-    export const mistakeCount = writable(Number(stored) || 0);
-    mistakeCount.subscribe((value) => localStorage.$mistakeCount = value);
+    // const stored = localStorage.$mistakeCount;
+    // export const mistakeCount = writable(Number(stored) || 0);
+    // mistakeCount.subscribe((value) => localStorage.$mistakeCount = value);
 
-    console.log($mistakeCount);
-    $mistakeCount = 0;
+    // console.log($mistakeCount);
+    let mistakeCount = 0;
 
 
     //date stuff, see if this can be moved to another component
     function getEasternTimeDate() {
-      const date = new Date();
-      const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
-      const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
-      const easternTime = new Date(utc + (3600000 * easternTimeOffset));
-      return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
+        const date = new Date();
+        const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
+        const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
+        const easternTime = new Date(utc + (3600000 * easternTimeOffset));
+        return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
     } 
 
     let timeUntilMidnightET = 0;
     let timer = null;
 
     function updateTimer() {
-      const now = new Date();
-      const midnightET = new Date(now);
-      midnightET.setUTCHours(4, 0, 0, 0); // 4 AM UTC = Midnight ET
+        const now = new Date();
+        const midnightET = new Date(now);
+        midnightET.setUTCHours(4, 0, 0, 0); // 4 AM UTC = Midnight ET
 
-      if (now > midnightET) {
-        midnightET.setDate(midnightET.getDate() + 1); // Increment to next day
-  }
+        if (now > midnightET) {
+            midnightET.setDate(midnightET.getDate() + 1); // Increment to next day
+        }
 
-  timeUntilMidnightET = midnightET - now;
+        timeUntilMidnightET = midnightET - now;
     }
 
     function formatTime(milliseconds) {
-      const totalSeconds = Math.floor(milliseconds / 1000);
-      const hours = Math.floor(totalSeconds / 3600);
-      const minutes = Math.floor((totalSeconds % 3600) / 60);
-      const seconds = totalSeconds % 60;
+        const totalSeconds = Math.floor(milliseconds / 1000);
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
 
-      return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
     }
 
     function startTimer() {
-      timer = setInterval(updateTimer, 1000);
+        timer = setInterval(updateTimer, 1000);
     }
 
     startTimer();
-    // end date stuff
 
     const todaysDate = getEasternTimeDate();
     const categories = gameBoards[todaysDate.toString()]["categories"] || [];
@@ -94,8 +95,7 @@
     let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
     let hideOverlay = true;
 
-
-    let playbackWidth = (5 + $mistakeCount * 20);
+    let playbackWidth = (5 + mistakeCount * 20);
     if (playbackWidth > 80) {
       playbackWidth = 80;
     }
@@ -219,15 +219,15 @@
           shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
       }, 1000);
 
-      $mistakeCount++;
-      if ($mistakeCount == 4) {
+      mistakeCount++;
+      if (mistakeCount == 4) {
         playbackWidth = 80;
       }
       else {
         playbackWidth += 20;
       }
 
-      if ($mistakeCount == 4) {
+      if (mistakeCount == 4) {
         //reveal categories not found
         setTimeout(() => {
           const remainingCategories = categories.filter(category => !clearedCategories.includes(category));
@@ -380,13 +380,13 @@
     <div class="mistakes-remaining-container">
       <div class="mistakes-remaining-text-container">
         <div class="mistakes-remaining-text">mistakes remaining:&nbsp;</div>
-        {#key $mistakeCount} <div in:scale={{duration: 1000, opacity: 100}} class="mistakes-remaining-number">{4-$mistakeCount}</div>{/key}
+        {#key mistakeCount} <div in:scale={{duration: 1000, opacity: 100}} class="mistakes-remaining-number">{4-mistakeCount}</div>{/key}
       </div>
       <div class="mistakes-playback-container">
-        <div class="left-playback-number">{$mistakeCount}:05</div>
+        <div class="left-playback-number">{mistakeCount}:05</div>
         <div class="background"></div>
         <div style="width: {playbackWidth}%;" class="foreground"></div>
-        <div class="right-playback-number">{4-$mistakeCount}:00</div>
+        <div class="right-playback-number">{4-mistakeCount}:00</div>
       </div>
     </div>
 
@@ -825,16 +825,5 @@
     .shake {
       animation: shake 0.5s ease-in-out;
     }
-    @keyframes shake-guesses {
-      0% { transform: translate(0, 0); }
-      10%, 90% { transform: translate(0, -1px); }
-      20%, 80% { transform: translate(0, 1.25px); }
-      30%, 50%, 70% { transform: translate(0, -1px); }
-      40%, 60% { transform: translate(0px, 1.25px); }
-      100% { transform: translate(0, 0); }
-    }
 
-    .shake-guesses {
-      animation: shake 1s ease-in-out;
-    }
 </style>
