@@ -472,7 +472,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px; /* Add padding for spacing */
+      padding: 5px; /* Add padding for spacing */
+      border-radius: 10px;
     }
 
     .gameover-overlay h1 {
@@ -491,6 +492,11 @@
         font-weight: 500;
         margin: 10px 0; /* Adjust margin for spacing between elements */
         text-align: center;
+    }
+
+    .timer {
+      margin-top: -7.5px;
+      margin-bottom: 15px;
     }
 
     /* .gameover-overlay h1 {
@@ -538,6 +544,7 @@
       align-self: flex-end;
       background: none;
       border-style: none;
+      padding-left: 2px;
     }
 
     .exit-btn:hover {
@@ -746,7 +753,6 @@
       display: flex;
       align-items: flex-end; /* Aligns items to the bottom */
       color: #fff;
-      font-family: Inter;
       font-size: 16px;
       font-style: normal;
       font-weight: 500;
