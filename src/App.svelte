@@ -585,6 +585,8 @@
 
     .header-msg {
       font-weight: 300;
+      font-size: 18px;
+      margin-top: -5px;
     }
 
     .alert-message-container {
