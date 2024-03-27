@@ -103,8 +103,6 @@
     }
     console.log(playbackWidth);
 
-
-
     function shuffleElements() {
         let currentIndex = remainingElements.length, randomIndex;
 
@@ -322,6 +320,28 @@
       }
 
     }
+
+    onMount(() => {
+      const gridItems = document.querySelectorAll('.grid-item');
+
+  // Loop through each grid item
+  gridItems.forEach(item => {
+    // Get the paragraph element within the grid item
+    const paragraph = item.querySelector('p');
+    // Get the text content of the paragraph
+    const text = paragraph.textContent.trim();
+    
+    // Check if any word in the text is longer than 9 characters
+    const longWord = text.split(' ').find(word => word.length > 9);
+
+    // If a long word is found, reduce the font size
+    if (longWord) {
+      const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
+      paragraph.style.fontSize = (currentFontSize * 0.75) + 'px';
+      }
+    });
+  });
+
   </script>
 
   <main>
