@@ -372,11 +372,12 @@
     </div>
 
     <h2 class="header-msg">Create groups of four!</h2>
-    <div class="alert-message-container">
-      {#if $alertStore.message}
-        <h2 transition:fade class="alert">{ $alertStore.message }</h2>
-      {/if}
+    {#if $alertStore.message}
+    <div transition:fade class="alert-message-container">
+      <h2>{ $alertStore.message }</h2>
+
     </div>
+    {/if}
 
     <div class="grid-container">
       {#each clearedCategories as category}
@@ -524,32 +525,6 @@
       margin-bottom: 15px;
     }
 
-    /* .gameover-overlay h1 {
-      color: #000;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin-top: -10px;
-    }
-
-    .gameover-overlay h2 {
-      color: #000;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-    }
-
-    .timer {
-      color: #000;
-      text-align: center;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-    } */
-
     .results-button {
         height: 34px;
         width: 130px;
@@ -609,14 +584,24 @@
 
     .alert-message-container {
       position: absolute;
-      top: 15%;
+      top: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 9999; 
       background-color: #D9D9D9;
       color: black;
       border-radius: 5px;
+      display: flex;
+      width: 156px;
+      height: 35px;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
 
+    }
+
+    .alert-message-container h2 {
+      font-size: 14px;
     }
 
     .grid-container {
