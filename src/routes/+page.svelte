@@ -649,10 +649,6 @@
         padding-left: 2px;
       }
 
-      .grid-item h3 {
-        font-size: 3vw;
-      }
-
       .grid-container {
         max-width: 92vw;
       }
@@ -660,7 +656,7 @@
 
     @media only screen and (max-width: 1200px) and (min-width: 601px) {
       .grid-item {
-        font-size: 1.5vw;
+        font-size: 15px;
         height: 90px;
         width: 90px;
         padding-left: 2px;
