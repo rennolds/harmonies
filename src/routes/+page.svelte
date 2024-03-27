@@ -384,7 +384,7 @@
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}">{element}</div>
+          <div animate:flip on:click={() => toggleSelection(element)} class="grid-item {selectedElements.includes(element) ? 'selected' : ''} {shake[i] ? 'shake' : ''}"><p>{element}</p></div>
       {/each}
     </div>
 
@@ -601,6 +601,7 @@
     }
 
     .alert-message-container h2 {
+
       font-size: 14px;
     }
 
@@ -636,12 +637,8 @@
       line-height: 18px;
     }
 
-    .grid-item h3 {
-      /* max-width: 90%;
-      font-weight: 700;
-      font-size: .9vw;
-      color: black;
-      line-height: 20px; */
+    .grid-item p {
+      max-width: 90%;
     }
 
     @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
