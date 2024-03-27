@@ -6,7 +6,7 @@
     import ClearedCategory from './ClearedCategory.svelte';
     import HelpOverlay from './HelpOverlay.svelte';
     import ResultGrid from './ResultGrid.svelte';
-    import gameBoards from './gameboards.json';
+    import gameBoards from '$lib/data/gameboards.json';
     import './styles.css';
     
 
