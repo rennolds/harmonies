@@ -52,28 +52,28 @@
       ]
     },
     "3/27/2024": {
-      "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOy",
-      "gameoverGif": "https://38.media.tumblr.com/0ad35574eaad88dddec67abd731c4d49/tumblr_mnilg1yUZQ1qjnqapo1_500.gif",
+      "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOyt",
+      "gameoverGif": "https://media2.giphy.com/media/mEJ8VQDNb4bVHMVVEm/giphy.gif",
       "categories": [
         {
           "color": "#CBff70",
-          "name": "Albums by The Beatles",
-          "elements": ["Abbey Road", "Help!", "Please Please Me", "A Hard Day's Night"]
+          "name": "Songs from Olivia Rodrigo's \"GUTS\"",
+          "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
         },
         {
           "color": "#FAA3FF",
-          "name": "Lyrics from Natasha Bedingfield's \"Unwritten\"",
-          "elements": ["Feel the Rain", "On Your Skin", "Only You Can", "Let It In"]
+          "name": "All things Panic! At the Disco",
+          "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
         },
         {
           "color": "#78DAF9",
-          "name": "Billboard Charting Songs in 2002",
-          "elements": ["Complicated", "How You Remind Me", "Hot in Herre", "In The End"]
+          "name": "Artists with non-alphanumeric characters in their name",
+          "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
         },
         {
           "color": "#FFBC21",
-          "name": "Songs about being cheated on",
-          "elements": ["Cry Me a River", "I'm Not The Only One", "Mr. Brightside", "Hold Up"]
+          "name": "blink-182 and their side projects",
+          "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
         }
       ]
     },
