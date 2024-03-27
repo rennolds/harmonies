@@ -1,0 +1,1 @@
+<div>The Privacy Policy of Destiny</div>
