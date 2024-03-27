@@ -323,24 +323,26 @@
 
     onMount(() => {
       const gridItems = document.querySelectorAll('.grid-item');
+      // Loop through each grid item
+      gridItems.forEach(item => {
+        // Get the paragraph element within the grid item
+        const paragraph = item.querySelector('p');
+        // Get the text content of the paragraph
+        const text = paragraph.textContent.trim();
+        
+        // Check if any word in the text is longer than 9 characters
+        const longWord = text.split(' ').find(word => word.length > 7);
+        const reallyLongWord = text.split(' ').find(word => word.length > 9);
 
-  // Loop through each grid item
-  gridItems.forEach(item => {
-    // Get the paragraph element within the grid item
-    const paragraph = item.querySelector('p');
-    // Get the text content of the paragraph
-    const text = paragraph.textContent.trim();
-    
-    // Check if any word in the text is longer than 9 characters
-    const longWord = text.split(' ').find(word => word.length > 9);
+        // If a long word is found, reduce the font size
+        if (longWord) {
+          const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
+          paragraph.style.fontSize = (currentFontSize * 0.8) + 'px';
+        }
+      });
 
-    // If a long word is found, reduce the font size
-    if (longWord) {
-      const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-      paragraph.style.fontSize = (currentFontSize * 0.75) + 'px';
-      }
-    });
-  });
+
+      });
 
   </script>
 
@@ -663,7 +665,7 @@
 
     @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
       .grid-item {
-        font-size: 3.25vw;
+        font-size: 14px;
         height: 20vw;
         width: 20vw;
         padding-left: 2px;
