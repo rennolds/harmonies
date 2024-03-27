@@ -647,8 +647,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 6vw;
-      width: 6vw;
+      height: 90px;
+      width: 90px;
       text-align: center;
       cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
