@@ -7,15 +7,7 @@ visited.subscribe((val) => {
     if (browser) return (localStorage.visited = val);
 });
 
-function getEasternTimeDate() {
-    const date = new Date();
-    const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
-    const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
-    const easternTime = new Date(utc + (3600000 * easternTimeOffset));
-    return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
-} 
-
-export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || getEasternTimeDate())
+export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || new Date("01/01/2000"))
 currentGameDate.subscribe((val) => {
     if (browser) return (localStorage.currentGameDate = val);
 });
@@ -27,6 +19,9 @@ if (browser) {
     const retrieved = localStorage.getItem(itemNameGuess)
     if (retrieved) {
         parsed = JSON.parse(retrieved);
+        if (typeof(parsed) == "string") {
+            parsed = JSON.parse(parsed);
+        }
     }
 }
 

@@ -10,27 +10,6 @@
     import './styles.css';
     import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount} from './store.js';
 
-    console.log($currentGameDate);
-    console.log($visited);
-    console.log(typeof($guessHistory));
-    console.log($clearedCategories);
-
-    if (typeof($guessHistory == "string")) {
-      $guessHistory = [];
-    }
-
-    // if (typeof($clearedCategories == "string")) {
-    //   $clearedCategories = [];
-    // }
-    $visited = false;
-    $guessHistory = [];
-    $clearedCategories = [];
-    $mistakeCount = 0;
-    // check if lastPlayedDate < today 
-    // if so, clear all of the above
-    
-    // if not, clear any necessary categories
-
     //date stuff, see if this can be moved to another component
     function getEasternTimeDate() {
         const date = new Date();
@@ -77,7 +56,6 @@
     const keys = Object.keys(gameBoards);
     const harmonyNumber = keys.indexOf(todaysDate) + 1; // Adding 1 to make it 1-based index
 
-
     const gameoverStore = writable({
       isOver: false,
       headerMessage: ''
@@ -103,16 +81,64 @@
     }
 
     let remainingElements = categories.map(item => item.elements).flat();
-    // let $clearedCategories = [];
     let selectedElements = [];
-    // let $guessHistory = $$guessHistory;
     let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
     let hideOverlay = true;
-    let helpOverlay = false;
 
     let playbackWidth = (5 + $mistakeCount * 20);
     if (playbackWidth > 80) {
       playbackWidth = 80;
+    }
+
+    let helpOverlay = false;
+    const today = getEasternTimeDate();
+    if ($currentGameDate == today) {
+      // if lost
+      if ($mistakeCount >= 4) {
+        gameoverStore.set({
+          isOver: true,
+          headerMessage: "Better luck tmr..."
+        });
+      console.log('here');
+      const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
+      console.log(remainingCategories);
+        remainingCategories.forEach((category) => {
+          swapElements(category.elements);
+          $clearedCategories.push(category);
+          $clearedCategories = $clearedCategories;
+          remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+          console.log(remainingElements);
+        });
+        // remove any elements from remaining elements present in clearedCategories
+      }
+
+      // if won
+      if ($clearedCategories.length == 4 && $mistakeCount < 4) {
+        console.log('winning game');
+        remainingElements = [];
+        gameoverStore.set({
+          isOver: true,
+          headerMessage: "Incredible!"
+        });
+      }
+
+      //neither won nor lost
+      const allClearedElements = $clearedCategories.map(category => category.elements).flat();
+      remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
+    } 
+    else { // stale game, reset
+      $currentGameDate = today;
+      console.log('stale game');
+      $mistakeCount = 0;
+      $clearedCategories = [];
+      $guessHistory = [];
+    }
+
+    if ($visited === false) {
+      $visited = true;
+      setTimeout(() => {
+        helpOverlay = true;
+      }, 500);
     }
 
     function shuffleElements() {
@@ -156,7 +182,7 @@
     function removeElements() {
       remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
     }
-
+    console.log($guessHistory);
     function handleSubmit() {
       // check if selectedElements match any categories
       if (selectedElements.length != 4) {
@@ -164,8 +190,7 @@
         return
       }
       else {
-        
-        let $guessHistoryFlattened = [];
+        console.log($guessHistory);
         for (let i = 0; i < $guessHistory.length; i++) {
           categories.map(item => item.elements).flat();
           const guess = $guessHistory[i].map(entry => entry.guess);
@@ -176,18 +201,17 @@
           }
         }
 
-        let temp$guessHistory = [];
+        let tempGuessHistory = [];
         selectedElements.forEach(element => {
           // Find the category that contains the current element
           const category = categories.find(cat => cat.elements.includes(element));
           // If category is found, add guess and color to $guessHistory
           if (category) {
-              temp$guessHistory.push({ guess: element, color: category.color });
+              tempGuessHistory.push({ guess: element, color: category.color });
           }
         });
-        $guessHistory.push(temp$guessHistory);
+        $guessHistory.push(tempGuessHistory);
         $guessHistory = $guessHistory;
-        // $$guessHistoryLocal = JSON.stringify($guessHistory);
 
       }
       for (let i = 0; i < categories.length; i++) {

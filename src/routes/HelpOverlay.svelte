@@ -1,4 +1,5 @@
 <script>
+    import { fade } from 'svelte/transition';
     export let onClose;
 
     function handleClose() {
@@ -8,7 +9,7 @@
 </script>
 
 
-<div class="help-overlay">
+<div in:fade class="help-overlay">
     <button class="exit-btn" on:click={handleClose}>
         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="ph:x">
