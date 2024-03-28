@@ -8,15 +8,28 @@
     import ResultGrid from './ResultGrid.svelte';
     import gameBoards from '$lib/data/gameboards.json';
     import './styles.css';
+    import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount} from './store.js';
+
+    console.log($currentGameDate);
+    console.log($visited);
+    console.log(typeof($guessHistory));
+    console.log($clearedCategories);
+
+    if (typeof($guessHistory == "string")) {
+      $guessHistory = [];
+    }
+
+    // if (typeof($clearedCategories == "string")) {
+    //   $clearedCategories = [];
+    // }
+    $visited = false;
+    $guessHistory = [];
+    $clearedCategories = [];
+    $mistakeCount = 0;
+    // check if lastPlayedDate < today 
+    // if so, clear all of the above
     
-
-    // const stored = localStorage.$mistakeCount;
-    // export const mistakeCount = writable(Number(stored) || 0);
-    // mistakeCount.subscribe((value) => localStorage.$mistakeCount = value);
-
-    // console.log($mistakeCount);
-    let mistakeCount = 0;
-
+    // if not, clear any necessary categories
 
     //date stuff, see if this can be moved to another component
     function getEasternTimeDate() {
@@ -90,18 +103,17 @@
     }
 
     let remainingElements = categories.map(item => item.elements).flat();
-    let clearedCategories = [];
+    // let $clearedCategories = [];
     let selectedElements = [];
-    let guessHistory = [];
+    // let $guessHistory = $$guessHistory;
     let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
     let hideOverlay = true;
     let helpOverlay = false;
 
-    let playbackWidth = (5 + mistakeCount * 20);
+    let playbackWidth = (5 + $mistakeCount * 20);
     if (playbackWidth > 80) {
       playbackWidth = 80;
     }
-    console.log(playbackWidth);
 
     function shuffleElements() {
         let currentIndex = remainingElements.length, randomIndex;
@@ -146,6 +158,7 @@
     }
 
     function handleSubmit() {
+      playCMajor7thChord();
       // check if selectedElements match any categories
       if (selectedElements.length != 4) {
         //do  nothing, not valid guess
@@ -153,10 +166,10 @@
       }
       else {
         
-        let guessHistoryFlattened = [];
-        for (let i = 0; i < guessHistory.length; i++) {
+        let $guessHistoryFlattened = [];
+        for (let i = 0; i < $guessHistory.length; i++) {
           categories.map(item => item.elements).flat();
-          const guess = guessHistory[i].map(entry => entry.guess);
+          const guess = $guessHistory[i].map(entry => entry.guess);
           const commonItems = countSimilarItems(guess, selectedElements);
           if (commonItems == selectedElements.length) {
             showAlert("Already guessed!");
@@ -164,17 +177,18 @@
           }
         }
 
-        let tempGuessHistory = [];
+        let temp$guessHistory = [];
         selectedElements.forEach(element => {
           // Find the category that contains the current element
           const category = categories.find(cat => cat.elements.includes(element));
-          // If category is found, add guess and color to guessHistory
+          // If category is found, add guess and color to $guessHistory
           if (category) {
-              tempGuessHistory.push({ guess: element, color: category.color });
+              temp$guessHistory.push({ guess: element, color: category.color });
           }
         });
-        guessHistory.push(tempGuessHistory);
-        guessHistory = guessHistory;
+        $guessHistory.push(temp$guessHistory);
+        $guessHistory = $guessHistory;
+        // $$guessHistoryLocal = JSON.stringify($guessHistory);
 
       }
       for (let i = 0; i < categories.length; i++) {
@@ -184,13 +198,13 @@
           // trigger animation or sound effect
 
           setTimeout(swapElements(selectedElements), 300);
-          clearedCategories.push(categories[i]);
-          clearedCategories = clearedCategories;
+          $clearedCategories.push(categories[i]);
+          $clearedCategories = $clearedCategories;
 
           remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
           selectedElements = [];
 
-          if (clearedCategories.length == 4) {
+          if ($clearedCategories.length == 4) {
             setTimeout(() => {
               gameoverStore.set({
               isOver: true,
@@ -219,22 +233,22 @@
           shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
       }, 1000);
 
-      mistakeCount++;
-      if (mistakeCount == 4) {
+      $mistakeCount++;
+      if ($mistakeCount == 4) {
         playbackWidth = 80;
       }
       else {
         playbackWidth += 20;
       }
 
-      if (mistakeCount == 4) {
+      if ($mistakeCount == 4) {
         //reveal categories not found
         setTimeout(() => {
-          const remainingCategories = categories.filter(category => !clearedCategories.includes(category));
+          const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
           remainingCategories.forEach((category) => {
             swapElements(category.elements);
-            clearedCategories.push(category);
-            clearedCategories = clearedCategories;
+            $clearedCategories.push(category);
+            $clearedCategories = $clearedCategories;
             remainingElements = remainingElements.filter(item => !category.elements.includes(item));
           });
         }, 1000);
@@ -295,11 +309,11 @@
       
       let grid = '';
 
-      for (let i = 0; i < guessHistory.length; i++) {
-        const block_one = emoji_mapping[guessHistory[i][0].color];
-        const block_two = emoji_mapping[guessHistory[i][1].color];
-        const block_three = emoji_mapping[guessHistory[i][2].color];
-        const block_four = emoji_mapping[guessHistory[i][3].color];
+      for (let i = 0; i < $guessHistory.length; i++) {
+        const block_one = emoji_mapping[$guessHistory[i][0].color];
+        const block_two = emoji_mapping[$guessHistory[i][1].color];
+        const block_three = emoji_mapping[$guessHistory[i][2].color];
+        const block_four = emoji_mapping[$guessHistory[i][3].color];
         const row = block_one + block_two + block_three + block_four;
         grid = grid + row + "\n";
       }
@@ -337,7 +351,7 @@
         // If a long word is found, reduce the font size
         if (longWord) {
           const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-          paragraph.style.fontSize = (currentFontSize * 0.8) + 'px';
+          paragraph.style.fontSize = (currentFontSize * 0.82) + 'px';
         }
       });
 
@@ -365,7 +379,7 @@
       <h1>{$gameoverStore.headerMessage}</h1>
       <h2>Harmonies #1</h2>
         <div out:scale class="gameover-gif"><img {src} alt="Game over gif"></div>
-        <!-- <ResultGrid bind:guesses={guessHistory}></ResultGrid> -->
+        <!-- <ResultGrid bind:guesses={$guessHistory}></ResultGrid> -->
       <h2>Next Harmony</h2>
       <p class="timer">{formatTime(timeUntilMidnightET)}</p>
 
@@ -402,7 +416,7 @@
     {/if}
 
     <div class="grid-container">
-      {#each clearedCategories as category}
+      {#each $clearedCategories as category}
         <ClearedCategory category={category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
@@ -413,13 +427,13 @@
     <div class="mistakes-remaining-container">
       <div class="mistakes-remaining-text-container">
         <div class="mistakes-remaining-text">mistakes remaining:&nbsp;</div>
-        {#key mistakeCount} <div in:scale={{duration: 1000, opacity: 100}} class="mistakes-remaining-number">{4-mistakeCount}</div>{/key}
+        {#key $mistakeCount} <div in:scale={{duration: 1000, opacity: 100}} class="mistakes-remaining-number">{4-$mistakeCount}</div>{/key}
       </div>
       <div class="mistakes-playback-container">
-        <div class="left-playback-number">{mistakeCount}:05</div>
+        <div class="left-playback-number">{$mistakeCount}:05</div>
         <div class="background"></div>
         <div style="width: {playbackWidth}%;" class="foreground"></div>
-        <div class="right-playback-number">{4-mistakeCount}:00</div>
+        <div class="right-playback-number">{4-$mistakeCount}:00</div>
       </div>
     </div>
 

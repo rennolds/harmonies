@@ -35,7 +35,7 @@ body {
     color: black;
     line-height: 25px;
     overflow: hidden;
-    height: 100%;
+    height: 90px;
     width: 100%;
     justify-content: center;
     display: flex;
@@ -44,7 +44,7 @@ body {
 
 @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .full-row {
-     height: 20vw;
+     height: 90px;
     }
 }
 
