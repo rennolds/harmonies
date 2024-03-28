@@ -93,21 +93,16 @@
     let helpOverlay = false;
     const today = getEasternTimeDate();
     if ($currentGameDate == today) {
-      // if lost
+      console.log($clearedCategories);
       if ($mistakeCount >= 4) {
         gameoverStore.set({
           isOver: true,
           headerMessage: "Better luck tmr..."
         });
-      console.log('here');
       const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
-      console.log(remainingCategories);
         remainingCategories.forEach((category) => {
           swapElements(category.elements);
-          $clearedCategories.push(category);
-          $clearedCategories = $clearedCategories;
           remainingElements = remainingElements.filter(item => !category.elements.includes(item));
-          console.log(remainingElements);
         });
         // remove any elements from remaining elements present in clearedCategories
       }
@@ -123,12 +118,14 @@
       }
 
       //neither won nor lost
-      const allClearedElements = $clearedCategories.map(category => category.elements).flat();
-      remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
+      if ($clearedCategories < 4 && $mistakeCount < 4) {
+        const allClearedElements = $clearedCategories.map(category => category.elements).flat();
+        remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
+      }
+      
     } 
     else { // stale game, reset
       $currentGameDate = today;
-      console.log('stale game');
       $mistakeCount = 0;
       $clearedCategories = [];
       $guessHistory = [];
@@ -182,7 +179,6 @@
     function removeElements() {
       remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
     }
-    console.log($guessHistory);
     function handleSubmit() {
       // check if selectedElements match any categories
       if (selectedElements.length != 4) {
@@ -190,7 +186,6 @@
         return
       }
       else {
-        console.log($guessHistory);
         for (let i = 0; i < $guessHistory.length; i++) {
           categories.map(item => item.elements).flat();
           const guess = $guessHistory[i].map(entry => entry.guess);
