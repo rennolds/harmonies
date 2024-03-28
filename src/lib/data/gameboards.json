@@ -1,5 +1,5 @@
 {
-    "3/24/2024": {
+    "3/30/2024": {
       "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOy",
       "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
       "categories": [
@@ -51,7 +51,7 @@
         }
       ]
     },
-    "3/27/2024": {
+    "3/28/2024": {
       "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOyt",
       "gameoverGif": "https://media2.giphy.com/media/mEJ8VQDNb4bVHMVVEm/giphy.gif",
       "categories": [
@@ -63,7 +63,7 @@
         {
           "color": "#FAA3FF",
           "name": "All things Panic! At the Disco",
-          "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
+          "elements": ["Panic! At the Disco", "Death of a Bachelor", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
         },
         {
           "color": "#78DAF9",
@@ -72,8 +72,8 @@
         },
         {
           "color": "#FFBC21",
-          "name": "blink-182 and their side projects",
-          "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
+          "name": "Girl Groups",
+          "elements": ["Destiny's Child", "Spice Girls", "TLC", "BLACKPINK"]
         }
       ]
     },
