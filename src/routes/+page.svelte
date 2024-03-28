@@ -158,7 +158,6 @@
     }
 
     function handleSubmit() {
-      playCMajor7thChord();
       // check if selectedElements match any categories
       if (selectedElements.length != 4) {
         //do  nothing, not valid guess
