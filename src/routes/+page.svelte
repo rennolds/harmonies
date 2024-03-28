@@ -118,9 +118,13 @@
       }
 
       //neither won nor lost
-      if ($clearedCategories < 4 && $mistakeCount < 4) {
+
+      if ($clearedCategories.length < 4 && $mistakeCount < 4) {
         const allClearedElements = $clearedCategories.map(category => category.elements).flat();
         remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
+        console.log(remainingElements);
+        console.log('here!')
+        console.log($clearedCategories);
       }
       
     } 
