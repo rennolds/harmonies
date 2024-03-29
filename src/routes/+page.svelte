@@ -369,6 +369,7 @@
         // Check if any word in the text is longer than 9 characters
         const longWord = text.split(' ').find(word => word.length > 7);
         const reallyLongWord = text.split(' ').find(word => word.length > 9);
+        const shortWord = text.split(' ').length === 1 && text.length < 7;
 
         // If a long word is found, reduce the font size
         if (longWord && !reallyLongWord) {
@@ -377,11 +378,12 @@
         } else if (reallyLongWord) {
           const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
           paragraph.style.fontSize = (currentFontSize * 0.72) + 'px';
+        } else if (shortWord) {
+          const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
+          paragraph.style.fontSize = (currentFontSize * 1.2) + 'px';
         }
       });
-
-
-      });
+    });
 
   </script>
 
