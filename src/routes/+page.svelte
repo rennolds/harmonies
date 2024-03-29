@@ -386,12 +386,6 @@
   </script>
 
   <main>
-    <div class="container">
-
-    {#if helpOverlay}
-      <HelpOverlay onClose={toggleHelpOverlay}> </HelpOverlay>
-    {/if}
-
     {#if !hideOverlay}
     <div transition:slide class="gameover-overlay">
       <button class="exit-btn" on:click={toggleOverlay}>
@@ -411,6 +405,11 @@
       <button on:click={shareResult} style="background-color: #000;" class="results-button">SHARE RESULT</button>
       <a href="https://spotle.io" target="_blank"><button style="background-color: #1DB954;" class="results-button">PLAY SPOTLE</button></a>
     </div>
+    {/if}
+    <div style="{!hideOverlay ? 'filter: blur(3px)' : ''}" class="container">
+
+    {#if helpOverlay}
+      <HelpOverlay onClose={toggleHelpOverlay}> </HelpOverlay>
     {/if}
 
     <div class="header">
@@ -521,7 +520,7 @@
     </div>
   {:else}
   <div class="result-button-container">
-    <button style="background-color: #fff; color: black;" class="results-button">VIEW RESULTS</button>
+    <button on:click={toggleOverlay} style="background-color: #505050;; color: white;" class="results-button">VIEW RESULTS</button>
   </div>
   {/if}
 
