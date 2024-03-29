@@ -517,12 +517,12 @@
   </div>
 
   <div class="footer">
-    <div class="footer-left">
-      <p> made by <a>tommy rennolds</a> & <a>paul pursifull<a/></p>
-    </div>
-    <div class="footer-right">
+    <!-- <div class="footer-left"> -->
+      <p> made by <a href="https://twitter.com/tommyrennolds">tommy</a> & <a href="https://twitter.com/PaulPursifull" target="_blank">paul<a/> </p> <p>&nbsp;| <a href="./privacy">privacy</a> | <a href="">follow us!</a></p>
+    <!-- </div> -->
+    <!-- <div class="footer-right">
       <p><a href="./privacy">privacy</a></p>
-    </div>
+    </div> -->
   </div>
 
 </div>
