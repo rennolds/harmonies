@@ -367,8 +367,8 @@
         const text = paragraph.textContent.trim();
         
         // Check if any word in the text is longer than 9 characters
-        const longWord = text.split(' ').find(word => word.length > 9);
-        const reallyLongWord = text.split(' ').find(word => word.length > 11);
+        const longWord = text.split(' ').find(word => word.length > 7);
+        const reallyLongWord = text.split(' ').find(word => word.length > 9);
         const shortWord = text.split(' ').length === 1 && text.length < 7;
 
         // If a long word is found, reduce the font size
