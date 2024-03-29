@@ -371,9 +371,12 @@
         const reallyLongWord = text.split(' ').find(word => word.length > 9);
 
         // If a long word is found, reduce the font size
-        if (longWord) {
+        if (longWord && !reallyLongWord) {
           const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
           paragraph.style.fontSize = (currentFontSize * 0.82) + 'px';
+        } else if (reallyLongWord) {
+          const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
+          paragraph.style.fontSize = (currentFontSize * 0.72) + 'px';
         }
       });
 
@@ -697,7 +700,7 @@
 
     @media only screen and (min-width: 375px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
       .grid-item {
-        font-size: 10px;
+        font-size: 13px;
         height: 20vw;
         width: 20vw;
         padding-left: 2px;
