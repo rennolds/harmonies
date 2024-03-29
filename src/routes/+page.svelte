@@ -685,9 +685,10 @@
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
       overflow: hidden; /* Hide overflowing content */
       font-weight: 700;
-      font-size: 16px;
+      font-size: 14px;
       color: black;
       line-height: 18px;
+      overflow-wrap: break-word;
     }
 
     .grid-item p {
@@ -696,7 +697,7 @@
 
     @media only screen and (min-width: 375px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
       .grid-item {
-        font-size: 11px;
+        font-size: 10px;
         height: 20vw;
         width: 20vw;
         padding-left: 2px;
