@@ -700,7 +700,7 @@
 
     @media only screen and (max-width: 390px) {
       .grid-item {
-        font-size: 11.7px;
+        font-size: 11.5px;
         height: 82px;
         width: 82px;
         padding-left: 2px;
@@ -713,7 +713,7 @@
 
     @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
       .grid-item {
-        font-size: 14px;
+        font-size: 13px;
         height: 20.5vw;
         width: 20.5vw;
         padding-left: 2px;
