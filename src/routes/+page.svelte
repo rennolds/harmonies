@@ -517,12 +517,7 @@
   </div>
 
   <div class="footer">
-    <!-- <div class="footer-left"> -->
-      <p> made by <a href="https://twitter.com/tommyrennolds">tommy</a> & <a href="https://twitter.com/PaulPursifull" target="_blank">paul<a/> </p> <p>&nbsp;| <a href="./privacy">privacy</a> | <a href="">follow us!</a></p>
-    <!-- </div> -->
-    <!-- <div class="footer-right">
-      <p><a href="./privacy">privacy</a></p>
-    </div> -->
+      <p> made by <a href="https://twitter.com/tommyrennolds" target="_blank">tommy</a> & <a href="https://twitter.com/PaulPursifull" target="_blank">paul<a/> </p> <p>&nbsp;| <a href="./privacy">privacy</a> | <a href="">follow us!</a></p>
   </div>
 
 </div>
@@ -690,7 +685,7 @@
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
       overflow: hidden; /* Hide overflowing content */
       font-weight: 700;
-      font-size: .9vw;
+      font-size: 16px;
       color: black;
       line-height: 18px;
     }
@@ -699,12 +694,13 @@
       max-width: 90%;
     }
 
-    @media only screen and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    @media only screen and (min-width: 375px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
       .grid-item {
-        font-size: 14px;
+        font-size: 11px;
         height: 20vw;
         width: 20vw;
         padding-left: 2px;
+        overflow-wrap: break-word;
       }
 
       .grid-container {
