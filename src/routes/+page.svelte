@@ -527,7 +527,7 @@
   
 
   <div class="footer">
-      <p> made by <a href="https://twitter.com/tommyrennolds" target="_blank">tommy</a> & <a href="https://twitter.com/PaulPursifull" target="_blank">paul<a/> </p> <p>&nbsp;| <a href="./privacy">privacy</a> | <a href="">follow us!</a></p>
+      <p> made by <a href="https://twitter.com/tommyrennolds" target="_blank">tommy</a> & <a href="https://twitter.com/PaulPursifull" target="_blank">paul<a/> </p> <p>&nbsp;| <a href="./privacy">privacy</a> | <a href="https://linktr.ee/harmonies_io" target="_blank">follow us!</a></p>
   </div>
 
 </div>
