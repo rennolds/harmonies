@@ -406,7 +406,7 @@
       <a href="https://spotle.io" target="_blank"><button style="background-color: #1DB954;" class="results-button">PLAY SPOTLE</button></a>
     </div>
     {/if}
-    <div style="{!hideOverlay ? 'filter: blur(3px)' : ''}" class="container">
+    <div style="{!hideOverlay ? 'filter: blur(1px)' : ''}" class="container">
 
     {#if helpOverlay}
       <HelpOverlay onClose={toggleHelpOverlay}> </HelpOverlay>
