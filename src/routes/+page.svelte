@@ -233,7 +233,7 @@
               headerMessage: "Incredible!",
               });
               toggleOverlay();
-            }, 3250);
+            }, 2500);
           }
           return;
         }
@@ -281,7 +281,7 @@
             headerMessage: "Better luck tmr...",
           });
             toggleOverlay();
-        }, 4000);
+        }, 2500);
       }
     }
 
@@ -389,7 +389,7 @@
 
   <main>
     {#if !hideOverlay}
-    <div transition:slide class="gameover-overlay">
+    <div in:slide={{delay: 500}} class="gameover-overlay">
       <button class="exit-btn" on:click={toggleOverlay}>
         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="ph:x">
