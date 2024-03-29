@@ -698,13 +698,25 @@
       max-width: 90%;
     }
 
-    @media only screen and (min-width: 375px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    @media only screen and (max-width: 390px) {
       .grid-item {
-        font-size: 13px;
-        height: 20vw;
-        width: 20vw;
+        font-size: 11.7px;
+        height: 82px;
+        width: 82px;
         padding-left: 2px;
-        overflow-wrap: break-word;
+      }
+
+      .grid-container {
+        max-width: 92vw;
+      }
+    }
+
+    @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+      .grid-item {
+        font-size: 14px;
+        height: 20.5vw;
+        width: 20.5vw;
+        padding-left: 2px;
       }
 
       .grid-container {
