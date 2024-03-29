@@ -92,8 +92,12 @@
 
     let helpOverlay = false;
     const today = getEasternTimeDate();
+
+    if (categories != gameBoards[$currentGameDate.toString()]) {
+      console.log('stale');
+    }
+    
     if ($currentGameDate == today) {
-      console.log($clearedCategories);
       if ($mistakeCount >= 4) {
         gameoverStore.set({
           isOver: true,
@@ -122,11 +126,7 @@
       if ($clearedCategories.length < 4 && $mistakeCount < 4) {
         const allClearedElements = $clearedCategories.map(category => category.elements).flat();
         remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
-        console.log(remainingElements);
-        console.log('here!')
-        console.log($clearedCategories);
       }
-      
     } 
     else { // stale game, reset
       $currentGameDate = today;
@@ -522,7 +522,7 @@
     </div>
   {:else}
   <div class="result-button-container">
-    <button on:click={toggleOverlay} style="background-color: #505050;; color: white;" class="results-button">VIEW RESULTS</button>
+    <button on:click={toggleOverlay} style="background-color: #fff;; color: black;" class="results-button">VIEW RESULTS</button>
   </div>
   {/if}
 

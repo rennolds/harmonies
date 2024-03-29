@@ -69,6 +69,9 @@ h2 {
 
 p {
     font-size: 11px;
+    width: 95%;
+    justify-content: center;
+    align-text: center;
 }
 
 </style>

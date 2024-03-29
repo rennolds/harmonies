@@ -1,157 +1,183 @@
 {
-    "04/01/2024": {
-      "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOy",
-      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
-      "categories": [
-        {
-          "color": "#CBff70",
-          "name": "Songs by Justin Timberlake",
-          "elements": ["SexyBack", "Rock Your Body", "Mirrors", "Selfish"]
-        },
-        {
-          "color": "#FAA3FF",
-          "name": "Justin Bieber Features",
-          "elements": ["Cold Water", "10,000 Hours", "I'm the One", "STAY"]
-        },
-        {
-          "color": "#78DAF9",
-          "name": "Songs about Shawtys",
-          "elements": ["Replay", "Low", "I Don't Mind", "Eenie Meenie"]
-        },
-        {
-          "color": "#FFBC21",
-          "name": "Songs featured in Pitch Perfect's \"Riff Off\"",
-          "elements": ["No Diggity", "S&M", "Let's Talk About Sex", "Like a Virgin"]
-        }
-      ]
-    },
-    "3/25/2024": {
-      "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOy",
-      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
-      "categories": [
-        {
-          "color": "#CBff70",
-          "name": "Songs by Justin Timberlake",
-          "elements": ["SexyBack", "Rock Your Body", "Mirrors", "Selfish"]
-        },
-        {
-          "color": "#FAA3FF",
-          "name": "Justin Bieber Features",
-          "elements": ["Cold Water", "10,000 Hours", "I'm the One", "STAY"]
-        },
-        {
-          "color": "#78DAF9",
-          "name": "Songs about Shawtys",
-          "elements": ["Replay", "Low", "I Don't Mind", "Eenie Meenie"]
-        },
-        {
-          "color": "#FFBC21",
-          "name": "Songs featured in Pitch Perfect's \"Riff Off\"",
-          "elements": ["No Diggity", "S&M", "Let's Talk About Sex", "Like a Virgin"]
-        }
-      ]
-    },
-    "3/28/2024": {
-      "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOyt",
-      "gameoverGif": "https://media2.giphy.com/media/mEJ8VQDNb4bVHMVVEm/giphy.gif",
-      "categories": [
-        {
-          "color": "#CBff70",
-          "name": "Songs from Olivia Rodrigo's \"GUTS\"",
-          "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
-        },
-        {
-          "color": "#FAA3FF",
-          "name": "All things Panic! At the Disco",
-          "elements": ["Panic! At the Disco", "Death of a Bachelor", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
-        },
-        {
-          "color": "#78DAF9",
-          "name": "Artists with non-alphanumeric characters in their name",
-          "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
-        },
-        {
-          "color": "#FFBC21",
-          "name": "Girl Groups",
-          "elements": ["Destiny's Child", "Spice Girls", "TLC", "BLACKPINK"]
-        }
-      ]
-    },
-    "3/29/2024": {
-      "playlist": "https://open.spotify.com/playlist/3hzqLFHxbkGv3WnraRoe1l?si=jcxSjT1RTN2YLTyhkzRplA&pi=u-jFbCjW7VSbOyt",
-      "gameoverGif": "https://media2.giphy.com/media/mEJ8VQDNb4bVHMVVEm/giphy.gif",
-      "categories": [
-        {
-          "color": "#CBff70",
-          "name": "Songs from Olivia Rodrigo's \"GUTS\"",
-          "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
-        },
-        {
-          "color": "#FAA3FF",
-          "name": "All things Panic! At the Disco",
-          "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
-        },
-        {
-          "color": "#78DAF9",
-          "name": "Artists with non-alphanumeric characters in their name",
-          "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
-        },
-        {
-          "color": "#FFBC21",
-          "name": "blink-182 and their side projects",
-          "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
-        }
-      ]
-    },
-    "3/30/2024": {
-      "playlist": "https://example.com/playlist",
-      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
-      "categories": [
-        {
-          "color": "#CBff70",
-          "name": "Legendary British Bands",
-          "elements": ["The Beatles", "The Who", "The Rolling Stones", "Pink Floyd"]
-        },
-        {
-          "color": "#FAA3FF",
-          "name": "All things Oasis",
-          "elements": ["Oasis", "Wonderwall", "(What's The Story) Morning Glory", "Champagne Supernova"]
-        },
-        {
-          "color": "#78DAF9",
-          "name": "Why are girls in songs always 17?",
-          "elements": ["1980s Horror Film II", "Dancing Queen", "I Saw Her Standing There", "betty"]
-        },
-        {
-          "color": "#FFBC21",
-          "name": "Taylor Swift F-Bombs",
-          "elements": ["All Too Well (10m Ver)", "Maroon", "mad woman", "champagne problems"]
-        }
-      ]
-    },
-    "3/31/2024": {
-      "playlist": "https://example.com/playlist",
-      "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952k4f82nwxjia1q5yj692vgua7v7wpomwglifeq8ou&ep=v1_gifs_search&rid=200w.gif&ct=g'",
-      "categories": [
+  "3/29/2024": {
+    "playlist": "https://open.spotify.com/playlist/4UAL2fDLZHcGiut8Uu5sXj?si=5ae2e830938d4b3b",
+    "gameoverGif": "https://media2.giphy.com/media/mEJ8VQDNb4bVHMVVEm/giphy.gif?cid=6c09b9529noouawrmpmndq7x47rhls71dg8qwx2jn7b2y3ko&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Songs from Olivia Rodrigo's \"GUTS\"",
+        "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "All things Panic At the Disco",
+        "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Artists with non-alphanumeric characters in their name",
+        "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "blink-182 and their side projects",
+        "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
+      }
+    ]
+  },
+  "3/30/2024": {
+    "playlist": "https://open.spotify.com/playlist/3bya3jRB9MVaOI4jhBZA8J?si=936242f21b6b46cf",
+    "gameoverGif": "https://media1.tenor.com/m/o5CbgYywhaoAAAAd/justin-timberlake-stare.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Justin Timberlake",
+        "elements": ["SexyBack", "Rock Your Body", "Mirrors", "Selfish"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Ariana Grande Albums",
+        "elements": ["Positions", "eternal sunshine", "sweetener", "thank u, next"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "All things Punk",
+        "elements": ["I Fought the Law", "The Clash", "God Save The Queen", "Misfits"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Shawty",
+        "elements": ["Low", "Replay", "Eenie Meenie", "I Don’t Mind"]
+      }
+    ]
+  },
+  "4/1/2024": {
+    "playlist": "https://open.spotify.com/playlist/0ARIB8w5HaPv4zUUOu9zK5?si=9940c4dac1994c5d",
+    "gameoverGif": "https://25.media.tumblr.com/tumblr_lxno4ofYUs1r7hkxdo1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Alternative Band Superhits",
+        "elements": ["Feel It Still", "Mr. Brightside", "Sweather Weather", "The Less I Know the Better"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to\"Call Me Maybe\"",
+        "elements": ["Wish in the Well", "This is Crazy", "I Missed You So Bad", "I Just Met You"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 in 2002",
+        "elements": ["How You Remind Me", "Hot In Herre", "In The End", "A Thousand Miles"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Pitch Perfect’s \"Riff Off\"",
+        "elements": ["No Diggity", "S&M", "Let’s Talk About Sex", "Like a Virgin"]
+      }
+    ]
+  },
+  "4/2/2024": {
+    "playlist": "https://open.spotify.com/playlist/3TqBi8Sd685cfJXYh8QHgx?si=df7bbc33fb2645ba",
+    "gameoverGif": "https://media0.giphy.com/media/UTMmSeNki6wx0TMD2u/giphy.gif?cid=6c09b9520hig3dfgwiriltzno57lulo5k18115iw6bcvgqum&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Boy Band Hits",
+        "elements": ["She Looks So Perfect", "It’s Gonna Be Me", "As Long As You Love Me", "Steal My Girl"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Girl Groups",
+        "elements": ["Destiny’s Child", "The Supremes", "BLACKPINK", "The Spice Girls"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Ending in Girl",
+        "elements": ["One Less Lonely Girl", "Brown Eyed Girl", "I Kissed a Girl", "My Girl"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "World Cup Songs",
+        "elements": ["Wavin’ Flag", "Waka Waka", "Dreamers", "We Are One"]
+      }
+    ]
+  },
+  "4/3/2024": {
+    "playlist": "https://open.spotify.com/playlist/4lkBhsGUyFjL5bgomvw6G0?si=1a8d26aa44104031",
+    "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952l71m3kg6rt47v8e9g7u9yh30n5rn0vepkc34m9xh&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Red Hot Chili Peppers",
+        "elements": ["Can’t Stop", "Snow (Hey Oh)", "Under The Bridge", "Otherside"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Justin Bieber Features",
+        "elements": ["10,000 Hours", "Cold Water", "STAY", "I’m The One"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 2015",
+        "elements": ["See You Again", "Blank Space", "Trap Queen", "Cheerleader"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Artists Disney Era",
+        "elements": ["All I Want", "Naturally", "7 Things", "Replay"]
+      }
+    ]
+  },
+  "4/4/2024": {
+    "playlist": "https://example.com/playlist",
+    "gameoverGif": "https://media2.giphy.com/media/LKqDgLlK6SuIM/200w.gif?cid=6c09b952nff4qqshw3muzyaa9kkpm9ggk1v8676mvcpxquw9&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs about New York",
+        "elements": ["Welcome to New York", "Brooklyn Baby", "Empire State of Mind", "No Sleep Til Brooklyn"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Godly Songs by Ye",
+        "elements": ["Jesus Walks", "Ultralight Beam", "Follow God", "God Breathed"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Jay-Z Songs",
+        "elements": ["Young Forever", "Otis", "99 Problems", "Run This Town"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Produced by Metro Boomin",
+        "elements": ["Bounce Back", "Mask Off", "Jumpman", "Father Stretch My Hands (Pt. 1)"]
+      }
+    ]
+  },
+  "4/5/2024": {
+    "playlist": "",
+    "gameoverGif": "https://media4.giphy.com/media/S37TFlsu7io8g/200w.gif?cid=6c09b9522i37i6oxdkjw8t2yuv155d4derz8tezor9x0s1vu&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Ladies of the 80’s",
+        "elements": ["Whitney Houston", "Kate Bush", "Madonna", "Tina Turner"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Radiohead Songs",
+        "elements": ["Creep", "No Surprises", "Karma Police", "Fake Plastic Trees"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Swedish Artists",
+        "elements": ["ABBA", "Avicii", "Icona Pop", "Zara Larsson"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands with Female Leads",
+        "elements": ["No Doubt", "Blondie", "Paramore", "Fleetwood Mac"]
       }
     ]
   }
