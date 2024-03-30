@@ -398,10 +398,10 @@
           </svg>         
       </button>
       <h1>{$gameoverStore.headerMessage}</h1>
-      <h2>Harmonies #1</h2>
+      <h2>Harmonies #{harmonyNumber}</h2>
         <div out:scale class="gameover-gif"><img {src} alt="Game over gif"></div>
         <!-- <ResultGrid bind:guesses={$guessHistory}></ResultGrid> -->
-      <h2>Next Harmony</h2>
+      <h2>Next Board</h2>
       <p class="timer">{formatTime(timeUntilMidnightET)}</p>
 
       <button on:click={shareResult} style="background-color: #000;" class="results-button">SHARE RESULT</button>
