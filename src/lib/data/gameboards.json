@@ -79,22 +79,22 @@
   },
   "4/1/2024": {
     "playlist": "https://open.spotify.com/playlist/3TqBi8Sd685cfJXYh8QHgx?si=df7bbc33fb2645ba",
-    "gameoverGif": "https://media0.giphy.com/media/UTMmSeNki6wx0TMD2u/giphy.gif?cid=6c09b9520hig3dfgwiriltzno57lulo5k18115iw6bcvgqum&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "gameoverGif": "https://i.pinimg.com/originals/0e/86/a0/0e86a0201ee25e1028eddcaaf1a43efe.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Boy Band Hits",
-        "elements": ["She Looks So Perfect", "It’s Gonna Be Me", "As Long As You Love Me", "Steal My Girl"]
+        "name": "Female Country Artists",
+        "elements": ["Dolly Parton", "Shania Twain", "The Chicks", "Kacey Musgraves"]
       },
       {
         "color": "#FAA3FF",
         "name": "Girl Groups",
-        "elements": ["Destiny’s Child", "The Supremes", "BLACKPINK", "The Spice Girls"]
+        "elements": ["TLC", "The Supremes", "BLACKPINK", "The Spice Girls"]
       },
       {
         "color": "#78DAF9",
-        "name": "Songs Ending in Girl",
-        "elements": ["One Less Lonely Girl", "Brown Eyed Girl", "I Kissed a Girl", "My Girl"]
+        "name": "Songs About Murder",
+        "elements": ["Murder on My Mind", "Kill Bill", "no body, no crime", "Jenny Was a Friend of Mine"]
       },
       {
         "color": "#FFBC21",
