@@ -40,6 +40,7 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 @media only screen and (max-width: 390px) {
