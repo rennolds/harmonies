@@ -3,8 +3,8 @@
     import { writable } from 'svelte/store';
     import { fade, fly, slide, scale } from 'svelte/transition';
     import { onMount } from 'svelte';
-    import { browser } from "$app/environment";
-    import {goto} from '$app/navigation';
+    // import { browser } from "$app/environment";
+    // import {goto} from '$app/navigation';
     import ClearedCategory from './ClearedCategory.svelte';
     import HelpOverlay from './HelpOverlay.svelte';
     import ResultGrid from './ResultGrid.svelte';
@@ -135,17 +135,15 @@
       $mistakeCount = 0;
       $clearedCategories = [];
       $guessHistory = [];
-      onMount(() => {
-        if (browser) {
-          const thisPage = window.location.pathname;
-          goto('/').then(
-            () => goto(thisPage)
-        );
-        }
+      // onMount(() => {
+      //   if (browser) {
+      //     const thisPage = window.location.pathname;
+      //     goto('/').then(
+      //       () => goto(thisPage)
+      //   );
+      //   }
 
-      }); 
-
-
+      // }); 
     }
 
     if ($visited === false) {
