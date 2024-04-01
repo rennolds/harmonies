@@ -133,6 +133,13 @@
       $mistakeCount = 0;
       $clearedCategories = [];
       $guessHistory = [];
+      if (process.browser) {
+        const thisPage = window.location.pathname;
+        goto('/').then(
+            () => goto(thisPage)
+        );
+      }
+
     }
 
     if ($visited === false) {
