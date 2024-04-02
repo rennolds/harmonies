@@ -113,12 +113,12 @@
         "elements": ["Welcome to New York", "Brooklyn Baby", "Empire State of Mind", "No Sleep Til Brooklyn"]
       },
       {
-        "color": "#78DAF9",
+        "color": "#FAA3FF",
         "name": "Jay-Z Songs",
         "elements": ["Young Forever", "Otis", "99 Problems", "Run This Town"]
       },
       {
-        "color": "#FAA3FF",
+        "color": "#78DAF9",
         "name": "Godly Songs by Ye",
         "elements": ["Jesus Walks", "Ultralight Beam", "Follow God", "God Breathed"]
       },
@@ -128,7 +128,7 @@
         "elements": ["Bounce Back", "Mask Off", "Jumpman", "Father Stretch My Hands (Pt. 1)"]
       }
     ],
-    "shoutout": true
+    "shoutout": false
   },
   "4/3/2024": {
     "playlist": "https://open.spotify.com/playlist/4QP734sarcAkaBlLqcidq3?si=ea9537a435834e62",
@@ -158,34 +158,34 @@
     "shotuout": false
   },
   "4/4/2024": {
-    "playlist": "",
-    "gameoverGif": "https://media4.giphy.com/media/S37TFlsu7io8g/200w.gif?cid=6c09b9522i37i6oxdkjw8t2yuv155d4derz8tezor9x0s1vu&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "playlist": "https://open.spotify.com/playlist/4o7t8iv9hBsG5gNeBF4NOs?si=d061933445ec452c",
+    "gameoverGif": "https://i.pinimg.com/originals/59/d9/21/59d921976394727b485dc34d31d6abe7.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Ladies of the 80’s",
-        "elements": ["Whitney Houston", "Kate Bush", "Madonna", "Tina Turner"]
+        "name": "Songs by Oasis",
+        "elements": ["Wonderwall", "Champagne Supernova", "Don't Look Back With Anger", "Stop Crying Your Heart Out"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Radiohead Songs",
-        "elements": ["Creep", "No Surprises", "Karma Police", "Fake Plastic Trees"]
+        "name": "2000's Emo Rock Albums",
+        "elements": ["Three Cheers for Sweet Revenge", "Tell All Your Friends", "A Lesson in Romantics", "Deja Entendu"]
       },
       {
         "color": "#78DAF9",
-        "name": "Swedish Artists",
-        "elements": ["ABBA", "Avicii", "Icona Pop", "Zara Larsson"]
+        "name": "Songs about Stalkers",
+        "elements": ["Every Breath You Take", "One Way or Another", "Paparazzi", "Stan"]
       },
       {
         "color": "#FFBC21",
-        "name": "Bands with Female Leads",
-        "elements": ["No Doubt", "Blondie", "Paramore", "Fleetwood Mac"]
+        "name": "Lyrics from \"Unwritten\"",
+        "elements": ["Something in the Distance", "Feel the Rain", "Let It In", "No One Else"]
       }
     ],
     "shoutout": false
   },
   "4/5/2024": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/3asaPEgNt1iq4Tbkjb39FI?si=d1e9c7116a074e67",
     "gameoverGif": "https://i.kym-cdn.com/photos/images/newsfeed/001/588/358/49a.gif",
     "categories": [
       {
