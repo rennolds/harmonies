@@ -53,6 +53,8 @@
 
     const todaysDate = getEasternTimeDate();
     const categories = gameBoards[todaysDate.toString()]["categories"] || [];
+    const shoutout = gameBoards[todaysDate.toString()]["shoutout"] || false;
+    console.log(shoutout);
     const src = gameBoards[todaysDate.toString()]["gameoverGif"] || "";
     const playlist = gameBoards[todaysDate.toString()]["playlist"] || "";
     const keys = Object.keys(gameBoards);
@@ -444,7 +446,42 @@
       </div>
     </div>
 
+    {#if !shoutout}
     <h2 class="header-msg">Create groups of four!</h2>
+    {/if}
+    {#if shoutout}
+    <div class="shoutout">
+      <p>
+        Today's board brought to you by...
+      </p>
+      <h3>
+        @theneedledrop
+      </h3>
+      <div class="shoutout-socials">
+        <button>
+          <a href="https://www.youtube.com/@theneedledrop">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.38 0H15.62C19.14 0 22 2.86 22 6.38V15.62C22 17.3121 21.3278 18.9349 20.1313 20.1313C18.9349 21.3278 17.3121 22 15.62 22H6.38C2.86 22 0 19.14 0 15.62V6.38C0 4.68792 0.672177 3.06514 1.86866 1.86866C3.06514 0.672177 4.68792 0 6.38 0ZM6.16 2.2C5.10974 2.2 4.1025 2.61721 3.35986 3.35986C2.61721 4.1025 2.2 5.10974 2.2 6.16V15.84C2.2 18.029 3.971 19.8 6.16 19.8H15.84C16.8903 19.8 17.8975 19.3828 18.6401 18.6401C19.3828 17.8975 19.8 16.8903 19.8 15.84V6.16C19.8 3.971 18.029 2.2 15.84 2.2H6.16ZM16.775 3.85C17.1397 3.85 17.4894 3.99487 17.7473 4.25273C18.0051 4.51059 18.15 4.86033 18.15 5.225C18.15 5.58967 18.0051 5.93941 17.7473 6.19727C17.4894 6.45513 17.1397 6.6 16.775 6.6C16.4103 6.6 16.0606 6.45513 15.8027 6.19727C15.5449 5.93941 15.4 5.58967 15.4 5.225C15.4 4.86033 15.5449 4.51059 15.8027 4.25273C16.0606 3.99487 16.4103 3.85 16.775 3.85ZM11 5.5C12.4587 5.5 13.8576 6.07946 14.8891 7.11091C15.9205 8.14236 16.5 9.54131 16.5 11C16.5 12.4587 15.9205 13.8576 14.8891 14.8891C13.8576 15.9205 12.4587 16.5 11 16.5C9.54131 16.5 8.14236 15.9205 7.11091 14.8891C6.07946 13.8576 5.5 12.4587 5.5 11C5.5 9.54131 6.07946 8.14236 7.11091 7.11091C8.14236 6.07946 9.54131 5.5 11 5.5ZM11 7.7C10.1248 7.7 9.28542 8.04768 8.66655 8.66655C8.04768 9.28542 7.7 10.1248 7.7 11C7.7 11.8752 8.04768 12.7146 8.66655 13.3335C9.28542 13.9523 10.1248 14.3 11 14.3C11.8752 14.3 12.7146 13.9523 13.3335 13.3335C13.9523 12.7146 14.3 11.8752 14.3 11C14.3 10.1248 13.9523 9.28542 13.3335 8.66655C12.7146 8.04768 11.8752 7.7 11 7.7Z" fill="white"/>
+            </svg> 
+          </a>
+        </button>
+        <button>
+          <a href="https://twitter.com/theneedledrop">
+            <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.1135 0H21.6401L13.9351 8.89642L23 21H15.9026L10.3442 13.6583L3.98283 21H0.45425L8.69592 11.484L0 0.000968099H7.27758L12.3021 6.71152L18.1135 0ZM16.8763 18.8683H18.8303L6.21575 2.02033H4.11892L16.8763 18.8683Z" fill="white"/>
+            </svg>  
+          </a>          
+        </button>
+        <button>
+          <a href="https://www.tiktok.com/@theneedletok">
+            <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.074 3.44667C14.2457 2.49287 13.7892 1.26797 13.7895 0H10.0453V15.1556C10.0164 15.9757 9.67312 16.7525 9.08773 17.3225C8.50233 17.8924 7.7205 18.211 6.90689 18.2111C5.18622 18.2111 3.75638 16.7933 3.75638 15.0333C3.75638 12.9311 5.76786 11.3544 7.83992 12.0022V8.14C3.65944 7.57778 0 10.8533 0 15.0333C0 19.1033 3.34439 22 6.89477 22C10.6996 22 13.7895 18.8833 13.7895 15.0333V7.34556C15.3078 8.44537 17.1307 9.03546 19 9.03222V5.25556C19 5.25556 16.7219 5.36556 15.074 3.44667Z" fill="white"/>
+            </svg>   
+          </a>         
+        </button>
+      </div>
+    </div>
+    {/if}
     {#if $alertStore.message}
     <div transition:fade class="alert-message-container">
       <h2>{ $alertStore.message }</h2>
@@ -919,4 +956,29 @@
       animation: shake 0.5s ease-in-out;
     }
 
+    /* Adjust margin and padding */
+
+    .shoutout p,
+    .shoutout h3,
+    .shoutout-socials {
+      margin: 5px 0; /* Adjust as needed */
+    }
+
+    /* Make buttons inline */
+    .shoutout-socials button {
+      display: inline-block;
+      margin-right: 5px; /* Adjust as needed */
+    }
+
+    /* Optionally, you can remove default button styles */
+    .shoutout-socials button {
+      border: none;
+      background-color: transparent;
+      padding: 0;
+      color: red;
+    }
+
+    .shoutout {
+      margin-bottom: 10px;
+    }
 </style>
