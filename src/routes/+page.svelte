@@ -54,7 +54,6 @@
     const todaysDate = getEasternTimeDate();
     const categories = gameBoards[todaysDate.toString()]["categories"] || [];
     const shoutout = gameBoards[todaysDate.toString()]["shoutout"] || false;
-    console.log(shoutout);
     const src = gameBoards[todaysDate.toString()]["gameoverGif"] || "";
     const playlist = gameBoards[todaysDate.toString()]["playlist"] || "";
     const keys = Object.keys(gameBoards);
@@ -96,10 +95,6 @@
 
     let helpOverlay = false;
     const today = getEasternTimeDate();
-
-    if (categories != gameBoards[$currentGameDate.toString()]) {
-      console.log('stale');
-    }
     
     if ($currentGameDate == today) {
       if ($mistakeCount >= 4) {
