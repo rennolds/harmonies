@@ -113,12 +113,12 @@
         "elements": ["Welcome to New York", "Brooklyn Baby", "Empire State of Mind", "No Sleep Til Brooklyn"]
       },
       {
-        "color": "#78DAF9",
+        "color": "#FAA3FF",
         "name": "Jay-Z Songs",
         "elements": ["Young Forever", "Otis", "99 Problems", "Run This Town"]
       },
       {
-        "color": "#FAA3FF",
+        "color": "#78DAF9",
         "name": "Godly Songs by Ye",
         "elements": ["Jesus Walks", "Ultralight Beam", "Follow God", "God Breathed"]
       },
@@ -127,58 +127,88 @@
         "name": "Produced by Metro Boomin",
         "elements": ["Bounce Back", "Mask Off", "Jumpman", "Father Stretch My Hands (Pt. 1)"]
       }
-    ]
+    ],
+    "shoutout": false
   },
   "4/3/2024": {
-    "playlist": "https://open.spotify.com/playlist/4lkBhsGUyFjL5bgomvw6G0?si=1a8d26aa44104031",
-    "gameoverGif": "https://media4.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952l71m3kg6rt47v8e9g7u9yh30n5rn0vepkc34m9xh&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "playlist": "https://open.spotify.com/playlist/4QP734sarcAkaBlLqcidq3?si=ea9537a435834e62",
+    "gameoverGif": "https://i.makeagif.com/media/6-26-2021/oxDBeD.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Songs by The Red Hot Chili Peppers",
-        "elements": ["Can’t Stop", "Snow (Hey Oh)", "Under The Bridge", "Otherside"]
+        "name": "Maroon 5 Songs",
+        "elements": ["Sugar", "Misery", "Wait", "Memories"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Justin Bieber Features",
-        "elements": ["10,000 Hours", "Cold Water", "STAY", "I’m The One"]
+        "name": "Subgenres of Jazz",
+        "elements": ["Swing", "Blues", "Bepop", "Funk"]
       },
       {
         "color": "#78DAF9",
-        "name": "Billboard Hot 100 2015",
-        "elements": ["See You Again", "Blank Space", "Trap Queen", "Cheerleader"]
+        "name": "Early Greenday Albums",
+        "elements": ["Dookie", "Nimrod", "Insomniac", "Warning"]
       },
       {
         "color": "#FFBC21",
-        "name": "Songs from Artists Disney Era",
-        "elements": ["All I Want", "Naturally", "7 Things", "Replay"]
+        "name": "Songs Titled ______ Yourself",
+        "elements": ["Lose", "Love", "Express", "Lift"]
       }
-    ]
+    ],
+    "shotuout": false
+  },
+  "4/4/2024": {
+    "playlist": "https://open.spotify.com/playlist/4o7t8iv9hBsG5gNeBF4NOs?si=d061933445ec452c",
+    "gameoverGif": "https://i.pinimg.com/originals/59/d9/21/59d921976394727b485dc34d31d6abe7.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Oasis",
+        "elements": ["Wonderwall", "Champagne Supernova", "Don't Look Back With Anger", "Stop Crying Your Heart Out"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2000's Emo Rock Albums",
+        "elements": ["Three Cheers for Sweet Revenge", "Tell All Your Friends", "A Lesson in Romantics", "Deja Entendu"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs about Stalkers",
+        "elements": ["Every Breath You Take", "One Way or Another", "Paparazzi", "Stan"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from \"Unwritten\"",
+        "elements": ["Something in the Distance", "Feel the Rain", "Let It In", "No One Else"]
+      }
+    ],
+    "shoutout": false
   },
   "4/5/2024": {
-    "playlist": "",
-    "gameoverGif": "https://media4.giphy.com/media/S37TFlsu7io8g/200w.gif?cid=6c09b9522i37i6oxdkjw8t2yuv155d4derz8tezor9x0s1vu&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "playlist": "https://open.spotify.com/playlist/3asaPEgNt1iq4Tbkjb39FI?si=d1e9c7116a074e67",
+    "gameoverGif": "https://i.kym-cdn.com/photos/images/newsfeed/001/588/358/49a.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Ladies of the 80’s",
-        "elements": ["Whitney Houston", "Kate Bush", "Madonna", "Tina Turner"]
+        "name": "Artists with Acronym Names",
+        "elements": ["ABBA", "TLC", "REM", "NSYNC"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Radiohead Songs",
-        "elements": ["Creep", "No Surprises", "Karma Police", "Fake Plastic Trees"]
+        "name": "Label Acronyms",
+        "elements": ["RCA", "WMG", "BMG", "EMI"]
       },
       {
         "color": "#78DAF9",
-        "name": "Swedish Artists",
-        "elements": ["ABBA", "Avicii", "Icona Pop", "Zara Larsson"]
+        "name": "Common Acronyms for Albums",
+        "elements": ["MBDTF", "TKOL", "MPP", "CMIYGL"]
       },
       {
         "color": "#FFBC21",
-        "name": "Bands with Female Leads",
-        "elements": ["No Doubt", "Blondie", "Paramore", "Fleetwood Mac"]
+        "name": "Major Chord Notes",
+        "elements": ["CEG", "GBD", "FAC", "BbDF"]
       }
-    ]
+    ],
+    "shoutout": true
   }
 }
