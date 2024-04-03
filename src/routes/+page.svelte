@@ -970,6 +970,10 @@
       margin-top: 2px;
     }
 
+    .shoutout h3 {
+      color: #fff;
+    }
+
     .shoutout button {
       margin-left: 4px;
       margin-right: 4px;
