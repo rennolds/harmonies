@@ -968,6 +968,7 @@
     }
     .shoutout-socials {
       margin-top: 2px;
+      margin-right: 10px;
     }
 
     .shoutout h3 {
