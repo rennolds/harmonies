@@ -447,7 +447,7 @@
     {#if shoutout}
     <div class="shoutout">
       <p>
-        Today's board designed by the internet's busiest music nerd...
+        Today's board designed by...
       </p>
       <h3>
         @theneedledrop
@@ -955,7 +955,7 @@
     /* Adjust margin and padding */
 
     .shoutout {
-      max-width: 340px;
+      max-width: 350px;
       min-width: 300px;
       align-self: center;
     }
