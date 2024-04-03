@@ -724,6 +724,7 @@
       grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-gap: 11px;
       max-width: 400px;
+      min-width: 350px;
       font-weight: bold;
       padding: 2px;
       text-transform: uppercase;
