@@ -66,6 +66,7 @@ h2 {
     left: 50;
     font-size: 17px;
     margin-bottom: -12px;
+    width: 95%;
 }
 
 p {
