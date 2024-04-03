@@ -955,8 +955,9 @@
     /* Adjust margin and padding */
 
     .shoutout {
-      max-width: 400px;
-      min-width: 350px;
+      max-width: 340px;
+      min-width: 300px;
+      align-self: center;
     }
 
     .shoutout p,
