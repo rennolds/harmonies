@@ -745,7 +745,7 @@
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
       overflow: hidden; /* Hide overflowing content */
       font-weight: 700;
-      font-size: 14px;
+      font-size: 12.5px;
       color: black;
       line-height: 18px;
       overflow-wrap: break-word;
