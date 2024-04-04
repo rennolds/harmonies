@@ -745,7 +745,7 @@
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
       overflow: hidden; /* Hide overflowing content */
       font-weight: 700;
-      font-size: 12.5px;
+      font-size: 13px;
       color: black;
       line-height: 18px;
       overflow-wrap: break-word;
@@ -753,6 +753,7 @@
 
     .grid-item p {
       max-width: 90%;
+      max-height: 90%;
     }
 
     @media only screen and (max-width: 390px) {
