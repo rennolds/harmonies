@@ -379,8 +379,11 @@
         const reallyLongWord = text.split(' ').find(word => word.length > 9);
         const shortWord = text.split(' ').length === 1 && text.length < 7;
 
+        const wordsCount = text.split(' ').length;
+        const manyWords = wordsCount >= 5;
+
         // If a long word is found, reduce the font size
-        if (longWord && !reallyLongWord) {
+        if ((longWord && !reallyLongWord) || manyWords) {
           const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
           paragraph.style.fontSize = (currentFontSize * 0.80) + 'px';
         } else if (reallyLongWord) {
@@ -745,7 +748,7 @@
       transition: background-color 0.4s, border-color 0.3s, transform 1s;
       overflow: hidden; /* Hide overflowing content */
       font-weight: 700;
-      font-size: 13px;
+      font-size: 14px;
       color: black;
       line-height: 18px;
       overflow-wrap: break-word;
