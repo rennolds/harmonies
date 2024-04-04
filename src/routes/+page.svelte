@@ -753,7 +753,6 @@
 
     .grid-item p {
       max-width: 90%;
-      max-height: 90%;
     }
 
     @media only screen and (max-width: 390px) {
