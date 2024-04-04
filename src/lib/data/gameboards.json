@@ -164,7 +164,7 @@
       {
         "color": "#CBff70",
         "name": "Songs by Oasis",
-        "elements": ["Wonderwall", "Champagne Supernova", "Don't Look Back With Anger", "Stop Crying Your Heart Out"]
+        "elements": ["Wonderwall", "Champagne Supernova", "Don't Look Back in Anger", "Stop Crying Your Heart Out"]
       },
       {
         "color": "#FAA3FF",
@@ -179,7 +179,7 @@
       {
         "color": "#FFBC21",
         "name": "Lyrics from \"Unwritten\"",
-        "elements": ["Something in the Distance", "Feel the Rain", "Let It In", "No One Else"]
+        "elements": ["Something in the Distance", "Feel the Rain", "On Your Skin", "Let It In"]
       }
     ],
     "shoutout": false
