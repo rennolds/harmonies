@@ -210,5 +210,32 @@
       }
     ],
     "shoutout": true
+  },  
+  "4/6/2024": {
+    "playlist": "https://open.spotify.com/playlist/4ZMDEBftue6NZJZt5fZb3Y?si=9a897f4f501849f3",
+    "gameoverGif": "https://media1.giphy.com/media/RR30mIPug9oNcbLuNw/giphy.gif?cid=6c09b952l7xok42iw8l0dl1hw8lr4a0k1nx9yy9fw531yk68&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Billboard Hot 100 in 2022",
+        "elements": ["As It Was", "Anti-Hero", "First Class", "Bad Habit"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "70's Rock Hits",
+        "elements": ["Mr. Blue Sky", "Baba O'Riley", "Highway to Hell", "Killer Queen"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Taylor Swift \"From the Vault\" Tracks",
+        "elements": ["Mr. Perfectly Fine", "Is It Over?", "You're Losing Me", "All Too Well (10m Ver)"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Why are girls in songs always 17?",
+        "elements": ["1980's Horror Film II", "Dancing Queen", "Cigarette Daydreams", "betty"]
+      }
+    ],
+    "shoutout": false
   }
 }

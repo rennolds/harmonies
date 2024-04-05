@@ -24,9 +24,6 @@
 </div>
 
 <style>
-body {
-    background-color: red;
-}
 
 .full-row {
     grid-column: 1 / -1; /* Spans entire row */
@@ -64,7 +61,7 @@ body {
 h2 {
     position: relative;
     left: 50;
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: -12px;
     width: 95%;
 }
