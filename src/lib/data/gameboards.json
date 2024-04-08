@@ -291,5 +291,32 @@
       }
     ],
     "shoutout": false
+  },
+  "4/9/2024": {
+    "playlist": "https://open.spotify.com/playlist/0V9NcQs5uX5p065frRFqri?si=078d26411c1646da",
+    "gameoverGif": "https://media2.giphy.com/media/TjpmXdglzXLt6/200w.gif?cid=6c09b952mw5hs6hvg9z5nqzgba1wtt7pisnfyxv1ftbky0j3&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Weezer",
+        "elements": ["Beverly Hills", "Island in the Sun", "Say It Ain’t So", "Buddy Holly"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs about California",
+        "elements": ["Malibu", "Straight Outta Compton", "No More Parties in LA", "West Coast"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Produced by Dr. Dre",
+        "elements": ["California Love", "In Da Club", "The Real Slim Shady", "Gin and Juice"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Elvis Presley Lyrics",
+        "elements": ["Like a River Flows", "You Was High Classed", "We Can't Go on Together", "Because I’m Evil"]
+      }
+    ],
+    "shoutout": false
   }
 }
