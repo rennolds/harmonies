@@ -318,5 +318,59 @@
       }
     ],
     "shoutout": false
+  },
+  "4/10/2024": {
+    "playlist": "https://open.spotify.com/playlist/2yFxV6ZkWWMIWHJjR9d1uu?si=446c54fba00744b9",
+    "gameoverGif": "https://25.media.tumblr.com/3119755201aebf129cab5f8d83bf35c1/tumblr_mfi4cdZv5P1r3ifxzo1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Linkin Park Songs",
+        "elements": ["In The End", "Numb", "Faint", "Crawling"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "All Things Vampire Weekend",
+        "elements": ["Only God Was Above Us", "Father of the Bride", "Diane Younge", "Step"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Breakup Songs",
+        "elements": ["Somebody That I Used To Know", "Since U Been Gone", "Torn", "good 4 u"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by Number Bands",
+        "elements": ["Fat Lip", "I Miss You", "With or Without You", "She Will be Loved"]
+      }
+    ],
+    "shoutout": false
+  },
+  "4/11/2024": {
+    "playlist": "https://open.spotify.com/playlist/3ONaN2bk1jtO9IWxynhVe0?si=67ca01e9b6d044a2",
+    "gameoverGif": "https://media.tenor.com/MA_K9rpTfkYAAAAM/michael-jackson-smooth-criminal.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "All Things Metal",
+        "elements": ["Enter Sandman", "System of a Down", "Iron Maiden", "Iron Man"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Famous Duos",
+        "elements": ["The White Stripes", "twenty one pilots", "The Righteous Brothers", "OutKast"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists with Royal Names",
+        "elements": ["Prince", "Kings of Leon", "Lorde", "Queen"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Michael Jackson's \"Smooth Criminal\"",
+        "elements": ["Bloodstains on the Carpet", "Struck Down", "Your Doom", "Into the Bedroom"]
+      }
+    ],
+    "shoutout": false
   }
 }
