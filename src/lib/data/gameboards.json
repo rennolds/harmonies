@@ -372,5 +372,32 @@
       }
     ],
     "shoutout": false
+  },
+  "4/12/2024": {
+    "playlist": "https://open.spotify.com/playlist/4InFW9eGXa0hd23o6J1eVq?si=4f64fbbe980d47db",
+    "gameoverGif": "https://media1.giphy.com/media/3o7qiZd2ORhXiqoEDe/giphy.gif?cid=6c09b952fkncwnk62hcl0f30cdn9j6epl7kbg3bru2ycvdu0&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Journey",
+        "elements": ["Don’t Stop Believin’", "Separate Ways", "Any Way You Want It", "Who’s Crying Now"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring SZA",
+        "elements": ["Kiss Me More", "All The Stars", "TELEKINESIS", "Rich Baby Daddy"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hits by Female Rappers",
+        "elements": ["Bodak Yellow", "Anaconda", "Juicy", "Work It"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featured in \"Stranger Things\"",
+        "elements": ["Running Up That Hill", "Should I Stay or Should I Go", "Angel", "Runaway"]
+      }
+    ],
+    "shoutout": false
   }
 }
