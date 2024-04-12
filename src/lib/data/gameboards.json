@@ -401,8 +401,8 @@
     "shoutout": false
   },
   "4/13/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4AgiCSyhe4uwErmWMN3MhK?si=8bc21dfc829b428b",
+    "gameoverGif": "https://i.redd.it/ce0s230ubygb1.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -412,7 +412,7 @@
       {
         "color": "#FAA3FF",
         "name": "Swedish Artists",
-        "elements": ["ABBA", "Avicii", "Ace of Base", "Zara Larrson"]
+        "elements": ["ABBA", "Avicii", "Ace of Base", "Zara Larsson"]
       },
       {
         "color": "#78DAF9",
