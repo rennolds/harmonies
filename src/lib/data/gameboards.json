@@ -399,5 +399,59 @@
       }
     ],
     "shoutout": false
+  },
+  "4/13/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Indie Rock Bands",
+        "elements": ["The Strokes", "Arcade Fire", "Arctic Monkeys", "Death Cab for Cutie"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Swedish Artists",
+        "elements": ["ABBA", "Avicii", "Ace of Base", "Zara Larrson"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists with Rhyming Names",
+        "elements": ["Chief Keef", "Ice Spice", "Tears for Fears", "Quiet Riot"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists with Eminem Fueds",
+        "elements": ["Ja Rule", "Machine Gun Kelly", "Mariah Carey", "Nick Cannon"]
+      }
+    ],
+    "shoutout": false
+  },
+  "4/14/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": ["", "", "", ""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": ["", "", "", ""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": ["", "", "", ""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": ["", "", "", ""]
+      }
+    ],
+    "shoutout": false
   }
 }
