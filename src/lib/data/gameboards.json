@@ -428,30 +428,86 @@
     "shoutout": false
   },
   "4/14/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3lxOgiYSCCpP9nASbUVqey?si=5566ee41908a456b",
+    "gameoverGif": "https://i.makeagif.com/media/10-08-2015/u23LrW.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Post Malone Songs",
+        "elements": ["Circles", "Chemical", "rockstar", "Sunflower"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Rock Subgenres",
+        "elements": ["Metal", "Grunge", "Goth", "Math"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Mainstream Electronic Songs",
+        "elements": ["Clarity", "Middle", "Closer", "Levels"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Songs Titled American ____",
+        "elements": ["Boy", "Girl", "Pie", "Idiot"]
       }
     ],
     "shoutout": false
+  },
+  "4/15/2024": {
+    "playlist": "https://open.spotify.com/playlist/6JDRQzXRG1GV0vhgncBO5i?si=6f1b298dc8a4498b",
+    "gameoverGif": "https://giffiles.alphacoders.com/455/45509.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Avril Lavigne Songs",
+        "elements": ["Complicated", "Sk8er Boi", "My Happy Ending", "What the Hell"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2000's Club Hits",
+        "elements": ["Yeah!", "Gold Digger", "SexyBack", "Promiscuous"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Gwen Stefani’s \"The Sweet Escape\"",
+        "elements": ["my own world", "your favorite girl", "perfectly together", "wouldn't that be sweet?"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Boyfriend Stealing Songs",
+        "elements": ["break up with your boyfriend, I’m bored", "Girlfriend", "Misery Business", "Jolene"]
+      }
+    ],
+    "shoutout": false
+  },
+  "4/16/2024": {
+    "playlist": "https://open.spotify.com/playlist/3bxu001pQ8NksWpwtzdTqn?si=4bf8e6054ba2435b",
+    "gameoverGif": "https://media4.giphy.com/media/130C3ibwpXPJEA/200w.gif?cid=6c09b952hm2tc8611x200gvb65nzszopsosggj5rp42igqdr&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs Mentioning Weather",
+        "elements": ["Riders on the Storm", "Heat Waves", "Set Fire to the Rain", "It's Raining Men"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring Eminem",
+        "elements": ["My Band", "Roman's Revenge", "Smack That", "Forever"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Lady Gaga's \"Telephone\"",
+        "elements": ["I Cannot Hear You", "I'm Kinda Busy", "Stop Calling", "Don't Wanna Talk Anymore"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featured in \"Guardians of the Galaxy\"",
+        "elements": ["Spirit in the Sky", "Hooked on a Feeling", "Cherry Bomb", "Come and Get Your Love"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "hailey pursifull",
+    "shoutout-socials": false
   }
 }
