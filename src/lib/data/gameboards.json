@@ -509,5 +509,34 @@
     "shoutout": true,
     "shoutout-name": "hailey pursifull",
     "shoutout-socials": false
+  },
+  "4/17/2024": {
+    "playlist": "https://open.spotify.com/playlist/0MW0PQLhJgQjBdfaa3q9I2?si=3018692c4cf84c47",
+    "gameoverGif": "https://media3.giphy.com/media/9x3rbdFIKhYQsHroPW/200w.gif?cid=6c09b9522pz2fidyxa67op2uksfodq56hzc4jc9ug6amkof4&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Members of BTS",
+        "elements": ["Jung Kook", "V", "j-Hope", "Jin"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by The Clash",
+        "elements": ["I Fought the Law", "Should I Stay or Should I Go", "London Calling", "Rock the Casbah"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "R&B Songs",
+        "elements": ["Thinkin Bout You", "Confessions Part II", "Best Part", "Snooze"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Where Money Isn’t Everything",
+        "elements": ["Can’t Buy Me Love", "Super Rich Kids", "Price Tag", "Mo Money Mo Problems"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false
   }
 }

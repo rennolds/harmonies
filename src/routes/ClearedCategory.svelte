@@ -61,13 +61,13 @@
 h2 {
     position: relative;
     left: 50;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: -12px;
     width: 95%;
 }
 
 p {
-    font-size: 11px;
+    font-size: 10px;
     width: 95%;
     justify-content: center;
     align-text: center;
