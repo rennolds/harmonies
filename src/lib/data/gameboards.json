@@ -597,33 +597,38 @@
     "shoutout-name": "",
     "shoutout-socials": false
   },
-  "4/19/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+  "4/17/2024": {
+    "playlist": "https://open.spotify.com/playlist/6PhpoViKUkGhQsYvq8MXkI?si=b0048fae4b944efa",
+    "gameoverGif": "https://i.gifer.com/Qjp.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Fred Again.. Songs",
+        "elements": ["Delilah", "Rumble", "adore u", "Turn On The Lights Again.."]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Billboard Hot 100 in 1993",
+        "elements": ["I'd Do Anything For Love", "I Will Always Love You", "A Whole New World", "Hero"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Irish Artists",
+        "elements": ["Hozier", "Enya", "Cian Ducrot", "The Corrs"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Musicians from YouTube",
+        "elements": ["Andrew Huang", "Bad Snacks", "Blanks", "Roomie"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false
+    "shoutout": true,
+    "shoutout-name": "@93Acres",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/93acres/",
+    "tiktok": "https://www.tiktok.com/@93acresmusic",
+    "youtube": "https://www.youtube.com/@93Acres",
+    "twitch": "",
+    "twitter": ""
   }
 }
