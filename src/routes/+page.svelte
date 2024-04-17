@@ -579,7 +579,7 @@
   
 
   <div class="footer">
-      <p> made by <a href="https://twitter.com/tommyrennolds" target="_blank">tommy</a> & <a href="https://twitter.com/PaulPursifull" target="_blank">paul<a/> </p> <p>&nbsp;| <a href="https://app.termly.io/document/privacy-policy/9498e764-5c36-4bcb-8ec3-5f268048e73e">privacy</a> | <a href="https://linktr.ee/harmonies_io" target="_blank">follow us!</a></p>
+      <p> made by flatwhite studios </p> <p>&nbsp;| <a href="./privacy" target="_blank">privacy</a> | <a href="https://twitter.com/Spotle_io" target="_blank">follow us!</a></p>
   </div>
 
 </div>
