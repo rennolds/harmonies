@@ -630,5 +630,39 @@
     "youtube": "https://www.youtube.com/@93Acres",
     "twitch": "",
     "twitter": ""
+  },
+  "4/20/2024": {
+    "playlist": "https://open.spotify.com/playlist/4bx1tB8cgqwbHeu0yuZm1F?si=6dfbe19826804430",
+    "gameoverGif": "https://25.media.tumblr.com/tumblr_lxovg03GSr1qh8gmbo1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Tracks from \"The Tortured Poets Department\"",
+        "elements": ["Fortnight", "Down Bad", "So Long, London", "thanK you alMee"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Miley Cyrus Songs",
+        "elements": ["Flowers", "Wrecking Ball", "We Can't Stop", "Party in the U.S.A."]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs From Artists Disney Era",
+        "elements": ["All I Want", "Naturally",	"The Climb",	"Replay"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Ye's \"Stronger\"",
+        "elements": ["Let’s Get Lost Tonight", "That Don't Kill Me", "Hurry Up Now", "I Been On Ya"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
   }
 }
