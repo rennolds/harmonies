@@ -891,12 +891,46 @@
       {
         "color": "#78DAF9",
         "name": "Weird Al Parodies",
-        "elements": ["Perform This Way", "Amish Paradise", "White & Nerdy", "Jurassic Park"]
+        "elements": ["Perform This Way", "Amish Paradise", "White & Nerdy", "Eat It"]
       },
       {
         "color": "#FFBC21",
         "name": "Iconic Female Country Songs",
         "elements": ["Jolene", "Before He Cheats", "Man! I Feel Like a Woman!", "Stand By Your Man"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "karl messenger",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "4/29/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "DJ Khaled Songs",
+        "elements": ["I'm The One", "Wild Thoughts", "POPSTAR", "All I Do Is Win"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Justin Bieber Features",
+        "elements": ["Cold Water", "10,000 Hours", "Eenie Meenie", "Let Me Love You"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Being Cheated On",
+        "elements": ["I'm Not The Only One", "Mr. Brightside", "It's Not Right But It's Okay", "Cry Me a River"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Nelly's \"Dilemma\"",
+        "elements": ["No matter what I do", "all I think about is you", "crazy over you", "I love you"]
       }
     ],
     "shoutout": false,
@@ -907,6 +941,209 @@
     "youtube": "",
     "twitch": "",
     "twitter": ""
+  },
+  "4/30/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Carrie Underwood Songs",
+        "elements": ["If I Didn't Love You", "All American Girl", "Jesus, Take The Wheel",	"Good Girl"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums from The Strokes",
+        "elements": ["Is This It", "Room On Fire", "The New Abnormal", "Angles"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Popular Tik Tok Songs",
+        "elements": ["Say So", "Savage", "ABCDEFJ", "Supalonely"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Remixed by Flume",
+        "elements": ["You & Me", "Tennis Courts", "HyperParadise", "Lay Me Down"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "hailey pursifull",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/1/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to The Beatle's \"Hey Jude\"",
+        "elements": ["Don't Make It Bad", "Don't Be Afraid", "Don't Let Me Down", "Make It Better"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hip Hop Collab Albums",
+        "elements": ["Watch The Throne", "Hell: The Sequel", "Her Loss", "Madvillany"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Top Selling Albums of All Time",
+        "elements": ["Thriller", "The Dark Side of the Moon", "The Bodyguard", "Back in Black"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums That Were a Genre Departure",
+        "elements": ["Cowboy Carter", "Tickets To My Downfall", "Folklore", "Country Mike's Greatest Hits"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/2/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sabrina Carpenter Songs",
+        "elements": ["Nonsense", "because I liked a boy", "Feather", "Espresso"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "T-Pain Features",
+        "elements": ["Low", "Shawty", "I Can’t Wait", "I’m On a Boat"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Snoop Dogg & Dr. Dre Songs",
+        "elements": ["Still D.R.E.", "The Next Episode", "Nuthin' But A \"G\" Thang", "ETA"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Named After Movie Characters",
+        "elements": ["Superman", "Jack Sparrow", "Sky Walker", "RoboCop"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/3/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/4/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Paramore Songs",
+        "elements": ["All I Wanted", "Hard Times", "Ain't It Fun", "Misery Business"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Punk Songs",
+        "elements": ["In Too Deep", "What's My Age Again?", "Dear Maria, Count Me In", "Dirty Little Secret"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Pop Artists from England",
+        "elements": ["One Direction", "Adele", "Ed Sheeren", "Sam Smith"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Featured in the \"Barbie\" Soundtrack",
+        "elements": ["Nicki Minaj", "Ice Spice", "Dua Lipa", "Charli XCX"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/5/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Red Hot Songs",
+        "elements": ["Burnin' Up",	"Girl on Fire",	"Hot in Herre",	"Through the Fire and the Flames"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Sean Kingston Songs",
+        "elements": ["Beautiful Girls", "Eenie Meenie", "Fire Burning", "Take You There"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by Color-Themed Rock Bands",
+        "elements": ["Basket Case", "Ocean Avenue", "(Don't Fear) The Reaper", "Face Down"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": ["Into the City",	"See a Marching Band", "We'll Carry On", "Will You Defeat Them?"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@samschechter_",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
   }
-
 }
