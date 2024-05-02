@@ -1030,7 +1030,7 @@
         "elements": ["Still D.R.E.", "The Next Episode", "Nuthin' But A \"G\" Thang", "ETA"]
       },
       {
-        "color": "#78DAF9",
+        "color": "#FFBC21",
         "name": "Hip Hop Songs Named after Movie Characters",
         "elements": ["Superman", "Jack Sparrow", "Sky Walker", "RoboCop"]
       }
@@ -1045,38 +1045,38 @@
     "twitter": ""
   },
   "5/3/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1zKqq8C7Px1Q5u11Mkh06u?si=22642282ceab4e72",
+    "gameoverGif": "https://gifdb.com/images/high/doja-cat-suddenly-stan-3gyz0asp0oj64m57.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Doja Cat Songs",
+        "elements": ["Woman", "Agora Hills", "Demons", "Tia Tamera"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Featuring: The Weeknd",
+        "elements": ["You Right", "Low Life", "Pray for Me", "We Still Don't Trust You"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Blink-182 Lyrics",
+        "elements": ["Say It Ain't So", "Carry Me Home", "Where Are You?", "Stop This Pain Tonight"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Released in 1982",
+        "elements": ["The Message", "Get Down On It", "I Love Rock 'N Roll", "Maneater"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "@laceduplauren",
+    "shoutout-socials": true,
     "instagram": "",
     "tiktok": "",
     "youtube": "",
-    "twitch": "",
-    "twitter": ""
+    "twitch": "https://www.twitch.tv/laceduplauren",
+    "twitter": "https://twitter.com/LacedUpLauren"
   },
   "5/4/2024": {
     "playlist": "https://open.spotify.com/playlist/72V3dPjaP5tPIgVcrwp0yS?si=62aa4a127d19434d",
