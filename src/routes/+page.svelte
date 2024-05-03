@@ -1,4 +1,5 @@
 <script>
+    import posthog from 'posthog-js'
     import { flip } from 'svelte/animate';
     import { writable } from 'svelte/store';
     import { fade, fly, slide, scale } from 'svelte/transition';
@@ -202,6 +203,9 @@
     }
     function handleSubmit() {
       // check if selectedElements match any categories
+      if ($guessHistory.length == 0) {
+        posthog.capture('game started', { property: 'true' })
+      }
       if (selectedElements.length != 4) {
         //do  nothing, not valid guess
         return
@@ -244,6 +248,7 @@
           selectedElements = [];
 
           if ($clearedCategories.length == 4) {
+            posthog.capture('game won', { property: 'true' })
             setTimeout(() => {
               gameoverStore.set({
               isOver: true,
@@ -282,6 +287,7 @@
 
       if ($mistakeCount == 4) {
         //reveal categories not found
+        posthog.capture('game lost', { property: 'true' })
         setTimeout(() => {
           const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
           remainingCategories.forEach((category) => {

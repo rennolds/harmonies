@@ -17,6 +17,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"cookie": "^0.6.0"
+		"cookie": "^0.6.0",
+		"posthog-js": "^1.130.2"
 	}
 }
