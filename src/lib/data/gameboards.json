@@ -1080,31 +1080,31 @@
   },
   "5/4/2024": {
     "playlist": "https://open.spotify.com/playlist/72V3dPjaP5tPIgVcrwp0yS?si=62aa4a127d19434d",
-    "gameoverGif": "https://media0.giphy.com/media/YRPTtwrigGCOs/200w.gif?cid=6c09b952kf0pz2necl1v2qao9k7o0t4u95d18r2dv28yawh1&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "gameoverGif": "https://64.media.tumblr.com/14894ffc1850181a7d9d668544220651/tumblr_p3oj7xvA0j1qf5hjqo1_540.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Paramore Songs",
-        "elements": ["All I Wanted", "Hard Times", "The Only Exception", "Misery Business"]
+        "name": "Childish Gambino Songs",
+        "elements": ["Redbone", "This is America", "Sober", "Pink Toes"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Pop Punk Songs",
-        "elements": ["In Too Deep", "What's My Age Again?", "Dear Maria, Count Me In", "Dirty Little Secret"]
+        "name": "Songs from Star Wars",
+        "elements": ["The Imperial March", "Duel of Fates", "Cantina Band", "Across the Stars"]
       },
       {
         "color": "#78DAF9",
-        "name": "Superstars from England",
-        "elements": ["One Direction", "Adele", "Ed Sheeren", "Sam Smith"]
+        "name": "Composed by John Williams",
+        "elements": ["Hedwig's Theme", "Finding Private Ryan", "The Miracle of the Ark", "Raiders March"]
       },
       {
         "color": "#FFBC21",
-        "name": "Artists Featured in the \"Barbie\" Soundtrack",
-        "elements": ["Nicki Minaj", "Ice Spice", "Dua Lipa", "Charli XCX"]
+        "name": "Songs with Star Wars References",
+        "elements": ["Guilt Trip", "Californication", "All N My Grill", "Hypnotize"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
+    "shoutout": true,
+    "shoutout-name": "justin makowski",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
@@ -1139,6 +1139,40 @@
     ],
     "shoutout": true,
     "shoutout-name": "sam s.",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/6/2024": {
+    "playlist": "",
+    "gameoverGif": "https://media0.giphy.com/media/YRPTtwrigGCOs/200w.gif?cid=6c09b952kf0pz2necl1v2qao9k7o0t4u95d18r2dv28yawh1&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Paramore Songs",
+        "elements": ["All I Wanted", "Hard Times", "The Only Exception", "Misery Business"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Punk Songs",
+        "elements": ["In Too Deep", "What's My Age Again?", "Dear Maria, Count Me In", "Dirty Little Secret"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Superstars from England",
+        "elements": ["One Direction", "Adele", "Ed Sheeren", "Sam Smith"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Featured in the \"Barbie\" Soundtrack",
+        "elements": ["Nicki Minaj", "Ice Spice", "Dua Lipa", "Charli XCX"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
