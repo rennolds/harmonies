@@ -66,6 +66,8 @@
     const keys = Object.keys(gameBoards);
     const harmonyNumber = keys.indexOf(todaysDate) + 1; // Adding 1 to make it 1-based index
 
+    console.log(todaysDate);
+
     const gameoverStore = writable({
       isOver: false,
       headerMessage: ''
@@ -434,7 +436,11 @@
 
     <div class="header">
       <div class="logo-container">
-        <h1>Harmonies.</h1>
+      {#if todaysDate == "5/4/2024"}
+        <h1 class="logo-text">Harmonies.</h1>
+      {:else}
+      <h1>Harmonies.</h1>
+      {/if}
       </div>
       <div class="header-button-container">
         <a href={playlist}>
@@ -708,6 +714,23 @@
 
     .logo-container {
       justify-content: flex-start;
+    }
+
+    @font-face {
+        font-family: 'StarJedi';
+        font-style: normal;
+        font-weight: 500;
+        src: url('/fonts/Starjedi.ttf'); /* IE9 Compat Modes */
+        src: local(''), url('/fonts/Starjedi.ttf') format('embedded-opentype'),
+            /* IE6-IE8 */ url('/fonts/Starjedi.ttf') format('woff2'),
+            /* Super Modern Browsers */ url('/fonts/Starjedi.ttf') format('woff'),
+            /* Modern Browsers */ url('/fonts/Starjedi.ttf') format('truetype'),
+            /* Safari, Android, iOS */ url('/fonts/Starjedi.ttf') format('svg'); /* Legacy iOS */
+    }
+
+    .logo-text {
+      font-family: 'StarJedi', sans-serif;
+      color: #fff;
     }
 
     .help-btn {
