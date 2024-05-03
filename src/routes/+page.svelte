@@ -343,6 +343,7 @@
     }
 
     function shareResult() {
+      posthog.capture('shared result', { property: 'true' })
       const emoji_mapping = {
         "#CBff70": "🟩",
         "#FAA3FF": "🟪",
