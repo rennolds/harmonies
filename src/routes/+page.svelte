@@ -443,11 +443,7 @@
 
     <div class="header">
       <div class="logo-container">
-      {#if todaysDate == "5/4/2024"}
-        <h1 class="logo-text">Harmonies.</h1>
-      {:else}
       <h1>Harmonies.</h1>
-      {/if}
       </div>
       <div class="header-button-container">
         <a href={playlist}>
