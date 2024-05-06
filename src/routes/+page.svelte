@@ -14,13 +14,13 @@
     import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount} from './store.js';
 
 
-    onMount(async () => {
-      window.ezstandalone = window.ezstandalone || {};
-        ezstandalone.cmd = ezstandalone.cmd || [];
-        ezstandalone.cmd.push(function() {
-        ezstandalone.define();
-      });
-    })
+    // onMount(async () => {
+    //   window.ezstandalone = window.ezstandalone || {};
+    //     ezstandalone.cmd = ezstandalone.cmd || [];
+    //     ezstandalone.cmd.push(function() {
+    //     ezstandalone.define();
+    //   });
+    // })
  
 
     //date stuff, see if this can be moved to another component
