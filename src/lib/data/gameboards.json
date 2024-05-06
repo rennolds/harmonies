@@ -1147,7 +1147,7 @@
     "twitter": ""
   },
   "5/6/2024": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/72V3dPjaP5tPIgVcrwp0yS?si=4d179e535d384382",
     "gameoverGif": "https://media0.giphy.com/media/YRPTtwrigGCOs/200w.gif?cid=6c09b952kf0pz2necl1v2qao9k7o0t4u95d18r2dv28yawh1&ep=v1_gifs_search&rid=200w.gif&ct=g",
     "categories": [
       {
@@ -1169,6 +1169,244 @@
         "color": "#FFBC21",
         "name": "Artists Featured in the \"Barbie\" Soundtrack",
         "elements": ["Nicki Minaj", "Ice Spice", "Dua Lipa", "Charli XCX"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/7/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Johnny Cash",
+        "elements": ["Hurt", "Highwayman", "I Walk The Line", "Ring of Fire"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Panic! At The Disco Albums",
+        "elements": ["Pretty. Odd.",	"Vices & Virtues",	"A Fever You Can't Sweat Out", "Death of a Bachelor"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from The Killer's \"All These Things That I've Done\"",
+        "elements": ["I've Got Soul",	"I'm Not a Solider", "Gotta Help Me Out",	"Put Me On The Back Burner"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Produced by Jack Antonoff",
+        "elements": ["Getaway Car",	"About You", "I Wanna Get Better", "Green Light"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "scottie rennolds",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/8/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "OutKast Songs",
+        "elements": ["Ms. Jackson", "Roses", "Hey Ya!", "So Fresh, So Clean"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Billboard Hot 100 in 2020",
+        "elements": ["Roxanne", "Adore You", "Circles", "Blinding Lights"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Britney Spears \"...Baby One More Time\"",
+        "elements": ["My Loneliness", "I Must Confess", "I Still Believe", "Give Me a Sign"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Inappropriate Crushes",
+        "elements": ["Hot For Teacher", "Stacy’s Mom", "Jessie’s Girl", "I'm N Luv (Wit a Stripper)"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/9/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Twenty One Pilots",
+        "elements": ["Stressed Out", "House of Gold", "Tear in My Heart", "Next Semester"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Radiohead's \"OK Computer\"",
+        "elements": ["No Surprises", "Karma Police", "Paranoid Android", "Exit Music (For a Film)"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Descriptors in Eminem's \"Lose Yourself\"",
+        "elements": ["Sweaty Palms", "Weak Knees", "Heavy Arms", "Ruined Sweater"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Materialism",
+        "elements": ["Material Girl", "7 rings", "Money", "Santa Baby"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/10/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Kid Cudi Songs",
+        "elements": ["Soundtrack 2 My Life", "Day 'N' Nite", "Pursuit of Happiness", "Mr. Rager"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Sad Boi Rap Songs",
+        "elements": ["All Girls Are The Same", "Falling Down", "Jocelyn Flores", "Lucid Dreams"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs From the 60's",
+        "elements": ["(I Can't Get No) Satisfaction", "Good Vibrations", "Suspicious Minds", "I Want to Hold Your Hand"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to David Guetta's \"Titanium\"",
+        "elements": ["Shoot Me Down", "I Won't Fall", "Nothing to Lose", "Fire Away"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/11/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Kelly Clarkson Songs",
+        "elements": ["Behind These Hazel Eyes", "Stronger",	"Breakaway", "My Life Would Suck Without You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Justin Bieber's \"Purpose\"",
+        "elements": ["Love Yourself", "Sorry", "What Do You Mean?", "Company"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Using \"U\" Instead of You",
+        "elements": ["Since U Been Gone",	"U Got It Bad", "Where Are U Now", "U Smile"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Intentionally Misspelled Titles",
+        "elements": ["We R Who We R", "Thnks fr th Mmrs", "California Gurls", "In Da Club"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+    "5/12/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Tiësto Songs",
+        "elements": ["10:35", "The Business", "Thank You (Not So Bad)", "Wasted"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs Featured in \"Trolls Band Together\"",
+        "elements": ["Candy Girl", "The Right Stuff", "I Want You Back", "Stayin Alive"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Top 10 Artists 2011",
+        "elements": ["LMFAO", "Pitbull", "Maroon 5", "Katy Perry"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Lit's \"My Own Worst Enemy\"",
+        "elements": ["Please Tell Me", "Sleeping With My Clothes On",	"What You Threw at Me", "I Didn't Mean to Call You That"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "marcus ambrozy",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/13/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Indecision",
+        "elements": ["Hot N Cold", "I Can't Make Up My Mind"]
       }
     ],
     "shoutout": false,
