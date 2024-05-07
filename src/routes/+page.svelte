@@ -13,18 +13,16 @@
     import './styles.css';
     import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount} from './store.js';
 
-
-    // onMount(() => {
-    //   if (browser) {
-    //     window.ezstandalone = window.ezstandalone || {};
-    //       ezstandalone.cmd = ezstandalone.cmd || [];
-    //       ezstandalone.cmd.push(function() {
-    //           ezstandalone.enable();
-    //           ezstandalone.display();
-    //       });
-    //     }
-    //   });
- 
+    onMount(() => {
+      if (browser) {
+        window.ezstandalone = window.ezstandalone || {};
+          ezstandalone.cmd = ezstandalone.cmd || [];
+          ezstandalone.cmd.push(function() {
+              ezstandalone.enable();
+              ezstandalone.display();
+          });
+      }
+    });
 
     //date stuff, see if this can be moved to another component
     function getEasternTimeDate() {
