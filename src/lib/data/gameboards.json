@@ -1180,7 +1180,7 @@
     "twitch": "",
     "twitter": ""
   },
-  "5/7/2024": {
+  "5/6/2024": {
     "playlist": "https://open.spotify.com/playlist/6g7gDoGFmZDSenJj7JyJl1?si=bd8665c6f6794ddc",
     "gameoverGif": "https://media0.giphy.com/media/w8gj0pNB1US2RVh0oW/200w.gif?cid=6c09b9528okniqy02ull4wgy22i0iu17ovazzekcwgx4gwp2&ep=v1_gifs_search&rid=200w.gif&ct=g",
     "categories": [
@@ -1207,12 +1207,13 @@
     ],
     "shoutout": true,
     "shoutout-name": "scottie rennolds",
-    "shoutout-socials": false,
-    "instagram": "",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/scottierennolds/",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": ""
+    "twitter": "",
+    "spotify": "https://open.spotify.com/playlist/5aEgl4F4XYTG8kj18UGPgj?si=668dc98d7f464aec"
   },
   "5/8/2024": {
     "playlist": "",
@@ -1246,7 +1247,8 @@
     "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": ""
+    "twitter": "",
+    "spotify": ""
   },
   "5/9/2024": {
     "playlist": "",
@@ -1280,7 +1282,8 @@
     "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": ""
+    "twitter": "",
+    "spotify": ""
   },
   "5/10/2024": {
     "playlist": "",
