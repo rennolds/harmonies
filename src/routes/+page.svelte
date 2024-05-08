@@ -780,7 +780,7 @@
 
     .alert-message-container {
       position: absolute;
-      top: 10%;
+      top: 43.5%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 9999; 
@@ -797,7 +797,6 @@
     }
 
     .alert-message-container h2 {
-
       font-size: 14px;
     }
 
