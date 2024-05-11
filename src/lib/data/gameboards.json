@@ -1354,8 +1354,8 @@
     "twitter": ""
   },
     "5/12/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3fQULGO8d43PuepTZSS6P0?si=2d93e40c60434525",
+    "gameoverGif": "https://i.pinimg.com/originals/8f/65/5b/8f655bfc014039186ae06e64dab441f3.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -1365,7 +1365,7 @@
       {
         "color": "#FAA3FF",
         "name": "Songs Featured in \"Trolls Band Together\"",
-        "elements": ["Candy Girl", "The Right Stuff", "I Want You Back", "Stayin Alive"]
+        "elements": ["Candy Girl", "You Got It (The Right Stuff)", "I Want You Back", "Stayin Alive"]
       },
       {
         "color": "#78DAF9",
