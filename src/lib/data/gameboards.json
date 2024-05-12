@@ -1388,28 +1388,28 @@
     "twitter": ""
   },
   "5/13/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7oNaeFQW1myowGU8KZK4kZ?si=fc14fb5a1dcf40b0",
+    "gameoverGif": "https://media.tenor.com/OqfHWG2b8iQAAAAM/no-doubt-gwen-stefani.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Ladies of the 80's",
+        "elements": ["Madonna", "Kate Bush", "Pat Benatar", "Joan Jett"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Rock Bands with Female Leads",
+        "elements": ["Paramore", "No Doubt", "The Cranberries", "Fleetwood Mac"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Nirvana’s \"Smells Like Teen Spirit\"",
+        "elements": ["Load Up On Guns", "Bring Your Friends", "Here We Are Now", "Entertain Us"]
       },
       {
         "color": "#FFBC21",
-        "name": "Songs About Indecision",
-        "elements": ["Hot N Cold", "I Can't Make Up My Mind"]
+        "name": "Songs Titled Crazy ______",
+        "elements": ["Train", "Rap", "In Love", "On You"]
       }
     ],
     "shoutout": false,
@@ -1420,5 +1420,211 @@
     "youtube": "",
     "twitch": "",
     "twitter": ""
+  },
+  "5/14/2024": {
+    "playlist": "https://open.spotify.com/playlist/1rqdiCjRYOLYEBivXiKkIb?si=9b7c4bb655454a6f",
+    "gameoverGif": "https://media0.giphy.com/media/6YBug4vIMVO36/200w.gif?cid=6c09b9524wefwe6rd7gkmemouufn1cgm37pm14a8qrga93cr&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Billboard Top 100 in 2005",
+        "elements": ["Boulevard of Broken Dreams", "Mr. Brightside", "Gold Digger", "Let Me Love You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from The White Stripes \"White Blood Sells\"",
+        "elements": ["Dead Leaves in the Dirty Ground",	"Fell In Love with a Girl", "We're Going to be Friends", "Hotel Yorba"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs with First Names in the Title",
+        "elements": ["Stacy's Mom",	"Scotty Doesn't Know", "867-5309 / Jenny", "Sarah"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Twilight Movies",
+        "elements": ["Rosyln",	"Decode",	"Belle's Lullaby", "Supermassive Black Hole"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "scottie rennolds",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/scottierennolds/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/playlist/5aEgl4F4XYTG8kj18UGPgj?si=668dc98d7f464aec"
+  },
+  "5/15/2024": {
+    "playlist": "https://open.spotify.com/playlist/0VyKJo3dJVbc4FsY5E7BcH?si=79947fa208d24019",
+    "gameoverGif": "https://media1.giphy.com/media/ZUwjT4TrkElu8/giphy.gif?cid=6c09b952sfp6pvls6pmpm2e130mgvizk09wqfosvlo34litw&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Metallica",
+        "elements": ["Enter Sandman", "Master of Puppets", "For Whom The Bell Tolls", "Fade to Black"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hip Hop Duos",
+        "elements": ["OutKast", "Salt-N-Pepa", "Run the Jewels", "Method Man and Redman"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famous Rap Diss Tracks",
+        "elements": ["Hit 'Em Up", "Killshot", "Not Like Us", "Family Matters"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Members of N.W.A.",
+        "elements": ["Ice Cube", "Dr. Dre",	"MC Ren",	"Eazy-E"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/16/2024": {
+    "playlist": "https://open.spotify.com/playlist/7gw6iSmtDTkfwfwyQl4J00?si=e0fded642c784ed9",
+    "gameoverGif": "https://bestgifs.makeagif.com/wp-content/uploads/2015/06/ezgif.com-resize.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by One Direction",
+        "elements": ["What Makes You Beautiful", "Night Changes", "Steal My Girl", "Best Song Ever"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Lana Del Rey's \"Summertime Saddness\"",
+        "elements": ["Kiss Me Hard", "Before You Go", "I Just Wanted You To Know", "Feel It In the Air"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from Ye's \"The College Dropout\"",
+        "elements": ["All Falls Down", "Jesus Walks", "Through The Wire", "Slow Jamz"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Got Sued for Copyright",
+        "elements": ["Blurred Lines", "Ice Ice Baby", "Thinking Out Lou", "Dark Horse"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/17/2024": {
+    "playlist": "https://open.spotify.com/playlist/6gugKoQxuPTz9y4PqE4BRe?si=39d7a64aa33e467b",
+    "gameoverGif": "https://i.pinimg.com/originals/c5/50/75/c55075c56619e546a58dda0539ae5c72.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Weeknd",
+        "elements": ["Starboy", "Blinding Lights", "Save Your Tears", "The Hills"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to M.I.A.'s \"Paper Planes\"",
+        "elements": ["Fly Like Paper", "High Like Planes", "Come Around Here", "Make 'Em All Day"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs about Silence",
+        "elements": ["Don't Say A Word", "4'33\"", "Don't Speak", "Sound of Silence"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Grammy Record of the Year in the 2020's",
+        "elements": ["Flowers", "About Damn Time", "Everything I Wanted", "Bad Guy"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/18/2024": {
+    "playlist": "https://open.spotify.com/playlist/3EKj3lBfWJMR2pzsjPZ2hp?si=0a1912217c2f4aeb",
+    "gameoverGif": "https://25.media.tumblr.com/bb6b23b67d52c83418e78a823158a43e/tumblr_mv6vfd2e2Q1snhuwgo1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The All-American Rejects",
+        "elements": ["Gives You Hell", "Swing, Swing", "Move Along", "Dirty Little Secret"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs By One Direction Members",
+        "elements": ["PILLOWTALK", "Late Night Talking", "Slow Hands", "Strip That Down"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Nu Metal Bands",
+        "elements": ["Korn", "System of a Down", "Linkin Park", "Slipknot"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Cigarettes",
+        "elements": ["Ode to Viceroy", "Cocoa Butter Kisses", "Cigarette Daydreams", "Cigarettes out the Window"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
+  "5/19/2024": {
+    "playlist": "https://open.spotify.com/playlist/7pSlVTKWtiCg8SKdeJyRD3?si=e6abd4bb62354ad6",
+    "gameoverGif": "https://media1.giphy.com/media/aORJE7BFUn6LK5Ub0Z/giphy.gif?cid=6c09b952wcfzd9yz1z988lx8q8a7fdb2xacojfcb4iahyv6o&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Olivia Rodrigo Songs",
+        "elements": ["good 4 u", "drivers license", "all-american bitch", "vampire"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "British Artists",
+        "elements": ["PinkPantheress", "Little Simz", "Bakar", "Charli XCX"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs With 4 In The Title",
+        "elements": ["4EVER", "untitled 04", "4:44", "745"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featured On GTA 5's Non Stop Pop FM",
+        "elements": ["Everything She Wants", "Gimme More", "Don't Wanna Fall In Love", "West End Girls"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "max hitchman",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/Max_hitchman10",
+    "spotify": ""
   }
 }
