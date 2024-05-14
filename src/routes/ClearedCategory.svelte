@@ -61,7 +61,7 @@
 h2 {
     position: relative;
     left: 50;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: -12px;
     width: 95%;
 }
