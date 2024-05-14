@@ -636,6 +636,9 @@
   </div>
   {/if}
 
+  <div class="ad-space">
+  </div>
+
   
 
   <div class="footer">
@@ -1079,5 +1082,9 @@
 
     .shoutout {
       margin-bottom: 10px;
+    }
+
+    .ad-space {
+      height: 100px;
     }
 </style>
