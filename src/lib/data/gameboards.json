@@ -1501,7 +1501,7 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Lyrics to Lana Del Rey's \"Summertime Saddness\"",
+        "name": "Lyrics to Lana Del Rey's \"Summertime Sadness\"",
         "elements": ["Kiss Me Hard", "Before You Go", "I Just Wanted You To Know", "Feel It In the Air"]
       },
       {
@@ -1512,7 +1512,7 @@
       {
         "color": "#FFBC21",
         "name": "Songs That Got Sued for Copyright",
-        "elements": ["Blurred Lines", "Ice Ice Baby", "Thinking Out Lou", "Dark Horse"]
+        "elements": ["Blurred Lines", "Ice Ice Baby", "Thinking Out Loud", "Dark Horse"]
       }
     ],
     "shoutout": false,
