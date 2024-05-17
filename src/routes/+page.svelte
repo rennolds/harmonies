@@ -1,5 +1,7 @@
 <script>
     import posthog from 'posthog-js'
+    import moment from "moment";
+    import "moment-timezone";
     import { flip } from 'svelte/animate';
     import { writable } from 'svelte/store';
     import { fade, fly, slide, scale } from 'svelte/transition';
@@ -33,37 +35,40 @@
         return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
     } 
 
-    let timeUntilMidnightET = 0;
+    let timeUntilFourAMUTC = 0;
     let timer = null;
 
     function updateTimer() {
-        const now = new Date();
-        const midnightET = new Date(now);
-        midnightET.setUTCHours(4, 0, 0, 0); // 4 AM UTC = Midnight ET
+      const now = moment(); // Current time in user's timezone
 
-        if (now > midnightET) {
-            midnightET.setDate(midnightET.getDate() + 1); // Increment to next day
-        }
+      const fourAMUTC = moment(now).utc().startOf("day").add(4, "hours"); // 4 AM UTC
 
-        timeUntilMidnightET = midnightET - now;
+      if (now > fourAMUTC) {
+        fourAMUTC.add(1, "days"); // Increment to next day if already passed
+      }
+
+      timeUntilFourAMUTC = fourAMUTC.diff(now); // Difference in milliseconds
     }
 
     function formatTime(milliseconds) {
-        const totalSeconds = Math.floor(milliseconds / 1000);
-        const hours = Math.floor(totalSeconds / 3600);
-        const minutes = Math.floor((totalSeconds % 3600) / 60);
-        const seconds = totalSeconds % 60;
+      const totalSeconds = Math.floor(milliseconds / 1000);
+      const hours = Math.floor(totalSeconds / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
 
-        return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+      return `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
     }
 
     function startTimer() {
-        timer = setInterval(updateTimer, 1000);
+      updateTimer(); // Run once to initialize
+      timer = setInterval(updateTimer, 1000);
     }
 
     startTimer();
 
-    const todaysDate = getEasternTimeDate();
+    moment.tz.setDefault('UTC');
+    const todaysDate = moment().utc().format("MM/DD/YYYY"); // Current date in UTC
+
     const categories = gameBoards[todaysDate.toString()]["categories"] || [];
     const shoutout = gameBoards[todaysDate.toString()]["shoutout"] || false;
     const shoutoutName = gameBoards[todaysDate.toString()]["shoutout-name"] || "";
@@ -441,7 +446,7 @@
         <div out:scale class="gameover-gif"><img {src} alt="Game over gif"></div>
         <!-- <ResultGrid bind:guesses={$guessHistory}></ResultGrid> -->
       <h2>Next Board</h2>
-      <p class="timer">{formatTime(timeUntilMidnightET)}</p>
+      <p class="timer">{formatTime(timeUntilFourAMUTC)}</p>
 
       <button on:click={shareResult} style="background-color: #000;" class="results-button">SHARE RESULT</button>
       <a href="https://spotle.io" target="_blank"><button style="background-color: #1DB954;" class="results-button">PLAY SPOTLE</button></a>
