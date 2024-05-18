@@ -5,13 +5,12 @@
   
     color: #aaa;
     background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
+    color-scheme: light;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    color-scheme: only light;
   }
   
   body {
@@ -30,3 +29,9 @@
   html, body {
     overflow-x: hidden;
   }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
+    }
+}
