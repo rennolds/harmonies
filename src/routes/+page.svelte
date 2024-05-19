@@ -414,6 +414,8 @@
 
         const wordsCount = text.split(' ').length;
         const manyWords = wordsCount >= 5;
+        const emoTitle = wordsCount >= 10
+        const superEmoTitle = wordsCount >= 13
 
         // If a long word is found, reduce the font size
         if ((longWord && !reallyLongWord) || manyWords) {
@@ -425,6 +427,15 @@
         } else if (shortWord) {
           const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
           paragraph.style.fontSize = (currentFontSize * 1.2) + 'px';
+        }
+
+        if (emoTitle) {
+          const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
+          paragraph.style.fontSize = (currentFontSize * 0.7) + 'px';
+        }
+        if (superEmoTitle) {
+          const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
+          paragraph.style.fontSize = (currentFontSize * 0.9) + 'px';
         }
       });
     });

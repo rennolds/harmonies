@@ -18,10 +18,17 @@
     };
     
 </script>
+{#if category.name == "Unhinged Emo Song Titles (I Promise)"}
+<div transition:customTransition style="background-color: {category.color}" class="full-row">
+    <h2>{category.name}</h2>
+    <p>...Guys Like Us In Prison, Lying Is The Most Fun..., Okay I Believe You..., Buy A Fire Extinguisher...</p>
+</div>
+{:else}
 <div transition:customTransition style="background-color: {category.color}" class="full-row">
     <h2>{category.name}</h2>
     <p>{category.elements[0]}, {category.elements[1]}, {category.elements[2]}, {category.elements[3]}</p>
 </div>
+{/if}
 
 <style>
 
