@@ -1838,6 +1838,41 @@
     "spotify": ""
   },
   "05/26/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/27/2024": {
     "playlist": "https://open.spotify.com/playlist/1tU8fxBj17UGLBoktHLpNE?si=37df14d8bbaa4df5",
     "gameoverGif": "https://media0.giphy.com/media/ckohjRxrP1ey4/giphy.gif?cid=6c09b9522n9dxwtcd1f7f7r1d355ng69vqji85lxu6udu7y1&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
@@ -1872,7 +1907,7 @@
     "twitter": "",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
-  "05/27/2024": {
+  "05/28/2024": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
