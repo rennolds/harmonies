@@ -66,8 +66,8 @@
 
     startTimer();
 
-    moment.tz.setDefault('UTC');
-    const todaysDate = moment().utc().format("MM/DD/YYYY"); // Current date in UTC
+    moment.tz.setDefault('America/New_York');
+    const todaysDate = moment().tz('America/New_York').format("MM/DD/YYYY");
 
     const categories = gameBoards[todaysDate.toString()]["categories"] || [];
     const shoutout = gameBoards[todaysDate.toString()]["shoutout"] || false;
@@ -123,7 +123,7 @@
     let helpOverlay = false;
     const today = getEasternTimeDate();
     
-    if ($currentGameDate == today) {
+    if ($currentGameDate == todaysDate) {
       if ($mistakeCount >= 4) {
         gameoverStore.set({
           isOver: true,
@@ -155,7 +155,7 @@
       }
     } 
     else { // stale game, reset
-      $currentGameDate = today;
+      $currentGameDate = todaysDate;
       $mistakeCount = 0;
       $clearedCategories = [];
       $guessHistory = [];
