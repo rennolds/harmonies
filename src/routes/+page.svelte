@@ -691,8 +691,8 @@
     }
 
     .gameover-gif img {
-      width: 250px;
-      height: 250px;
+      width: 230px;
+      height: 230px;
       border-radius: 5px;
     }
 
