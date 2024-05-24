@@ -75,7 +75,7 @@
 <style>
     .help-overlay {
       position: absolute;
-      top: 52%; /* Position at the vertical center */
+      top: 45%; /* Position at the vertical center */
       left: 50%; /* Position at the horizontal center */
       transform: translate(-50%, -50%); /* Center the element */
       width: 370px;
