@@ -674,7 +674,7 @@
 
     .gameover-overlay {
       position: absolute;
-      top: 50%; /* Position at the vertical center */
+      top: 35%; /* Position at the vertical center */
       left: 50%; /* Position at the horizontal center */
       transform: translate(-50%, -50%); /* Center the element */
       background-color: white; /* Semi-transparent black overlay */
