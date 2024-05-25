@@ -698,20 +698,20 @@
 
     .gameover-overlay h1 {
       color: #000;
-        font-size: 24px;
-        font-weight: 600;
-        margin: 10px 0; /* Adjust margin for spacing between elements */
-        margin-top: -10px;
-        text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+      margin: 10px 0;
+      margin-top: -10px;
+      text-align: center;
     }
 
     .gameover-overlay h2,
     .timer {
-        color: #000;
-        font-size: 20px;
-        font-weight: 500;
-        margin: 10px 0; /* Adjust margin for spacing between elements */
-        text-align: center;
+      color: #000;
+      font-size: 20px;
+      font-weight: 500;
+      margin: 10px 0;
+      text-align: center;
     }
 
     .timer {

@@ -1839,27 +1839,27 @@
   },
   "05/26/2024": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media2.giphy.com/media/2wZYbP0cJgDZL569XJ/200.gif?cid=6c09b952yr88lhropzfa6nmalu5m36ahxqvatfr3mb9z3p6h&ep=v1_internal_gif_by_id&rid=200.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Songs by B.o.B",
+        "elements": ["HeadBand", "Airplanes", "Magic", "Nothin' on You"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Tracks from Kendrick Lamar's \"DAMN.\"",
+        "elements": ["DNA", "HUMBLE", "DUCKWORTH", "LOVE"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Post Malone's \"Sunflower\"",
+        "elements": ["Needless To Say", "Left In The Dust", "I'm A Wreck", "Losing Your Grip"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs with Famous Flute Parts",
+        "elements": ["About Damn Time", "Mask Off", "My Heart Will Go On", "Send Me On My Way"]
       }
     ],
     "shoutout": false,
@@ -1908,8 +1908,8 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "05/28/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5KQE6ZFjBlOb5aa2io8R8O?si=9d30816f727749c0",
+    "gameoverGif": "https://open.spotify.com/playlist/5KQE6ZFjBlOb5aa2io8R8O?si=9d30816f727749c0",
     "categories": [
       {
         "color": "#CBff70",
@@ -1930,6 +1930,181 @@
         "color": "#FFBC21",
         "name": "Artists Described As Kings/Queens of Their Genre",
         "elements": ["Elvis Presley", "Michael Jackson", "Aretha Franklin", "Madonna"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/29/2024": {
+    "playlist": "https://open.spotify.com/playlist/5B8Oj4rfLQpIRCPSPb2mIC?si=0abf2b3ae6e844d9",
+    "gameoverGif": "https://media4.giphy.com/media/egA43xHq70g82lzQzM/giphy.gif?cid=6c09b95206jhsyfma2z7im2bm8ol403zuqnk9xca5dtbdj40&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Food Inclusive Artists",
+        "elements": ["Red Hot Chili Peppers", "Black Eyed Peas", "Peach Pit", "Blue Öyster Cult"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Young/Yung Artists",
+        "elements": ["Lean", "Gravy", "Thug", "Dolph"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Tracks from MF DOOM's \"MM..FOOD\"",
+        "elements": ["Beef Rap", "Hoe Cakes", "One Beer", "Rapp Snitch Knishes"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Old Names of Famous Bands",
+        "elements": ["Polka Tulk Blues Band", "Wicked Lester", "The New Yardbirds", "The Rattlesnakes"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "michael gagin",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/user/gagimic?si=bb9e939cb9f1465a"
+  },
+  "05/30/2024": {
+    "playlist": "https://open.spotify.com/playlist/0ops2WvWkdMBK0BIuFj8W2?si=9e737a68518f4382",
+    "gameoverGif": "https://media.tenor.com/bqHqCXg476sAAAAM/shakira-me.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs about Japan",
+        "elements": ["Lovers in Japan", "Lost in Japan", "Tokyo (Vampires & Wolves)", "Kyoto"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Shakira Songs",
+        "elements": ["Hips Don't Lie", "Whenever, Wherever", "She Wolf", "Waka Waka"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Indie Rock Bands",
+        "elements": ["Vampire Weekend", "Blur", "The Killers", "Modest Mouse"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs From Disney Kids",
+        "elements": ["vampire", "Same Old Love", "Party in the U.S.A.", "Cool For The Summer"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/31/2024": {
+    "playlist": "https://open.spotify.com/playlist/50RsdLDLimvA5IVBZ1660A?si=90d1ff3105844fb5",
+    "gameoverGif": "https://gifdb.com/images/high/snoop-dogg-removing-sun-glasses-rv6oaw6pg3btkwgd.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Snoop Dogg Songs",
+        "elements": ["Young, Wild, & Free", "Drop It Like It's Hot", "Gin and Juice", "Beautiful"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Billboard Hot 100 in 2008",
+        "elements": ["Pocketful of Sunshine", "Bleeding Love", "Lollipop", "Apologize"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to The Script's \"Breakeven\"",
+        "elements": ["I'm Still Alive", "I'm Barely Breathing", "When a Heart Breaks", "While I'm Wide Awake"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs With Famous Piano Intros",
+        "elements": ["Don't Stop Believin'", "A Thousand Miles", "Piano Man", "Still D.R.E."]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/01/2024": {
+    "playlist": "https://open.spotify.com/playlist/6ubWAuD7ayhiLHGAU9gGMi?si=a88db9b2ade84820",
+    "gameoverGif": "https://64.media.tumblr.com/8d9d03dc87c14c421f36ab4ad54affcd/tumblr_mxtsawEPi11shsvhho1_400.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Maroon 5's \"Songs About Jane\"",
+        "elements": ["She Will Be Loved", "Sunday Morning", "This Love", "Harder To Breathe"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Chance the Rapper",
+        "elements": ["Cross Me", "Holy", "All My Friends", "Sunday Candy"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Indie Pop Radio Hits",
+        "elements": ["Shut Up and Dance", "Sunday Best", "Riptide", "Pumped Up Kicks"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Fridays",
+        "elements": ["Friday I'm in Love", "Last Friday Night (T.G.I.F.)", "Freaky Friday", "Friday"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/02/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
       }
     ],
     "shoutout": false,
