@@ -2083,34 +2083,34 @@
     "spotify": ""
   },
   "06/02/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4ZTVE23u5zf0PGS56DHQDl?si=60df5e0e7b1d4201",
+    "gameoverGif": "https://i.pinimg.com/originals/1b/0c/41/1b0c41732c6f13ee15be003b68c074c7.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Supergroup Trios",
+        "elements": ["Major Lazer", "boygenius", "LSD", "Swedish House Mafia"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Songs With Red Titles",
+        "elements": ["Redbone", "Paint The Town Red", "Dark Red", "Redlight"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Songs That Won the Eurovision",
+        "elements": ["Euphoria", "Zitti E Buoni", "Waterloo", "Arcade"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs by Couples That Broke Up",
+        "elements": ["Him & I", "Nobody's Business", "Senorita", "Too Good"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
-    "instagram": "",
+    "shoutout": true,
+    "shoutout-name": "rezlerkasia",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/rezlerkasia/",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
