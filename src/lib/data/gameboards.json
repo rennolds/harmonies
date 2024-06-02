@@ -2116,5 +2116,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/03/2024": {
+    "playlist": "https://open.spotify.com/playlist/2CdhBiVmJ6sW5piBFMn3MD?si=2d67fd18acb14712",
+    "gameoverGif": "https://media.tenor.com/xG-9u7LjsHcAAAAM/john-denver-take-me-home.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums By The Beatles",
+        "elements": ["Abbey Road", "Let It Be", "Help!", "Revolver"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs About Roads",
+        "elements": ["Boulevard of Broken Dreams", "Take Me Home, Country Roads", "Ocean Avenue", "Highway to Hell"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Rascal Flatts \"Life is a Highway\"",
+        "elements": ["A Road You Travel On", "I Wanna Ride It", "All Night Long", "You're Goin' My Way"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Country Subgenres",
+        "elements": ["Outlaw", "Western Swing", "Honky Tonk",	"Christian"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
