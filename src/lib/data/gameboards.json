@@ -2151,5 +2151,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/04/2024": {
+    "playlist": "https://open.spotify.com/playlist/35cvu3XXRtlXfXPzaD4l4G?si=4d8388e7ad0e4b31",
+    "gameoverGif": "https://y.yarn.co/ab1ec91c-4326-447f-938b-c693793f5138_text.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to Jay-Z's \"Izzo (H.O.V.A.)\"",
+        "elements": ["Not Guilty", "Y'all Got To Feel Me", "The Game Needs Me", "The Flow of the Century"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with U.S. State Titles",
+        "elements": ["Georgia On My Mind", "Sweet Home Alabama", "Dani California", "Ohio Is For Lovers"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Radio Hits Written for Movie Soundtracks",
+        "elements": ["Lose Yourself", "Heathens", "Barbie World", "Shallow"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featuring Spelling",
+        "elements": ["Hollaback Girl", "Respect", "Fergalicious", "Angel"]
+
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "justin makowski",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
