@@ -2188,5 +2188,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/05/2024": {
+    "playlist": "https://open.spotify.com/playlist/6tdRj0JFkuBIMYXJXN1X0p?si=38ec70a81fda4530",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR2kdyORVUcwWzmNxlMOSRXqmQ6CiP4wqUow&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Justin Bieber Songs",
+        "elements": ["Sorry", "One Less Lonely Girl", "Peaches", "Ghost"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Billboard Hot 100 in 2011",
+        "elements": ["Give Me Everything", "E.T.", "Rolling in the Deep", "Blow"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Fallout Boy's \"Sugar, We're Goin Down\"",
+        "elements": ["More Than You Bargined For", "Anything You Want to Hear", "Drop a Heart", "Make a Name"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featuring Children's Songs",
+        "elements": ["Eenie Meenie", "Chain Hang Low", "Mockingbird", "abcdefu"]
+
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
