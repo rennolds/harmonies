@@ -2225,5 +2225,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/06/2024": {
+    "playlist": "https://open.spotify.com/playlist/5dU8hCtgJOLr40DJky6Bx5?si=bcbe691d45f64239",
+    "gameoverGif": "https://i.makeagif.com/media/6-01-2015/1-QQxy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to Cher's \"Believe\"",
+        "elements": ["Do You Believe", "Life After Love", "You're Strong Enough", "After Love"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Taylor Swift's \"1989\"",
+        "elements": ["Wildest Dreams", "Shake It Off", "Clean", "Blank Space"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Booty Songs",
+        "elements": ["Shake That", "Bounce Back", "Bootylicious", "Juicy"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from the Cyrus Family",
+        "elements": ["Wrecking Ball", "Achy Breaky Heart", "July", "Shake It"]
+
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
