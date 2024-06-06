@@ -2250,7 +2250,42 @@
         "color": "#FFBC21",
         "name": "Songs from the Cyrus Family",
         "elements": ["Wrecking Ball", "Achy Breaky Heart", "July", "Shake It"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/07/2024": {
+    "playlist": "https://open.spotify.com/playlist/7pqAJC4AtMpptZT0fQxe5t?si=abdf7310de204583",
+    "gameoverGif": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fmac-miller-gifs&psig=AOvVaw2mys4xJFU8L-0yZ5VFGG45&ust=1717803949830000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiwoMSUyIYDFQAAAAAdAAAAABAI",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Mac Miller Songs",
+        "elements": ["Small Worlds", "Self Care", "The Spins", "Donald Trump"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Country Artists",
+        "elements": ["Tim McGraw", "Luke Combs", "Garth Brooks", "Toby Keith"]
 
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Mark Ronson's \"Uptown Funk\"",
+        "elements": ["Stop", "Wait a Minute", "Michelle Pfeiffer", "White Gold"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Named After Actors",
+        "elements": ["pete davidson", "Clint Eastwood", "Uma Thurman", "Drew Barrymore"]
       }
     ],
     "shoutout": false,
