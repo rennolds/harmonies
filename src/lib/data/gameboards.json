@@ -2297,5 +2297,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/08/2024": {
+    "playlist": "https://open.spotify.com/playlist/3f9B0j7Cjm64zu5QBJF58S?si=7462150b59a74d74",
+    "gameoverGif": "https://media1.giphy.com/media/ey1K34IQcE2Ry/giphy.gif?cid=6c09b952jlwif2zhijmuucfatudvl982rjntlhol1lf4swdr&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Radiohead Songs",
+        "elements": ["Creep", "No Surprises", "Jigsaw Falling Into Place", "Karma Police"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bands Formed in London",
+        "elements": ["Sex Pistols", "The Police", "Coldplay", "Fleetwood Mac"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Dr. Dre's \"Still D.R.E.\"",
+        "elements": ["Not Loving Police", "Taking My Time", "Perfect The Beat", "Love for the Streets"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands With Siblings",
+        "elements": ["The Beach Boys", "Jonas Brothers", "Bee Gees", "Oasis"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
