@@ -2333,5 +2333,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/09/2024": {
+    "playlist": "https://open.spotify.com/playlist/3sPBqCSuOY3VWn53Y1dOvd?si=0496f52446324a14",
+    "gameoverGif": "https://media4.giphy.com/media/TAKzeFWaSuTrXNlbRT/giphy.gif?cid=6c09b952n0r43bq8q34fzaertnjhzrno6rvqpyztsh2ton2h&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Geographical Song Titles",
+        "elements": ["Virginia Beach", "Shibuya", "Down in Atlanta", "Ni**as in Paris"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drake Project Openers",
+        "elements": ["Survival", "Free Smoke", "Tuscan Leather", "Lust for Life"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from Young Thug's \"Jeffery\"",
+        "elements": ["Harambe", "Kanye West", "RiRi", "Wyclef Jean"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "The Blueprint 3 Features",
+        "elements": ["Pharrell Williams", "Alicia Keys", "Mr Hudson", "Kid Cudi"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chriscaldwelljr",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
