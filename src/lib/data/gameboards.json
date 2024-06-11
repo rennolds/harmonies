@@ -2407,33 +2407,32 @@
     "spotify": ""
   },
   "06/11/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0mTX3LGSduvfgB4SraFqr8?si=eb67ed5a9fd04fa1",
+    "gameoverGif": "https://media3.giphy.com/media/IhDXuw3zPWIiRcbdBJ/200w.gif?cid=6c09b952b06itui8zg1t8vxdzu48xjvoma5l5c2rgqslx2q8&ep=v1_gifs_search&rid=200w.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Composed by Beethoven",
+        "elements": ["Fur Elise", "Moonlight Sonata", "Pathetique", "Symphony No. 5 in Cm"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
-
+        "name": "Modern Composers",
+        "elements": ["Ludovico Einaudi", "Hans Zimmer", "John Williams", "Max Richter"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Composers From the Romantic Era",
+        "elements": ["Tchaikovsky", "Ludwig van Beethoven", "Frederic Chopin", "Franz Liszt"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Featuring Canon in D",
+        "elements": ["Canon in D", "Memories", "Graduation (Friends Forever)", "Basket Case"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
+    "shoutout": true,
+    "shoutout-name": "justin makowski",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
