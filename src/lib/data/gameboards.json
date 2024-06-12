@@ -2442,29 +2442,29 @@
     "spotify": ""
   },
   "06/12/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/79RP119lVdtNbE3jm4Q11D?si=70acb4909cc3433a",
+    "gameoverGif": "https://media0.giphy.com/media/DhTwJMQWSVN3G/giphy.gif?cid=6c09b952xhitgdmqro0gytkl654qj40902pheuqv5vf3kdso&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Eminem Songs",
+        "elements": ["Without Me", "Houdini", "Till I Collapse", "Stan"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Linkin Park Albums",
+        "elements": ["Hybrid Theory", "Meteora", "Minutes to Midnight", "LIVING THINGS"]
 
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Featuring: Skylar Grey",
+        "elements": ["Glorious", "Coming Home", "I Need A Doctor", "Where'd You Go"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Featuring Children's Rhymes",
+        "elements": ["Eenie Meenie", "Chain Hang Low", "Mockingbird", "abcdefu"]
       }
     ],
     "shoutout": false,
