@@ -2583,33 +2583,281 @@
     "spotify": ""
   },
   "06/16/2024": {
+    "playlist": "https://open.spotify.com/playlist/2WCD2ZAaIQH3k9Hbade0OJ?si=3882d056fed5478a",
+    "gameoverGif": "https://media0.giphy.com/media/3orieTQZvJhK7UQZ4k/giphy.gif?cid=6c09b952wgr19nnjftq928sjb45oejbip8mugdx2p85poulu&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs Featuring Caffeine",
+        "elements": ["Espresso", "Coffee", "Suga Honey Iced Tea", "Red Bull & Hennessy"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Breakout Debut Singles",
+        "elements": ["...Baby One More Time", "Just Dance", "Old Town Road", "Creep"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Named After Cocktails",
+        "elements": ["Gin and Juice", "Bloody Mary", "Julep", "Hurricane"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featuring Whistling",
+        "elements": ["Young Folks", "Pumped Up Kicks", "Sucker", "I Wanna Go"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@seventysix",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/seventysix/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/17/2024": {
+    "playlist": "https://open.spotify.com/playlist/5S8Fx3qNUTVaqP4sYvN3Uf?si=37efef3897954e6f",
+    "gameoverGif": "https://i.imgur.com/4Bo4eGD.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Actors Who Rap",
+        "elements": ["Donald Glover", "Ice Cube", "Will Smith",	"Mark Wahlberg"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "From Fall Out Boy's \"We Didn't Start the Fire\" Remake",
+        "elements": ["Stranger Things", "Tiger King", "Ever Given", "Suez"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "From Billy Joel's \"We Didn't Start the Fire\"",
+        "elements": ["British politician sex", "JFK", "Blown Away", "What else do I have to say?"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands Named After Historical Figures",
+        "elements": ["Franz Ferdinand", "Dead Kennedys", "Jethro Tull", "Paul Revere and The Raiders"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/18/2024": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
       {
         "color": "#CBff70",
         "name": "",
-        "elements": [""]
+        "elements": ["", "", "", ""]
       },
       {
         "color": "#FAA3FF",
         "name": "",
-        "elements": [""]
-
+        "elements": ["", "", "", ""]
       },
       {
         "color": "#78DAF9",
         "name": "",
-        "elements": [""]
+        "elements": ["", "", "", ""]
       },
       {
         "color": "#FFBC21",
         "name": "",
-        "elements": [""]
+        "elements": ["", "", "", ""]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/19/2024": {
+    "playlist": "",
+    "gameoverGif": "https://media2.giphy.com/media/vsP6JKMkh9TZm/giphy.gif?cid=6c09b952zh5z2c05gzza9rksj4espligdt2z77ydenl7d1xt&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Killers",
+        "elements": ["Mr. Brightside", "Somebody Told Me", "When You Were Young", "Human"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Ye's \"808's & Heartbreak\"",
+        "elements": ["Heartless", "Amazing", "Love Lockdown", "Paranoid"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Coldplay's \"The Scientist\"",
+        "elements": ["Come Up To Meet You", "Nobody Said It Was Easy", "How Lovely You Are", "I Set You Apart"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Heartbreak",
+        "elements": ["Bleeding Love", "Jar of Hearts", "Someone Like You", "Un-Break My Heart"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/20/2024": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/QQDmdrvis_YAAAAM/john-mayer-shades.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "John Mayer Songs",
+        "elements": ["Gravity", "Waiting On The World to Change", "Slow Dancing in a Burning Room", "Your Body is a Wonderland"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Musicals",
+        "elements": ["Defying Gravity", "One Day More", "The Hills Are Alive", "All That Jazz"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Disney Songs",
+        "elements": ["Circle of Life", "How Far I'll Go", "Part of Your World", "Let It Go"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Friendship",
+        "elements": ["You've Got a Friend in Me", "All My Friends", "Lean On Me", "With a Little Help From My Friends"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/21/2024": {
+    "playlist": "",
+    "gameoverGif": "https://media2.giphy.com/media/p5rBvAhQ54yPK/giphy.gif?cid=6c09b952kfcnhf1h3byekzfzjyluqez4atlo2mitubwth6ix&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2024 Pop Girl Albums",
+        "elements": ["Eternal Sunshine", "Brat", "Radical Optimism", "Hit Me Hard And Soft"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rhyming Song Titles",
+        "elements": ["Helter Skelter", "Hells Bells", "Super Trouper", "My Guy"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 in 1995",
+        "elements": ["Gangsta's Paradise", "Waterfalls", "On Bended Knee", "Fantasy"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Being Unfaithful",
+        "elements": ["Confessions Part II", "Unfaithful", "It Wasn't Me", "Lips of an Angel"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/22/2024": {
+    "playlist": "",
+    "gameoverGif": "https://media0.giphy.com/media/d39RAnDbfqf4XVd66T/giphy.gif?cid=6c09b952mgkydx8yfjgug6is6om3mqf5mplmddw9vdadgugy&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs Named After Movies",
+        "elements": ["Kill Bill", "Dirty Harry", "Iron Man", "Godzilla"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Fall Out Boy Albums",
+        "elements": ["From Under The Cork Tree", "Take This To Your Grave", "Save Rock and Roll", "American Beauty/American Psycho"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Ariana Grande's \"7 rings\"",
+        "elements": ["Breakfast at Tiffany's", "Bottles of Bubbles", "I Want It", "I Got It"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Quentin Tarantino Movies",
+        "elements": ["Stuck In The Middle With You", "Across 110th Street", "Misirlou", "You Never Can Tell"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/23/2024": {
+    "playlist": "",
+    "gameoverGif": "https://media4.giphy.com/media/3osxY3V7tDf01wyFNK/giphy.gif?cid=6c09b952k3uubswktidphopcir42e0116ozqggllw1ayvf6w&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g  ",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lonely Island SNL Digital Shorts",
+        "elements": ["I Just Had Sex", "I'm On a Boat", "Dick In a Box", "Natalie's Rap"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists In NFL Relationships",
+        "elements": ["Taylor Swift", "Hailee Steinfield", "Ciara", "Jessica Simpson"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Music Videos Featuring Kardashians/Jenners",
+        "elements": ["Don't Panic", "Bound 2", "Freaky Friday", "thank u, next"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2000's Hit Songs as TV Themes",
+        "elements": ["I Don't Want To Be", "Unwritten", "California", "Come Clean"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "nicole rennolds",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
