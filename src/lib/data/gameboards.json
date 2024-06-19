@@ -2690,7 +2690,7 @@
     "spotify": ""
   },
   "06/19/2024": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/7j0zQr1yodY3UINrRrFMN9?si=2e47703ad05d4e70",
     "gameoverGif": "https://media2.giphy.com/media/vsP6JKMkh9TZm/giphy.gif?cid=6c09b952zh5z2c05gzza9rksj4espligdt2z77ydenl7d1xt&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
@@ -2711,7 +2711,7 @@
       {
         "color": "#FFBC21",
         "name": "Songs About Heartbreak",
-        "elements": ["Bleeding Love", "Jar of Hearts", "Someone Like You", "Un-Break My Heart"]
+        "elements": ["Bleeding Love", "jar of hearts", "Someone Like You", "Un-Break My Heart"]
       }
     ],
     "shoutout": false,
