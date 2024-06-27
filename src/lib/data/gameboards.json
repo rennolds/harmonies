@@ -2972,28 +2972,28 @@
     "spotify": ""
   },
   "06/27/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0btqqVBTQcHPWaRZ7H8JAq?si=fc72a2e293cc465b",
+    "gameoverGif": "https://66.media.tumblr.com/04ab072b6366ea4544dc0040e123b198/tumblr_ny9fqc8NMU1tq4of6o1_500.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "The Notorious B.I.G. Songs",
+        "elements": ["Juicy", "Hypnotize", "Mo Money Mo Problems", "Who Shot Ya?"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Kendrick Songs from good kid, m.A.A.d city",
+        "elements": ["Bitch Don't Kill My Vibe", "m.A.A.d city", "Money Trees", "Poetic Justice"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Icona Pop's 'I Don't Care'",
+        "elements": ["I Got This Feeling", "Summer Day", "Let it Burn", "Crashed My Car"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs About Broke Guys",
+        "elements": ["Bills, Bills, Bills", "No Scrubs", "Ain't Shit", "Why Don't You Go Get a Job?"]
       }
     ],
     "shoutout": false,
