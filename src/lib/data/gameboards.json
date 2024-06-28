@@ -3007,28 +3007,28 @@
     "spotify": ""
   },
   "06/28/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5zuzqiWdKcQsKuiUvYavju?si=d3256f1475cc4898",
+    "gameoverGif": "https://media.tenor.com/tKRmWw3pqIQAAAAM/guitar-hero-panic.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Passion Pit Songs",
+        "elements": ["Sleepyhead", "Take a Walk", "Carried Away", "Little Secrets"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Owl City's \"Fireflies\"",
+        "elements": ["Believe Your Eyes", "Fell Asleep", "Turns Slowly", "Teardrops Everywhere"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Featuring Math",
+        "elements": ["2 + 2 = 5", "Long Division", "Less Than Zero", "Half a Person"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Iconic Guitar Hero Songs",
+        "elements": ["Through the Fire and the Flames", "Carry On My Wayward Son", "Hotel California", "Smoke on the Water"]
       }
     ],
     "shoutout": false,
