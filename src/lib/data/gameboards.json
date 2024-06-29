@@ -3042,28 +3042,28 @@
     "spotify": ""
   },
   "06/29/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3vJPhx8LdFbUTd2UXADfHp?si=afd085e93f7b42d3",
+    "gameoverGif": "https://media2.giphy.com/media/EfY6wcaKP35f2CaKs6/200w.gif?cid=6c09b9523633r3fijp4uu8utw417kf04ortsiwamf2eje47s&ep=v1_videos_search&rid=200w.gif&ct=v",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Jack Harlow Tracks",
+        "elements": ["Lovin On Me", "WHATS POPPIN", "Dua Lipa", "Tyler Herro"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "British Rappers",
+        "elements": ["Central Cee", "Dave", "Stormzy", "Skepta"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Rappers Who Famously Went to Jail",
+        "elements": ["Lil Wayne", "YMW Melly", "2Pac", "T.I."]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "2016 XXL Freshman Class",
+        "elements": ["Anderson Paak", "21 Savage", "Lil Yachty", "Lil Uzi Vert"]
       }
     ],
     "shoutout": false,
