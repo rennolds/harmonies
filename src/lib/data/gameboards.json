@@ -3147,28 +3147,28 @@
     "spotify": ""
   },
   "07/02/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/39cedKEnSOfVzVH8QuOEcH?si=b7cdf657af084e7b",
+    "gameoverGif": "https://media1.giphy.com/media/Txxk31amTqhoc/giphy.gif?cid=6c09b952wiu11cyymyrku96cb8pocghzbhjlda8w8emadkfu&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Female Solo Artists of the 2000s",
+        "elements": ["Beyoncé", "Britney Spears", "Rihanna", "Christina Aguilera"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Bands from the 80s",
+        "elements": ["Duran Duran", "The Cure", "Depeche Mode", "A-ha"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Billboard Hot 100 in 2005",
+        "elements": ["Hollaback Girl", "Let Me Love You", "Since U Been Gone", "Gold Digger"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Grammy Record of the Year Winners",
+        "elements": ["Stay with Me", "Bad Guy", "24K Magic", "Royals"]
       }
     ],
     "shoutout": false,
@@ -3252,28 +3252,28 @@
     "spotify": ""
   },
   "07/05/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4O9lfKsSLKjSRQGZSuVlgF?si=470182dd96284298",
+    "gameoverGif": "https://media0.giphy.com/media/3RgyF2nvN9Jja/giphy.gif?cid=6c09b952qadspchoaeld97p6vxehkmxd9xkkfa9jb356rhlh&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Tracks by Daryl Hall & John Oates",
+        "elements": ["Rich Girl", "You Make My Dreams (Come True)", "Maneater", "Sara Smile"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Lyrics to Queen's \"Bohemian Rhapsody\"",
+        "elements": ["Poor Boy", "No Sympathy", "Nothing Really Matters", "No Escape"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Ska Punk 90 Bands",
+        "elements": ["No Doubt", "Sublime", "NOFX", "Less Than Jake"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Featuring: Dr. Dre",
+        "elements": ["No Diggity", "California Love", "Guilty Conscience", "Express Yourself"]
       }
     ],
     "shoutout": false,
