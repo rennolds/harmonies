@@ -3217,39 +3217,40 @@
     "spotify": ""
   },
   "07/04/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1nBfKTIYGYzqdsyLjDebvE?si=5c8c2b24f1e148ba",
+    "gameoverGif": "https://media.tenor.com/U5sfPsQC7fcAAAAM/usa-united-states.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Jonas Brothers Songs",
-        "elements": ["Year 3000", "Sucker", "Only Human", "Burnin' Up"]
+        "name": "Songs about America",
+        "elements": ["Your Best American Girl", "Fourth of July", "Party in the U.S.A.", "American Pie"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Tracks From Charli XCX's \"BRAT\"",
-        "elements": ["360", "Club classics", "Von dutch", "365"]
+        "name": "Bands with American Names",
+        "elements": ["The All-American Rejects", "American Authors", "American Football", "The Presidents of the United States of America"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "American Idol Alumni",
+        "elements": ["Kelly Clarkson", "Phillip Phillips", "Lucky Daye", "Jennifer Hudson"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Albums with American Flag Covers",
+        "elements": ["Live.Love.A$  AP", "Pink Tape", "Born in the U.S.A.", "Stankonia"]
+
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
     "instagram": "",
-    "tiktok": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
     "twitch": "",
     "twitter": "",
-    "spotify": ""
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "07/05/2024": {
     "playlist": "https://open.spotify.com/playlist/4O9lfKsSLKjSRQGZSuVlgF?si=470182dd96284298",
@@ -3292,13 +3293,13 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Jonas Brothers Songs",
+        "elements": ["Year 3000", "Sucker", "Only Human", "Burnin' Up"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Tracks From Charli XCX's \"BRAT\"",
+        "elements": ["360", "Club classics", "Von dutch", "365"]
       },
       {
         "color": "#78DAF9",
