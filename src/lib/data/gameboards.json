@@ -3288,8 +3288,8 @@
     "spotify": ""
   },
   "07/06/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5S0UEUa4DKELJr53dokT8c?si=22a1a9dc0a6f4e62",
+    "gameoverGif": "https://media.tenor.com/RiEyjWZRrB4AAAAM/kanye-kanye-taylor.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -3303,13 +3303,13 @@
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Twenty One Pilots Albums",
+        "elements": ["Clancy", "Vessel", "Trench", "Blurryface"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Album of the Year Grammy Winners 2009-2012",
+        "elements": ["Fearless", "The Suburbs", "21", "Babel"]
       }
     ],
     "shoutout": false,
