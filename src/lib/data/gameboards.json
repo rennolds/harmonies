@@ -3323,28 +3323,273 @@
     "spotify": ""
   },
   "07/07/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/31mDdyWiF38JknirdNJmwV?si=3708d2ec878b428c",
+    "gameoverGif": "https://media.tenor.com/jbP5L0XEoXUAAAAM/terry-crews-white-chicks.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Songs by BROCKHAMPTON",
+        "elements": ["SUGAR", "BOOGIE", "FACE", "Any Way You Want Me"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Songs With \"on\" in the Title",
+        "elements": ["Harlem on Parade", "Dream On", "Look on Down from the Bridge", "Love on the Brain"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Instrumental Songs",
+        "elements": ["Jacob and the Stone", "Agape", "Green to Blue", "QKThr"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Viral Vine Songs",
+        "elements": ["A Thousand Miles", "Don't Drop That Thun Thun", "Shooting Stars", "Let's Get It On"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "julinkaokraglinka",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/julinkaokraglinka",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/08/2024": {
+    "playlist": "https://open.spotify.com/playlist/2rKKL2XiiRtqTIvkNqU2RZ?si=78d811ae8cc942b3",
+    "gameoverGif": "https://media4.giphy.com/media/lXCLl5mExlNbG/giphy.gif?cid=6c09b9527y6nbcj4vbdpsthanv975tly86vozifeu6chtq7g&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Katy Perry Tracks",
+        "elements": ["Firework", "Roar", "Peacock", "Smile"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Girl Group Songs",
+        "elements": ["Waterfalls", "Survivor", "Wannabe", "Baby Love"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Legendary Country Songs",
+        "elements": ["Hurricane", "Ring of Fire", "The Thunder Rolls", "The Gambler"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "From Mulan's \"I'll Make a Man Out of You\"",
+        "elements": ["River", "Typhoon", "Fire", "Moon"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/09/2024": {
+    "playlist": "https://open.spotify.com/playlist/0WHrOxbs4O3aAVMFUL5lrs?si=8dfd3466060143a2",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1E-9TrJqgj9AFnN33GdVdFN7-2i5CqQ5VQ&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Country Artists",
+        "elements": ["Garth Brooks", "Blake Shelton", "Carrie Underwood", "Shania Twain"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Taylor Swift's Debut Album",
+        "elements": ["Picture to Burn", "Tim McGraw", "The Outside", "Our Song"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Arctic Monkeys \"I Wanna Be Yours\"",
+        "elements": ["Vacuum Cleaner", "Ford Cortina", "Coffee Pot", "Portable Heater"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Travelling Wilburys Members",
+        "elements": ["George Harrison", "Tom Petty", "Bob Dylan", "Jeff Lynne"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "joejay",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/10/2024": {
+    "playlist": "https://open.spotify.com/playlist/1HjfghRuh79n5xsI1Kb5qN?si=c96989e0cc704ef2",
+    "gameoverGif": "https://i.makeagif.com/media/3-24-2016/ks3eLg.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs About Aliens",
+        "elements": ["Aliens Exist", "concert for aliens", "E.T.", "Subterranean Homesick Alien"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Halsey",
+        "elements": ["forget me too", "Eastside", "Closer", "Boy With Luv"] 
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Tracks Dissing Eminem",
+        "elements": ["RAP DEVIL", "Loose Change", "Obsessed", "Rap Elvis"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featured in \"Suicide Squad\"",
+        "elements": ["Heathens", "You Don't Own Me", "Without Me", "Bohemian Rhapsody"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/11/2024": {
+    "playlist": "https://open.spotify.com/playlist/7vmN47XZVTt5oOewf3QI3K?si=f32eb8aa3ed249c0",
+    "gameoverGif": "https://steamuserimages-a.akamaihd.net/ugc/913533862978225639/7BE822A4C686E19736E1707167143A386C5BA627/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Beyonce Songs",
+        "elements": ["If I Were a Boy", "Halo", "TEXAS HOLD'EM", "Love On Top"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Nate Dogg",
+        "elements": ["Till I Collapse", "Shake That", "Nobody Does It Better", "Thugs Get Lonely Too"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from The Gorillaz \"Feel Good Inc.\"",
+        "elements": ["Laughing Gas", "Hazmats", "Fast Cats", "I Gravitate"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featuring Eminem & 50 Cent",
+        "elements": ["Crack a Bottle", "Gatman and Robbin", "Remember The Name", "Patiently Waiting"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/12/2024": {
+    "playlist": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi9VFB5x9EuI-dx_HMz52syHUSf2uiNO45Xg&s",
+    "gameoverGif": "https://open.spotify.com/playlist/4TTLdDwBYbNpd9fWtMWlwK?si=0a006fdc7bc84e38",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "K-Pop Groups",
+        "elements": ["NewJeans", "Stray Kids", "BLACKPINK", "BTS"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Filipino Artists",
+        "elements": ["Olivia Rodrigo", "Steve Lacy", "SunKissed Lola", "Ben&Ben"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Japanese Artists",
+        "elements": ["BABYMETAL", "Lamp", "Hikaru Utada", "Miki Matsubara"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Indonesian Artists",
+        "elements": ["Anggun", "Agnez Mo", "Rich Brian", "NIKI"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "07/13/2024": {
+    "playlist": "https://open.spotify.com/playlist/7rTAxrV5gClgWOFNQa85WW?si=f0cb8b3cc278402d",
+    "gameoverGif": "https://media3.giphy.com/media/p8Whh1QXNS0XR4qY8I/200.gif?cid=6c09b952mcvn6vf3ywtme6euxu5vt8xf9s5jh0mzcw4edkgx&ep=v1_internal_gif_by_id&rid=200.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Michael Jackson Songs",
+        "elements": ["Thriller", "Beat It", "Billie Jean", "Smooth Criminal"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs With Seasons In The Title",
+        "elements": ["Cruel Summer", "Winter", "Autumn Leaves", "Springsteen"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "From Ed Sheeran's \"No.6 Collaborations\" Album",
+        "elements": ["Beautiful People", "Cross Me", "I Don't Care", "Antisocial"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Sampled by Kanye West",
+        "elements": ["P.Y.T. (Pretty Young Thing)", "Bound", "Harder, Better, Faster, Stronger", "Through the Fire"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/14/2024": {
+    "playlist": "https://open.spotify.com/playlist/5X94Keh2yc2NB8Nf402P6A?si=44bed8f0819044db",
+    "gameoverGif": "https://media0.giphy.com/media/n00rcIAIgQO9G/giphy.gif?cid=6c09b952zovzo1qn0xjhn5u5u9u1041bhy17g2a8hq53pfp3&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Frank Sinatra Songs",
+        "elements": ["Fly Me to the Moon", "My Way", "That's Life", "Strangers in the Night"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2019 Hip-Hop AOTY Nominees",
+        "elements": ["Swimming", "Victory Lap", "Daytona", "Astroworld"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Bon Jovi's \"You Give Love a Bad Name\"",
+        "elements": ["Shot Through The Heart", "You're To Blame", "I Play my Part", "You Play Your Game"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs that Sample Willie Hutch's \"Brothers Gonna Work It Out\"",
+        "elements": ["Permission", "Lost", "Put That On My Set", "Rat-Tat-Tat-Tat"]
       }
     ],
     "shoutout": false,
