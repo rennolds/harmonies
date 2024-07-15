@@ -3601,5 +3601,40 @@
     "twitch": "https://twitter.com/zachrlane",
     "twitter": "",
     "spotify": ""
+  },
+  "07/15/2024": {
+    "playlist": "https://open.spotify.com/playlist/57TRlhBxB6Sbn26Wy2Tutx?si=5e0a5cca48974ecb",
+    "gameoverGif": "https://media.tenor.com/4s09MMJdnUAAAAAM/troye-sivan-one-of-your-girls.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Frank Ocean Songs",
+        "elements": ["Novacane", "Super Rich Kids", "Pink + White", "Thinkin Bout You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Tracks From Troye Sivan's \"Something To Give Each Other\"",
+        "elements": ["Rush", "One of Your Girls", "Got Me Started", "Honey"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Popular Latina Artists",
+        "elements": ["Kali Uchis", "Rosalía", "KAROL G", "Anitta"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Young Late Rappers",
+        "elements": ["Pop Smoke", "Juice WRLD", "Mac Miller", "XXXTentacion"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
