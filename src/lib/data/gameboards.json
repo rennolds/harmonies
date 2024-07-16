@@ -3636,5 +3636,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/16/2024": {
+    "playlist": "https://open.spotify.com/playlist/7lElsSSlG7ehXVQo3S8oql?si=5af055a31a624225",
+    "gameoverGif": "https://media3.giphy.com/media/b9hUG3cGsZYi8aaKXk/giphy.gif?cid=6c09b952942tm1jb6iy1fa73mi8105xu8qba2phdw82o8bp9&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Morgan Wallen Songs",
+        "elements": ["Last Night", "You Proof", "Wasted On You", "Whiskey Glasses"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by EDM Duos",
+        "elements": ["Get Lucky", "Don't Let Me Down", "Peanut Butter Jelly", "Bonfire"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Shaboozey's \"A Bar Song (Tipsy)\"",
+        "elements": ["Bring Another Round", "Two Steppin'", "Double Shot", "Fifth Street"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": ["All Too Well (10 Minute Version)", "Runaway", "Pyramids", "Purple Rain"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
