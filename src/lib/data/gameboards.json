@@ -3671,5 +3671,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/17/2024": {
+    "playlist": "https://open.spotify.com/playlist/1wmHvfICnYWMee9VMweUAM?si=60e728adc3ff400f",
+    "gameoverGif": "https://media4.giphy.com/media/eBGmCSjJKNc309y6JQ/giphy.gif?cid=6c09b952cptp6l44ume4qnmqdkaeix5haem24ff048hjf1bf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Chappell Roan Songs",
+        "elements": ["Red Wine Supernova", "Good Luck, Babe!", "HOT TO GO!", "Pink Pony Club"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by English Bands",
+        "elements": ["Wonderwall", "Song 2", "You Really Got Me", "No Surprises"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Semisonic's \"Closing Time\"",
+        "elements": ["open all the doors", "whiskey and beer", "take me home", "don't have to go home"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Titled Champagne _____",
+        "elements": ["Supernova", "problems", "Poetry", "And Pools"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
