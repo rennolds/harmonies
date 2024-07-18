@@ -3706,5 +3706,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/18/2024": {
+    "playlist": "https://open.spotify.com/playlist/57GkpRNikPGHyASnQ3UtYz?si=fefdc8e2bb1d421f",
+    "gameoverGif": "https://25.media.tumblr.com/tumblr_lsntlxMVCy1r26kb6o1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Female Rappers",
+        "elements": ["Megan Thee Stallion", "Sexyy Red", "Nicki Minaj", "Doja Cat"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Punk Bands",
+        "elements": ["Sum 41", "Neck Deep", "All Time Low", "New Found Glory"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famous Rock Trios",
+        "elements": ["Nirvana", "Green Day", "Rush", "The Police"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Who Have Recorded \"Hallelujah\"",
+        "elements": ["Leonard Cohen", "Rufus Wainwright", "Jeff Buckley", "Pentatonix"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
