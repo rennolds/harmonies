@@ -3747,22 +3747,22 @@
     "gameoverGif": "https://media.tenor.com/mzCqAkKj5L0AAAAM/jimmy-laughing.gif",
     "categories": [
       {
-        "color": "#FF5733",
+        "color": "#CBff70",
         "name": "Jazz Legends",
         "elements": ["Miles Davis", "John Coltrane", "Ella Fitzgerald", "Duke Ellington"]
       },
       {
-        "color": "#8E44AD",
+        "color": "#FAA3FF",
         "name": "One-Hit Wonders",
         "elements": ["a-ha", "Vanilla Ice", "Gotye", "Wheatus"]
       },
       {
-        "color": "#3498DB",
+        "color": "#78DAF9",
         "name": "90s Grunge Bands",
         "elements": ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"]
       },
       {
-        "color": "#1ABC9C",
+        "color": "#FFBC21",
         "name": "Legendary Guitarists",
         "elements": ["Jimi Hendrix", "Eric Clapton", "Jimmy Page", "Carlos Santana"]
       }
