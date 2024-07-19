@@ -3741,5 +3741,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/19/2024": {
+    "playlist": "https://open.spotify.com/playlist/2w5ZY5Eo4ChuyaWLbSnnxu?si=897f8e014da344a7",
+    "gameoverGif": "https://media.tenor.com/mzCqAkKj5L0AAAAM/jimmy-laughing.gif",
+    "categories": [
+      {
+        "color": "#FF5733",
+        "name": "Jazz Legends",
+        "elements": ["Miles Davis", "John Coltrane", "Ella Fitzgerald", "Duke Ellington"]
+      },
+      {
+        "color": "#8E44AD",
+        "name": "One-Hit Wonders",
+        "elements": ["a-ha", "Vanilla Ice", "Gotye", "Wheatus"]
+      },
+      {
+        "color": "#3498DB",
+        "name": "90s Grunge Bands",
+        "elements": ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"]
+      },
+      {
+        "color": "#1ABC9C",
+        "name": "Legendary Guitarists",
+        "elements": ["Jimi Hendrix", "Eric Clapton", "Jimmy Page", "Carlos Santana"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
