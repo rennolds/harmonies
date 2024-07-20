@@ -3776,5 +3776,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/20/2024": {
+    "playlist": "",
+    "gameoverGif": "https://i.makeagif.com/media/4-12-2015/OHdgSU.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Britney Spears Songs",
+        "elements": ["Toxic", "Womanizer", "Gimme More", "Oops!...I Did It Again"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Panic! At The Disco's \"I Write Sins Not Tragedies\"",
+        "elements": ["Face These Kinds of Things", "Can't Help But To Hear", "Beautiful Wedding", "Poise and Rationality"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Opposite Songs",
+        "elements": ["Hot N Cold", "Leather and Lace", "Black & White", "Fire and Rain"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by American Artists and BTS",
+        "elements": ["Bad Decisions", "Left and Right", "My Universe", "Boy With Luv"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
