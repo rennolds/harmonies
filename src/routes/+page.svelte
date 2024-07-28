@@ -139,6 +139,7 @@
 
       // if won
       if ($clearedCategories.length == 4 && $mistakeCount < 4) {
+        
         console.log('winning game');
         remainingElements = [];
         gameoverStore.set({
@@ -265,7 +266,11 @@
           selectedElements = [];
 
           if ($clearedCategories.length == 4) {
-            posthog.capture('game won', { property: 'true' })
+            // posthog.capture('game won', { property: 'true' })
+            gtag('event', 'gameover', {
+              'result': "win",
+              'guesses': $guessHistory.length
+            });
             setTimeout(() => {
               gameoverStore.set({
               isOver: true,
@@ -304,7 +309,9 @@
 
       if ($mistakeCount == 4) {
         //reveal categories not found
-        posthog.capture('game lost', { property: 'true' })
+        gtag('event', 'gameover', {
+          'result': "loss"
+        });
         setTimeout(() => {
           const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
           remainingCategories.forEach((category) => {
@@ -360,7 +367,13 @@
     }
 
     function shareResult() {
-      posthog.capture('shared result', { property: 'true' })
+
+        if (browser) {
+        gtag('event', 'shared_result', {
+          'guesses': $guessHistory.length
+        });
+      }
+      // posthog.capture('shared result', { property: 'true' })
       const emoji_mapping = {
         "#CBff70": "🟩",
         "#FAA3FF": "🟪",
