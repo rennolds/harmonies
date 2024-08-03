@@ -4268,28 +4268,28 @@
     "spotify": ""
   },
   "08/03/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0olFwjjXtEM2spjNe8KYza?si=27a474dccabc4178",
+    "gameoverGif": "https://media2.giphy.com/media/jp6vmJYcmC7UA/giphy.gif?cid=6c09b952it3640ccwhc71gf92lluv0rrot2louvs4crtq5pp&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Artists with 20+ Grammys",
+        "elements": ["Jay-Z", "Kanye West", "U2", "Beyoncé"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "French Artists",
+        "elements": ["Daft Punk", "David Guetta", "Brigitte Bardot", "Édith Piaf"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Featuring Perpetual Canons",
+        "elements": ["Row, Row, Row Your Boat", "Frère Jacques", "Three Blind Mice", "Kookaburra"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs With French Cities in the Title",
+        "elements": ["Ni**as In Paris", "Nice For What", "La Marseillaise", "Saint-Tropez"]
       }
     ],
     "shoutout": false,
