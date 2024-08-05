@@ -4336,5 +4336,40 @@
     "twitch": "",
     "twitter": "https://twitter.com/lunaphire",
     "spotify": ""
+  },
+  "08/05/2024": {
+    "playlist": "https://open.spotify.com/playlist/2uhyXVubayhA9RROm4s0ZY?si=f78c636b643b4d84",
+    "gameoverGif": "https://gifdb.com/images/high/one-direction-harry-styles-smile-26waugbv9n2n5imw.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Harry Styles Songs",
+        "elements": ["Late Night Talking", "Falling", "Watermelon Sugar", "As It Was"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2000's Pop Punk Songs",
+        "elements": ["Sugar, We're Goin Down", "American Idiot", "Misery Business", "Dirty Little Secret"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from BROCKHAMPTON'S \"GINGER\"",
+        "elements": ["SUGAR", "BOY BYE", "NO HALO", "GINGER"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Revenge",
+        "elements": ["Kill Bill", "These Boots Are Made For Walkin'", "Vigilante Sh*t", "Before He Cheats"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
