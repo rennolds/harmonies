@@ -4371,5 +4371,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "08/06/2024": {
+    "playlist": "https://open.spotify.com/playlist/3RSbWHgDvm6XhaPHYukcon?si=753807c565394bbb",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Q9GxcisNTj7BCpCEZKWGA-dA6i8LMt10kA&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Logic Songs",
+        "elements": ["1-800-273-8255", "Homicide", "Everyday", "Under Pressure"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Irish Artists",
+        "elements": ["Niall Horan", "Hozier", "The Cranberries", "The Script"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2017 Hits",
+        "elements": ["HUMBLE.", "Despacito", "Bodak Yellow", "Feel It Still"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Who Went Solo",
+        "elements": ["Paul McCartney", "Beyonce", "Ice Cube", "Justin Timberlake"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
