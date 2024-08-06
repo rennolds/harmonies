@@ -4406,5 +4406,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "08/07/2024": {
+    "playlist": "https://open.spotify.com/playlist/75OHWsMcGLSoICZ2J0B7C5",
+    "gameoverGif": "https://media.tenor.com/C3mOBGncrxgAAAAM/we-didnt-start-the-fire-billy-joel.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Featuring Chance the Rapper",
+        "elements": ["Confident", "Baby Blue", "I. The Worst Guys", "Ultralight Beam"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Kanye and Bon Iver collabs",
+        "elements": ["METTA WORLD PEACE", "Lost in the World", "Hold My Liquor", "Monster"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Colorful songs",
+        "elements": ["Red Wine Supernova", "Goodbye Yellow Brick Road", "Tejano Blue", "Collard Greens"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics in “We Didn’t Start the Fire”",
+        "elements": ["Marilyn Monroe", "Rock Around the Clock", "Buddy Holly", "British Beatlemania"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   }
 }
