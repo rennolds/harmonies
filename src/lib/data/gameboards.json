@@ -4476,5 +4476,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "08/09/2024": {
+    "playlist": "https://open.spotify.com/playlist/7N0kUfni2lGn3BGR72tZyi",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamVxZW8yOTEwc21qeTR0amcwYWhsZHpueGtvY2I0NWZ3OHVoOXh2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MT42FIRFdmKxa/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs covered on Pitch Perfect",
+        "elements": ["Bullet Proof", "Right Hand", "Party in the U.S.A.", "Magic"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Singers who can act",
+        "elements": ["Tim McGraw", "Elvis", "Cher", "LL Cool J"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs covered on Glee",
+        "elements": ["Run Joey Run", " If I Die Young", "Telephone", "Teemage Dream"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Singers who sang for the president",
+        "elements": ["Fleetwood Mac", "U2", "Bruce Springsteen", "Aretha Franklin"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Carley Wall",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/carleyannn",
+    "spotify": ""
   }
 }
