@@ -4511,5 +4511,41 @@
     "twitch": "",
     "twitter": "https://twitter.com/carleyannn",
     "spotify": ""
+  },
+  "08/10/2024": {
+    "playlist": "https://open.spotify.com/playlist/3F4YthKf6NQvBIVcYpeejL",
+    "gameoverGif": "https://i.giphy.com/8YBKvfofNMaFKz5EhF.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Two person bands",
+        "elements": ["Twenty One Pilots", "The White Stripes", "The Black Keys", "Matt & Kim"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Weezer Albums",
+        "elements": ["Green", "White", "Blue", "OK Human"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Folk Rock Songs",
+        "elements": ["White Winter Hymnal", "Little Lion Man", "Dial Drunk", "Ho Hey"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Chandelier",
+        "elements": ["Phone's blowin' up", "I'm gonna fly", "Keep my glass full", "tomorrow doesn't exist"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Justin Makowski",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
+
