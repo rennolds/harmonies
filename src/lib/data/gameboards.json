@@ -4546,6 +4546,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "08/11/2024": {
+    "playlist": "https://open.spotify.com/playlist/7CcxMFxLehTjeB0aNFwJyA",
+    "gameoverGif": "https://media.tenor.com/zYwj-r7UY5wAAAAM/bonjovi.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Metallica",
+        "elements": ["Enter Sandman", "Nothing Else Matters", "Master of Puppets", "For Whom The Bell Tolls"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by Guns N' Roses",
+        "elements": ["Sweet Child O' Mine", "Welcome To The Jungle", "Paradise City", "November Rain"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by Van Halen",
+        "elements": ["Jump", "Panama", "You Really Got Me", "Runnin' with the Devil"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by Bon Jovi",
+        "elements": ["Livin' On A Prayer", "You Give Love A Bad Name", "It's My Life", "Always"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
