@@ -4618,32 +4618,32 @@
     "spotify": ""
   },
   "08/13/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5GEgyPTpZrsHLr0KsTUjVw?si=b7f08a3176334099",
+    "gameoverGif": "https://i.makeagif.com/media/12-21-2020/R9LAWK.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Made Popular by Movies",
+        "elements": ["Eye of the Tiger", "Moon River", "Unchained Melody", "I Will Always Love You"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Songs With Whistling",
+        "elements": ["Young Folks", "Pumped Up Kicks", "Home", "(Sittin' On) The Dock of the Bay"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Songs With Clapping",
+        "elements": ["We Will Rock You", "My Best Friends Girl", "HandsClap", "Another One Bites the Dust"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Detroit Songs",
+        "elements": ["Don't Stop Believin'", "Lose Yourself", "Motown Music", "Hotel Yorba"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
+    "shoutout": true,
+    "shoutout-name": "rachel kempton",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
