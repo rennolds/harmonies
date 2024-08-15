@@ -4688,18 +4688,18 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "08/15/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/2ibtxdDNPJg7ld51OmIIQT?si=5ffc9544db534978",
+    "gameoverGif": "https://media3.giphy.com/media/l0IymN4VEHUpcL3u8/200w.gif?cid=6c09b9520ouykdfl1jjlboepmvy1frjp9q8h66s99gobmp66&ep=v1_gifs_search&rid=200w.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Camila Cabello Songs",
+        "elements": ["Never Be The Same", "Havana", "Shameless", "Bam Bam"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "blink-182 Albums",
+        "elements": ["Take Off Your Pants and Jacket", "Enema of the State", "California", "ONE MORE TIME"]
       },
       {
         "color": "#78DAF9",
@@ -4708,8 +4708,8 @@
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs About Growing Up",
+        "elements": ["7 years", "Good Riddance (Time of Your Life)", "Forever Young", "Stressed Out"]
       }
     ],
     "shoutout": false,
@@ -4754,7 +4754,7 @@
     "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": "",
+    "twitter": "https://x.com/indeed_charlie",
     "spotify": ""
   },
   "08/17/2024": {
