@@ -4758,13 +4758,13 @@
     "spotify": ""
   },
   "08/17/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3czHzBGN8xZ1Yn4YwhKPYB?si=510561693c4c4f2f",
+    "gameoverGif": "https://media0.giphy.com/media/kPm4wOwCHoZPsVxEj4/giphy.gif?cid=6c09b952k8mxvps3sc7kc7p0x52ahpsh3dm6ejc7o20ezt99&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Soulful Songs",
+        "elements": ["A Sunday Kind of Love", "Dream A Little Dream of Me", "I Only Have Eyes for You", "Fly Me to the Moon"]
       },
       {
         "color": "#FAA3FF",
@@ -4778,8 +4778,8 @@
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Featuring: Ariana Grande",
+        "elements": ["Bang Bang", "Save Your Tears", "Good as Hell", "My Favorite Part"]
       }
     ],
     "shoutout": false,
