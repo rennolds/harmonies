@@ -749,6 +749,7 @@
 
     .result-button-container {
       margin-top: 20px;
+      margin-bottom: 150px;
     }
 
     .exit-btn {
@@ -1115,5 +1116,6 @@
 
     .ad-space {
       height: 100px;
+      padding-bottom: 100px;
     }
 </style>

@@ -4922,15 +4922,15 @@
         "elements": ["The day that I met you", "I started dreaming", "I don't know that much", "Everything I have and more"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
     "instagram": "",
-    "tiktok": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
     "twitch": "",
     "twitter": "",
-    "spotify": ""
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "08/22/2024": {
     "playlist": "",
@@ -5062,6 +5062,41 @@
         "elements": ["Astroworld", "The Life of Pablo", "i am> i was", "Igor"]
       }
     ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/wenkorang",
+    "spotify": ""
+  },
+  "08/26/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
@@ -5070,6 +5105,216 @@
     "youtube": "",
     "twitch": "",
     "twitter": "",
+    "spotify": ""
+  },
+  "08/27/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/28/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Number Songs",
+        "elements": ["212", "22", "360", "679"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Number Albums",
+        "elements": ["1", "25", "7220", "FOUR."]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Year Albums",
+        "elements": ["1984", "1999", "1984", "2001"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Numbers at Beginning of Drake Songs",
+        "elements": ["One", "0", "7969", "305"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "08/29/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/30/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Hozier Hit Songs",
+        "elements": ["Too Sweet", "Take Me To Church", "Work Song", "Someone New"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs From The Smashing Pumpkin's \"Siamese Dream\"",
+        "elements": ["Today", "Mayonaise", "Luna", "Disarm"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Harry Style's \"Kiwi\"",
+        "elements": ["Pack of Cigarettes", "Hard Liquor", "Bit of Intellect", "Pretty Face"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists with MTV Unplugged Albums",
+        "elements": ["Nirvana", "Twenty One Pilots", "Lauryn Hill", "Shakira"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "carseathoeless",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/carseathoeless",
+    "spotify": ""
+  },
+  "08/31/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "09/01/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs on Post Malone's \"Stoney\"",
+        "elements": ["White Iverson", "I Fall Apart", "Feeling Whitney", "Congratulations"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The Weeknd and Future Collabs",
+        "elements": ["Low Life", "Coming Out Strong", "All I Know", "Always Been My Fault"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "DJ Duos",
+        "elements": ["Daft Punk", "Air", "Chemical Brothers", "Justice"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "DJ's Without the Prefix",
+        "elements": ["Snake", "Shadow", "Drama", "Khaled"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "thomas cronly",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/cronster101",
     "spotify": ""
   }
 }
