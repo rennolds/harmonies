@@ -4933,28 +4933,28 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "08/22/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5PJ7BIUXMcHdpfIW51SZo0?si=d3c6f3bac9744464",
+    "gameoverGif": "https://64.media.tumblr.com/tumblr_lxz5yoPxpF1qa53f4o1_500.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Hits of the 60's",
+        "elements": ["Wouldn't It Be Nice", "I Want You Back", "Like a Rolling Stone", "Paint It Black"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Hits of the 70's",
+        "elements": ["Stayin' Alive", "Bohemian Rhapsody", "Dancing Queen", "Superstition"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Hits of the 80's",
+        "elements": ["Billie Jean", "Running Up That Hill", "Straight Outta Compton", "Welcome to the Jungle"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Hits of the 90's",
+        "elements": ["Say It Ain't So", "Juicy", "Smells Like Teen Spirit", "Around the World"]
       }
     ],
     "shoutout": false,
@@ -4968,13 +4968,13 @@
     "spotify": ""
   },
   "08/23/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0wXWL4B4TAjKZA9NRSp7Zt?si=0b3e42d94c044b39",
+    "gameoverGif": "https://media2.giphy.com/media/3ohhwAG07CCfuzEBqM/giphy.gif?cid=6c09b95283j4hcn8znrfxtukijw8an1bijo6w6t05sc7fe7p&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
         "name": "By George Michael",
-        "elements": ["Careless Whisper", "Freedom", "Jesus to a Child", "Faith"]
+        "elements": ["Careless Whisper", "Freedom! '90", "Jesus to a Child", "Faith"]
       },
       {
         "color": "#FAA3FF",
@@ -4984,12 +4984,12 @@
       {
         "color": "#78DAF9",
         "name": "By Michael Buble",
-        "elements": ["Haven't Met You Yet", "Beautiful Day", "Feeling Good", "Sway"]
+        "elements": ["Haven't Met You Yet", "It's a Beautiful Day", "Feeling Good", "Sway"]
       },
       {
         "color": "#FFBC21",
         "name": "By Michael Bolton",
-        "elements": ["How Am I Supposed to Live", "Without You", "When a Man Loves a Woman", "Said I Loved You To Someobody"]
+        "elements": ["How Am I Supposed to Live Without You", "To Love Somebody", "When a Man Loves a Woman", "Said I Loved You... But I Lied"]
       }
     ],
     "shoutout": true,
@@ -5003,28 +5003,28 @@
     "spotify": ""
   },
   "08/24/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7f6tpKCYfIf8Zrc3hZsMm0?si=736be369ba9446d4",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaCeh-RukpQLlbSm4uLhPCfgJfP6C75bgVA&s",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Oasis' \"Wonderwall\"",
+        "elements": ["Gonna be the day", "Throw it back to you", "Word is on the street", "And after all"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Famous Emo Songs",
+        "elements": ["a bridesmaid to a waiter", "when I was a young boy", "where are you?", "am I more than you bargained for yet?"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Drake Lyrics",
+        "elements": ["Kiki, do you love me?", "I only love my bed and my mama", "Got a Hennessy in my hand", "Passive with the things you say"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Famous Shawty/Shorty Lyrics",
+        "elements": ["like a melody in my head", "got low-low-low", "I don't mind", "fire burning on the dance floor"]
       }
     ],
     "shoutout": false,
@@ -5038,8 +5038,8 @@
     "spotify": ""
   },
   "08/25/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/01HPNaCXLQgZkAEw85WLsu?si=895cf0e16b454518",
+    "gameoverGif": "https://media.tenor.com/fjUrYCr0izsAAAAM/musediet-nicki-minaj.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -5049,17 +5049,17 @@
       {
         "color": "#FAA3FF",
         "name": "Grammy Winners: Best Rap Song",
-        "elements": ["A Lot", "Hotline Bling", "Savage", "HUMBLE."]
+        "elements": ["a lot", "Hotline Bling", "Savage", "HUMBLE."]
       },
       {
         "color": "#78DAF9",
-        "name": "Produced by Metro Boomin",
-        "elements": ["We Don't Trust You", "Heros & Villains", "Double or Nothing", "What a time to be alive"]
+        "name": "Albums Produced by Metro Boomin",
+        "elements": ["We Don't Trust You", "Heros & Villains", "Double or Nothing", "What a Time To Be Alive"]
       },
       {
         "color": "#FFBC21",
         "name": "Rap Albums With Uncredited Features",
-        "elements": ["Astroworld", "The Life of Pablo", "i am> i was", "Igor"]
+        "elements": ["Astroworld", "The Life of Pablo", "i am > i was", "IGOR"]
       }
     ],
     "shoutout": true,
