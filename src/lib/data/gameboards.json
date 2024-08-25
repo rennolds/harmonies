@@ -5078,23 +5078,23 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Coldplay Songs",
+        "elements": ["Yellow", "The Scientist", "Fix You", "Paradise"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Pop Singer Piano Ballads",
+        "elements": ["What Was I Made For?", "Praying", "Someone Like You", "Lost Boy"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to The Killers's \"When You Were Young\"",
+        "elements": ["Waiting on some beautiful boy", "Talks like a gentlemen", "Like you imagined", "Easy now, watch it go"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs With Massively Popular Remixes",
+        "elements": ["I Took a Pill in Ibiza", "Cheerleader", "You Drive Me Crazy", "Summertime Sadness"]
       }
     ],
     "shoutout": false,
@@ -5113,23 +5113,23 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Michael Jackson's \"Billie Jean\"",
+        "elements": ["not my lover", "I am the one", "not my son", "beauty queen from a movie scene"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics from Justin Bieber Songs",
+        "elements": ["My mama don't like you", "missing more than just your body", "You know you love me", "keep an eye out for Selener"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Iconic Breakup Lyrics",
+        "elements": ["breathe for the first time", "you don't have to say what you did", "gonna miss you picking fights", "the perfect sky is torn"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Lynyrd Skynyrd's \"Simple Man\"",
+        "elements": ["Mama told me", "When I was young", "Come sit beside me", "My only son"]
       }
     ],
     "shoutout": false,
@@ -5238,6 +5238,8 @@
       }
     ],
     "shoutout": true,
+    "special-message": true,
+    "message-content": "happy birthday cooper",
     "shoutout-name": "carseathoeless",
     "shoutout-socials": true,
     "instagram": "",

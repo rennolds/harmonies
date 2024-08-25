@@ -73,6 +73,8 @@
     const shoutout = gameBoards[todaysDate.toString()]["shoutout"] || false;
     const shoutoutName = gameBoards[todaysDate.toString()]["shoutout-name"] || "";
     const shoutoutSocials = gameBoards[todaysDate.toString()]["shoutout-socials"] || false;
+    const specialMessage = gameBoards[todaysDate.toString()]["special-message"] || false;
+    const messageContent = gameBoards[todaysDate.toString()]["message-content"] || "";
     const youtube = gameBoards[todaysDate.toString()]["youtube"] || "";
     const instagram = gameBoards[todaysDate.toString()]["instagram"] || "";
     const twitter = gameBoards[todaysDate.toString()]["twitter"] || "";
@@ -512,6 +514,11 @@
       <h3>
         {shoutoutName}
       </h3>
+      {#if specialMessage}
+      <div class="special-message">
+        {messageContent}
+      </div>
+      {/if}
       {#if shoutoutSocials}
       <div class="shoutout-socials">
         {#if youtube}
@@ -1033,7 +1040,7 @@
     }
 
     .footer {
-      position: absolute;
+      position: relative;
       margin-top: auto; /* Pushes the footer to the bottom */
       display: flex;
       align-items: flex-end; /* Aligns items to the bottom */
@@ -1112,6 +1119,12 @@
 
     .shoutout {
       margin-bottom: 10px;
+    }
+
+    .special-message {
+      margin-top: -5px;
+      margin-bottom: 5px;
+      font-size: 15px;
     }
 
     .ad-space {
