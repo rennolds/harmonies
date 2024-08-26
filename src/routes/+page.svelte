@@ -1125,6 +1125,8 @@
       margin-top: -5px;
       margin-bottom: 5px;
       font-size: 15px;
+      font-style: italic;
+      font-weight: 400;
     }
 
     .ad-space {
