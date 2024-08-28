@@ -5143,8 +5143,8 @@
     "spotify": ""
   },
   "08/28/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4qSJbprrj4fIg0AGomK0h8?si=725383926ba049e8",
+    "gameoverGif": "https://media.tenor.com/Us85vq0Sq8wAAAAM/taylor-swift-taylor.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -5154,17 +5154,17 @@
       {
         "color": "#FAA3FF",
         "name": "Number Albums",
-        "elements": ["1", "25", "7220", "FOUR."]
+        "elements": ["1", "25", "7220", "FOUR"]
       },
       {
         "color": "#78DAF9",
         "name": "Year Albums",
-        "elements": ["1984", "1999", "1984", "2001"]
+        "elements": ["1984", "1999", "1989", "2001"]
       },
       {
         "color": "#FFBC21",
-        "name": "Numbers at Beginning of Drake Songs",
-        "elements": ["One", "0", "7969", "305"]
+        "name": "Famous Phone Numbers in Songs",
+        "elements": ["6789998212", "8675309", "18002738255", "865"]
       }
     ],
     "shoutout": true,
@@ -5174,7 +5174,7 @@
     "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
     "twitch": "",
-    "twitter": "",
+    "twitter": "https://twitter.com/adamsunoriginal",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "08/29/2024": {
