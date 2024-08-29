@@ -5178,32 +5178,32 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "08/29/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4SMikQcSEUtwS67sXLGmMw?si=36435cb862e5449d",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxF3D-oNNJYCF4bkl0QGl_kh2q9YfcBPx7aA&s",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Billy Idol Songs",
+        "elements": ["Eyes Without a Face", "Rebel Yell", "White Wedding Pt. 1", "Dancing With Myself"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Featured in American Psycho",
+        "elements": ["True Faith", "Walking on Sunshine", "Hip To Be Square", "What's on Your Mind (Pure Energy)"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "80's Songs That Resurfaced on Tik Tok",
+        "elements": ["Smalltown Boy", "Smooth Operator", "Blue Monday", "Cheri Cheri Lady"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs That Sample Famous 80's Tunes",
+        "elements": ["Super Freaky Girl", "Houdini", "SOS", "Break My Heart"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
+    "shoutout": true,
+    "shoutout-name": "audrey turner",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
