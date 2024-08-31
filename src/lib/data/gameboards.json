@@ -5250,39 +5250,39 @@
     "spotify": ""
   },
   "08/31/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3QNoMJzED8XgEYovqda14s?si=c450598fbe8e42e3",
+    "gameoverGif": "https://media1.giphy.com/media/mQve8XLqgs7H3JinpP/giphy.gif?cid=6c09b952lp6o4xlb6m7b18xtqq84rmrbnhytzmvxe2qzthd7&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Chappell Roan's \"Femininomenon\"",
+        "elements": ["Sick of online love", "hot like papa john", "crying at the nail salon", "play the f***ing beat"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Songs on Radiohead's \"In Rainbows\"",
+        "elements": ["Nude", "Weird Fishes/Arpeggi", "Reckoner", "Jigsaw Falling Into Place"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Songs That Influenced a Bands Name",
+        "elements": ["Cocteau Twins", "Death Cab for Cutie", "Radio Head", "Jet"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Beach House's \"Space Song\"",
+        "elements": ["You held on tight", "a flash of light", "you wide-eyed girls", "fall back into place"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
     "instagram": "",
-    "tiktok": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
     "twitch": "",
-    "twitter": "",
-    "spotify": ""
+    "twitter": "https://twitter.com/adamsunoriginal",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "09/01/2024": {
     "playlist": "",
