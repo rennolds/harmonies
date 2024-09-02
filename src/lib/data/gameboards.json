@@ -5318,6 +5318,41 @@
     "twitch": "",
     "twitter": "https://twitter.com/cronster101",
     "spotify": ""
+  },
+  "09/02/2024": {
+    "playlist": "https://open.spotify.com/playlist/070DiwcXueUty8Xbs331oS?si=1099a840ffae4d2f",
+    "gameoverGif": "https://media.tenor.com/52r_TnmSr7UAAAAM/sabrina-carpenter-sabrina-carpenter-cute.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Zach Bryan Songs",
+        "elements": ["Something in the Orange", "Heading South", "Pink Skies", "I Remember Everything"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Doja Cat Albums",
+        "elements": ["Scarlet", "Hot Pink", "Plant Her", "Amala"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs From Sabrina Carpenter's \"Short n' Sweet\"",
+        "elements": ["Espresso", "Bed Chem", "Taste", "Please Please Please"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Blue Songs",
+        "elements": ["Blue Ain't Your Color", "Blueberry Faygo", "Blue World", "Blue (Da Ba Dee)"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
