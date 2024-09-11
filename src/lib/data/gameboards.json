@@ -5633,6 +5633,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/11/2024": {
+    "playlist": "https://open.spotify.com/playlist/00VjahoUnSf0bjtj0hmfVg?si=27cd4a3c8dc6455d",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb-mKRi89edtwmGAImQ3db6Ndty5egEIxmEA&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Radiohead's \"Jigsaw Falling Into Place\"",
+        "elements": ["Jigsaw", "Falling", "Into", "Place"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Nirvana's \"Smells Like Teen Spirit\"",
+        "elements": ["Smells", "Like", "Teen", "Spirit"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hozier's \"Take Me To Church\"",
+        "elements": ["Take", "Me", "To", "Church"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "TV Girl's \"Taking What's Not Yours\"",
+        "elements": ["Taking", "What's", "Not", "Yours"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/adamsunoriginal",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   }
 }
 
