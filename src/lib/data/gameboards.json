@@ -5668,6 +5668,41 @@
     "twitch": "",
     "twitter": "https://twitter.com/adamsunoriginal",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "09/12/2024": {
+    "playlist": "https://open.spotify.com/playlist/4YlvnnabQQ5P8FIBbq54sU?si=47bd4d83164f450f",
+    "gameoverGif": "https://j.gifs.com/mQQmL3.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Macklemore & Ryan Lewis Songs",
+        "elements": ["Downtown", "Thrift Shop", "Can't Hold Us", "Same Love"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Chance The Rapper's \"Coloring Book\"",
+        "elements": ["No Problem", "Same Drugs", "All Night", "Blessings"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Bon Iver's \"Skinny Love\"",
+        "elements": ["To Be Patient", "To Be Kind", "Who Will Love You", "Who Will Fight"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs By Disney Kids",
+        "elements": ["Same Old Love", "Flowers", "Jealous", "Heart Attack"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
