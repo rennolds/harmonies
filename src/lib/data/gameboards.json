@@ -5703,6 +5703,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/13/2024": {
+    "playlist": "https://open.spotify.com/playlist/2ST2QD4mwfgBySs5zFvBgh?si=402a504a824b40fc",
+    "gameoverGif": "https://media.tenor.com/rnnKT98cb_AAAAAM/clairo.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists With 2001 Debut Albums",
+        "elements": ["Alicia Keys", "John Mayer", "Gorillaz", "The Strokes"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Modern Folk",
+        "elements": ["The Lumineers", "Mumford & Sons", "Of Monsters and Men", "The Head and the Heart"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bedroom Pop Stars",
+        "elements": ["Clairo", "beabadoobee", "Girl in Red", "Rex Orange County"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Performed at the 2024 VMA's",
+        "elements": ["Katy Perry", "Sabrina Carpenter", "Chappell Roan", "Benson Boone"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
