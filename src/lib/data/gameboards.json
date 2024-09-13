@@ -5738,6 +5738,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/14/2024": {
+    "playlist": "https://open.spotify.com/playlist/4gaJgeobk9qWALNzpvcFEi?si=d5248fcefd9b40a8",
+    "gameoverGif": "https://media.tenor.com/j8CCMD_4il0AAAAM/john-mayer-hello.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Taylor Swift Songs With Numbers",
+        "elements": ["22", "Fifteen", "the 1", "seven"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Taylor Swifts \"Reputation\"",
+        "elements": ["...Ready For It?", "Look What You Made Me Do", "Getaway Car", "Delicate"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Jay-Z's \"99 Problems\"",
+        "elements": ["Girl Problems", "99", "Ain't One", "Hit Me"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Covered by John Mayer",
+        "elements": ["Free Fallin'", "Bold As Love", "XO", "Message In A Bottle"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
