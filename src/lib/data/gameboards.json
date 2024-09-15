@@ -5773,6 +5773,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/15/2024": {
+    "playlist": "https://open.spotify.com/playlist/50RPYBhwG3ccLYTBqjHc2q",
+    "gameoverGif": "https://y.yarn.co/0999e9aa-9024-4731-bcb4-5f83947a3d23_text.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Taylor Swift's First Four Albums",
+        "elements": ["Taylor Swift", "Fearless", "Speak Now", "Red"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Top Country albums of the 2000s",
+        "elements": ["Chief", "Traveller", "Some Hearts", "Mud on the Tires"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists who debuted in 2006",
+        "elements": ["Vanessa Hudgens", "Eric Church", "Wiz Khalifa", "Fergie"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Members of the Grand Ole Opry",
+        "elements": ["Dolly Parton", "Johnny Cash", "Loretta Lynn", "Reba McEntire"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
