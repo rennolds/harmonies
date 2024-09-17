@@ -5843,6 +5843,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/17/2024": {
+    "playlist": "https://open.spotify.com/playlist/5343IMVNCQJkjMps0A4Yqi",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3phcjRnZmFyZnhiNnJ1eGs2dnFrdXltbW1rcGh3dWI0bDY4Y3JtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8VvtnyF4AIxXERJaIj/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Chappell Roan Songs",
+        "elements": ["Good Luck, Babe!", "Pink Pony Club", "Femininomenon", "Red Wine Supernova"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Girl Pop Debut Albums",
+        "elements": ["The Rise and Fall of a Midwest Princess", "Sour", "14", "Eyes Wide Open"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics of Olivia Rodrigo's \"Obsessed\"",
+        "elements": ["You'd think I was in love", "But I can't help it", "She's got those lips", "So be careful, baby"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics of Sabrina Carpenter's \"Taste\"",
+        "elements": ["One degree of separation", "I heard you're back together", "Five feet to be exact", "Now I'm gone"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
