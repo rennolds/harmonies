@@ -5878,6 +5878,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
-  }
+  },
+  "09/18/2024": {
+    "playlist": "https://open.spotify.com/playlist/1H4hkEgPqieuOrPhyLIw0H?si=7113e1a23d3544f9",
+    "gameoverGif": "https://media3.giphy.com/media/QwlLipT5KCvG3wgpHT/200w.gif?cid=6c09b952xsu52mdr4pz7703yl6l6c258stmvcpg757vvifzu&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs on Glass Animals' \"How to Be a Human Being\"",
+        "elements": ["Life Itself", "Pork Soda", "Take a Slice", "Popular St"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Phoebe Bridgers",
+        "elements": ["Not Strong Enough", "Ghost in the Machine", "Jesus Christ 2005 God Bless America", "Nothin' New (Taylor's Version)"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Solo One Direction Ventures",
+        "elements": ["This Town", "Strip That Down", "I Don't Wanna Live Forever", "Kiwi"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2016 Songs of the Summer",
+        "elements": ["One Dance", "Into You", "Can't Stop The Feeling!", "This Is What You Came For"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/adamsunoriginal",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
 }
 
