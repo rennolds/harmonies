@@ -5913,6 +5913,41 @@
     "twitch": "",
     "twitter": "https://twitter.com/adamsunoriginal",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
-}
+  },
+  "09/19/2024": {
+    "playlist": "https://open.spotify.com/playlist/78Flvxtsc7OvvIqJTMwxbl",
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTV6ZzBrbmI4Y2syd3c3Njh1NGU4YnRobGFneWh5eTh3ZHpjcWJiYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UuDxS2EBRZSyA/200.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "David Bowie Songs",
+        "elements": ["Starman", "Heroes", "Let's Dance", "Space Oddity"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Dave Mathews Band Songs",
+        "elements": ["Crash Into Me", "Ants Marching", "What Would You Say", "Crush"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "David Guetta Songs",
+        "elements": ["Sexy Bitch", "Memories", "Where Them Girls At", "I Don't Wanna Wait"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "David Lee Roth (Van Halen) Songs",
+        "elements": ["Right Now", "Why Can't This Be Love", "You Really Got Me", "Jump"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "David",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  }
 }
 
