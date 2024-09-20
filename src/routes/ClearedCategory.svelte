@@ -18,10 +18,10 @@
     };
     
 </script>
-{#if category.name == "Unhinged Emo Song Titles (I Promise)"}
+{#if category.name == "Why did Fall Out Boy love paragraph song titles?"}
 <div transition:customTransition style="background-color: {category.color}" class="full-row">
     <h2>{category.name}</h2>
-    <p>...Guys Like Us In Prison, Lying Is The Most Fun..., Okay I Believe You..., Buy A Fire Extinguisher...</p>
+    <p>I Slept With..., Our Lawyer..., Sophomore Slump..., A Little Less...</p>
 </div>
 {:else}
 <div transition:customTransition style="background-color: {category.color}" class="full-row">

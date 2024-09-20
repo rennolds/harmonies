@@ -5948,6 +5948,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/20/2024": {
+    "playlist": "https://open.spotify.com/playlist/47t7MB7DRx83b388WX8tIo?si=5d4bd6aa47ec4c32",
+    "gameoverGif": "https://media0.giphy.com/media/obtP5Qbc150bK/200w.gif?cid=6c09b95219v1402awga5sa1lnu46o00f8m9w79vwl30sdx7o&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to Britney Spear's \"Oops!...I Did It Again\"",
+        "elements": ["played with your heart", "got lost in the game", "sent from above", "not that innocent"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Why did Fall Out Boy love paragraph song titles?",
+        "elements": ["A little less sixteen candles, a little more \"Touch Me\"", "Sophomore Slump or Comeback of the Year", "Our Laywer made us change the name of this song so we wouldn't get sued", "I Slept With Someone In Fall Out Boy And All I Got Was..."]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famous Lyrics about Rebellion",
+        "elements": ["We don’t need no education", "waste my time, casualty of society", "don't wanna be just like you", "I beg to dream and differ"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Iconic Kanye West Bars",
+        "elements": ["Play secretary, I'm the boss tonight", "Poopy-di scoop", "write my curses in cursive", "Fight Club, Brad reputation"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
