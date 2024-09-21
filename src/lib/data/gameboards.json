@@ -5983,6 +5983,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/21/2024": {
+    "playlist": "https://open.spotify.com/playlist/6zJxFBY2Ox9uZfxJiQjp2O",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXh0NzFyNnQ4eTFvajYwMzN2ajgxcDFvcXpxaW5rNGw0MDFkajRobyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/STbT4kAqO8V9tYYMDW/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists who Performed at the Super Bowl",
+        "elements": ["Shakira", "Rihanna", "The Weeknd", "Coldplay"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "College Fight Songs",
+        "elements": ["The Victors", "Boomer Sooner", "Victory March", "Anchors Aweigh"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famously Bad National Anthem Singers",
+        "elements": ["Fergie", "Ingrid Andress", "Christina Aguilera", "Steven Tyler"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous Songs At Stadiums",
+        "elements": ["Rocky Top", "Enter Sandman", "Jump Around", "Seven Nation Army"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
