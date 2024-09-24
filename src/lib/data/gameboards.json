@@ -6090,13 +6090,13 @@
     "spotify": ""
   },
   "09/24/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/31iQ4LLFy6craZW3u478YS?si=84b59811e74341ab",
+    "gameoverGif": "https://media3.giphy.com/media/l4JyVc0c7wEBDwz2E/giphy.gif?cid=6c09b952t04sx3e20xo26r5nu7oh2f4i83hmd8xmx8m8ii1h&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Selena Gomez Songs",
+        "elements": ["Same Old Love", "Come & Get It", "Lose You To Love Me", "Hands To Myself"]
       },
       {
         "color": "#FAA3FF",
@@ -6105,13 +6105,13 @@
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Lyrics from Fergie's \"Fergalicious\"",
+        "elements": ["definition make them boys go", "I ain't easy", "E-R-G", "L-I-C-I-O-U-S"]
       },
       {
         "color": "#FFBC21",
         "name": "Lyrics to Childish Gambino's \"IV. Sweatpants\"",
-        "elements": ["Half-Thai thickie", "are you eating, though?", "Never catching cases", "E-M-O"]
+        "elements": ["Half-Thai thickie", "are you eating, though?", "Never catching cases", "so E-M-O"]
       }
     ],
     "shoutout": false,
