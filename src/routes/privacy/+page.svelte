@@ -509,10 +509,12 @@
         21526 Donaldson St.<br>
         Dearborn, MI 48124<br>
         United States</p>
-
-        <h2 id="ezoic-services">14. EZOIC SERVICES</h2>
+        
+        <h2>14. PLAYWIRE</h2>
+        <p>All or partial advertising on this Website or App is managed by Playwire LLC. If Playwire publisher advertising services are used, Playwire LLC may collect and use certain aggregated and anonymized data for advertising purposes. To learn more about the types of data collected, how data is used and your choices as a user, please visit <a href="https://www.playwire.com/privacy-policy">https://www.playwire.com/privacy-policy</a>.</p>
+        <!-- <h2 id="ezoic-services">14. EZOIC SERVICES</h2>
         <p>
             This website uses the services of Ezoic Inc. (“Ezoic”). Ezoic’s privacy policy is <a href="https://www.ezoic.com/privacy-policy/">here</a>. Ezoic may employ a variety of technologies on this website, including to display advertisements and enable advertising to visitors of this website. 
-        </p>
+        </p> -->
     </div>
 </body>
