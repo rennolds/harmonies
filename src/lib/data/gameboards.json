@@ -6159,39 +6159,39 @@
     "twitter": "https://twitter.com/adamsunoriginal",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   },
-  "09/26/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+"09/26/2024": {
+    "playlist": "https://open.spotify.com/playlist/7KVLsYJF3ZlOuGtVwyNOWe?si=Ke1VRtB0TvKxGc7Rn6Dkjg",
+    "gameoverGif": "https://img.buzzfeed.com/buzzfeed-static/static/2019-07/16/16/asset/123a886c5a6c/anigif_sub-buzz-4360-1563295014-1.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Made Up Word Sings",
+        "elements": ["Everlong", "Femininomenon", "Californication", "Fergalicious"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "German Songs Famous World Wide",
+        "elements": ["Du Hast", "99 Luftballoons", "Rock Me Amadaus", "Sonne"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Songs by LANY",
+        "elements": ["ILYSB", "Malibu Nights", "13", "Thick and Thin"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Boy Band Debut Albums",
+        "elements": ["Up All Night", "*NSYNC", "It's About Time", "Backstreet Boys"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "carley",
+    "shoutout-socials": true,
     "instagram": "",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": "",
+    "twitter": "https://x.com/carleyannn",
     "spotify": ""
   },
   "09/27/2024": {
