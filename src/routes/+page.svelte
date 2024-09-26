@@ -1,5 +1,4 @@
 <script>
-    import posthog from 'posthog-js'
     import moment from "moment";
     import "moment-timezone";
     import { flip } from 'svelte/animate';
@@ -223,9 +222,6 @@
     }
     function handleSubmit() {
       // check if selectedElements match any categories
-      if ($guessHistory.length == 0) {
-        posthog.capture('game started', { property: 'true' })
-      }
       if (selectedElements.length != 4) {
         //do  nothing, not valid guess
         return
@@ -268,7 +264,6 @@
           selectedElements = [];
 
           if ($clearedCategories.length == 4) {
-            // posthog.capture('game won', { property: 'true' })
             gtag('event', 'gameover', {
               'result': "win",
               'guesses': $guessHistory.length
@@ -375,7 +370,6 @@
           'guesses': $guessHistory.length
         });
       }
-      // posthog.capture('shared result', { property: 'true' })
       const emoji_mapping = {
         "#CBff70": "🟩",
         "#FAA3FF": "🟪",
