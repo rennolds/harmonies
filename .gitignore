@@ -8,11 +8,11 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-src/routes/+page.svelte
-src/routes/test/+page.svelte
-src/routes/test/ClearedCategory.svelte
-src/routes/test/HelpOverlay.svelte
-src/routes/test/Ramp.svelte
-src/routes/test/ResultGrid.svelte
-src/routes/test/store.js
-src/routes/test/styles.css
+# src/routes/+page.svelte
+# src/routes/test/+page.svelte
+# src/routes/test/ClearedCategory.svelte
+# src/routes/test/HelpOverlay.svelte
+# src/routes/test/Ramp.svelte
+# src/routes/test/ResultGrid.svelte
+# src/routes/test/store.js
+# src/routes/test/styles.css
