@@ -6230,28 +6230,28 @@
     "spotify": ""
   },
   "09/28/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1fzq6fRtgyuu09bKztoZ5r?si=cc7e8713835e4992",
+    "gameoverGif": "https://64.media.tumblr.com/15652cdcac4d5ef9d7ba8b81d93c489f/ae27856879c41575-43/s540x810/4a1fd8b336f5cb2f119e2a2770623ebcb2447123.gifv",
     "categories": [
       {
-        "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "color": "#DD4124",
+        "name": "Songs About Days of the Week",
+        "elements": ["Manic Monday", "Friday I'm in Love", "Saturday Night's Alright (For Fighting)", "Sunday Morning"]
       },
       {
-        "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "color": "#45B8AC",
+        "name": "Grammy 'Album of the Year' Winners",
+        "elements": ["1989", "The Miseducation of Lauryn Hill", "Fearless", "Random Access Memories"]
       },
       {
-        "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "color": "#EFC050",
+        "name": "Lyrics from Journey's 'Don't Stop Believin''",
+        "elements": ["Streetlight People", "Small Town Girl", "A Lonely World", "Midnight Train"]
       },
       {
-        "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "color": "#5B5EA6",
+        "name": "Lyrics from Taylor Swift's \"champagne problems\"",
+        "elements": ["Night Train", "dropped your hand while dancing", "Crestfallen on the landing", "hometown skeptics"]
       }
     ],
     "shoutout": false,
