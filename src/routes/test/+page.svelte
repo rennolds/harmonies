@@ -1029,7 +1029,7 @@
     }
 
     .footer {
-      position: absolute;
+      position: sticky;
       margin-top: auto; /* Pushes the footer to the bottom */
       display: flex;
       align-items: flex-end; /* Aligns items to the bottom */
