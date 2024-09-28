@@ -661,8 +661,8 @@
   </div>
   {/if}
 
-  <div class="ad-space">
-  </div>
+  <!-- <div class="ad-space">
+  </div> -->
 
   
 
@@ -1029,7 +1029,7 @@
     }
 
     .footer {
-      position: relative;
+      position: absolute;
       margin-top: auto; /* Pushes the footer to the bottom */
       display: flex;
       align-items: flex-end; /* Aligns items to the bottom */
@@ -1040,6 +1040,7 @@
       line-height: normal;
       bottom: 0; /* Align to the bottom */
       width: 100%; /* Full width */
+      padding-bottom: 106px;
     }
 
     .footer-right {
@@ -1117,9 +1118,9 @@
       font-style: italic;
       font-weight: 400;
     }
-
+/* 
     .ad-space {
       height: 100px;
       padding-bottom: 100px;
-    }
+    } */
 </style>

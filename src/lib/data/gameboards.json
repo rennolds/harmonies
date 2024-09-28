@@ -6264,7 +6264,7 @@
     "twitter": "",
     "spotify": ""
   },
-  "playlist": "",
+  "playlist": "https://open.spotify.com/playlist/4WEAdRNpHLobMZjLevMuYS?si=1403139e81b245b1",
   "gameoverGif": "https://media.tenor.com/62n9L5MasvIAAAAM/ice-cube.gif",
   "categories": [
     {
@@ -6289,13 +6289,13 @@
     }
   ],
   "shoutout": true,
-  "shoutout-name": "john t.k. bass",
-  "shoutout-socials": false,
+  "shoutout-name": "johntkbass",
+  "shoutout-socials": true,
   "instagram": "",
   "tiktok": "",
   "youtube": "",
   "twitch": "",
-  "twitter": "",
+  "twitter": "https://x.com/johntkbass",
   "spotify": ""
 }
 
