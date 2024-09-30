@@ -6265,40 +6265,73 @@
     "spotify": ""
   },
   "09/29/2024": {
-
-  "playlist": "https://open.spotify.com/playlist/4WEAdRNpHLobMZjLevMuYS?si=1403139e81b245b1",
-  "gameoverGif": "https://media.tenor.com/62n9L5MasvIAAAAM/ice-cube.gif",
-  "categories": [
-    {
-      "color": "#CBff70",
-      "name": "Great 90's Rappers",
-      "elements": ["GZA", "Ice Cube", "The Notorious B.I.G.", "Snoop Dogg"]
-    },
-    {
-      "color": "#FAA3FF",
-      "name": "Artists with Biopics",
-      "elements": ["Ray Charles", "Johnny Cash", "Freddie Mercury", "Elton John"]
-    },
-    {
-      "color": "#78DAF9",
-      "name": "Film Composers",
-      "elements": ["Trent Reznor", "Johnny Greenwood", "Danny Elfman", "John Williams"]
-    },
-    {
-      "color": "#FFBC21",
-      "name": "Non-Film Composers",
-      "elements": ["RZA", "Thomas Bangalter", "Bryce Dessner", "Beethoven"]
-    }
-  ],
-  "shoutout": true,
-  "shoutout-name": "johntkbass",
-  "shoutout-socials": true,
-  "instagram": "https://www.instagram.com/johntkbass",
-  "tiktok": "",
-  "youtube": "",
-  "twitch": "",
-  "twitter": "https://x.com/johntkbass",
-  "spotify": ""
-}
-
+    "playlist": "https://open.spotify.com/playlist/4WEAdRNpHLobMZjLevMuYS?si=1403139e81b245b1",
+    "gameoverGif": "https://media.tenor.com/62n9L5MasvIAAAAM/ice-cube.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Great 90's Rappers",
+        "elements": ["GZA", "Ice Cube", "The Notorious B.I.G.", "Snoop Dogg"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists with Biopics",
+        "elements": ["Ray Charles", "Johnny Cash", "Freddie Mercury", "Elton John"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Film Composers",
+        "elements": ["Trent Reznor", "Johnny Greenwood", "Danny Elfman", "John Williams"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Non-Film Composers",
+        "elements": ["RZA", "Thomas Bangalter", "Bryce Dessner", "Beethoven"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "johntkbass",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/johntkbass",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/johntkbass",
+    "spotify": ""
+  },
+  "09/30/2024": {
+    "playlist": "https://open.spotify.com/playlist/5exZqnU41pyOgB9pky5KFJ?si=06bd8147493f424b",
+    "gameoverGif": "https://media0.giphy.com/media/Z6EEat7tp3Fy8/giphy.gif?cid=6c09b952tu969gxfm2vpgq9w18pplncsjrx4e80py9wkcair&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bands with a Color in Their Name",
+        "elements": ["Red Hot Chili Peppers", "Maroon 5", "Black Sabbath", "Green Day"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists from Australia",
+        "elements": ["AC/DC", "INXS", "Tame Impala", "Troye Sivan"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands with Numbers in Their Name",
+        "elements": ["Sum 41", "blink-182", "Matchbox Twenty", "OneRepublic"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands Formed in the 1960s",
+        "elements": ["The Beatles", "The Rolling Stones", "The Beach Boys", "The Doors"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  }
 }
