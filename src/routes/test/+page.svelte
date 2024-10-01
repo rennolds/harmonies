@@ -673,9 +673,16 @@
 </div>
   </main>
 
+
   <style>
+
+    main {
+      position: absolute;
+    }
+
     .container {
       display: flex;
+      align-self: center;
       flex-direction: column;
       height: 100vh;
       justify-content: flex-start;

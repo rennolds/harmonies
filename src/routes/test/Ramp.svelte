@@ -36,9 +36,7 @@ if (browser) {
     ) {
       lastPathname = $page.url.pathname;
       window.ramp.que.push(() => {
-        console.log('here is the afilure?');
         window.ramp.spaNewPage($page.url.pathname);
-        console.log('maybe?');
       });
     }
 }
