@@ -1047,7 +1047,7 @@
       line-height: normal;
       bottom: 0; /* Align to the bottom */
       width: 100%; /* Full width */
-      margin-top: 50px;
+      margin-top: 40px;
       padding-bottom: 200px;
     }
 
