@@ -6333,5 +6333,75 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/01/2024": {
+    "playlist": "https://open.spotify.com/playlist/2D0jvqKi3OneGXIFpqGtGv?si=330aa44b58f0477c",
+    "gameoverGif": "https://assets.teenvogue.com/photos/56f2cb5983b45ac83f565a60/master/w_320%2Cc_limit/01.Justin.Pouting.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Gorillaz",
+        "elements": ["Feel Good Inc.", "Clint Eastwood", "On Melancholy Hill", "DARE"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Justin Bieber",
+        "elements": ["I'm The One", "STAY", "I Don't Care", "Cold Water"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from 'Hamilton' the Musical",
+        "elements": ["My Shot", "The Schuyler Sisters", "You'll Be Back", "Non-Stop"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featuring a Saxophone Solo",
+        "elements": ["Careless Whisper", "Baker Street", "Midnight City", "Jungleland"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/02/2024": {
+    "playlist": "https://open.spotify.com/playlist/31lj26PECh92sf9zvTdYyf?si=036ba29adc80477b",
+    "gameoverGif": "https://media.tenor.com/zzIT3D2dTsQAAAAM/2011vmas-otis.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Red Album Covers",
+        "elements": ["Songs About Jane", "Savage Mode II", "Red", "My Beautiful Dark Twisted Fantasy"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Blue Album Covers",
+        "elements": ["Born to Die", "Freudian", "Nevermind", "Weezer"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Yellow Album Covers",
+        "elements": ["This Old Dog", "Doo-Wops and Hooligans", "Watch the Throne", "FUTURE"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "White Album Covers",
+        "elements": ["Future Sex/Love Sounds", "Blonde", "The Beatles", "Yeezus"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/adamsunoriginal",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   }
 }
