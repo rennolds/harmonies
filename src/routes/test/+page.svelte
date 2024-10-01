@@ -1047,8 +1047,9 @@
       line-height: normal;
       bottom: 0; /* Align to the bottom */
       width: 100%; /* Full width */
-      margin-top: 40px;
+      margin-top: 30px;
       padding-bottom: 200px;
+      margin-bottom: 10px;
     }
 
     .footer-right {
