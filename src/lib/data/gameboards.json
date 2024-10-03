@@ -6403,5 +6403,40 @@
     "twitch": "",
     "twitter": "https://twitter.com/adamsunoriginal",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "10/03/2024": {
+    "playlist": "https://open.spotify.com/playlist/5dcLoaZE61cblPa7elLh3C?si=e4f95e0f9def445c",
+    "gameoverGif": "https://media4.giphy.com/media/3otPoPVXBLnBi8wDXq/giphy.gif?cid=6c09b952zjd7s6e1p2ojhxa0dtahpgdwh50t4mmqjq0c8cjf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Lumineers",
+        "elements": ["Ho Hey", "Ophelia", "Cleopatra", "Stubborn Love"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Billboard Hot 100 Hits in 2019",
+        "elements": ["Old Town Road", "Bad Guy", "Señorita", "Truth Hurts"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to John Lennon's \"Imagine\"",
+        "elements": ["Imagine there's no heaven", "It's easy if you try", "No hell below us", "Above us only sky"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Tell a Story",
+        "elements": ["Stan", "The Gambler", "The Devil Went Down to Georgia", "Love Story"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
