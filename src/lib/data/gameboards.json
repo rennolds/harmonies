@@ -6438,5 +6438,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/04/2024": {
+    "playlist": "https://open.spotify.com/playlist/2juZb2M8IRbwBFRkKiCqQ1?si=9f969b6d170540e2",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW53MmVlcTZuZ3V2MTRuYmF2bTl0Z3liOWhnMDNreHQ1cjZjMHBtbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o751Q1zx0rFCRxpT2/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rappers Who Became Successful Actors",
+        "elements": ["T.I.", "LL Cool J", "Ice-T", "Ice Cube"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Grammy Winning Albums",
+        "elements": ["1989", "25", "24k Magic", "Jagged Little Pill"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Number 1 Albums in U.K.",
+        "elements": ["Psychodrama", "Bridge Over Troubled Water", "Fever", "Back to Black"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists With Diddy Features",
+        "elements": ["Blood Orange", "Nipsey Hussle", "Notorious B.I.G.", "Mase"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "tyrone",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/wokrone?s=21",
+    "spotify": ""
   }
 }
