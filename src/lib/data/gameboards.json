@@ -6473,5 +6473,40 @@
     "twitch": "",
     "twitter": "https://x.com/wokrone?s=21",
     "spotify": ""
+  },
+  "10/05/2024": {
+    "playlist": "https://open.spotify.com/playlist/2lXyWdaRLYIgAGbZy6xaFg?si=d4a6910b0e8040ee",
+    "gameoverGif": "https://media.tenor.com/4nA0uZxnH4UAAAAM/tick-tock-kesha.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Khalid",
+        "elements": ["Location", "Young Dumb & Broke", "Eastside", "Better"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Disco Hits of the 1970s",
+        "elements": ["Stayin' Alive", "I Will Survive", "Dancing Queen", "Le Freak"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Kesha's \"TiK ToK\"",
+        "elements": ["No Money in my Pocket", "but i'm already here", "Wake in the mornin'", "party don't stop"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Critiquing Wealth",
+        "elements": ["Price Tag", "Money Trees", "Mo Money Mo Problems", "Royals"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }

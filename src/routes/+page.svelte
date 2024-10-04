@@ -678,6 +678,12 @@
 
   main {
     position: absolute;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  main::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
   }
 
   .container {
