@@ -6508,5 +6508,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/06/2024": {
+    "playlist": "https://open.spotify.com/playlist/7dTgYIGX5NFRuJ85BLLlb0?si=e51b64b29e22429b",
+    "gameoverGif": "https://i.makeagif.com/media/7-08-2015/d62C1i.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Classic Punk Bands",
+        "elements": ["Sex Pistols", "Ramones", "Misfits", "The Clash"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Deftones \"Diamond Eyes\"",
+        "elements": ["CMND/CTRL", "Sextape", "Beauty School", "976-EVIL"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Named After Girls",
+        "elements": ["Ophelia", "Polly", "Helena", "Arabella"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Weezer's \"Buddy Holly\"",
+        "elements": ["And that's for all time", "I don't care about that", "Your tongue is twisted", "are you feeling sick?"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "frankie",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/framnkei",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
