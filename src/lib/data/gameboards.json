@@ -6543,5 +6543,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/07/2024": {
+    "playlist": "https://open.spotify.com/playlist/6gxaehY9GI4whDnzDhTxTv?si=83d56bc7a25e4e03",
+    "gameoverGif": "https://media.tenor.com/E5wFLXsaGBAAAAAM/smash-mouth-all-star.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Alternative Hits of the 2000s",
+        "elements": ["Seven Nation Army", "Take Me Out", "Float On", "Maps"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs That Became Internet Memes",
+        "elements": ["Never Gonna Give You Up", "All Star", "Gangnam Style", "Badger Badger Badger"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists Who Have Been Coaches on 'The Voice'",
+        "elements": ["Adam Levine", "Alicia Keys", "Gwen Stefani", "John Legend"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Known for Masks or Disguises",
+        "elements": ["Daft Punk", "Sia", "Marshmello", "Slipknot"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
