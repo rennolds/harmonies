@@ -6579,5 +6579,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/08/2024": {
+    "playlist": "https://open.spotify.com/playlist/4QVvcDiR0sklwXOn9SfqKY?si=d691a872f0fd4b13x",
+    "gameoverGif": "https://media.tenor.com/syBzh9UDTPkAAAAM/white-stripes-jack-white.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The White Stripes",
+        "elements": ["Fell in Love with a Girl", "Seven Nation Army", "Blue Orchid", "Icky Thump"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Female-Led Rock Bands",
+        "elements": ["Paramore", "No Doubt", "The Cranberries", "Evanescence"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Ladies of the 80's Hits",
+        "elements": ["How Will I Know", "Like a Virgin", "Time After Time", "What's Love Got to Do with It"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands That Reunited In the 2020's",
+        "elements": ["Oasis", "blink-182", "*NSYNC", "My Chemical Romance"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
