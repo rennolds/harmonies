@@ -6615,5 +6615,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/09/2024": {
+    "playlist": "https://open.spotify.com/playlist/2AKtPp0mV1p2k8X0LaCyAf?si=655e00c39538420b",
+    "gameoverGif": "https://media.tenor.com/DDqdRS4p1BEAAAAM/wayne-lil-wayne.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "\"Lil\" Rappers",
+        "elements": ["Wayne", "Tjay", "Durk", "Jon"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "R&B Singers",
+        "elements": ["Giveon", "D'Angelo", "Usher", "Khalid"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Kanye West Songs",
+        "elements": ["Power", "Otis", "Junya", "River"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2010's Indie Songs",
+        "elements": ["Kingston", "Roddy", "Harvey", "James"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/adamsunoriginal",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   }
 }
