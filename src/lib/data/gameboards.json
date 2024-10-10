@@ -6650,5 +6650,40 @@
     "twitch": "",
     "twitter": "https://twitter.com/adamsunoriginal",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "10/10/2024": {
+    "playlist": "https://open.spotify.com/playlist/2C1jS0UypLOqOvftYYVweE",
+    "gameoverGif": "https://pyxis.nymag.com/v1/imgs/367/836/52710de421aff0a9d01cb74254c239908e-mumford-2.w710.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs By Mumford & Sons",
+        "elements": ["Little Lion Man", "I Will Wait", "The Cave", "Believe"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Folk Bands",
+        "elements": ["Simon & Garfunkel", "The Lumineers", "Fleet Foxes", "Joni Mitchell"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Fall Anthems",
+        "elements": ["Sweather Weather", "Wake Me Up When September Ends", "All Too Well", "Autumn Leaves"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2009 Album Releases",
+        "elements": ["Sigh No More", "The Fame Monster", "My World", "Lungs"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
