@@ -6685,5 +6685,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/11/2024": {
+    "playlist": "https://open.spotify.com/playlist/4cYsdCSO2FhH12tg0BWtxZ?si=7dc0572ab23a4d67",
+    "gameoverGif": "https://media.tenor.com/xB9QRoz8pZgAAAAM/kendrick-kendrick-lamar.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Don't _______",
+        "elements": ["Let Me Down", "You Forget About Me", "Start Now", "Look Back In Anger"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Can't _______",
+        "elements": ["Feel My Face", "Buy Me Love", "Hold Us", "Tell Me Nothing"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Won't _______",
+        "elements": ["Bite", "Get Fooled Again", "Be Late", "Go Home Without You"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Not _______",
+        "elements": ["Strong Enough", "Like Us", "Afraid", "Finished"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/wenkorang",
+    "spotify": ""
   }
 }
