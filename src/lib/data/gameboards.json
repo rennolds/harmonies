@@ -6755,5 +6755,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/13/2024": {
+    "playlist": "https://open.spotify.com/playlist/6OSAHGH71VYTCjxaQnKrXM?si=e89dd1c338d4472c",
+    "gameoverGif": "https://media.tenor.com/52r_TnmSr7UAAAAM/sabrina-carpenter-sabrina-carpenter-cute.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists With Occupational Last Names",
+        "elements": ["Sabrina Carpenter", "James Taylor", "John Mayer", "Will Smith"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists With Color Albums",
+        "elements": ["Taylor Swift", "The Beatles", "Frank Ocean", "Weezer"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With Self-Titled Albums",
+        "elements": ["Ye", "Blur", "blink-182", "Beyonce"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Dan Nigro Collaborators",
+        "elements": ["Conan Gray", "Olivia Rodrigo", "Chappell Roan", "Caroline Polachek"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "sun jasmine",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/soleilyasmina",
+    "spotify": ""
   }
 }
