@@ -6790,5 +6790,40 @@
     "twitch": "",
     "twitter": "https://x.com/soleilyasmina",
     "spotify": ""
+  },
+  "10/14/2024": {
+    "playlist": "https://open.spotify.com/playlist/7ABciuG6ORbOhNeAsPeX4R",
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGk0cTJzcXg3Z3pjb2p5MTJ2Mmw5czIwdnMxcXRzczV2Z2hrbTZpdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jWx1tcdeBX1QFErev8/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs By Selena Gomez",
+        "elements": ["Lose You to Love Me", "Come & Get It", "Good for You", "Same Old Love"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs By Bad Bunny",
+        "elements": ["DÁKITI", "Me Porto Bonito", "LA CANCIÓN", "Moscow Mule"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs By Selena",
+        "elements": ["Amor Prohibido", "Como La Flor", "Bidi Bidi Bom Bom", "Dreaming Of You"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Share The Title Of A Famous Painting",
+        "elements": ["American Gothic", "Mona Lisa", "The Kiss", "Scream"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
