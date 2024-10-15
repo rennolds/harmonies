@@ -6825,5 +6825,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/15/2024": {
+    "playlist": "https://open.spotify.com/playlist/2HoyLRcdJAsflhslLoGQg5",
+    "gameoverGif": "https://media.tenor.com/2krOtmMI1DQAAAAM/tom-delonge.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to Starships by Nicki Minaj",
+        "elements": ["Have a drink, clink", "Starships were meant to fly", "Hands up", "touch the sky"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs about Aliens? ",
+        "elements": ["Aliens Exist", "E.T.", "Subterranean Homesick Alien", "concert for aliens "]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs about Space Exploration",
+        "elements": ["Space Oddity", "Rocket Man", "Drops of Juipter", "Fly Me To The Moon"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs in the soundtrack of 1996's SpaceJam",
+        "elements": ["Fly Like an Eagle", "I Believe I Can Fly", "For You I Will", "Space Jam"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Tom DeLonge",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
