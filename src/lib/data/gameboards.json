@@ -6837,8 +6837,8 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Songs about Aliens? ",
-        "elements": ["Aliens Exist", "E.T.", "Subterranean Homesick Alien", "concert for aliens "]
+        "name": "Songs about Aliens?",
+        "elements": ["Aliens Exist", "E.T.", "Subterranean Homesick Alien", "concert for aliens"]
       },
       {
         "color": "#78DAF9",
@@ -6860,5 +6860,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/16/2024": {
+    "playlist": "https://open.spotify.com/playlist/4znhAP1CaNN0tuPNXgJ8M7?si=3ffe09aa7d06480b",
+    "gameoverGif": "https://media.tenor.com/loU4LeK2gqQAAAAi/brat-charli-xcx-brat.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "On a Brat Remix",
+        "elements": ["Troye Sivan", "Lorde", "Billie Eilish", "Bladee"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featured on Ariana Grande's \"Dangerous Woman\"",
+        "elements": ["Nicki Minaj", "Lil Wayne", "Macy Gray", "Future"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Aritsts with a Live at Electric Lady Album",
+        "elements": ["Clairo", "Japanese Breakfast", "Denzel Curry", "Bleachers"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands With Songs Mentioning Greek Characters",
+        "elements": ["Gang of Youths", "Peach Pit", "Bastille", "The Who"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   }
 }
