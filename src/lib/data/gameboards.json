@@ -6895,5 +6895,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "10/17/2024": {
+    "playlist": "https://open.spotify.com/playlist/218SCxboRaKPUy17PIDm72",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmNsNXJyb2JiZWo0MDIzN3V2Y3prMzlpNDZ1dzhpOHd6a3J6NDA0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jG3XucfsHaWac/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Harry Styles Solo Songs",
+        "elements": ["Watermelon Sugar", "Adore You", "Falling", "Kiwi"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Niall Horan Solo Songs",
+        "elements": ["Too Much to Ask", "Nice to Meet Ya", "Slow Hands", "This Town"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Louis Tomlinson Solo Songs",
+        "elements": ["Miss You", "Just Hold On", "Saturdays", "The Greatest"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Liam Payne solo songs",
+        "elements": ["Strip That Down", "Bedroom Floor", "Get Low", "Familiar"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "🕊️",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
