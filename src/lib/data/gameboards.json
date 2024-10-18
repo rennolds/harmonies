@@ -6930,5 +6930,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/18/2024": {
+    "playlist": "https://open.spotify.com/playlist/6Bivxwp0lwKHfVOUVen2Qu?si=d4605045eaee4cfc",
+    "gameoverGif": "https://media2.giphy.com/media/euZGuGUM7UBA4/giphy.gif?cid=6c09b952bhut9gvny7cw5jeqmfvlq7oqpnwhqqo5bajexgsk&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums From 1993",
+        "elements": ["In Utero", "Siamese Dream", "Enter the Wu-Tang", "Midnight Marauders"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Frank Ocean Songs",
+        "elements": ["Pink + White", "Lost", "Novacane", "Chanel"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands From Australia",
+        "elements": ["AC/DC", "King Gizzard & The Lizard Wizard", "Little River Band", "The Bee Gees"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands With Multiple Lead Singers",
+        "elements": ["The Beatles", "Fleetwood Mac", "Destiny's Child", "*NSYNC"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "brian & julia",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
