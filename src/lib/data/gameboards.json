@@ -7000,5 +7000,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/20/2024": {
+    "playlist": "https://open.spotify.com/playlist/2ewc2rSD0rMaJ6QWPgmvug?si=88fb95168dd4475a",
+    "gameoverGif": "https://media0.giphy.com/media/D1vTWajkr8vfO/200w.gif?cid=82a1493be1x04az3bhtgplizolafji0n6sx9bnd13r2v5170&ep=v1_gifs_related&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Tracks from Lorde's \"Melodrama\"",
+        "elements": ["Perfect Places", "Writer in the Dark", "Sober", "Homemade Dynamite"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums Released in 2008",
+        "elements": ["Vampire Weekend", "Fleet Foxes", "The Fame", "Viva la Vida"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Super Bowl Halftime Show Headliners",
+        "elements": ["The Who", "Beyonce", "Usher", "Lady Gaga"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Covers on KidzBop Debut Album",
+        "elements": ["All The Small Things", "Bye Bye Bye", "That Don't Impress Me Much", "I Want It That Way"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "sosiery",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": "https://letterboxd.com/sosiery/"
   }
 }

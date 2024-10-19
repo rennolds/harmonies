@@ -74,6 +74,7 @@
   const tiktok = gameBoards[todaysDate.toString()]["tiktok"] || "";
   const twitch = gameBoards[todaysDate.toString()]["twitch"] || "";
   const spotify = gameBoards[todaysDate.toString()]["spotify"] || "";
+  const letterboxd = gameBoards[todaysDate.toString()]["letterboxd"] || "";
   const src = gameBoards[todaysDate.toString()]["gameoverGif"] || "";
   const playlist = gameBoards[todaysDate.toString()]["playlist"] || "";
   const keys = Object.keys(gameBoards);
@@ -561,6 +562,42 @@
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M15.9 8.9C12.7 7 7.35 6.8 4.3 7.75C3.8 7.9 3.3 7.6 3.15 7.15C3 6.65 3.3 6.15 3.75 6C7.3 4.95 13.15 5.15 16.85 7.35C17.3 7.6 17.45 8.2 17.2 8.65C16.95 9 16.35 9.15 15.9 8.9ZM15.8 11.7C15.55 12.05 15.1 12.2 14.75 11.95C12.05 10.3 7.95 9.8 4.8 10.8C4.4 10.9 3.95 10.7 3.85 10.3C3.75 9.9 3.95 9.45 4.35 9.35C8 8.25 12.5 8.8 15.6 10.7C15.9 10.85 16.05 11.35 15.8 11.7ZM14.6 14.45C14.4 14.75 14.05 14.85 13.75 14.65C11.4 13.2 8.45 12.9 4.95 13.7C4.6 13.8 4.3 13.55 4.2 13.25C4.1 12.9 4.35 12.6 4.65 12.5C8.45 11.65 11.75 12 14.35 13.6C14.7 13.75 14.75 14.15 14.6 14.45ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" fill="white"/>
             </svg>
+          </a>
+        </button>
+        {/if}
+
+        {#if letterboxd}
+        <button>
+          <a href="{letterboxd}" target="_blank">
+            <svg width="25px" height="25px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>letterboxd-decal-dots-pos-mono</title>
+              <defs>
+                  <rect id="path-1" x="0" y="0" width="129.847328" height="141.443299"></rect>
+                  <rect id="path-3" x="0" y="0" width="129.847328" height="141.443299"></rect>
+              </defs>
+              <g id="letterboxd-decal-dots-pos-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <circle id="Circle" fill="#202830" cx="250" cy="250" r="250"></circle>
+                  <g id="Dots" transform="translate(61.000000, 180.000000)">
+                      <ellipse id="Green" fill="#FFFFFF" cx="189" cy="70" rx="70.0786517" ry="70"></ellipse>
+                      <g id="Blue" transform="translate(248.152672, 0.000000)">
+                          <mask id="mask-2" fill="white">
+                              <use xlink:href="#path-1"></use>
+                          </mask>
+                          <g id="Mask"></g>
+                          <ellipse fill="#FFFFFF" mask="url(#mask-2)" cx="59.7686766" cy="70" rx="70.0786517" ry="70"></ellipse>
+                      </g>
+                      <g id="Orange">
+                          <mask id="mask-4" fill="white">
+                              <use xlink:href="#path-3"></use>
+                          </mask>
+                          <g id="Mask"></g>
+                          <ellipse fill="#FFFFFF" mask="url(#mask-4)" cx="70.0786517" cy="70" rx="70.0786517" ry="70"></ellipse>
+                      </g>
+                      <path d="M129.539326,107.063108 C122.810493,96.3149291 118.921348,83.611134 118.921348,70 C118.921348,56.388866 122.810493,43.6850709 129.539326,32.9368922 C136.268159,43.6850709 140.157303,56.388866 140.157303,70 C140.157303,83.611134 136.268159,96.3149291 129.539326,107.063108 L129.539326,107.063108 Z" id="Overlap" fill="#202830"></path>
+                      <path d="M248.460674,32.9368922 C255.189507,43.6850709 259.078652,56.388866 259.078652,70 C259.078652,83.611134 255.189507,96.3149291 248.460674,107.063108 C241.731841,96.3149291 237.842697,83.611134 237.842697,70 C237.842697,56.388866 241.731841,43.6850709 248.460674,32.9368922 L248.460674,32.9368922 Z" id="Overlap" fill="#202830"></path>
+                  </g>
+              </g>
+          </svg>
           </a>
         </button>
         {/if}
