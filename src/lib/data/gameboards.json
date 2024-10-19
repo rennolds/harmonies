@@ -6965,5 +6965,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/19/2024": {
+    "playlist": "https://open.spotify.com/playlist/3bMlCdEvF2QCrzgHqZYebR",
+    "gameoverGif": "https://media1.giphy.com/media/BmrfSDSAIHy6s/200w.gif?cid=6c09b952euv3fowqbb17ycyznr71pftv9lg0mzvcbva2vzv6&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Ninety Nine Songs",
+        "elements": ["99 problems", "99 Luftballons", "99 Bottles of Beer", "Johnny 99"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2019 Top 4 Charting Hits ",
+        "elements": ["Old Town Road", "Sunflower", "Without Me", "Bad Guy"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2009 Top 4 Charting Hits",
+        "elements": ["Boom Boom Pow", "Poker Face", "Just Dance", "I Gotta Feeling"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "1999 Top 4 Charting Hits",
+        "elements": ["Believe", "No Scrubs", "Angel of Mine", "Heartbreak Hotel"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
