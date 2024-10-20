@@ -504,11 +504,6 @@
     <h3>
       {shoutoutName}
     </h3>
-    {#if specialMessage}
-    <div class="special-message">
-      {messageContent}
-    </div>
-    {/if}
     {#if shoutoutSocials}
     <div class="shoutout-socials">
       {#if youtube}
@@ -604,6 +599,11 @@
 
       </div>
       {/if}
+  </div>
+  {/if}
+  {#if specialMessage}
+  <div class="special-message">
+    {messageContent}
   </div>
   {/if}
   {#if $alertStore.message}
