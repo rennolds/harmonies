@@ -7297,5 +7297,40 @@
     "twitter": "https://x.com/shelbysteeen",
     "spotify": "",
     "letterboxd": ""
+  },
+  "10/28/2024": {
+    "playlist": "https://open.spotify.com/playlist/7tQMZIDt8TdDT8ZB1NTwGG?si=e51d326175b648a4",
+    "gameoverGif": "https://pa1.aminoapps.com/6465/3276d7df692e7b83b3b97930953a5a70883128f6_00.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "All Things Beyoncé",
+        "elements": ["Lemonade", "Crazy in Love", "4", "Halo"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists With One-Word Stage Names",
+        "elements": ["Adele", "Lorde", "Sting", "Sia"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Musicians Who Have Won an Oscar for Acting",
+        "elements": ["Cher", "Barbra Streisand", "Jamie Foxx", "Jared Leto"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Angry Break-Up Songs",
+        "elements": ["My Happy Ending", "Since U Been Gone", "good 4 u", "Ain't Sh*t"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
