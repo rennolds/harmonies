@@ -7332,5 +7332,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/29/2024": {
+    "playlist": "https://open.spotify.com/playlist/7Eh7WsCFpzhVOO5EMJqYj8",
+    "gameoverGif": "https://c.tenor.com/NWQzO0j3Ut4AAAAC/tenor.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Opposites from Katy Perry's \"Hot N Cold\"",
+        "elements": ["Hot", "Cold", "Yes", "No"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Opposites from Taylor Swifts \"You Belong With Me\"",
+        "elements": ["T-Shirts", "Short Skirts", "Cheer Captain", "On the Bleachers"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Opposites from The Beatles \"Hello, Goodbye\"",
+        "elements": ["High", "Low", "Hello", "Good Bye"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Opposites from Avril Lavigne's \"Sk8er Boi\"",
+        "elements": ["Girl", "Boy", "Punk", "Ballet"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "hint: songs with opposites",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
