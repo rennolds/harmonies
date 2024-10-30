@@ -7369,5 +7369,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/30/2024": {
+    "playlist": "https://open.spotify.com/playlist/2IIc2LDRSimjzvOCV22028?si=9f9c0063ee114ec2",
+    "gameoverGif": "https://media.tenor.com/o85TZZWORzMAAAAM/kanye-laughing.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Features on \"The Life of Pablo\"",
+        "elements": ["Chance the Rapper", "Swizz Beats", "Kendrick Lamar", "Frank Ocean"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Features on \"Late Registration\"",
+        "elements": ["Adam Levine", "Paul Wall", "Brandy", "Lupe Fiasco"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Features on \"Yeezus\"",
+        "elements": ["Chief Keef", "Assassin", "Kid Cudi", "King Louie"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Features on \"Jesus Is King\"",
+        "elements": ["Sunday Service Choir", "Ty Dolla $ign", "Clipse", "Fred Hammond"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "hint: features on ye albums",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   }
 }
