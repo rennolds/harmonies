@@ -7480,5 +7480,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "11/02/2024": {
+    "playlist": "https://open.spotify.com/playlist/09nkghh3eq9fh2RgFShoXD?si=95de5882d8b44d13",
+    "gameoverGif": "https://i.pinimg.com/originals/81/32/55/8132559bd26c90b2d7088322160acf02.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Future Songs",
+        "elements": ["Mask Off", "Like That", "Type Sh*t", "WAIT FOR IT"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Roblox Concert Artists",
+        "elements": ["Lil Nas X", "Twenty One Pilots", "24kGoldn", "Charli XCX"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Massive EDM Hits",
+        "elements": ["Levels", "Feel So Close", "Everytime We Touch", "Sandstorm"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Minecraft's C418",
+        "elements": ["Subwoofer Lullaby", "Sweden", "Wet Hands", "Minecraft"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
