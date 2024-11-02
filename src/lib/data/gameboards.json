@@ -7517,5 +7517,301 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "11/03/2024": {
+    "playlist": "https://open.spotify.com/playlist/2phj3PbYeO85AA6Fr16EW8?si=24155dc077c8448f",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKiMyvp_09QKaHBezmKnHIy22bCjq7FuV4gQ&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rap Groups",
+        "elements": ["Run-DMC", "Beastie Boys", "Migos", "OutKast"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Grunge Bands",
+        "elements": ["Soundgarden", "Nirvana", "Pearl Jam", "Alice in Chains"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Female Fronted Bands",
+        "elements": ["The Cranberries", "Paramore", "Blondie", "Fleetwood Mac"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Britpop Groups",
+        "elements": ["Oasis", "Blur", "Pulp", "The Stone Roses"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/wenkorang",
+    "spotify": ""
+  },
+  "11/04/2024": {
+    "playlist": "https://open.spotify.com/playlist/1B2wz09XWrHAubLtO0U1yq?si=82be477c87bd4b09",
+    "gameoverGif": "https://media.tenor.com/HIzCEPZZe30AAAAM/american-idot-green-day.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to Dido's \"Thank You\"",
+        "elements": ["My tea's gone cold", "Rain clouds up my window", "Your picture on my wall", "It's not so bad"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Paramore Albums",
+        "elements": ["All We Know is Falling", "After Laughter", "Brand New Eyes", "Riot!"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Opening Lyrics to Green Day Songs",
+        "elements": ["Do you have the time", "I walk a lonely road", "I'm having trouble trying to sleep", "F**k"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Katy Perry Loves Metaphors",
+        "elements": ["Like a girl changes clothes", "Like a plastic bag", "I wanna see your peacock", "You're a firework"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/05/2024": {
+    "playlist": "https://open.spotify.com/playlist/6A3tgqtsnvdnhULyI02bWq?si=83fa0f60f09b45d5",
+    "gameoverGif": "https://reactiongifs.me/wp-content/uploads/2020/05/Groot-Dancing-Guardians-of-the-Galaxy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Featured in: Barbie",
+        "elements": ["Dance the Night", "What Was I Made For?", "I'm Just Ken", "Barbie World"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featured in: Shrek",
+        "elements": ["I'm a Believer", "Hallelujah", "Bad Reputation", "All Star"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featured in: Guardians of the Galaxy",
+        "elements": ["I Want You Back", "Hooked on a Feeling", "Ain't No Mountain High Enough", "Come and Get Your Love"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Featured in: Suicide Squad",
+        "elements": ["Heathens", "Bohemian Rhapsody", "Without Me", "Sucker for Pain"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: movie soundtracks",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/06/2024": {
+    "playlist": "https://open.spotify.com/playlist/3Xw0NSUdi8KbdIQ2u07MJz?si=2ae15af3df4c43c8",
+    "gameoverGif": "https://media.tenor.com/KEvQi7f3-hkAAAAM/black-eyed-peas-girl-like-me.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Members of The Black Eyed Peas",
+        "elements": ["will.i.am", "apl.de.ap", "Fergie", "Taboo"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Song Titles on Young Thug's \"JEFFREY\"",
+        "elements": ["Wyclef Jean", "Floyd Mayweather", "Swizz Beats", "Kanye West"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Last Four Album of the Year Grammy Winners",
+        "elements": ["Midnights", "Harry's House", "We Are", "folklore"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums by Eras Tour Openers",
+        "elements": ["I'm Doing It Again, Baby!", "Short n' Sweet", "After Laughter", "Women in Music Pt. III"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "11/07/2024": {
+    "playlist": "https://open.spotify.com/playlist/3vdy3NtprC9fac687dlFiw?si=5070e3ce19a64e63",
+    "gameoverGif": "https://media.tenor.com/UI1SAJVoueIAAAAM/the-weeknd-weekend.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "The Weeknd Songs",
+        "elements": ["Blinding Lights", "Starboy", "The Hills", "Save Your Tears"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Kendrick Lamar",
+        "elements": ["Like That", "Bad Blood", "No More Parties in LA", "F***in' Problems"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With $$$ Names",
+        "elements": ["Ty Dolla $ign", "COIN", "Johnny Cash", "Cash Cash"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Being Single",
+        "elements": ["Ridin' Solo", "Flowers", "22", "Single Ladies"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/08/2024": {
+    "playlist": "https://open.spotify.com/playlist/6tFOBMPja13VDKxmodo5AI?si=126dae00c0c64c51",
+    "gameoverGif": "https://media0.giphy.com/media/PhTH37QIJQpM0gEJdB/giphy-downsized.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "U.K. Artists",
+        "elements": ["Jessie J", "Charli XCX", "Adele", "Amy Winehouse"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Women of Rock",
+        "elements": ["Janis Joplin", "Joan Jett", "Stevie Nicks", "Pat Benatar"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Most Streamed Female Artists on Spotify",
+        "elements": ["Taylor Swift", "Ariana Grande", "Rihanna", "Billie Eilish"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists with Stage Names",
+        "elements": ["Ice Spice", "GloRilla", "Megan Thee Stallion", "Doja Cat"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@thejulianagenda",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/thejulianagenda",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/09/2024": {
+    "playlist": "https://open.spotify.com/playlist/1aBF2MhHiqmKTiuhIavKhk?si=fac77fc02d724e82",
+    "gameoverGif": "https://i.makeagif.com/media/2-15-2015/Cn10Eb.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Madonna Songs",
+        "elements": ["Material Girl", "Like a Prayer", "Like a Virgin", "La Isla Bonita"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2010's Hits",
+        "elements": ["Like a G6", "Tik Tok", "Bad Romance", "Love the Way You Lie"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Gotye's \"Somebody That I Used To Know\"",
+        "elements": ["Didn't have to cut me off", "Like a stranger", "That feels so rough", "Change your number"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous Piano Intros",
+        "elements": ["Lean On Me", "A Thousand Miles", "Clocks", "Runaway"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/10/2024": {
+    "playlist": "https://open.spotify.com/playlist/6k63dFBY7Xu8bIkQinQyQa?si=e530589f00114bc9",
+    "gameoverGif": "https://media.tenor.com/cQGiBaS0s3kAAAAM/imagine-willow-smith.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Fleetwood Mac Songs Written by Stevie Nicks",
+        "elements": ["Dreams", "Rhiannon", "Gypsy", "Silver Springs"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums by Artists With Famous Relatives",
+        "elements": ["Good Riddance", "Chaos Angel", "THE ANXIETY", "How does that grab you?"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Welsh Artists",
+        "elements": ["Bonnie Tyler", "Tom Jones", "MARINA", "Catfish and Bottlemen"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Covered on Glee Multiple TImes",
+        "elements": ["Don't Stop Believin'", "Teenage Dream", "Toxic", "Defying Gravity"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "dylan",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
