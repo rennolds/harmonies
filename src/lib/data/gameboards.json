@@ -7688,7 +7688,7 @@
       {
         "color": "#FFBC21",
         "name": "Songs About Being Single",
-        "elements": ["Ridin' Solo", "Flowers", "22", "Single Ladies"]
+        "elements": ["Ridin' Solo", "Flowers", "thank u, next", "Single Ladies"]
       }
     ],
     "shoutout": false,
@@ -7710,12 +7710,12 @@
       {
         "color": "#CBff70",
         "name": "U.K. Artists",
-        "elements": ["Jessie J", "Charli XCX", "Adele", "Amy Winehouse"]
+        "elements": ["Dua Lipa", "Charli XCX", "Adele", "Amy Winehouse"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Women of Rock",
-        "elements": ["Janis Joplin", "Joan Jett", "Stevie Nicks", "Pat Benatar"]
+        "name": "Female Groups",
+        "elements": ["Fifth Harmony", "Little Mix", "HAIM", "Spice Girls"]
       },
       {
         "color": "#78DAF9",
