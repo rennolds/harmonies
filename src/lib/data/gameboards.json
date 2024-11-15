@@ -7984,7 +7984,7 @@
       {
         "color": "#FFBC21",
         "name": "Closing Tracks on Iconic Albums",
-        "elements": ["Purple Rain", "Gold Dust Woman", "Mortal Man", "Cecilia"]
+        "elements": ["Purple Rain", "Gold Dust Woman", "Mortal Man", "Brothers in Arms"]
       }
     ],
     "shoutout": false,
@@ -8148,28 +8148,28 @@
     "spotify": ""
   },
   "11/20/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5hNwVmYtGim8qNiWJlOmlM?si=bc1c4dbbadf04e00",
+    "gameoverGif": "https://media2.giphy.com/media/l4pThZyhCjDGJkjmM/200.gif?cid=6c09b9522fpnet8t3yslayssf8ihud4fn3p3wcd12zawgjm0&ep=v1_internal_gif_by_id&rid=200.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Post Malone Country Songs",
+        "elements": ["Pour Me A Drink", "I Had Some Help", "Guy For That", "Dial Drunk"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Lyrics to Justin Timberlake's \"Cry Me a River\"",
+        "elements": ["You don't have to say", "what you did", "I already know", "I found out from him"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Radiohead Albums",
+        "elements": ["OK Computer", "In Rainbows", "Pablo Honey", "The Bends"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Protest Rock Songs",
+        "elements": ["Rock the Casbah", "Hurricane", "Zombie", "American Idiot"]
       }
     ],
     "shoutout": false,
@@ -8319,6 +8319,43 @@
         "color": "#FFBC21",
         "name": "Artists With a Fortnite Concert",
         "elements": ["Travis Scott", "Eminem", "Ariana Grande", "The Kid LAROI"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@JonoWasHereAU",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "https://twitch.tv/jonowashereau",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/25/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Groups With a Lot of Members",
+        "elements": ["Slipknot", "Wu-Tang Clan", "Earth, Wind & Fire", "SEVENTEEN (세븐틴)"]
       }
     ],
     "shoutout": false,
