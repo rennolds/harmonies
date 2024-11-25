@@ -8334,6 +8334,43 @@
     "spotify": ""
   },
   "11/25/2024": {
+    "playlist": "https://open.spotify.com/playlist/3TejaOnUq1wlPlM1JZ9yEa?si=b897e22f36a94544",
+    "gameoverGif": "https://media.tenor.com/m0HR4OGyEUAAAAAM/enoughformeliv-olivia-rodrigo.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sogns From Olivia Rodrigo's \"SOUR\"",
+        "elements": ["drivers license", "good 4 u", "traitor", "deja vu"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Elvis Presley's \"Can't Help Falling in Love\"",
+        "elements": ["Shall I stay", "Would it be a sin", "A river flows", "Fools rush in"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With 2008 Debut Studio Albums",
+        "elements": ["Lady Gaga", "Bon Iver", "MGMT", "Carly Rae Jepsen"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Groups With a Lot of Members",
+        "elements": ["Slipknot", "Wu-Tang Clan", "Earth, Wind & Fire", "SEVENTEEN (세븐틴)"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/30/2024": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
@@ -8349,13 +8386,13 @@
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Produced by Timbaland",
+        "elements": ["Get Ur Freak On", "Promiscuous", "Cry Me a River", "SexyBack"]
       },
       {
         "color": "#FFBC21",
-        "name": "Groups With a Lot of Members",
-        "elements": ["Slipknot", "Wu-Tang Clan", "Earth, Wind & Fire", "SEVENTEEN (세븐틴)"]
+        "name": "Bands With Siblings",
+        "elements": ["The Beach Boys", "Jonas Brothers", "HAIM", "Oasis"]
       }
     ],
     "shoutout": false,
