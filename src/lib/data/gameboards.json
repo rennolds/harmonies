@@ -8370,6 +8370,43 @@
     "twitter": "",
     "spotify": ""
   },
+  "11/26/2024": {
+  "playlist": "https://open.spotify.com/playlist/3sEtDDVhjFjEsSheUEo1Vo",
+  "gameoverGif": "https://i.makeagif.com/media/6-03-2022/Agr61D.gif",
+  "categories": [
+    {
+      "color": "#CBff70",
+      "name": "Songs Named After Their Movie",
+      "elements": ["Purple Rain", "8 Mile", "Ghostbusters", "Men in Black"]
+    },
+    {
+      "color": "#FAA3FF",
+      "name": "Musicians with successful acting careers",
+      "elements": ["Ice Cube", "Will Smith", "Lady Gaga", "Justin Timberlake"]
+    },
+    {
+      "color": "#78DAF9",
+      "name": "Musicians who have won an Oscar",
+      "elements": ["Elton John", "Phil Colins", "Eminem", "Prince"]
+    },
+    {
+      "color": "#FFBC21",
+      "name": "Fictional Bands From Movies/Games",
+      "elements": ["K/DA", "The Soggy Bottom Boys", "The Blues Brothers", "The Barden Bellas"]
+    }
+  ],
+  "shoutout": false,
+  "shoutout-name": "",
+  "shoutout-socials": false,
+  "special-message": true,
+  "message-content": "🎬",
+  "instagram": "",
+  "tiktok": "",
+  "youtube": "",
+  "twitch": "",
+  "twitter": "",
+  "spotify": ""
+},
   "11/30/2024": {
     "playlist": "",
     "gameoverGif": "",
