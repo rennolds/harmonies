@@ -8444,7 +8444,81 @@
   "twitter": "https://x.com/cmb__e",
   "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
 },
+"11/28/2024": {
+  "playlist": "https://open.spotify.com/playlist/6GGCNarlspQsDfVuFpmxMU?si=8c0d3f53718047b5",
+  "gameoverGif": "https://media1.tenor.com/m/dS4yf-2zW_IAAAAC/turkey-happy.gif",
+  "categories": [
+    {
+      "color": "#CBff70",
+      "name": "Songs About Food",
+      "elements": ["Eat It", "Peaches", "Pork and Beans", "Chicken Fried"]
+    },
+    {
+      "color": "#FAA3FF",
+      "name": "Performing at the Macy's Thanksgiving Day Parade",
+      "elements": ["T-Pain", "Idina Menzel", "Dan + Shay", "The Temptations"]
+    },
+    {
+      "color": "#78DAF9",
+      "name": "Songs That Share a Name with an NFL Mascot",
+      "elements": ["The Lion Sleeps Tonight", "cowboy like me", "The Bare Necessities", "We Looked Like Giants"]
+    },
+    {
+      "color": "#FFBC21",
+      "name": "Songs About Gratitude",
+      "elements": ["thank u, next", "What a Wonderful World", "Thank You", "I've Got Plenty to be Thankful For"]
+    }
+  ],
+  "shoutout": false,
+  "shoutout-name": "",
+  "shoutout-socials": false,
+  "special-message": true,
+  "message-content": "theme: happy thanksgiving!",
+  "instagram": "",
+  "tiktok": "",
+  "youtube": "",
+  "twitch": "",
+  "twitter": "",
+  "spotify": ""
+},
   "11/30/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Panic! At the Disco Songs",
+        "elements": ["I Write Sins Not Tragedies", "Nine in the Afternoon", "House of Memories", "High Hopes"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hip Hop Duos",
+        "elements": ["OutKast", "Clipse", "Run the Jewels", "Method Man and Redman"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Eminem Collaborators",
+        "elements": ["50 Cent", "Dr. Dre", "Skylar Grey", "Rihanna"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands With Siblings",
+        "elements": ["The Beach Boys", "Jonas Brothers", "HAIM", "Oasis"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/01/2024": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
@@ -8465,8 +8539,45 @@
       },
       {
         "color": "#FFBC21",
-        "name": "Bands With Siblings",
-        "elements": ["The Beach Boys", "Jonas Brothers", "HAIM", "Oasis"]
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/02/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sabrina Carpenter Songs",
+        "elements": ["Taste", "Feather", "Juno", "Espresso"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The Spice Girls Nicknames",
+        "elements": ["Sporty", "Scary", "Ginger", "Posh"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Mac Miller Albums",
+        "elements": ["Swimming", "Circles", "K.I.D.S.", "Faces"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Named _____ You",
+        "elements": ["Adore", "Forget", "Fix", "Without"]
       }
     ],
     "shoutout": false,
