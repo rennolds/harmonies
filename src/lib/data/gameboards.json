@@ -8518,29 +8518,29 @@
     "twitter": "",
     "spotify": ""
   },
-  "12/01/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+  "11/30/2024": {
+    "playlist": "https://open.spotify.com/playlist/1gNLBhlHLKdoT86GwLkjj6?si=551d4725f6004918",
+    "gameoverGif": "https://media.tenor.com/TLUVGHciSHUAAAAM/aerosmith-dream-on.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Rock Band Lead Singers",
+        "elements": ["Chris Cornell", "Axl Rose", "Freddie Mercury", "Mick Jagger"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Led Zeppelin Songs",
+        "elements": ["Stairway to Heaven", "Whole Lotta Love", "Immigrant Song", "Black Dog"]
       },
       {
         "color": "#78DAF9",
-        "name": "Produced by Timbaland",
-        "elements": ["Get Ur Freak On", "Promiscuous", "Cry Me a River", "SexyBack"]
+        "name": "Lyrics to Aerosmith's \"Dream On\"",
+        "elements": ["good Lord will take you away", "sing for the year", "where it comes", "where it goes"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "90's Rock Songs",
+        "elements": ["Zombie", "Song 2", "Under the Bridge", "Creep"]
       }
     ],
     "shoutout": false,
@@ -8578,6 +8578,43 @@
         "color": "#FFBC21",
         "name": "Songs Named _____ You",
         "elements": ["Adore", "Forget", "Fix", "Without"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/03/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Produced by Timbaland",
+        "elements": ["Get Ur Freak On", "Promiscuous", "Cry Me a River", "SexyBack"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "90's Pop Songs",
+        "elements": ["Believe", "Wannabe", "Torn", "Waterfalls"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
       }
     ],
     "shoutout": false,
