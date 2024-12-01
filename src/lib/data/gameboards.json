@@ -8555,6 +8555,43 @@
     "twitter": "",
     "spotify": ""
   },
+  "12/01/2024": {
+    "playlist": "https://open.spotify.com/playlist/1uhZWqtxStC4lijlGctdfr?si=365c015cead94dec",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDhpYmo2NHNvcjl4OTllYnRpcHl0OGVmMnFqN3Vud2twcnRscXdiMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZusU3cVn9prD7gKrgN/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Wicked",
+        "elements": ["Defying Gravity", "Popular", "The Wizard and I", "For Good"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Disney Princess Songs",
+        "elements": ["A Whole New World", "Let It Go", "Part of Your World", "Colors of the Wind"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Musicals by Stephen Schwartz",
+        "elements": ["Wicked", "Godspell", "Pippin", "The Prince of Egypt"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Musicals set in New York City",
+        "elements": ["West Side Story", "Rent", "In the Heights", "Newsies"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: for the theater kids",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "12/02/2024": {
     "playlist": "",
     "gameoverGif": "",
