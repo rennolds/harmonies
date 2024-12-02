@@ -8593,8 +8593,8 @@
     "spotify": ""
   },
   "12/02/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/41bFzMDK2vyhWiQQClilMC?si=f7809723e0054611",
+    "gameoverGif": "https://media1.giphy.com/media/UOdSuDtmdzTT6YFoLr/giphy.gif?cid=6c09b95262x9je660bk7p03zbv35jnvk05laq4qr41ofs9hx&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
@@ -8609,7 +8609,7 @@
       {
         "color": "#78DAF9",
         "name": "Mac Miller Albums",
-        "elements": ["Swimming", "Circles", "K.I.D.S.", "Faces"]
+        "elements": ["Swimming", "Circles", "Macadelic", "Faces"]
       },
       {
         "color": "#FFBC21",
