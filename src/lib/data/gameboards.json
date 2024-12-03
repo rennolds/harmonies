@@ -8630,28 +8630,28 @@
     "spotify": ""
   },
   "12/03/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/47ozL5i2rv6nyXeK9ipUO1?si=953cb438e9704352",
+    "gameoverGif": "https://media4.giphy.com/media/26Ff3sWpXr3ELeHYc/giphy.gif?cid=6c09b952v08osesml6cj2d8emxex5zbldhucshb2zncxvp1o&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Stevie Wonder Songs",
+        "elements": ["Isn't She Lovely", "Superstition", "I Just Called To Say I Love You", "For Once In My Life"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Produced by Timbaland",
-        "elements": ["Get Ur Freak On", "Promiscuous", "Cry Me a River", "SexyBack"]
+        "name": "80's Albums",
+        "elements": ["Disintegration", "Hounds of Love", "Thriller", "She's So Unusual"]
       },
       {
         "color": "#78DAF9",
-        "name": "90's Pop Songs",
-        "elements": ["Believe", "Wannabe", "Torn", "Waterfalls"]
+        "name": "Lyrics to Maroon 5's \"This Love\"",
+        "elements": ["love has taken its toll", "She said goodbye", "heart is breaking in front of me", "I won't say goodbye anymore"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Country Heartbreak Songs",
+        "elements": ["What Hurts The Most", "Drunk on a Plane", "Mama's Broken Heart", "Before He Cheats"]
       }
     ],
     "shoutout": false,
@@ -8659,6 +8659,80 @@
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/04/2024": {
+    "playlist": "https://open.spotify.com/playlist/2ibWqn11nLx9iwIr23ty5j?si=8ae20e7fce574403",
+    "gameoverGif": "https://i.pinimg.com/originals/d4/7d/6b/d47d6be37092ca7812902c92ae38315a.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Female R&B Artists",
+        "elements": ["SZA", "Kehlani", "Tyla", "Aaliyah"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Members of BLACKPINK",
+        "elements": ["Jennie", "Lisa", "Rose", "Jisoo"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Names of Women in Beatles Songs",
+        "elements": ["Eleanor", "Lucy", "Rita", "Michelle"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Names of Women in Hozier Songs",
+        "elements": ["Jackie", "Eden", "Nina", "Francesca"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "hint: beatles songs, hozier songs, & artists",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "12/05/2024": {
+    "playlist": "https://open.spotify.com/playlist/5Vd0t35v4r4mecs7zNzM80?si=30399fbcbc954682",
+    "gameoverGif": "https://i.giphy.com/mpnijcWZLhDy5PMRjs.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Guitar Brands",
+        "elements": ["Fender", "Gibson", "Ibanez", "Paul Reed Smith"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Guitar Accessories",
+        "elements": ["Pick", "Capo", "Amp", "Pedal"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famous Guitar Solos",
+        "elements": ["Stairway to Heaven", "Eruption", "All Along the Watchtower", "Comfortably Numb"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Types of Guitars",
+        "elements": ["Acoustic", "Electric", "Spanish", "Bass"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: 🎸",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
