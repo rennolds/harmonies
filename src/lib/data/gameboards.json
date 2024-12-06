@@ -8739,5 +8739,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "12/06/2024": {
+    "playlist": "https://open.spotify.com/playlist/33JvaSzXM3jaaYPjUcRgQY?si=000acf22fc1f4c23",
+    "gameoverGif": "https://y.yarn.co/f2db0a17-0914-497e-81f0-01a0a98d87e2_text.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Pop Anthems by Canadian Woman",
+        "elements": ["Sk8er Boi", "Call Me Maybe", "Man! I Feel Like a Woman!", "Maneater"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists From Montreal",
+        "elements": ["Kaytranada", "Arcade Fire", "A-Trak", "Simple Plan"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Traveling",
+        "elements": ["Come Fly With Me", "Hot Wind Blows", "Fly Away", "Around The World"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Barbenheimer Songs",
+        "elements": ["American Prometheus", "Can You Hear The Music", "I'm Just Ken", "Dance The Night"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "alberto",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "for jess & alanna",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
