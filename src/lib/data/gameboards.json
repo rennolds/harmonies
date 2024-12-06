@@ -8776,5 +8776,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "12/07/2024": {
+    "playlist": "https://open.spotify.com/playlist/0Lev29eI7CfmTZmLLb2Hkg?si=ae6dfa1693b846b4",
+    "gameoverGif": "https://media1.giphy.com/media/mXqoG5IPf6pdqnPcyc/200.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs From Post Malone's \"beerbongs & bentleys\"",
+        "elements": ["Better Now", "rockstar", "Psycho", "Candy Paint"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Juice WRLD's \"Lucid Dreams\"",
+        "elements": ["shadows in my room", "I love and I hate you", "You found another one", "I'll do it over again"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100: 1982",
+        "elements": ["Eye of the Tiger", "I Love Rock 'n Roll", "Ebony and Ivory", "Chariots of Fire"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Pop Ballads",
+        "elements": ["Million Reasons", "The Scientist", "Because of You", "human"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
