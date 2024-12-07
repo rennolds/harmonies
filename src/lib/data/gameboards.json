@@ -8813,5 +8813,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "12/08/2024": {
+    "playlist": "https://open.spotify.com/playlist/6ZSkJvpXDhpXRiRMgfzLkQ?si=c522804f07584aa6",
+    "gameoverGif": "https://media1.giphy.com/media/8mgWuwNt9ZCAYEBw5b/giphy.gif?cid=6c09b9520lnranvo9pj67bq478f0osuj32f7spx0ld5v6vpu&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to Drake Bell's \"I Found A Way\"",
+        "elements": ["Well, I never thought", "it'd be so simple", "time to realign", "just turn around"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2013 Albums",
+        "elements": ["24/Seven", "Because the Internet.", "Nothing was the Same", "Yeezus"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Beach House Albums",
+        "elements": ["Thank your Lucky Stars", "Depression Cherry", "Bloom", "Teen Dream"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs From Jeff Buckley's \"Grace\"",
+        "elements": ["Hallelujah", "Lover, You Should've Come Over", "Last Goodbye", "Grace"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@daysofending",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/daysofending",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
