@@ -8850,5 +8850,116 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "12/08/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Opening Lyrics to Beyoncé Songs",
+        "elements": ["Remember Those Walls I Built", "All The Single Ladies", "This Ain't Texas", "If I Were a Boy"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs With Spoken Intros",
+        "elements": ["Lose Yourself", "Better Than Revenge", "NASA", "Born This Way"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs That Start With \"Hello\"",
+        "elements": ["Hello", "I Miss You", "Hello, I Love You", "The Sound of Silence"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs With a Vocal Count In",
+        "elements": ["I Saw Her Standing There", "HOT TO GO!", "Hey Ya!", "get him back!"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: opening lyrics",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/10/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/11/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
