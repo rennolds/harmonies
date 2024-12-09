@@ -1119,7 +1119,7 @@
       {
         "color": "#CBff70",
         "name": "Red Hot Songs",
-        "elements": ["Burnin' Up",	"Girl on Fire",	"Hot in Herre",	"Through the Fire and the Flames"]
+        "elements": ["Burnin' Up", "Girl on Fire", "Hot in Herre", "Through the Fire and the Flames"]
       },
       {
         "color": "#FAA3FF",
@@ -8851,9 +8851,9 @@
     "twitter": "",
     "spotify": ""
   },
-  "12/08/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+  "12/09/2024": {
+    "playlist": "https://open.spotify.com/playlist/7mLbEKxjPreFTK6IcLR2Lu?si=88f3bbf487c84e81",
+    "gameoverGif": "https://media2.giphy.com/media/GXz1F8YrnRMz3IR41d/giphy.gif?cid=6c09b952k0ezvbaf8zt90qnrp9enpubwhjzyjhmpfl6atkmr&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
@@ -8862,25 +8862,25 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Songs That Open With Questions",
-        "elements": ["Firework", "Bohemian Rhapsody", "Basket Case", "What Do You Mean?"]
+        "name": "Lyrics to B.o.B's \"Magic\"",
+        "elements": ["Touch That Track", "Turns Into Gold", "When I Hit the Floor", "Snapping At Me"]
       },
       {
         "color": "#78DAF9",
-        "name": "Songs That Start With \"Hello\"",
-        "elements": ["Hello", "I Miss You", "Hello, I Love You", "The Sound of Silence"]
+        "name": "Produced by Timbaland",
+        "elements": ["Get Ur Freak On", "Promiscuous", "Cry Me a River", "SexyBack"]
       },
       {
         "color": "#FFBC21",
-        "name": "Songs With a Vocal Count In",
-        "elements": ["I Saw Her Standing There", "HOT TO GO!", "Hey Ya!", "get him back!"]
+        "name": "Songs That Start With \"Hello\"",
+        "elements": ["Hello", "I Miss You", "Hello, I Love You", "The Sound of Silence"]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": true,
-    "message-content": "theme: opening lyrics",
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -8889,28 +8889,29 @@
     "spotify": ""
   },
   "12/10/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0h2ynhBCSFu1MPN8CS4Ewv?si=1f8fc5c904454158",
+    "gameoverGif": "https://media.tenor.com/oi7VPVsXM9sAAAAM/linkin-park-in-the-end.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Linkin Park Songs",
+        "elements": ["Crawling", "Numb", "Faint", "Papercut"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Famous John/Johnny Musicians",
+        "elements": ["Mayer", "Legend", "Cash", "Denver"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Girl Groups Songs",
+        "elements": ["Wannabe", "Buttons", "Survivor", "Waterfalls"]
+
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs From Pink Floyd's \"Dark Side of the Moon\"",
+        "elements": ["Time", "Breath", "Money", "Eclipse"]
       }
     ],
     "shoutout": false,
@@ -8931,27 +8932,101 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "The Weeknd & Ariana Grande Collabs",
+        "elements": ["Die For You", "Save Your Tears", "Love Me Harder", "Off The Table"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "The Weeknd & Travis Scott Collabs",
+        "elements": ["Pray 4 Love", "Skeletons", "Circus Maximus", "K-Pop"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "The Weeknd & Future Collabs",
+        "elements": ["Double Fantasy", "Low Life", "All I Know", "Comin Out Strong"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "The Weeknd & Metro Boomin' Collabs",
+        "elements": ["Creepin’", "Popular", "Heartless", "Escape from LA"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "theme: the weeknd collabs",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "12/12/2024": {
+    "playlist": "https://open.spotify.com/playlist/3eOcQC3kadghIA2kxpCe0E?si=9d151ea6e76449ca",
+    "gameoverGif": "https://media.tenor.com/ByxUL0hIzcwAAAAM/jonas-brothers-sos.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Nelly Songs",
+        "elements": ["Hot In Herre", "Just a Dream", "Ride Wit Me", "Country Grammar"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Chappell Roan's \"HOT TO GO!\"",
+        "elements": ["Call me hot", "Not pretty", "Do you like this beat?", "99 Degrees"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to The Jonas Brothers \"Burnin' Up\"",
+        "elements": ["I'm hot", "You're cold", "Who turned the temperature hotter?", "For you, baby"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Inappropriate Crushes",
+        "elements": ["Hot For Teacher", "Stacy’s Mom", "Jessie’s Girl", "I'm N Luv (Wit a Stripper)"]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/13/2024": {
+    "playlist": "https://open.spotify.com/playlist/0gkBteQWTbDuJUmc4Tm7Sk?si=96d5c77cee8f433e",
+    "gameoverGif": "https://media1.giphy.com/media/eb8qyRYKqevYc/200w.gif?cid=6c09b952o5xyh9je4j9zqa06ib6ivo0l0eqn7ewf5jzk21vs&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artist Names That Reference Their Genre",
+        "elements": ["Metallica", "Funkadelic", "Blues Traveler", "Purple Disco Machine"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bands Named After Their Frontmen",
+        "elements": ["Bon Jovi", "Van Halen", "Tom Petty and the Heartbreakers", "Santana"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famous Alter Egos",
+        "elements": ["Ziggy Stardust", "Slim Shady", "Sasha Fierce", "Roman Zolanski"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Rappers Who Use Their Real Name",
+        "elements": ["Obie Trice", "Kanye West", "Kendrick Lamar", "Will Smith"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Oren",
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
