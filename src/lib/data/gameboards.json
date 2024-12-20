@@ -9155,7 +9155,7 @@
       {
         "color": "#CBff70",
         "name": "Artists Who Have Performed \"Hallelujah\"",
-        "elements": ["Leonard Cohe", "Jeff Buckley", "Rufus Wainwright", "Pentatonix"]
+        "elements": ["Leonard Cohen", "Jeff Buckley", "Rufus Wainwright", "Pentatonix"]
       },
       {
         "color": "#FAA3FF",
@@ -9260,28 +9260,28 @@
     "spotify": ""
   },
   "12/20/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/2TTwtGckR1B9lvjCLZZS1q?si=47485bcca064418f",
+    "gameoverGif": "https://www.icegif.com/wp-content/uploads/icegif-4246.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Songs from Billie Eilish's \"When We All Fall Asleep...\"",
+        "elements": ["bad guy", "when the party's over", "bury a friend", "i love you"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics The Cranberries \"Linger\"",
+        "elements": ["wrapped around your finger", "such a fool for you", "it's just your attitude", "tearing me apart"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Say ______ Song Titles",
+        "elements": ["It Ain’t So", "My Name", "So", "You Won’t Let Me Go"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Materialistic Songs",
+        "elements": ["Santa Baby", "Material Girl", "Billionaire", "I Like It"]
       }
     ],
     "shoutout": false,
@@ -9321,16 +9321,166 @@
         "elements": [""]
       }
     ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/22/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/23/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists With Christmas Albums",
+        "elements": ["Justin Bieber", "Michael Bublé", "Sia", "Pentatonix"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Modern Christmas Staples",
+        "elements": ["Santa Tell Me", "Snowman", "Mistletoe", "Christmas Tree Farm"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Mariah Carey Christmas Essentials",
+        "elements": ["All I Want For Christmas Is You", "Oh Santa", "Fall In Love at Christmas", "Christmas Time is in the Air Again"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Christmas Classics From Groups/Duos",
+        "elements": ["Last Christmas", "Happy Xmas (War Is Over)", "Sleigh Ride", "Little Saint Nick"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/24/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs on Michael Buble’s \"Christmas\"",
+        "elements": ["It's Beginning To Look A Lot Like Christmas", "Santa Claus is Coming to Town", "Have Yourself A Merry Little Christmas", "I'll Be Home for Christmas"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Christmas Songs by Pop Stars",
+        "elements": ["Santa Tell Me", "All I Want For Christmas Is You", "Mistletoe", "A Nonsense Christmas"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs in A Charlie Brown Christmas",
+        "elements": ["O Tannenbaum", "Christmastime Is Here", "Hark! The Herald Angels Sing", "Linus and Lucy"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Christmas Songs by The Beatles",
+        "elements": ["Happy Xmas (War is Over)", "Wonderful Christmastime", "Ding Dong, Ding Dong", "I Wanna Be Santa Claus"]
+      }
+    ],
     "shoutout": true,
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
-    "special-message": true,
-    "message-content": "theme: how many members in these groups?",
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
     "twitch": "",
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "12/25/2024": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
+
+
