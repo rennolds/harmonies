@@ -80,7 +80,7 @@
   const keys = Object.keys(gameBoards);
   const harmonyNumber = keys.indexOf(todaysDate) + 1; // Adding 1 to make it 1-based index
 
-  console.log(todaysDate);
+
 
   const gameoverStore = writable({
     isOver: false,
@@ -635,7 +635,9 @@
   {/if}
 
   <div class="grid-container">
-    {#each $clearedCategories as category}
+    {#each [
+      ...new Set($clearedCategories.map(JSON.stringify))
+    ].map(JSON.parse) as category}
       <ClearedCategory category={category}></ClearedCategory>
     {/each}
     {#each remainingElements as element, i (element)}
