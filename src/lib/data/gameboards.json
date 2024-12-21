@@ -9334,28 +9334,28 @@
     "spotify": ""
   },
   "12/22/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/73IgRPLsSSOK3Nx2EWWw9K",
+    "gameoverGif": "https://i.makeagif.com/media/2-10-2016/3HuWZR.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Boy Band Songs",
+        "elements": ["She Looks So Perfect", "I Want It That Way", "Night Changes", "It's Gonna Be Me"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "\"Best Rap Song\" Grammy Winners 2020-2023",
+        "elements": ["The Heart Part 5", "Jail", "Savage", "A Lot"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "EDM Songs Featuring Pop Singers",
+        "elements": ["I Need Your Love", "Titanium", "It Ain't Me", "Let Me Love You"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs That Open With Questions",
+        "elements": ["Firework", "Bohemian Rhapsody", "Basket Case", "What Do You Mean?"]
       }
     ],
     "shoutout": false,
@@ -9371,8 +9371,8 @@
     "spotify": ""
   },
   "12/23/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5vNIwUn1j5R0DmNvCloMlB?si=7f409a615a4f46f0",
+    "gameoverGif": "https://media1.tenor.com/m/P9FaJ3r2vo0AAAAC/mariah-mariah-c.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -9395,31 +9395,31 @@
         "elements": ["Last Christmas", "Happy Xmas (War Is Over)", "Sleigh Ride", "Little Saint Nick"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
     "special-message": false,
     "message-content": "",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": "",
+    "twitter": "https://twitter.com/wenkorang",
     "spotify": ""
   },
   "12/24/2024": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/xiGwCrXpQSsAAAAM/charlie-brown-christmas-charlie-brown.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Songs on Michael Buble’s \"Christmas\"",
-        "elements": ["It's Beginning To Look A Lot Like Christmas", "Santa Claus is Coming to Town", "Have Yourself A Merry Little Christmas", "I'll Be Home for Christmas"]
+        "name": "Hip Hop Christmas Songs",
+        "elements": ["I Am the Grinch", "Christmas in Harlem", "Christmas in Hollis", "Santa Claus Goes Straight To The Ghetto"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Christmas Songs by Pop Stars",
-        "elements": ["Santa Tell Me", "All I Want For Christmas Is You", "Mistletoe", "A Nonsense Christmas"]
+        "name": "Songs on Michael Buble’s \"Christmas\"",
+        "elements": ["It's Beginning To Look A Lot Like Christmas", "Santa Claus is Coming to Town", "Have Yourself A Merry Little Christmas", "I'll Be Home for Christmas"]
       },
       {
         "color": "#78DAF9",
@@ -9435,8 +9435,8 @@
     "shoutout": true,
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "message-content": "hint: who are these Christmas songs by?",
     "instagram": "",
     "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
@@ -9445,35 +9445,35 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   },
   "12/25/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1Curm2G0FRU7IKaMjvi4Ni?si=551f48b8e0b841e4",
+    "gameoverGif": "https://media0.giphy.com/media/VCxWI6aQSnXFSY2QGl/giphy.gif?cid=6c09b952jugqvedufje53odo9rdg0vp7tdcnndldttrgnqif&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics from The Ronettes \"Sleigh Ride\"",
+        "elements": ["lovely weather", "sleigh ride together", "sleigh bells jingling", "ring tingle tingling"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics from Paul McCartney's \"Wonderful Christmastime\"",
+        "elements": ["mood is right", "spirit's up", "here tonight", "that's enough"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics from \"Let It Snow! Let It Snow! Let It Snow!\"",
+        "elements": ["weather outside is frightful", "fire is so delightful", "finally kiss goodnight", "hate going out in the storm"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics from Wham!'s \"Last Christmas\"",
+        "elements": ["gave you my heart", "gave it away", "save me from tears", "someone special"]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "message-content": "theme: 4 lyric categories, merry christmas!",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
