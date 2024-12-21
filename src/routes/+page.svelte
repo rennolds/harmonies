@@ -13,7 +13,7 @@
   import gameBoards from '$lib/data/gameboards.json';
   import Ramp from './Ramp.svelte';
   import './styles.css';
-  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount} from './store.js';
+  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList} from './store.js';
 
 
   const PUB_ID = 1025391;
@@ -174,6 +174,25 @@
     }, 500);
   }
 
+  function handleStats(guessCount, win) {
+    $played = $played + 1;
+    if (!win) {
+      // loss
+      $solveList.push(0);
+      $solveList = $solveList;
+      $currentStreak = 0;
+    }
+    else {
+      // win
+      $currentStreak = $currentStreak + 1;
+      $solveList.push(guessCount);
+      $solveList = $solveList;
+      if ($currentStreak > $maxStreak) {
+        $maxStreak = $currentStreak;
+      }
+    }
+  }
+
   function shuffleElements() {
       let currentIndex = remainingElements.length, randomIndex;
 
@@ -263,6 +282,7 @@
             'result': "win",
             'guesses': $guessHistory.length
           });
+          handleStats($guessHistory.length, true);
           setTimeout(() => {
             gameoverStore.set({
             isOver: true,
@@ -304,6 +324,7 @@
       gtag('event', 'gameover', {
         'result': "loss"
       });
+      handleStats($guessHistory.length, false);
       setTimeout(() => {
         const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
         remainingCategories.forEach((category) => {
