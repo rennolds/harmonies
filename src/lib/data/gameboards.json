@@ -9297,28 +9297,28 @@
     "spotify": ""
   },
   "12/21/2024": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/2hfWCTeBXmAs3lrODVaVEe",
+    "gameoverGif": "https://media.tenor.com/BTAksTLR5zUAAAAM/stu-mackenzie-king-gizzard.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "John Denver Songs",
+        "elements": ["Take Me Home, Country Roads", "Annie's Song", "Rocky Mountain High", "Leaving, On a Jet Plane"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "1950s Love Songs",
+        "elements": ["I Only Have Eyes For You", "Love Me Tender", "Unchained Melody", "Only You (And You Alone)"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Songs that won an Oscar",
+        "elements": ["City Of Stars", "Skyfall", "Let It Go", "Into the West"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Famous \"and the\" Bands",
+        "elements": ["Supremes", "Four Seasons", "Blowfish", "Lizard Wizard"]
       }
     ],
     "shoutout": false,
