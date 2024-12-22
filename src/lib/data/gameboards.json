@@ -9334,43 +9334,6 @@
     "spotify": ""
   },
   "12/22/2024": {
-    "playlist": "https://open.spotify.com/playlist/73IgRPLsSSOK3Nx2EWWw9K",
-    "gameoverGif": "https://i.makeagif.com/media/2-10-2016/3HuWZR.gif",
-    "categories": [
-      {
-        "color": "#CBff70",
-        "name": "Boy Band Songs",
-        "elements": ["She Looks So Perfect", "I Want It That Way", "Night Changes", "It's Gonna Be Me"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "\"Best Rap Song\" Grammy Winners 2020-2023",
-        "elements": ["The Heart Part 5", "Jail", "Savage", "A Lot"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "EDM Songs Featuring Pop Singers",
-        "elements": ["I Need Your Love", "Titanium", "It Ain't Me", "Let Me Love You"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Songs That Open With Questions",
-        "elements": ["Firework", "Bohemian Rhapsody", "Basket Case", "What Do You Mean?"]
-      }
-    ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
-    "instagram": "",
-    "tiktok": "",
-    "youtube": "",
-    "twitch": "",
-    "twitter": "",
-    "spotify": ""
-  },
-  "12/23/2024": {
     "playlist": "https://open.spotify.com/playlist/5vNIwUn1j5R0DmNvCloMlB?si=7f409a615a4f46f0",
     "gameoverGif": "https://media1.tenor.com/m/P9FaJ3r2vo0AAAAC/mariah-mariah-c.gif",
     "categories": [
@@ -9474,6 +9437,43 @@
     "shoutout-socials": false,
     "special-message": true,
     "message-content": "theme: 4 lyric categories, merry christmas!",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/26/2024": {
+    "playlist": "https://open.spotify.com/playlist/73IgRPLsSSOK3Nx2EWWw9K",
+    "gameoverGif": "https://i.makeagif.com/media/2-10-2016/3HuWZR.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Boy Band Songs",
+        "elements": ["She Looks So Perfect", "I Want It That Way", "Night Changes", "It's Gonna Be Me"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "\"Best Rap Song\" Grammy Winners 2020-2023",
+        "elements": ["The Heart Part 5", "Jail", "Savage", "A Lot"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "EDM Songs Featuring Pop Singers",
+        "elements": ["I Need Your Love", "Titanium", "It Ain't Me", "Let Me Love You"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Open With Questions",
+        "elements": ["Firework", "Bohemian Rhapsody", "Basket Case", "What Do You Mean?"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
