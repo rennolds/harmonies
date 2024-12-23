@@ -9408,35 +9408,35 @@
     "spotify": ""
   },
   "12/24/2024": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/22cZvpP0ZndC4t39OfjQE8?si=4d5e9686d02546af",
     "gameoverGif": "https://media.tenor.com/xiGwCrXpQSsAAAAM/charlie-brown-christmas-charlie-brown.gif",
     "categories": [
       {
         "color": "#CBff70",
+        "name": "Christmas Songs With \"Baby\" In the Title",
+        "elements": ["Santa Baby", "Christmas (Baby Please Come Home)", "Baby, It's Cold Outside", "Merry Christmas, Baby"]
+      },
+      {
+        "color": "#FAA3FF",
         "name": "Hip Hop Christmas Songs",
         "elements": ["I Am the Grinch", "Christmas in Harlem", "Christmas in Hollis", "Santa Claus Goes Straight To The Ghetto"]
       },
       {
-        "color": "#FAA3FF",
-        "name": "Songs on Michael Buble’s \"Christmas\"",
-        "elements": ["It's Beginning To Look A Lot Like Christmas", "Santa Claus is Coming to Town", "Have Yourself A Merry Little Christmas", "I'll Be Home for Christmas"]
-      },
-      {
         "color": "#78DAF9",
         "name": "Songs in A Charlie Brown Christmas",
-        "elements": ["O Tannenbaum", "Christmastime Is Here", "Hark! The Herald Angels Sing", "Linus and Lucy"]
+        "elements": ["O Tannenbaum", "Christmastime Is Here", "Hark, The Herald Angels Sing", "Linus and Lucy"]
       },
       {
         "color": "#FFBC21",
-        "name": "Christmas Songs by The Beatles",
+        "name": "Christmas Songs by Members of The Beatles",
         "elements": ["Happy Xmas (War is Over)", "Wonderful Christmastime", "Ding Dong, Ding Dong", "I Wanna Be Santa Claus"]
       }
     ],
     "shoutout": true,
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
-    "special-message": true,
-    "message-content": "hint: who are these Christmas songs by?",
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
