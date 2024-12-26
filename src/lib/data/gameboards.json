@@ -9517,6 +9517,41 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "12/27/2024": {
+    "playlist": "https://open.spotify.com/playlist/4IJiMZPAbHkiHu1nPNqjbb?si=c64eb31a26ae4510",
+    "gameoverGif": "https://media2.giphy.com/media/l1J9z9CzQeFvsnzcA/giphy.gif?cid=6c09b952m60d4ed69e5pobn41oi1sxwekhivwko069pjieab&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artist the Occupation",
+        "elements": ["Mariah the Scientist", "Chance the Rapper", "Tyler, the Creator", "Foster the People"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artistes with Acronyms as Names",
+        "elements": ["H.E.R", "R.E.M", "N.W.A", "TLC"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Aritsts With Number Names",
+        "elements": ["6lack", "U2", "Maroon 5", "Andre 3000"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artist Names With Special Characters",
+        "elements": ["P!nk", "A$AP Rocky", "Panic! At the Disco", "*NSYNC"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/wenkorang",
+    "spotify": ""
   }
 }
 
