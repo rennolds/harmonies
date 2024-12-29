@@ -19,6 +19,16 @@
   const PUB_ID = 1025391;
   const WEBSITE_ID = 75241;
 
+  async function sendError(message) {
+    const response = await fetch('/api/report-error', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({"message": message})
+      });
+  }
+
   //date stuff, see if this can be moved to another component
   function getEasternTimeDate() {
       const date = new Date();
@@ -57,26 +67,62 @@
     timer = setInterval(updateTimer, 1000);
   }
 
+
   startTimer();
 
   moment.tz.setDefault('America/New_York');
   const todaysDate = moment().tz('America/New_York').format("MM/DD/YYYY");
 
-  const categories = gameBoards[todaysDate.toString()]["categories"] || [];
-  const shoutout = gameBoards[todaysDate.toString()]["shoutout"] || false;
-  const shoutoutName = gameBoards[todaysDate.toString()]["shoutout-name"] || "";
-  const shoutoutSocials = gameBoards[todaysDate.toString()]["shoutout-socials"] || false;
-  const specialMessage = gameBoards[todaysDate.toString()]["special-message"] || false;
-  const messageContent = gameBoards[todaysDate.toString()]["message-content"] || "";
-  const youtube = gameBoards[todaysDate.toString()]["youtube"] || "";
-  const instagram = gameBoards[todaysDate.toString()]["instagram"] || "";
-  const twitter = gameBoards[todaysDate.toString()]["twitter"] || "";
-  const tiktok = gameBoards[todaysDate.toString()]["tiktok"] || "";
-  const twitch = gameBoards[todaysDate.toString()]["twitch"] || "";
-  const spotify = gameBoards[todaysDate.toString()]["spotify"] || "";
-  const letterboxd = gameBoards[todaysDate.toString()]["letterboxd"] || "";
-  const src = gameBoards[todaysDate.toString()]["gameoverGif"] || "";
-  const playlist = gameBoards[todaysDate.toString()]["playlist"] || "";
+  const todayBoard = gameBoards[todaysDate];
+
+  // Check if the gameboard exists
+  if (!todayBoard) {
+    // Log the error to the server console
+    console.error(`No gameboard found for date ${todaysDate}`);
+    if (browser) {
+      sendError(`Harmonies has no gameboard found for the date ${todaysDate}`)
+    }
+  }
+
+  // Use todayBoard if it exists; otherwise, default to an empty object
+  const board = todayBoard || {};
+
+  const categories = board.categories || [];
+
+  if (categories.length != 4 && todayBoard) {
+    console.error(`Gameboard is malformed for ${todaysDate}`);
+    if (browser) {
+      sendError(`Harmonies has a malformed gameboard for ${todaysDate}`)
+    }
+  }
+  const shoutout = board["shoutout"] || false;
+  const shoutoutName = board["shoutout-name"] || "";
+  const shoutoutSocials = board["shoutout-socials"] || false;
+  const specialMessage = board["special-message"] || false;
+  const messageContent = board["message-content"] || "";
+  const youtube = board["youtube"] || "";
+  const instagram = board["instagram"] || "";
+  const twitter = board["twitter"] || "";
+  const tiktok = board["tiktok"] || "";
+  const twitch = board["twitch"] || "";
+  const spotify = board["spotify"] || "";
+  const letterboxd = board["letterboxd"] || "";
+  const src = board["gameoverGif"] || "";
+  if (src == "" && todayBoard) {
+    console.error(`Gameover gif is missing for ${todaysDate}`);
+    if (browser) {
+      sendError(`Harmonies is missing a gameover gif for ${todaysDate}`)
+    }
+  }
+  const playlist = board["playlist"] || "";
+  if (playlist == "" && todayBoard) {
+    console.error(`Playlist is missing for ${todaysDate}`);
+    if (browser) {
+      sendError(`Harmonies is missing a playlist for ${todaysDate}`)
+    }
+  }
+
+  // Calculate harmonyNumber based on available dates
   const keys = Object.keys(gameBoards);
   const harmonyNumber = keys.indexOf(todaysDate) + 1; // Adding 1 to make it 1-based index
 
