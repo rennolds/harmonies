@@ -9707,8 +9707,8 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Beach House Songs",
-        "elements": ["Space Song", "Master of None", "Silver Soul", "Myth"]
+        "name": "Lyrics from ABBA's \"Happy New Year\"",
+        "elements": ["No more champagne", "Fireworks are through", "Here we are", "Me and you"]
       },
       {
         "color": "#FAA3FF",
@@ -9717,26 +9717,26 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Lyrics from Charli XCX's \"360\"",
-        "elements": ["I'm your favorite reference, baby", "I'm so Julia", "Bumpin' that", "Internationally recognized"]
+        "name": "NYC Ball Drop Songs",
+        "elements": ["Imagine", "Auld Lang Syne", "New York, New York", "Somewhere Over The Rainbow"]
       },
       {
         "color": "#FFBC21",
-        "name": "Lyrics from ABBA's \"Happy New Year\"",
-        "elements": ["No more champagne", "Fireworks are through", "Here we are", "Me and you"]
+        "name": "Albums Turning 25 in 2025",
+        "elements": ["Kid A", "Stankonia", "Parachutes", "Oops!…I Did It Again"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
     "special-message": true,
     "message-content": "happy new year!",
     "instagram": "",
-    "tiktok": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
     "twitch": "",
-    "twitter": "",
-    "spotify": ""
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   }
 }
 
