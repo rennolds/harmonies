@@ -9702,16 +9702,35 @@
     "spotify": ""
   },
   "01/01/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7074zp5P8JbI0rTP2tsScD?si=d2eb0695fdce4f8f",
+    "gameoverGif": "https://media0.giphy.com/media/macDtY5XR7bXQe4Sw7/giphy.gif?cid=6c09b952g2qysyrqyv5w0o9sdc2huqc4qd39sx6j00mfatz3&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
-
+      {
+        "color": "#CBff70",
+        "name": "Beach House Songs",
+        "elements": ["Space Song", "Master of None", "Silver Soul", "Myth"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Taylor Swift's \"New Years Day\"",
+        "elements": ["glitter on the floor after the party", "cleaning up bottles with you", "Hold on to the memories", "They will hold on to you"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Charli XCX's \"360\"",
+        "elements": ["I'm your favorite reference, baby", "I'm so Julia", "Bumpin' that", "Internationally recognized"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from ABBA's \"Happy New Year\"",
+        "elements": ["No more champagne", "Fireworks are through", "Here we are", "Me and you"]
+      }
     ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "message-content": "happy new year!",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
