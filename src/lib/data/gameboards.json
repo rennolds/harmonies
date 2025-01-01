@@ -9737,6 +9737,43 @@
     "twitch": "",
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "01/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/3Q5wzyzPfcyIKAo6pgaVB8",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExajVhNm5oaHdnd3RxbzZ5ZG4wYmgwMTFtajE3bDl3cHFwcnF4a3dwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kpgzE7I82DNfO/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bob Dylan Songs",
+        "elements": ["Knockin' On Heaven's Door", "Like a Rolling Stone", "The Times They Are a-Changin", "Mr. Tambourine Man"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Blowin' In The Wind",
+        "elements": ["The answer, my friend", "is blowin' in the wind", "How many roads", "How many seas"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Folk-Revival Legends",
+        "elements": ["Bob Dylan", "Woody Guthrie", "Joni Mitchell", "Joan Baez"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Solo Singer/Songwriters of the 1980's",
+        "elements": ["Kate Bush", "Lionel Richie", "George Michael", "Prince"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
