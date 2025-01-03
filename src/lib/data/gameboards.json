@@ -9774,6 +9774,416 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "01/03/2025": {
+    "playlist": "https://open.spotify.com/playlist/5G1C3H2MuhLUPgjKRTbTo8?si=9875d46985bb40d9",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGx4NXhmbGw0ajlnZmRpeWkwZWhzaDEwaXpsbXZmeWhrY2lmcXBmZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/123VamsyAKppew/giphy.webp",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Electronic and Dance Music Festivals",
+        "elements": ["Tomorrowland", "Ultra Music Festival", "Electric Daisy Carnival (EDC)", "Creamfields"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Modern Rock and Alternative Festivals",
+        "elements": ["Coachella", "Lollapalooza", "Glastonbury Festival", "Sziget Festival"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Historic Rock Festivals of the 1960's",
+        "elements": ["Woodstock", "Monterey Pop Festival", "Isle of Wight Festival", "Altamont Free Concert"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Top Grossing Artist Tours of All Time",
+        "elements": ["The Eras Tour", "Music of the Spheres World Tour", "Farewell Yellow Brick Road Tour", "360° Tour"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: music festivals",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/0IQe3WIHQ679QXt2bCe58R?si=97418d4bc6494fe9",
+    "gameoverGif": "https://www.icegif.com/wp-content/uploads/2022/01/icegif-851.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "60's Songs",
+        "elements": ["Oh, Pretty Woman", "Brown Eyed Girl", "Stand By Me", "Mrs. Robinson"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Daft Punk Songs",
+        "elements": ["Instant Crush", "One More Time", "Around the World", "Get Lucky"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring: Drake",
+        "elements": ["No Guidance", "Work", "SICKO MODE", "Work"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Lady GaGa's \"Bad Romance\"",
+        "elements": ["Roma, roma-ma", "ooh-la-la", "Want your disease", "Your lover's revenge"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/05/2025": {
+    "playlist": "https://media1.giphy.com/media/xT8qBp0R5SxfLMIgjC/giphy.gif?cid=6c09b9522ziiaszqv8nqoyby4fk8mm86l32dccgm0dy6g1t9&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "gameoverGif": "https://open.spotify.com/playlist/2WZ20NM0LzIAWn8TQ9Kh9h?si=5b528575a7784a1e",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "David Guetta & Sia Collabs",
+        "elements": ["Flames", "Titanium", "She Wolf (Falling to Pieces)", "Bang My Head"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "David Guetta & Nicki Minaj Collabs",
+        "elements": ["Where Them Girls At", "Turn Me On", "Light My Body Up", "If It's Okay"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "David Guetta & Chris Willis Collabs",
+        "elements": ["Love Don't Let Me Go", "Love Is Gone", "Just a Little More Love", "Gettin' Over You"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "David Guetta & Bebe Rexha Collabs",
+        "elements": ["Say My Name", "I'm Good (Blue)", "Family", "One in a Million"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Oren",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: david guetta collabs",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "01/06/2025": {
+    "playlist": "https://open.spotify.com/playlist/05Lr2Qq3UNIbvEVvq3yvWK?si=f55ee339c6a54469",
+    "gameoverGif": "https://media.tenor.com/iXi6GrDyAbwAAAAM/billie-joe-armstrong-green-day.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs About Famous Cities",
+        "elements": ["No Sleep Til Brooklyn", "London Calling", "Empire State of Mind", "Hotel California"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Green Day Songs",
+        "elements": ["When I Come Around", "Good Riddance", "Brain Stew", "Holiday"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rock Songs by Female Led Bands",
+        "elements": ["Bring Me To Life", "All I Wanted", "Don't Speak", "Bad Reputation"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to M.I.A.'s \"Paper Planes\"",
+        "elements": ["Fly Like Paper", "High Like Planes", "Come Around Here", "Sittin' On Trains"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/07/2025": {
+    "playlist": "https://open.spotify.com/playlist/6Gks8xA0Hz29yN829DyDgb?si=5268ae5c733643ec",
+    "gameoverGif": "https://media.tenor.com/0vPD34lA3IwAAAAM/selena-gomez-love-you-like-a-love-song.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Bruno Mars \"Just The Way You Are\"",
+        "elements": ["when you smile", "stops and stares", "When I see your face", "Just the way you are"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from The Police's \"Every Little Thing She Does is Magic\"",
+        "elements": ["Everything she do", "Turns me on", "My life before was tragic", "Love for her goes on"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from James Blunt \"You're Beautiful\"",
+        "elements": ["life is brilliant", "love is pure", "it's true", "I don't know what to do"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Frank Sinatra's \"Fly Me To the Moon\"",
+        "elements": ["Fill my heart", "Jupiter and Mars", "In other words", "Please be true"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: love song lyrics",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/08/2025": {
+    "playlist": "https://open.spotify.com/playlist/3JSOdoaZrKzgqMo3ppYqMQ?si=846dbdcd2e4c43d2",
+    "gameoverGif": "https://media1.giphy.com/media/7bVRxNQHN34Va/200w.gif?cid=6c09b952s8jf9hmjekjqg14wuwi4fn4w8fj25kxln7rn8hdr&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Davie Bowie Collaborators",
+        "elements": ["Mick Jagger", "Queen", "Iggy Pop", "Nine Inch Nails"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Heroic Songs",
+        "elements": ["Heroes", "My Hero", "Holding Out for a Hero", "Hero"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Space Men and Women",
+        "elements": ["Starman", "Spaceman", "Rocketman", "Cosmic Girl"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "David Bowie's Fictional Characters",
+        "elements": ["Major Tom", "Alladin Sane", "Ziggy Stardust", "Button Eyes"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@joseignacio.rosales",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "theme: hbd david bowie",
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "01/09/2025": {
+    "playlist": "https://open.spotify.com/playlist/0GGVPXtNMLOqMZZLOKLhch?si=ffb433152e2c4a6c",
+    "gameoverGif": "https://media.tenor.com/bZKnyXtadwwAAAAe/gta-v-radio.png",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "GTA V: Non-Stop Pop FM",
+        "elements": ["Glamorous", "Meet Me Halfway", "Gimme More", "Lady (Hear Me Tonight)"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Opening Lyrics in Chappell Roan Songs",
+        "elements": ["it's fine, it's cool", "five six seven eight", "My friends call me a loser", "same old story time again"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "GTA V: Los Santos Rock Radio",
+        "elements": ["If You Leave Me Now", "I Wouldn’t Want To Be Like You", "Danger Zone", "Roundabout"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Best Rap Song Grammy Nominees",
+        "elements": ["CARNIVAL", "Like That", "Not Like Us", "Yeah Glo!"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "hint: 2 GTA categories👀",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "01/10/2025": {
+    "playlist": "https://open.spotify.com/playlist/3RP0APBISXEOdYcugTFc9L?si=67d609c9932d4a95",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEownKSy924saAjSPmCeXBZ9TLzBBQzHgWrg&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Wallows Songs",
+        "elements": ["Calling After Me", "Remember When", "Are You Bored Yet?", "Scrawny"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Bruno Mars",
+        "elements": ["Die With a Smile", "Nothin' On You", "Billionaire", "Please Me"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs with Girl Names in the Title",
+        "elements": ["Hey There Delilah", "Billie Jean", "Lucy in the Sky with Diamonds", "Sweet Caroline"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Famously Sampled by Kanye West",
+        "elements": ["P.Y.T. (Pretty Young Thing)", "Bound", "Harder, Better, Faster, Stronger", "Through the Fire"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "" 
+  },
+  "01/11/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "" 
+  },
+  "01/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/6g6dJRMNFAJpUGE4A8sngN?si=8c174df73cac4cee",
+    "gameoverGif": "https://media.tenor.com/1dWm3fZKS6MAAAAM/theme-song-opening.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "hannah montana collabs",
+        "elements": ["iyaz", "the jonas brothers", "david archuleta", "sheryl crow"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "nepo babies",
+        "elements": ["gracie abrams", "nancy sinatra", "lily allen", "willow smith"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "controversial snl performances",
+        "elements": ["rage against the machine", "sinéad o’connor", "ashlee simpson", "fear"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "artists with fruit songs",
+        "elements": ["harry styles", "charli xcx", "justin bieber", "drake"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@briannadeflumeri",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/briannadeflumeri",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "" 
+  },
+  "01/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/51H4cBl0TFQMaClQ0YbPmr?si=92250c07f13f4066",
+    "gameoverGif": "https://media1.giphy.com/media/52FwDkJZMsNsGGkjOZ/giphy.gif?cid=6c09b952sl7rono8300nhuak9qr3wvc6j51747oen5wjjcg8&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Mainstream EDM Songs",
+        "elements": ["Clarity", "Roses", "Sandstorm", "Levels"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Justin Bieber Songs",
+        "elements": ["Confident", "Changes", "Peaches", "Ghost"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Titled _____ Love",
+        "elements": ["Fake", "Electric", "Skinny", "Real"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Things Cardi B Likes in \"I Like It\"",
+        "elements": ["Dollars", "Diamonds", "Stunting", "Shining"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "" 
   }
 }
 
