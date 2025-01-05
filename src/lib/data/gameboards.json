@@ -9849,9 +9849,9 @@
     "twitter": "",
     "spotify": ""
   },
-  "01/05/2025": {
-    "playlist": "https://media1.giphy.com/media/xT8qBp0R5SxfLMIgjC/giphy.gif?cid=6c09b9522ziiaszqv8nqoyby4fk8mm86l32dccgm0dy6g1t9&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-    "gameoverGif": "https://open.spotify.com/playlist/2WZ20NM0LzIAWn8TQ9Kh9h?si=5b528575a7784a1e",
+  "01/05/2025": { 
+    "playlist": "https://open.spotify.com/playlist/2WZ20NM0LzIAWn8TQ9Kh9h?si=5b528575a7784a1e",
+    "gameoverGif": "https://media1.giphy.com/media/xT8qBp0R5SxfLMIgjC/giphy.gif?cid=6c09b9522ziiaszqv8nqoyby4fk8mm86l32dccgm0dy6g1t9&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
