@@ -10074,29 +10074,28 @@
     "spotify": "" 
   },
   "01/11/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5TZPvwqyySHD0VpW8RJR4x?si=8bc52a59c42041a4",
+    "gameoverGif": "https://media.tenor.com/KpzU7TGzfEcAAAAM/1984-skander.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
-
+        "name": "Songs from Moana 2",
+        "elements": ["Tulou Tagaloa", "How Far I'll Go", "You're Welcome", "I Am Moana"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Artists who mask their face when preforming",
+        "elements": ["Daft Punk", "MF DOOM", "Deadmau5", "Sia"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Artists who debuted in 1984",
+        "elements": ["Red Hot Chili Peppers", "George Michael", "Whitney Houston", "LL Cool J"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Hit Songs Released Posthumously",
+        "elements": ["(Sittin’ on) The Dock of the Bay", "A Change Is Gonna Come", "Hypnotize", "I Could Fall in Love"]
       }
     ],
     "shoutout": false,
