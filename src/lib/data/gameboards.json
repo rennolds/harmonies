@@ -10375,13 +10375,50 @@
     "categories": [
       {
         "color": "#CBff70",
+        "name": "Songs by The Smashing Pumpkins",
+        "elements": ["1979", "Mayonaise", "Pennies", "Today"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bruno Mars Albums",
+        "elements": ["Doo-Wops and Hooligans", "Unorthodox Jukebox", "24K Magic", "An Evening With Silk Sonic"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Changing of Seasons Songs",
+        "elements": ["Turn! Turn! Turn!", "Leaves That Are Green", "Wake Me up When Septembers Ends", "Here Comes the Sun"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Obsessive Fans",
+        "elements": ["Stan", "Obsessed", "Dirty Diana", "Maria"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/20/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
         "name": "Kesha Songs",
         "elements": ["Praying", "Cannibal", "Blow", "Timber"]
       },
       {
         "color": "#FAA3FF",
         "name": "Rapper Nicknames",
-        "elements": ["K-Dot", "Shady", "Fiddy", "Hova"]
+        "elements": ["K-Dot", "Drizzy", "Fiddy", "Hova"]
       },
       {
         "color": "#78DAF9",
@@ -10406,7 +10443,7 @@
     "twitter": "",
     "spotify": ""
   },
-  "01/20/2025": {
+  "01/21/2025": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
@@ -10418,7 +10455,7 @@
       {
         "color": "#FAA3FF",
         "name": "Lyrics from The Chainsmokers \"Closer\"",
-        "elements": ["blink-182", "Tucson", "Boulder", "Rover"]
+        "elements": ["blink-182", "Tucson", "Boulder", "Backseat of your Rover"]
       },
       {
         "color": "#78DAF9",
@@ -10443,7 +10480,267 @@
     "twitter": "",
     "spotify": ""
   },
+  "01/22/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bruno Mars Collaborators",
+        "elements": ["ROSÉ", "Lady Gaga", "Anderson .Paak", "Mark Ronson"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Had a Relationship With an NBA Player",
+        "elements": ["Kehlani", "Rihanna", "Brandy", "Iggy Azaelia"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "01/23/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Taylor Swift Songs",
+        "elements": ["Don't Blame Me", "You Belong With Me", "Who's Afraid of Little Old Me?", "ME!"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Genre: Rap",
+        "elements": ["Without Me", "Love Me", "Lean Wit Me", "Lovin On Me"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Ellie Goulding's \"Hate Me\"",
+        "elements": ["Hate me", "Tryna replace me", "Erase me", "wish you never dated me"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Friendship",
+        "elements": ["Lean On Me", "You've Got a Friend In Me", "Stand By Me", "Count On Me"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/24/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Amazing Grace",
+        "elements": ["how sweet the sound", "wretch like me", "once was lost", "now I see"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Leonard Cohen's \"Hallelujah\"",
+        "elements": ["secret chord", "pleased the Lord", "major lift", "baffled king"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Justin Bieber's \"Holy\"",
+        "elements": ["runnin' to the altar", "the way you hold me", "feels so holy", "on God"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Chance the Rapper's \"Sunday Candy\"",
+        "elements": ["You gotta move it slowly", "Like it's holy", "bring my butt to church", "cause it's gonna rain"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/25/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Music Piracy Destinations",
+        "elements": ["Napster", "Limewire", "Pirate Bay", "Youtube2mp3"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rappers Currently in Prison",
+        "elements": ["Tory Lanez", "Fetty Wap", "YNW Melly", "Diddy"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by The Police",
+        "elements": ["Every Breath You Take", "Roxanne", "Message In A Bottle", "Every Little Thing She Does is Magic"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Prison",
+        "elements": ["Folsom Prison Blues", "Jailhouse Rock", "Prison Song", "Hurricane"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "01/26/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Method of Transport Songs",
+        "elements": ["Aeroplane", "I'm on a Boat", "TANK!", "Fast Car"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs About Long Distances",
+        "elements": ["A Thousand Miles", "I'm Gonna Be (500 Miles)", "Other Side of the World", "The Longest Road"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Journey Albums",
+        "elements": ["Escape", "Frontiers", "Departure", "Infinity"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Walk _____ Songs",
+        "elements": ["This Way", "Away", "Of Life", "Like an Egyptian"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@joseignacio.rosales",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "theme: goin' on a journey",
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "01/27/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Headphones Brands",
+        "elements": ["Bose", "JBL", "Sennheiser", "Skullcandy"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drake Songs",
+        "elements": ["Passionfruit", "Nonstop", "Forever", "Jumpman"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Record Labels",
+        "elements": ["Universal", "Sony", "Island", "Interscope"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "____ Album",
+        "elements": ["Concept", "Live", "Double", "Studio"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/28/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "The Fray Songs",
+        "elements": ["You Found Me", "Look After You", "How to Save a Life", "Over My Head (Cable Car)"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Opening Lyrics from Famous Boy Band Songs",
+        "elements": ["You are my fire", "You're insecure", "I'm hot", "It's gonna be me"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Pop Rock Love Songs",
+        "elements": ["You're Beautiful", "Iris", "You Make My Dreams Come True", "I'm Yours"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Chappell Roan's \"Good Luck, Babe!\"",
+        "elements": ["You'd have to stop the world", "You can say it's just the way you are", "You can kiss a hundred boys", "you wake up next to him"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/29/2025": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
@@ -10464,8 +10761,229 @@
       },
       {
         "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },  
+  "01/30/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/31/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Frank Ocean Songs",
+        "elements": ["Snow White", "White Ferrari", "White", "Pink+White"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Tyler, The Creator Alter Egos",
+        "elements": ["Chur Bum", "Igor", "St. Chroma", "Wolf"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands With Non-Rainbow Color Names",
+        "elements": ["The White Stripes", "Pink Floyd", "Greyhounds", "Black Sabbath"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Fictional Bands",
+        "elements": ["Boyz 12", "Mordecai and the Rigbys", "a popular band", "Sex Bob-Omb"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "charlie",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/indeed_charlie",
+    "spotify": ""
+  },
+  "02/01/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Y2K Pop Hits",
+        "elements": ["Baby One More Time", "Genie in a Bottle", "Bye Bye Bye", "I Want It That Way"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Y2K Hip Hop Hits",
+        "elements": ["Big Pimpin'", "The Real Slim Shady", "Get Ur Freak On", "Hot in Herre"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Y2K Rock Anthems",
+        "elements": ["Numb", "Boulevard of Broken Dreams", "Bring Me To Life", "Can't Stop"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: y2k",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "02/02/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Song Titles with Months",
+        "elements": ["November Rain", "A Long December", "Wake Me Up When September Ends", "Gone Till November"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Song Titles With Years",
+        "elements": ["1979", "1973", "'74-'75", "2002"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Day of the Week Songs",
+        "elements": ["Friday I'm In Love", "Sunday Morning", "Blue Monday", "Tuesday's Gone"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Seasonal Songs",
+        "elements": ["Cruel Summer", "White Winter Hymnal", "Autumn Leaves", "Summer Paradise"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Oren",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "hint: groups of artists who share a song name",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "02/03/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Post Malone Songs",
+        "elements": ["Circles", "Congratulations", "Enemies", "Wow."]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
         "name": "Songs Named After Alcohol Without the Alcohol",
         "elements": ["Strawberry", "Tennessee", "& Juice", "Sunrise"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "02/04/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
       }
     ],
     "shoutout": false,
