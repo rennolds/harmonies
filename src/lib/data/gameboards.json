@@ -10370,35 +10370,35 @@
     "spotify": "" 
   },
   "01/19/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3HQQj3YLsyW5sUnJI8HQaB?si=92476f879f804af9",
+    "gameoverGif": "https://media4.giphy.com/media/YpxRFISLsRAxIbUbyQ/giphy.gif?cid=6c09b952hrop3i0u42eo6nh3colygb1du6jp10m7er8yjh4s&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Songs by The Smashing Pumpkins",
-        "elements": ["1979", "Mayonaise", "Pennies", "Today"]
+        "name": "Most Iconic TikTok Dance Songs",
+        "elements": ["Renegade", "Savage", "Say So", "Apple"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Bruno Mars Albums",
-        "elements": ["Doo-Wops and Hooligans", "Unorthodox Jukebox", "24K Magic", "An Evening With Silk Sonic"]
+        "name": "Old Songs That Resurfaced on TikTok",
+        "elements": ["Dreams", "Running Up That Hill", "Put Your Head On My Shoulder", "Stayin' Alive"]
       },
       {
         "color": "#78DAF9",
-        "name": "Changing of Seasons Songs",
-        "elements": ["Turn! Turn! Turn!", "Leaves That Are Green", "Wake Me up When Septembers Ends", "Here Comes the Sun"]
+        "name": "Famous Slowed + Reverb Songs",
+        "elements": ["Heatwaves", "House of Memories", "Sweather Weather", "All Girls Are The Same"]
       },
       {
         "color": "#FFBC21",
-        "name": "Songs About Obsessive Fans",
-        "elements": ["Stan", "Obsessed", "Dirty Diana", "Maria"]
+        "name": "Songs From *the* Edit",
+        "elements": ["Hey Sexy Lady", "Never Be Like You", "Play Date", "Camel by Camel"]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "message-content": "r.i.p. tik tok",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -10783,23 +10783,23 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Songs by The Smashing Pumpkins",
+        "elements": ["1979", "Mayonaise", "Pennies", "Today"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Bruno Mars Albums",
+        "elements": ["Doo-Wops and Hooligans", "Unorthodox Jukebox", "24K Magic", "An Evening With Silk Sonic"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Changing of Seasons Songs",
+        "elements": ["Turn! Turn! Turn!", "Leaves That Are Green", "Wake Me up When Septembers Ends", "Here Comes the Sun"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs About Obsessive Fans",
+        "elements": ["Stan", "Obsessed", "Dirty Diana", "Maria"]
       }
     ],
     "shoutout": false,
