@@ -10407,8 +10407,8 @@
     "spotify": ""
   },
   "01/20/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1aOTr4fJcdAs35AQ8yWLZs?si=190bb797f0cf4adb&nd=1&dlsi=868624e4870041b1",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkskbIs2qijH27qjrL5jz0K9gMGu0E6ZrFdA&s",
     "categories": [
       {
         "color": "#CBff70",
@@ -10423,7 +10423,7 @@
       {
         "color": "#78DAF9",
         "name": "Pop Bands",
-        "elements": ["fun", "Train", "Bastille", "MAGIC"]
+        "elements": ["fun.", "Train", "Bastille", "MAGIC!"]
       },
       {
         "color": "#FFBC21",
