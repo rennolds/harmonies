@@ -10481,8 +10481,8 @@
     "spotify": ""
   },
   "01/22/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3I96i13znrw2wDd9BkVqNV?si=fed0a7081f364ca0",
+    "gameoverGif": "https://media0.giphy.com/media/3o751Q1zx0rFCRxpT2/200.gif?cid=6c09b9528d18fuxyl8f34fkua5myy0oh0vi9wy4isjzttkfj&ep=v1_internal_gif_by_id&rid=200.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
@@ -10491,13 +10491,13 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Pop Songs Featuring Future",
+        "elements": ["What’s Hatnin'", "Everyday", "End Game", "Loveee Song"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Songs on MGMT’s Oracular Spectacular",
+        "elements": ["Time to Pretend", "Electric Feel", "Kids", "4th Dimensional Transition"]
       },
       {
         "color": "#FFBC21",
