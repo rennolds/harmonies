@@ -10998,6 +10998,43 @@
     "twitter": "",
     "spotify": ""
   },
+  "02/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/5ufc9GFVrFg2ibARZgPgC3?si=b8e94b165f4943f6",
+    "gameoverGif": "https://media1.giphy.com/media/yuQKP8N2MIi5fdZkrs/giphy.gif?cid=6c09b9527c58nzfq1dswih3peutlx5ultlrb9f21ljid9kro&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Irish Singers",
+        "elements": ["Hozier", "Niall Horan", "Dolores O’Riordan", "Enya"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Ariana Grande Ex's",
+        "elements": ["Nathan Sykes", "Big Sean", "Mac Miller", "Ethan Slater"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Indie Rock Lead Singers",
+        "elements": ["Greg Gonzalez", "Matty Healy", "Alex Turner", "Julian Casablancas"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists With 2010 Billboard Hot 100 Hits",
+        "elements": ["Kesha", "Eminem", "Katy Perry", "Usher"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
   "02/06/2025": {
     "playlist": "https://open.spotify.com/playlist/2fYEAfweidyfQ3vnAaq2NJ?si=027dedc7e8334b91",
     "gameoverGif": "https://media4.giphy.com/media/KEktjfAnD1tsNsVx2b/giphy.gif",
