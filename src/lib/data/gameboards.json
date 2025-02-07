@@ -11108,6 +11108,43 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "02/08/2025": {
+    "playlist": "https://open.spotify.com/playlist/4UJ8WSKZsUEDM6U1b7NOGu?si=396faad5331b4ebb",
+    "gameoverGif": "https://media.tenor.com/eT07QfREFlsAAAAM/sum41.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sum 41 Songs",
+        "elements": ["Fat Lip", "In Too Deep", "Still Waiting", "The Hell Song"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2000's Rock Bands",
+        "elements": ["Kings of Leon", "Rise Against", "Three Days Grace", "Taking Back Sunday"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Paramore's \"Misery Business\"",
+        "elements": ["take it from the top", "thought he was mine", "steal it all away", "it feels so good"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Mashed Up on Jay-Z & Linkin Park's \"Collison Course\"",
+        "elements": ["Numb", "Encore", "Izzo", "In The End"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
