@@ -11333,35 +11333,35 @@
     "spotify": ""
   },
   "02/14/2025": {
-    "playlist": "https://open.spotify.com/playlist/2VCOse7GiNOO1RHc8H6u6b?si=3e1d5a7559684360",
-    "gameoverGif": "https://media.tenor.com/O7k5t24oLU8AAAAM/legally-blonde-elle-woods-like-its-hard.gif",
+    "playlist": "https://open.spotify.com/playlist/6Q6FYPN7FUPVyAgS3cDX8m?si=57cc10b5f1a0432f",
+    "gameoverGif": "https://media.tenor.com/bh4syrAj6JAAAAAM/friends-happy-valentines-day.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Twilight Soundtrack",
-        "elements": ["Supermassive Black Hole", "Decode", "It Will Rain", "A Thousand Years"]
+        "name": "2010's Love Songs",
+        "elements": ["Thinking Out Loud", "All of Me", "Lover", "Just The Way You Are"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Mean Girls Soundtrack",
-        "elements": ["Bomb Intro / Pass That Dutch", "Milkshake", "God is a DJ", "One Way or Another"]
+        "name": "Duet Love Songs",
+        "elements": ["Don't Go Breaking My Heart", "Ain't No Mountain High Enough", "Dilemma", "Islands in the Stream"]
       },
       {
         "color": "#78DAF9",
-        "name": "Clueless Soundtrack",
-        "elements": ["Kids in America", "Fake Plastic Trees", "Rollin' With My Homies", "Just a Girl"]
+        "name": "Movie Soundtrack Love Songs",
+        "elements": ["Hopelessly Devoted To You", "Can You Feel The Love Tonight", "My Heart Will Go On", "I Will Always Love You"]
       },
       {
         "color": "#FFBC21",
-        "name": "Legally Blonde Soundtrack",
-        "elements": ["Perfect Day", "One Girl Revolution", "A Thousand Miles", "Watch Me Shine"]
+        "name": "Love ____ Songs",
+        "elements": ["Fool", "Story", "Shack", "On The Brain"]
       }
     ],
-    "shoutout": true,
-    "shoutout-name": "chastidy, maddy, & casey",
+    "shoutout": false,
+    "shoutout-name": "",
     "shoutout-socials": false,
     "special-message": true,
-    "message-content": "theme: chick flick soundtracks",
+    "message-content": "we 🤍 you",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -11443,24 +11443,24 @@
     "twitter": "",
     "spotify": ""
   },
-    "02/17/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+  "02/17/2025": {
+    "playlist": "https://open.spotify.com/playlist/3q6R1XSJm0HNAoqCSQ9XgZ?si=becbd7fa02844ab5",
+    "gameoverGif": "https://media2.giphy.com/media/zVjZpYhBUKRYdRDdKM/200w.gif?cid=6c09b9526cg15gld7jwk6h98m76ovvc9ivwo444mkwfen0oi&ep=v1_gifs_search&rid=200w.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Coldplay Songs",
+        "elements": ["Yellow", "Paradise", "Clocks", "Sparks"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Early Green Day Albums",
-        "elements": ["Dookie", "Insomniac", "Nimrod", "Warning"]
+        "name": "Descriptors in Megan Thee Stallion's \"Savage\"",
+        "elements": ["Classy", "Ratchet", "Nasty", "Moody"]
       },
       {
         "color": "#78DAF9",
-        "name": "Adjectives In Megan Thee Stallion's \"Savage\"",
-        "elements": ["Classy", "Ratchet", "Nasty", "Sassy"]
+        "name": "Michael Jackson Albums",
+        "elements": ["Bad", "Thriller", "Invincible", "Dangerous"]
       },
       {
         "color": "#FFBC21",
@@ -11473,6 +11473,154 @@
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "02/18/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "02/19/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "02/20/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "02/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/2VCOse7GiNOO1RHc8H6u6b?si=3e1d5a7559684360",
+    "gameoverGif": "https://media.tenor.com/O7k5t24oLU8AAAAM/legally-blonde-elle-woods-like-its-hard.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Twilight Soundtrack",
+        "elements": ["Supermassive Black Hole", "Decode", "It Will Rain", "A Thousand Years"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Mean Girls Soundtrack",
+        "elements": ["Bomb Intro / Pass That Dutch", "Milkshake", "God is a DJ", "One Way or Another"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Clueless Soundtrack",
+        "elements": ["Kids in America", "Fake Plastic Trees", "Rollin' With My Homies", "Just a Girl"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Legally Blonde Soundtrack",
+        "elements": ["Perfect Day", "One Girl Revolution", "A Thousand Miles", "Watch Me Shine"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chastidy, maddy, & casey",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: chick flick soundtracks",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
