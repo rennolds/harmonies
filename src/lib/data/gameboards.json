@@ -11258,41 +11258,41 @@
     "spotify": ""
   },
   "02/12/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/6zNpASXy5u4IWaGOFlVZRH?si=b467035361eb4c8e",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3RjdXNjOHQzaWxjdWc0cGwybnk5eW9scHVxMHRiN3dtbnpsenM5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eg5vsXryi8X96/giphy.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Songs by the Beach Boys",
+        "elements": ["Wouldn't It Be Nice", "Kokomo", "Good Vibrations", "California Girls"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Beatles Songs",
+        "elements": ["I Want To Hold Your Hand", "In My Life", "Come Together", "Blackbird"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Albums that released in 1965",
+        "elements": ["Turn! Turn! Turn!", "Rubber Soul", "Help!", "Beach Boys' Party!"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "A solo song by each Former Beatles Member",
+        "elements": ["My Sweet Lord", "Band on the Run", "Imagine", "It Don't Come Easy"]
       }
     ],
-    "shoutout": true,
-    "shoutout-name": "chris b-e",
-    "shoutout-socials": true,
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
     "instagram": "",
-    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": "https://x.com/cmb__e",
-    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+    "twitter": "",
+    "spotify": ""
   },
   "02/13/2025": {
     "playlist": "https://open.spotify.com/playlist/7jTUsirfl8OLN8uo4HvOWf?si=962b4b0a572b403e",
