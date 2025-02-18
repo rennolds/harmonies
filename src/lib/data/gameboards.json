@@ -11481,35 +11481,35 @@
     "spotify": ""
   },
   "02/18/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7k5TQ134fX1PYMFTFEwQ1c?si=f54fda8add8d4604",
+    "gameoverGif": "https://i.giphy.com/7SKWbnycqb2Pze62Zk.webp",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Bonus Tracks on \"Short n' Sweet\"",
+        "elements": ["Bad Reviews", "Couldn't Make It Any Harder", "Busy Woman", "Please Please Please"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Zach Bryan's \"I Remember Everything\"",
+        "elements": ["Labrador hangin out the passenger door", "I wish I didn't, but I do", "'88 Ford", "Pictures and passin' time"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Taylor Swift's \"Anti-Hero\"",
+        "elements": ["Midnights become my afternoons", "wake up screaming from dreaming", "its me, hi", "I'm the probelm, it's me"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Tracks from TTPD Anthrology",
+        "elements": ["The Manuscript", "The Bolter", "The Albatross", "The Black Dog"]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "message-content": "happy birthday carley 💛",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
