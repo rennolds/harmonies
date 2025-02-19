@@ -11518,41 +11518,41 @@
     "spotify": ""
   },
   "02/19/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5INUia3GJlLDOqPUQd2lUp?si=c42cfa8ec4174aeb",
+    "gameoverGif": "https://24.media.tumblr.com/tumblr_m54g3lrdqk1rs1gfio1_500.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Red Hot Chili Peppers",
+        "elements": ["Red", "Hot", "Chili", "Peppers"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "System of a Down",
+        "elements": ["System", "of", "a", "Down"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Rage Against the Machine",
+        "elements": ["Rage", "Against", "The", "Machine"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Two Door Cinema Club",
+        "elements": ["Two", "Door", "Cinema", "Club"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
     "special-message": false,
     "message-content": "",
     "instagram": "",
-    "tiktok": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
     "twitch": "",
-    "twitter": "",
-    "spotify": ""
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   },
   "02/20/2025": {
     "playlist": "",
