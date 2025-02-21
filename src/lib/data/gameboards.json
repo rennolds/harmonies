@@ -11627,6 +11627,43 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "02/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/190rxoMgxXwWn3pQTGgd70",
+    "gameoverGif": "https://media.tenor.com/SbDXxEcs408AAAAM/bill-of.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Schoolhouse Rock",
+        "elements": ["Interplanet Janet", "Conjunction Junction", "I'm Just a Bill", "Three Is A Magic Number"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by Ed Sheeran",
+        "elements": ["Shape of You", "The A Team", "Photograph", "Shivers"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by Post Malone",
+        "elements": ["Circles", "Congratulations", "Better Now", "rockstar"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Featuring: Drake",
+        "elements": ["POPSTAR", "SICKO MODE", "Going Bad", "Right Above It"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
 
