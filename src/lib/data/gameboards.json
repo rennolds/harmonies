@@ -11887,36 +11887,36 @@
     "spotify": ""
   },
   "03/01/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5NIeHf1TrjVzNcShmUkAbl?si=41ef9f2c8247463c",
+    "gameoverGif": "https://media.tenor.com/rnnKT98cb_AAAAAM/clairo.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Disney to Solo",
+        "elements": ["Olivia Rodrigo", "Sabrina Carpenter", "Miley Cyrus", "Hayley Kiyoko"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Female Rappers",
+        "elements": ["Nicki Minaj", "Iggy Azaelea", "Ice Spice", "Doechii"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Featured on brat and it's completely different but still brat",
+        "elements": ["Ariana Grande", "Addison Rae", "Lorde", "bb Trickz"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Women of Indie",
+        "elements": ["clairo", "bebadoobee", "the japanese house", "faye webster"]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
+    "shoutout": true,
+    "shoutout-name": "scottie rennolds",
+    "shoutout-socials": true,
     "special-message": false,
     "message-content": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/scottierennolds/",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
@@ -11924,28 +11924,28 @@
     "spotify": ""
   },
   "03/02/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5DGdQaTKv93BRHLW8pGGaH?si=8d08b60737a2472f",
+    "gameoverGif": "https://c.tenor.com/bj0YofdOHIgAAAAd/tenor.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Billy Joel",
+        "elements": ["Uptown Girl", "Piano Man", "We Didn't Start the Fire", "Vienna"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Billie Eilish",
+        "elements": ["BIRDS OF A FEATHER", "lovely", "when the party's over", "ocean eyes"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Billie Joe Armstrong (Green Day)",
+        "elements": ["American Idiot", "Basket Case", "Brain Stew", "Holiday"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Billy Ray Cyrus",
+        "elements": ["Achy Breaky Heart", "Butterfly Fly Away", "Old Town Road - Remix", "Back to Tennessee"]
       }
     ],
     "shoutout": false,
