@@ -11739,27 +11739,27 @@
   },
   "02/25/2025": {
     "playlist": "https://open.spotify.com/playlist/4H0tz9gVWLb6qlkJKbWcxK?si=7ae3f50879684918",
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/ZJ5ohkrLZM0AAAAM/piano-pianist.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Kid Cudi Songs",
+        "elements": ["Mr. Rager", "Pursuit of Happiness", "Day 'N' Nite", "Soundtrack 2 My Life"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Songs From Lil Wayne's \"Tha Carter III\"",
+        "elements": ["Mr. Carter", "Mrs. Officer", "A Milli", "Lollipop"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "70's Classics",
+        "elements": ["Mr. Blue Sky", "Mrs. Robinson", "Let It Be", "Dancing Queen"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Guys Being Cheated On",
+        "elements": ["Mr. Brightside", "Cry Me a River", "Just a Friend", "I Heard It Through The Grapevine"]
       }
     ],
     "shoutout": false,
@@ -11813,28 +11813,28 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   },
   "02/27/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/2RPfiPMsPOr2kECiHG64DE?si=a18d333d7d674cb8",
+    "gameoverGif": "https://media2.giphy.com/media/jKXtnfCDoo1tZ8V5NQ/giphy.gif?cid=6c09b952tqmir6qp1w29ytqjqbe4uca4nc423x6fb4kfrccb&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Blake Shelton Songs",
+        "elements": ["God Gave Me You", "Austin", "Ol' Red", "Boys 'Round Here"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Chris Stapleton Albums",
+        "elements": ["Higher", "Traveller", "Starting Over", "From A Room: Volume 1"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Country Singers From Outside the US",
+        "elements": ["Keith Urban", "Shania Twain", "Terri Clark", "Morgan Evans"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "2024 CMA Winners",
+        "elements": ["Chris Stapleton", "Lainey Wilson", "White Horse", "you look like you love me"]
       }
     ],
     "shoutout": false,
@@ -11850,8 +11850,8 @@
     "spotify": ""
   },
   "02/28/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0t2jJqdSxopyi7wSBdAiOC?si=39fc825636554b06",
+    "gameoverGif": "https://media3.giphy.com/media/7JsEpP2BiFPHYby9GI/200.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -11892,23 +11892,23 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Kacey Musgraves Songs",
-        "elements": ["Sway", "Butterflies", "Cardinal", "Rainbow"]
+        "name": "",
+        "elements": [""]
       },
       {
         "color": "#FAA3FF",
-        "name": "Artists With Songs on Disney Movie Soundtracks",
-        "elements": ["Demi Lovato", "Brandi Carlile", "Miguel", "Christina Aguilera"]
+        "name": "",
+        "elements": [""]
       },
       {
         "color": "#78DAF9",
-        "name": "Artists with a song called \"California\"",
-        "elements": ["Chappell Roan", "Lana Del Rey", "Childish Gambino", "Lorde"]
+        "name": "",
+        "elements": [""]
       },
       {
         "color": "#FFBC21",
-        "name": "Slow _____ Songs",
-        "elements": ["Burn", "Hands", "Motion", "Down"]
+        "name": "",
+        "elements": [""]
       }
     ],
     "shoutout": false,
