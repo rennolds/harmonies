@@ -4428,7 +4428,7 @@
       },
       {
         "color": "#FFBC21",
-        "name": "Lyrics in “We Didn’t Start the Fire”",
+        "name": "Lyrics in “We Didn’t Start the Fire\"",
         "elements": ["Marilyn Monroe", "Rock Around the Clock", "Buddy Holly", "British Beatlemania"]
       }
     ],
@@ -4463,7 +4463,7 @@
       },
       {
         "color": "#FFBC21",
-        "name": "Songs about stealing boyfriends”",
+        "name": "Songs about stealing boyfriends",
         "elements": ["Jolene", "break up with your girlfriend, i'm bored", "the boy is mine", "Rumor Has It"]
       }
     ],
@@ -11961,28 +11961,28 @@
     "spotify": ""
   },
   "03/03/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7pqWVIX7tTyb0gMMWURVLC?si=1396862310414034",
+    "gameoverGif": "https://media.tenor.com/d8eUB11aDFMAAAAM/lady-gaga-lady-gaga-house-of-gucci-promo.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Lady Gaga Songs",
+        "elements": ["Telephone", "Alejandro", "Applause", "Judas"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Guitar Brands",
+        "elements": ["Martin", "Taylor", "Gibson", "Fender"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Last Name of Actresses From Musicals",
+        "elements": ["Stone", "Grande", "DeBose", "Andrews"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Artist Names Without the Body Part",
+        "elements": ["Radio", "Talking", "Nelson", "Smash"]
       }
     ],
     "shoutout": false,
@@ -11996,7 +11996,190 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "03/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/5vX85QgvdqjwQJPazzdthl?si=b972f582fbea480a",
+    "gameoverGif": "https://media4.giphy.com/media/XK7VBhOwU9FlrcZQZg/200w.gif?cid=6c09b9529cviybhjknpyzs1kikuzixpjtt9ccrd94818t7ru&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Rosé's \"APT.\"",
+        "elements": ["Game Start", "Sleep Tomorrow", "Tonight Go Crazy", "아파트"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Shakira's \"Hips Don't Lie\"",
+        "elements": ["No fighting", "I'm on tonight", "Feel it's right", "Cómo se llama?"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Goldfinger's \"99 Red Balloons\"",
+        "elements": ["Call out the troops", "Panic bells", "The war machine", "Streichholz und Benzinkanister"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from The Talking Heads' \"Psycho Killer\"",
+        "elements": ["Run away", "tense and nervous", "I can't relax", "Qu'est-ce que c'est?"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "03/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/6wfkBu4rPDYCJQ9K3XKgiI?si=39cfb1a9c90f4b96",
+    "gameoverGif": "https://media0.giphy.com/media/XTjnKcrZlOlaC6sY2d/200.gif?cid=6c09b952vi5f4t9m9nqbl3fj50qlwrlomwe7bwqoq8s3eopx&ep=v1_internal_gif_by_id&rid=200.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Recession Pop Songs",
+        "elements": ["Just Dance", "Replay", "Break Your Heart", "Like a G6"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs From Skrillex's \"Scary Monsters and Nice Sprites\"",
+        "elements": ["Rock ‘n Roll (Will Take You To The Mountain)", "Scary Monsters and Nice Sprites", "First of the Year (Equinox)", "Kill EVERYBODY"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "EDM Songs With Pop Stars",
+        "elements": ["Make You Mine", "Latch", "Abracadabra", "This Is What You Came For"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs in the Fast and Furious Series",
+        "elements": ["Tokyo Drift", "See You Again", "Ride Out", "Fast Lane"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "theme: k-pop groups",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "03/06/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Travis Scott",
+        "elements": ["Niagara Falls", "Love Galore", "Portland", "Née-nah"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring: Lana Del Rey",
+        "elements": ["The Abyss", "Stargirl Interlude", "Snow On The Beach", "Tough"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Billboard Hot 100 (2025)",
+        "elements": ["APT.", "Luther", "Pink Pony Club", "São Paulo"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "mr. zeng's class",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "03/07/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from All Time Low's \"Dear Maria, Count Me In\"",
+        "elements": ["lights go off", "stage by storm", "your picture", "count me in"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Classic Blink Songs",
+        "elements": ["I Miss You", "All The Small Things", "First Date", "What's My Age Again?"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Pop Punk in Movies",
+        "elements": ["Decode", "What I've Done", "Scotty Doesn't Know", "Mutt"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Emo One Hit Wonders",
+        "elements": ["Stacy's Mom", "1985", "Shake It", "Ocean Avenue"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "scottie rennolds",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "it was never a phase",
+    "instagram": "https://www.instagram.com/scottierennolds/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "03/10/2025": {
+    "playlist": "https://open.spotify.com/playlist/3mvb3zqeGwiJXjXFO4JsOB?si=761fc7e6007a443b",
+    "gameoverGif": "https://media.tenor.com/xKJ0blGgIlQAAAAM/dance-happy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs From the Original \"Super Mario Bros\"",
+        "elements": ["Overworld", "Underground", "Starman", "Castle"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs Featured in the \"Super Mario Bros\" Movie",
+        "elements": ["DK Rap", "Peaches", "No Sleep Til Brooklyn", "Mr. Blue Sky"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famous Video Game Composers",
+        "elements": ["Koji Kondo", "David Wise", "Toby Fox", "Martin O’Donnell"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Minecraft's C418",
+        "elements": ["Subwoofer Lullaby", "Sweden", "Wet Hands", "Minecraft"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@joseignacio.rosales",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "theme: national mario day",
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
-
-
