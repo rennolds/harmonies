@@ -12072,32 +12072,32 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   },
   "03/06/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/6qVNx0PzLybZg3uj1J9pm0?si=6c1c45a8f2354ba6",
+    "gameoverGif": "https://i.giphy.com/Vf4XG8eb7xU14o641C.webp",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Songs from Disney Musicals",
+        "elements": ["A Whole New World", "Let It Go", "The Bare Necessities", "Be Our Guest"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Featuring: Travis Scott",
-        "elements": ["Niagara Falls", "Love Galore", "Portland", "Née-nah"]
+        "name": "Beyoncé Albums",
+        "elements": ["Beyoncé", "Lemonade", "I AM...SASAH FIERCE", "Dangerously In Love"]
       },
       {
         "color": "#78DAF9",
-        "name": "Featuring: Lana Del Rey",
-        "elements": ["The Abyss", "Stargirl Interlude", "Snow On The Beach", "Tough"]
+        "name": "Won \"best album\" in their genre at the Grammys",
+        "elements": ["Brat", "Short n' Sweet", "Cowboy Carter", "Alligator Bites Never Heal"]
       },
       {
         "color": "#FFBC21",
-        "name": "Billboard Hot 100 (2025)",
-        "elements": ["APT.", "Luther", "Pink Pony Club", "São Paulo"]
+        "name": "Opening Numbers from Famous Musicals",
+        "elements": ["Alexander Hamilton", "The Circle of Life", "Oh, What a Beautiful Mornin’", "No One Mourns the Wicked"]
       }
     ],
-    "shoutout": true,
-    "shoutout-name": "mr. zeng's class",
+    "shoutout": false,
+    "shoutout-name": "",
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
@@ -12139,6 +12139,43 @@
     "special-message": true,
     "message-content": "it was never a phase",
     "instagram": "https://www.instagram.com/scottierennolds/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "03/08/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Dave Grohl Songs",
+        "elements": ["Everlong", "My Hero", "Lithium", "Smells Like Teen Spirit"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
