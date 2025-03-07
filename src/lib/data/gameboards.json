@@ -12109,8 +12109,8 @@
     "spotify": ""
   },
   "03/07/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/59odU1NxUtp2jZh6ZtcPhw?si=a89767ede56d4ad9",
+    "gameoverGif": "https://media.tenor.com/sh0fzdP-6kYAAAAM/just-a-phase-hair-flip.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -12124,13 +12124,14 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Pop Punk in Movies",
-        "elements": ["Decode", "What I've Done", "Scotty Doesn't Know", "Mutt"]
+        "name": "Emo One Hit Wonders",
+        "elements": ["Stacy's Mom", "1985", "Shake It", "Ocean Avenue"]
       },
       {
         "color": "#FFBC21",
-        "name": "Emo One Hit Wonders",
-        "elements": ["Stacy's Mom", "1985", "Shake It", "Ocean Avenue"]
+        "name": "Pop Punk in Movies",
+        "elements": ["Decode", "What I've Done", "Scotty Doesn't Know", "Mutt"]
+
       }
     ],
     "shoutout": true,
