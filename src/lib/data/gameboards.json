@@ -12183,6 +12183,43 @@
     "twitter": "",
     "spotify": ""
   },
+  "03/09/2025": {
+    "playlist": "https://open.spotify.com/playlist/2ia6rY8aq5QnxABHy6Uw0P?si=db64a4b85dc7450a",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWk0bzR3NXdsNm1rNXpveWxpYWN6YnN5Yno5Z2FwNW1xaTJkdDBrdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKT7gSMOT8Thtss/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Pitbull",
+        "elements": ["Give Me Everything", "Time of Our Lives", "Feel This Moment", "Fireball"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Pitbull's \"Timber\"",
+        "elements": ["Timber", "It's goin' down", "Swing your partner", "End of the night"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Mike Posner's Cooler Than Me",
+        "elements": ["cooler than me", "designer shades", "never say hey", "you probably won't"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by Mike Posner",
+        "elements": ["I Took A Pill In Ibiza", "Please Don't Go", "Bow Chicka Wow Wow", "Move On"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "03/10/2025": {
     "playlist": "https://open.spotify.com/playlist/3mvb3zqeGwiJXjXFO4JsOB?si=761fc7e6007a443b",
     "gameoverGif": "https://media.tenor.com/xKJ0blGgIlQAAAAM/dance-happy.gif",
