@@ -88,7 +88,7 @@
     @media (max-width: 600px) {
       .slide-menu {
         width: 100%;
-        padding-top: 60px; /* Add space for the navbar */
+        padding-top: 100px; /* Add space for the navbar */
       }
     }
     
