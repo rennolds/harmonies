@@ -9,8 +9,9 @@
 </script>
 
 
-<div in:fade class="help-overlay">
-    <button class="exit-btn" on:click={handleClose}>
+<div class="help-overlay-container">
+  <div in:fade class="help-overlay">
+      <button class="exit-btn" on:click={handleClose}>
         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="ph:x">
           <path id="Vector" d="M20.8878 19.7376C20.9633 19.8131 21.0232 19.9027 21.064 20.0014C21.1049 20.1 21.1259 20.2057 21.1259 20.3125C21.1259 20.4192 21.1049 20.5249 21.064 20.6236C21.0232 20.7222 20.9633 20.8118 20.8878 20.8873C20.8123 20.9628 20.7227 21.0227 20.6241 21.0635C20.5254 21.1044 20.4197 21.1254 20.313 21.1254C20.2062 21.1254 20.1005 21.1044 20.0019 21.0635C19.9032 21.0227 19.8136 20.9628 19.7381 20.8873L13.0005 14.1486L6.2628 20.8873C6.11034 21.0398 5.90356 21.1254 5.68795 21.1254C5.47234 21.1254 5.26557 21.0398 5.11311 20.8873C4.96065 20.7349 4.875 20.5281 4.875 20.3125C4.875 20.0969 4.96065 19.8901 5.11311 19.7376L11.8518 13L5.11311 6.26231C4.96065 6.10985 4.875 5.90307 4.875 5.68746C4.875 5.47186 4.96065 5.26508 5.11311 5.11262C5.26557 4.96016 5.47234 4.87451 5.68795 4.87451C5.90356 4.87451 6.11034 4.96016 6.2628 5.11262L13.0005 11.8513L19.7381 5.11262C19.8906 4.96016 20.0973 4.87451 20.313 4.87451C20.5286 4.87451 20.7353 4.96016 20.8878 5.11262C21.0403 5.26508 21.1259 5.47186 21.1259 5.68746C21.1259 5.90307 21.0403 6.10985 20.8878 6.26231L14.1491 13L20.8878 19.7376Z" fill="black"/>
@@ -69,76 +70,93 @@
       </p>
       <p>Feeling stuck? We have a daily playlist to listen to today's board. Maybe you'll find some inspiration.</p>
     </div>
+  </div>
 </div>
 
 
 <style>
+  .help-overlay-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999; /* Higher than navbar and slide menu */
+  }
+
+  .help-overlay {
+    width: 370px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 6px;
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    position: relative;
+  }
+
+  p {
+    width: 97%;
+  }
+
+  .exit-btn {
+    background: none;
+    border-style: none;
+    float: right;
+    margin-top: 5px;
+  }
+
+  .exit-btn:hover {
+    cursor: pointer;
+  }
+
+  .help-header {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-align: left;
+      margin-left: 20px;
+  }
+
+  .help-description {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: left;
+      margin-left: 20px;
+  }
+
+  .help-description li {
+      margin-left: -30px;
+  }
+
+  .help-svg-container {
+      margin-bottom: 0px; /* Adjust this value as needed */
+  }
+
+  .help-svg-container p {
+      font-size: 8px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+      text-align: left;
+      margin-left: 25px;
+  }
+
+  .highlight-stuck {
+    font-weight: bold;
+  }
+
+  @media (max-width: 400px) {
     .help-overlay {
-      position: absolute;
-      top: 45%; /* Position at the vertical center */
-      left: 50%; /* Position at the horizontal center */
-      transform: translate(-50%, -50%); /* Center the element */
-      width: 370px;
-      height: 694px;
-      border-radius: 6px;
-      background: #D9D9D9;
-      z-index: 9999;
-      color: #000;
+      width: 90%;
+      max-height: 85vh;
     }
-
-    p {
-      width: 97%;
-    }
-
-    .exit-btn {
-      background: none;
-      border-style: none;
-      float: right;
-      margin-top: 5px;
-    }
-
-    .exit-btn:hover {
-      cursor: pointer;
-    }
-
-    .help-header {
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        text-align: left;
-        margin-left: 20px;
-    }
-
-    .help-description {
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-align: left;
-        margin-left: 20px;
-    }
-
-    .help-description li {
-        margin-left: -30px;
-    }
-
-    .help-svg-container {
-        margin-bottom: 0px; /* Adjust this value as needed */
-    }
-
-    .help-svg-container p {
-        font-size: 8px;
-        font-style: italic;
-        font-weight: 400;
-        line-height: normal;
-        text-align: left;
-        margin-left: 25px;
-    }
-
-    .highlight-stuck {
-      font-weight: bold;
-
-    }
-
+  }
 </style>

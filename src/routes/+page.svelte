@@ -540,9 +540,9 @@
   {/if}
 
   {#if helpOverlay}
-  <HelpOverlay onClose={toggleHelpOverlay}> </HelpOverlay>
+  <HelpOverlay onClose={toggleHelpOverlay} />
   {/if}
-  <div style="{!hideOverlay ? 'filter: blur(1px)' : ''} {helpOverlay ? 'filter: blur(1px)' : ''}" class="container game-container">
+  <div class="container game-container">
 
   <Navbar toggleHelpOverlay={toggleHelpOverlay} playlist={playlist} />
 
