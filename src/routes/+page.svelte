@@ -10,7 +10,6 @@
   import ClearedCategory from './ClearedCategory.svelte';
   import HelpOverlay from './HelpOverlay.svelte';
   import Navbar from './Navbar.svelte';
-  import ResultGrid from './ResultGrid.svelte';
   import gameBoards from '$lib/data/gameboards.json';
   import Ramp from './Ramp.svelte';
   import './styles.css';
@@ -19,6 +18,14 @@
 
   const PUB_ID = 1025391;
   const WEBSITE_ID = 75241;
+
+  export let data;
+
+  let selectedDate = '';
+  if (data && data.dateParam) {
+    selectedDate = data.dateParam;
+  }
+  
 
   async function sendError(message) {
     const response = await fetch('/api/report-error', {
@@ -30,14 +37,18 @@
       });
   }
 
-  //date stuff, see if this can be moved to another component
   function getEasternTimeDate() {
-      const date = new Date();
-      const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
-      const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
-      const easternTime = new Date(utc + (3600000 * easternTimeOffset));
-      return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
-  } 
+    // If a date was selected from archives, use that instead
+    if (selectedDate) {
+      return selectedDate;
+    }
+    
+    const date = new Date();
+    const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
+    const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
+    const easternTime = new Date(utc + (3600000 * easternTimeOffset));
+    return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
+  }
 
   let timeUntilFourAMUTC = 0;
   let timer = null;
@@ -72,7 +83,7 @@
   startTimer();
 
   moment.tz.setDefault('America/New_York');
-  const todaysDate = moment().tz('America/New_York').format("MM/DD/YYYY");
+  const todaysDate = selectedDate || moment().tz('America/New_York').format("MM/DD/YYYY");
 
   const todayBoard = gameBoards[todaysDate];
 
