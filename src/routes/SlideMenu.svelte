@@ -5,16 +5,18 @@
   
   <div class="slide-menu-overlay" class:active={isOpen} on:click={closeMenu}></div>
   <div class="slide-menu" class:active={isOpen}>
-    <div class="menu-header">
-      <button class="close-button" on:click={closeMenu}>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-    </div>
-    
-    <nav class="menu-navigation">
+    <!-- Wrap main content in a div so the footer can be pushed to the bottom -->
+    <div>
+      <div class="menu-header">
+        <button class="close-button" on:click={closeMenu}>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      
+      <nav class="menu-navigation">
         <ul>
           <li><a href="/archives">Archives</a></li>
           <li><a href="/submit">Submit a board</a></li>
@@ -22,45 +24,30 @@
           <li><a href="/privacy">Privacy</a></li>
         </ul>
       </nav>
-    
-    <div class="other-games">
-      <h2>Our Other Games</h2>
       
-      <div class="game-cards">
-        <a href="https://spotle.io" class="game-card">
-          <div class="game-image spotle-image"></div>
-          <h3>Spotle</h3>
-        </a>
+      <div class="other-games">
+        <h2>Our Other Games</h2>
         
-        <!-- <a href="#" class="game-card">
-          <div class="game-image crosstune-image"></div>
-          <h3>Crosstune</h3>
-        </a> -->
+        <div class="game-cards">
+          <a href="https://spotle.io" class="game-card">
+            <div class="game-image spotle-image"></div>
+            <h3>Spotle</h3>
+          </a>
+          
+          <a href="#" class="game-card">
+            <div class="game-image crosstune-image"></div>
+            <h3>Crosstune</h3>
+          </a>
+        </div>
       </div>
     </div>
+    
     <footer>
-     <p> made by flatwhite studios </p>
+      <p>made by flatwhite studios</p>
     </footer>
   </div>
   
   <style>
-
-    footer {
-        position: relative;
-        margin-top: auto; /* Pushes the footer to the bottom */
-        display: flex;
-        align-items: flex-end; /* Aligns items to the bottom */
-        color: #fff;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        bottom: 0; /* Align to the bottom */
-        width: 100%; /* Full width */
-        margin-top: 30px;
-        padding-bottom: 200px;
-        margin-bottom: 10px;
-    }
     .slide-menu-overlay {
       position: fixed;
       top: 0;
@@ -93,6 +80,9 @@
       transform: translateX(-100%);
       transition: transform 0.3s ease;
       overflow-y: auto;
+      /* Make the menu a flex container with vertical layout */
+      display: flex;
+      flex-direction: column;
     }
     
     @media (max-width: 600px) {
@@ -166,9 +156,11 @@
       color: #BA81C2;
     }
     
+    /* Stack game cards vertically */
     .game-cards {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      gap: 15px;
     }
     
     .game-card {
@@ -212,4 +204,14 @@
       font-size: 16px;
       margin: 0;
     }
-  </style>
+    
+    /* Footer pushed to the bottom */
+    footer {
+      margin-top: auto;
+      text-align: center;
+      color: #fff;
+      font-size: 12px;
+      padding: 10px 0;
+    }
+</style>
+  
