@@ -1,10 +1,9 @@
-<!-- src/routes/archives/Calendar.svelte -->
 <script>
     import { onMount } from 'svelte';
     import moment from 'moment';
     import 'moment-timezone';
     import gameBoards from '$lib/data/gameboards.json';
-    import { completedDays } from '../store.js';
+    import { completedDays, isArchiveMode } from '../store.js';
     
     export let currentMonth;
     export let currentYear;
@@ -20,6 +19,9 @@
       if (gameBoards) {
         availableDates = Object.keys(gameBoards);
       }
+      
+      // Make sure we know we're in archive mode
+      $isArchiveMode = true;
     });
     
     function generateCalendarDays(month, year) {
@@ -63,6 +65,8 @@
         // Check if we have a gameboard for this date
         const hasGameboard = availableDates.includes(day.date);
         if (hasGameboard) {
+          // Set archive mode before navigating
+          $isArchiveMode = true;
           onSelectDate(day.date);
         } else {
           // Show feedback that this day has no puzzle available

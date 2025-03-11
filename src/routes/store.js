@@ -1,6 +1,8 @@
 import { writable } from "svelte/store";
 import { browser } from "$app/environment";
 
+// Add this new store to track whether we're in archive mode
+export const isArchiveMode = writable(false);
 
 export const visited = writable(browser && localStorage.getItem("visited") || false)
 visited.subscribe((val) => {
@@ -130,3 +132,10 @@ export const completedDays = writable(browser && completedDaysParsed === null ? 
 completedDays.subscribe((val) => {
     if (browser) return (localStorage.setItem(completedDaysName, JSON.stringify(val)));
 });
+
+export const todaysProgressDate = writable(
+    browser && localStorage.getItem("todaysProgressDate") || ""
+  );
+  todaysProgressDate.subscribe((val) => {
+    if (browser) return (localStorage.todaysProgressDate = val);
+  });

@@ -13,8 +13,7 @@
   import gameBoards from '$lib/data/gameboards.json';
   import Ramp from './Ramp.svelte';
   import './styles.css';
-  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList, completedDays} from './store.js';
-
+  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList, completedDays, todaysProgressDate} from './store.js';
 
   const PUB_ID = 1025391;
   const WEBSITE_ID = 75241;
@@ -25,7 +24,6 @@
   if (data && data.dateParam) {
     selectedDate = data.dateParam;
   }
-  
 
   async function sendError(message) {
     const response = await fetch('/api/report-error', {
@@ -79,11 +77,19 @@
     timer = setInterval(updateTimer, 1000);
   }
 
-
   startTimer();
 
+  // First, get today's actual date (not a selected date)
+  const actualToday = moment().tz('America/New_York').format("MM/DD/YYYY");
+
+  // Check if we're viewing an archived puzzle
+  const isArchiveMode = selectedDate && selectedDate !== actualToday;
+
+  // For display and board selection, use the selectedDate or today
+  const displayDate = selectedDate || actualToday;
+  
   moment.tz.setDefault('America/New_York');
-  const todaysDate = selectedDate || moment().tz('America/New_York').format("MM/DD/YYYY");
+  const todaysDate = displayDate;
 
   const todayBoard = gameBoards[todaysDate];
 
@@ -138,8 +144,6 @@
   const keys = Object.keys(gameBoards);
   const harmonyNumber = keys.indexOf(todaysDate) + 1; // Adding 1 to make it 1-based index
 
-
-
   const gameoverStore = writable({
     isOver: false,
     headerMessage: ''
@@ -164,6 +168,11 @@
     }, 3000); 
   }
 
+  // Initialize local variables for archive mode
+  let localMistakeCount = 0;
+  let localClearedCategories = [];
+  let localGuessHistory = [];
+
   let remainingElements = categories.map(item => item.elements).flat();
   let selectedElements = [];
   let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
@@ -173,48 +182,73 @@
     return Math.min(5 + mistakes * 20, 80);
   }
   
-  let playbackWidth = calculatePlaybackWidth($mistakeCount);
+  let playbackWidth = isArchiveMode ? calculatePlaybackWidth(localMistakeCount) : calculatePlaybackWidth($mistakeCount);
 
   let helpOverlay = false;
   const today = getEasternTimeDate();
   
-  if ($currentGameDate == todaysDate) {
-    if ($mistakeCount >= 4) {
+  // Game state initialization
+  if (isArchiveMode) {
+    // We're playing an archived puzzle
+    // Don't update any persistent state, use local variables
+    
+    // Check if this archive puzzle was previously completed
+    const isCompleted = $completedDays.includes(displayDate);
+    
+    // Shuffle elements for the archived puzzle
+    remainingElements = shuffleElements(remainingElements);
+    
+    if (isCompleted) {
+      // Show as completed
       gameoverStore.set({
         isOver: true,
-        headerMessage: "Better luck tmr..."
+        headerMessage: "You've played this puzzle before!"
       });
-    const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
-      remainingCategories.forEach((category) => {
-        swapElements(category.elements);
-        remainingElements = remainingElements.filter(item => !category.elements.includes(item));
-      });
-      // remove any elements from remaining elements present in clearedCategories
     }
-
-    // if won
-    if ($clearedCategories.length == 4 && $mistakeCount < 4) {
+  } else {
+    // We're playing today's puzzle
+    
+    // Check if this is our first time playing today
+    if ($todaysProgressDate !== actualToday) {
+      // First time today, reset the state
+      $todaysProgressDate = actualToday;
+      $currentGameDate = actualToday;
+      $mistakeCount = 0;
+      $clearedCategories = [];
+      $guessHistory = [];
       
-      console.log('winning game');
-      remainingElements = [];
-      gameoverStore.set({
-        isOver: true,
-        headerMessage: "Incredible!"
-      });
-    }
+      // Shuffle elements for a new day
+      remainingElements = shuffleElements(remainingElements);
+    } else {
+      // Continue with today's progress
+      if ($mistakeCount >= 4) {
+        gameoverStore.set({
+          isOver: true,
+          headerMessage: "Better luck tmr..."
+        });
+        const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
+        remainingCategories.forEach((category) => {
+          swapElements(category.elements);
+          remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+        });
+      }
 
-    //neither won nor lost
+      // if won
+      if ($clearedCategories.length == 4 && $mistakeCount < 4) {
+        console.log('winning game');
+        remainingElements = [];
+        gameoverStore.set({
+          isOver: true,
+          headerMessage: "Incredible!"
+        });
+      }
 
-    if ($clearedCategories.length < 4 && $mistakeCount < 4) {
-      const allClearedElements = $clearedCategories.map(category => category.elements).flat();
-      remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
+      //neither won nor lost
+      if ($clearedCategories.length < 4 && $mistakeCount < 4) {
+        const allClearedElements = $clearedCategories.map(category => category.elements).flat();
+        remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
+      }
     }
-  } 
-  else { // stale game, reset
-    $currentGameDate = todaysDate;
-    $mistakeCount = 0;
-    $clearedCategories = [];
-    $guessHistory = [];
   }
 
   if ($visited === false) {
@@ -290,6 +324,7 @@
   function removeElements() {
     remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
   }
+  
   function handleSubmit() {
     // check if selectedElements match any categories
     if (selectedElements.length != 4) {
@@ -297,13 +332,25 @@
       return
     }
     else {
-      for (let i = 0; i < $guessHistory.length; i++) {
-        categories.map(item => item.elements).flat();
-        const guess = $guessHistory[i].map(entry => entry.guess);
-        const commonItems = countSimilarItems(guess, selectedElements);
-        if (commonItems == selectedElements.length) {
-          showAlert("Already guessed!");
-          return;
+      if (!isArchiveMode) {
+        // Check for duplicate guesses in today's puzzle
+        for (let i = 0; i < $guessHistory.length; i++) {
+          const guess = $guessHistory[i].map(entry => entry.guess);
+          const commonItems = countSimilarItems(guess, selectedElements);
+          if (commonItems == selectedElements.length) {
+            showAlert("Already guessed!");
+            return;
+          }
+        }
+      } else {
+        // Check for duplicate guesses in archive mode
+        for (let i = 0; i < localGuessHistory.length; i++) {
+          const guess = localGuessHistory[i].map(entry => entry.guess);
+          const commonItems = countSimilarItems(guess, selectedElements);
+          if (commonItems == selectedElements.length) {
+            showAlert("Already guessed!");
+            return;
+          }
         }
       }
 
@@ -316,37 +363,66 @@
             tempGuessHistory.push({ guess: element, color: category.color });
         }
       });
-      $guessHistory.push(tempGuessHistory);
-      $guessHistory = $guessHistory;
-
+      
+      if (!isArchiveMode) {
+        // Update today's game history
+        $guessHistory.push(tempGuessHistory);
+        $guessHistory = $guessHistory;
+      } else {
+        // Update local history for archive mode
+        localGuessHistory.push(tempGuessHistory);
+      }
     }
+    
     for (let i = 0; i < categories.length; i++) {
       const commonItems = countSimilarItems(selectedElements, categories[i].elements);
       // if found 4 items in common, a cleared category
       if (commonItems == 4) {
         // trigger animation or sound effect
-
         setTimeout(swapElements(selectedElements), 300);
-        $clearedCategories.push(categories[i]);
-        $clearedCategories = $clearedCategories;
+        
+        if (!isArchiveMode) {
+          // Update cleared categories for today's puzzle
+          $clearedCategories.push(categories[i]);
+          $clearedCategories = $clearedCategories;
+
+          if ($clearedCategories.length == 4) {
+            gtag('event', 'gameover', {
+              'result': "win",
+              'guesses': $guessHistory.length
+            });
+            handleStats($guessHistory.length, true);
+            setTimeout(() => {
+              gameoverStore.set({
+                isOver: true,
+                headerMessage: "Incredible!",
+              });
+              toggleOverlay();
+            }, 2500);
+          }
+        } else {
+          // Update local state for archive mode
+          localClearedCategories.push(categories[i]);
+          
+          if (localClearedCategories.length == 4) {
+            // Mark this archive puzzle as completed
+            if (!$completedDays.includes(displayDate)) {
+              $completedDays = [...$completedDays, displayDate];
+            }
+            
+            setTimeout(() => {
+              gameoverStore.set({
+                isOver: true,
+                headerMessage: "Incredible!",
+              });
+              toggleOverlay();
+            }, 2500);
+          }
+        }
 
         remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
         selectedElements = [];
 
-        if ($clearedCategories.length == 4) {
-          gtag('event', 'gameover', {
-            'result': "win",
-            'guesses': $guessHistory.length
-          });
-          handleStats($guessHistory.length, true);
-          setTimeout(() => {
-            gameoverStore.set({
-            isOver: true,
-            headerMessage: "Incredible!",
-            });
-            toggleOverlay();
-          }, 2500);
-        }
         return;
       }
       if (commonItems == 3) {
@@ -367,32 +443,63 @@
         shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
     }, 1000);
 
-    $mistakeCount++;
-    playbackWidth = calculatePlaybackWidth($mistakeCount);
+    if (!isArchiveMode) {
+      // Update mistake count for today's puzzle
+      $mistakeCount++;
+      playbackWidth = calculatePlaybackWidth($mistakeCount);
 
-    if ($mistakeCount == 4) {
-      //reveal categories not found
-      gtag('event', 'gameover', {
-        'result': "loss"
-      });
-      handleStats($guessHistory.length, false);
-      setTimeout(() => {
-        const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
-        remainingCategories.forEach((category) => {
-          swapElements(category.elements);
-          $clearedCategories.push(category);
-          $clearedCategories = $clearedCategories;
-          remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+      if ($mistakeCount == 4) {
+        //reveal categories not found
+        gtag('event', 'gameover', {
+          'result': "loss"
         });
-      }, 1000);
+        handleStats($guessHistory.length, false);
+        setTimeout(() => {
+          const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
+          remainingCategories.forEach((category) => {
+            swapElements(category.elements);
+            $clearedCategories.push(category);
+            $clearedCategories = $clearedCategories;
+            remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+          });
+        }, 1000);
 
-      setTimeout(() => {
+        setTimeout(() => {
+            gameoverStore.set({
+            isOver: true,
+            headerMessage: "Better luck tmr...",
+          });
+            toggleOverlay();
+        }, 2500);
+      }
+    } else {
+      // Update local mistake count for archived puzzle
+      localMistakeCount++;
+      playbackWidth = calculatePlaybackWidth(localMistakeCount);
+      
+      if (localMistakeCount == 4) {
+        // Mark this archive puzzle as completed
+        if (!$completedDays.includes(displayDate)) {
+          $completedDays = [...$completedDays, displayDate];
+        }
+        
+        setTimeout(() => {
+          const remainingCategories = categories.filter(category => !localClearedCategories.includes(category));
+          remainingCategories.forEach((category) => {
+            swapElements(category.elements);
+            localClearedCategories.push(category);
+            remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+          });
+        }, 1000);
+
+        setTimeout(() => {
           gameoverStore.set({
-          isOver: true,
-          headerMessage: "Better luck tmr...",
-        });
+            isOver: true,
+            headerMessage: "Better luck next time...",
+          });
           toggleOverlay();
-      }, 2500);
+        }, 2500);
+      }
     }
   }
 
@@ -431,8 +538,7 @@
   }
 
   function shareResult() {
-
-      if (browser) {
+    if (browser) {
       gtag('event', 'shared_result', {
         'guesses': $guessHistory.length
       });
@@ -448,11 +554,13 @@
     
     let grid = '';
 
-    for (let i = 0; i < $guessHistory.length; i++) {
-      const block_one = emoji_mapping[$guessHistory[i][0].color];
-      const block_two = emoji_mapping[$guessHistory[i][1].color];
-      const block_three = emoji_mapping[$guessHistory[i][2].color];
-      const block_four = emoji_mapping[$guessHistory[i][3].color];
+    const historyToUse = isArchiveMode ? localGuessHistory : $guessHistory;
+    
+    for (let i = 0; i < historyToUse.length; i++) {
+      const block_one = emoji_mapping[historyToUse[i][0].color];
+      const block_two = emoji_mapping[historyToUse[i][1].color];
+      const block_three = emoji_mapping[historyToUse[i][2].color];
+      const block_four = emoji_mapping[historyToUse[i][3].color];
       const row = block_one + block_two + block_three + block_four;
       grid = grid + row + "\n";
     }
@@ -471,7 +579,6 @@
         .then(() => { console.log('copied'); })
         .catch((error) => { alert(`Copy failed! ${error}`) })
     }
-
   }
 
   onMount(() => {
@@ -515,7 +622,6 @@
       }
     });
   });
-
 </script>
 
 <main>
