@@ -756,12 +756,6 @@
 <!-- <div class="ad-space">
 </div> -->
 
-
-
-<div class="footer">
-    <p> made by flatwhite studios </p> <p>&nbsp;| <a href="./privacy" target="_blank">privacy</a> | <a href="https://twitter.com/Spotle_io" target="_blank">follow us!</a></p>
-</div>
-
 </div>
 </main>
 
@@ -1135,31 +1129,6 @@
     text-transform: lowercase;
   }
 
-  .footer {
-    position: relative;
-    margin-top: auto; /* Pushes the footer to the bottom */
-    display: flex;
-    align-items: flex-end; /* Aligns items to the bottom */
-    color: #fff;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    bottom: 0; /* Align to the bottom */
-    width: 100%; /* Full width */
-    margin-top: 30px;
-    padding-bottom: 200px;
-    margin-bottom: 10px;
-  }
-
-  .footer-right {
-    margin-left: auto;
-  }
-
-  .footer a {
-    color: #A18CD1;
-    text-decoration: underline;
-  }
 
   @keyframes shake {
     0% { transform: translate(0, 0); }

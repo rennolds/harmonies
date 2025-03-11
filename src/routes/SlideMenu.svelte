@@ -15,12 +15,13 @@
     </div>
     
     <nav class="menu-navigation">
-      <ul>
-        <li><a href="/archives">Archives</a></li>
-        <li><a href="/submit">Submit a board</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-    </nav>
+        <ul>
+          <li><a href="/archives">Archives</a></li>
+          <li><a href="/submit">Submit a board</a></li>
+          <li><a href="https://twitter.com/Spotle_io" target="_blank">Follow us</a></li>
+          <li><a href="/privacy">Privacy</a></li>
+        </ul>
+      </nav>
     
     <div class="other-games">
       <h2>Our Other Games</h2>
@@ -31,15 +32,35 @@
           <h3>Spotle</h3>
         </a>
         
-        <a href="#" class="game-card">
+        <!-- <a href="#" class="game-card">
           <div class="game-image crosstune-image"></div>
           <h3>Crosstune</h3>
-        </a>
+        </a> -->
       </div>
     </div>
+    <footer>
+     <p> made by flatwhite studios </p>
+    </footer>
   </div>
   
   <style>
+
+    footer {
+        position: relative;
+        margin-top: auto; /* Pushes the footer to the bottom */
+        display: flex;
+        align-items: flex-end; /* Aligns items to the bottom */
+        color: #fff;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        bottom: 0; /* Align to the bottom */
+        width: 100%; /* Full width */
+        margin-top: 30px;
+        padding-bottom: 200px;
+        margin-bottom: 10px;
+    }
     .slide-menu-overlay {
       position: fixed;
       top: 0;
