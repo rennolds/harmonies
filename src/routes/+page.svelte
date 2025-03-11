@@ -542,7 +542,7 @@
   {#if helpOverlay}
   <HelpOverlay onClose={toggleHelpOverlay}> </HelpOverlay>
   {/if}
-  <div style="{!hideOverlay ? 'filter: blur(1px)' : ''} {helpOverlay ? 'filter: blur(1px)' : ''}" class="container">
+  <div style="{!hideOverlay ? 'filter: blur(1px)' : ''} {helpOverlay ? 'filter: blur(1px)' : ''}" class="container game-container">
 
   <Navbar toggleHelpOverlay={toggleHelpOverlay} playlist={playlist} />
 
@@ -783,10 +783,14 @@
     display: flex;
     align-self: center;
     flex-direction: column;
+    align-items: center;
     height: 100vh;
     justify-content: flex-start;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
-
   .gameover-overlay {
     position: absolute;
     top: 44.5%; /* Position at the vertical center */
@@ -911,12 +915,14 @@
     grid-template-rows: repeat(4, minmax(0, 1fr));
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-gap: 11px;
+    width: 100%;
     max-width: 400px;
     min-width: 350px;
     font-weight: bold;
     padding: 2px;
     text-transform: uppercase;
     margin-bottom: 3px;
+    box-sizing: border-box;
   }
 
   .grid-item {
@@ -941,6 +947,21 @@
 
   .grid-item p {
     max-width: 90%;
+  }
+
+  @media (max-width: 400px) {
+    .container, .grid-container, .mistakes-remaining-container, .play-button-container {
+      padding: 0 5px;
+      min-width: auto;
+      width: 100%;
+    }
+    
+    .grid-item {
+      font-size: 11.5px;
+      height: 82px;
+      width: 82px;
+      padding-left: 2px;
+    }
   }
 
   @media only screen and (max-width: 390px) {
@@ -1009,6 +1030,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 
   .play-container {
@@ -1024,6 +1050,10 @@
     flex-direction: column;
     margin-top: 15px;
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 
   .mistakes-remaining-text-container {
@@ -1050,6 +1080,7 @@
     display: flex; /* Add this line */
     align-items: center; /* Add this line */
   }
+
 
   .left-playback-number,
   .right-playback-number {
