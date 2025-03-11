@@ -169,10 +169,11 @@
   let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
   let hideOverlay = true;
 
-  let playbackWidth = (5 + $mistakeCount * 20);
-  if (playbackWidth > 80) {
-    playbackWidth = 80;
+  function calculatePlaybackWidth(mistakes) {
+    return Math.min(5 + mistakes * 20, 80);
   }
+  
+  let playbackWidth = calculatePlaybackWidth($mistakeCount);
 
   let helpOverlay = false;
   const today = getEasternTimeDate();
@@ -367,12 +368,7 @@
     }, 1000);
 
     $mistakeCount++;
-    if ($mistakeCount == 4) {
-      playbackWidth = 80;
-    }
-    else {
-      playbackWidth += 20;
-    }
+    playbackWidth = calculatePlaybackWidth($mistakeCount);
 
     if ($mistakeCount == 4) {
       //reveal categories not found
