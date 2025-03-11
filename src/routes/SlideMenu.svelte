@@ -118,30 +118,31 @@
     .menu-navigation ul {
       list-style: none;
       padding: 0;
-      margin: 0 0 30px 0;
+      margin: 0 0 25px 0;
     }
     
     .menu-navigation li {
-      margin-bottom: 15px;
+      margin-bottom: 8px;
     }
     
     @media (max-width: 600px) {
       .menu-navigation li {
-        margin-bottom: 20px;
+        margin-bottom: 12px;
       }
       
       .menu-navigation a {
-        font-size: 20px;
-        padding: 12px 0;
+        font-size: 18px;
+        padding: 8px 0;
       }
     }
     
     .menu-navigation a {
       color: white;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 16px;
+      font-weight: 500;
       display: block;
-      padding: 10px 0;
+      padding: 6px 0;
       transition: color 0.2s;
       text-align: left;
     }

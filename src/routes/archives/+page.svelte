@@ -1,8 +1,7 @@
 <!-- src/routes/archives/+page.svelte -->
 <script>
-    import { onMount } from 'svelte';
     import { goto } from '$app/navigation';
-    import { browser } from "$app/environment";
+    import TopAdBanner from '../TopAdBanner.svelte';
     import Navbar from '../Navbar.svelte';
     import Calendar from './Calendar.svelte';
     import '../styles.css';
@@ -44,6 +43,8 @@
   <svelte:head>
     <title>Harmonies Archives</title>
   </svelte:head>
+
+  <TopAdBanner/>
   
   <div class="archive-page">
     <Navbar toggleHelpOverlay={() => {}} playlist="" />
@@ -152,6 +153,10 @@
     
     /* Media queries for responsiveness */
     @media (max-width: 600px) {
+    .archive-page {
+        padding-top: 100px;
+    }
+
       .archive-content {
         padding: 15px;
       }
