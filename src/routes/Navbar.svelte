@@ -36,9 +36,9 @@
         </button>
       </div>
       
-      <div class="navbar-title">
+      <!-- <div class="navbar-title">
         <h1>Harmonies</h1>
-      </div>
+      </div> -->
       
       <div class="navbar-right">
         <a href={playlist} class="icon-button">
