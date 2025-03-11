@@ -114,3 +114,19 @@ export const solveList = writable(browser && solveListParsed === null ? [] : sol
 solveList.subscribe((val) => {
     if (browser) return (localStorage.setItem(solveListName, JSON.stringify(val)));
 });
+
+/*
+  completedDays - Stores a list of dates for which the user has completed the board
+*/
+let completedDaysParsed = [];
+const completedDaysName = "completedDays";
+if (browser) {
+    const retrieved = localStorage.getItem(completedDaysName);
+    if (retrieved) {
+        completedDaysParsed = JSON.parse(retrieved);
+    }
+}
+export const completedDays = writable(browser && completedDaysParsed === null ? [] : completedDaysParsed);
+completedDays.subscribe((val) => {
+    if (browser) return (localStorage.setItem(completedDaysName, JSON.stringify(val)));
+});

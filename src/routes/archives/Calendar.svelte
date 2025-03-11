@@ -4,6 +4,7 @@
     import moment from 'moment';
     import 'moment-timezone';
     import gameBoards from '$lib/data/gameboards.json';
+    import { completedDays } from '../store.js';
     
     export let currentMonth;
     export let currentYear;
@@ -33,7 +34,8 @@
         calendarGrid.push({
           date: null,
           day: '',
-          isAvailable: false
+          isAvailable: false,
+          isCompleted: false
         });
       }
       
@@ -42,12 +44,14 @@
         const currentDate = moment([year, month, i]).format('MM/DD/YYYY');
         const isAvailable = availableDates.includes(currentDate);
         const isPast = moment(currentDate, 'MM/DD/YYYY').isSameOrBefore(moment(), 'day');
+        const isCompleted = $completedDays && $completedDays.includes(currentDate);
         
         calendarGrid.push({
           date: currentDate,
           day: i,
           isAvailable,
-          isPast
+          isPast,
+          isCompleted
         });
       }
       
@@ -83,7 +87,7 @@
       <div class="days-grid">
         {#each calendarDays as day}
           <div 
-            class="day-cell {!day.date ? 'empty' : ''} {day.isPast ? 'past' : 'future'} {day.isAvailable ? 'available' : ''}"
+            class="day-cell {!day.date ? 'empty' : ''} {day.isPast ? 'past' : 'future'} {day.isAvailable ? 'available' : ''} {day.isCompleted ? 'completed' : ''}"
             on:click={() => handleDayClick(day)}
           >
             {day.day}
@@ -159,6 +163,12 @@
     .day-cell.available {
       background-color: rgba(186, 129, 194, 0.2);
       border: 1px solid #BA81C2;
+    }
+    
+    .day-cell.completed {
+      background-color: rgba(75, 181, 67, 0.4);
+      border: 1px solid #4BB543;
+      color: white;
     }
     
     .day-cell.past:hover:not(.empty) {

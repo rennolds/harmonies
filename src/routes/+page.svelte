@@ -13,7 +13,7 @@
   import gameBoards from '$lib/data/gameboards.json';
   import Ramp from './Ramp.svelte';
   import './styles.css';
-  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList} from './store.js';
+  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList, completedDays} from './store.js';
 
 
   const PUB_ID = 1025391;
@@ -225,6 +225,12 @@
 
   function handleStats(guessCount, win) {
     $played = $played + 1;
+    
+    // Record this date as completed regardless of win/loss
+    if (!$completedDays.includes(todaysDate)) {
+      $completedDays = [...$completedDays, todaysDate];
+    }
+    
     if (!win) {
       // loss
       $solveList.push(0);
