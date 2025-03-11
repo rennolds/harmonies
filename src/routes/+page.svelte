@@ -11,6 +11,7 @@
   import HelpOverlay from './HelpOverlay.svelte';
   import Navbar from './Navbar.svelte';
   import gameBoards from '$lib/data/gameboards.json';
+  import TopAdBanner from './TopAdBanner.svelte';
   import Ramp from './Ramp.svelte';
   import './styles.css';
   import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList, completedDays, todaysProgressDate} from './store.js';
@@ -625,6 +626,7 @@
 </script>
 
 <main>
+  <TopAdBanner />
   <Ramp PUB_ID={PUB_ID} WEBSITE_ID={WEBSITE_ID} />
   {#if !hideOverlay}
   <div in:slide={{delay: 500}} class="gameover-overlay">
@@ -874,7 +876,13 @@
     position: absolute;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    padding-top: 150px;
+    padding-top: 250px; /* Increased from 150px to accommodate ad + navbar */
+  }
+
+  @media (min-width: 768px) {
+    main {
+      padding-top: 150px; /* Reset to original value for desktop */
+    }
   }
 
   main::-webkit-scrollbar { 
