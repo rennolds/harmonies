@@ -960,7 +960,7 @@
       font-size: 11.5px;
       height: 82px;
       width: 82px;
-      padding-left: 2px;
+      /* padding-left: 2px; */
     }
   }
 
@@ -969,7 +969,7 @@
       font-size: 11.5px;
       height: 82px;
       width: 82px;
-      padding-left: 2px;
+      /* padding-left: 2px; */
     }
 
     .grid-container {
@@ -982,7 +982,7 @@
       font-size: 13px;
       height: 20.5vw;
       width: 20.5vw;
-      padding-left: 2px;
+      /* padding-left: 2px; */
     }
 
     .grid-container {
@@ -995,7 +995,7 @@
       font-size: 15px;
       height: 90px;
       width: 90px;
-      padding-left: 2px;
+      /* padding-left: 2px; */
     }
   }
 
