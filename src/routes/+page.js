@@ -1,4 +1,4 @@
-export const prerender = true;
+// export const prerender = true;
 
 // Add load function to handle date parameter
 export const load = async ({ url }) => {
