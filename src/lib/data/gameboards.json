@@ -12256,5 +12256,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+    "03/11/2025": {
+    "playlist": "https://open.spotify.com/playlist/2qEQMuEfI2FwI6gU0jqTUA?si=d371e712dc1c4085",
+    "gameoverGif": "https://64.media.tumblr.com/a70129c924b75326c2f3ae57d010b17a/f03c1e1e30f99f51-e0/s400x600/66a96fe573e58d9336ac61163e7222330e9d67f3.gifv",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "SZA Songs",
+        "elements": ["Saturn", "Snooze", "Supermodel", "BMF"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rihanna's \"Don't Stop the Music\"",
+        "elements": ["Don't", "Stop", "The", "Music"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Pop Subgenres",
+        "elements": ["Hyper", "Dance", "Bubblegum", "Art"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands Minus the Number",
+        "elements": ["Blink", "Sum", "Matchbox", "Maroon"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
