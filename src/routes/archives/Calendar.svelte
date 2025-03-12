@@ -3,7 +3,7 @@
     import moment from 'moment';
     import 'moment-timezone';
     import gameBoards from '$lib/data/gameboards.json';
-    import { completedDays, isArchiveMode } from '../store.js';
+    import { completedDays } from '../store.js';
     
     export let currentMonth;
     export let currentYear;
@@ -21,7 +21,7 @@
       }
       
       // Make sure we know we're in archive mode
-      $isArchiveMode = true;
+    //   $isArchiveMode = true;
     });
     
     function generateCalendarDays(month, year) {
@@ -66,7 +66,7 @@
         const hasGameboard = availableDates.includes(day.date);
         if (hasGameboard) {
           // Set archive mode before navigating
-          $isArchiveMode = true;
+        //   $isArchiveMode = true;
           onSelectDate(day.date);
         } else {
           // Show feedback that this day has no puzzle available

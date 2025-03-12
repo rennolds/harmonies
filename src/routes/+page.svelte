@@ -1,5 +1,5 @@
 <script>
-  import moment from "moment";
+import moment from "moment";
   import "moment-timezone";
   import { flip } from 'svelte/animate';
   import { writable } from 'svelte/store';
@@ -235,7 +235,8 @@
       }
 
       // if won
-      if ($clearedCategories.length == 4 && $mistakeCount < 4) {
+      if ((isArchiveMode ? localClearedCategories.length : $clearedCategories.length) == 4 && 
+         (isArchiveMode ? localMistakeCount : $mistakeCount) < 4) {
         console.log('winning game');
         remainingElements = [];
         gameoverStore.set({
@@ -244,9 +245,11 @@
         });
       }
 
-      //neither won nor lost
-      if ($clearedCategories.length < 4 && $mistakeCount < 4) {
-        const allClearedElements = $clearedCategories.map(category => category.elements).flat();
+      // neither won nor lost
+      if ((isArchiveMode ? localClearedCategories.length : $clearedCategories.length) < 4 && 
+         (isArchiveMode ? localMistakeCount : $mistakeCount) < 4) {
+        const allClearedElements = (isArchiveMode ? localClearedCategories : $clearedCategories)
+          .map(category => category.elements).flat();
         remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
       }
     }
@@ -404,6 +407,7 @@
         } else {
           // Update local state for archive mode
           localClearedCategories.push(categories[i]);
+          localClearedCategories = [...localClearedCategories]; // Ensure reactivity
           
           if (localClearedCategories.length == 4) {
             // Mark this archive puzzle as completed
@@ -489,6 +493,7 @@
           remainingCategories.forEach((category) => {
             swapElements(category.elements);
             localClearedCategories.push(category);
+            localClearedCategories = [...localClearedCategories]; // Ensure reactivity
             remainingElements = remainingElements.filter(item => !category.elements.includes(item));
           });
         }, 1000);
@@ -778,7 +783,7 @@
 
   <div class="grid-container">
     {#each [
-      ...new Set($clearedCategories.map(JSON.stringify))
+      ...new Set((isArchiveMode ? localClearedCategories : $clearedCategories).map(JSON.stringify))
     ].map(JSON.parse) as category}
       <ClearedCategory category={category}></ClearedCategory>
     {/each}

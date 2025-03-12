@@ -2,7 +2,7 @@ import { writable } from "svelte/store";
 import { browser } from "$app/environment";
 
 // Add this new store to track whether we're in archive mode
-export const isArchiveMode = writable(false);
+// export const isArchive = writable(false);
 
 export const visited = writable(browser && localStorage.getItem("visited") || false)
 visited.subscribe((val) => {
