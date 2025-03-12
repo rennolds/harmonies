@@ -661,7 +661,7 @@ import moment from "moment";
   {/if}
   <div class="container game-container">
 
-  <Navbar toggleHelpOverlay={toggleHelpOverlay} playlist={playlist} />
+    <Navbar toggleHelpOverlay={toggleHelpOverlay} playlist={playlist} isArchiveMode={isArchiveMode} />
 
   {#if !shoutout}
   <h2 class="header-msg">Create groups of four!</h2>
