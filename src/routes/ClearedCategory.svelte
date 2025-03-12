@@ -39,7 +39,7 @@
     color: black;
     line-height: 25px;
     overflow: hidden;
-    height: 90px;
+    height: 75px;
     width: 100%;
     justify-content: center;
     display: flex;
@@ -49,19 +49,19 @@
 
 @media only screen and (max-width: 390px) {
     .full-row {
-        height: 82px;
+        height: 70px;
     }
 }
 
 @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .full-row {
-        height: 20.5vw;
+        height: 18.5vw;
     }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .full-row {
-    height: 90px;
+    height: 80px;
     }
 }
 

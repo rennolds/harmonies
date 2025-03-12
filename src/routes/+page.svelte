@@ -1024,7 +1024,7 @@
     align-items: center;
     grid-template-rows: repeat(4, minmax(0, 1fr));
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-gap: 11px;
+    grid-gap: 10px;
     width: 100%;
     max-width: 400px;
     min-width: 350px;
@@ -1042,7 +1042,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 75px;
     width: 90px;
     text-align: center;
     cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
@@ -1065,19 +1065,12 @@
       min-width: auto;
       width: 100%;
     }
-    
-    .grid-item {
-      font-size: 11.5px;
-      height: 82px;
-      width: 82px;
-      /* padding-left: 2px; */
-    }
   }
 
   @media only screen and (max-width: 390px) {
     .grid-item {
       font-size: 11.5px;
-      height: 82px;
+      height: 70px;
       width: 82px;
       /* padding-left: 2px; */
     }
@@ -1090,7 +1083,7 @@
   @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .grid-item {
       font-size: 13px;
-      height: 20.5vw;
+      height: 18.5vw;
       width: 20.5vw;
       /* padding-left: 2px; */
     }
@@ -1103,7 +1096,7 @@
   @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .grid-item {
       font-size: 15px;
-      height: 90px;
+      height: 80px;
       width: 90px;
       /* padding-left: 2px; */
     }
