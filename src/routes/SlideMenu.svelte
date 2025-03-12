@@ -26,7 +26,7 @@
       </nav>
       
       <div class="other-games">
-        <h2>Our Other Games</h2>
+        <h2>Our Games</h2>
         
         <div class="game-cards">
           <a href="https://spotle.io" class="game-card">
