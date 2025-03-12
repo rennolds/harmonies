@@ -50,7 +50,7 @@
     <div class="archive-indicator" on:click={goToTodaysGame}>
       <div class="archive-indicator-content">
         <span class="date-text">{$page.url.pathname === '/archives' ? 'Archives' : $currentGameDate}</span>
-        <span class="back-to-today">↩ Today</span>
+        <span class="back-to-today">Today</span>
       </div>
     </div>
   {/if}
@@ -115,32 +115,33 @@
 /* Archive mode indicator */
 .archive-indicator {
   font-size: 14px;
-  margin-right: 70px;
+  margin-right: 100px;
   color: #BA81C2;
   font-weight: 600;
   padding: 4px 8px;
-  border-radius: 4px;
-  background-color: rgba(186, 129, 194, 0.2);
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: color 0.2s;
 }
 
 .archive-indicator:hover {
-  background-color: rgba(186, 129, 194, 0.4);
+  color: #d9a7e0;
 }
 
 .archive-indicator-content {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .back-to-today {
-  font-size: 11px;
-  opacity: 0.8;
-  padding: 2px 5px;
-  background-color: rgba(186, 129, 194, 0.3);
-  border-radius: 3px;
+  font-size: 12px;
+  color: #BA81C2;
+  position: relative;
+}
+
+.back-to-today::before {
+  content: "«";
+  margin-right: 2px;
 }
 
 .date-text {
