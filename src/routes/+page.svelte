@@ -1302,7 +1302,6 @@ import moment from "moment";
   }
 
   .shoutout button {
-    margin: 0 4px;
     border: none;
     background-color: transparent;
     padding: 0;
@@ -1316,7 +1315,6 @@ import moment from "moment";
   /* Make buttons inline */
   .shoutout-socials button {
     display: inline-block;
-    margin-right: 5.5px; /* Adjust as needed */
   }
 
   /* Optionally, you can remove default button styles */
@@ -1324,7 +1322,6 @@ import moment from "moment";
     border: none;
     background-color: transparent;
     padding: 0;
-    color: red;
   }
   .special-message {
     margin-top: -5px;
@@ -1334,19 +1331,9 @@ import moment from "moment";
     font-weight: 400;
   }
 
-  @media (max-width: 400px) {
-    .shoutout-name-container {
-      flex-direction: row;
-    }
-    
-    .shoutout h3 {
-      margin-right: 0;
-      margin-bottom: 4px;
+  @media only screen and (max-width: 450px) {
+    .shoutout-socials button {
+      margin-top: 2.5px;
     }
   }
-/* 
-  .ad-space {
-    height: 100px;
-    padding-bottom: 100px;
-  } */
 </style>
