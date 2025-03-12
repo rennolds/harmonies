@@ -609,15 +609,15 @@ import moment from "moment";
       // If a long word is found, reduce the font size
       if ((longWord && !reallyLongWord) || manyWords) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 0.80) + 'px';
+        paragraph.style.fontSize = (currentFontSize * 0.82) + 'px';
       } 
       else if (reallyLongWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 0.77) + 'px';
+        paragraph.style.fontSize = (currentFontSize * 0.79) + 'px';
       } 
       else if (shortWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 1.2) + 'px';
+        paragraph.style.fontSize = (currentFontSize * 1.1) + 'px';
       }
 
       if (emoTitle) {
