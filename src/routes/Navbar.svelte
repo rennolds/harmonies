@@ -1,4 +1,4 @@
-<!-- src/routes/Navbar.svelte - Modified to accommodate top ad banner -->
+<!-- src/routes/Navbar.svelte - Modified to force reload when returning to today's game -->
 <script>
   import SlideMenu from './SlideMenu.svelte';
   import { page } from '$app/stores';
@@ -16,6 +16,11 @@
   
   function closeMenu() {
     menuOpen = false;
+  }
+
+  // Function to navigate to today's game from the indicator with a hard reload
+  function goToTodaysGame() {
+    window.location.href = '/'; // Force a complete page reload
   }
 </script>
 
@@ -40,10 +45,13 @@
     </button>
   </div>
   
-  <!-- Add archive mode indicator if needed -->
+  <!-- Add archive mode indicator with clickable behavior -->
   {#if isArchiveMode}
-    <div class="archive-indicator">
-      {$page.url.pathname === '/archives' ? 'Archives' : $currentGameDate}
+    <div class="archive-indicator" on:click={goToTodaysGame}>
+      <div class="archive-indicator-content">
+        <span class="date-text">{$page.url.pathname === '/archives' ? 'Archives' : $currentGameDate}</span>
+        <span class="back-to-today">↩ Today</span>
+      </div>
     </div>
   {/if}
   
@@ -107,12 +115,36 @@
 /* Archive mode indicator */
 .archive-indicator {
   font-size: 14px;
-  margin-right: 100px;
+  margin-right: 70px;
   color: #BA81C2;
   font-weight: 600;
   padding: 4px 8px;
   border-radius: 4px;
   background-color: rgba(186, 129, 194, 0.2);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.archive-indicator:hover {
+  background-color: rgba(186, 129, 194, 0.4);
+}
+
+.archive-indicator-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.back-to-today {
+  font-size: 11px;
+  opacity: 0.8;
+  padding: 2px 5px;
+  background-color: rgba(186, 129, 194, 0.3);
+  border-radius: 3px;
+}
+
+.date-text {
+  /* Keeps the date text properly styled */
 }
 
 .mobile-menu {

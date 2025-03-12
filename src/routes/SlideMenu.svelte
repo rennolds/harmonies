@@ -2,6 +2,13 @@
   export let isOpen = false;
   export let closeMenu;
   export let isArchiveMode = false; // Add this prop to detect if we're in archive mode or on the archives page
+  
+  // Function to handle navigation to today's game with forced reload
+  function goToTodaysGame() {
+    // Use window.location.href to force a complete page reload
+    window.location.href = '/';
+    closeMenu();
+  }
 </script>
 
 <div class="slide-menu-overlay" class:active={isOpen} on:click={closeMenu}></div>
@@ -21,7 +28,7 @@
       <ul>
         <!-- Add "Today's Harmonies" option when in archive mode -->
         {#if isArchiveMode}
-          <li><a href="/">Today's Harmonies</a></li>
+          <li><button on:click={goToTodaysGame} class="menu-link">Today's Harmonies</button></li>
         {/if}
         <li><a href="/archives">Archives</a></li>
         <li><a href="/submit">Submit a board</a></li>
@@ -135,13 +142,13 @@
       margin-bottom: 12px;
     }
     
-    .menu-navigation a {
+    .menu-navigation a, .menu-navigation .menu-link {
       font-size: 18px;
       padding: 8px 0;
     }
   }
   
-  .menu-navigation a {
+  .menu-navigation a, .menu-navigation .menu-link {
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -152,7 +159,17 @@
     text-align: left;
   }
   
-  .menu-navigation a:hover {
+  /* Style the button to look like other menu links */
+  .menu-link {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 6px 0;
+  }
+  
+  .menu-navigation a:hover, .menu-navigation .menu-link:hover {
     color: #BA81C2;
   }
   
