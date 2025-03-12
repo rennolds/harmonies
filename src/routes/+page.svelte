@@ -1336,7 +1336,7 @@ import moment from "moment";
 
   @media (max-width: 400px) {
     .shoutout-name-container {
-      flex-direction: column;
+      flex-direction: row;
     }
     
     .shoutout h3 {
