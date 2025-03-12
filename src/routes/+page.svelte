@@ -1333,7 +1333,7 @@ import moment from "moment";
 
   @media only screen and (max-width: 450px) {
     .shoutout-socials button {
-      margin-top: 2.5px;
+      margin-top: .5px;
     }
   }
 </style>
