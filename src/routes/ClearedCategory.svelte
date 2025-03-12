@@ -49,13 +49,13 @@
 
 @media only screen and (max-width: 390px) {
     .full-row {
-        height: 70px;
+        height: 65px;
     }
 }
 
 @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .full-row {
-        height: 18.5vw;
+        height: 17vw;
     }
 }
 
