@@ -610,10 +610,12 @@ import moment from "moment";
       if ((longWord && !reallyLongWord) || manyWords) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
         paragraph.style.fontSize = (currentFontSize * 0.80) + 'px';
-      } else if (reallyLongWord) {
+      } 
+      else if (reallyLongWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 0.70) + 'px';
-      } else if (shortWord) {
+        paragraph.style.fontSize = (currentFontSize * 0.80) + 'px';
+      } 
+      else if (shortWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
         paragraph.style.fontSize = (currentFontSize * 1.2) + 'px';
       }
@@ -902,7 +904,7 @@ import moment from "moment";
     height: 100vh;
     justify-content: flex-start;
     width: 100%;
-    max-width: 400px;
+    max-width: 420px;
     padding: 0 10px;
     box-sizing: border-box;
   }
@@ -1048,13 +1050,13 @@ import moment from "moment";
     justify-content: center;
     align-items: center;
     height: 75px;
+    font-size: 14px;
     width: 90px;
     text-align: center;
     cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
     transition: background-color 0.4s, border-color 0.3s, transform 1s;
     overflow: hidden; /* Hide overflowing content */
     font-weight: 700;
-    font-size: 14px;
     color: black;
     line-height: 18px;
     overflow-wrap: break-word;
@@ -1074,7 +1076,7 @@ import moment from "moment";
 
   @media only screen and (max-width: 390px) {
     .grid-item {
-      font-size: 11.5px;
+      font-size: 11px;
       height: 70px;
       width: 82px;
       /* padding-left: 2px; */
@@ -1087,7 +1089,7 @@ import moment from "moment";
 
   @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .grid-item {
-      font-size: 13px;
+      font-size: 12px;
       height: 18.5vw;
       width: 20.5vw;
       /* padding-left: 2px; */
@@ -1100,7 +1102,7 @@ import moment from "moment";
 
   @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .grid-item {
-      font-size: 15px;
+      font-size: 14px;
       height: 80px;
       width: 90px;
       /* padding-left: 2px; */
