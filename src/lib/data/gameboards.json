@@ -12062,8 +12062,8 @@
     "shoutout": true,
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
-    "special-message": true,
-    "message-content": "theme: k-pop groups",
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
@@ -12293,5 +12293,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "03/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/2l362KDHWWN3x6gmN4q55k?si=b8e77ba210b74f2b",
+    "gameoverGif": "https://i.makeagif.com/media/2-16-2017/kdRWsL.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rappers from the 2016 XXL Freshmen Class",
+        "elements": ["Lil Dicky", "Lil Uzi Vert", "Anderson .Paak", "Desiigner"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Black and White Indie Rock Albums",
+        "elements": ["Wiped Out!", "Cigarettes After Sex", "Cleopatra", "Diamond Eyes"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Covered by Hozier",
+        "elements": ["Say My Name", "Do I Wanna Know?", "Whole Lotta Love", "Problem"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Referenced in Tyler, the Creator’s \"Yonkers\"",
+        "elements": ["Hayley Williams", "B.O.B.", "Bruno Mars", "Stevie Wonder"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   }
 }
