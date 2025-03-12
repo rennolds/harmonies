@@ -1272,6 +1272,7 @@ import moment from "moment";
     max-width: 350px;
     min-width: 300px;
     align-self: center;
+    margin-top: -5px;
     margin-bottom: 10px;
   }
 
