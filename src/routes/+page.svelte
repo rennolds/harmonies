@@ -1316,6 +1316,7 @@ import moment from "moment";
   /* Make buttons inline */
   .shoutout-socials button {
     display: inline-block;
+    margin-right: 3.5px;
   }
 
   /* Optionally, you can remove default button styles */
