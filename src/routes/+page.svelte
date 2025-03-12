@@ -613,7 +613,7 @@ import moment from "moment";
       } 
       else if (reallyLongWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 0.80) + 'px';
+        paragraph.style.fontSize = (currentFontSize * 0.77) + 'px';
       } 
       else if (shortWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
@@ -1084,7 +1084,7 @@ import moment from "moment";
   @media only screen and (max-width: 390px) {
     .grid-item {
       font-size: 11px;
-      height: 65px;
+      height: 60px;
       width: 82px;
       /* padding-left: 2px; */
     }
@@ -1097,7 +1097,7 @@ import moment from "moment";
   @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .grid-item {
       font-size: 12px;
-      height: 17vw;
+      height: 15vw;
       width: 20.5vw;
       /* padding-left: 2px; */
     }
@@ -1110,7 +1110,7 @@ import moment from "moment";
   @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .grid-item {
       font-size: 14px;
-      height: 80px;
+      height: 70px;
       width: 90px;
       /* padding-left: 2px; */
     }

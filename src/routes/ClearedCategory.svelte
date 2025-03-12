@@ -49,19 +49,19 @@
 
 @media only screen and (max-width: 390px) {
     .full-row {
-        height: 65px;
+        height: 60px;
     }
 }
 
 @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .full-row {
-        height: 17vw;
+        height: 15vw;
     }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .full-row {
-    height: 80px;
+    height: 70px;
     }
 }
 
