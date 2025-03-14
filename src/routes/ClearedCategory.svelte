@@ -39,7 +39,7 @@
     color: black;
     line-height: 25px;
     overflow: hidden;
-    height: 75px;
+    height: 80px;
     width: 100%;
     justify-content: center;
     display: flex;

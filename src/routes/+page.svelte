@@ -1057,7 +1057,7 @@ import moment from "moment";
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75px;
+    height: 80px;
     font-size: 14px;
     width: 90px;
     text-align: center;

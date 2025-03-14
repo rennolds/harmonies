@@ -31,7 +31,7 @@
           <li><button on:click={goToTodaysGame} class="menu-link">Today's Harmonies</button></li>
         {/if}
         <li><a href="/archives">Archives</a></li>
-        <li><a href="/submit">Submit a board</a></li>
+        <li><a href="https://form.jotform.com/250716973857067">Submit a board</a></li>
         <li><a href="https://twitter.com/Spotle_io" target="_blank">Follow us</a></li>
         <li><a href="/privacy">Privacy</a></li>
       </ul>
