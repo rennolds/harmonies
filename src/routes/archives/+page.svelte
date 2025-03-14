@@ -8,39 +8,82 @@
   import moment from 'moment';
   import 'moment-timezone';
 
-  // Initialize date to current month
-  let currentMonth = moment().month();
-  let currentYear = moment().year();
+  // Define launch date constants
+  const LAUNCH_DATE = moment('03/29/2024', 'MM/DD/YYYY');
+  const LAUNCH_MONTH = LAUNCH_DATE.month();
+  const LAUNCH_YEAR = LAUNCH_DATE.year();
+  
+  // Get current date info for future month restriction
+  const TODAY = moment();
+  const CURRENT_MONTH = TODAY.month();
+  const CURRENT_YEAR = TODAY.year();
+
+  // Initialize date to current month or launch month if current is before launch
+  let currentMonth = CURRENT_MONTH;
+  let currentYear = CURRENT_YEAR;
+  
+  // Ensure we don't start before the launch date
+  if (currentYear < LAUNCH_YEAR || (currentYear === LAUNCH_YEAR && currentMonth < LAUNCH_MONTH)) {
+    currentMonth = LAUNCH_MONTH;
+    currentYear = LAUNCH_YEAR;
+  }
   
   function handleDateSelect(selectedDate) {
     // Format the date as MM/DD/YYYY to match your game's date format
     const formattedDate = moment(selectedDate).format('MM/DD/YYYY');
     
-    // Here you would load the specific board for that date
-    // For now we'll just navigate back to the home page with a query parameter
+    // Navigate to the home page with the date parameter
     goto(`/?date=${formattedDate}`);
   }
 
   function nextMonth() {
-    if (currentMonth === 11) {
-      currentMonth = 0;
-      currentYear += 1;
-    } else {
-      currentMonth += 1;
+    // Calculate the new month and year
+    let newMonth = currentMonth + 1;
+    let newYear = currentYear;
+    
+    if (newMonth > 11) {
+      newMonth = 0;
+      newYear += 1;
     }
+    
+    // Check if the new date would be beyond the current month/year
+    if (newYear > CURRENT_YEAR || (newYear === CURRENT_YEAR && newMonth > CURRENT_MONTH)) {
+      // Do nothing - we're already at the latest available month
+      return;
+    }
+    
+    // If we pass validation, update the state
+    currentMonth = newMonth;
+    currentYear = newYear;
   }
 
   function prevMonth() {
-    if (currentMonth === 0) {
-      currentMonth = 11;
-      currentYear -= 1;
-    } else {
-      currentMonth -= 1;
+    // Calculate the new month and year
+    let newMonth = currentMonth - 1;
+    let newYear = currentYear;
+    
+    if (newMonth < 0) {
+      newMonth = 11;
+      newYear -= 1;
     }
+    
+    // Check if new date would be before launch date
+    if (newYear < LAUNCH_YEAR || (newYear === LAUNCH_YEAR && newMonth < LAUNCH_MONTH)) {
+      // Do nothing - we're already at the earliest available month
+      return;
+    }
+    
+    // If we pass validation, update the state
+    currentMonth = newMonth;
+    currentYear = newYear;
   }
   
   // Set isArchiveMode to true since we're on the archives page
   const isArchiveMode = true;
+  
+  // Computed properties to check month navigation limits
+  $: isAtEarliestMonth = currentMonth === LAUNCH_MONTH && currentYear === LAUNCH_YEAR;
+  $: isAtLatestMonth = currentMonth === CURRENT_MONTH && currentYear === CURRENT_YEAR;
 </script>
 
 <svelte:head>
@@ -59,15 +102,15 @@
     </div>
     
     <div class="month-selector">
-      <button on:click={prevMonth} class="month-btn">
+      <button on:click={prevMonth} class="month-btn" disabled={isAtEarliestMonth}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15 18L9 12L15 6" stroke={isAtEarliestMonth ? "#666" : "white"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </button>
       <h2>{moment().month(currentMonth).format('MMMM')} {currentYear}</h2>
-      <button on:click={nextMonth} class="month-btn">
+      <button on:click={nextMonth} class="month-btn" disabled={isAtLatestMonth}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M9 18L15 12L9 6" stroke={isAtLatestMonth ? "#666" : "white"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </button>
     </div>
@@ -150,7 +193,12 @@
     transition: background-color 0.2s;
   }
   
-  .month-btn:hover {
+  .month-btn:disabled {
+    background: rgba(255, 255, 255, 0.05);
+    cursor: not-allowed;
+  }
+  
+  .month-btn:hover:not(:disabled) {
     background: rgba(255, 255, 255, 0.2);
   }
   

@@ -187,7 +187,9 @@
   }
   
   .game-card {
-    width: 120px;
+    width: 238px;
+    height: 95px;
+    margin-bottom: 75px;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -209,7 +211,7 @@
   
   .spotle-image {
     background-color: #1DB954;
-    background-image: url('/images/spotle.png');
+    background-image: url('./spotle.png');
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;

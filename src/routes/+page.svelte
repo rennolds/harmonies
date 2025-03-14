@@ -212,6 +212,7 @@ import moment from "moment";
     // Check if this is our first time playing today
     if ($todaysProgressDate !== actualToday) {
       // First time today, reset the state
+      playbackWidth = calculatePlaybackWidth($mistakeCount);
       $todaysProgressDate = actualToday;
       $currentGameDate = actualToday;
       $mistakeCount = 0;
