@@ -12367,5 +12367,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "03/14/2025": {
+    "playlist": "https://open.spotify.com/playlist/6sAOONK5DabPgxvCfoX9T8?si=8d84125ba40a4226",
+    "gameoverGif": "https://media4.giphy.com/media/jCmVGeJu7tN4Y/giphy.gif?cid=6c09b9527g6b06exr8a04owewa13g0gcalrjzz7xkdkng2bz&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Frank Ocean Songs",
+        "elements": ["Self Control", "godpseed", "Sweet Life", "Thinkin Bout You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Food/Drink Songs",
+        "elements": ["apple", "chocolate", "Milkshake", "cherry wine"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring: Charli XCX",
+        "elements": ["Fancy", "Hot In It", "I Love It", "2 die 4"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Clairo Songs",
+        "elements": ["Sofia", "Bubble Gum", "Pretty Girl", "4EVER"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "scottie rennolds",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/scottierennolds/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
