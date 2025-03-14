@@ -12330,5 +12330,79 @@
     "twitch": "",
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "03/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/4iOtFfj5pvSogUA6QjlOrS?si=12e85cb9661b409e",
+    "gameoverGif": "https://media4.giphy.com/media/b3uy8g8PwhgvC/200w.gif?cid=6c09b9521nukp9fvcew1gtyngxksqakalh3nlbhgjckb0oi9&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lorde Songs",
+        "elements": ["Perfect Places", "Green Light", "Royals", "Team"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Kate Bush's \"Running Up That Hill\"",
+        "elements": ["I'd make a deal", "swap places", "feel how it feels?", "if I only could"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Question Song Titles",
+        "elements": ["What Do You Mean?", "Where Is My Mind?", "Who Let The Dogs Out", "Whatcha Say"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Lost Love",
+        "elements": ["The One That Got Away", "Drivers License", "Someone Like You", "Nothing Compares 2 U"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "03/14/2025": {
+    "playlist": "https://open.spotify.com/playlist/6sAOONK5DabPgxvCfoX9T8?si=8d84125ba40a4226",
+    "gameoverGif": "https://media4.giphy.com/media/jCmVGeJu7tN4Y/giphy.gif?cid=6c09b9527g6b06exr8a04owewa13g0gcalrjzz7xkdkng2bz&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Frank Ocean Songs",
+        "elements": ["Self Control", "godpseed", "Sweet Life", "Thinkin Bout You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Food/Drink Songs",
+        "elements": ["apple", "chocolate", "Milkshake", "cherry wine"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring: Charli XCX",
+        "elements": ["Fancy", "Hot In It", "I Love It", "2 die 4"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Clairo Songs",
+        "elements": ["Sofia", "Bubble Gum", "Pretty Girl", "Bags"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "scottie rennolds",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/scottierennolds/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
