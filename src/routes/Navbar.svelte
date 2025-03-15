@@ -105,6 +105,7 @@
   width: 100%;
   z-index: 1001; /* Higher than the slide menu */
   background: #202020;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .navbar {
@@ -269,6 +270,47 @@
 @media (min-width: 768px) {
   .navbar-wrapper {
     top: 0; /* Reset top position for desktop when ad is hidden */
+  }
+}
+
+/* Updated icon-button styles */
+.icon-button {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px; /* Increased padding to make clickable area larger */
+}
+
+.icon-button svg {
+  height: 24px; /* Increased from 20px */
+  width: auto;
+}
+
+.icon-button:first-child svg {
+  height: 26px; /* Increased from 22px */
+  width: auto;
+}
+
+/* Also increase menu button size */
+.menu-button svg {
+  height: 26px; /* Increased from 23px */
+  width: 26px;
+}
+
+/* Make sure mobile still looks good */
+@media (max-width: 600px) {
+  .icon-button svg {
+    height: 22px; /* Slightly smaller on mobile but still larger than before */
+  }
+  
+  .icon-button:first-child svg {
+    height: 24px;
+  }
+  
+  .menu-button svg {
+    height: 24px;
+    width: 24px;
   }
 }
 </style>
