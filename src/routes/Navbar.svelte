@@ -100,7 +100,7 @@
 <style>
 .navbar-wrapper {
   position: fixed;
-  top: 50px; /* Adjusted from 0 to 50px to accommodate the ad */
+  top: 50px; /* Keep this at 50px to position navbar below the ad banner */
   left: 0;
   width: 100%;
   z-index: 1001; /* Higher than the slide menu */
@@ -265,10 +265,10 @@
   }
 }
 
-/* Hide navbar top margin on larger screens if the ad is not displayed */
+/* Preserve the 50px top position on mobile, but hide the ad on larger screens */
 @media (min-width: 768px) {
   .navbar-wrapper {
-    top: 0; /* Reset top position for desktop */
+    top: 0; /* Reset top position for desktop when ad is hidden */
   }
 }
 </style>

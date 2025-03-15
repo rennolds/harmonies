@@ -1,7 +1,7 @@
 <!-- src/routes/archives/+page.svelte -->
 <script>
   import { goto } from '$app/navigation';
-  import TopAdBanner from '../TopAdBanner.svelte';
+  // import TopAdBanner from '../TopAdBanner.svelte';
   import Navbar from '../Navbar.svelte';
   import Calendar from './Calendar.svelte';
   import '../styles.css';
@@ -90,7 +90,7 @@
   <title>Harmonies Archives</title>
 </svelte:head>
 
-<TopAdBanner/>
+<!-- <TopAdBanner/> -->
 
 <div class="archive-page">
   <Navbar toggleHelpOverlay={() => {}} playlist="" isArchiveMode={isArchiveMode} />

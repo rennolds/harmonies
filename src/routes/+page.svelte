@@ -11,7 +11,7 @@ import moment from "moment";
   import HelpOverlay from './HelpOverlay.svelte';
   import Navbar from './Navbar.svelte';
   import gameBoards from '$lib/data/gameboards.json';
-  import TopAdBanner from './TopAdBanner.svelte';
+  // import TopAdBanner from './old.svelte';
   import Ramp from './Ramp.svelte';
   import './styles.css';
   import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList, completedDays, todaysProgressDate} from './store.js';
@@ -634,8 +634,8 @@ import moment from "moment";
 </script>
 
 <main>
-  <TopAdBanner />
-  <Ramp PUB_ID={PUB_ID} WEBSITE_ID={WEBSITE_ID} />
+  <!-- <TopAdBanner /> -->
+  <!-- <Ramp PUB_ID={PUB_ID} WEBSITE_ID={WEBSITE_ID} /> -->
   {#if !hideOverlay}
   <div in:slide={{delay: 500}} class="gameover-overlay">
     <button class="exit-btn" on:click={toggleOverlay}>

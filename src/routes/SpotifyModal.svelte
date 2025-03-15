@@ -137,7 +137,7 @@
       align-items: center;
       padding: 8px 16px; /* Reduced padding */
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      height: 32px; /* Explicit height setting for header */
+      height: 28px; /* Explicit height setting for header */
     }
     
     .modal-header h2 {
@@ -178,7 +178,7 @@
     
     .iframe-container iframe {
       display: block; /* Ensures no extra space below iframe */
-      height: 380px; /* Fixed height for desktop */
+      height: 65vh; /* Fixed height for desktop */
     }
     
     .no-playlist {
@@ -239,7 +239,7 @@
       
       .modal-header {
         padding: 6px 12px; /* Even smaller padding on mobile */
-        height: 28px;
+        height: 26px;
       }
       
       .modal-header h2 {
