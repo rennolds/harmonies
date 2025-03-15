@@ -1,11 +1,10 @@
-<!-- src/routes/TopAdBanner.svelte -->
 <script>
     // This component displays a banner ad at the top of the screen
-  </script>
+</script>
   
   <div class="top-ad-container">
-    <div class="ad-content">
-      Ad Space
+    <div data-pw-mobi="standard_iab_head1" class="ad-content">
+      <!-- Ad Space -->
     </div>
   </div>
   
@@ -33,7 +32,7 @@
       font-size: 14px;
       font-weight: 500;
       letter-spacing: 0.5px;
-      border: 1px dashed rgba(255, 255, 255, 0.3);
+      /* border: 1px dashed rgba(255, 255, 255, 0.3); */
     }
   
     /* Hide on larger screens if desired */

@@ -55,7 +55,8 @@
   </div>
   
   <footer>
-    <p>made by flatwhite studios</p>
+    <p class="company-name">made by flatwhite studios</p>
+    <p class="company-email">inquiries: company@flatwhite-studios.com</p>
   </footer>
 </div>
 
@@ -173,10 +174,12 @@
     color: #BA81C2;
   }
   
+  /* Left-align the "Our Games" heading */
   .other-games h2 {
     font-size: 18px;
     margin-bottom: 20px;
     color: #BA81C2;
+    text-align: left;
   }
   
   /* Stack game cards vertically */
@@ -230,12 +233,25 @@
     margin: 0;
   }
   
-  /* Footer pushed to the bottom */
+  /* Footer pushed to the bottom and left-aligned */
   footer {
     margin-top: auto;
-    text-align: center;
+    text-align: left;
     color: #fff;
-    font-size: 12px;
     padding: 10px 0;
+  }
+  
+  /* Style for company name */
+  .company-name {
+    font-size: 11px;
+    margin-bottom: 4px;
+  }
+  
+  /* Style for company email */
+  .company-email {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.8);
   }
 </style>
