@@ -896,7 +896,7 @@ import moment from "moment";
 
   @media (min-width: 768px) {
     main {
-      padding-top: 150px; /* Reset to original value for desktop */
+      padding-top: 250px; /* Reset to original value for desktop */
     }
   }
 

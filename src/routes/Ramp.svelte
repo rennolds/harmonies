@@ -83,9 +83,9 @@
     }
   
     /* Hide on larger screens if desired */
-    @media (min-width: 768px) {
+    /* @media (min-width: 768px) {
       .top-ad-container {
         display: none;
       }
-    }
+    } */
   </style>

@@ -131,7 +131,7 @@
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   
   /* Content container */
@@ -204,9 +204,6 @@
   
   /* Media queries for responsiveness */
   @media (max-width: 600px) {
-    .archive-page {
-      padding-top: 100px;
-    }
 
     .archive-content {
       padding: 15px;

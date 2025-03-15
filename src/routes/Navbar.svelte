@@ -267,11 +267,11 @@
 }
 
 /* Preserve the 50px top position on mobile, but hide the ad on larger screens */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .navbar-wrapper {
-    top: 0; /* Reset top position for desktop when ad is hidden */
+    top: 0; 
   }
-}
+} */
 
 /* Updated icon-button styles */
 .icon-button {

@@ -15,14 +15,6 @@
 <div class="slide-menu" class:active={isOpen}>
   <!-- Wrap main content in a div so the footer can be pushed to the bottom -->
   <div>
-    <div class="menu-header">
-      <button class="close-button" on:click={closeMenu}>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-    </div>
     
     <nav class="menu-navigation">
       <ul>
@@ -96,6 +88,8 @@
     /* Make the menu a flex container with vertical layout */
     display: flex;
     flex-direction: column;
+    padding-top: 120px;
+
   }
   
   @media (max-width: 600px) {
@@ -108,26 +102,8 @@
   .slide-menu.active {
     transform: translateX(0);
   }
-  
-  .menu-header {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-  }
-  
-  .close-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-  }
-  
-  @media (max-width: 600px) {
-    .menu-header {
-      display: none;
-    }
-  }
-  
+
+
   .menu-navigation ul {
     list-style: none;
     padding: 0;
