@@ -95,7 +95,6 @@
   @media (max-width: 600px) {
     .slide-menu {
       width: 100%;
-      padding-top: 100px; /* Add space for the navbar */
     }
   }
   
@@ -111,17 +110,17 @@
   }
   
   .menu-navigation li {
-    margin-bottom: 8px;
+    margin-bottom: 2px;
   }
   
   @media (max-width: 600px) {
     .menu-navigation li {
-      margin-bottom: 12px;
+      margin-bottom: 4px;
     }
     
     .menu-navigation a, .menu-navigation .menu-link {
       font-size: 18px;
-      padding: 8px 0;
+      padding: 4px 0;
     }
   }
   
@@ -131,7 +130,7 @@
     font-size: 16px;
     font-weight: 500;
     display: block;
-    padding: 6px 0;
+    padding: 5px 0;
     transition: color 0.2s;
     text-align: left;
   }
