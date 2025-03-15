@@ -12404,5 +12404,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "03/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/4KrlbqmFNsVCiGjSvToIzH?si=6810acde61b2484e",
+    "gameoverGif": "https://media4.giphy.com/media/1GIfN221wZh3KxkEwC/giphy.gif?cid=6c09b952w2w5o2hjtc8nwh9y9mvqruigdgn6tv1nzfned792&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "MGK Goes Pop Punk",
+        "elements": ["I Think I'm OKAY", "bloody valentine", "my ex's best friend", "drunk face"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Katy Perry's \"Teenage Dream\"",
+        "elements": ["My Valentine", "All the way Tonight", "Walls come down", "Drove to Cali"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Emo Rock Albums",
+        "elements": ["The Black Parade", "Tell All Your Friends", "A Fever You Can’t Sweat Out", "Deja Entendu"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Got Sued for Copyright",
+        "elements": ["Blurred Lines", "Ice Ice Baby", "Thinking Out Loud", "Dark Horse"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
