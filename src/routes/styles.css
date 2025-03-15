@@ -134,3 +134,44 @@ html, body {
     max-width: 525px !important;
   }
 }
+
+
+.gradient-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
+  pointer-events: none; /* Allow clicks to pass through */
+}
+
+/* Adjust the gradient's starting position */
+@media (max-width: 768px) {
+  .gradient-background {
+    /* On mobile, push gradient down by navbar + ad height */
+    top: 100px; /* 50px for ad + 50px for navbar */
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-background {
+    /* On desktop, push gradient down just by navbar height */
+    top: 50px;
+  }
+}
+
+/* Ensure the container class maintains the layout structure */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .gradient-background {
+    background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
+  }
+}
