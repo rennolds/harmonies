@@ -74,7 +74,15 @@
       
       <div class="iframe-container">
         {#if playlistId}
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ia6rY8aq5QnxABHy6Uw0P?utm_source=generator" width="100%" height="500px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe 
+            title="Spotify Playlist"
+            src="https://open.spotify.com/embed/playlist/{playlistId}?utm_source=generator" 
+            width="100%" 
+            frameborder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy"
+          ></iframe>
         {:else}
           <div class="no-playlist">
             <p>No playlist available for today.</p>
@@ -161,6 +169,11 @@
       overflow: hidden;
     }
     
+    .iframe-container iframe {
+      display: block; /* Ensures no extra space below iframe */
+      height: 380px; /* Fixed height for desktop */
+    }
+    
     .no-playlist {
       height: 200px;
       display: flex;
@@ -204,10 +217,17 @@
     
     /* Mobile responsiveness */
     @media (max-width: 600px) {
+      .modal-backdrop {
+        padding: 10px;
+        align-items: flex-start;
+        overflow-y: auto;
+        padding-top: 60px;
+      }
+      
       .modal-content {
         max-width: 95%;
         height: auto;
-        max-height: 90vh;
+        max-height: none; /* Remove max-height constraint */
       }
       
       .modal-header h2 {
@@ -215,7 +235,27 @@
       }
       
       .iframe-container iframe {
-        height: 340px;
+        height: 400px; /* Taller on mobile for better visibility */
+        min-height: 350px; /* Ensure minimum height */
+      }
+      
+      /* Ensure buttons are easier to tap on mobile */
+      .close-button, 
+      .open-spotify-btn {
+        padding: 10px;
+      }
+      
+      .open-spotify-btn {
+        width: 100%;
+        max-width: 240px;
+        padding: 12px 20px;
+      }
+    }
+    
+    /* Small mobile screens */
+    @media (max-width: 375px) {
+      .iframe-container iframe {
+        height: 340px; /* Slightly smaller for very small screens */
       }
     }
   </style>
