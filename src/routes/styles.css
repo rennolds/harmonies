@@ -147,39 +147,3 @@ html, body {
   pointer-events: none; /* Allow clicks to pass through */
 }
 
-/* Adjust the gradient's starting position */
-@media (max-width: 768px) {
-  .gradient-background {
-    /* On mobile, push gradient down by navbar + ad height */
-    top: 93px; /* 50px for ad + 50px for navbar */
-  }
-}
-
-@media (min-width: 769px) {
-  .gradient-background {
-    /* On desktop, push gradient down just by navbar height since ad is hidden */
-    top: 48px;
-  }
-}
-
-/* Additional adjustments for main content spacing */
-.game-body {
-  padding-top: 93px; /* Add padding to account for fixed ad + navbar on mobile */
-}
-
-@media (min-width: 768px) {
-  .game-body {
-    padding-top: 48px; /* Less padding on desktop since ad is hidden */
-  }
-}
-
-/* Archive page adjustments */
-.archive-page {
-  padding-top: 93px !important; /* Force padding for archive page on mobile */
-}
-
-@media (min-width: 768px) {
-  .archive-page {
-    padding-top: 48px !important; /* Less padding on desktop */
-  }
-}
