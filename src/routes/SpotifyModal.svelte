@@ -135,13 +135,14 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 16px 20px;
+      padding: 8px 16px; /* Reduced padding */
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      height: 32px; /* Explicit height setting for header */
     }
     
     .modal-header h2 {
       margin: 0;
-      font-size: 18px;
+      font-size: 16px; /* Slightly smaller font */
       color: #BA81C2;
       font-weight: 600;
     }
@@ -150,12 +151,18 @@
       background: none;
       border: none;
       cursor: pointer;
-      padding: 5px;
+      padding: 4px;
+      margin: -4px; /* Negative margin to maintain clickable area while reducing visual size */
       display: flex;
       align-items: center;
       justify-content: center;
       border-radius: 50%;
       transition: background-color 0.2s;
+    }
+    
+    .close-button svg {
+      width: 20px;
+      height: 20px;
     }
     
     .close-button:hover {
@@ -230,8 +237,13 @@
         max-height: none; /* Remove max-height constraint */
       }
       
+      .modal-header {
+        padding: 6px 12px; /* Even smaller padding on mobile */
+        height: 28px;
+      }
+      
       .modal-header h2 {
-        font-size: 16px;
+        font-size: 14px;
       }
       
       .iframe-container iframe {
@@ -240,9 +252,9 @@
       }
       
       /* Ensure buttons are easier to tap on mobile */
-      .close-button, 
-      .open-spotify-btn {
-        padding: 10px;
+      .close-button {
+        padding: 6px;
+        margin: -4px;
       }
       
       .open-spotify-btn {
