@@ -66,7 +66,7 @@
       position: fixed;
       top: 0;
       left: 0;
-      z-index: 0; /* Higher than navbar to ensure it stays on top */
+      z-index: 1000;
     }
   
     .ad-content {
@@ -83,9 +83,9 @@
     }
   
     /* Hide on larger screens if desired */
-    /* @media (min-width: 768px) {
+    @media (min-width: 768px) {
       .top-ad-container {
         display: none;
       }
-    } */
+    }
   </style>
