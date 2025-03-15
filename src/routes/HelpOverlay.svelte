@@ -76,6 +76,8 @@
 
 <style>
   .help-overlay-container {
+    overflow-x: hidden;
+    overflow-y: scroll;
     position: fixed;
     top: 0;
     left: 0;
@@ -151,6 +153,33 @@
 
   .highlight-stuck {
     font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+        .help-overlay-backdrop {
+            align-items: flex-start;
+            padding-top: 60px;
+        }
+        
+        .help-overlay-content {
+            max-height: 80vh;
+        }
+        
+        .help-header h1 {
+            font-size: 16px;
+        }
+        
+        .help-description p,
+        .help-description li {
+            font-size: 13px;
+        }
+    }
+    
+  /* Small mobile screens */
+  @media (max-width: 375px) {
+      .help-overlay-content {
+          max-height: 75vh;
+      }
   }
 
   @media (max-width: 400px) {
