@@ -54,21 +54,21 @@ html, body {
 @media only screen and (min-width: 768px) {
   /* Increase the grid container maximum width */
   .grid-container {
-    max-width: 480px !important; /* More moderate increase from 400px */
+    max-width: 430px !important; /* More moderate increase from 400px */
     min-width: 420px !important; /* Ensure we have a good minimum size */
   }
   
   /* Make grid items larger on desktop */
   .grid-item {
-    height: 90px !important; /* Moderate increase from 80px */
-    width: 105px !important; /* Moderate increase from 90px */
+    height: 80px !important; /* Moderate increase from 80px */
+    width: 120px !important; /* Moderate increase from 90px */
     font-size: 15px !important; /* Slightly larger font */
     border-radius: 9px !important; /* Slightly larger border radius */
   }
   
   /* Make sure the full-row cleared categories scale accordingly */
   .full-row {
-    height: 90px !important; /* Match the height of grid items */
+    height: 80px !important; /* Match the height of grid items */
   }
   
   /* Increase the size of cleared category text */
@@ -82,22 +82,22 @@ html, body {
   
   /* Scale the play button container to match */
   .play-button-container {
-    max-width: 480px !important; /* Match grid container */
+    max-width: 525px !important; /* Match grid container */
   }
   
   /* Scale the mistakes remaining container */
   .mistakes-remaining-container {
-    max-width: 480px !important; /* Match grid container */
+    max-width: 525px !important; /* Match grid container */
   }
   
   /* Adjust game container */
   .game-container {
-    max-width: 480px !important;
+    max-width: 525px !important;
   }
   
   /* Fix navbar positioning to match wider container */
   .navbar {
-    max-width: 480px !important; /* Match the wider container */
+    max-width: 475px !important; /* Match the wider container */
   }
   
   /* Adjust navbar elements to ensure they stay at the edges */
@@ -115,22 +115,22 @@ html, body {
 /* Large desktop screens */
 @media only screen and (min-width: 1200px) {
   .grid-container {
-    max-width: 500px !important;
+    max-width: 525px !important;
   }
   
   .grid-item {
-    height: 95px !important;
-    width: 110px !important;
+    height: 80px !important;
+    width: 120px !important;
   }
   
   .full-row {
-    height: 95px !important;
+    height: 80px !important;
   }
   
   .play-button-container,
   .mistakes-remaining-container,
   .game-container,
   .navbar {
-    max-width: 500px !important;
+    max-width: 525px !important;
   }
 }
