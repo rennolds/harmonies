@@ -173,6 +173,12 @@
     text-align: center;
     transition: transform 0.2s;
   }
+
+  @media (max-width: 768px) {
+    .game-card {
+      height: 80px;
+    }
+  }
   
   .game-card:hover {
     transform: translateY(-5px);

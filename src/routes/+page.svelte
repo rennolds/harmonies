@@ -1102,7 +1102,7 @@ import moment from "moment";
   @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .grid-item {
       font-size: 12px;
-      height: 16.5vw;
+      height: 8vh;
       width: 20.5vw;
       /* padding-left: 2px; */
     }
