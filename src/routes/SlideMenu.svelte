@@ -38,10 +38,10 @@
           <h3>Spotle</h3>
         </a>
         
-        <a href="#" class="game-card">
+        <!-- <a href="#" class="game-card">
           <div class="game-image crosstune-image"></div>
           <h3>Crosstune</h3>
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
@@ -195,7 +195,7 @@
   
   .spotle-image {
     background-color: #1DB954;
-    background-image: url('./spotle.png');
+    background-image: url('./spotle_thumbnail.png');
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
