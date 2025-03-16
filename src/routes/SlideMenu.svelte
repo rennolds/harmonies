@@ -75,7 +75,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 350px;
+    width: 100%;
     height: 100%;
     background: linear-gradient(145deg, #2a1e2d, #1a141d);
     color: white;
@@ -89,12 +89,19 @@
     display: flex;
     flex-direction: column;
     padding-top: 120px;
-
   }
   
   @media (max-width: 600px) {
     .slide-menu {
       width: 100%;
+    }
+  }
+
+  @media (min-width: 601px) {
+    .slide-menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   
