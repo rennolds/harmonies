@@ -66,7 +66,7 @@
       position: fixed;
       top: 0;
       left: 0;
-      z-index: 1000;
+      z-index: 150000;
     }
   
     .ad-content {

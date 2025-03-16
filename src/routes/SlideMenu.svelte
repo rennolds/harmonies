@@ -79,7 +79,7 @@
     height: 100%;
     background: linear-gradient(145deg, #2a1e2d, #1a141d);
     color: white;
-    z-index: 999;
+    z-index: 12000;
     padding: 20px;
     box-sizing: border-box;
     transform: translateX(-100%);

@@ -133,7 +133,7 @@
   top: 50px; /* Keep this at 50px to position navbar below the ad banner */
   left: 0;
   width: 100%;
-  z-index: 1001; /* Higher than the slide menu */
+  z-index: 140000; /* Higher than the slide menu */
   background: #202020;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
