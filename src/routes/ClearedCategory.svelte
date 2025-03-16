@@ -1,6 +1,5 @@
 <script>
     import { sineInOut } from "svelte/easing";
-    import { fade } from "svelte/transition";
     export let category;
 
     let isActive = true;
@@ -39,7 +38,7 @@
     color: black;
     line-height: 25px;
     overflow: hidden;
-    height: 90px;
+    height: 80px;
     width: 100%;
     justify-content: center;
     display: flex;
@@ -49,20 +48,31 @@
 
 @media only screen and (max-width: 390px) {
     .full-row {
-        height: 82px;
+        height: 60px;
     }
 }
 
 @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .full-row {
-        height: 20.5vw;
+        height: 68px;
     }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .full-row {
-    height: 90px;
+        height: 70px;
     }
+}
+
+@media (max-width: 768px) {
+  .full-row {
+    line-height: 19px;
+  }
+
+  .full-row h2 {
+    font-weight: 800;
+    font-size: 12px;
+  }
 }
 
 h2 {
@@ -77,7 +87,6 @@ p {
     font-size: 9px;
     width: 95%;
     justify-content: center;
-    align-text: center;
 }
 
 </style>

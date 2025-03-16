@@ -1,3 +1,15 @@
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
-export const prerender = true;
+// export const prerender = true;
+
+// Add load function to handle date parameter
+export const load = async ({ url }) => {
+  // Get date parameter from URL if present
+  const dateParam = url.searchParams.get('date');
+  
+  // Determine if we're in archive mode based on presence of date parameter
+  const isArchiveMode = dateParam ? true : false;
+  
+  return {
+    dateParam,
+    isArchiveMode
+  };
+};
