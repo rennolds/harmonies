@@ -29,7 +29,7 @@
           rampComponentLoaded = true;
           window.ramp.que.push(() => {
               window.ramp.spaNewPage();
-              window.ramp.addTag("standard_iab_head1");
+              // window.ramp.addTag("standard_iab_head1");
           });
         };
       });
