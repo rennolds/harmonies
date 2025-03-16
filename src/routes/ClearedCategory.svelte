@@ -1,6 +1,5 @@
 <script>
     import { sineInOut } from "svelte/easing";
-    import { fade } from "svelte/transition";
     export let category;
 
     let isActive = true;

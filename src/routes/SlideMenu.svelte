@@ -197,7 +197,7 @@
   
   .spotle-image {
     background-color: #1DB954;
-    background-image: url('./spotle_thumbnail.png');
+    background-image: url('/spotle_thumbnail.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
