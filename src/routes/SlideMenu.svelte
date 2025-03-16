@@ -192,11 +192,9 @@
     }
 
     footer {
-      padding-bottom: 32px;
+      margin-bottom: 15px;
     }
   }
-
-  
   
   .game-card:hover {
     transform: translateY(-5px);
