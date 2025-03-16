@@ -61,8 +61,19 @@
 
 @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .full-row {
-    height: 70px;
+        height: 70px;
     }
+}
+
+@media (max-width: 768px) {
+  .full-row {
+    line-height: 19px;
+  }
+
+  .full-row h2 {
+    font-weight: 800;
+    font-size: 12px;
+  }
 }
 
 h2 {
@@ -77,7 +88,6 @@ p {
     font-size: 9px;
     width: 95%;
     justify-content: center;
-    align-text: center;
 }
 
 </style>

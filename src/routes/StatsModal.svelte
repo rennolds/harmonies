@@ -1,19 +1,31 @@
 <script>
   import { fade, fly } from 'svelte/transition';
-  import { played, currentStreak, maxStreak, solveList } from './store.js';
+  import { currentStreak, maxStreak, solveList } from './store.js';
   
   // Props
   export let isOpen = false;
   export let onClose = () => {};
   
-  // Calculate statistics from store values
-  $: totalPlayed = $played || 0;
-  $: solves = ($solveList || []).filter(score => score > 0).length;
-  $: winPercentage = totalPlayed > 0 ? Math.round((solves / totalPlayed) * 100) : 0;
-  $: perfectGames = ($solveList || []).filter(score => score === 0).length;
+  // Calculate statistics directly from solveList
+  $: allGames = $solveList || [];
+  $: wins = allGames.filter(score => score >= 4).length;
+  $: losses = allGames.filter(score => score === 0).length;
+  $: totalPlayed = wins + losses;
+  $: winPercentage = totalPlayed > 0 ? Math.round((wins / totalPlayed) * 100) : 0;
+  
+  /* 
+   * solveList values:
+   * 0 -> denotes a loss (count as 4 mistakes in distribution)
+   * 4 -> perfect game (4 guesses, 0 mistakes)
+   * 5 -> 1 mistake
+   * 6 -> 2 mistakes
+   * 7 -> 3 mistakes
+   * 8 -> theoretical (4 mistakes, though game ends at 3)
+   */
+  $: perfectGames = allGames.filter(score => score === 4).length;
   
   // Calculate mistake distribution from solveList
-  $: mistakeDistribution = calculateMistakeDistribution($solveList || []);
+  $: mistakeDistribution = calculateMistakeDistribution(allGames);
   $: maxDistributionValue = Math.max(...Object.values(mistakeDistribution));
   
   // Function to compute the mistake distribution
@@ -24,8 +36,21 @@
     
     // Count occurrences of each mistake count
     for (const score of scoreList) {
-      if (distribution.hasOwnProperty(score)) {
-        distribution[score]++;
+      if (score === 0) {
+        // Loss - count as 4 mistakes
+        distribution[4]++;
+      } else if (score === 4) {
+        // Perfect game (0 mistakes)
+        distribution[0]++;
+      } else if (score === 5) {
+        // 1 mistake
+        distribution[1]++;
+      } else if (score === 6) {
+        // 2 mistakes
+        distribution[2]++;
+      } else if (score === 7 || score === 8) {
+        // 3 mistakes
+        distribution[3]++;
       }
     }
     
@@ -45,11 +70,6 @@
     if (event.key === 'Escape') {
       onClose();
     }
-  }
-  
-  // Format percentage without decimal places
-  function formatPercent(value) {
-    return `${value}%`;
   }
 </script>
 
@@ -83,7 +103,7 @@
         <div class="stat-label">Played</div>
       </div>
       <div class="stat-box">
-        <div class="stat-value">{winPercentage}</div>
+        <div class="stat-value">{winPercentage}%</div>
         <div class="stat-label">Win %</div>
       </div>
       <div class="stat-box">
@@ -91,9 +111,14 @@
         <div class="stat-label">Current Streak</div>
       </div>
       <div class="stat-box">
-        <div class="stat-value">{perfectGames}</div>
-        <div class="stat-label">Perfect Games</div>
+        <div class="stat-value">{$maxStreak}</div>
+        <div class="stat-label">Max Streak</div>
       </div>
+    </div>
+    
+    <div class="perfect-games-row">
+      <div class="perfect-label">Perfect Games</div>
+      <div class="perfect-value">{perfectGames}</div>
     </div>
     
     <div class="mistake-distribution">
@@ -157,7 +182,7 @@
   .modal-header h2 {
     margin: 0;
     font-size: 18px;
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.7);
     font-weight: 600;
   }
   
@@ -204,6 +229,27 @@
     text-align: center;
   }
   
+  .perfect-games-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .perfect-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .perfect-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  
   .mistake-distribution {
     padding: 20px;
   }
@@ -211,7 +257,7 @@
   .mistake-distribution h3 {
     font-size: 16px;
     margin: 0 0 15px 0;
-    color: #FFF ;
+    color: rgba(255, 255, 255, 0.7);
     text-align: center;
   }
   
