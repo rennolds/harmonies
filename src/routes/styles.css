@@ -138,7 +138,7 @@ html, body {
 
 .gradient-background {
   position: fixed;
-  top: 0;
+  top: 99px; /* Start below navbar (50px ad + 50px navbar) */
   left: 0;
   right: 0;
   bottom: 0;
