@@ -35,7 +35,7 @@
       <div class="game-cards">
         <a href="https://spotle.io" class="game-card">
           <div class="game-image spotle-image"></div>
-          <h3>Spotle</h3>
+          <h3>Spotle | Guess the artist</h3>
         </a>
         
         <!-- <a href="#" class="game-card">
@@ -166,17 +166,22 @@
   
   .game-card {
     width: 238px;
-    height: 95px;
-    margin-bottom: 75px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
     text-decoration: none;
     color: white;
     text-align: center;
     transition: transform 0.2s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   @media (max-width: 768px) {
     .game-card {
-      height: 80px;
+      width: 220px;
     }
   }
   
@@ -186,17 +191,14 @@
   
   .game-image {
     width: 100%;
-    height: 120px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-size: cover;
+    height: 100px;
     background-position: center;
   }
   
   .spotle-image {
     background-color: #1DB954;
     background-image: url('./spotle_thumbnail.png');
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -212,6 +214,8 @@
   .game-card h3 {
     font-size: 16px;
     margin: 0;
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, 0.4);
   }
   
   /* Footer pushed to the bottom and left-aligned */
