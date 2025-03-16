@@ -1013,7 +1013,7 @@ import moment from "moment";
   .header-msg {
     font-weight: 300;
     font-size: 18px;
-    margin-top: -5px;
+    margin-top: 20px;
   }
 
   .alert-message-container {
@@ -1110,6 +1110,10 @@ import moment from "moment";
     .grid-container {
       max-width: 92vw;
     }
+
+    .header-msg {
+      margin-top: -5px;
+    }
   }
 
   @media only screen and (max-width: 1200px) and (min-width: 601px) {
@@ -1118,6 +1122,10 @@ import moment from "moment";
       height: 70px;
       width: 90px;
       /* padding-left: 2px; */
+    }
+
+    .header-msg {
+      margin-top: -5px;
     }
   }
 
