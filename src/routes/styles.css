@@ -1,43 +1,149 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 600;
-  
-    color: #aaa;
-    background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
-    color-scheme: light;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
-    max-width: 1280px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
 
-  body::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
-  }
-  
-  html, body {
-    overflow-x: hidden;
-  }
+  color: #aaa;
+  background-color: #202020;
+  /* background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%); */
+  color-scheme: light;
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
-    }
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  margin: 0;
+  min-width: 340px;
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Ensure the container class maintains the layout structure */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
+  }
+}
+
+/* Add these styles to your src/routes/styles.css or modify your existing styles */
+
+/* Desktop-specific grid improvements */
+@media only screen and (min-width: 768px) {
+  /* Increase the grid container maximum width */
+  .grid-container {
+    max-width: 430px !important; /* More moderate increase from 400px */
+    min-width: 420px !important; /* Ensure we have a good minimum size */
+  }
+  
+  /* Make grid items larger on desktop */
+  .grid-item {
+    height: 80px !important; /* Moderate increase from 80px */
+    width: 120px !important; /* Moderate increase from 90px */
+    font-size: 15px !important; /* Slightly larger font */
+    border-radius: 9px !important; /* Slightly larger border radius */
+  }
+  
+  /* Make sure the full-row cleared categories scale accordingly */
+  .full-row {
+    height: 80px !important; /* Match the height of grid items */
+  }
+  
+  /* Increase the size of cleared category text */
+  .full-row h2 {
+    font-size: 13px !important;
+  }
+  
+  .full-row p {
+    font-size: 10px !important;
+  }
+  
+  /* Scale the play button container to match */
+  .play-button-container {
+    max-width: 525px !important; /* Match grid container */
+  }
+  
+  /* Scale the mistakes remaining container */
+  .mistakes-remaining-container {
+    max-width: 525px !important; /* Match grid container */
+  }
+  
+  /* Adjust game container */
+  .game-container {
+    max-width: 525px !important;
+  }
+  
+  /* Fix navbar positioning to match wider container */
+  .navbar {
+    max-width: 475px !important; /* Match the wider container */
+  }
+  
+  /* Adjust navbar elements to ensure they stay at the edges */
+  .navbar-left {
+    margin-left: 0 !important;
+    padding-left: 5px !important;
+  }
+  
+  .navbar-right {
+    margin-right: 0 !important;
+    padding-right: 5px !important;
+  }
+}
+
+/* Large desktop screens */
+@media only screen and (min-width: 1200px) {
+  .grid-container {
+    max-width: 525px !important;
+  }
+  
+  .grid-item {
+    height: 80px !important;
+    width: 120px !important;
+  }
+  
+  .full-row {
+    height: 80px !important;
+  }
+  
+  .play-button-container,
+  .mistakes-remaining-container,
+  .game-container,
+  .navbar {
+    max-width: 525px !important;
+  }
+}
+
+
+.gradient-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
+  pointer-events: none; /* Allow clicks to pass through */
+}
+
