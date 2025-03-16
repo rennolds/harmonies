@@ -9,9 +9,18 @@ visited.subscribe((val) => {
     if (browser) return (localStorage.visited = val);
 });
 
-export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || new Date("01/01/2000"))
-currentGameDate.subscribe((val) => {
-    if (browser) return (localStorage.currentGameDate = val);
+const getTodayFormatted = () => {
+    const today = new Date();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const year = today.getFullYear();
+    return `${month}/${day}/${year}`;
+  };
+  
+  // Use formatted string date instead of Date object
+  export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || getTodayFormatted())
+  currentGameDate.subscribe((val) => {
+      if (browser) return (localStorage.currentGameDate = val);
 });
 
 

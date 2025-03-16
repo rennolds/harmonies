@@ -258,10 +258,14 @@ import moment from "moment";
 
   if ($visited === false) {
     $visited = true;
-    setTimeout(() => {
-      helpOverlay = true;
-    }, 500);
-  }
+    // Only show help overlay for first-time visitors on the main game (not archive mode)
+    // and when there's no date parameter
+    if (!isArchiveMode && !selectedDate) {
+      setTimeout(() => {
+        helpOverlay = true;
+      }, 500);
+    }
+}
 
   function handleStats(guessCount, win) {
     $played = $played + 1;
