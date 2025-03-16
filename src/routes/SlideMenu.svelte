@@ -192,7 +192,7 @@
     }
 
     footer {
-      padding-bottom: 20px;
+      padding-bottom: 32px;
     }
   }
 
