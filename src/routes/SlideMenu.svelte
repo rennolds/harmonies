@@ -190,7 +190,13 @@
     .game-card {
       width: 220px;
     }
+
+    footer {
+      padding-bottom: 20px;
+    }
   }
+
+  
   
   .game-card:hover {
     transform: translateY(-5px);
