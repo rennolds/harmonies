@@ -1,5 +1,5 @@
 <script>
-import moment from "moment";
+  import moment from "moment";
   import "moment-timezone";
   import { flip } from 'svelte/animate';
   import { writable } from 'svelte/store';
@@ -9,22 +9,15 @@ import moment from "moment";
   import {goto} from '$app/navigation';
   import ClearedCategory from './ClearedCategory.svelte';
   import HelpOverlay from './HelpOverlay.svelte';
-  import Navbar from './Navbar.svelte';
+  import ResultGrid from './ResultGrid.svelte';
   import gameBoards from '$lib/data/gameboards.json';
-  // import TopAdBanner from './old.svelte';
   import Ramp from './Ramp.svelte';
   import './styles.css';
-  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList, completedDays, todaysProgressDate} from './store.js';
+  import {visited, currentGameDate, guessHistory, clearedCategories, mistakeCount, played, maxStreak, currentStreak, solveList} from './store.js';
+
 
   const PUB_ID = 1025391;
   const WEBSITE_ID = 75241;
-
-  export let data;
-
-  let selectedDate = '';
-  if (data && data.dateParam) {
-    selectedDate = data.dateParam;
-  }
 
   async function sendError(message) {
     const response = await fetch('/api/report-error', {
@@ -36,18 +29,14 @@ import moment from "moment";
       });
   }
 
+  //date stuff, see if this can be moved to another component
   function getEasternTimeDate() {
-    // If a date was selected from archives, use that instead
-    if (selectedDate) {
-      return selectedDate;
-    }
-    
-    const date = new Date();
-    const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
-    const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
-    const easternTime = new Date(utc + (3600000 * easternTimeOffset));
-    return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
-  }
+      const date = new Date();
+      const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
+      const utc = date.getTime() + (date.getTimezoneOffset() * 60000);
+      const easternTime = new Date(utc + (3600000 * easternTimeOffset));
+      return easternTime.toLocaleDateString('en-US', {timeZone: 'America/New_York'});
+  } 
 
   let timeUntilFourAMUTC = 0;
   let timer = null;
@@ -78,19 +67,11 @@ import moment from "moment";
     timer = setInterval(updateTimer, 1000);
   }
 
+
   startTimer();
 
-  // First, get today's actual date (not a selected date)
-  const actualToday = moment().tz('America/New_York').format("MM/DD/YYYY");
-
-  // Check if we're viewing an archived puzzle
-  const isArchiveMode = selectedDate && selectedDate !== actualToday;
-
-  // For display and board selection, use the selectedDate or today
-  const displayDate = selectedDate || actualToday;
-  
   moment.tz.setDefault('America/New_York');
-  const todaysDate = displayDate;
+  const todaysDate = moment().tz('America/New_York').format("MM/DD/YYYY");
 
   const todayBoard = gameBoards[todaysDate];
 
@@ -145,6 +126,8 @@ import moment from "moment";
   const keys = Object.keys(gameBoards);
   const harmonyNumber = keys.indexOf(todaysDate) + 1; // Adding 1 to make it 1-based index
 
+
+
   const gameoverStore = writable({
     isOver: false,
     headerMessage: ''
@@ -169,112 +152,76 @@ import moment from "moment";
     }, 3000); 
   }
 
-  // Initialize local variables for archive mode
-  let localMistakeCount = 0;
-  let localClearedCategories = [];
-  let localGuessHistory = [];
-
   let remainingElements = categories.map(item => item.elements).flat();
   let selectedElements = [];
   let shake = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
   let hideOverlay = true;
 
-  function calculatePlaybackWidth(mistakes) {
-    return Math.min(5 + mistakes * 20, 80);
+  let playbackWidth = (5 + $mistakeCount * 20);
+  if (playbackWidth > 80) {
+    playbackWidth = 80;
   }
-  
-  let playbackWidth = isArchiveMode ? calculatePlaybackWidth(localMistakeCount) : calculatePlaybackWidth($mistakeCount);
 
   let helpOverlay = false;
   const today = getEasternTimeDate();
   
-  // Game state initialization
-  if (isArchiveMode) {
-    // We're playing an archived puzzle
-    // Don't update any persistent state, use local variables
-    
-    // Check if this archive puzzle was previously completed
-    const isCompleted = $completedDays.includes(displayDate);
-    
-    // Shuffle elements for the archived puzzle
-    remainingElements = shuffleElements(remainingElements);
-    
-    if (isCompleted) {
-      // Show as completed
+  if ($currentGameDate == todaysDate) {
+    if ($mistakeCount >= 4) {
       gameoverStore.set({
         isOver: true,
-        headerMessage: "You've played this puzzle before!"
+        headerMessage: "Better luck tmr..."
+      });
+    const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
+      remainingCategories.forEach((category) => {
+        swapElements(category.elements);
+        remainingElements = remainingElements.filter(item => !category.elements.includes(item));
+      });
+      // remove any elements from remaining elements present in clearedCategories
+    }
+
+    // if won
+    if ($clearedCategories.length == 4 && $mistakeCount < 4) {
+      
+      console.log('winning game');
+      remainingElements = [];
+      gameoverStore.set({
+        isOver: true,
+        headerMessage: "Incredible!"
       });
     }
-  } else {
-    // We're playing today's puzzle
-    
-    // Check if this is our first time playing today
-    if ($todaysProgressDate !== actualToday) {
-      // First time today, reset the state
-      playbackWidth = calculatePlaybackWidth($mistakeCount);
-      $todaysProgressDate = actualToday;
-      $currentGameDate = actualToday;
-      $mistakeCount = 0;
-      $clearedCategories = [];
-      $guessHistory = [];
-      
-      // Shuffle elements for a new day
-      remainingElements = shuffleElements(remainingElements);
-    } else {
-      // Continue with today's progress
-      if ($mistakeCount >= 4) {
-        gameoverStore.set({
-          isOver: true,
-          headerMessage: "Better luck tmr..."
-        });
-        const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
-        remainingCategories.forEach((category) => {
-          swapElements(category.elements);
-          remainingElements = remainingElements.filter(item => !category.elements.includes(item));
-        });
-      }
 
-      // if won
-      if ((isArchiveMode ? localClearedCategories.length : $clearedCategories.length) == 4 && 
-         (isArchiveMode ? localMistakeCount : $mistakeCount) < 4) {
-        console.log('winning game');
-        remainingElements = [];
-        gameoverStore.set({
-          isOver: true,
-          headerMessage: "Incredible!"
-        });
-      }
+    //neither won nor lost
 
-      // neither won nor lost
-      if ((isArchiveMode ? localClearedCategories.length : $clearedCategories.length) < 4 && 
-         (isArchiveMode ? localMistakeCount : $mistakeCount) < 4) {
-        const allClearedElements = (isArchiveMode ? localClearedCategories : $clearedCategories)
-          .map(category => category.elements).flat();
-        remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
-      }
+    if ($clearedCategories.length < 4 && $mistakeCount < 4) {
+      const allClearedElements = $clearedCategories.map(category => category.elements).flat();
+      remainingElements = remainingElements.filter(remainingElement => !allClearedElements.includes(remainingElement));
     }
+  } 
+  else { // stale game, reset
+    $currentGameDate = todaysDate;
+    $mistakeCount = 0;
+    $clearedCategories = [];
+    $guessHistory = [];
+    onMount(() => {
+      if (browser) {
+        const thisPage = window.location.pathname;
+        goto('/').then(
+          () => goto(thisPage)
+      );
+      }
+
+    }); 
   }
 
   if ($visited === false) {
     $visited = true;
-    // Only show help overlay for first-time visitors on the main game (not archive mode)
-    // and when there's no date parameter
-    if (!isArchiveMode && !selectedDate) {
-      setTimeout(() => {
-        helpOverlay = true;
-      }, 500);
-    }
-}
+    setTimeout(() => {
+      helpOverlay = true;
+    }, 500);
+  }
 
   function handleStats(guessCount, win) {
     $played = $played + 1;
-    
-    // Record this date as completed regardless of win/loss
-    if (!$completedDays.includes(todaysDate)) {
-      $completedDays = [...$completedDays, todaysDate];
-    }
-    
     if (!win) {
       // loss
       $solveList.push(0);
@@ -333,7 +280,6 @@ import moment from "moment";
   function removeElements() {
     remainingElements = remainingElements.filter(item => !selectedElements.includes(item));
   }
-  
   function handleSubmit() {
     // check if selectedElements match any categories
     if (selectedElements.length != 4) {
@@ -341,25 +287,13 @@ import moment from "moment";
       return
     }
     else {
-      if (!isArchiveMode) {
-        // Check for duplicate guesses in today's puzzle
-        for (let i = 0; i < $guessHistory.length; i++) {
-          const guess = $guessHistory[i].map(entry => entry.guess);
-          const commonItems = countSimilarItems(guess, selectedElements);
-          if (commonItems == selectedElements.length) {
-            showAlert("Already guessed!");
-            return;
-          }
-        }
-      } else {
-        // Check for duplicate guesses in archive mode
-        for (let i = 0; i < localGuessHistory.length; i++) {
-          const guess = localGuessHistory[i].map(entry => entry.guess);
-          const commonItems = countSimilarItems(guess, selectedElements);
-          if (commonItems == selectedElements.length) {
-            showAlert("Already guessed!");
-            return;
-          }
+      for (let i = 0; i < $guessHistory.length; i++) {
+        categories.map(item => item.elements).flat();
+        const guess = $guessHistory[i].map(entry => entry.guess);
+        const commonItems = countSimilarItems(guess, selectedElements);
+        if (commonItems == selectedElements.length) {
+          showAlert("Already guessed!");
+          return;
         }
       }
 
@@ -372,67 +306,37 @@ import moment from "moment";
             tempGuessHistory.push({ guess: element, color: category.color });
         }
       });
-      
-      if (!isArchiveMode) {
-        // Update today's game history
-        $guessHistory.push(tempGuessHistory);
-        $guessHistory = $guessHistory;
-      } else {
-        // Update local history for archive mode
-        localGuessHistory.push(tempGuessHistory);
-      }
+      $guessHistory.push(tempGuessHistory);
+      $guessHistory = $guessHistory;
+
     }
-    
     for (let i = 0; i < categories.length; i++) {
       const commonItems = countSimilarItems(selectedElements, categories[i].elements);
       // if found 4 items in common, a cleared category
       if (commonItems == 4) {
         // trigger animation or sound effect
-        setTimeout(swapElements(selectedElements), 300);
-        
-        if (!isArchiveMode) {
-          // Update cleared categories for today's puzzle
-          $clearedCategories.push(categories[i]);
-          $clearedCategories = $clearedCategories;
 
-          if ($clearedCategories.length == 4) {
-            gtag('event', 'gameover', {
-              'result': "win",
-              'guesses': $guessHistory.length
-            });
-            handleStats($guessHistory.length, true);
-            setTimeout(() => {
-              gameoverStore.set({
-                isOver: true,
-                headerMessage: "Incredible!",
-              });
-              toggleOverlay();
-            }, 2500);
-          }
-        } else {
-          // Update local state for archive mode
-          localClearedCategories.push(categories[i]);
-          localClearedCategories = [...localClearedCategories]; // Ensure reactivity
-          
-          if (localClearedCategories.length == 4) {
-            // Mark this archive puzzle as completed
-            if (!$completedDays.includes(displayDate)) {
-              $completedDays = [...$completedDays, displayDate];
-            }
-            
-            setTimeout(() => {
-              gameoverStore.set({
-                isOver: true,
-                headerMessage: "Incredible!",
-              });
-              toggleOverlay();
-            }, 2500);
-          }
-        }
+        setTimeout(swapElements(selectedElements), 300);
+        $clearedCategories.push(categories[i]);
+        $clearedCategories = $clearedCategories;
 
         remainingElements = remainingElements.filter(item => !selectedElements.includes(item)); 
         selectedElements = [];
 
+        if ($clearedCategories.length == 4) {
+          gtag('event', 'gameover', {
+            'result': "win",
+            'guesses': $guessHistory.length
+          });
+          handleStats($guessHistory.length, true);
+          setTimeout(() => {
+            gameoverStore.set({
+            isOver: true,
+            headerMessage: "Incredible!",
+            });
+            toggleOverlay();
+          }, 2500);
+        }
         return;
       }
       if (commonItems == 3) {
@@ -453,64 +357,37 @@ import moment from "moment";
         shake = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
     }, 1000);
 
-    if (!isArchiveMode) {
-      // Update mistake count for today's puzzle
-      $mistakeCount++;
-      playbackWidth = calculatePlaybackWidth($mistakeCount);
+    $mistakeCount++;
+    if ($mistakeCount == 4) {
+      playbackWidth = 80;
+    }
+    else {
+      playbackWidth += 20;
+    }
 
-      if ($mistakeCount == 4) {
-        //reveal categories not found
-        gtag('event', 'gameover', {
-          'result': "loss"
+    if ($mistakeCount == 4) {
+      //reveal categories not found
+      gtag('event', 'gameover', {
+        'result': "loss"
+      });
+      handleStats($guessHistory.length, false);
+      setTimeout(() => {
+        const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
+        remainingCategories.forEach((category) => {
+          swapElements(category.elements);
+          $clearedCategories.push(category);
+          $clearedCategories = $clearedCategories;
+          remainingElements = remainingElements.filter(item => !category.elements.includes(item));
         });
-        handleStats($guessHistory.length, false);
-        setTimeout(() => {
-          const remainingCategories = categories.filter(category => !$clearedCategories.includes(category));
-          remainingCategories.forEach((category) => {
-            swapElements(category.elements);
-            $clearedCategories.push(category);
-            $clearedCategories = $clearedCategories;
-            remainingElements = remainingElements.filter(item => !category.elements.includes(item));
-          });
-        }, 1000);
+      }, 1000);
 
-        setTimeout(() => {
-            gameoverStore.set({
-            isOver: true,
-            headerMessage: "Better luck tmr...",
-          });
-            toggleOverlay();
-        }, 2500);
-      }
-    } else {
-      // Update local mistake count for archived puzzle
-      localMistakeCount++;
-      playbackWidth = calculatePlaybackWidth(localMistakeCount);
-      
-      if (localMistakeCount == 4) {
-        // Mark this archive puzzle as completed
-        if (!$completedDays.includes(displayDate)) {
-          $completedDays = [...$completedDays, displayDate];
-        }
-        
-        setTimeout(() => {
-          const remainingCategories = categories.filter(category => !localClearedCategories.includes(category));
-          remainingCategories.forEach((category) => {
-            swapElements(category.elements);
-            localClearedCategories.push(category);
-            localClearedCategories = [...localClearedCategories]; // Ensure reactivity
-            remainingElements = remainingElements.filter(item => !category.elements.includes(item));
-          });
-        }, 1000);
-
-        setTimeout(() => {
+      setTimeout(() => {
           gameoverStore.set({
-            isOver: true,
-            headerMessage: "Better luck next time...",
-          });
+          isOver: true,
+          headerMessage: "Better luck tmr...",
+        });
           toggleOverlay();
-        }, 2500);
-      }
+      }, 2500);
     }
   }
 
@@ -549,7 +426,8 @@ import moment from "moment";
   }
 
   function shareResult() {
-    if (browser) {
+
+      if (browser) {
       gtag('event', 'shared_result', {
         'guesses': $guessHistory.length
       });
@@ -565,13 +443,11 @@ import moment from "moment";
     
     let grid = '';
 
-    const historyToUse = isArchiveMode ? localGuessHistory : $guessHistory;
-    
-    for (let i = 0; i < historyToUse.length; i++) {
-      const block_one = emoji_mapping[historyToUse[i][0].color];
-      const block_two = emoji_mapping[historyToUse[i][1].color];
-      const block_three = emoji_mapping[historyToUse[i][2].color];
-      const block_four = emoji_mapping[historyToUse[i][3].color];
+    for (let i = 0; i < $guessHistory.length; i++) {
+      const block_one = emoji_mapping[$guessHistory[i][0].color];
+      const block_two = emoji_mapping[$guessHistory[i][1].color];
+      const block_three = emoji_mapping[$guessHistory[i][2].color];
+      const block_four = emoji_mapping[$guessHistory[i][3].color];
       const row = block_one + block_two + block_three + block_four;
       grid = grid + row + "\n";
     }
@@ -590,6 +466,7 @@ import moment from "moment";
         .then(() => { console.log('copied'); })
         .catch((error) => { alert(`Copy failed! ${error}`) })
     }
+
   }
 
   onMount(() => {
@@ -614,15 +491,13 @@ import moment from "moment";
       // If a long word is found, reduce the font size
       if ((longWord && !reallyLongWord) || manyWords) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 0.82) + 'px';
-      } 
-      else if (reallyLongWord) {
+        paragraph.style.fontSize = (currentFontSize * 0.80) + 'px';
+      } else if (reallyLongWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 0.79) + 'px';
-      } 
-      else if (shortWord) {
+        paragraph.style.fontSize = (currentFontSize * 0.70) + 'px';
+      } else if (shortWord) {
         const currentFontSize = parseFloat(window.getComputedStyle(paragraph).fontSize);
-        paragraph.style.fontSize = (currentFontSize * 1.1) + 'px';
+        paragraph.style.fontSize = (currentFontSize * 1.2) + 'px';
       }
 
       if (emoTitle) {
@@ -635,11 +510,11 @@ import moment from "moment";
       }
     });
   });
+
 </script>
 
 <main>
-  <!-- <TopAdBanner /> -->
-  <!-- <Ramp PUB_ID={PUB_ID} WEBSITE_ID={WEBSITE_ID} /> -->
+  <Ramp PUB_ID={PUB_ID} WEBSITE_ID={WEBSITE_ID} />
   {#if !hideOverlay}
   <div in:slide={{delay: 500}} class="gameover-overlay">
     <button class="exit-btn" on:click={toggleOverlay}>
@@ -662,11 +537,28 @@ import moment from "moment";
   {/if}
 
   {#if helpOverlay}
-  <HelpOverlay onClose={toggleHelpOverlay} />
+  <HelpOverlay onClose={toggleHelpOverlay}> </HelpOverlay>
   {/if}
-  <div class="container game-container">
+  <div style="{!hideOverlay ? 'filter: blur(1px)' : ''} {helpOverlay ? 'filter: blur(1px)' : ''}" class="container">
 
-    <Navbar toggleHelpOverlay={toggleHelpOverlay} playlist={playlist} isArchiveMode={isArchiveMode} />
+  <div class="header">
+    <div class="logo-container">
+    <h1>Harmonies.</h1>
+    </div>
+    <div class="header-button-container">
+      <a href={playlist}>
+        <svg width="67" height="26" viewBox="0 0 67 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M48.8204 1.68867C48.8854 0.763811 49.4189 0.284668 50.4199 0.284668H57.3517C58.3527 0.284668 58.875 0.763811 58.9405 1.68867H48.8204ZM46.8941 4.70281C47.0575 3.71249 47.5255 3.16835 48.6134 3.16835H59.0709C60.1592 3.16835 60.6267 3.71249 60.7902 4.70281H46.8941ZM47.7758 25.7155C45.5124 25.7155 44.3586 24.5947 44.3586 22.342V9.80624C44.3586 7.56467 45.5124 6.4332 47.7758 6.4332H60.2242C62.4987 6.4332 63.6414 7.56467 63.6414 9.80624V22.342C63.6414 24.5835 62.5094 25.7155 60.5506 25.7155H47.7758ZM56.99 14.2235C57.4631 14.0953 57.6107 13.9969 57.6107 13.4253V11.4944C57.6107 11.1202 57.4826 10.9526 56.9607 11.0807L54.0738 11.7999C53.591 11.9183 53.4828 12.0167 53.4828 12.598V17.0412C53.4828 17.4748 53.4433 17.5538 52.9507 17.6912L52.0444 17.928C51.1479 18.1648 50.3892 18.6964 50.3892 19.6621C50.3892 20.4992 51.0198 21.1102 52.0147 21.1102C53.4238 21.1102 54.3793 20.0953 54.3793 18.6667V15.2876C54.3793 14.9231 54.4582 14.8247 54.6848 14.775L56.99 14.2235Z" fill="white"/>
+          <path d="M1.31729 4.67188V3.72727H6.94585V4.67188H4.67667V11H3.58292V4.67188H1.31729ZM9.61097 11.1101C9.09961 11.1101 8.65335 10.9929 8.27219 10.7585C7.89104 10.5241 7.59511 10.1963 7.38441 9.77486C7.17371 9.35346 7.06836 8.86103 7.06836 8.29759C7.06836 7.73177 7.17371 7.23698 7.38441 6.81321C7.59511 6.38944 7.89104 6.06037 8.27219 5.82599C8.65335 5.59162 9.09961 5.47443 9.61097 5.47443C10.1223 5.47443 10.5686 5.59162 10.9498 5.82599C11.3309 6.06037 11.6268 6.38944 11.8375 6.81321C12.0482 7.23698 12.1536 7.73177 12.1536 8.29759C12.1536 8.86103 12.0482 9.35346 11.8375 9.77486C11.6268 10.1963 11.3309 10.5241 10.9498 10.7585C10.5686 10.9929 10.1223 11.1101 9.61097 11.1101ZM9.61452 10.2188C9.94596 10.2188 10.2206 10.1312 10.4384 9.95597C10.6562 9.78078 10.8172 9.54759 10.9213 9.25639C11.0279 8.9652 11.0811 8.64441 11.0811 8.29403C11.0811 7.94602 11.0279 7.62642 10.9213 7.33523C10.8172 7.04167 10.6562 6.80611 10.4384 6.62855C10.2206 6.45099 9.94596 6.36222 9.61452 6.36222C9.28072 6.36222 9.00373 6.45099 8.78356 6.62855C8.56576 6.80611 8.40359 7.04167 8.29705 7.33523C8.19289 7.62642 8.1408 7.94602 8.1408 8.29403C8.1408 8.64441 8.19289 8.9652 8.29705 9.25639C8.40359 9.54759 8.56576 9.78078 8.78356 9.95597C9.00373 10.1312 9.28072 10.2188 9.61452 10.2188ZM15.3807 11.1065C14.9403 11.1065 14.5473 10.9941 14.2017 10.7692C13.8584 10.5419 13.5885 10.2187 13.392 9.79972C13.1979 9.37831 13.1009 8.87287 13.1009 8.28338C13.1009 7.69389 13.1991 7.18963 13.3956 6.7706C13.5945 6.35156 13.8667 6.03078 14.2124 5.80824C14.558 5.5857 14.9498 5.47443 15.3878 5.47443C15.7263 5.47443 15.9986 5.53125 16.2045 5.64489C16.4129 5.75616 16.5739 5.88636 16.6875 6.03551C16.8035 6.18466 16.8935 6.31605 16.9574 6.42969H17.0213V3.72727H18.0831V11H17.0462V10.1513H16.9574C16.8935 10.2673 16.8011 10.3999 16.6804 10.549C16.562 10.6982 16.3987 10.8284 16.1903 10.9396C15.982 11.0509 15.7121 11.1065 15.3807 11.1065ZM15.6151 10.201C15.9205 10.201 16.1785 10.1205 16.3892 9.95952C16.6023 9.79616 16.7633 9.57008 16.8722 9.28125C16.9834 8.99242 17.0391 8.65625 17.0391 8.27273C17.0391 7.89394 16.9846 7.5625 16.8757 7.27841C16.7668 6.99432 16.607 6.77296 16.3963 6.61435C16.1856 6.45573 15.9252 6.37642 15.6151 6.37642C15.2955 6.37642 15.0291 6.45928 14.8161 6.625C14.603 6.79072 14.442 7.01681 14.3331 7.30327C14.2266 7.58973 14.1733 7.91288 14.1733 8.27273C14.1733 8.63731 14.2277 8.9652 14.3366 9.25639C14.4455 9.54759 14.6065 9.77841 14.8196 9.94886C15.035 10.117 15.3002 10.201 15.6151 10.201ZM21.1859 11.1207C20.8403 11.1207 20.5278 11.0568 20.2484 10.929C19.969 10.7988 19.7477 10.6106 19.5843 10.3643C19.4234 10.1181 19.3429 9.81629 19.3429 9.45881C19.3429 9.15104 19.402 8.89773 19.5204 8.69886C19.6388 8.5 19.7986 8.34257 19.9998 8.22656C20.2011 8.11056 20.426 8.02296 20.6745 7.96378C20.9231 7.90459 21.1764 7.85961 21.4345 7.82884C21.7612 7.79096 22.0263 7.76018 22.2299 7.73651C22.4335 7.71046 22.5815 7.66903 22.6738 7.61222C22.7662 7.5554 22.8123 7.46307 22.8123 7.33523V7.31037C22.8123 7.00024 22.7247 6.75994 22.5495 6.58949C22.3767 6.41903 22.1187 6.33381 21.7754 6.33381C21.4179 6.33381 21.1362 6.41312 20.9302 6.57173C20.7266 6.72798 20.5858 6.90199 20.5076 7.09375L19.5098 6.86648C19.6281 6.53504 19.801 6.26752 20.0282 6.06392C20.2579 5.85795 20.5218 5.70881 20.8201 5.61648C21.1184 5.52178 21.4321 5.47443 21.7612 5.47443C21.979 5.47443 22.2098 5.50047 22.4537 5.55256C22.6999 5.60227 22.9295 5.6946 23.1426 5.82955C23.358 5.96449 23.5344 6.15743 23.6717 6.40838C23.809 6.65696 23.8777 6.98011 23.8777 7.37784V11H22.8407V10.2543H22.7981C22.7295 10.3916 22.6265 10.5265 22.4892 10.6591C22.3519 10.7917 22.1755 10.9018 21.96 10.9893C21.7446 11.0769 21.4866 11.1207 21.1859 11.1207ZM21.4167 10.2685C21.7103 10.2685 21.9612 10.2105 22.1696 10.0945C22.3803 9.97846 22.5401 9.82694 22.649 9.63991C22.7602 9.45052 22.8159 9.24811 22.8159 9.03267V8.32955C22.778 8.36742 22.7046 8.40294 22.5957 8.43608C22.4892 8.46686 22.3672 8.49408 22.2299 8.51776C22.0926 8.53906 21.9589 8.55919 21.8287 8.57812C21.6984 8.5947 21.5895 8.6089 21.502 8.62074C21.296 8.64678 21.1078 8.69058 20.9373 8.75213C20.7692 8.81368 20.6343 8.90246 20.5325 9.01847C20.4331 9.1321 20.3833 9.28362 20.3833 9.47301C20.3833 9.7358 20.4804 9.93466 20.6745 10.0696C20.8687 10.2022 21.1161 10.2685 21.4167 10.2685ZM25.7678 13.0455C25.6091 13.0455 25.4647 13.0324 25.3345 13.0064C25.2043 12.9827 25.1072 12.9567 25.0433 12.9283L25.299 12.0582C25.4931 12.1103 25.666 12.1328 25.8175 12.1257C25.969 12.1186 26.1027 12.0618 26.2188 11.9553C26.3371 11.8487 26.4413 11.6747 26.5312 11.4332L26.6626 11.071L24.6669 5.54545H25.8033L27.1847 9.77841H27.2415L28.6229 5.54545H29.7628L27.5149 11.728C27.4107 12.0121 27.2782 12.2524 27.1172 12.4489C26.9562 12.6477 26.7644 12.7969 26.5419 12.8963C26.3194 12.9957 26.0613 13.0455 25.7678 13.0455ZM32.0151 3.72727V4.40909C32.0151 4.61032 31.9772 4.82221 31.9015 5.04474C31.8281 5.26491 31.7239 5.4768 31.589 5.6804C31.454 5.884 31.2954 6.05919 31.1131 6.20597L30.5875 5.82955C30.7272 5.62595 30.848 5.40933 30.9498 5.17969C31.0539 4.95005 31.106 4.69673 31.106 4.41974V3.72727H32.0151ZM36.4398 6.87713L35.4775 7.04759C35.4372 6.92448 35.3733 6.80729 35.2857 6.69602C35.2005 6.58475 35.0845 6.49361 34.9377 6.42259C34.7909 6.35156 34.6074 6.31605 34.3873 6.31605C34.0866 6.31605 33.8356 6.38352 33.6344 6.51847C33.4332 6.65104 33.3326 6.82268 33.3326 7.03338C33.3326 7.21567 33.4 7.36245 33.535 7.47372C33.6699 7.58499 33.8877 7.67614 34.1884 7.74716L35.0549 7.94602C35.5568 8.06203 35.9308 8.24077 36.177 8.48224C36.4232 8.72372 36.5463 9.03741 36.5463 9.4233C36.5463 9.75 36.4516 10.0412 36.2623 10.2969C36.0752 10.5502 35.8136 10.7491 35.4775 10.8935C35.1436 11.0379 34.7566 11.1101 34.3162 11.1101C33.7054 11.1101 33.2071 10.9799 32.8212 10.7195C32.4353 10.4567 32.1986 10.0838 32.111 9.60085L33.1373 9.4446C33.2012 9.71212 33.3326 9.91454 33.5314 10.0518C33.7303 10.1868 33.9895 10.2543 34.3091 10.2543C34.6571 10.2543 34.9353 10.1821 35.1436 10.0376C35.352 9.89086 35.4561 9.71212 35.4561 9.50142C35.4561 9.33097 35.3922 9.18774 35.2644 9.07173C35.1389 8.95573 34.946 8.86813 34.6855 8.80895L33.7623 8.60653C33.2533 8.49053 32.8768 8.30587 32.633 8.05256C32.3915 7.79924 32.2708 7.47846 32.2708 7.0902C32.2708 6.76823 32.3607 6.48651 32.5407 6.24503C32.7206 6.00355 32.9692 5.81534 33.2864 5.6804C33.6036 5.54309 33.967 5.47443 34.3766 5.47443C34.9661 5.47443 35.4301 5.60227 35.7686 5.85795C36.1072 6.11127 36.3309 6.45099 36.4398 6.87713ZM3.68768 23V15.7273H6.28001C6.84582 15.7273 7.31457 15.8303 7.68626 16.0362C8.05794 16.2422 8.33612 16.5239 8.52077 16.8814C8.70543 17.2365 8.79776 17.6366 8.79776 18.0817C8.79776 18.5291 8.70425 18.9316 8.51722 19.2891C8.33256 19.6442 8.05321 19.9259 7.67915 20.1342C7.30747 20.3402 6.8399 20.4432 6.27646 20.4432H4.49379V19.5128H6.17702C6.53451 19.5128 6.82451 19.4512 7.04705 19.3281C7.26959 19.2027 7.43294 19.0322 7.53711 18.8168C7.64128 18.6013 7.69336 18.3563 7.69336 18.0817C7.69336 17.8071 7.64128 17.5632 7.53711 17.3501C7.43294 17.1371 7.26841 16.9702 7.0435 16.8494C6.82096 16.7287 6.5274 16.6683 6.16282 16.6683H4.78498V23H3.68768ZM11.0607 15.7273V23H9.99893V15.7273H11.0607ZM14.0765 23.1207C13.7309 23.1207 13.4184 23.0568 13.139 22.929C12.8597 22.7988 12.6383 22.6106 12.475 22.3643C12.314 22.1181 12.2335 21.8163 12.2335 21.4588C12.2335 21.151 12.2927 20.8977 12.411 20.6989C12.5294 20.5 12.6892 20.3426 12.8904 20.2266C13.0917 20.1106 13.3166 20.023 13.5652 19.9638C13.8137 19.9046 14.0671 19.8596 14.3251 19.8288C14.6518 19.791 14.917 19.7602 15.1206 19.7365C15.3242 19.7105 15.4721 19.669 15.5645 19.6122C15.6568 19.5554 15.7029 19.4631 15.7029 19.3352V19.3104C15.7029 19.0002 15.6154 18.7599 15.4402 18.5895C15.2673 18.419 15.0093 18.3338 14.666 18.3338C14.3085 18.3338 14.0268 18.4131 13.8208 18.5717C13.6172 18.728 13.4764 18.902 13.3983 19.0938L12.4004 18.8665C12.5188 18.535 12.6916 18.2675 12.9189 18.0639C13.1485 17.858 13.4125 17.7088 13.7108 17.6165C14.0091 17.5218 14.3227 17.4744 14.6518 17.4744C14.8696 17.4744 15.1004 17.5005 15.3443 17.5526C15.5905 17.6023 15.8201 17.6946 16.0332 17.8295C16.2486 17.9645 16.425 18.1574 16.5623 18.4084C16.6996 18.657 16.7683 18.9801 16.7683 19.3778V23H15.7314V22.2543H15.6887C15.6201 22.3916 15.5171 22.5265 15.3798 22.6591C15.2425 22.7917 15.0661 22.9018 14.8507 22.9893C14.6352 23.0769 14.3772 23.1207 14.0765 23.1207ZM14.3074 22.2685C14.6009 22.2685 14.8519 22.2105 15.0602 22.0945C15.2709 21.9785 15.4307 21.8269 15.5396 21.6399C15.6509 21.4505 15.7065 21.2481 15.7065 21.0327V20.3295C15.6686 20.3674 15.5952 20.4029 15.4863 20.4361C15.3798 20.4669 15.2579 20.4941 15.1206 20.5178C14.9833 20.5391 14.8495 20.5592 14.7193 20.5781C14.5891 20.5947 14.4802 20.6089 14.3926 20.6207C14.1866 20.6468 13.9984 20.6906 13.8279 20.7521C13.6599 20.8137 13.5249 20.9025 13.4231 21.0185C13.3237 21.1321 13.274 21.2836 13.274 21.473C13.274 21.7358 13.371 21.9347 13.5652 22.0696C13.7593 22.2022 14.0067 22.2685 14.3074 22.2685ZM18.6584 25.0455C18.4998 25.0455 18.3554 25.0324 18.2251 25.0064C18.0949 24.9827 17.9979 24.9567 17.9339 24.9283L18.1896 24.0582C18.3838 24.1103 18.5566 24.1328 18.7081 24.1257C18.8596 24.1186 18.9934 24.0618 19.1094 23.9553C19.2277 23.8487 19.3319 23.6747 19.4219 23.4332L19.5533 23.071L17.5575 17.5455H18.6939L20.0753 21.7784H20.1321L21.5135 17.5455H22.6534L20.4055 23.728C20.3014 24.0121 20.1688 24.2524 20.0078 24.4489C19.8468 24.6477 19.6551 24.7969 19.4325 24.8963C19.21 24.9957 18.9519 25.0455 18.6584 25.0455ZM24.7131 15.7273V23H23.6513V15.7273H24.7131ZM26.1415 23V17.5455H27.2033V23H26.1415ZM26.6777 16.7038C26.4931 16.7038 26.3345 16.6423 26.2019 16.5192C26.0717 16.3937 26.0066 16.2446 26.0066 16.0717C26.0066 15.8965 26.0717 15.7474 26.2019 15.6243C26.3345 15.4988 26.4931 15.4361 26.6777 15.4361C26.8624 15.4361 27.0198 15.4988 27.15 15.6243C27.2826 15.7474 27.3489 15.8965 27.3489 16.0717C27.3489 16.2446 27.2826 16.3937 27.15 16.5192C27.0198 16.6423 26.8624 16.7038 26.6777 16.7038ZM32.7191 18.8771L31.7567 19.0476C31.7165 18.9245 31.6526 18.8073 31.565 18.696C31.4798 18.5848 31.3638 18.4936 31.217 18.4226C31.0702 18.3516 30.8867 18.3161 30.6665 18.3161C30.3659 18.3161 30.1149 18.3835 29.9137 18.5185C29.7125 18.651 29.6119 18.8227 29.6119 19.0334C29.6119 19.2157 29.6793 19.3625 29.8143 19.4737C29.9492 19.585 30.167 19.6761 30.4677 19.7472L31.3342 19.946C31.8361 20.062 32.2101 20.2408 32.4563 20.4822C32.7025 20.7237 32.8256 21.0374 32.8256 21.4233C32.8256 21.75 32.7309 22.0412 32.5415 22.2969C32.3545 22.5502 32.0929 22.7491 31.7567 22.8935C31.4229 23.0379 31.0359 23.1101 30.5955 23.1101C29.9847 23.1101 29.4864 22.9799 29.1005 22.7195C28.7146 22.4567 28.4779 22.0838 28.3903 21.6009L29.4165 21.4446C29.4805 21.7121 29.6119 21.9145 29.8107 22.0518C30.0096 22.1868 30.2688 22.2543 30.5884 22.2543C30.9364 22.2543 31.2146 22.1821 31.4229 22.0376C31.6313 21.8909 31.7354 21.7121 31.7354 21.5014C31.7354 21.331 31.6715 21.1877 31.5437 21.0717C31.4182 20.9557 31.2253 20.8681 30.9648 20.8089L30.0415 20.6065C29.5326 20.4905 29.1561 20.3059 28.9123 20.0526C28.6708 19.7992 28.5501 19.4785 28.5501 19.0902C28.5501 18.7682 28.64 18.4865 28.82 18.245C28.9999 18.0036 29.2485 17.8153 29.5657 17.6804C29.8829 17.5431 30.2463 17.4744 30.6559 17.4744C31.2454 17.4744 31.7094 17.6023 32.0479 17.858C32.3865 18.1113 32.6102 18.451 32.7191 18.8771ZM36.5392 17.5455V18.3977H33.5598V17.5455H36.5392ZM34.3588 16.2386H35.4206V21.3984C35.4206 21.6044 35.4514 21.7595 35.513 21.8636C35.5745 21.9654 35.6538 22.0353 35.7509 22.0732C35.8503 22.1087 35.958 22.1264 36.074 22.1264C36.1593 22.1264 36.2338 22.1205 36.2978 22.1087C36.3617 22.0968 36.4114 22.0874 36.4469 22.0803L36.6387 22.9574C36.5771 22.9811 36.4895 23.0047 36.3759 23.0284C36.2623 23.0545 36.1202 23.0687 35.9498 23.071C35.6704 23.0758 35.41 23.026 35.1685 22.9219C34.927 22.8177 34.7317 22.6567 34.5826 22.4389C34.4334 22.2211 34.3588 21.9477 34.3588 21.6186V16.2386Z" fill="white"/>
+        </svg>            
+      </a>
+      <div class="help-btn" on:click={toggleHelpOverlay}>
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M25 12.3826C25 15.6667 23.683 18.8163 21.3388 21.1385C18.9946 23.4607 15.8152 24.7653 12.5 24.7653C9.18479 24.7653 6.00537 23.4607 3.66117 21.1385C1.31696 18.8163 0 15.6667 0 12.3826C0 9.09855 1.31696 5.94898 3.66117 3.62679C6.00537 1.30459 9.18479 0 12.5 0C15.8152 0 18.9946 1.30459 21.3388 3.62679C23.683 5.94898 25 9.09855 25 12.3826ZM8.5875 9.33805H9.87656C10.0922 9.33805 10.2641 9.16315 10.2922 8.95109C10.4328 7.93572 11.1359 7.19586 12.3891 7.19586C13.4609 7.19586 14.4422 7.72676 14.4422 9.00372C14.4422 9.98659 13.8578 10.4386 12.9344 11.1258C11.8828 11.8827 11.05 12.7665 11.1094 14.2013L11.1141 14.5372C11.1157 14.6388 11.1576 14.7356 11.2307 14.8068C11.3037 14.8781 11.4022 14.918 11.5047 14.918H12.7719C12.8755 14.918 12.9748 14.8772 13.0481 14.8046C13.1213 14.7321 13.1625 14.6336 13.1625 14.531V14.3685C13.1625 13.2572 13.5891 12.9337 14.7406 12.0684C15.6922 11.3518 16.6844 10.5562 16.6844 8.88608C16.6844 6.54732 14.6906 5.4174 12.5078 5.4174C10.5281 5.4174 8.35938 6.33062 8.21094 8.95574C8.2088 9.00572 8.217 9.05561 8.23505 9.10234C8.25309 9.14907 8.2806 9.19165 8.31587 9.22746C8.35114 9.26327 8.39343 9.29155 8.44014 9.31057C8.48686 9.32959 8.537 9.33894 8.5875 9.33805ZM12.2203 19.3107C13.1734 19.3107 13.8281 18.7009 13.8281 17.8759C13.8281 17.0215 13.1719 16.4209 12.2203 16.4209C11.3078 16.4209 10.6437 17.0215 10.6437 17.8759C10.6437 18.7009 11.3063 19.3107 12.2203 19.3107Z" fill="white"/>
+        </svg>
+      </div>
+    </div>
+  </div>
 
   {#if !shoutout}
   <h2 class="header-msg">Create groups of four!</h2>
@@ -676,112 +568,105 @@ import moment from "moment";
     <p>
       Today's board designed by...
     </p>
-    <div class="shoutout-name-container">
-      <h3>
-        {shoutoutName}
-      </h3>
-        {#if shoutoutSocials}
-          <div class="shoutout-socials">
-            {#if youtube}
-              <button>
-                <a href="{youtube}" target="_blank">
-                  <!-- svg for youtube -->
-                  <svg width="30" height="22" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15 0C16.2825 0 17.598 0.0330001 18.873 0.0870001L20.379 0.159L21.8205 0.2445L23.1705 0.336L24.4035 0.432C25.7416 0.534417 27.0007 1.10542 27.9593 2.04456C28.9179 2.9837 29.5146 4.23081 29.6445 5.5665L29.7045 6.204L29.817 7.569C29.922 8.9835 30 10.5255 30 12C30 13.4745 29.922 15.0165 29.817 16.431L29.7045 17.796C29.685 18.015 29.6655 18.2265 29.6445 18.4335C29.5146 19.7694 28.9176 21.0167 27.9587 21.9559C26.9998 22.8951 25.7403 23.4659 24.402 23.568L23.172 23.6625L21.822 23.7555L20.379 23.841L18.873 23.913C17.5827 23.9691 16.2915 23.9981 15 24C13.7085 23.9981 12.4173 23.9691 11.127 23.913L9.621 23.841L8.1795 23.7555L6.8295 23.6625L5.5965 23.568C4.25843 23.4656 2.99933 22.8946 2.04071 21.9554C1.08209 21.0163 0.485361 19.7692 0.3555 18.4335L0.2955 17.796L0.183 16.431C0.0683063 14.9567 0.00726603 13.4787 0 12C0 10.5255 0.078 8.9835 0.183 7.569L0.2955 6.204C0.315 5.985 0.3345 5.7735 0.3555 5.5665C0.485311 4.23105 1.08183 2.98412 2.04014 2.04501C2.99845 1.10591 4.25719 0.534754 5.595 0.432L6.8265 0.336L8.1765 0.2445L9.6195 0.159L11.1255 0.0870001C12.4163 0.0309494 13.708 0.00194293 15 0ZM15 3C13.7625 3 12.489 3.033 11.25 3.084L9.783 3.1545L8.3745 3.237L7.0515 3.327L5.8395 3.4215C5.2025 3.4667 4.60207 3.73597 4.14464 4.18159C3.68721 4.62721 3.40233 5.22039 3.3405 5.856C3.165 7.6695 3 9.927 3 12C3 14.073 3.165 16.3305 3.3405 18.144C3.468 19.452 4.506 20.469 5.8395 20.5785L7.0515 20.6715L8.3745 20.7615L9.783 20.8455L11.25 20.916C12.489 20.967 13.7625 21 15 21C16.2375 21 17.511 20.967 18.75 20.916L20.217 20.8455L21.6255 20.763L22.9485 20.673L24.1605 20.5785C24.7975 20.5333 25.3979 20.264 25.8554 19.8184C26.3128 19.3728 26.5977 18.7796 26.6595 18.144C26.835 16.3305 27 14.073 27 12C27 9.927 26.835 7.6695 26.6595 5.856C26.5977 5.22039 26.3128 4.62721 25.8554 4.18159C25.3979 3.73597 24.7975 3.4667 24.1605 3.4215L22.9485 3.3285L21.6255 3.2385L20.217 3.1545L18.75 3.084C17.5007 3.03025 16.2504 3.00224 15 3ZM12 8.3625C11.9999 8.2159 12.0356 8.07149 12.104 7.94183C12.1725 7.81218 12.2715 7.7012 12.3926 7.61855C12.5137 7.5359 12.6532 7.48409 12.7988 7.46761C12.9445 7.45113 13.092 7.47049 13.2285 7.524L13.35 7.584L19.65 11.22C19.7755 11.2924 19.8816 11.394 19.9594 11.5162C20.0372 11.6383 20.0843 11.7775 20.0968 11.9218C20.1094 12.0661 20.0869 12.2113 20.0313 12.345C19.9757 12.4787 19.8886 12.5971 19.7775 12.69L19.65 12.78L13.35 16.4175C13.223 16.491 13.08 16.5324 12.9334 16.538C12.7868 16.5436 12.6411 16.5133 12.5089 16.4497C12.3767 16.3861 12.262 16.2912 12.1749 16.1731C12.0878 16.0551 12.0308 15.9176 12.009 15.7725L12 15.6375V8.3625Z" fill="white"/>
-                  </svg>              
-                </a>
-              </button>
-            {/if}
-            {#if twitter}
-              <button>
-                <a href="{twitter}" target="_blank">
-                  <!-- svg for twitter -->
-                  <svg width="23" height="22" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18.1135 0H21.6401L13.9351 8.89642L23 21H15.9026L10.3442 13.6583L3.98283 21H0.45425L8.69592 11.484L0 0.000968099H7.27758L12.3021 6.71152L18.1135 0ZM16.8763 18.8683H18.8303L6.21575 2.02033H4.11892L16.8763 18.8683Z" fill="white"/>
-                  </svg>  
-                </a>          
-              </button>
-            {/if}
-            {#if tiktok}
-              <button>
-                <a href="{tiktok}" target="_blank">
-                  <!-- svg for tiktok -->
-                  <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.074 3.44667C14.2457 2.49287 13.7892 1.26797 13.7895 0H10.0453V15.1556C10.0164 15.9757 9.67312 16.7525 9.08773 17.3225C8.50233 17.8924 7.7205 18.211 6.90689 18.2111C5.18622 18.2111 3.75638 16.7933 3.75638 15.0333C3.75638 12.9311 5.76786 11.3544 7.83992 12.0022V8.14C3.65944 7.57778 0 10.8533 0 15.0333C0 19.1033 3.34439 22 6.89477 22C10.6996 22 13.7895 18.8833 13.7895 15.0333V7.34556C15.3078 8.44537 17.1307 9.03546 19 9.03222V5.25556C19 5.25556 16.7219 5.36556 15.074 3.44667Z" fill="white"/>
-                  </svg>   
-                </a>         
-              </button>
-            {/if}
-            {#if instagram}
-              <button>
-                <a href="{instagram}" target="_blank">
-                  <!-- svg for instagram -->
-                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.38 0H15.62C19.14 0 22 2.86 22 6.38V15.62C22 17.3121 21.3278 18.9349 20.1313 20.1313C18.9349 21.3278 17.3121 22 15.62 22H6.38C2.86 22 0 19.14 0 15.62V6.38C0 4.68792 0.672177 3.06514 1.86866 1.86866C3.06514 0.672177 4.68792 0 6.38 0ZM6.16 2.2C5.10974 2.2 4.1025 2.61721 3.35986 3.35986C2.61721 4.1025 2.2 5.10974 2.2 6.16V15.84C2.2 18.029 3.971 19.8 6.16 19.8H15.84C16.8903 19.8 17.8975 19.3828 18.6401 18.6401C19.3828 17.8975 19.8 16.8903 19.8 15.84V6.16C19.8 3.971 18.029 2.2 15.84 2.2H6.16ZM16.775 3.85C17.1397 3.85 17.4894 3.99487 17.7473 4.25273C18.0051 4.51059 18.15 4.86033 18.15 5.225C18.15 5.58967 18.0051 5.93941 17.7473 6.19727C17.4894 6.45513 17.1397 6.6 16.775 6.6C16.4103 6.6 16.0606 6.45513 15.8027 6.19727C15.5449 5.93941 15.4 5.58967 15.4 5.225C15.4 4.86033 15.5449 4.51059 15.8027 4.25273C16.0606 3.99487 16.4103 3.85 16.775 3.85ZM11 5.5C12.4587 5.5 13.8576 6.07946 14.8891 7.11091C15.9205 8.14236 16.5 9.54131 16.5 11C16.5 12.4587 15.9205 13.8576 14.8891 14.8891C13.8576 15.9205 12.4587 16.5 11 16.5C9.54131 16.5 8.14236 15.9205 7.11091 14.8891C6.07946 13.8576 5.5 12.4587 5.5 11C5.5 9.54131 6.07946 8.14236 7.11091 7.11091C8.14236 6.07946 9.54131 5.5 11 5.5ZM11 7.7C10.1248 7.7 9.28542 8.04768 8.66655 8.66655C8.04768 9.28542 7.7 10.1248 7.7 11C7.7 11.8752 8.04768 12.7146 8.66655 13.3335C9.28542 13.9523 10.1248 14.3 11 14.3C11.8752 14.3 12.7146 13.9523 13.3335 13.3335C13.9523 12.7146 14.3 11.8752 14.3 11C14.3 10.1248 13.9523 9.28542 13.3335 8.66655C12.7146 8.04768 11.8752 7.7 11 7.7Z" fill="white"/>
-                  </svg>
-                </a>
-              </button>
-            {/if}
-            {#if twitch}
-              <button>
-                <a href="{twitch}" target="_blank">
-                  <!-- svg for twitch -->
-                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.852 4.716H11.568V9.852H9.852M14.568 4.716H16.284V9.852H14.568M4.284 0L0 4.284V19.716H5.136V24L9.432 19.716H12.852L20.568 12V0M18.852 11.148L15.432 14.568H12L9 17.568V14.568H5.136V1.716H18.852V11.148Z" fill="white"/>
-                  </svg>
-                </a>
-              </button>
-            {/if}
-            {#if spotify}
-              <button>
-                <a href="{spotify}" target="_blank">
-                  <!-- svg for spotify -->
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.9 8.9C12.7 7 7.35 6.8 4.3 7.75C3.8 7.9 3.3 7.6 3.15 7.15C3 6.65 3.3 6.15 3.75 6C7.3 4.95 13.15 5.15 16.85 7.35C17.3 7.6 17.45 8.2 17.2 8.65C16.95 9 16.35 9.15 15.9 8.9ZM15.8 11.7C15.55 12.05 15.1 12.2 14.75 11.95C12.05 10.3 7.95 9.8 4.8 10.8C4.4 10.9 3.95 10.7 3.85 10.3C3.75 9.9 3.95 9.45 4.35 9.35C8 8.25 12.5 8.8 15.6 10.7C15.9 10.85 16.05 11.35 15.8 11.7ZM14.6 14.45C14.4 14.75 14.05 14.85 13.75 14.65C11.4 13.2 8.45 12.9 4.95 13.7C4.6 13.8 4.3 13.55 4.2 13.25C4.1 12.9 4.35 12.6 4.65 12.5C8.45 11.65 11.75 12 14.35 13.6C14.7 13.75 14.75 14.15 14.6 14.45ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" fill="white"/>
-                  </svg>
-                </a>
-              </button>
-            {/if}
-            {#if letterboxd}
-              <button>
-                <a href="{letterboxd}" target="_blank">
-                  <!-- svg for letterboxd -->
-                  <svg width="25px" height="25px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <title>letterboxd-decal-dots-pos-mono</title>
-                    <defs>
-                        <rect id="path-1" x="0" y="0" width="129.847328" height="141.443299"></rect>
-                        <rect id="path-3" x="0" y="0" width="129.847328" height="141.443299"></rect>
-                    </defs>
-                    <g id="letterboxd-decal-dots-pos-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <circle id="Circle" fill="#202830" cx="250" cy="250" r="250"></circle>
-                        <g id="Dots" transform="translate(61.000000, 180.000000)">
-                            <ellipse id="Green" fill="#FFFFFF" cx="189" cy="70" rx="70.0786517" ry="70"></ellipse>
-                            <g id="Blue" transform="translate(248.152672, 0.000000)">
-                                <mask id="mask-2" fill="white">
-                                    <use xlink:href="#path-1"></use>
-                                </mask>
-                                <g id="Mask"></g>
-                                <ellipse fill="#FFFFFF" mask="url(#mask-2)" cx="59.7686766" cy="70" rx="70.0786517" ry="70"></ellipse>
-                            </g>
-                            <g id="Orange">
-                                <mask id="mask-4" fill="white">
-                                    <use xlink:href="#path-3"></use>
-                                </mask>
-                                <g id="Mask"></g>
-                                <ellipse fill="#FFFFFF" mask="url(#mask-4)" cx="70.0786517" cy="70" rx="70.0786517" ry="70"></ellipse>
-                            </g>
-                            <path d="M129.539326,107.063108 C122.810493,96.3149291 118.921348,83.611134 118.921348,70 C118.921348,56.388866 122.810493,43.6850709 129.539326,32.9368922 C136.268159,43.6850709 140.157303,56.388866 140.157303,70 C140.157303,83.611134 136.268159,96.3149291 129.539326,107.063108 L129.539326,107.063108 Z" id="Overlap" fill="#202830"></path>
-                            <path d="M248.460674,32.9368922 C255.189507,43.6850709 259.078652,56.388866 259.078652,70 C259.078652,83.611134 255.189507,96.3149291 248.460674,107.063108 C241.731841,96.3149291 237.842697,83.611134 237.842697,70 C237.842697,56.388866 241.731841,43.6850709 248.460674,32.9368922 L248.460674,32.9368922 Z" id="Overlap" fill="#202830"></path>
-                        </g>
-                    </g>
-                </svg>
-                </a>
-              </button>
-            {/if}
-          </div>
+    <h3>
+      {shoutoutName}
+    </h3>
+    {#if shoutoutSocials}
+    <div class="shoutout-socials">
+      {#if youtube}
+        <button>
+          <a href="{youtube}" target="_blank">
+            <svg width="30" height="22" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 0C16.2825 0 17.598 0.0330001 18.873 0.0870001L20.379 0.159L21.8205 0.2445L23.1705 0.336L24.4035 0.432C25.7416 0.534417 27.0007 1.10542 27.9593 2.04456C28.9179 2.9837 29.5146 4.23081 29.6445 5.5665L29.7045 6.204L29.817 7.569C29.922 8.9835 30 10.5255 30 12C30 13.4745 29.922 15.0165 29.817 16.431L29.7045 17.796C29.685 18.015 29.6655 18.2265 29.6445 18.4335C29.5146 19.7694 28.9176 21.0167 27.9587 21.9559C26.9998 22.8951 25.7403 23.4659 24.402 23.568L23.172 23.6625L21.822 23.7555L20.379 23.841L18.873 23.913C17.5827 23.9691 16.2915 23.9981 15 24C13.7085 23.9981 12.4173 23.9691 11.127 23.913L9.621 23.841L8.1795 23.7555L6.8295 23.6625L5.5965 23.568C4.25843 23.4656 2.99933 22.8946 2.04071 21.9554C1.08209 21.0163 0.485361 19.7692 0.3555 18.4335L0.2955 17.796L0.183 16.431C0.0683063 14.9567 0.00726603 13.4787 0 12C0 10.5255 0.078 8.9835 0.183 7.569L0.2955 6.204C0.315 5.985 0.3345 5.7735 0.3555 5.5665C0.485311 4.23105 1.08183 2.98412 2.04014 2.04501C2.99845 1.10591 4.25719 0.534754 5.595 0.432L6.8265 0.336L8.1765 0.2445L9.6195 0.159L11.1255 0.0870001C12.4163 0.0309494 13.708 0.00194293 15 0ZM15 3C13.7625 3 12.489 3.033 11.25 3.084L9.783 3.1545L8.3745 3.237L7.0515 3.327L5.8395 3.4215C5.2025 3.4667 4.60207 3.73597 4.14464 4.18159C3.68721 4.62721 3.40233 5.22039 3.3405 5.856C3.165 7.6695 3 9.927 3 12C3 14.073 3.165 16.3305 3.3405 18.144C3.468 19.452 4.506 20.469 5.8395 20.5785L7.0515 20.6715L8.3745 20.7615L9.783 20.8455L11.25 20.916C12.489 20.967 13.7625 21 15 21C16.2375 21 17.511 20.967 18.75 20.916L20.217 20.8455L21.6255 20.763L22.9485 20.673L24.1605 20.5785C24.7975 20.5333 25.3979 20.264 25.8554 19.8184C26.3128 19.3728 26.5977 18.7796 26.6595 18.144C26.835 16.3305 27 14.073 27 12C27 9.927 26.835 7.6695 26.6595 5.856C26.5977 5.22039 26.3128 4.62721 25.8554 4.18159C25.3979 3.73597 24.7975 3.4667 24.1605 3.4215L22.9485 3.3285L21.6255 3.2385L20.217 3.1545L18.75 3.084C17.5007 3.03025 16.2504 3.00224 15 3ZM12 8.3625C11.9999 8.2159 12.0356 8.07149 12.104 7.94183C12.1725 7.81218 12.2715 7.7012 12.3926 7.61855C12.5137 7.5359 12.6532 7.48409 12.7988 7.46761C12.9445 7.45113 13.092 7.47049 13.2285 7.524L13.35 7.584L19.65 11.22C19.7755 11.2924 19.8816 11.394 19.9594 11.5162C20.0372 11.6383 20.0843 11.7775 20.0968 11.9218C20.1094 12.0661 20.0869 12.2113 20.0313 12.345C19.9757 12.4787 19.8886 12.5971 19.7775 12.69L19.65 12.78L13.35 16.4175C13.223 16.491 13.08 16.5324 12.9334 16.538C12.7868 16.5436 12.6411 16.5133 12.5089 16.4497C12.3767 16.3861 12.262 16.2912 12.1749 16.1731C12.0878 16.0551 12.0308 15.9176 12.009 15.7725L12 15.6375V8.3625Z" fill="white"/>
+            </svg>              
+          </a>
+        </button>
+      {/if}
+      {#if twitter}
+        <button>
+          <a href="{twitter}" target="_blank">
+            <svg width="23" height="22" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.1135 0H21.6401L13.9351 8.89642L23 21H15.9026L10.3442 13.6583L3.98283 21H0.45425L8.69592 11.484L0 0.000968099H7.27758L12.3021 6.71152L18.1135 0ZM16.8763 18.8683H18.8303L6.21575 2.02033H4.11892L16.8763 18.8683Z" fill="white"/>
+            </svg>  
+          </a>          
+        </button>
         {/if}
+        {#if tiktok}
+        <button>
+          <a href="{tiktok}" target="_blank">
+            <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.074 3.44667C14.2457 2.49287 13.7892 1.26797 13.7895 0H10.0453V15.1556C10.0164 15.9757 9.67312 16.7525 9.08773 17.3225C8.50233 17.8924 7.7205 18.211 6.90689 18.2111C5.18622 18.2111 3.75638 16.7933 3.75638 15.0333C3.75638 12.9311 5.76786 11.3544 7.83992 12.0022V8.14C3.65944 7.57778 0 10.8533 0 15.0333C0 19.1033 3.34439 22 6.89477 22C10.6996 22 13.7895 18.8833 13.7895 15.0333V7.34556C15.3078 8.44537 17.1307 9.03546 19 9.03222V5.25556C19 5.25556 16.7219 5.36556 15.074 3.44667Z" fill="white"/>
+            </svg>   
+          </a>         
+        </button>
+        {/if}
+        {#if instagram}
+        <button>
+          <a href="{instagram}" target="_blank">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.38 0H15.62C19.14 0 22 2.86 22 6.38V15.62C22 17.3121 21.3278 18.9349 20.1313 20.1313C18.9349 21.3278 17.3121 22 15.62 22H6.38C2.86 22 0 19.14 0 15.62V6.38C0 4.68792 0.672177 3.06514 1.86866 1.86866C3.06514 0.672177 4.68792 0 6.38 0ZM6.16 2.2C5.10974 2.2 4.1025 2.61721 3.35986 3.35986C2.61721 4.1025 2.2 5.10974 2.2 6.16V15.84C2.2 18.029 3.971 19.8 6.16 19.8H15.84C16.8903 19.8 17.8975 19.3828 18.6401 18.6401C19.3828 17.8975 19.8 16.8903 19.8 15.84V6.16C19.8 3.971 18.029 2.2 15.84 2.2H6.16ZM16.775 3.85C17.1397 3.85 17.4894 3.99487 17.7473 4.25273C18.0051 4.51059 18.15 4.86033 18.15 5.225C18.15 5.58967 18.0051 5.93941 17.7473 6.19727C17.4894 6.45513 17.1397 6.6 16.775 6.6C16.4103 6.6 16.0606 6.45513 15.8027 6.19727C15.5449 5.93941 15.4 5.58967 15.4 5.225C15.4 4.86033 15.5449 4.51059 15.8027 4.25273C16.0606 3.99487 16.4103 3.85 16.775 3.85ZM11 5.5C12.4587 5.5 13.8576 6.07946 14.8891 7.11091C15.9205 8.14236 16.5 9.54131 16.5 11C16.5 12.4587 15.9205 13.8576 14.8891 14.8891C13.8576 15.9205 12.4587 16.5 11 16.5C9.54131 16.5 8.14236 15.9205 7.11091 14.8891C6.07946 13.8576 5.5 12.4587 5.5 11C5.5 9.54131 6.07946 8.14236 7.11091 7.11091C8.14236 6.07946 9.54131 5.5 11 5.5ZM11 7.7C10.1248 7.7 9.28542 8.04768 8.66655 8.66655C8.04768 9.28542 7.7 10.1248 7.7 11C7.7 11.8752 8.04768 12.7146 8.66655 13.3335C9.28542 13.9523 10.1248 14.3 11 14.3C11.8752 14.3 12.7146 13.9523 13.3335 13.3335C13.9523 12.7146 14.3 11.8752 14.3 11C14.3 10.1248 13.9523 9.28542 13.3335 8.66655C12.7146 8.04768 11.8752 7.7 11 7.7Z" fill="white"/>
+            </svg>
+          </a>
+        </button>
+        {/if}
+        {#if twitch}
+        <button>
+          <a href="{twitch}" target="_blank">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.852 4.716H11.568V9.852H9.852M14.568 4.716H16.284V9.852H14.568M4.284 0L0 4.284V19.716H5.136V24L9.432 19.716H12.852L20.568 12V0M18.852 11.148L15.432 14.568H12L9 17.568V14.568H5.136V1.716H18.852V11.148Z" fill="white"/>
+            </svg>
+          </a>
+        </button>
+        {/if}
+        {#if spotify}
+        <button>
+          <a href="{spotify}" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.9 8.9C12.7 7 7.35 6.8 4.3 7.75C3.8 7.9 3.3 7.6 3.15 7.15C3 6.65 3.3 6.15 3.75 6C7.3 4.95 13.15 5.15 16.85 7.35C17.3 7.6 17.45 8.2 17.2 8.65C16.95 9 16.35 9.15 15.9 8.9ZM15.8 11.7C15.55 12.05 15.1 12.2 14.75 11.95C12.05 10.3 7.95 9.8 4.8 10.8C4.4 10.9 3.95 10.7 3.85 10.3C3.75 9.9 3.95 9.45 4.35 9.35C8 8.25 12.5 8.8 15.6 10.7C15.9 10.85 16.05 11.35 15.8 11.7ZM14.6 14.45C14.4 14.75 14.05 14.85 13.75 14.65C11.4 13.2 8.45 12.9 4.95 13.7C4.6 13.8 4.3 13.55 4.2 13.25C4.1 12.9 4.35 12.6 4.65 12.5C8.45 11.65 11.75 12 14.35 13.6C14.7 13.75 14.75 14.15 14.6 14.45ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" fill="white"/>
+            </svg>
+          </a>
+        </button>
+        {/if}
+
+        {#if letterboxd}
+        <button>
+          <a href="{letterboxd}" target="_blank">
+            <svg width="25px" height="25px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>letterboxd-decal-dots-pos-mono</title>
+              <defs>
+                  <rect id="path-1" x="0" y="0" width="129.847328" height="141.443299"></rect>
+                  <rect id="path-3" x="0" y="0" width="129.847328" height="141.443299"></rect>
+              </defs>
+              <g id="letterboxd-decal-dots-pos-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <circle id="Circle" fill="#202830" cx="250" cy="250" r="250"></circle>
+                  <g id="Dots" transform="translate(61.000000, 180.000000)">
+                      <ellipse id="Green" fill="#FFFFFF" cx="189" cy="70" rx="70.0786517" ry="70"></ellipse>
+                      <g id="Blue" transform="translate(248.152672, 0.000000)">
+                          <mask id="mask-2" fill="white">
+                              <use xlink:href="#path-1"></use>
+                          </mask>
+                          <g id="Mask"></g>
+                          <ellipse fill="#FFFFFF" mask="url(#mask-2)" cx="59.7686766" cy="70" rx="70.0786517" ry="70"></ellipse>
+                      </g>
+                      <g id="Orange">
+                          <mask id="mask-4" fill="white">
+                              <use xlink:href="#path-3"></use>
+                          </mask>
+                          <g id="Mask"></g>
+                          <ellipse fill="#FFFFFF" mask="url(#mask-4)" cx="70.0786517" cy="70" rx="70.0786517" ry="70"></ellipse>
+                      </g>
+                      <path d="M129.539326,107.063108 C122.810493,96.3149291 118.921348,83.611134 118.921348,70 C118.921348,56.388866 122.810493,43.6850709 129.539326,32.9368922 C136.268159,43.6850709 140.157303,56.388866 140.157303,70 C140.157303,83.611134 136.268159,96.3149291 129.539326,107.063108 L129.539326,107.063108 Z" id="Overlap" fill="#202830"></path>
+                      <path d="M248.460674,32.9368922 C255.189507,43.6850709 259.078652,56.388866 259.078652,70 C259.078652,83.611134 255.189507,96.3149291 248.460674,107.063108 C241.731841,96.3149291 237.842697,83.611134 237.842697,70 C237.842697,56.388866 241.731841,43.6850709 248.460674,32.9368922 L248.460674,32.9368922 Z" id="Overlap" fill="#202830"></path>
+                  </g>
+              </g>
+          </svg>
+          </a>
+        </button>
+        {/if}
+
       </div>
-    </div>
+      {/if}
+  </div>
   {/if}
   {#if specialMessage}
   <div class="special-message">
@@ -797,7 +682,7 @@ import moment from "moment";
 
   <div class="grid-container">
     {#each [
-      ...new Set((isArchiveMode ? localClearedCategories : $clearedCategories).map(JSON.stringify))
+      ...new Set($clearedCategories.map(JSON.stringify))
     ].map(JSON.parse) as category}
       <ClearedCategory category={category}></ClearedCategory>
     {/each}
@@ -885,6 +770,12 @@ import moment from "moment";
 <!-- <div class="ad-space">
 </div> -->
 
+
+
+<div class="footer">
+    <p> made by flatwhite studios </p> <p>&nbsp;| <a href="./privacy" target="_blank">privacy</a> | <a href="https://twitter.com/Spotle_io" target="_blank">follow us!</a></p>
+</div>
+
 </div>
 </main>
 
@@ -895,13 +786,6 @@ import moment from "moment";
     position: absolute;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    padding-top: 250px; /* Increased from 150px to accommodate ad + navbar */
-  }
-
-  @media (min-width: 768px) {
-    main {
-      padding-top: 250px; /* Reset to original value for desktop */
-    }
   }
 
   main::-webkit-scrollbar { 
@@ -912,14 +796,10 @@ import moment from "moment";
     display: flex;
     align-self: center;
     flex-direction: column;
-    align-items: center;
     height: 100vh;
     justify-content: flex-start;
-    width: 100%;
-    max-width: 420px;
-    padding: 0 10px;
-    box-sizing: border-box;
   }
+
   .gameover-overlay {
     position: absolute;
     top: 44.5%; /* Position at the vertical center */
@@ -998,6 +878,16 @@ import moment from "moment";
     cursor: pointer;
   }
 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .logo-container {
+    justify-content: flex-start;
+  }
+
   @font-face {
       font-family: 'StarJedi';
       font-style: normal;
@@ -1010,10 +900,30 @@ import moment from "moment";
           /* Safari, Android, iOS */ url('/fonts/Starjedi.ttf') format('svg'); /* Legacy iOS */
   }
 
+  .logo-text {
+    font-family: 'StarJedi', sans-serif;
+    color: #fff;
+  }
+
+  .help-btn {
+    margin-left: 7.5px;
+  }
+
+  .help-btn:hover {
+    cursor: pointer;
+  }
+
+  .header-button-container
+  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
   .header-msg {
     font-weight: 300;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: -5px;
   }
 
   .alert-message-container {
@@ -1043,15 +953,13 @@ import moment from "moment";
     align-items: center;
     grid-template-rows: repeat(4, minmax(0, 1fr));
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-gap: 10px;
-    width: 100%;
+    grid-gap: 11px;
     max-width: 400px;
     min-width: 350px;
     font-weight: bold;
     padding: 2px;
     text-transform: uppercase;
     margin-bottom: 3px;
-    box-sizing: border-box;
   }
 
   .grid-item {
@@ -1061,14 +969,14 @@ import moment from "moment";
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    font-size: 14px;
+    height: 90px;
     width: 90px;
     text-align: center;
     cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
     transition: background-color 0.4s, border-color 0.3s, transform 1s;
     overflow: hidden; /* Hide overflowing content */
     font-weight: 700;
+    font-size: 14px;
     color: black;
     line-height: 18px;
     overflow-wrap: break-word;
@@ -1078,20 +986,12 @@ import moment from "moment";
     max-width: 90%;
   }
 
-  @media (max-width: 400px) {
-    .container, .grid-container, .mistakes-remaining-container, .play-button-container {
-      padding: 0 5px;
-      min-width: auto;
-      width: 100%;
-    }
-  }
-
   @media only screen and (max-width: 390px) {
     .grid-item {
-      font-size: 11px;
-      height: 60px;
+      font-size: 11.5px;
+      height: 82px;
       width: 82px;
-      /* padding-left: 2px; */
+      padding-left: 2px;
     }
 
     .grid-container {
@@ -1101,31 +1001,23 @@ import moment from "moment";
 
   @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .grid-item {
-      font-size: 12px;
-      height: 68px;
+      font-size: 13px;
+      height: 20.5vw;
       width: 20.5vw;
-      /* padding-left: 2px; */
+      padding-left: 2px;
     }
 
     .grid-container {
       max-width: 92vw;
     }
-
-    .header-msg {
-      margin-top: -5px;
-    }
   }
 
   @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .grid-item {
-      font-size: 14px;
-      height: 70px;
+      font-size: 15px;
+      height: 90px;
       width: 90px;
-      /* padding-left: 2px; */
-    }
-
-    .header-msg {
-      margin-top: -5px;
+      padding-left: 2px;
     }
   }
 
@@ -1160,11 +1052,6 @@ import moment from "moment";
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 0 10px;
-    box-sizing: border-box;
   }
 
   .play-container {
@@ -1180,10 +1067,6 @@ import moment from "moment";
     flex-direction: column;
     margin-top: 15px;
     margin-bottom: 20px;
-    width: 100%;
-    max-width: 400px;
-    padding: 0 10px;
-    box-sizing: border-box;
   }
 
   .mistakes-remaining-text-container {
@@ -1210,7 +1093,6 @@ import moment from "moment";
     display: flex; /* Add this line */
     align-items: center; /* Add this line */
   }
-
 
   .left-playback-number,
   .right-playback-number {
@@ -1265,6 +1147,31 @@ import moment from "moment";
     text-transform: lowercase;
   }
 
+  .footer {
+    position: relative;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    display: flex;
+    align-items: flex-end; /* Aligns items to the bottom */
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    bottom: 0; /* Align to the bottom */
+    width: 100%; /* Full width */
+    margin-top: 30px;
+    padding-bottom: 200px;
+    margin-bottom: 10px;
+  }
+
+  .footer-right {
+    margin-left: auto;
+  }
+
+  .footer a {
+    color: #A18CD1;
+    text-decoration: underline;
+  }
 
   @keyframes shake {
     0% { transform: translate(0, 0); }
@@ -1285,8 +1192,6 @@ import moment from "moment";
     max-width: 350px;
     min-width: 300px;
     align-self: center;
-    margin-top: -5px;
-    margin-bottom: 10px;
   }
 
   .shoutout p,
@@ -1296,40 +1201,23 @@ import moment from "moment";
     overflow: line-break;
   }
   .shoutout-socials {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 5px;
-  }
-
-
-  .shoutout-name-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin-top: 2px;
   }
 
   .shoutout h3 {
     color: #fff;
-    margin-right: 10px;
+    align-self: center;
   }
 
   .shoutout button {
-    border: none;
-    background-color: transparent;
-    padding: 0;
-  }
-
-  .shoutout button a {
-    display: flex;
-    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
   /* Make buttons inline */
   .shoutout-socials button {
     display: inline-block;
-    margin-right: 3.5px;
+    margin-right: 5.5px; /* Adjust as needed */
   }
 
   /* Optionally, you can remove default button styles */
@@ -1337,7 +1225,13 @@ import moment from "moment";
     border: none;
     background-color: transparent;
     padding: 0;
+    color: red;
   }
+
+  .shoutout {
+    margin-bottom: 10px;
+  }
+
   .special-message {
     margin-top: -5px;
     margin-bottom: 5px;
@@ -1345,14 +1239,9 @@ import moment from "moment";
     font-style: italic;
     font-weight: 400;
   }
-
-  @media only screen and (max-width: 450px) {
-    .shoutout-socials button {
-      margin-top: -1px;
-    }
-
-    .shoutout p {
-      display: none;
-    }
-  }
+/* 
+  .ad-space {
+    height: 100px;
+    padding-bottom: 100px;
+  } */
 </style>

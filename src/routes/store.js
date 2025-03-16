@@ -1,26 +1,15 @@
 import { writable } from "svelte/store";
 import { browser } from "$app/environment";
 
-// Add this new store to track whether we're in archive mode
-// export const isArchive = writable(false);
 
 export const visited = writable(browser && localStorage.getItem("visited") || false)
 visited.subscribe((val) => {
     if (browser) return (localStorage.visited = val);
 });
 
-const getTodayFormatted = () => {
-    const today = new Date();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    const year = today.getFullYear();
-    return `${month}/${day}/${year}`;
-  };
-  
-  // Use formatted string date instead of Date object
-  export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || getTodayFormatted())
-  currentGameDate.subscribe((val) => {
-      if (browser) return (localStorage.currentGameDate = val);
+export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || new Date("01/01/2000"))
+currentGameDate.subscribe((val) => {
+    if (browser) return (localStorage.currentGameDate = val);
 });
 
 
@@ -125,26 +114,3 @@ export const solveList = writable(browser && solveListParsed === null ? [] : sol
 solveList.subscribe((val) => {
     if (browser) return (localStorage.setItem(solveListName, JSON.stringify(val)));
 });
-
-/*
-  completedDays - Stores a list of dates for which the user has completed the board
-*/
-let completedDaysParsed = [];
-const completedDaysName = "completedDays";
-if (browser) {
-    const retrieved = localStorage.getItem(completedDaysName);
-    if (retrieved) {
-        completedDaysParsed = JSON.parse(retrieved);
-    }
-}
-export const completedDays = writable(browser && completedDaysParsed === null ? [] : completedDaysParsed);
-completedDays.subscribe((val) => {
-    if (browser) return (localStorage.setItem(completedDaysName, JSON.stringify(val)));
-});
-
-export const todaysProgressDate = writable(
-    browser && localStorage.getItem("todaysProgressDate") || ""
-  );
-  todaysProgressDate.subscribe((val) => {
-    if (browser) return (localStorage.todaysProgressDate = val);
-  });

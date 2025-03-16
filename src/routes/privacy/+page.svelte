@@ -1,3 +1,4 @@
+
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -5,95 +6,39 @@
         padding: 0;
         line-height: 1.6;
         background: #fff !important;
+
     }
     .container {
-        max-width: 760px;
+        max-width: 800px;
         margin: 0 auto;
         padding: 20px;
-        text-align: left;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
     }
     h1, h2, h3 {
         color: #333;
-        text-align: left;
-        width: 100%;
-        max-width: 100%;
     }
     h1 {
         margin-top: 0;
-        font-size: 24px;
     }
     h2 {
         margin-top: 20px;
-        font-size: 20px;
     }
     h3 {
         margin-top: 10px;
-        font-size: 16px;
     }
     p, ul, ol {
         margin-top: 10px;
-        text-align: left;
-        max-width: 100%;
-    }
-    ul, ol {
-        padding-left: 20px;
     }
     table {
         width: 100%;
         border-collapse: collapse;
         margin-top: 20px;
-        table-layout: fixed;
     }
     th, td {
         border: 1px solid #ddd;
         padding: 8px;
-        text-align: left;
-        word-wrap: break-word;
     }
     th {
         background-color: #f2f2f2;
-    }
-    
-    @media (max-width: 768px) {
-        .container {
-            padding: 15px;
-            width: auto;
-        }
-        h1 {
-            font-size: 22px;
-        }
-        h2 {
-            font-size: 18px;
-        }
-        h3 {
-            font-size: 15px;
-        }
-        p, li {
-            font-size: 14px;
-        }
-        table {
-            font-size: 13px;
-        }
-        th, td {
-            padding: 6px;
-        }
-    }
-    
-    @media (max-width: 480px) {
-        .container {
-            padding: 10px;
-        }
-        h1 {
-            font-size: 20px;
-        }
-        h2 {
-            font-size: 17px;
-        }
-        p, li {
-            font-size: 13px;
-        }
     }
 </style>
 
