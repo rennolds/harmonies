@@ -1,4 +1,3 @@
-<!-- src/routes/archives/+page.svelte -->
 <script>
   import { goto } from '$app/navigation';
   // import TopAdBanner from '../TopAdBanner.svelte';
@@ -31,7 +30,9 @@
   function handleDateSelect(selectedDate) {
     // Format the date as MM/DD/YYYY to match your game's date format
     const formattedDate = moment(selectedDate).format('MM/DD/YYYY');
-    
+    gtag('event', 'play_archive', {
+        'date': moment(selectedDate).format('MM/DD/YYYY'),
+    });
     // Navigate to the home page with the date parameter
     goto(`/?date=${formattedDate}`);
   }

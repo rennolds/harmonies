@@ -52,7 +52,15 @@
     }
 }
 
-@media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+@media only screen and (min-width: 501px) and (max-width: 600px)  { 
+    .full-row {
+      font-size: 12px;
+      height: 68px;
+      width: 100%;
+    }
+  }
+
+@media only screen and (min-width: 391px) and (max-width: 500px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .full-row {
         height: 68px;
     }

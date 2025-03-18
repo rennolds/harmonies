@@ -1099,7 +1099,15 @@ import moment from "moment";
     }
   }
 
-  @media only screen and (min-width: 391px) and (max-width: 600px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+  @media only screen and (min-width: 501px) and (max-width: 600px)  { 
+    .grid-item {
+      font-size: 12px;
+      height: 68px;
+      width: 16.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 391px) and (max-width: 500)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .grid-item {
       font-size: 12px;
       height: 68px;
