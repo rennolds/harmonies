@@ -69,6 +69,7 @@
 @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .full-row {
         height: 70px;
+        width: 100%;
     }
 }
 

@@ -1128,7 +1128,7 @@ import moment from "moment";
     .grid-item {
       font-size: 14px;
       height: 70px;
-      width: 90px;
+      width: 10vw !important;
       /* padding-left: 2px; */
     }
 
