@@ -158,7 +158,7 @@
   
   /* Left-align the "Our Games" heading */
   .other-games h2 {
-    font-size: 18px;
+    font-size: 21px;
     margin-bottom: 20px;
     color: #BA81C2;
     text-align: left;
