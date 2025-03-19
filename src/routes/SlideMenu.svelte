@@ -134,7 +134,7 @@
   .menu-navigation a, .menu-navigation .menu-link {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 500;
     display: block;
     padding: 5px 0;
