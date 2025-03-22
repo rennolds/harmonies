@@ -12664,29 +12664,29 @@
     "twitter": "https://twitter.com/wenkorang",
     "spotify": ""
   },
-"03/22/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+  "03/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/5ababaeu5VGiEM3k0trfxW?si=f454e8c5ba5540f4",
+    "gameoverGif": "http://i.pinimg.com/originals/09/55/2b/09552b210dc16f930a7d2bbfca3979fc.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Biopics about Musicians",
+        "elements": ["Bohemian Rhapsody", "Straight Outta Compton", "8 Mile", "Rocketman"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Songs by Queen",
+        "elements": ["Don't Stop Me Now", "Under Pressure", "Another One Bites The Dust", "We Will Rock You"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "TV Show Themes",
+        "elements": ["I'll Be There for You", "Gotta Catch 'Em All", "Where Everybody Knows Your Name", "The Fresh Prince of Bel-Air"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Lyrics to Elton John's \"I'm Still Standing\"",
+        "elements": ["like a true survivor", "like a little kid", "I'm still standing ", "yeah yeah yeah"]
       }
     ],
     "shoutout": false,
