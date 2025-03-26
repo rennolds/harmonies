@@ -50,7 +50,7 @@
   
   <!-- Add the top ad container previously from TopAdBanner.svelte -->
   <div class="top-ad-container">
-    <div data-pw-mobi="standard_iab_head1" class="ad-content">
+    <div data-pw-mobi="standard_iab_head1" id="standard_iab_head1" class="ad-content">
       <!-- Ad Space -->
     </div>
   </div>
