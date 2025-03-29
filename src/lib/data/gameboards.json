@@ -12998,28 +12998,28 @@
     "spotify": ""
   },
   "03/31/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3Eyr8JtwFpyqRqooLFEtrC?si=0c81a016d21343e7",
+    "gameoverGif": "https://i.pinimg.com/originals/07/5e/8d/075e8d7cb58fe4cb07be4a7363bbb096.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Members of The Black Eyed Peas",
+        "elements": ["will.i.am", "Taboo", "apl.de.ap", "Fergie"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Mononymous Pop Icons",
+        "elements": ["Prince", "Cher", "Madonna", "Sting"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Rock Trios",
+        "elements": ["blink-182", "Nirvana", "Cream", "Rush"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Artists Known As One-Hit Wonders",
+        "elements": ["Magic!", "Gotye", "A-ha", "OMI"]
       }
     ],
     "shoutout": false,
@@ -13057,6 +13057,191 @@
         "color": "#FFBC21",
         "name": "",
         "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/7wAqlwnkhwG01a625kAf1a?si=50498e91960e4a6e",
+    "gameoverGif": "https://media.tenor.com/DRpXZUslL_0AAAAM/regina-regina-george.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Beatles",
+        "elements": ["Blackbird", "Yesterday", "Julia", "Let It Be"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Olivia Rodrigo’s Good 4 U",
+        "elements": ["Happy and Healthy", "I've lost my mind", "Screw that and screw you", "But you're so unaffected"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "My Name Is ________ Lines",
+        "elements": ["Regina George", "Alexander Hamilton", "No", "What"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs From Sabrina Carpenter's \"emails i can't send\"",
+        "elements": ["because I liked a boy", "Fast Times", "Nonsense", "Read your Mind"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "lulianna",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/03/2025": {
+    "playlist": "https://open.spotify.com/playlist/2ThciHVE45703DM5aKqt2z?si=78de138427bc487d",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCIhPkg6QHDtN8EGVHieTiXKzlPmgIhSZkw&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Na Na Na Songs",
+        "elements": ["All The Small Things", "Drops of Jupiter", "What Makes You Beautiful", "Hey Jude"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics Following \"Wake Me Up\"",
+        "elements": ["Before You Go-Go", "Inside", "When It's All Over", "When September Ends"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs With Stuttering",
+        "elements": ["Blow", "Poker Face", "Bennie and the Jets", "Welcome To The Jungle"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Where The Title Isn't Mentioned",
+        "elements": ["Smells Like Teen Spirit", "Basket Case", "Bohemian Rhapsody", "The Scientist"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/4si6WbeGDkkbXHzVoQSjri?si=e86597995ef84529",
+    "gameoverGif": "https://media1.tenor.com/m/5q3Sq48vLmMAAAAC/kendrick-lamar-kdot.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Summer 2016 Classics",
+        "elements": ["Can't Stop The Feeling!", "Don't Let Me Down", "Broccoli", "This Is What You Came For"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drake Pop Songs",
+        "elements": ["Hold On, We're Going Home", "What's My Name?", "Passionfruit", "Mine"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Kendrick Lamar Pop Features",
+        "elements": ["Radioactive", "Bad Blood", "Don't Wanna Know", "The Greatest"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Beyonce Raps...Sometimes",
+        "elements": ["Savage Remix", "Top Off", "Shining", "Spaghetti"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/wenkorang",
+    "spotify": ""
+  },
+  "04/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/6dcbtlzwZrTEW36fvsBFBi?si=e0ec60c771654ca4",
+    "gameoverGif": "https://media4.giphy.com/media/l4FslhokLZwj8l6Rq/giphy.gif?cid=6c09b952pvmx63rjesiqsbixf0snuxjjja7ybx12hwq5jdz1&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Kendrick Lamar Songs",
+        "elements": ["Sing About Me, I’m Dying of Thirst", "These Walls", "DNA.", "Silent Hill"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Solo K-Pop Artist Songs",
+        "elements": ["Rockstar", "Stupid In Love", "Seven", "Glitch"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs That Get White People Turnt",
+        "elements": ["Party in the U.S.A", "Mr. Brightside", "Sweet Caroline", "Seven Nation Army"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "English Translations of Hispanic Party Songs",
+        "elements": ["The Girl Named Chona", "Turn On The Beeper", "Gasoline", "She Dances Alone"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "04/06/2025": {
+    "playlist": "https://open.spotify.com/playlist/2B2aAODTEPb60ksbqhfcUT?si=eb9946226b3344cf",
+    "gameoverGif": "https://c.tenor.com/95rR-euwXZ0AAAAd/tenor.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to James Blunt's \"You're Beautiful\"",
+        "elements": ["I saw your face", "You're beautiful", "it's true", "I don't know what to do"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to 1D's \"What Makes You Beautiful\"",
+        "elements": ["You're insecure", "so c-come on", "Na Na Na Na", "smile at the ground"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Benson Boone's \"Beautiful Things\"",
+        "elements": ["Mhm Please Stay", "oh God don't take", "These beautiful things", "I want you, I need you"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Sean Kingston's \"Beautiful Girls\"",
+        "elements": ["You have me suicidal", "when you say it's over", "it'll never work", "You're way too beautiful"]
       }
     ],
     "shoutout": false,
