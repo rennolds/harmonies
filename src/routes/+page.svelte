@@ -786,7 +786,7 @@ import moment from "moment";
   {/if}
   {#if specialMessage}
   <div class="special-message">
-    {#if disableHeader}🚨 {/if}{messageContent} {#if disableHeader} 🚨{/if}
+    {#if disableHeader}🚨{/if}{messageContent}{#if disableHeader}🚨{/if}
   </div>
   {/if}
   {#if $alertStore.message}
