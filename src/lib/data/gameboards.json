@@ -13035,35 +13035,36 @@
     "spotify": ""
   },
   "04/01/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/66qvQivQsjo8GFmUXJPtEp?si=5937ad8fa6c8460e",
+    "gameoverGif": "https://media.tenor.com/2ChpBcS8nZwAAAAM/never-gonna-give-you-up-rickroll.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Taylor Swift & Rappers",
+        "elements": ["Bad Blood", "End Game", "Both of Us", "Karma"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "Best Taylor Swift Bridges",
+        "elements": ["All Too Well", "Getaway Car", "Cruel Summer", "Death by a Thousand Cuts"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Track 5 from Taylor Swift Albums",
+        "elements": ["Dear John", "White Horse", "The Archer", "Delicate"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Taylor Swift F-Bomb Songs",
+        "elements": ["Maroon", "betty", "champagne problems", "Down Bad"]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "disable-header": true,
+    "message-content": "Due to popular demand, all Harmonies boards will be Taylor Swift themed. Thank you!",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
