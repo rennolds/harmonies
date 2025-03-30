@@ -119,6 +119,7 @@ import moment from "moment";
   const shoutoutSocials = board["shoutout-socials"] || false;
   const specialMessage = board["special-message"] || false;
   const messageContent = board["message-content"] || "";
+  const disableHeader = board["disable-header"] || false;
   const youtube = board["youtube"] || "";
   const instagram = board["instagram"] || "";
   const twitter = board["twitter"] || "";
@@ -668,7 +669,7 @@ import moment from "moment";
 
     <Navbar toggleHelpOverlay={toggleHelpOverlay} playlist={playlist} isArchiveMode={isArchiveMode} />
 
-  {#if !shoutout}
+  {#if !shoutout && !disableHeader}
   <h2 class="header-msg">Create groups of four!</h2>
   {/if}
   {#if shoutout}
