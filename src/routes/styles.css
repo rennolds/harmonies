@@ -138,12 +138,19 @@ html, body {
 
 .gradient-background {
   position: fixed;
-  top: 99px; /* Start below navbar (50px ad + 50px navbar) */
+  top: 99px; /* Default position for mobile (50px ad + 50px navbar) */
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
   background: linear-gradient(145deg, #BA81C2 -8.02%, #000 47.8%);
   pointer-events: none; /* Allow clicks to pass through */
+}
+
+/* Adjust gradient background position for desktop */
+@media (min-width: 768px) {
+  .gradient-background {
+    top: 49px; /* Only account for navbar height on desktop */
+  }
 }
 
