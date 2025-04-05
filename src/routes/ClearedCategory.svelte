@@ -16,8 +16,8 @@
     };
   };
 
-  // Function to format element display
-  function formatElement(element) {
+    // Function to format element display
+    function formatElement(element) {
     if (typeof element === "object" && element.type === "image") {
       return element.alt || "Image";
     }
@@ -38,20 +38,20 @@
     </p>
   </div>
 {:else}
-  <div
-    transition:customTransition
-    style="background-color: {category.color}"
-    class="full-row"
-  >
-    <h2>{category.name}</h2>
-    <p>
-      {formatElement(category.elements[0])}, {formatElement(
-        category.elements[1]
-      )}, {formatElement(category.elements[2])}, {formatElement(
-        category.elements[3]
-      )}
-    </p>
-  </div>
+    <div
+        transition:customTransition
+        style="background-color: {category.color}"
+        class="full-row"
+        >
+        <h2>{category.name}</h2>
+        <p>
+        {formatElement(category.elements[0])}, {formatElement(
+            category.elements[1]
+        )}, {formatElement(category.elements[2])}, {formatElement(
+            category.elements[3]
+        )}
+        </p>
+    </div>
 {/if}
 
 <style>
