@@ -13331,29 +13331,109 @@
     "twitter": "",
     "spotify": ""
   },
-  "04/09/2025": {
+  "04/05/2025": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Color Albums",
+        "elements": [{
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96",
+          "alt": "Blue Album"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+          "alt": "Red"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273250d34ce252ec781e700a64a",
+          "alt": "The Black Album"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+          "alt": "Channel Orange"
+        }
+      ]
       },
       {
         "color": "#FAA3FF",
         "name": "",
-        "elements": [""]
+        "elements": [{
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273d3acd0f2186daa8e4cb0f65b",
+          "alt": "Collision Course"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273d6adfbd3f091d6f2b9af6507",
+          "alt": "What A Time To Be Alive"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273d0bbd3ea2ec554f17a6603cc",
+          "alt": "An Evening with Silk Sonic"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b2735c837cc621c1ec82bf3c81ac",
+          "alt": "Watch the Throne"
+        }
+      ]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Top Selling Albums of All Time",
+        "elements": [{
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97",
+          "alt": "Thriller"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273ea7caaff71dea1051d49b2fe",
+          "alt": "The Dark Side of the Moon"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273456c0b5d0316a80dc600802e",
+          "alt": "The Bodyguard"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b273fd967a32c6cabd2981346fc7",
+          "alt": "Back in Black"
+        }
+      ]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Genre Departure Albums",
+        "elements": [{
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b2731572698fff8a1db257a53599",
+          "alt": "COWBOY CARTER"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b2735f8e44135375d0ee4e136dd8",
+          "alt": "Tickets to my Downfall"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+          "alt": "Folklore"
+        },
+        {
+          "type": "image",
+          "url": "https://i.scdn.co/image/ab67616d0000b27388208159b1b3c69eefdeb2e0",
+          "alt": "F-1 Trillion"
+        }
+      ]
       }
     ],
     "shoutout": false,

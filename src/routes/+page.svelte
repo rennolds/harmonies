@@ -283,8 +283,25 @@
         )
           .map((category) => category.elements)
           .flat();
+
+        // Helper function to get a unique identifier for an element
+        function getElementKey(element) {
+          if (typeof element === "object" && element.type === "image") {
+            return `image:${element.url}`; // Use URL as unique identifier for images
+          }
+          return element; // For non-image elements, use the element itself
+        }
+
+        // Create a map of cleared elements for faster lookup
+        const clearedElementsMap = new Map();
+        allClearedElements.forEach((element) => {
+          const key = getElementKey(element);
+          clearedElementsMap.set(key, true);
+        });
+
         remainingElements = remainingElements.filter(
-          (remainingElement) => !allClearedElements.includes(remainingElement)
+          (remainingElement) =>
+            !clearedElementsMap.has(getElementKey(remainingElement))
         );
       }
     }
@@ -350,22 +367,31 @@
     let count = 0;
     const map = new Map();
 
+    // Helper function to get a unique identifier for an element
+    function getElementKey(element) {
+      if (typeof element === "object" && element.type === "image") {
+        return `image:${element.url}`; // Use URL as unique identifier for images
+      }
+      return element; // For non-image elements, use the element itself
+    }
+
     // Count occurrences of items in list1
     for (const item of list1) {
-      map.set(item, (map.get(item) || 0) + 1);
+      const key = getElementKey(item);
+      map.set(key, (map.get(key) || 0) + 1);
     }
 
     // Check occurrences of items in list2 and update count
     for (const item of list2) {
-      if (map.has(item) && map.get(item) > 0) {
+      const key = getElementKey(item);
+      if (map.has(key) && map.get(key) > 0) {
         count++;
-        map.set(item, map.get(item) - 1);
+        map.set(key, map.get(key) - 1);
       }
     }
 
     return count;
   }
-
 
   function handleSubmit() {
     // check if selectedElements match any categories
@@ -428,9 +454,41 @@
         setTimeout(swapElements(selectedElements), 300);
 
         if (!isArchiveMode) {
-          // Update cleared categories for today's puzzle
-          $clearedCategories.push(categories[i]);
-          $clearedCategories = $clearedCategories;
+          // Check if this category is already in clearedCategories
+          const isAlreadyCleared = $clearedCategories.some(
+            (existingCategory) => {
+              // Compare elements using the same logic as countSimilarItems
+              const existingElements = existingCategory.elements;
+              const newElements = categories[i].elements;
+
+              // Helper function to get a unique identifier for an element
+              function getElementKey(element) {
+                if (typeof element === "object" && element.type === "image") {
+                  return `image:${element.url}`; // Use URL as unique identifier for images
+                }
+                return element; // For non-image elements, use the element itself
+              }
+
+              // Create maps for faster lookup
+              const existingMap = new Map();
+              existingElements.forEach((element) => {
+                const key = getElementKey(element);
+                existingMap.set(key, true);
+              });
+
+              // Check if all elements in newElements exist in existingElements
+              return newElements.every((element) =>
+                existingMap.has(getElementKey(element))
+              );
+            }
+          );
+
+          // Only add if not already cleared
+          if (!isAlreadyCleared) {
+            // Update cleared categories for today's puzzle
+            $clearedCategories.push(categories[i]);
+            $clearedCategories = $clearedCategories;
+          }
 
           if ($clearedCategories.length == 4) {
             gtag("event", "gameover", {
@@ -447,9 +505,41 @@
             }, 2500);
           }
         } else {
-          // Update local state for archive mode
-          localClearedCategories.push(categories[i]);
-          localClearedCategories = [...localClearedCategories]; // Ensure reactivity
+          // Check if this category is already in localClearedCategories
+          const isAlreadyCleared = localClearedCategories.some(
+            (existingCategory) => {
+              // Compare elements using the same logic as countSimilarItems
+              const existingElements = existingCategory.elements;
+              const newElements = categories[i].elements;
+
+              // Helper function to get a unique identifier for an element
+              function getElementKey(element) {
+                if (typeof element === "object" && element.type === "image") {
+                  return `image:${element.url}`; // Use URL as unique identifier for images
+                }
+                return element; // For non-image elements, use the element itself
+              }
+
+              // Create maps for faster lookup
+              const existingMap = new Map();
+              existingElements.forEach((element) => {
+                const key = getElementKey(element);
+                existingMap.set(key, true);
+              });
+
+              // Check if all elements in newElements exist in existingElements
+              return newElements.every((element) =>
+                existingMap.has(getElementKey(element))
+              );
+            }
+          );
+
+          // Only add if not already cleared
+          if (!isAlreadyCleared) {
+            // Update local state for archive mode
+            localClearedCategories.push(categories[i]);
+            localClearedCategories = [...localClearedCategories]; // Ensure reactivity
+          }
 
           if (localClearedCategories.length == 4) {
             // Mark this archive puzzle as completed
@@ -995,7 +1085,29 @@
     {/if}
 
     <div class="grid-container">
-      {#each [...new Set((isArchiveMode ? localClearedCategories : $clearedCategories).map(JSON.stringify))].map(JSON.parse) as category}
+      {#each [...new Set((isArchiveMode ? localClearedCategories : $clearedCategories).map( (category) => {
+              // Create a deep copy of the category with consistent element representation
+              const processedCategory = JSON.parse(JSON.stringify(category));
+              // Process elements to ensure consistent representation
+              processedCategory.elements = processedCategory.elements.map( (element) => {
+                    if (typeof element === "object" && element.type === "image") {
+                      return { ...element, _key: `image:${element.url}` };
+                    }
+                    return element;
+                  } );
+              return JSON.stringify(processedCategory);
+            } ))].map((str) => {
+        const category = JSON.parse(str);
+        // Remove the temporary _key property we added
+        category.elements = category.elements.map((element) => {
+          if (element._key) {
+            const { _key, ...rest } = element;
+            return rest;
+          }
+          return element;
+        });
+        return category;
+      }) as category}
         <ClearedCategory {category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
@@ -1006,7 +1118,11 @@
             ? 'selected'
             : ''} {shake[i] ? 'shake' : ''}"
         >
-          <p>{element}</p>
+          {#if typeof element === "object" && element.type === "image"}
+            <img src={element.url} alt={element.alt || ""} class="grid-image" />
+          {:else}
+            <p>{element}</p>
+          {/if}
         </div>
       {/each}
     </div>
@@ -1352,16 +1468,22 @@
     font-size: 14px;
     width: 90px;
     text-align: center;
-    cursor: pointer; /* Optional: Changes the cursor to indicate clickable items */
+    cursor: pointer;
     transition:
       background-color 0.4s,
       border-color 0.3s,
       transform 1s;
-    overflow: hidden; /* Hide overflowing content */
+    overflow: hidden;
     font-weight: 700;
     color: black;
     line-height: 18px;
     overflow-wrap: break-word;
+  }
+
+  .grid-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
   }
 
   .grid-item p {
