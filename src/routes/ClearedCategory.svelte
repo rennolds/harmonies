@@ -87,7 +87,7 @@
   @media only screen and (min-width: 391px) and (max-width: 500px) {
     /* smartphones, iPhone, portrait 480x320 phones */
     .full-row {
-      height: 68px;
+      height: 60px;
     }
   }
 
