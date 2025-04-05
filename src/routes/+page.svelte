@@ -1791,4 +1791,13 @@
       display: none;
     }
   }
+
+  /* Add new styles for image grid items */
+  .grid-item.selected:has(img) {
+    background-color: #cbff70;
+  }
+
+  .grid-item.selected:has(img):hover {
+    background-color: #cbff70;
+  }
 </style>
