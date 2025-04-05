@@ -13294,7 +13294,7 @@
     "twitter": "",
     "spotify": ""
   },
-  "04/08/2025": {
+  "04/09/2025": {
     "playlist": "https://open.spotify.com/playlist/4Xu20tBYo8xLg2kPiXrAjW?si=b740f594aaa34bf1",
     "gameoverGif": "https://media2.giphy.com/media/jtEfwHvMAcVdQfYZAC/giphy.gif?cid=6c09b952kvg0voxazpq53f1qfadu7tiv73wycmr8glo4toab&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
@@ -13331,9 +13331,9 @@
     "twitter": "",
     "spotify": ""
   },
-  "04/05/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+  "04/08/2025": {
+    "playlist": "https://open.spotify.com/playlist/68cGhYQ0Wkb0WnmXjkvIsw?si=8cfbf55f2d1a408d",
+    "gameoverGif": "https://media2.giphy.com/media/r3eKv3rY2du1Lk94WC/giphy.gif?cid=6c09b952zev2j92gya2rxen9t9g1k2h9qu4vx5gvg3g4mst0&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
@@ -13387,26 +13387,26 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Top Selling Albums of All Time",
+        "name": "Underwater Albums",
         "elements": [{
           "type": "image",
-          "url": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97",
-          "alt": "Thriller"
+          "url": "https://i.scdn.co/image/ab67616d0000b273fdf71af87c2a4f3cbed53d65",
+          "alt": "Nevermind (Nirvana)"
         },
         {
           "type": "image",
-          "url": "https://i.scdn.co/image/ab67616d0000b273ea7caaff71dea1051d49b2fe",
-          "alt": "The Dark Side of the Moon"
+          "url": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+          "alt": "HIT ME HARD AND SOFT (Billie Eilish)"
         },
         {
           "type": "image",
-          "url": "https://i.scdn.co/image/ab67616d0000b273456c0b5d0316a80dc600802e",
-          "alt": "The Bodyguard"
+          "url": "https://i.scdn.co/image/ab67616d0000b2735f530395ba026f49363c6d11",
+          "alt": "Radical Optimism (Dua Lipa)"
         },
         {
           "type": "image",
-          "url": "https://i.scdn.co/image/ab67616d0000b273fd967a32c6cabd2981346fc7",
-          "alt": "Back in Black"
+          "url": "https://i.scdn.co/image/ab67616d0000b2730c64e752dec4c08362cc4a88",
+          "alt": "Titanic Rising (Weyes Blood)"
         }
       ]
       },
@@ -13449,8 +13449,8 @@
     "spotify": ""
   },
   "04/10/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5gYsLNgUZbPezDP2C6NVP0?si=b7e01aa234f847ae",
+    "gameoverGif": "https://64.media.tumblr.com/f805d26aea4da3595c3d55e46773e793/tumblr_inline_nlbnsu7WRB1rifr4k.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -13459,8 +13459,8 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Songs by Bands Featuring Dave Grohl",
-        "elements": ["Smells Like Teen Spirit", "No One Knows", "Everlong", "New Fang"]
+        "name": "2016 XXL Freshmen Songs",
+        "elements": ["No Heart", "XO TOUR Llif3", "Codeine Dreaming", "Ultimate"]
       },
       {
         "color": "#78DAF9",
@@ -13469,8 +13469,9 @@
       },
       {
         "color": "#FFBC21",
-        "name": "2016 XXL Freshmen Songs",
-        "elements": ["No Heart", "XO TOUR Llif3", "Codeine Dreaming", "Ultimate"]
+        "name": "Songs by Bands Featuring Dave Grohl",
+        "elements": ["Smells Like Teen Spirit", "No One Knows", "Everlong", "New Fang"]
+
 
       }
     ],
@@ -13487,8 +13488,8 @@
     "spotify": ""
   },
   "04/11/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/2YM10XONao2D9nww9YcTce?si=254ba20041494ed1",
+    "gameoverGif": "https://media1.giphy.com/media/5Uhs9XT9XMYQE/200w.gif?cid=6c09b952ul2sp0hrbno3qa2dzv1nnb17q3o2mgyry4sn5cvy&ep=v1_gifs_search&rid=200w.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
