@@ -13525,6 +13525,80 @@
     "spotify": ""
   },
   "04/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/04xYJcoFYRnQj9pPDmcBla?si=757ceacf955d4b9c",
+    "gameoverGif": "https://media4.giphy.com/media/BWf6uprbpw1dmGvI7x/200w.gif?cid=6c09b952hq2mkusnkdcmt6r0mm5d9jqk6xe23myfrhz5m597&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Things Rick Astley Would Never Do",
+        "elements": ["Let You Down", "Run Around", "Say Goodbye", "Hurt You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "\"Troll\" Hip Hop Disses",
+        "elements": ["Lift Yourself", "BBL Drizzy", "Canibitch", "Not Like Us"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Leads of Namesake Bands",
+        "elements": ["Dave Matthews", "Carlos Santana", "Jon Bon Jovi", "Marilyn Manson"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lead Singers from R&B Groups",
+        "elements": ["Brent Faiyaz", "Sisqo", "Syd", "Kevin Abstract"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "04/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/5BgXwMD0TeGSZwupWoe9Xk?si=1cac378ed4c44c7c",
+    "gameoverGif": "https://i.makeagif.com/media/3-08-2016/3n6zoa.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Michael Jackson - \"Thriller\"",
+        "elements": ["Red leather jacket", "Zombies", "Werewolf", "Movie theater"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Beyonce - \"Single Ladies (Put a Ring on It)\"",
+        "elements": ["Leotard", "Black & white", "Hand choreography", "High Heals"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Nirvana - \"Smells Like Teen Spirit\"",
+        "elements": ["Bleachers", "Cheerleaders", "Basketball court", "Janitor and mop"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Macklemore & Ryan Lewis - \"Thrift Shop\"",
+        "elements": ["Fur coat", "Tricycle", "Slurpee", "Hangers"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: music video associations",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/14/2025": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
@@ -13545,8 +13619,8 @@
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [""]
+        "name": "Songs Titled Bad ____",
+        "elements": ["Romance", "Reputation", "Blood", "Day", "Guy"]
       }
     ],
     "shoutout": false,
@@ -13561,7 +13635,128 @@
     "twitter": "",
     "spotify": ""
   },
-  "04/13/2025": {
+  "04/10/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums With the American Flag",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27324c8b45ce8333c35a01c5de1",
+            "alt": "Stankonia"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27376fd3e8196fbf4a1ff08a845",
+            "alt": "Pink Tape"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2731572698fff8a1db257a53599",
+            "alt": "Cowboy Carter"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a7865e686c36a4adda6c9978",
+            "alt": "Born in the U.S.A."
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Deluxe Releases of Recent Pop Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjkUCSPZajwpeyoGVH_5jme4KqQNzvpBagGA&s",
+            "alt": "Short N' Sweet (Deluxe)"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRKDEpftNpr067q3m_xdcc4TRN6oBYvWzwQ&s",
+            "alt": "Eternal Sunshine: Brighter Days Ahead"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273df174e0dcb15de7b625a7194",
+            "alt": "brat and it's the same but..."
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734063d624ebf8ff67bc3701ee",
+            "alt": "GUTS (spilled)"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Released in 2008",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273801c4d205accdba0a468a10b",
+            "alt": "I Am... Sasha Fierce"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYncI6sxp6V5FuFW0P39oMj_cvA022Bpk71Q&s",
+            "alt": "The Fame"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHe6jSR7fv6P7t-A8aFDvgdbjcrncf-XFDQ&s",
+            "alt": "One of the Boys"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e020cd8e8d231e29d1a47f6f119",
+            "alt": "Tha Carter III"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous Concept Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ33MFksvfSo03r3ZK5r0Qm3xWN_1m2WjlNw&s",
+            "alt": "American Idiot"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnlv2jgjF0J_SGUht3ZaO_8n7uASmjts5cA&s",
+            "alt": "The Black Parade"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecWfMh1nWaiZGoMeu7OIAwnQfFsdmoFEZHw&s",
+            "alt": "To Pimp a Butterfly"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvspuGANBsUWISiLpzf5JRmxBPz76NO8HcIA&s",
+            "alt": "The Wall"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/16/2025": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
