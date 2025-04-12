@@ -13604,23 +13604,23 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "DNCE's \"Cake By The Ocena\"",
+        "elements": ["Cake", "By", "The", "Ocean"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [""]
+        "name": "I Miss The Old Kanye",
+        "elements": ["POWER", "Runaway", "Heartless", "Famous"]
       },
       {
         "color": "#78DAF9",
         "name": "",
-        "elements": [""]
+        "elements": ["", "", ""]
       },
       {
         "color": "#FFBC21",
-        "name": "Songs Titled Bad ____",
-        "elements": ["Romance", "Reputation", "Blood", "Day", "Guy"]
+        "name": "Songs Titles Without the Fruit",
+        "elements": ["Wine", "Sugar", "Beret", "Bomb"]
       }
     ],
     "shoutout": false,
@@ -13635,13 +13635,13 @@
     "twitter": "",
     "spotify": ""
   },
-  "04/10/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+  "04/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/4WVGsMRw6JqNk3utbNoAHF?si=776f92b19afa4da6",
+    "gameoverGif": "https://i.pinimg.com/originals/af/af/ee/afafee9d230b9a6c0feb17e95c99eaac.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Albums With the American Flag",
+        "name": "Album Covers With the American Flag",
         "elements": [
           {
             "type": "image",
@@ -13762,6 +13762,81 @@
     "categories": [
       {
         "color": "#CBff70",
+        "name": "Lyrics from WALK THE MOON's \"Shut Up and Dance\"",
+        "elements": ["Don't look back", "eyes on me", "my destiny", "victims of the night"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from King Harvest's \"Dancing in the Moonlight\"",
+        "elements": ["Big and bright", "supernatural delight", "warm and bright", "fine and natural"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Country Subgenres",
+        "elements": ["Outlaw", "Western Swing", "Honky Tonk",	"Bluegrass"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Fall Out Boy's \"Dance, Dance\"",
+        "elements": ["We're falling apart", "half time", "she's no good with words", "I'm worse"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/17/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Canadian Megastars", 
+        "elements": ["Justin Bieber", "Drake", "Céline Dion", "The Weeknd"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rap Songs Named After Other Artists",
+        "elements": ["Wyclef Jean", "Dua Lipa", "Madonna", "Kelly Price"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Musicians With Waterways In Their Name",
+        "elements": ["James Bay", "Rivers Cumomo", "Frank Ocean", "Billy Ocean"]
+
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Taylor Swift Collaborators",
+        "elements": ["B.o.B.", "Kendrick Lamar", "Ice Spice", "Future"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/18/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
         "name": "",
         "elements": [""]
       },
@@ -13779,6 +13854,43 @@
         "color": "#FFBC21",
         "name": "",
         "elements": [""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/19/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs with star in the name",
+        "elements": ["a sky full of stars", "all the stars", "counting stars", "lucky star"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with Signature Dance Moves",
+        "elements": ["YMCA", "Macarena", "Watch Me (Whip/Nae Nae)", ""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Featured in \"Pitch Perfect\"",
+        "elements": ["Since U Been Gone", "No Diggity", "Party in the U.S.A.", "Titanium"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs From The Olivia Rodrigo/Sabrina Carpenter Feud",
+        "elements": ["because i liked a boy", "drivers license", "secret", "skin"]
       }
     ],
     "shoutout": false,
