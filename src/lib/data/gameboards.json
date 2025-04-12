@@ -13597,5 +13597,31 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+    "04/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/4UAL2fDLZHcGiut8Uu5sXj?si=5ae2e830938d4b3b",
+    "gameoverGif": "https://media2.giphy.com/media/mEJ8VQDNb4bVHMVVEm/giphy.gif?cid=6c09b9529noouawrmpmndq7x47rhls71dg8qwx2jn7b2y3ko&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Olivia Rodrigo's \"GUTS\"",
+        "elements": ["all-american bitch", "get him back!", "pretty isn't pretty", "bad idea right?"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "All things Panic At the Disco",
+        "elements": ["Panic! At the Disco", "Pretty. Odd.", "I Write Sins Not Tragedies", "Don't Threaten Me With A Good Time"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists with non-alphanumeric characters in their name",
+        "elements": ["Ke$ha", "P!nk", "Ty Dolla $ign", "AS@P Rocky"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "blink-182 and their side projects",
+        "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
+      }
+    ]
   }
 }
