@@ -1116,7 +1116,10 @@
           on:click={() => toggleSelection(element)}
           class="grid-item {selectedElements.includes(element)
             ? 'selected'
-            : ''} {shake[i] ? 'shake' : ''}"
+            : ''} {shake[i] ? 'shake' : ''} {typeof element === 'object' &&
+          element.type === 'image'
+            ? 'has-image'
+            : ''}"
         >
           {#if typeof element === "object" && element.type === "image"}
             <img src={element.url} alt={element.alt || ""} class="grid-image" />
@@ -1544,7 +1547,7 @@
     .grid-item {
       font-size: 14px;
       height: 70px;
-      width: 10vw !important;
+      width: 10vw;
       /* padding-left: 2px; */
     }
 
@@ -1552,6 +1555,21 @@
       margin-top: -5px;
     }
   }
+
+  /* --- Desktop adjustments START --- */
+  @media (min-width: 768px) {
+    /* Increase container width on desktop */
+    .grid-container {
+      max-width: 650px;
+    }
+
+    /* Increase size for grid items containing images on desktop */
+    .grid-item.has-image {
+      height: 150px;
+      width: 150px;
+    }
+  }
+  /* --- Desktop adjustments END --- */
 
   .selected {
     color: #fff;
