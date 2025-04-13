@@ -13599,8 +13599,8 @@
     "spotify": ""
   },
   "04/14/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7BY6mko6Hc2CPCpEzdPZjP?si=7738f6b444ac4aea",
+    "gameoverGif": "https://media3.giphy.com/media/3o752fS3HCVCHsLCz6/giphy.gif?cid=6c09b95243mm68cx119wlfky1ktxmok3ole66dog0bdaolon&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
@@ -13614,8 +13614,8 @@
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", ""]
+        "name": "Bruno Mars Songs",
+        "elements": ["Grenade", "Treasure", "Finesse", "Skate"]
       },
       {
         "color": "#FFBC21",
