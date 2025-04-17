@@ -13794,8 +13794,8 @@
     "spotify": ""
   },
   "04/17/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5WeOYkzVPWm4tPLRTPuXoL?si=39269e823d784110",
+    "gameoverGif": "https://media.tenor.com/Ug1_HfxIKYQAAAAM/celine-dion-boom.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -13804,18 +13804,18 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Rap Songs Named After Other Artists",
-        "elements": ["Wyclef Jean", "Dua Lipa", "Madonna", "Kelly Price"]
-      },
-      {
-        "color": "#78DAF9",
         "name": "Musicians With Waterways In Their Name",
         "elements": ["James Bay", "Rivers Cumomo", "Frank Ocean", "Billy Ocean"]
 
       },
       {
+        "color": "#78DAF9",
+        "name": "Rap Songs Named After Other Artists",
+        "elements": ["Wyclef Jean", "Dua Lipa", "Madonna", "Kelly Price"]
+      },
+      {
         "color": "#FFBC21",
-        "name": "Taylor Swift Collaborators",
+        "name": "Rappers with Taylor Swift Features",
         "elements": ["B.o.B.", "Kendrick Lamar", "Ice Spice", "Future"]
       }
     ],
@@ -13832,8 +13832,8 @@
     "spotify": ""
   },
   "04/19/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/12Mp1yqjT0zLausiItPo2i?si=67bedbfa45904ae6",
+    "gameoverGif": "https://media0.giphy.com/media/YPTy760meD2xi/giphy.gif?cid=6c09b952c9bqcp6ftv6jh19if46s0r9b5xfzz09at12yo30u&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
       {
         "color": "#CBff70",
@@ -13843,7 +13843,7 @@
       {
         "color": "#FAA3FF",
         "name": "Songs with Signature Dance Moves",
-        "elements": ["YMCA", "Macarena", "Watch Me (Whip/Nae Nae)", ""]
+        "elements": ["YMCA", "Macarena", "Watch Me (Whip/Nae Nae)", "Gangnam Style"]
       },
       {
         "color": "#78DAF9",
