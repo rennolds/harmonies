@@ -13893,5 +13893,385 @@
         "elements": ["Boxcar Racer", "+44", "Angels & Airwaves", "blink-182"]
       }
     ]
+  },
+  "04/20/2025": {
+    "playlist": "https://open.spotify.com/playlist/1dZaH1iucruBnaKM7AQznv?si=1e9d3db4a1874d74",
+    "gameoverGif": "https://media2.giphy.com/media/l4Jz0M8u1WFteTRTi/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Snoop Dogg Songs",
+        "elements": ["Young, Wild, & Free", "Drop It Like It's Hot", "Gin and Juice", "The Next Episode"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Chance the Rapper Songs",
+        "elements": ["Sunday Candy", "Blessings", "How Great", "Smoke Break"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Things Afroman Was Going to Do (But He Got High)",
+        "elements": ["Gonna clean my room", "Go to class", "Make love to you", "Go to court"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Justin Bieber's \"Holy\"",
+        "elements": ["runnin' to the altar", "the way you hold me", "feels so holy", "on God"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/3t9APILr8p7KPfc9VgMTZ5?si=f0fbb95b003044d7",
+    "gameoverGif": "https://media0.giphy.com/media/1WqbC63XUtKteXNctr/giphy.gif?cid=6c09b952p7i53us9evike9omta36d2882aiy2cd1pufvoniv&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "My Chemical Romance Songs",
+        "elements": ["Cancer", "Disenchanted", "Helena", "Teenagers"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "From Taylor Swift's \"Folklore\"",
+        "elements": ["betty", "exile", "cardigan", "august"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Names of Women in Lou Bega's \"Mambo No. 5\"",
+        "elements": ["Monica", "Erica", "Rita", "Tina"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs With Famous Tik Tok Dances",
+        "elements": ["Laxed", "ROXANNE", "Savage", "Lottery (Renegade)"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/4HmoAvOBNJJajPvfQqGB4Y?si=1fa6b54f52fc444b",
+    "gameoverGif": "https://media2.giphy.com/media/l2Rntv4Qaf7aiNsoE/source.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Floral Covers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2730ce29816dc0bf56f52ebde8f",
+            "alt": "Lust for Life"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3",
+            "alt": "Flower Boy"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e02b598ad81e340f28f8b523c41",
+            "alt": "Deeper Well"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a",
+            "alt": "Sgt. Pepper’s Lonely Hearts Club Band"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums Named After Years",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27328b2637e7ca2182a1dbcf8e7",
+            "alt": "1984"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjXM5BhRh4nLtm9EcL1jaMm0aVlgO4h0qj1A&s",
+            "alt": "1999"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273b7e976d2b35c767f9012cb72",
+            "alt": "1989"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739b19c107109de740bad72df5",
+            "alt": "2001"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "R&B Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+            "alt": "Channel Orange"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739196fafd1d6160480d3df68a",
+            "alt": "The Miseducation of Lauryn Hill"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734c79d5ec52a6d0302f3add25",
+            "alt": "Ctrl"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27351bd5d59c7316a482c06cb91",
+            "alt": "Songs In A Minor"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Rapper's Debut Studio Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78",
+            "alt": "The College Dropout"
+          },
+          {
+            "type": "image",
+            "url": "https://images.genius.com/6d902423c519ec94001e052299f51511.1000x1000x1.jpg",
+            "alt": "Infinite"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f5c65aa33bd0d4db87554836",
+            "alt": "Tha Block is Hot"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27318ab22aef50e7ba6b6513ccd",
+            "alt": "Thank Me Later"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/23/2025": {
+    "playlist": "https://open.spotify.com/playlist/2p0X4cg9wrYG74vREvJj8l?si=eea2050ea5014bba",
+    "gameoverGif": "https://31.media.tumblr.com/42b02ba91681aa1016c099d4cf5809d4/tumblr_mi41glWWTe1rtct0ro1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from The Script's \"Breakeven\"",
+        "elements": ["when a heart breaks", "what am i gonna do", "no love to my name", "fallin' to pieces"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Rixton \"Me And My Broken Heart\"",
+        "elements": ["love in my life", "love in the dark", "me and my broken heart", "it might kickstart"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lryics from Christina Perri's \"Jar of Hearts\"",
+        "elements": ["leaving scars", "live half alive", "tearing love apart", "catch a cold"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Bonnie Tyler's \"Total Eclipse of the Heart\"",
+        "elements": ["Every now and then", "I fall apart", "Need you know", "love is like a shadow"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/1rHRljmarxfOU5kwhfFkkl?si=082ba42a769e44f9",
+    "gameoverGif": "https://media4.giphy.com/media/YSkaRbJuZGczwLCNne/giphy.gif?cid=6c09b952v6szz8hfin5l3j1wjmvixow9n6hvzqyvye34swnl&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Members of Odd Future",
+        "elements": ["Tyler, the Creator", "Frank Ocean", "Earl Sweatshirt", "Jasper"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The 27 Club",
+        "elements": ["Kurt Cobain", "Amy Winehouse", "Jim Morrison", "Jimi Hendrix"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands With Head in Their Name",
+        "elements": ["Talking", "Radio", "Portis", "Motör"]
+
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Virtual Members of the Gorillaz",
+        "elements": ["2-D", "Murdoc", "Noodle", "Russel"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/25/2025": {
+    "playlist": "https://open.spotify.com/playlist/2lZD245fglCj65ZhJVyxaA?si=275f1917a93842ea",
+    "gameoverGif": "https://media4.giphy.com/media/VsANnEdHt8FNe/giphy.gif?cid=6c09b952mka9sxdy8nzwt2iywll459o09ev0m2xc2m2hp689&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Active Rock Bands",
+        "elements": ["Red Hot Chili Peppers", "Foo Fighters", "Def Leppard", "The Cure"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Mac Miller Alter Egos",
+        "elements": ["Larry Lovestein", "Larry Fisherman", "Easy Mac", "Delusional Thomas"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Members of Weezer",
+        "elements": ["Rivers Cuomo", "Brian Bell", "Patrick Wilson", "Scott Shriner"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Self Titled Albums",
+        "elements": ["The Beatles", "Led Zeppelin", "Fleetwood Mac", "Eagles"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "victoria kristi",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/rioradiance",
+    "spotify": ""
+  },
+  "04/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/5JbjdMR9sWRoMYGiaaDrXj?si=f4a962203223427e",
+    "gameoverGif": "https://media.tenor.com/2Q0kvB099ZoAAAAM/happy-dancing.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Charli XCX's \"Guess ft. Billie Eilish\"",
+        "elements": ["Brand-new lower back tattoo", "Send it to The Dare", "Call me if you’re with it", "colour of my underwear"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Sophie Ellis Bextor's \"Murder on the Dancefloor\"",
+        "elements": ["you better not kill the groove", "Boy, just come along", "I will prove you wrong", "DJ, burn this house down"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Big & Rich's \"Save a Horse (Ride a Cowboy)\"",
+        "elements": ["Sattle up my horse", "the girls are so pretty", "Make a lot of noise", "Riding up and down Broadway"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Cher's \"If I Could Turn Back Time\"",
+        "elements": ["If I could find a way", "Take back those words that hurt you", "Didn't mean to hurt you", "I'd give 'em all to you"]
+      }
+    ],
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "04/27/2025": {
+    "playlist": "https://open.spotify.com/playlist/23ZrVZG1kXRJzHgGQYMGg1?si=0660a43e3bf44080",
+    "gameoverGif": "https://media.tenor.com/i-4Vy3nqhGIAAAAM/beachboys-boyband.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Beach Boys Songs",
+        "elements": ["Wouldn't It Be Nice", "Good Vibrations", "Surfin' U.S.A.", "I Get Around"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Legendary American Guitarists",
+        "elements": ["Jimi Hendrix", "Eddie Van Halen", "Allen Collins", "Glen Campbell"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Members of The Who",
+        "elements": ["Pete Townshend", "Roger Daltrey", "John Entwistle", "Keith Moon"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Pink Floyd Albums",
+        "elements": ["Obscured by Clouds", "Atom Heart Mother", "A Saucerful of Secrets", "The Wall"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
