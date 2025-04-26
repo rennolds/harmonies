@@ -14226,6 +14226,7 @@
         "elements": ["If I could find a way", "Take back those words that hurt you", "Didn't mean to hurt you", "I'd give 'em all to you"]
       }
     ],
+    "shoutout": true,
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
     "special-message": false,
@@ -14260,6 +14261,348 @@
         "color": "#FFBC21",
         "name": "Pink Floyd Albums",
         "elements": ["Obscured by Clouds", "Atom Heart Mother", "A Saucerful of Secrets", "The Wall"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/28/2025": {
+    "playlist": "https://open.spotify.com/playlist/7jGpDLq8KhGzBSkn3Qv9VA?si=80e84b2742fb445a",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Maroon 5 Songs",
+        "elements": ["Sugar", "Maps", "Wait", "Memories"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rap Subgenres",
+        "elements": ["Mumble", "Drill", "Gangsta", "Emo"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": ["", "", "", ""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Titled ______ Yourself",
+        "elements": ["Lose", "Love", "Express", "Lift"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/29/2025": {
+    "playlist": "https://open.spotify.com/playlist/0WnMZIWlPdQklSJ7VwyoBt?si=a20466154ed44d96",
+    "gameoverGif": "https://media4.giphy.com/media/tXLYeMQVKwQCY/giphy.gif?cid=6c09b9523dpnxwp81i2l5x9gdpkd80ztuuevoshxlwcr0zjl&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Cartoon Covers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg",
+            "alt": "Dookie"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8",
+            "alt": "Graduation"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
+            "alt": "Demon Days"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d807dd713cdfbeed142881e2",
+            "alt": "Yellow Submarine"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Named After a Location",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27394d08ab63e57b0cae74e8595",
+            "alt": "Californication"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273712c76b4152918fb8d37c53d",
+            "alt": "Illinois"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+            "alt": "Abbey Road"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cd9d8bc9ef04014b6e90e182",
+            "alt": "London Calling"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "From Boy Bands",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734e31e0d38b89b8fb239d4fbf",
+            "alt": "Take Me Home"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732160c02bc56f192df0f4986b",
+            "alt": "Millennium"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e02a6cb8fab778e1efc406a5909",
+            "alt": "*NSYNC"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27341aa6776dc15fbd71a2b4557",
+            "alt": "Youngblood"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "The Top Selling Albums of All Time",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e02de437d960dda1ac0a3586d97",
+            "alt": "Thriller"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273fd967a32c6cabd2981346fc7",
+            "alt": "Back in Black"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273456c0b5d0316a80dc600802e",
+            "alt": "The Bodyguard"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273ea7caaff71dea1051d49b2fe",
+            "alt": "The Dark Side of the Moon"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "04/30/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": ["", "", "", ""]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": ["", "", "", ""]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": ["", "", "", ""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": ["", "", "", ""]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/01/2025": {
+    "playlist": "https://open.spotify.com/playlist/5Qs5DdvL2qmsbfXaz2OeHb?si=9a7063e28cc34d21",
+    "gameoverGif": "https://media.tenor.com/8rReSCub4uIAAAAM/ohhhh-baby-marvin-gaye.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "David Guetta Songs",
+        "elements": ["Where Them Girls At", "Who's That Chick?", "Club Can't Handle Me", "I Don't Wanna Wait"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Justin Bieber's \"Purpose\"",
+        "elements": ["What Do You Mean?", "No Pressure", "No Pressure", "Love Yourself"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Marvin Gaye Being Clueless",
+        "elements": ["What's Going On", "What's Happening Brother", "Where Are We Going?", "Why Did I Choose You?"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Titled No ______",
+        "elements": ["Surprises", "Role Modelz", "Guidance", "Time to Die"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/0lDsFujJKZGxzCMBNEcczk?si=b9831dd93c684788",
+    "gameoverGif": "https://media.tenor.com/mWqEHHvm3yIAAAAM/charli-xcx.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Charli XCX Albums",
+        "elements": ["Brat", "Crash", "Charli", "Sucker"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Like ____",
+        "elements": ["That", "Jennie", "Weezy", "Him"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "BROCKHAMPTON Songs",
+        "elements": ["Boogie", "Sugar", "Face", "Summer"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "One Name Guitarists",
+        "elements": ["Prince", "Slash", "Beck", "Flea"]
+      }
+    ],
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"  
+  },
+  "05/03/2025": {
+    "playlist": "https://open.spotify.com/playlist/5nqbblvc3063V1VNOkqmjk?si=769b5f8e258d4caa",
+    "gameoverGif": "https://media4.giphy.com/media/TjGFDxbbZRYjv9vpCL/giphy.gif?cid=6c09b9522d4b92wh9hz5tb25rik5aqw373lvdketblittwwd&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Song from Lady Gaga's \"MAYHEM\"",
+        "elements": ["Disease", "Abracadabra", "Die With a Smile", "Garden of Eden"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Most-Streamed Songs of 2024",
+        "elements": ["BIRDS OF A FEATHER", "Espresso", "Beautiful Things", "One of the Girls"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from The Script & will.i.am’s \"Hall of Fame\"",
+        "elements": ["You can be the greatest", "World's gonna know your name", "Be students, be teachers", "be champions"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Album of the Year Top 4 Albums",
+        "elements": ["Revolver", "Highway 61 Revisited", "Rumours", "The Rise and Fall of Ziggy Stardust and the Spiders From Mars"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "atndtwitchstreamer",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "https://www.twitch.tv/aTNDTwitchStreamer",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/5Tv5sPbdsHQyiN3OfZlGsW?si=e8b0718cebe44339",
+    "gameoverGif": "https://media1.giphy.com/media/l3q2N81XcgxvMJTK8/giphy.gif?cid=6c09b952lovyv4769is790m1lotkdlo5evle0yrv9rs3vj3u&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Childish Gambino Songs",
+        "elements": ["Redbone", "Heartbeat", "Sober", "3005"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with Space Titles",
+        "elements": ["Spaceman", "Intergalatic", "Supermassive Black Hole", "Gravity"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from Star Wars",
+        "elements": ["The Imperial March", "Duel of Fates", "Cantina Band", "Across the Stars"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Composed by John Williams",
+        "elements": ["Hedwig's Theme", "Finding Private Ryan", "The Miracle of the Ark", "Raiders March"]
       }
     ],
     "shoutout": false,
