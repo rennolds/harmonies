@@ -14277,7 +14277,7 @@
   },
   "04/28/2025": {
     "playlist": "https://open.spotify.com/playlist/7jGpDLq8KhGzBSkn3Qv9VA?si=80e84b2742fb445a",
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/S57BqE5BNS4AAAAM/skit-mumble.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -14291,8 +14291,8 @@
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Single Verb Song Names",
+        "elements": ["Shout", "Roar", "Believe", "Burn"]
       },
       {
         "color": "#FFBC21",
