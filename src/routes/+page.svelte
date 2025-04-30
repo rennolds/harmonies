@@ -847,7 +847,7 @@
     <Navbar {toggleHelpOverlay} {playlist} {isArchiveMode} />
 
     {#if !shoutout && !disableHeader}
-      <h2 class="header-msg">Create groups of four!</h2>
+      <h2 class="header-msg">check out our new game, <a href="https://crosstune.io" target="_blank" style="color: #FF6B00; text-decoration: none;" class="crosstune-link">crosstune.io</a>!</h2>
     {/if}
     {#if shoutout}
       <div class="shoutout">
