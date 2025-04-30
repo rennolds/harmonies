@@ -2,50 +2,60 @@
   export let isOpen = false;
   export let closeMenu;
   export let isArchiveMode = false; // Add this prop to detect if we're in archive mode or on the archives page
-  
+
   // Function to handle navigation to today's game with forced reload
   function goToTodaysGame() {
     // Use window.location.href to force a complete page reload
-    window.location.href = '/';
+    window.location.href = "/";
     closeMenu();
   }
 </script>
 
-<div class="slide-menu-overlay" class:active={isOpen} on:click={closeMenu}></div>
+<div
+  class="slide-menu-overlay"
+  class:active={isOpen}
+  on:click={closeMenu}
+></div>
 <div class="slide-menu" class:active={isOpen}>
   <!-- Wrap main content in a div so the footer can be pushed to the bottom -->
   <div>
-    
     <nav class="menu-navigation">
       <ul>
-        <!-- Add "Today's Harmonies" option when in archive mode -->
         {#if isArchiveMode}
-          <li><button on:click={goToTodaysGame} class="menu-link">Today's Harmonies</button></li>
+          <li>
+            <button on:click={goToTodaysGame} class="menu-link"
+              >Today's Harmonies</button
+            >
+          </li>
         {/if}
         <li><a href="/archives">Archives</a></li>
-        <li><a href="https://form.jotform.com/250716973857067">Submit a board</a></li>
-        <li><a href="https://twitter.com/Spotle_io" target="_blank">Follow us</a></li>
+        <li>
+          <a href="https://form.jotform.com/250716973857067">Submit a board</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Spotle_io" target="_blank">Follow us</a>
+        </li>
         <li><a href="/privacy">Privacy</a></li>
       </ul>
     </nav>
-    
+
     <div class="other-games">
       <h2>Our Games</h2>
-      
+
       <div class="game-cards">
         <a href="https://spotle.io" class="game-card">
           <div class="game-image spotle-image"></div>
           <h3>Spotle | Guess the artist</h3>
         </a>
-        
-        <!-- <a href="#" class="game-card">
+
+        <a href="#" class="game-card">
           <div class="game-image crosstune-image"></div>
-          <h3>Crosstune</h3>
-        </a> -->
+          <h3>Crosstune | Music crossword</h3>
+        </a>
       </div>
     </div>
   </div>
-  
+
   <footer>
     <p class="company-name">made by flatwhite studios</p>
     <p class="company-email">inquiries: company@flatwhite-studios.com</p>
@@ -63,14 +73,16 @@
     z-index: 998;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
   }
-  
+
   .slide-menu-overlay.active {
     opacity: 1;
     visibility: visible;
   }
-  
+
   .slide-menu {
     position: fixed;
     top: 0;
@@ -90,7 +102,7 @@
     flex-direction: column;
     padding-top: 120px;
   }
-  
+
   @media (max-width: 600px) {
     .slide-menu {
       width: 100%;
@@ -104,34 +116,35 @@
       justify-content: center;
     }
   }
-  
+
   .slide-menu.active {
     transform: translateX(0);
   }
-
 
   .menu-navigation ul {
     list-style: none;
     padding: 0;
     margin: 0 0 25px 0;
   }
-  
+
   .menu-navigation li {
     margin-bottom: 2px;
   }
-  
+
   @media (max-width: 600px) {
     .menu-navigation li {
       margin-bottom: 4px;
     }
-    
-    .menu-navigation a, .menu-navigation .menu-link {
+
+    .menu-navigation a,
+    .menu-navigation .menu-link {
       font-size: 18px;
       padding: 4px 0;
     }
   }
-  
-  .menu-navigation a, .menu-navigation .menu-link {
+
+  .menu-navigation a,
+  .menu-navigation .menu-link {
     color: white;
     text-decoration: none;
     font-size: 19px;
@@ -141,7 +154,7 @@
     transition: color 0.2s;
     text-align: left;
   }
-  
+
   /* Style the button to look like other menu links */
   .menu-link {
     background: none;
@@ -151,32 +164,33 @@
     text-align: left;
     padding: 6px 0;
   }
-  
-  .menu-navigation a:hover, .menu-navigation .menu-link:hover {
-    color: #BA81C2;
+
+  .menu-navigation a:hover,
+  .menu-navigation .menu-link:hover {
+    color: #ba81c2;
   }
-  
+
   /* Left-align the "Our Games" heading */
   .other-games h2 {
     font-size: 21px;
     margin-bottom: 20px;
-    color: #BA81C2;
+    color: #ba81c2;
     text-align: left;
   }
-  
+
   /* Stack game cards vertically */
   .game-cards {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-  
+
   .game-card {
-    width: 238px;
+    width: 260px;
     height: 136px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -188,61 +202,62 @@
 
   @media (max-width: 768px) {
     .game-card {
-      width: 220px;
+      width: 240px;
     }
 
     footer {
       margin-bottom: 15px;
     }
   }
-  
+
   .game-card:hover {
     transform: translateY(-5px);
   }
-  
+
   .game-image {
     width: 100%;
     height: 100px;
     background-position: center;
   }
-  
+
   .spotle-image {
-    background-color: #1DB954;
-    background-image: url('/spotle_thumbnail.png');
+    background-color: #1db954;
+    background-image: url("/spotle_thumbnail.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
   .crosstune-image {
-    background-color: #FF6B00;
-    background-image: url('/images/crosstune.png');
-    background-size: 80%;
+    background-color: #ff6b00;
+    background-image: url("/crosstune_thumbnail.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
   .game-card h3 {
     font-size: 16px;
     margin: 0;
     padding: 12px 0;
     background-color: rgba(0, 0, 0, 0.4);
   }
-  
+
   /* Footer pushed to the bottom and left-aligned */
   footer {
     margin-top: auto;
     text-align: left;
     color: #fff;
     padding: 10px 0;
+    margin-bottom: 40px;
   }
-  
+
   /* Style for company name */
   .company-name {
     font-size: 11px;
     margin-bottom: 4px;
   }
-  
+
   /* Style for company email */
   .company-email {
     font-size: 10px;

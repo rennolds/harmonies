@@ -7203,7 +7203,7 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Had a Hit Caleld \"Perfect\"",
+        "name": "Had a Hit Called \"Perfect\"",
         "elements": ["Ed Sheeran", "Simple Plan", "One Direction", "Smashing Pumpkins"]
       },
       {
@@ -14434,28 +14434,28 @@
     "spotify": ""
   },
   "04/30/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/71wjrnngqoFJNjHnU9SMp8?si=5cc75879f6744b48",
+    "gameoverGif": "https://media.tenor.com/WQr83RSnQjsAAAAe/benson-boone-cool-dude.png",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Benson Boone Songs",
+        "elements": ["Slow It Down", "Beautiful Things", "In The Stars", "Ghosttown"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Lyrics from Radiohead's \"No Surprises\"",
+        "elements": ["like a landfill", "slowly kills you", "Bruises that won't heal", "No alarms"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Solo Songs from One Direction Members",
+        "elements": ["Slow Hands", "Sign of the Times", "Dusk Till Dawn", "Back To You"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": ["", "", "", ""]
+        "name": "Iconic 2000's Albums",
+        "elements": ["Demon Days", "American Idiot", "Is This It", "The College Dropout"]
       }
     ],
     "shoutout": false,
@@ -14482,7 +14482,7 @@
       {
         "color": "#FAA3FF",
         "name": "Songs from Justin Bieber's \"Purpose\"",
-        "elements": ["What Do You Mean?", "No Pressure", "No Pressure", "Love Yourself"]
+        "elements": ["What Do You Mean?", "No Pressure", "Company", "Love Yourself"]
       },
       {
         "color": "#78DAF9",
@@ -14532,6 +14532,7 @@
         "elements": ["Prince", "Slash", "Beck", "Flea"]
       }
     ],
+    "shoutout": "true",
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
     "special-message": false,
@@ -14603,6 +14604,43 @@
         "color": "#FFBC21",
         "name": "Composed by John Williams",
         "elements": ["Hedwig's Theme", "Finding Private Ryan", "The Miracle of the Ark", "Raiders March"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/05/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Calvin Harris Songs",
+        "elements": ["Summer", "Outside", "One Kiss", "Feels"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Interlude from Weezer's \"Say It Ain't So\"",
+        "elements": ["Oh, yeah", "Alright", "Feels good", "Inside"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Composed by John Williams",
+        "elements": [""]
       }
     ],
     "shoutout": false,

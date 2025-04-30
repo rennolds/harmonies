@@ -823,7 +823,7 @@
 
       <button
         on:click={shareResult}
-        style="background-color: #000;"
+        style="background-color: #BA81C2;"
         class="results-button">SHARE RESULT</button
       >
       <a href="https://spotle.io" target="_blank"
@@ -831,6 +831,12 @@
           >PLAY SPOTLE</button
         ></a
       >
+
+      <a href="https://crosstune.io" target="_blank"
+      ><button style="background-color: #FF6B00 !important;" class="results-button"
+        >PLAY CROSSTUNE</button
+      ></a
+    >
     </div>
   {/if}
 
@@ -1373,8 +1379,8 @@
   }
 
   .results-button {
-    height: 34px;
-    width: 130px;
+    height: 40px !important;
+    width: 180px !important;
     font-size: 15px;
     text-align: center;
     line-height: normal;
