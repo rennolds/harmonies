@@ -14619,8 +14619,8 @@
     "spotify": ""
   },
   "05/05/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1aCvz5b0mJB3sQKiwpzmzi?si=044810b974f14473",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoyxTS5LAd2Rkgmp_dEmZ29Ww8vRbpDVfd-w&s",
     "categories": [
       {
         "color": "#CBff70",
@@ -14629,18 +14629,351 @@
       },
       {
         "color": "#FAA3FF",
+        "name": "Green Day Albums",
+        "elements": ["Dookie", "Nimrod", "Insomniac", "Warning"]
+      },
+      {
+        "color": "#78DAF9",
         "name": "Interlude from Weezer's \"Say It Ain't So\"",
         "elements": ["Oh, yeah", "Alright", "Feels good", "Inside"]
       },
       {
+        "color": "#FFBC21",
+        "name": "Songs Titled Crazy ______",
+        "elements": ["Train", "Rap", "In Love", "On You"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/06/2025": {
+    "playlist": "https://open.spotify.com/playlist/2KC3JrzKSnZD7AmP9Bnq3Z?si=954bf59bd64e46bd",
+    "gameoverGif": "https://media.tenor.com/K2dhFwbDxocAAAAM/chrischrismartin-coldplay.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "In The Clouds Album Covers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d20c38f295039520d688a888",
+            "alt": "Teenage Dream"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a90d170c61fb7d063d47161d",
+            "alt": "Nothing Was the Same"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+            "alt": "Lover"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734bbc300c4e9e8847ca1a2873",
+            "alt": "10 Day"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Early Coldplay Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739164bafe9aaa168d93f4816a",
+            "alt": "Parachutes"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273de09e02aa7febf30b7c02d82",
+            "alt": "A Rush of Blood to the Head"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734e0362c225863f6ae2432651",
+            "alt": "X&Y"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734be32387cfdf8bb5464eaf4d",
+            "alt": "Viva La Vida or Death And All His Friends"
+          }
+        ]
+      },
+      {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Released in 2019",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8",
+            "alt": "thank u, next"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57",
+            "alt": "IGOR"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f14aa81116510d3a6df8432b",
+            "alt": "Hot Pink"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce",
+            "alt": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"
+          }
+        ]
       },
       {
         "color": "#FFBC21",
-        "name": "Composed by John Williams",
-        "elements": [""]
+        "name": "Posthumous Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cbb6ec39080135ee804f13c9",
+            "alt": "Life After Death"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2733e0698e4ae5ffb82a005aeeb",
+            "alt": "Legends Never Die"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27326b7dd89810cc1a40ada642c",
+            "alt": "Circles"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2733c23198a658bd9313295d243",
+            "alt": "Michael"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/07/2025": {
+    "playlist": "https://open.spotify.com/playlist/1xv50MzKdwwtm1jEDN7C4x?si=5108f9fd82844841",
+    "gameoverGif": "https://media2.giphy.com/media/xTiTnuC46WAWgs9D5S/giphy.gif?cid=6c09b9522rpuyl6lzetdha9uxos35hfixs4a4ke9md13bbmp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Members of N.W.A.",
+        "elements": ["Dr. Dre", "Eazy-E", "Ice Cube", "MC Ren"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Members of Wu-Tang Clan",
+        "elements": ["Inspectah Deck", "Method Man", "Ol’ Dirty Bastard", "RZA"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Members of Odd Future",
+        "elements": ["Tyler, the Creator", "Frank Ocean", "Earl Sweatshirt", "Syd"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Members of 41",
+        "elements": ["Kyle Ricch", "Jenn Carter", "TaTa", "Dee Billz"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "pair the rappers to their group",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"  
+  },
+  "05/08/2025": {
+    "playlist": "https://open.spotify.com/playlist/4o1QLKXyeUuFg00JhqzxDZ?si=12b3421433aa4410",
+    "gameoverGif": "https://media.tenor.com/BGEaeLkzEM4AAAAM/sza-umm.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Queen Songs",
+        "elements": ["Don't Stop Me Now", "Under Pressure", "Another One Bites The Dust", "We Will Rock You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring SZA",
+        "elements": ["Kiss Me More", "All The Stars", "TELEKINESIS", "Rich Baby Daddy"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hits by Female Rappers",
+        "elements": ["Bodak Yellow", "Anaconda", "Juicy", "Work It"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featured in \"Stranger Things\"",
+        "elements": ["Running Up That Hill", "Should I Stay or Should I Go", "Master of Puppets", "Material Girl"]
+      }
+    ],
+    "shoutout": false
+  },
+  "05/09/2025": {
+    "playlist": "https://open.spotify.com/playlist/1qTqt06vzU4Xl5EKzuX77t?si=71c52941833f4dc2",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWw2d2hsaXFpN2hkZXo5Y3B6bzM1NXkxbTh0N21ldHNnbWhwMHNpcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/30z66ThnSrfjd6SX7o/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Green Day Songs",
+        "elements": ["American Idiot", "When I Come Around", "Boulevard of Broken Dreams", "21 Guns"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Brat Summer",
+        "elements": ["360", "Talk Talk", "Von Dutch", "Apple"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Titles Featuring Fruit",
+        "elements": ["Strawberry Fields Forever", "Lemon Boy", "Cherry Wine", "Watermelon Sugar"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2004 Albums",
+        "elements": ["Hot Fuss", "Encore", "Three Cheers for Sweet Revenge", "Confessions"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "abby + her twin",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/10/2025": {
+    "playlist": "https://open.spotify.com/playlist/64lvuexFLGMbMQ6MBp5cIz?si=88b2d50de459451b",
+    "gameoverGif": "https://media.tenor.com/Mp2l7aDJClsAAAAM/jcole-new-york.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "LA rappers",
+        "elements": ["kendrick Lamar", "schoolboy Q", "ice cube", "snoop dogg"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Famous Rap Collab Albums",
+        "elements": ["Watch the Throne", "Savage Mode II", "Slime Language 2", "Alfredo"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rap Albums with J. Cole Features",
+        "elements": ["DiCaprio 2", "Tana Talk 4", "For all the Dogs", "So Much Fun"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Rappers That Lost an Eminem Fued",
+        "elements": ["Ja Rule", "DMX", "MGK", "Benzino"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/11/2025": {
+    "playlist": "https://open.spotify.com/playlist/2dcp3BblaUcBoQ89ip4zPS?si=da19165f5e7242a9",
+    "gameoverGif": "https://i.gifer.com/6SuH.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "5 Seconds of Summer Songs",
+        "elements": ["Youngblood", "She Looks So Perfect", "Want You Back", "Bad Omens"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs featured in \"The Hunger Games\" Films",
+        "elements": ["Safe & Sound", "Can’t Catch Me Now", "Yellow Flicker Beat", "Atlas"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artist Referenced by Taylor Swift in \"The Tortured Poets Society\"",
+        "elements": ["Patti Smith", "Charlie Puth", "Stevie Nicks", "The Starting Line"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "YouTubers Turned Singers",
+        "elements": ["Conan Gray", "Shawn Mendes", "Troye Sivan", "Joji"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "sky",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/missxosky",
+    "spotify": ""
+  },
+  "05/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/0lDsGZ7BBIr3LgLviswtIe?si=b4afb5d2f6cb4138",
+    "gameoverGif": "https://thefader-res.cloudinary.com/private_images/w_640,c_limit/9_id9kit/ariana-grande-thank-u-next-gifs.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Queen Members",
+        "elements": ["Freddie", "Brian", "John", "Roger"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Ariana Grande Ex's in \"thank u, next\"",
+        "elements": ["Sean", "Ricky", "Pete", "Malcolm"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lady Gaga Songs",
+        "elements": ["Alejandro", "Donatella", "Judas", "Joanne"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous 70's Songs",
+        "elements": ["Rhiannon", "Roxanne", "Angie", "Sharona"]
       }
     ],
     "shoutout": false,
