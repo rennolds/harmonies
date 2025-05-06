@@ -1311,24 +1311,15 @@
 
 <style>
   main {
-    /* Remove position: absolute */
-    /* position: absolute; */
+    position: absolute;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-    /* Add margin-top to account for fixed navbar */
-    margin-top: 60px; /* Adjust as needed for mobile */
-    padding-bottom: 50px; /* Keep bottom padding */
-    /* Ensure main content can be centered if needed, though container handles its own centering */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%; /* Ensure it takes full width */
+    padding-top: 250px; /* Default padding for mobile (ad + navbar) */
   }
 
   @media (min-width: 768px) {
     main {
-      /* Adjust margin-top for desktop */
-      margin-top: 50px; /* Adjust as needed for desktop */
+      padding-top: 175px; /* Reduced padding for desktop (navbar only) */
     }
   }
 
@@ -1341,16 +1332,13 @@
     align-self: center;
     flex-direction: column;
     align-items: center;
-    /* Remove fixed height to allow content flow */
-    /* height: 100vh; */
+    height: 100vh;
     justify-content: flex-start;
     width: 100%;
-    max-width: 650px; /* Increase max-width for larger screens */
-    padding: 0 10px; /* Keep horizontal padding */
-    padding-top: 0; /* Ensure no top padding */
+    max-width: 420px;
+    padding: 0 10px;
     box-sizing: border-box;
   }
-
   .gameover-overlay {
     position: absolute;
     top: 44.5%; /* Position at the vertical center */
@@ -1446,9 +1434,7 @@
   .header-msg {
     font-weight: 300;
     font-size: 18px;
-    /* Reduce margin-top */
-    margin-top: 5px;
-    margin-bottom: 5px; /* Add some bottom margin */
+    margin-top: 20px;
   }
 
   .alert-message-container {
@@ -1474,25 +1460,18 @@
 
   .grid-container {
     display: grid;
-    align-items: center; /* Keep vertical alignment */
-    /* Use fractional units for responsive columns */
-    grid-template-columns: repeat(4, 1fr);
-    /* Let rows size automatically based on content and aspect ratio */
-    /* grid-template-rows: repeat(4, minmax(0, 1fr)); */
-    grid-auto-rows: minmax(0, 1fr); /* Ensure rows can shrink */
+    align-items: center;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-gap: 10px;
-    width: 100%; /* Take full width of the container */
-    /* Remove fixed min/max width - handled by .container */
-    /* max-width: 400px; */
-    /* min-width: 350px; */
+    width: 100%;
+    max-width: 400px;
+    min-width: 350px;
     font-weight: bold;
     padding: 2px;
     text-transform: uppercase;
     margin-bottom: 3px;
     box-sizing: border-box;
-    /* Add aspect ratio for the container to influence item size if needed, or rely on item aspect-ratio */
-    /* aspect-ratio: 1 / 1;  Optional: might constrain height too much */
-    margin-top: 0; /* Explicitly remove top margin */
   }
 
   .grid-item {
@@ -1502,58 +1481,105 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Remove fixed height/width */
-    /* height: 80px; */
-    /* width: 90px; */
-    aspect-ratio: 1 / 1; /* Maintain square shape */
-    /* Use clamp for responsive font size */
-    font-size: clamp(
-      10px,
-      3vw,
-      16px
-    ); /* Min 10px, scales with 3% of viewport width, max 16px */
+    height: 80px;
+    font-size: 14px;
+    width: 90px;
     text-align: center;
     cursor: pointer;
     transition:
       background-color 0.4s,
       border-color 0.3s,
       transform 1s;
-    overflow: hidden; /* Keep overflow hidden */
+    overflow: hidden;
     font-weight: 700;
     color: black;
-    line-height: 1.2; /* Adjust line-height for better text wrapping */
-    padding: 5px; /* Add some padding */
-    box-sizing: border-box; /* Include padding in element's total width/height */
+    line-height: 18px;
     overflow-wrap: break-word;
   }
 
   .grid-image {
-    /* Ensure image scales within the item */
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
   }
 
   .grid-item p {
-    max-width: 95%; /* Allow text to use most of the space */
-    margin: 0; /* Remove default margin */
+    max-width: 90%;
   }
 
-  /* Remove most media queries for grid-item, rely on clamp() and aspect-ratio */
-  /* @media (max-width: 400px) { ... } */
-  /* @media only screen and (max-width: 390px) { ... } */
-  /* @media only screen and (min-width: 501px) and (max-width: 600px) { ... } */
-  /* @media only screen and (min-width: 391px) and (max-width: 500) { ... } */
-  /* @media only screen and (max-width: 1200px) and (min-width: 601px) { ... } */
+  @media (max-width: 400px) {
+    .container,
+    .grid-container,
+    .mistakes-remaining-container,
+    .play-button-container {
+      padding: 0 5px;
+      min-width: auto;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .grid-item {
+      font-size: 11px;
+      height: 60px;
+      width: 82px;
+      /* padding-left: 2px; */
+    }
+
+    .grid-container {
+      max-width: 92vw;
+    }
+  }
+
+  @media only screen and (min-width: 501px) and (max-width: 600px) {
+    .grid-item {
+      font-size: 12px;
+      height: 68px;
+      width: 16.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 391px) and (max-width: 500) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .grid-item {
+      font-size: 12px;
+      height: 68px;
+      width: 20.5vw;
+      /* padding-left: 2px; */
+    }
+
+    .grid-container {
+      max-width: 92vw;
+    }
+
+    .header-msg {
+      margin-top: -5px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) and (min-width: 601px) {
+    .header-msg {
+      margin-top: -5px;
+    }
+
+    .grid-container {
+      max-width: 500px !important;
+    }
+  }
 
   /* --- Desktop adjustments START --- */
-  /* Remove fixed size adjustments for .has-image, aspect-ratio handles sizing */
-  /* @media (min-width: 768px) {
+  @media (min-width: 768px) {
+    /* Increase container width on desktop */
+    .grid-container {
+      max-width: 650px;
+    }
+
+    /* Increase size for grid items containing images on desktop */
     .grid-item.has-image {
       height: 150px;
       width: 150px;
     }
-  } */
+  }
   /* --- Desktop adjustments END --- */
 
   .selected {
@@ -1588,7 +1614,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 400px; /* Keep max-width for controls */
+    max-width: 400px;
     margin: 0 auto;
     padding: 0 10px;
     box-sizing: border-box;
@@ -1608,7 +1634,7 @@
     margin-top: 15px;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 400px; /* Keep max-width for this element */
+    max-width: 400px;
     padding: 0 10px;
     box-sizing: border-box;
   }
@@ -1725,8 +1751,7 @@
     max-width: 350px;
     min-width: 300px;
     align-self: center;
-    /* Remove negative margin */
-    margin-top: 0;
+    margin-top: -5px;
     margin-bottom: 10px;
   }
 
@@ -1779,8 +1804,7 @@
     padding: 0;
   }
   .special-message {
-    /* Remove negative margin */
-    margin-top: 0;
+    margin-top: -5px;
     margin-bottom: 5px;
     font-size: 15px;
     font-style: italic;
@@ -1804,18 +1828,5 @@
 
   .grid-item.selected:has(img):hover {
     background-color: #cbff70;
-  }
-
-  /* Adjust aspect ratio for mobile to make cells shorter */
-  @media (max-width: 767px) {
-    .grid-item {
-      aspect-ratio: 1.3 / 1; /* Make items wider than tall */
-      font-size: clamp(
-        11px,
-        3.5vw,
-        14px
-      ); /* Slightly adjust font clamp if needed */
-      line-height: 1.1;
-    }
   }
 </style>
