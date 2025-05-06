@@ -117,12 +117,7 @@ html, body {
   .grid-container {
     max-width: 650px !important;
   }
-  
-  .grid-item {
-    height: 80px !important;
-    width: 120px !important;
-  }
-  
+
   .full-row {
     height: 80px !important;
   }
