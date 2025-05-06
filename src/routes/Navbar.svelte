@@ -121,10 +121,16 @@
           on:click={toggleStatsModal}
           aria-label="View Statistics"
         >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 12H6V22H2V12Z" fill="white"/>
-            <path d="M10 8H14V22H10V8Z" fill="white"/>
-            <path d="M18 3H22V22H18V3Z" fill="white"/>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M2 12H6V22H2V12Z" fill="white" />
+            <path d="M10 8H14V22H10V8Z" fill="white" />
+            <path d="M18 3H22V22H18V3Z" fill="white" />
           </svg>
         </button>
 
