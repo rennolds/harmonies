@@ -54,21 +54,21 @@ html, body {
 @media only screen and (min-width: 768px) {
   /* Increase the grid container maximum width */
   .grid-container {
-    max-width: 430px !important; /* More moderate increase from 400px */
-    min-width: 420px !important; /* Ensure we have a good minimum size */
+    max-width: 650px !important; /* Match the size from +page.svelte */
+    min-width: 420px !important;
   }
   
   /* Make grid items larger on desktop */
   .grid-item {
-    height: 80px !important; /* Moderate increase from 80px */
-    width: 120px !important; /* Moderate increase from 90px */
-    font-size: 15px !important; /* Slightly larger font */
-    border-radius: 9px !important; /* Slightly larger border radius */
+    height: 80px !important;
+    width: 120px !important;
+    font-size: 15px !important;
+    border-radius: 9px !important;
   }
   
   /* Make sure the full-row cleared categories scale accordingly */
   .full-row {
-    height: 80px !important; /* Match the height of grid items */
+    height: 80px !important;
   }
   
   /* Increase the size of cleared category text */
@@ -82,22 +82,22 @@ html, body {
   
   /* Scale the play button container to match */
   .play-button-container {
-    max-width: 525px !important; /* Match grid container */
+    max-width: 650px !important; /* Match grid container */
   }
   
   /* Scale the mistakes remaining container */
   .mistakes-remaining-container {
-    max-width: 525px !important; /* Match grid container */
+    max-width: 650px !important; /* Match grid container */
   }
   
   /* Adjust game container */
   .game-container {
-    max-width: 525px !important;
+    max-width: 650px !important;
   }
   
   /* Fix navbar positioning to match wider container */
   .navbar {
-    max-width: 475px !important; /* Match the wider container */
+    max-width: 650px !important; /* Match the wider container */
   }
   
   /* Adjust navbar elements to ensure they stay at the edges */
@@ -115,7 +115,7 @@ html, body {
 /* Large desktop screens */
 @media only screen and (min-width: 1200px) {
   .grid-container {
-    max-width: 525px !important;
+    max-width: 650px !important;
   }
   
   .grid-item {
