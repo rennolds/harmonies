@@ -117,10 +117,6 @@ html, body {
   .grid-container {
     max-width: 650px !important;
   }
-
-  .full-row {
-    height: 80px !important;
-  }
   
   .play-button-container,
   .mistakes-remaining-container,
