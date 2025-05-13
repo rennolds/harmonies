@@ -14987,5 +14987,126 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "05/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/0l2h2mPVeggIBPiMrBGof0?si=363a5a8af25d4e20",
+    "gameoverGif": "https://media.tenor.com/sN8L037tUigAAAAM/beyonce-grammy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Neon Album Covers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273797febe9f06dd027b67a3e64",
+            "alt": "Hot Fuss"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739dd4e688b220635941abfad4",
+            "alt": "The Magic Whip"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739e0e42aa866e5fa167b19608",
+            "alt": "Neon Bible"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d3de03550f715df1ea7e0c08",
+            "alt": "I Like It When You Sleep, For..."
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Beyonce Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2731572698fff8a1db257a53599",
+            "alt": "Cowboy Carter"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27389992f4d7d4ab94937bf9e23",
+            "alt": "Lemonade"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2735760710a48f0f595f5814dc1",
+            "alt": "4"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e13de7b8662b085b0885ffef",
+            "alt": "I Am... Sasha Fierce"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "90's Hip Hop Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273045fc920ecf4f8094888ec26",
+            "alt": "Illmatic"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739710731c9d7baec635f1bab1",
+            "alt": "The Chronic"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273083070f1bba31e70af19f67e",
+            "alt": "Ready To Die"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273073aebff28f79959d2543596",
+            "alt": "All Eyez On Me"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Named After the Artists First Name",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e63518d50aff63f57d2b8ead",
+            "alt": "janet."
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cc57e9b00b87dd0f6e868347",
+            "alt": "Whitney"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27302873b2abb05623569904b55",
+            "alt": "Britney"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2733e58082f362590e07334fbbd",
+            "alt": "Diana"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
