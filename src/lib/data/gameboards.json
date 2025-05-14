@@ -15108,5 +15108,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "05/14/2025": {
+    "playlist": "https://open.spotify.com/playlist/0GQKq2U0Kk6ium60uHpgjP?si=55d3f7a129d64ebd",
+    "gameoverGif": "https://media0.giphy.com/media/52EY9yU8H48EeL59i2/200.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rappers on AS@P Rocky's F**in' Problems",
+        "elements": ["AS@P Rocky", "Drake", "2 Chainz", "Kendrick Lamar"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists on DJ Khaled's \"I'm The One\"",
+        "elements": ["Chance the Rapper", "Justin Bieber", "Lil Wayne", "Quavo"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rappers on Kanye West's \"Monster\"",
+        "elements": ["Kanye West", "Nicki Minaj", "Jay-Z", "Rick Ross"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Rappers on the 2016 XXL Freshmen Cypher",
+        "elements": ["Denzel Curry", "Lil Uzi Vert", "21 Savage", "Lil Yachty"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "pair artists to the track: f***in' problems, i'm the one, monster, 2016 xxl freshmen cypher",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"  
   }
 }
