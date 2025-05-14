@@ -15145,5 +15145,42 @@
     "twitch": "",
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"  
+  },
+  "05/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/0GQKq2U0Kk6ium60uHpgjP?si=911b505e32f346f6",
+    "gameoverGif": "https://media.tenor.com/VWj9tgd-tHUAAAAM/orchestra-conductor.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs Named After Natural Disasters",
+        "elements": ["Eruption", "Rock you like a hurricane", "Texas Flood", "Sandstorm"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Song Titles Featuring Classical Composers",
+        "elements": ["A Fifth of Beethoven", "Rock Me Amadaus", "Lisztomania", "I Like Chopin"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Things John Lennon Wants You to \"Imagine\"",
+        "elements": ["There's no heaven", "There's no countries", "All the people living life in peace", "No possessions"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "No Word Choruses",
+        "elements": ["Seven nation army", "Crocodile Rock", "Brain Stew", "Lean On"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@joseignacio.rosales",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
