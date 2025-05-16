@@ -48,7 +48,7 @@
           <h3>Spotle | Guess the artist</h3>
         </a>
 
-        <a href="#" class="game-card">
+        <a href="https://crosstune.io" class="game-card">
           <div class="game-image crosstune-image"></div>
           <h3>Crosstune | Music crossword</h3>
         </a>
