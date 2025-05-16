@@ -15182,5 +15182,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+    "05/16/2025": {
+    "playlist": "https://open.spotify.com/playlist/51PvcVQWrZjUDvLSVzSo4s?si=fd54384a12354693",
+    "gameoverGif": "https://c.tenor.com/dN5GPRdT4NsAAAAC/tenor.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Hamilton",
+        "elements": ["Non-Stop", "The Schuyler Sisters", "Burn", "My Shot"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Mamma Mia",
+        "elements": ["SOS", "Money, Money, Money", "Chiquitita", "Super Trouper"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from Mary Poppins",
+        "elements": ["A Spoonful of Sugar", "Step in Time", "Let's Go Fly a Kite", "super cali fragil istic expi ali docious"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Chicago",
+        "elements": ["Cell Block Tango", "Roxie", "Razzle Dazzle", "Funny Honey"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Ayani",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/pytt.ayani",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
