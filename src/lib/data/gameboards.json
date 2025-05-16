@@ -15219,5 +15219,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "05/17/2025": {
+    "playlist": "https://open.spotify.com/playlist/5rBsc5Rwo6VzqtuFmP9JPz?si=eb22570b5dc1470f",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGliN3pycTdrdXduaHJpaXgyY2x2bzIwYjNhbGN4MmRhYmg3Y3FzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tLQSYnrLCGcKY/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Artists Named James",
+        "elements": ["I Got You", "Fire and rain", "Slow Jamz", "you're Beautiful"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by Artists Named John",
+        "elements": ["Imagine", "All of Me", "Gravity", "Country Roads"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by Artists Named Mike/Michael",
+        "elements": ["Billie Jean", "When a man loves a woman", "Feeling Good", "I Took A Pill In Ibeiza"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by Artists Named Dave/David",
+        "elements": ["Titanium", "Under Pressure", "Sprinter", "Daylight"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
