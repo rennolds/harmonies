@@ -953,7 +953,7 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "American CLassic Rock Songs",
+        "name": "American Classic Rock Songs",
         "elements": ["Hotel California", "Surrender", "Pet Sematary", "Psycho Killer"]
       },
       {
@@ -15243,6 +15243,462 @@
         "color": "#FFBC21",
         "name": "Songs by Artists Named Dave/David",
         "elements": ["Titanium", "Under Pressure", "Sprinter", "Daylight"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/18/2025": {
+    "playlist": "https://open.spotify.com/playlist/7hEaWavDkX0sozwR7Vr3FU?si=8b5cefac91aa413d",
+    "gameoverGif": "https://media1.giphy.com/media/L1W4QOzyGoK8cpGTBr/giphy.gif?cid=6c09b9529bzveyq1f1fm3snvqn3rl3wd9666401wop52vti1&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Ms. Lauryn Hill",
+        "elements": ["Ready or Not", "Ex-Factor", "When it Hurts So Bad", "Doo Wop (That Thing)"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Jay-Z & Beyonce Songs",
+        "elements": ["Deja Vu", "Drunk in Love", "03' Bonnie & Clyde", "Crazy In Love"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Jay-Z's \"No Church In The Wild\"",
+        "elements": ["Human Beings in a mob", "Thanksgiving disguised as a feast", "Cocaine seats", "Drug dealer chic"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Beyoncé's \"Drunk in Love\"",
+        "elements": ["If you scared, call that reverend", "We woke up in the kitche", "I've been drinkin' watermelon", "Flashing lights"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/19/2025": {
+    "playlist": "https://open.spotify.com/playlist/4W22SlOPwqGr1Tf2zCpHje?si=8df9d761d01047ed",
+    "gameoverGif": "https://media3.giphy.com/media/3IEgZaMApMxxRrKobS/giphy.gif?cid=6c09b9525788xds5vybza1qw65nlrgp7jsx1z1h24c5ltxbf&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Billie Eilish Songs",
+        "elements": ["TV", "Lunch", "Chihiro", "Bury a Friend"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Young/Yung Artists",
+        "elements": ["Thug", "The Giant", "Gravy", "Neil"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Tracks by \"Lil\" Rappers",
+        "elements": ["Lollipop", "Minnesota", "Ransom", "Falling Down"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Titled Girl ______",
+        "elements": ["Friend", "So Confusing", "On Fire", "Crush"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/20/2025": {
+    "playlist": "https://open.spotify.com/playlist/284wixhFOnLDairltVh3vs?si=1cd9daeb3cc94dc2",
+    "gameoverGif": "https://i.redd.it/8m8dworuziba1.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums With Space Imagery",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694",
+            "alt": "Boston"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a76153d01485194d21bf782f",
+            "alt": "Deja Entendu"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732171565945b4a3c912d11673",
+            "alt": "Love, Pt 1 & 2"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273aab2c3c3f1f3207137d915c9",
+            "alt": "Man on the Moon: The End of Day"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Radiohead Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+            "alt": "In Rainbows"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273adb1732fa8d44b8eb2f6c0bf",
+            "alt": "OK Computer"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+            "alt": "The Bends"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+            "alt": "Pablo Honey"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums By Artists Who Left Their Group",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739b0ce5ba093e8fbe6286185a",
+            "alt": "Justified"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27345680a4a57c97894490a01c1",
+            "alt": "Dangerously in Love"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f049fc9322f0c93646cdcc77",
+            "alt": "Love. Angel. Music. Baby"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273804c1bb88d714079e12d80e1",
+            "alt": "The Dream of the Blue Turtles"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums by Couples",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736823f5ab3f87b902c35ef56b",
+            "alt": "Look At Us"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a740e40ad00eaf662962f91d",
+            "alt": "Elephant"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e36b7da8da36240fa15ceefc",
+            "alt": "Double Fantasy"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736680b3854ec9cd3db9a94cc2",
+            "alt": "I Said I Love You First"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+
+  "05/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/06IUaTwdfOMWb7AVmutcd6?si=ba721d3202c144f5",
+    "gameoverGif": "https://media1.giphy.com/media/jUJeZVX7gaRRRYVlBB/200w.gif?cid=6c09b9527oznrq2h9k77a2gv7plmldehd2wq6uwxtvpvk40i&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs on Vultures Albums",
+        "elements": ["Back To Me", "Carnival", "Burn", "Field Trip"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Songs Featuring Ty Dolla $ign",
+        "elements": ["Swalla", "Safety Net", "Work From Home", "Psycho"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rap Songs Featuring Ty Dolla $ign",
+        "elements": ["WUSYANAME", "Cinderella", "Hot Girl Summer", "Sucker For Pain"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Gun To Your Head, Name Four Ty Dolla $ign Songs",
+        "elements": ["Or Nah", "??? (Where)", "Love U Better", "Sitting Pretty"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "harmonies.io loves ty dolla $ign",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"  
+  },
+  "05/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/5ZxcXoxmpN7Rb5NIYaCF2L?si=b1294917e5f74e8c",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQw3bwBj8ASVkjGF4e24iHhgz3cYmICRlnLg&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2025 Number 1's",
+        "elements": ["Die With a Smile", "Luther", "Not Like Us", "4x4"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2015 Number 1's",
+        "elements": ["Uptown Funk", "Can't Feel My Face", "See You Again", "Hello"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2005 Number 1's",
+        "elements": ["Gold Digger", "We Belong Together", "Run It!", "Candy Shop"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "1995 Number 1's",
+        "elements": ["Take a Bow", "Have You Ever Really Loved a Woman", "One Sweet Day", "Fantasy"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/23/2025": {
+    "playlist": "https://open.spotify.com/playlist/5cWWIA4nY7iZhkBgGigbk9?si=8fa31d5055994438",
+    "gameoverGif": "https://media.tenor.com/-8-EOMvxTbEAAAAM/carly-rae-jepsen-hot.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Alternative Band Superhits",
+        "elements": ["Feel It Still", "Mr. Brightside", "Sweater Weather", "The Less I Know the Better"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to\"Call Me Maybe\"",
+        "elements": ["Wish in the Well", "This is Crazy", "I Missed You So Bad", "I Just Met You"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 in 2002",
+        "elements": ["How You Remind Me", "Hot In Herre", "In The End", "A Thousand Miles"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Pitch Perfect’s \"Riff Off\"",
+        "elements": ["No Diggity", "S&M", "Let’s Talk About Sex", "Like a Virgin"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/4PxmdJKaeoHEtQlVZsL5eB?si=4284e2e3182e44d5",
+    "gameoverGif": "https://media0.giphy.com/media/XHpT1lgVR86CVzsxww/200w.gif?cid=6c09b952cj0zga0tpbjvmzh8jyqg9m9omfysfg2l3se1uj1p&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "One Direction Members",
+        "elements": ["Styles", "Payne", "Horan", "Malik"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bruno Mars Songs",
+        "elements": ["Lighters", "Grenade", "Gorilla", "Treasure"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Song Titles Without \"Love\"",
+        "elements": ["Song", "Story", "Yourself", "Game"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Tyler the Creator's \"Chromakopia\"",
+        "elements": ["St. Chroma", "Sticky", "Balloon", "Like him"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "kait",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@kaitlovespickles",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/25/2025": {
+    "playlist": "https://open.spotify.com/playlist/48wI9tBkYGfAUjSOepRbcM?si=27c365c98de94fb6",
+    "gameoverGif": "https://i.pinimg.com/originals/b1/aa/31/b1aa31c13e889f6bc3626d23fcba96d6.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from \"Sour\" - Olivia Rodrigo",
+        "elements": ["Deja vu", "Driver's license", "Jealousy, Jealousy", "Good 4 u"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from \"Speak Now\" - Taylor Swift",
+        "elements": ["Back to december", "The story of us", "Better Than Revenge", "Enchanted"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from \"Hounds of Love\" - Kate Bush",
+        "elements": ["Running up that hill", "Cloudbusting", "Hounds of love", "The big sky"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from \"The Smiths\" - The Smiths",
+        "elements": ["Reel around the fountain", "Pretty girls make graves", "This charming man", "What difference does it make?"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "queen of hearts",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: purple albums",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/2CzrHnuqqnJXisAlnMCiEF?si=e28139e8704b4820",
+    "gameoverGif": "https://i.gifer.com/Kh3Q.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Katy Perry Billboard #1's in 2010",
+        "elements": ["California Gurls", "E.T.", "Last Friday Night (T.G.I.F.)", "Firework"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Hot Chelle Rae's \"Tonight, Tonight\"",
+        "elements": ["really messed up week", "It doesn't matter", "California Dime", "time to quit her"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Tracks from the 60's",
+        "elements": ["California Girls", "California Dreamin'", "You Really Got Me", "My Girl"]
+
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Produced by Dr. Dre",
+        "elements": ["California Love", "In Da Club", "The Real Slim Shady", "Gin and Juice"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/31/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media2.giphy.com/media/hRCshlRvcg0LpvYBqm/giphy.gif?cid=6c09b952zz6z6jvlmedkfa9yus0bwco5hm7eka40fvldm7nu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists missing a \"J\"",
+        "elements": ["Cole", "Juicy", "LL Cool", "Balvin"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists missing a \"G\"",
+        "elements": ["Warren", "Polo", "Kenny", "Karol"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists missing a \"B\"",
+        "elements": [".o.B.", "Cardi", "bno$", "Lil"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists missing a \"T\"",
+        "elements": ["V Girl", "Pain", "Pusha", "Ice"]
       }
     ],
     "shoutout": false,
