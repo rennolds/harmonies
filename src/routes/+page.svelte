@@ -1583,7 +1583,7 @@
     }
   }
 
-  @media only screen and (min-width: 391px) and (max-width: 500) {
+  @media only screen and (min-width: 391px) and (max-width: 500px) {
     /* smartphones, iPhone, portrait 480x320 phones */
     .grid-item {
       font-size: 12px;
@@ -1601,7 +1601,8 @@
     }
   }
 
-  @media only screen and (max-width: 1200px) and (min-width: 601px) {
+  @media only screen and (max-width: 767px) and (min-width: 601px) {
+    /* MODIFIED HERE */
     .grid-item {
       font-size: 14px;
       height: 70px;
