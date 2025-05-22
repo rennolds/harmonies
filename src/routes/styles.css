@@ -54,8 +54,8 @@ html, body {
 @media only screen and (min-width: 768px) {
   /* Increase the grid container maximum width */
   .grid-container {
-    max-width: 430px !important; /* More moderate increase from 400px */
-    min-width: 420px !important; /* Ensure we have a good minimum size */
+    max-width: 525px !important; /* Allow space for 4 items of 120px + gaps */
+    min-width: 510px !important; /* Ensure minimum space for items */
   }
   
   /* Make grid items larger on desktop */
