@@ -788,6 +788,20 @@
       }
     });
   });
+
+  // Add new state for zoom modal
+  let zoomedImage = null;
+  let zoomedAlt = "";
+
+  function openZoomModal(url, alt) {
+    zoomedImage = url;
+    zoomedAlt = alt || "";
+  }
+
+  function closeZoomModal() {
+    zoomedImage = null;
+    zoomedAlt = "";
+  }
 </script>
 
 <main>
@@ -833,10 +847,11 @@
       >
 
       <a href="https://crosstune.io" target="_blank"
-      ><button style="background-color: #FF6B00 !important;" class="results-button"
-        >PLAY CROSSTUNE</button
-      ></a
-    >
+        ><button
+          style="background-color: #FF6B00 !important;"
+          class="results-button">PLAY CROSSTUNE</button
+        ></a
+      >
     </div>
   {/if}
 
@@ -847,7 +862,14 @@
     <Navbar {toggleHelpOverlay} {playlist} {isArchiveMode} />
 
     {#if !shoutout && !disableHeader}
-      <h2 class="header-msg">check out our new game, <a href="https://crosstune.io" target="_blank" style="color: #FF6B00; text-decoration: none;" class="crosstune-link">crosstune.io</a>!</h2>
+      <h2 class="header-msg">
+        check out our new game, <a
+          href="https://crosstune.io"
+          target="_blank"
+          style="color: #FF6B00; text-decoration: none;"
+          class="crosstune-link">crosstune.io</a
+        >!
+      </h2>
     {/if}
     {#if shoutout}
       <div class="shoutout">
@@ -1129,6 +1151,27 @@
         >
           {#if typeof element === "object" && element.type === "image"}
             <img src={element.url} alt={element.alt || ""} class="grid-image" />
+            <button
+              class="zoom-button"
+              on:click|stopPropagation={() =>
+                openZoomModal(element.url, element.alt)}
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 3H21M21 3V9M21 3L14 10M9 21H3M3 21V15M3 21L10 14"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
           {:else}
             <p>{element}</p>
           {/if}
@@ -1300,6 +1343,15 @@
 </div> -->
   </div>
 </main>
+
+{#if zoomedImage}
+  <div class="zoom-modal" on:click={closeZoomModal}>
+    <div class="zoom-content" on:click|stopPropagation>
+      <button class="zoom-close" on:click={closeZoomModal}>×</button>
+      <img src={zoomedImage} alt={zoomedAlt} />
+    </div>
+  </div>
+{/if}
 
 <style>
   main {
@@ -1823,5 +1875,76 @@
 
   .grid-item.selected:has(img):hover {
     background-color: #cbff70;
+  }
+
+  /* Zoom button styles */
+  .zoom-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .grid-item.has-image {
+    position: relative;
+  }
+
+  .grid-item.has-image:hover .zoom-button {
+    opacity: 1;
+  }
+
+  /* Zoom modal styles */
+  .zoom-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+  }
+
+  .zoom-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+
+  .zoom-content img {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+  }
+
+  .zoom-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  /* Only show zoom button on desktop */
+  @media (max-width: 767px) {
+    .zoom-button {
+      display: none;
+    }
   }
 </style>

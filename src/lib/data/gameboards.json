@@ -15712,5 +15712,163 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/01/2025": {
+    "playlist": "https://open.spotify.com/playlist/3GObuNyJcoep6JO8aheZQD?si=679fd21bb2344091",
+    "gameoverGif": "https://media.tenor.com/F6fzcYt7jZEAAAAM/theneedledrop-fantano.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Black and White Indie Rock Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27385c160f9951c570a8e81f998",
+            "alt": "Veni Vidi Vicious"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27321b550b66cf1391c6642088c",
+            "alt": "Cleopatra"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
+            "alt": "Cigarettes After Sex"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2733066581d697fbdee4303d685",
+            "alt": "Wiped Out!"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Kendrick Lamar Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+            "alt": "DAMN."
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
+            "alt": "To Pimp a Butterfly"
+          },
+          {
+            "type": "image",
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84028a97979e0d5bda7cd4a8e4",
+            "alt": "Mr. Morale & The Big Steppers"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27378de8b28de36a74afc0348b5",
+            "alt": "good kid, m.A.A.d city"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "EDM Albums of the 2010s",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d4ad00ce501d9b7e3c46f935",
+            "alt": "Scary Monsters and Nice Sprites"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273efbba7082b953018c0da26e3",
+            "alt": "Random Access Memories"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273162c5d6dbf1dc3965d1a391a",
+            "alt": "True"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27307e66d3237a8d19f51a7ac08",
+            "alt": "Hurry Up, We're Dreaming"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums Anthony Fantano rated 0/10",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a29ab3b0e07c6191f7d3ca6b",
+            "alt": "The Big Day"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+            "alt": "Speedin' Bullet 2 Heaven"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f757eba1f769da8bfa74e804",
+            "alt": "Father of All Motherf**kers"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734f91227dac5d91e85b3c92ca",
+            "alt": "Genre: Sadboy"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/02/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics to Sabrina Carpenter’s \"Bed Chem\"",
+        "elements": ["The white jacket and the thick accent", "Maybe it’s all in my head", "Where art thou? Why not uponeth me?", "Thermostats set at six-nine"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Super-long Lana Del Rey Song Titles",
+        "elements": ["This Is What Makes Us Girls", "Coachella - Woodstock in My Mind", "Let Me Love You Like A Woman", "Grandfather please stand on the shoulders of my father while he's deep-sea fishing"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [""]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Translated names of Bad Bunny albums",
+        "elements": ["I should have taken more photos", "Nobody Knows What Will Happen Tomorrow", "A Summer Without You", "Forever"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "shout out v, ty for everything",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   }
 }
