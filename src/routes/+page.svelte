@@ -1139,70 +1139,62 @@
         <ClearedCategory {category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-        <div
-          animate:flip
-          on:click={() => toggleSelection(element)}
-          class="grid-item {selectedElements.includes(element)
-            ? 'selected'
-            : ''} {shake[i] ? 'shake' : ''} {typeof element === 'object' &&
-          element.type === 'image'
-            ? 'has-image'
-            : ''}"
-        >
-          {#if typeof element === "object" && element.type === "image"}
-            <img
-              src={element.url}
-              alt={element.alt || ""}
-              class="grid-image"
-              on:touchstart|preventDefault={(e) => {
-                const touch = e.touches[0];
-                const startTime = Date.now();
-                const startX = touch.clientX;
-                const startY = touch.clientY;
+        {#if typeof element === "object" && element.type === "image"}
+          <div
+            class="grid-item {selectedElements.includes(element)
+              ? 'selected'
+              : ''} {shake[i] ? 'shake' : ''} has-image"
+            on:click={() => toggleSelection(element)}
+            on:touchstart|preventDefault={(e) => {
+              const touch = e.touches[0];
+              const startTime = Date.now();
+              const startX = touch.clientX;
+              const startY = touch.clientY;
 
-                const handleTouchEnd = (endEvent) => {
-                  endEvent.preventDefault();
-                  const endTime = Date.now();
-                  const endX = endEvent.changedTouches[0].clientX;
-                  const endY = endEvent.changedTouches[0].clientY;
+              const handleTouchEnd = (endEvent) => {
+                endEvent.preventDefault();
+                const endTime = Date.now();
+                const endX = endEvent.changedTouches[0].clientX;
+                const endY = endEvent.changedTouches[0].clientY;
 
-                  // Check if it was a long press (500ms) and minimal movement
-                  if (
-                    endTime - startTime >= 500 &&
-                    Math.abs(endX - startX) < 10 &&
-                    Math.abs(endY - startY) < 10
-                  ) {
-                    openZoomModal(element.url, element.alt);
-                  }
+                // Check if it was a long press (500ms) and minimal movement
+                if (
+                  endTime - startTime >= 500 &&
+                  Math.abs(endX - startX) < 10 &&
+                  Math.abs(endY - startY) < 10
+                ) {
+                  openZoomModal(element.url, element.alt);
+                }
 
-                  // Clean up event listeners
+                // Clean up event listeners
+                document.removeEventListener("touchend", handleTouchEnd);
+                document.removeEventListener("touchmove", handleTouchMove);
+              };
+
+              const handleTouchMove = (moveEvent) => {
+                moveEvent.preventDefault();
+                const moveX = moveEvent.touches[0].clientX;
+                const moveY = moveEvent.touches[0].clientY;
+
+                // If moved too far, cancel the long press
+                if (
+                  Math.abs(moveX - startX) > 10 ||
+                  Math.abs(moveY - startY) > 10
+                ) {
                   document.removeEventListener("touchend", handleTouchEnd);
                   document.removeEventListener("touchmove", handleTouchMove);
-                };
+                }
+              };
 
-                const handleTouchMove = (moveEvent) => {
-                  moveEvent.preventDefault();
-                  const moveX = moveEvent.touches[0].clientX;
-                  const moveY = moveEvent.touches[0].clientY;
-
-                  // If moved too far, cancel the long press
-                  if (
-                    Math.abs(moveX - startX) > 10 ||
-                    Math.abs(moveY - startY) > 10
-                  ) {
-                    document.removeEventListener("touchend", handleTouchEnd);
-                    document.removeEventListener("touchmove", handleTouchMove);
-                  }
-                };
-
-                document.addEventListener("touchend", handleTouchEnd, {
-                  passive: false,
-                });
-                document.addEventListener("touchmove", handleTouchMove, {
-                  passive: false,
-                });
-              }}
-            />
+              document.addEventListener("touchend", handleTouchEnd, {
+                passive: false,
+              });
+              document.addEventListener("touchmove", handleTouchMove, {
+                passive: false,
+              });
+            }}
+          >
+            <img src={element.url} alt={element.alt || ""} class="grid-image" />
             <button
               class="zoom-button"
               on:click|stopPropagation={() =>
@@ -1224,10 +1216,17 @@
                 />
               </svg>
             </button>
-          {:else}
+          </div>
+        {:else}
+          <div
+            class="grid-item {selectedElements.includes(element)
+              ? 'selected'
+              : ''} {shake[i] ? 'shake' : ''}"
+            on:click={() => toggleSelection(element)}
+          >
             <p>{element}</p>
-          {/if}
-        </div>
+          </div>
+        {/if}
       {/each}
     </div>
 
@@ -1603,7 +1602,6 @@
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Standard */
-    pointer-events: none; /* Prevent default touch events on the image */
   }
 
   .grid-item p {
