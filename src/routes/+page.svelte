@@ -1150,7 +1150,53 @@
             : ''}"
         >
           {#if typeof element === "object" && element.type === "image"}
-            <img src={element.url} alt={element.alt || ""} class="grid-image" />
+            <img
+              src={element.url}
+              alt={element.alt || ""}
+              class="grid-image"
+              on:touchstart={(e) => {
+                const touch = e.touches[0];
+                const startTime = Date.now();
+                const startX = touch.clientX;
+                const startY = touch.clientY;
+
+                const handleTouchEnd = (endEvent) => {
+                  const endTime = Date.now();
+                  const endX = endEvent.changedTouches[0].clientX;
+                  const endY = endEvent.changedTouches[0].clientY;
+
+                  // Check if it was a long press (500ms) and minimal movement
+                  if (
+                    endTime - startTime >= 500 &&
+                    Math.abs(endX - startX) < 10 &&
+                    Math.abs(endY - startY) < 10
+                  ) {
+                    openZoomModal(element.url, element.alt);
+                  }
+
+                  // Clean up event listeners
+                  document.removeEventListener("touchend", handleTouchEnd);
+                  document.removeEventListener("touchmove", handleTouchMove);
+                };
+
+                const handleTouchMove = (moveEvent) => {
+                  const moveX = moveEvent.touches[0].clientX;
+                  const moveY = moveEvent.touches[0].clientY;
+
+                  // If moved too far, cancel the long press
+                  if (
+                    Math.abs(moveX - startX) > 10 ||
+                    Math.abs(moveY - startY) > 10
+                  ) {
+                    document.removeEventListener("touchend", handleTouchEnd);
+                    document.removeEventListener("touchmove", handleTouchMove);
+                  }
+                };
+
+                document.addEventListener("touchend", handleTouchEnd);
+                document.addEventListener("touchmove", handleTouchMove);
+              }}
+            />
             <button
               class="zoom-button"
               on:click|stopPropagation={() =>
@@ -1946,6 +1992,11 @@
   @media (max-width: 767px) {
     .zoom-button {
       display: none;
+    }
+
+    /* Add visual feedback for long press on mobile */
+    .grid-item.has-image:active {
+      opacity: 0.8;
     }
   }
 </style>
