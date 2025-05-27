@@ -1139,13 +1139,17 @@
         <ClearedCategory {category}></ClearedCategory>
       {/each}
       {#each remainingElements as element, i (element)}
-        {#if typeof element === "object" && element.type === "image"}
-          <div
-            class="grid-item {selectedElements.includes(element)
-              ? 'selected'
-              : ''} {shake[i] ? 'shake' : ''} has-image"
-            on:click={() => toggleSelection(element)}
-            on:touchstart|preventDefault={(e) => {
+        <div
+          animate:flip
+          class="grid-item {selectedElements.includes(element)
+            ? 'selected'
+            : ''} {shake[i] ? 'shake' : ''} {typeof element === 'object' &&
+          element.type === 'image'
+            ? 'has-image'
+            : ''}"
+          on:click={() => toggleSelection(element)}
+          on:touchstart|preventDefault={(e) => {
+            if (typeof element === "object" && element.type === "image") {
               const touch = e.touches[0];
               const startTime = Date.now();
               const startX = touch.clientX;
@@ -1164,6 +1168,9 @@
                   Math.abs(endY - startY) < 10
                 ) {
                   openZoomModal(element.url, element.alt);
+                } else {
+                  // If it wasn't a long press, trigger the selection
+                  toggleSelection(element);
                 }
 
                 // Clean up event listeners
@@ -1192,8 +1199,10 @@
               document.addEventListener("touchmove", handleTouchMove, {
                 passive: false,
               });
-            }}
-          >
+            }
+          }}
+        >
+          {#if typeof element === "object" && element.type === "image"}
             <img src={element.url} alt={element.alt || ""} class="grid-image" />
             <button
               class="zoom-button"
@@ -1216,17 +1225,10 @@
                 />
               </svg>
             </button>
-          </div>
-        {:else}
-          <div
-            class="grid-item {selectedElements.includes(element)
-              ? 'selected'
-              : ''} {shake[i] ? 'shake' : ''}"
-            on:click={() => toggleSelection(element)}
-          >
+          {:else}
             <p>{element}</p>
-          </div>
-        {/if}
+          {/if}
+        </div>
       {/each}
     </div>
 
