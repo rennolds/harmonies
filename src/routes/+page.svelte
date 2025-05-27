@@ -1154,13 +1154,14 @@
               src={element.url}
               alt={element.alt || ""}
               class="grid-image"
-              on:touchstart={(e) => {
+              on:touchstart|preventDefault={(e) => {
                 const touch = e.touches[0];
                 const startTime = Date.now();
                 const startX = touch.clientX;
                 const startY = touch.clientY;
 
                 const handleTouchEnd = (endEvent) => {
+                  endEvent.preventDefault();
                   const endTime = Date.now();
                   const endX = endEvent.changedTouches[0].clientX;
                   const endY = endEvent.changedTouches[0].clientY;
@@ -1180,6 +1181,7 @@
                 };
 
                 const handleTouchMove = (moveEvent) => {
+                  moveEvent.preventDefault();
                   const moveX = moveEvent.touches[0].clientX;
                   const moveY = moveEvent.touches[0].clientY;
 
@@ -1193,8 +1195,12 @@
                   }
                 };
 
-                document.addEventListener("touchend", handleTouchEnd);
-                document.addEventListener("touchmove", handleTouchMove);
+                document.addEventListener("touchend", handleTouchEnd, {
+                  passive: false,
+                });
+                document.addEventListener("touchmove", handleTouchMove, {
+                  passive: false,
+                });
               }}
             />
             <button
@@ -1591,6 +1597,13 @@
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
+    -webkit-touch-callout: none; /* Prevent iOS callout */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard */
+    pointer-events: none; /* Prevent default touch events on the image */
   }
 
   .grid-item p {
@@ -1944,6 +1957,9 @@
 
   .grid-item.has-image {
     position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   .grid-item.has-image:hover .zoom-button {
