@@ -1141,66 +1141,13 @@
       {#each remainingElements as element, i (element)}
         <div
           animate:flip
+          on:click={() => toggleSelection(element)}
           class="grid-item {selectedElements.includes(element)
             ? 'selected'
             : ''} {shake[i] ? 'shake' : ''} {typeof element === 'object' &&
           element.type === 'image'
             ? 'has-image'
             : ''}"
-          on:click={() => toggleSelection(element)}
-          on:touchstart|preventDefault={(e) => {
-            if (typeof element === "object" && element.type === "image") {
-              const touch = e.touches[0];
-              const startTime = Date.now();
-              const startX = touch.clientX;
-              const startY = touch.clientY;
-
-              const handleTouchEnd = (endEvent) => {
-                endEvent.preventDefault();
-                const endTime = Date.now();
-                const endX = endEvent.changedTouches[0].clientX;
-                const endY = endEvent.changedTouches[0].clientY;
-
-                // Check if it was a long press (500ms) and minimal movement
-                if (
-                  endTime - startTime >= 500 &&
-                  Math.abs(endX - startX) < 10 &&
-                  Math.abs(endY - startY) < 10
-                ) {
-                  openZoomModal(element.url, element.alt);
-                } else {
-                  // If it wasn't a long press, trigger the selection
-                  toggleSelection(element);
-                }
-
-                // Clean up event listeners
-                document.removeEventListener("touchend", handleTouchEnd);
-                document.removeEventListener("touchmove", handleTouchMove);
-              };
-
-              const handleTouchMove = (moveEvent) => {
-                moveEvent.preventDefault();
-                const moveX = moveEvent.touches[0].clientX;
-                const moveY = moveEvent.touches[0].clientY;
-
-                // If moved too far, cancel the long press
-                if (
-                  Math.abs(moveX - startX) > 10 ||
-                  Math.abs(moveY - startY) > 10
-                ) {
-                  document.removeEventListener("touchend", handleTouchEnd);
-                  document.removeEventListener("touchmove", handleTouchMove);
-                }
-              };
-
-              document.addEventListener("touchend", handleTouchEnd, {
-                passive: false,
-              });
-              document.addEventListener("touchmove", handleTouchMove, {
-                passive: false,
-              });
-            }
-          }}
         >
           {#if typeof element === "object" && element.type === "image"}
             <img src={element.url} alt={element.alt || ""} class="grid-image" />
@@ -1598,12 +1545,6 @@
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
-    -webkit-touch-callout: none; /* Prevent iOS callout */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Standard */
   }
 
   .grid-item p {
@@ -1957,9 +1898,6 @@
 
   .grid-item.has-image {
     position: relative;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
   }
 
   .grid-item.has-image:hover .zoom-button {
@@ -2008,11 +1946,6 @@
   @media (max-width: 767px) {
     .zoom-button {
       display: none;
-    }
-
-    /* Add visual feedback for long press on mobile */
-    .grid-item.has-image:active {
-      opacity: 0.8;
     }
   }
 </style>
