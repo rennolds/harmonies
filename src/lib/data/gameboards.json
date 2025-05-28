@@ -15870,5 +15870,42 @@
     "twitch": "",
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+    "05/29/2025": {
+    "playlist": "https://open.spotify.com/playlist/1vHUHrKgkSEbQain9OlmjA?si=4fde65ffda244ee6",
+    "gameoverGif": "https://media.wired.com/photos/59326e9a52d99d6b984de619/master/w_1600,c_limit/SuePunch.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Katy Perry song titles",
+        "elements": ["A: The One That Got Away", "Wide Awake", "Hot N Cold", "Ur So Gay"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics of Yesterday by the Beatles",
+        "elements": ["Why she had to go", "I said something wrong", "I´m not half a man I used to be", "They're here to stay"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "The Rolling Stone Top 4 Albums",
+        "elements": ["What’s Going On", "Pet Sounds", "Blue", "Songs in the Key of Life"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Glee actors",
+        "elements": ["Dianna Argon", "Lea Michele", "Naya Rivera", "Jonathan Groff"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
