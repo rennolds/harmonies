@@ -15907,5 +15907,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "05/30/2025": {
+    "playlist": "https://open.spotify.com/playlist/39whHSEvYaPqotrOtv2FbP?si=6ec1b876b59743b1",
+    "gameoverGif": "https://media4.giphy.com/media/skJu33ZdMdTmo/giphy.gif?cid=6c09b952lmck506aw3ovl2xre1dnpbec9zhpp0hkdag52q8f&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "OutKast Hits",
+        "elements": ["Hey ya", "Ms.Jackson", "So fresh, so clean", "Roses"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Avicii Albums",
+        "elements": ["True", "Stories", "Tim", "Days/Nights"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2015 hits",
+        "elements": ["Uptown funk", "Renegades", "stressed out", "Lean on"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "French Artists",
+        "elements": ["M83", "Gigi D'agostino", "Indila", "Daft punk"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "adam kox",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
