@@ -15676,43 +15676,6 @@
     "twitter": "",
     "spotify": ""
   },
-  "05/31/2025": {
-    "playlist": "",
-    "gameoverGif": "https://media2.giphy.com/media/hRCshlRvcg0LpvYBqm/giphy.gif?cid=6c09b952zz6z6jvlmedkfa9yus0bwco5hm7eka40fvldm7nu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
-    "categories": [
-      {
-        "color": "#CBff70",
-        "name": "Artists missing a \"J\"",
-        "elements": ["Cole", "Juicy", "LL Cool", "Balvin"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "Artists missing a \"G\"",
-        "elements": ["Warren", "Polo", "Kenny", "Karol"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Artists missing a \"B\"",
-        "elements": [".o.B.", "Cardi", "bno$", "Lil"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Artists missing a \"T\"",
-        "elements": ["V Girl", "Pain", "Pusha", "Ice"]
-      }
-    ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
-    "instagram": "",
-    "tiktok": "",
-    "youtube": "",
-    "twitch": "",
-    "twitter": "",
-    "spotify": ""
-  },
   "05/27/2025": {
     "playlist": "https://open.spotify.com/playlist/3GObuNyJcoep6JO8aheZQD?si=679fd21bb2344091",
     "gameoverGif": "https://media.tenor.com/F6fzcYt7jZEAAAAM/theneedledrop-fantano.gif",
@@ -15935,6 +15898,43 @@
     ],
     "shoutout": true,
     "shoutout-name": "adam kox",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "05/31/2025": {
+    "playlist": "https://open.spotify.com/playlist/3jahDi1k6XAZNHV8juSHXr?si=9ae5846189c34e34",
+    "gameoverGif": "https://media2.giphy.com/media/hRCshlRvcg0LpvYBqm/giphy.gif?cid=6c09b952zz6z6jvlmedkfa9yus0bwco5hm7eka40fvldm7nu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists missing a \"J\"",
+        "elements": ["Cole", "Juicy", "LL Cool", "Balvin"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists missing a \"G\"",
+        "elements": ["Warren", "Polo", "Kenny", "Karol"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists missing a \"B\"",
+        "elements": [".o.B.", "Cardi", "bno$", "Lil"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists missing a \"T\"",
+        "elements": ["V Girl", "Pain", "Pusha", "Ice"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
