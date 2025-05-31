@@ -2165,7 +2165,6 @@
         "color": "#FAA3FF",
         "name": "Songs with U.S. State Titles",
         "elements": ["Georgia On My Mind", "Sweet Home Alabama", "Dani California", "Ohio Is For Lovers"]
-
       },
       {
         "color": "#78DAF9",
@@ -12257,7 +12256,7 @@
     "twitter": "",
     "spotify": ""
   },
-    "03/11/2025": {
+  "03/11/2025": {
     "playlist": "https://open.spotify.com/playlist/2qEQMuEfI2FwI6gU0jqTUA?si=d371e712dc1c4085",
     "gameoverGif": "https://64.media.tumblr.com/a70129c924b75326c2f3ae57d010b17a/f03c1e1e30f99f51-e0/s400x600/66a96fe573e58d9336ac61163e7222330e9d67f3.gifv",
     "categories": [
@@ -15834,7 +15833,7 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
-    "05/29/2025": {
+  "05/29/2025": {
     "playlist": "https://open.spotify.com/playlist/1vHUHrKgkSEbQain9OlmjA?si=4fde65ffda244ee6",
     "gameoverGif": "https://media.wired.com/photos/59326e9a52d99d6b984de619/master/w_1600,c_limit/SuePunch.gif",
     "categories": [
@@ -15935,6 +15934,386 @@
     ],
     "shoutout": true,
     "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/01/2025": {
+    "playlist": "https://open.spotify.com/playlist/3kcPFDlE2LP143zT41qqIK?si=98c3772d1c1a4983",
+    "gameoverGif": "https://media4.giphy.com/media/cL4pqu8GGRIihabgSM/giphy.gif?cid=6c09b952nqvorewk65i592q0ijbk12nit36gxzd05gq2u9yb&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "The Beatles First Names",
+        "elements": ["John", "Paul", "George", "Ringo"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Nirvana's \"Smells Like Teen Spirit\"",
+        "elements": ["Fun to Lose", "To Pretend", "It Makes Me Smile", "Hello, hello"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lil Peep Albums",
+        "elements": ["Come Over When You're Sober", "Hellboy", "Crybaby", "Castles"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "People Drake Has Tattooed",
+        "elements": ["Denzel Washington", "Lil Wayne", "Aaliyah", "Sade"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "lucas",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/e92lucas/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/62MEJFz0EM0RxdQYFnwjJn?si=e1975a83c2cb4379",
+    "gameoverGif": "https://media3.giphy.com/media/jQtNeGB0aBacospX6m/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sia Songs",
+        "elements": ["Chandelier", "Unstoppable", "Titanium", "Elastic Heart"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2010's Indie Pop Songs",
+        "elements": ["Houdini", "Daylight", "Lisztomania", "Midnight City"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Metal Subgenres",
+        "elements": ["Heavy", "Doom", "Thrash", "Death"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Song Titles Without the Color",
+        "elements": ["Light", "Submarine", "Bone", "Rain"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/03/2025": {
+    "playlist": "https://open.spotify.com/playlist/28qWMaHD4D5hDscK3ctQ8h?si=05836ac289274a26",
+    "gameoverGif": "https://media3.giphy.com/media/OLFkP6BQKtREmQAcvz/giphy.gif?cid=6c09b95201bjsx2m2tcikuuoosyubvk9625xjvsibjrj10g8&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums With Upside Down Elements",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736e0adf50efd49e8421e0a243",
+            "alt": "Holland"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394",
+            "alt": "sweetener"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a47cc45418f557beb2de841c",
+            "alt": "Upside Down"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0",
+            "alt": "Harry's House"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2000's Pop Punk Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739abc36c36c1e8f189d9b3910",
+            "alt": "Let Go"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27354a8f4f9158546472fbb7280",
+            "alt": "Take Off Your Pants and Jacket"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273bee754528c08d5ff6799a1eb",
+            "alt": "Riot!"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739a482180e6a306229bff49dc",
+            "alt": "All Killer, No Filler"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Album of the Year Nominees in 2016",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c",
+            "alt": "Views"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27389992f4d7d4ab94937bf9e23",
+            "alt": "Lemonade"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f46b9d202509a8f7384b90de",
+            "alt": "Purpose"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27347ce408fb4926d69da6713c2",
+            "alt": "25"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Self-Titled Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734ce8b4e42588bf18182a1ad2",
+            "alt": "The Beatles"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273287875c6cc44b69b0a10f56c",
+            "alt": "blink-182"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96",
+            "alt": "Weezer"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c67362976ff2761070927a49",
+            "alt": "Beyoncé"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/0aKT33mOrOe2UC4wQqnKkW?si=978cc2986ca248e4",
+    "gameoverGif": "https://media.tenor.com/cvS7OoiXlpsAAAAM/disney-world-tinker-bell.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by former Disney Stars",
+        "elements": ["ballad of a homeschooled girl", "Nonsense", "Flowers", "Sucker"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Aerosmith Songs on \"Rock n’ Roller Coaster\"",
+        "elements": ["Love in an Elevator", "Sweet Emotion", "Walk This Way", "Dude (Looks Like A Lady)"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs that can play on \"Guardians of the Galaxy: Cosmic Rewind\"",
+        "elements": ["September", "Everybody Wants To Rule The World", "I Ran (So Far Away)", "One Way or Another"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Made For Disney World Rides",
+        "elements": ["It’s a Small World", "Grim Grinning Ghosts", "There’s a Great Big Beautiful Tomorrow", "Yo Ho!"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "chris went to disney world (was fun)",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "06/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/0pf8V3BEMfRd7JR6Ul7kA8?si=b2ddb1967150425b",
+    "gameoverGif": "https://c.tenor.com/kftrqqGKq0IAAAAC/tenor.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Popular Twenty One Pilots songs",
+        "elements": ["Ride", "Stressed Out", "Heathens", "Chlorine"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Popular British artists",
+        "elements": ["Arctic Monkeys", "Oasis", "Blur", "Gorillaz"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Popular \"rock\" bands in the 2010s",
+        "elements": ["Fall Out Boy", "Imagine Dragons", "Twenty One Pilots", "Panic! At the Disco"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Solo artists and bands with famous actors",
+        "elements": ["Wallows", "Djo", "Childish Gambino", "Calpurnia"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/06/2025": {
+    "playlist": "https://open.spotify.com/playlist/4n5ew5sK9Z2aNBFVjK7oP4?si=4ad41f6860da4153",
+    "gameoverGif": "https://media.tenor.com/kkSNoOPnxhoAAAAM/backstreet-boys-i-want-it-that-way.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs With Currencies in the Title",
+        "elements": ["Pound Cake", "MILLION DOLLAR BABY", "Gold Digger", "Peso"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from The Fray's \"How To Save a Life\"",
+        "elements": ["Step one", "Need to talk", "Stares politely", "Fear and Blame"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from the Backstreet Boys \"I Want It That Way\"",
+        "elements": ["My Fire", "One Desire", "Tell Me", "Why"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Pop Songs From Deluxe Albums",
+        "elements": ["obsessed", "Busy Woman", "dandelion", "New Romantics"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/07/2025": {
+    "playlist": "https://open.spotify.com/playlist/3mGdR80N2G1kqv0g7LdhF7?si=b17206ba10d34fc3",
+    "gameoverGif": "https://media.tenor.com/OOl81s62eYwAAAAM/ihyd-i-hate-your-deck.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Post Malone Songs",
+        "elements": ["allergic", "chemical", "hollywood's bleeding", "Congratulations"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "songs from one direction's \"made in the a.m.\"",
+        "elements": ["a.m.", "olivia", "drag me dowm", "perfect"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "singers from australia",
+        "elements": ["sia", "luke hemmings", "tame impala", "vance joy"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "repeated lyrics in \"APT\" by rose and bruno mars",
+        "elements": ["kissy face", "red hearts", "whatever", "sleep tomorrow"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/08/2025": {
+    "playlist": "https://open.spotify.com/playlist/0plVqeGCsItGq5vaKrpDWZ?si=a66cef9adb0b4186",
+    "gameoverGif": "https://tenor.com/rUuDBXovsj1.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Day of the Week Songs",
+        "elements": ["Sunday Bloody Sunday", "Monday Morning", "Tuesday’s Gone", "Friday I’m in Love"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "U2 Songs",
+        "elements": ["With or Without You", "The Fly", "Where the Streets Have No Name", "Pride (In the Name Of Love)"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "British Invasion Bands",
+        "elements": ["The Beatles", "The Kinks", "The Rolling Stones", "The Who"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Written by Prince",
+        "elements": ["Nothing Compares 2 U", "Manic Monday", "Raspberry Beret", "Purple Rain"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "isaacjay99",
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",

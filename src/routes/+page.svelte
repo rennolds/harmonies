@@ -863,12 +863,13 @@
 
     {#if !shoutout && !disableHeader}
       <h2 class="header-msg">
-        check out our new game, <a
+        <!-- check out our new game, <a
           href="https://crosstune.io"
           target="_blank"
           style="color: #FF6B00; text-decoration: none;"
           class="crosstune-link">crosstune.io</a
-        >!
+        >! -->
+        Create groups of four!
       </h2>
     {/if}
     {#if shoutout}
