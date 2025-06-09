@@ -4457,7 +4457,7 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Songs involving a telephone ",
+        "name": "Songs involving a telephone",
         "elements": ["Payphone", "Operator", "Call Me Maybe", "Hello"]
       },
       {
@@ -16314,6 +16314,44 @@
     ],
     "shoutout": true,
     "shoutout-name": "isaacjay99",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/09/2025": {
+    "playlist": "https://open.spotify.com/playlist/7yJWVs7S9BycKTUWpE9eJp?si=bdb1046d052142d2",
+    "gameoverGif": "https://media.tenor.com/Kn7KekdjkkEAAAAM/vanity-shake-emoforvanity.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Scene Radio Hits",
+        "elements": ["Dear Maria, Count Me In", "Shake It", "Dance, Dance", "I Write Sins Not Tragedies"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2014 Billboard Hot 100",
+        "elements": ["Turn Down For What", "Shake It Off", "Talk Dirty", "Stay With Me"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Luke Bryan's \"Country Girl (Shake It For Me)\"",
+        "elements": ["Shake It For the Birds", "Shake It For the Bees", "Shake It For Me", "Country Girl"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Booty Songs",
+        "elements": ["Shake That", "Bounce Back", "Smack That", "Juicy"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
