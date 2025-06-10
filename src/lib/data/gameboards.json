@@ -16361,5 +16361,126 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+   "06/10/2025": {
+    "playlist": "https://open.spotify.com/playlist/2nSiuuX5zrJYUVqPEVFh7A?si=2fa9f364b9f74c35",
+    "gameoverGif": "https://media.tenor.com/0M4t5iMWSo4AAAAM/post-malone-yay-me.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums With Childhood Photos of the Artist",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2737b688587a6754481c53f6bb7",
+            "alt": "ANTI"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27333ebdffaa447ff19ce9f24bb",
+            "alt": "Tha Carter III"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a90d170c61fb7d063d47161d",
+            "alt": "Nothing Was the Same"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d28d2ebdedb220e479743797",
+            "alt": "good kid, m.A.A.d"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Post Malone Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27309a51bd361845073cbd501b7",
+            "alt": "Stoney"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27388208159b1b3c69eefdeb2e0",
+            "alt": "F-1 Trillion"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268",
+            "alt": "beerbongs & bentleys"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273bbf401121625a31ba1a6a4bb",
+            "alt": "Hollywood's Bleeding"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Question Album Titles",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273b36949bee43217351961ffbc",
+            "alt": "What’s Going On"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c9adfbd773852e286faed040",
+            "alt": "Are You Experienced"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27313f2466b83507515291acce4",
+            "alt": "Is This It"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273693812c5802c5e5d8fc987da",
+            "alt": "Who Are You"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Released in 2000",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738512f90ead4b4412cd7832ae",
+            "alt": "Hybrid Theory"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738f82e4ffeb94f244f6a9b5af",
+            "alt": "The Marshall Mathers LP"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732350e31bc346a6c20e9de166",
+            "alt": "Stankonia"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739164bafe9aaa168d93f4816a",
+            "alt": "Parachutes"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
