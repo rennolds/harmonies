@@ -16482,5 +16482,43 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "06/11/2025": {
+    "playlist": "https://open.spotify.com/playlist/373pBILByPhIeFz4gnPVC8?si=5e2b6d98bb404d06",
+    "gameoverGif": "https://media.tenor.com/fjUrYCr0izsAAAAM/musediet-nicki-minaj.gif ",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sampeld by Kanye West",
+        "elements": ["Diamonds Are Forever", "Bound", "Through the Fire", "Harder, Better, Faster, Stronger"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Sampled by Eminem",
+        "elements": ["Dream On", "Thank You", "Toy Soldiers", "Abracadabra"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Sampled by Nicki Minaj",
+        "elements": ["Super Freak", "Baby Got Back", "No More ‘I Love You’s,", "Sorry"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Sampled by Will Smith",
+        "elements": ["Forget Me Nots", "I Wish", "He's The Greatest Dancer", "And The Beat Goes On"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "oren",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the song to the artist who sampled it",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
   }
 }
