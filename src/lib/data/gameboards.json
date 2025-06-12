@@ -16559,6 +16559,44 @@
     "spotify": "",
     "letterboxd": ""
   },
+  "06/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/5BIiYjOuApOJ4Eoto59Fmt?si=d080842c3c3740bb",
+    "gameoverGif": "https://media.tenor.com/V0APPte4hJIAAAAe/big-time-rush-boyfriend.png",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Iconic James Bond Title Songs",
+        "elements": ["Skyfall", "No Time to Die", "Live and Let Die", "Writing's on the Wall"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Best Original Song Academy Award Winners",
+        "elements": ["City Of Stars", "Shallow", "Let It Go", "Lose Yourself"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Musical Biographical Films",
+        "elements": ["A Complete Unknown", "Bohemian Rhapsody", "Rocket Man", "Elvis"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Television Series Based Musicians",
+        "elements": ["The Monkees", "Big Time Rush", "The Wiggles", "The Muppets Mayhem"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "for the silver screen",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
   "06/17/2025": {
     "playlist": "",
     "gameoverGif": "",
