@@ -16520,5 +16520,164 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  },
+  "06/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/1P2FysNi9N6qpAuFuPX0ok?si=fc1c75a7c3f14cd7",
+    "gameoverGif": "https://media1.giphy.com/media/1vSMkgkwGXWGA/200w.gif?cid=6c09b952my0xf4f184fpbw7et0fo0vyu4sby6nvv257xnw1w&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Michael Jackson Songs",
+        "elements": ["Bad", "Billie Jean", "Rock with You", "Dirty Diana"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "90's Rappers",
+        "elements": ["Nas", "Eminem", "Rakim", "Mos Def"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bad _____",
+        "elements": ["Guy", "Religion", "Habit", "Blood"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Members of A Tribe Called Quest",
+        "elements": ["Q-Tip", "Phife Dawg", "Ali Muhammad", "Jarobi"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@stephen_roskam",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/17/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Shirtless Cover Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Voodoo"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Blonde"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Harry Styles"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Get Rich or Die Tryin’"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Colorful Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Red"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "The Black Album"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Green Album"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Kind of Blue"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums by Artists Who Went Solo (Successfully)",
+        "elements": [
+          {
+            "type": "image",
+            "url": "",
+            "alt": "I Am…Sasha Fierce"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Love. Angel. Music. Baby."
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Harry's House"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Future Sex / Love Sounds"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Album Covers Changed For The Rollout",
+        "elements": [
+          {
+            "type": "image",
+            "url": "",
+            "alt": "how i’m feeling now"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Luv is Rage 2"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Vessel"
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": "Animal"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
