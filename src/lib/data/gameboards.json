@@ -16597,6 +16597,43 @@
     "spotify": "",
     "letterboxd": ""
   },
+  "06/14/2025": {
+    "playlist": "https://open.spotify.com/playlist/5BIiYjOuApOJ4Eoto59Fmt?si=8b46265651bf4dfa",
+    "gameoverGif": "https://media3.giphy.com/media/el0ou7lRocwSI/200w.gif?cid=6c09b952g6uhq53azjms5tq7ijb5aioqmoo5i7ran33e20v3&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Gorillaz",
+        "elements": ["Feel Good Inc.", "Clint Eastwood", "On Melancholy Hill", "DARE"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "All Things Daft Punk",
+        "elements": ["Discovery", "Around the World", "Instant Crush", "Human After All"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring Pharrell Williams",
+        "elements": ["Get Lucky", "Feels", "Blurred Lines", "Hit Different"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Crushes",
+        "elements": ["Still Into You", "Nonsense", "Teenage Dream", "Cloud 9"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "06/17/2025": {
     "playlist": "",
     "gameoverGif": "",
