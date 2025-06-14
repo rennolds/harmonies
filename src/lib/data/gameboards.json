@@ -62,7 +62,7 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Lyrics to\"Call Me Maybe\"",
+        "name": "Lyrics to \"Call Me Maybe\"",
         "elements": ["Wish in the Well", "This is Crazy", "I Missed You So Bad", "I Just Met You"]
       },
       {
@@ -498,7 +498,7 @@
       {
         "color": "#78DAF9",
         "name": "Lyrics from Lady Gaga's \"Telephone\"",
-        "elements": ["I Cannot Hear You", "I'm Kinda Busy", "Stop Calling", "Don't Wanna Talk Anymore"]
+        "elements": ["I Cannot Hear You", "Kinda Busy", "Stop Calling", "Don't Wanna Talk Anymore"]
       },
       {
         "color": "#FFBC21",
@@ -14143,7 +14143,6 @@
         "color": "#78DAF9",
         "name": "Bands With Head in Their Name",
         "elements": ["Talking", "Radio", "Portis", "Motör"]
-
       },
       {
         "color": "#FFBC21",
@@ -15537,7 +15536,7 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Lyrics to\"Call Me Maybe\"",
+        "name": "Lyrics to \"Call Me Maybe\"",
         "elements": ["Wish in the Well", "This is Crazy", "I Missed You So Bad", "I Just Met You"]
       },
       {
@@ -16634,113 +16633,29 @@
     "twitter": "",
     "spotify": ""
   },
-  "06/17/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+  "06/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/6nYNPoIVK5EOBn6Stj8o8z?si=75b6df59e0354406",
+    "gameoverGif": "https://i.pinimg.com/originals/30/6b/61/306b610d5f1d93cb46ad9101a4a585e8.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Shirtless Cover Albums",
-        "elements": [
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Voodoo"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Blonde"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Harry Styles"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Get Rich or Die Tryin’"
-          }
-        ]
+        "name": "Songs by The Black Eyed Peas",
+        "elements": ["Imma Be", "Pump It", "I Gotta Feeling", "Where Is the Love?"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Colorful Albums",
-        "elements": [
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Red"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "The Black Album"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Green Album"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Kind of Blue"
-          }
-        ]
+        "name": "Songs on Fergie's \"The Dutches\"",
+        "elements": ["Big Girls Don't Cry", "Clumsy", "London Bridge", "Fergalicious"]
       },
       {
         "color": "#78DAF9",
-        "name": "Albums by Artists Who Went Solo (Successfully)",
-        "elements": [
-          {
-            "type": "image",
-            "url": "",
-            "alt": "I Am…Sasha Fierce"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Love. Angel. Music. Baby."
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Harry's House"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Future Sex / Love Sounds"
-          }
-        ]
+        "name": "Songs about the weather",
+        "elements": ["Hurricane", "A Year Without Rain", "Landslide", "Crying Lightning"]
       },
       {
         "color": "#FFBC21",
-        "name": "Album Covers Changed For The Rollout",
-        "elements": [
-          {
-            "type": "image",
-            "url": "",
-            "alt": "how i’m feeling now"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Luv is Rage 2"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Vessel"
-          },
-          {
-            "type": "image",
-            "url": "",
-            "alt": "Animal"
-          }
-        ]
+        "name": "Songs by former American Idol contestants",
+        "elements": ["Since U Been Gone", "Before He Cheats", "No air", "Whataya want from me"]
       }
     ],
     "shoutout": false,
@@ -16753,6 +16668,347 @@
     "youtube": "",
     "twitch": "",
     "twitter": "",
-    "spotify": ""
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/16/2025": {
+    "playlist": "https://open.spotify.com/playlist/1whzHrvo8hsITGqhwnBGuK?si=acc24f92136941b7",
+    "gameoverGif": "https://media4.giphy.com/media/hJiIJerDisQl2P3N50/giphy-downsized.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Justin Bieber Songs",
+        "elements": ["Ghost", "Baby", "Sorry", "Peaches"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Twenty One Pilots Albums",
+        "elements": ["Clancy", "Vessel", "Trench", "Blurryface"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Without the \"Un\"",
+        "elements": ["Written", "Holy", "Forgettable", "Stoppable"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Most Covered Songs of All Time",
+        "elements": ["Yesterday", "Jolene", "Hallelujah", "Imagine"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/17/2025": {
+    "playlist": "https://open.spotify.com/playlist/2p2KIQdDrPWh3Og9fKccFg?si=4d469e335e46453d",
+    "gameoverGif": "https://i.makeagif.com/media/9-16-2015/TZljjN.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Shirtless Cover Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732b3dc336a7a69293c25d9ade",
+            "alt": "Voodoo"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+            "alt": "Blonde"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736c619c39c853f8b1d67b7859",
+            "alt": "Harry Styles"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734c88e268c9dc19f79ccdbb97",
+            "alt": "Get Rich or Die Tryin’"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Colorful Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27396384c98ac4f3e7c2440f5b5",
+            "alt": "Red"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c528802c308a1e0e4d9945dd",
+            "alt": "The Black Album"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27349052c8767d68e177fb704a0",
+            "alt": "Green Album"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2737ab89c25093ea3787b1995b4",
+            "alt": "Kind of Blue"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums by Artists Who Went Solo (Successfully)",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273801c4d205accdba0a468a10b",
+            "alt": "I Am…Sasha Fierce"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f049fc9322f0c93646cdcc77",
+            "alt": "Love. Angel. Music. Baby."
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0",
+            "alt": "Harry's House"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c6ba98fd3f3b396a6c6f7091",
+            "alt": "Future Sex / Love Sounds"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Album Covers Changed After The Rollout",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/CharlieXCX-HowI%27mFeelingNow-BratStyleCover.png/250px-CharlieXCX-HowI%27mFeelingNow-BratStyleCover.png",
+            "alt": "how i’m feeling now"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e02b47b9eda488a24c32b08b396",
+            "alt": "Luv is Rage 2"
+          },
+          {
+            "type": "image",
+            "url": "https://images.genius.com/3517a37f2f8ce13d2ea42bded78dd010.1000x1000x1.png",
+            "alt": "Vessel"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273142e5c0e611841b87c2dc533",
+            "alt": "Animal"
+          }
+        ]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "chris went to disney world (was fun)",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "06/18/2025": {
+    "playlist": "https://open.spotify.com/playlist/2dyCnESqRJWZWvsEtAS8hm?si=7bffadcbba4e4e3a",
+    "gameoverGif": "https://media.tenor.com/qUSrg4tX2NAAAAAM/performing-bob-dylan.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Famous Self-Titled Albums",
+        "elements": ["Beyoncé", "The Beatles", "Madonna", "Led Zeppelin"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs Named After Other Celebrities",
+        "elements": ["Pete Davidson", "Dua Lipa", "Buddy Holly", "Doja"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With a Biopic",
+        "elements": ["Bob Dylan", "Elvis Presley", "Freddie Mercury", "Elton John"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Eminem's List in \"Till I Collapse\"",
+        "elements": ["Reggie", "Jay-Z", "2Pac", "And Biggie"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "4 songs, 4 albums, 4 artists, and lyrics from a song",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/19/2025": {
+    "playlist": "https://open.spotify.com/playlist/55cyRwb3yVqmIjdOvLWlxC?si=57834fd6372a4dea",
+    "gameoverGif": "https://media.tenor.com/BTAksTLR5zUAAAAe/stu-mackenzie-king-gizzard.png",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "British Bands",
+        "elements": ["The Beatles", "The 1975", "Oasis", "The Kinks"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "American Bands",
+        "elements": ["Aerosmith", "The Killers", "Imagine Dragons", "Metallica"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Canadian Bands",
+        "elements": ["Rush", "Nickelback", "Arcade Fire", "Sum 41"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Australian Bands",
+        "elements": ["King Gizzard and the Lizard Wizard", "Amyl & The Sniffers", "Tame Impala", "Men at Work"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@notthefakejoehall",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the band to the country",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/20/2035": {
+    "playlist": "https://open.spotify.com/playlist/59w3jSb2VOAQEMUCfXcwef?si=73c52a6890b64724",
+    "gameoverGif": "https://media4.giphy.com/media/130C3ibwpXPJEA/200w.gif?cid=6c09b952hm2tc8611x200gvb65nzszopsosggj5rp42igqdr&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs Mentioning Weather",
+        "elements": ["Riders on the Storm", "Heat Waves", "Set Fire to the Rain", "It's Raining Men"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring Eminem",
+        "elements": ["My Band", "Roman's Revenge", "Smack That", "Forever"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Lady Gaga's \"Telephone\"",
+        "elements": ["I Cannot Hear You", "Kinda Busy", "Stop Calling", "Don't Wanna Talk Anymore"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from WALK THE MOON's \"Shut Up and Dance\"",
+        "elements": ["Don't Look Back", "You're Holding Back", "Shut Up", "Chemical, Physical Kryptonite"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "hailey pursifull",
+    "shoutout-socials": false
+  },
+  "06/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/16TxEYPFHNiWt7enZ0p1pA?si=8137af1dced3443f",
+    "gameoverGif": "https://i.makeagif.com/media/8-14-2015/OweRXg.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Andy Grammar Songs",
+        "elements": ["Honey, I'm Good", "Fresh Eyes", "Keep Your Head Up", "Don't Give Up On Me"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Featuring: Bruno Mars",
+        "elements": ["Please Me", "APT.", "Leave the Door Open", "Die with a Smile"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Sung by the Bellas in Pitch Perfect",
+        "elements": ["The Sign", "Price Tag", "Give Me Everything", "No Diggity"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Minus the S",
+        "elements": ["Acrifice", "Andman", "Hine", "Pins"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "dani & ashley",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/3Uwirm1pGRbADONQYaz8ft?si=8c08e646c2c44ed4",
+    "gameoverGif": "https://media.tenor.com/5GcRF2kLIpMAAAAM/rhcp-red-hot-chili-peppers.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Red Hot Chili Peppers",
+        "elements": ["Red", "Hot", "Chili", "Peppers"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Two Door Cinema Club",
+        "elements": ["Two", "Door", "Cinema", "Club"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Five Finger Death Punch",
+        "elements": ["Five", "Finger", "Death", "Punch"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Buena Vista Social Club",
+        "elements": ["Buena", "Vista", "Social", "Club"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
   }
 }
