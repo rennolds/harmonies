@@ -2201,7 +2201,6 @@
         "color": "#FAA3FF",
         "name": "Billboard Hot 100 in 2011",
         "elements": ["Give Me Everything", "E.T.", "Rolling in the Deep", "Blow"]
-
       },
       {
         "color": "#78DAF9",
@@ -2238,7 +2237,6 @@
         "color": "#FAA3FF",
         "name": "Songs from Taylor Swift's \"1989\"",
         "elements": ["Wildest Dreams", "Shake It Off", "Clean", "Blank Space"]
-
       },
       {
         "color": "#78DAF9",
@@ -2382,7 +2380,6 @@
         "color": "#FAA3FF",
         "name": "Lyrics to The Beastie Boy's \"Sabotage\"",
         "elements": ["Can't Stand It", "You Planned It", "I'm Out and I'm Gone", "Keep It On and On"]
-
       },
       {
         "color": "#78DAF9",
@@ -2453,7 +2450,6 @@
         "color": "#FAA3FF",
         "name": "Linkin Park Albums",
         "elements": ["Hybrid Theory", "Meteora", "Minutes to Midnight", "LIVING THINGS"]
-
       },
       {
         "color": "#78DAF9",
@@ -2630,7 +2626,6 @@
         "color": "#FAA3FF",
         "name": "From Fall Out Boy's \"We Didn't Start the Fire\" Remake",
         "elements": ["Stranger Things", "Tiger King", "Ever Given", "Suez"]
-
       },
       {
         "color": "#78DAF9",
@@ -2807,7 +2802,6 @@
         "color": "#FAA3FF",
         "name": "Fall Out Boy Albums",
         "elements": ["From Under The Cork Tree", "Take This To Your Grave", "Save Rock and Roll", "American Beauty/American Psycho"]
-
       },
       {
         "color": "#78DAF9",
@@ -3237,7 +3231,7 @@
       {
         "color": "#FFBC21",
         "name": "Albums with American Flag Covers",
-        "elements": ["Live.Love.A$  AP", "Pink Tape", "Born in the U.S.A.", "Stankonia"]
+        "elements": ["Live.Love.A$AP", "Pink Tape", "Born in the U.S.A.", "Stankonia"]
 
       }
     ],
@@ -17003,6 +16997,704 @@
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/23/2025": {
+    "playlist": "https://open.spotify.com/playlist/0MQa1xYnFF5v93z8bPEECJ?si=e98ed407920342c1",
+    "gameoverGif": "https://media.tenor.com/Gy_uh9jhHLEAAAAM/beyonce-confused.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Beyoncé's \"Halo\"",
+        "elements": ["It's the risk that I'm takin'", "I ain't ever gonna shut you out", "Everywhere I'm lookin'", "written all over your face"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Iconic Queen Lyrics",
+        "elements": ["Is this real life?", "I'm burnin' through the sky, yeah", "Mud on your face", "Another one gone"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Famous Opening Lyrics",
+        "elements": ["Let's get down to business", "Somebody once told me", "Coming out of my cage", "Two trailer parks girls go around the outside"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous Shawty ____ Lyrics",
+        "elements": ["like a melody in my head", "got low-low-low", "I don't mind", "fire burning on the dance floor"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/5Vax0UjcTdTKVP1oNPbCxy?si=26423cb3ed9e4828",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeL8J3r_7C9OHzG97cQK0uOhgok-uK0Zft-g&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers With Insects",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273985bf5ede2fe4a048ee85f28",
+            "alt": "Infest"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3",
+            "alt": "Flower Boy"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e01d7d558032457b0e4883f6",
+            "alt": "Brand New Eyes"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a545ea659fe5aecee4b50370",
+            "alt": "ButterFly"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Doja Cat Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27394203dd82d27b494c777d07c",
+            "alt": "Scarlet"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2733b017bad9fa5f880745c59cc",
+            "alt": "Planet Her"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f14aa81116510d3a6df8432b",
+            "alt": "Hot Pink"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e0c9d69f356c8b8a378a4d3c",
+            "alt": "Amala"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Album Titles With Days of the Week",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2733b50c381e5f477c3cd066286",
+            "alt": "Wednesday Morning, 3 A.M."
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273605128d275ca60ccc9cd3b6d",
+            "alt": "Saturday Night Fever (The Soundtrack)"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273651e1dbc0b5218f2306181a1",
+            "alt": "Pink Friday 2"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273651e1dbc0b5218f2306181a1",
+            "alt": "Tuesday Night Music Club"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums From Members of the Traveling Wilburys",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273863793947f0c770ba39b6d49",
+            "alt": "All Things Must Pass"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456",
+            "alt": "Full Moon Fever"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27341720ef0ae31e10d39e43ca2",
+            "alt": "Highway 61 Revisted"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2731b3c09cb3ec9f618664f2622",
+            "alt": "Oh, Pretty Woman"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "06/25/2025": {
+    "playlist": "https://open.spotify.com/playlist/06Tjy7uNzqON9Rx1mTJ5L7?si=61a29f0e3b674980",
+    "gameoverGif": "https://media.tenor.com/jUAZzuUuhWwAAAAM/zac-efron-high-school-musical.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Kanye West's \"Graduation\"",
+        "elements": ["I Wonder", "Can’t Tell Me Nothing", "Flashing Lights", "Homecoming"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Billboard Top 100 in 2007",
+        "elements": ["Crank That (Soulja Boy)", "Before He Cheats", "What Goes Around…Comes Around", "Irreplaceable"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 in 2025",
+        "elements": ["Luther", "Die With A Smile", "Ordinary", "Manchild"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from \"The Perks of Being a Wallflower\"",
+        "elements": ["Come On Eileen", "Asleep", "Teen Age Riot", "Heroes"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "oh, i graduated, oh yeah, i just graduated high school! - mac miller",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
+  "06/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/07if89KhZj7acYb20C2XAE?si=ab23b98ddc5849a4",
+    "gameoverGif": "https://media4.giphy.com/media/YWOW8m36LqmbgfuGf9/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs about New York City",
+        "elements": ["Empire State of Mind", "Naked in Manhattan", "Harlem Shake", "Theme From New York"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "From Ariana Grande's \"thank u, next\"",
+        "elements": ["7 rings", "imagine", "NASA", "thank u, next"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring: Drake",
+        "elements": ["SICKO MODE", "No Guidance", "Yes Indeed", "She Will"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Space",
+        "elements": ["Baby Pluto", "Starships", "Fly Me to the Moon", "Aliens Exist"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@henry.dejo",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/27/2025": {
+    "playlist": "https://open.spotify.com/playlist/075C2wwWYCqBplABh8BSRn?si=3bb811b6044a4b05",
+    "gameoverGif": "https://i.imgur.com/NY5OPT1.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sia - \"Elastic Heart\"",
+        "elements": ["Shia LaBeouf", "Bird Cage", "Interpretive Dance", "Leotard"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "PSY – \"Gangnam Style\"",
+        "elements": ["Tuxedo", "Sun Glasses", "Korea", "Horses"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Carly Rae Jepsen – \"Call Me Maybe\"",
+        "elements": ["Lawn Mowing", "Garage Band", "Car Wash", "Phone Number"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "OK Go – \"Here It Goes Again\"",
+        "elements": ["Treadmills", "One-Take Shot", "Colorful Outfits", "Synchronized Choreography"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: music video associations",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/28/2025": {
+    "playlist": "https://open.spotify.com/playlist/7jtiqpdgXJ2klD1kwbRFd9?si=779945e6691d4ea1",
+    "gameoverGif": "https://media.tenor.com/FgOVf4U06S4AAAAM/honeycardi-abel.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Frank Ocean's \"Channel Orange\"",
+        "elements": ["White", "Super rich kids", "Thinkin Bout you", "Pyramids"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "People in the Kendrick/Drake Beef Cinematic Universe",
+        "elements": ["Drake", "Metro Boomin'", "J. Cole", "DJ Mustard"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "The Weeknd Albums",
+        "elements": ["After Hours", "Starboy", "Beauty Behind the Madness", "House of Balloons"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Coldplay's \"Sparks\"",
+        "elements": ["Did I drive you away?", "I know I was wrong", "I saw sparks", "My heart is yours"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@222.adi",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/29/2025": {
+    "playlist": "https://open.spotify.com/playlist/2YFGxEY6xqZghs7016cRs6?si=54284a62fcb64501",
+    "gameoverGif": "https://i.imgur.com/sbRjP7D.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Avril Lavigne Songs",
+        "elements": ["Complicated", "Sk8er Boi", "My Happy Ending", "What the Hell"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Songs of 1983",
+        "elements": ["Girls Just Wanna Have Fun", "Sweet Dreams (Are Made of This)", "Billie Jean", "Every Breath You Take"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Gwen Stefani’s \"The Sweet Escape\"",
+        "elements": ["my own world", "your favorite girl", "perfectly together", "wouldn't that be sweet?"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Boyfriend Stealing Songs",
+        "elements": ["break up with your girlfriend, I’m bored", "Girlfriend", "Jolene", "Don't Cha"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "06/30/2025": {
+    "playlist": "https://open.spotify.com/playlist/4nCwD00mNl5Z1E1K95kjPk?si=29492c7733014b5e",
+    "gameoverGif": "https://media.tenor.com/nDhUSRc7Q-8AAAAM/timeline-doctor-strange.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Alternative Titles for Michael Jackson Songs",
+        "elements": ["Slick Baddie", "Shocker", "Eilish Denim", "Guy In The Reflection"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Alternate Titles for Taylor Swift Songs",
+        "elements": ["Brutal Sunny Season", "Wobble It Away", "Romance Tale", "Vacant Area"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Alternate Titles for Rolling Stones Songs",
+        "elements": ["Color It Darkly", "Provide Sanctuary To Me", "It's Difficult To Achieve Your Desire", "Feeling Bad for Satan"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Alternate Titles for Led Zeppelin Songs",
+        "elements": ["Shadowy Canine", "Escalator To The Afterlife", "Great Deal Of Affection", "Fleece"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "the heardle crew",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "songs from an alternative universe, maybe?",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "07/01/2025": {
+    "playlist": "https://open.spotify.com/playlist/5cpSQHd9B4EUiRmW5oBtBV?si=34f8d1d4bca14e67",
+    "gameoverGif": "https://media.tenor.com/L80QJgkhMuAAAAAM/linkin-park-no.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers with Animals",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2735b37a73489927b4d3dd1729b",
+            "alt": "Diamond Eyes"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2737a6ccbd3a41767e8eee6093f",
+            "alt": "Raditude"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee",
+            "alt": "Iowa"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c32e12829fb960100a3257c6",
+            "alt": "Atom Heart Mother"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Linkin Park Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738a8ecc5f8c246663fd828590",
+            "alt": "Meteora"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736741ca6e9ba6fdc166037321",
+            "alt": "Hybrid Theory"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736e996745f2c7b8036abef213",
+            "alt": "Minutes to Midnight"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d3acd0f2186daa8e4cb0f65b",
+            "alt": "Collision Course"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums Featuring Dave Grohl",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
+            "alt": "In Utero"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+            "alt": "Nevermind"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2730389027010b78a5e7dce426b",
+            "alt": "The Colour and the Shape"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273ee562e3936c096835ea122eb",
+            "alt": "Queens of the Stone Age"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Legendary Artists Final Studio Album",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1",
+            "alt": "Let It Be"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273878396b831779c9bfb500913",
+            "alt": "Made in Heaven"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736d965be72ad1bceb7f2bd089",
+            "alt": "Strangeways, Here We Come"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273463de2351439f6532ff0dfbd",
+            "alt": "Invincible"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "for my melodie minions",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/6O4HqanHjK2M0xwuh1AVHw?si=7929329e6311447d",
+    "gameoverGif": "https://media.tenor.com/J_qHiAJzsE4AAAAM/so-many-titles-mari-takahashi.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Mr. ____",
+        "elements": ["Sandman", "Jones", "Blue Sky", "Brightside"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Mrs. ____",
+        "elements": ["Officer", "Robinson", "Potato Head", "Mrs. Magic"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Miss ____",
+        "elements": ["Independent", "Possessive", "Jackson", "The Rage"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lady ____",
+        "elements": ["Gaga", "Killers II", "Marmalade", "Madonna"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "theme: honorifics",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
+  "07/03/2025": {
+    "playlist": "https://open.spotify.com/playlist/6eR3ZYFLMFRO61SMeHcOJd?si=e027c3078dbd4ced",
+    "gameoverGif": "https://media.tenor.com/god5gECznyIAAAAM/my-chemical-romance-helena.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "My Chemical Romance Songs",
+        "elements": ["Helena", "I Don't Love You", "The Ghost of You", "Teenagers"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The Killers Albums",
+        "elements": ["Sam's Town", "Hot Fuss", "Day & Age", "Wonderful Wonderful"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Key Words in Popular Green Day Songs",
+        "elements": ["Basket", "September", "Idiot", "Boulevard"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Paramore's \"Misery Business\"",
+        "elements": ["Body Like an Hourglass", "Where I Want Him", "People Never Change", "His Wildest Dreams"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "07/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/6k97kuOWTnHj855c0Ykdig?si=a827faaf60354003",
+    "gameoverGif": "https://i.makeagif.com/media/7-01-2015/5akK0u.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The All-American Rejects",
+        "elements": ["Gives You Hell", "Swing, Swing", "Move Along", "Dirty Little Secret"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Tate McCrae's \"greedy\"",
+        "elements": ["I would want myself", "Please believe me", "It won't end well", "Are you serious?"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "American ____",
+        "elements": ["Boy", "Teen", "Pie", "Girl"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "American Flag Album Covers",
+        "elements": ["Live.Love.A$AP", "Pink Tape", "Born in the U.S.A.", "Stankonia"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "07/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/6rSPhJgixukkjUSwxMbelV?si=3807ae739cd44285",
+    "gameoverGif": "https://tenor.com/view/ariana-grande-what-about-it-sassy-diva-gif-10730095",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs of the Summer in 2016",
+        "elements": ["One Dance", "Wild Thoughts", "The Middle", "This Is What You Came For"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Ariana Grande Collaboration Songs",
+        "elements": ["Side to Side", "Save Your Tears", "Bang Bang", "The Way"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2006 Rock Songs",
+        "elements": ["Snow (Hey Oh)", "The Diary of Jane", "Rockstar", "Face Down"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Afroman's \"Crazy Rap\"",
+        "elements": ["Two Zig Zags", "Baby, that's all we need", "From Here to Hong Kong", "Flyin' through Palmdale"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "tiana",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/tianadgarcia/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "07/06/2025": {
+    "playlist": "https://open.spotify.com/playlist/681XWXYqrwZCEgtuO9O7Md?si=d2059b274cee4d29",
+    "gameoverGif": "https://media.tenor.com/aliD2GG9J-gAAAAM/legend-snoop-dogg.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rock Icons",
+        "elements": ["Presley", "Lennon", "Wilson", "Dylan"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Country Icons",
+        "elements": ["Strait", "Milsap", "Parton", "Rogers"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Jazz Icons",
+        "elements": ["Byrd", "Davis", "Mingus", "Parker"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Rap Icons",
+        "elements": ["Wallace", "Carter", "Broadus", "Duckworth"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@braden.robinson23",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "legends of their genre",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
