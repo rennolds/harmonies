@@ -17742,8 +17742,8 @@
     "letterboxd": ""
   },
   "07/08/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/2RfBtZTBgMl9G3oEjFPCnd?si=0cd65512535b4fcb",
+    "gameoverGif": "https://i.makeagif.com/media/3-16-2016/qidCvd.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -17761,8 +17761,8 @@
           },
           {
             "type": "image",
-            "url": "https://i.scdn.co/image/ab67616d00001e0291237668384c4d646b30c05c",
-            "alt": "More Songs About Buildings and Food"
+            "url": "https://i.scdn.co/image/ab67616d0000b27378de8b28de36a74afc0348b5",
+            "alt": "good kid, m.A.A.d city"
           },
           {
             "type": "image",
@@ -17773,27 +17773,27 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "",
+        "name": "Solo One Direction Albums",
         "elements": [
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a",
+            "alt": "Fine Line"
           },
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b27396228ea35c337be94d1d11da",
+            "alt": "Mind of Mine"
           },
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b2733d13e91ce05c4e9b3e7201b7",
+            "alt": "Heartbreak Weather"
           },
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b273cf8a533756836c76fb1704cb",
+            "alt": "Faith in the Future"
           }
         ]
       },
@@ -17818,34 +17818,34 @@
           },
           {
             "type": "image",
-            "url": "https://i.scdn.co/image/ab67616d0000b2730af2276ae66a42e73eb07683",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739d488e9c15d99ac07c3aa0c0",
             "alt": "7"
           }
         ]
       },
       {
         "color": "#FFBC21",
-        "name": "",
+        "name": "Albums Released After a Group Member Left",
         "elements": [
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b273241e4fe75732c9c4b49b94c3",
+            "alt": "Made in the A.M."
           },
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b273dbd83e179619408e5d05cc99",
+            "alt": "After Laughter"
           },
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b273975116f966d8d19ff955029c",
+            "alt": "California"
           },
           {
             "type": "image",
-            "url": "",
-            "alt": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b273163cdae7f1e2c82786a84e3e",
+            "alt": "Survivor"
           }
         ]
       }
