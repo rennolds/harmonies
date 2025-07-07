@@ -17702,5 +17702,164 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  },
+  "07/07/2025": {
+    "playlist": "https://open.spotify.com/playlist/0DV893n29GQ5I8ks5nLN1H?si=51628555b60c4413",
+    "gameoverGif": "https://i.redd.it/ce0s230ubygb1.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Indie Rock Bands",
+        "elements": ["The Strokes", "Arcade Fire", "Arctic Monkeys", "Death Cab for Cutie"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Swedish Artists",
+        "elements": ["ABBA", "Avicii", "Ace of Base", "Zara Larsson"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists with Rhyming Names",
+        "elements": ["Chief Keef", "Ice Spice", "Tears for Fears", "Quiet Riot"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists with Eminem Fueds",
+        "elements": ["Ja Rule", "mgk", "Mariah Carey", "Nick Cannon"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "07/08/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Polaroid Album Covers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27304986cc325ba79fe52314a7b",
+            "alt": "1989"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d677f7d8a27bc830caacbeeb",
+            "alt": "Contra"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e0291237668384c4d646b30c05c",
+            "alt": "More Songs About Buildings and Food"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739153dd2b3abd4e0210e6c751",
+            "alt": "Polaroid Piano"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Number Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273582d56ce20fe0146ffa0e5cf",
+            "alt": "1"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2730583b006180e0124e7003353",
+            "alt": "FOUR"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7",
+            "alt": "30"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2730af2276ae66a42e73eb07683",
+            "alt": "7"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          },
+          {
+            "type": "image",
+            "url": "",
+            "alt": ""
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
