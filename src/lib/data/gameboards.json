@@ -17861,5 +17861,43 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/09/2025": {
+    "playlist": "https://open.spotify.com/playlist/4HPTG3vqGRMIDJ0XGBlXZW?si=fb94740c40a546e9",
+    "gameoverGif": "https://media.tenor.com/FMoBgUpWjtMAAAAM/eto-tiko-nvaguet-tikooo.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Subgenres of Rap",
+        "elements": ["Trap", "Jazz", "Cloud", "Drill"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Subgenres of Pop",
+        "elements": ["Hyper", "Indie", "Korean", "Bubblegum"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Subgenres of Metal",
+        "elements": ["Glam", "Heavy", "Nu", "Death"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Subgenres of EDM",
+        "elements": ["House", "Dubstep", "D&B", "Budots"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "maybe use the playlist idk",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
   }
 }
