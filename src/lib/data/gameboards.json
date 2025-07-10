@@ -17899,5 +17899,40 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
     "letterboxd": ""
+  },
+  "07/10/2025 ": {
+    "playlist": "https://open.spotify.com/playlist/70lyLHvRCOfrX2e5OCLSJT?si=a5b3868f7c5a4ab0",
+    "gameoverGif": "https://media.tenor.com/bqHqCXg476sAAAAM/shakira-me.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs about Japan",
+        "elements": ["Lovers in Japan", "Lost in Japan", "Tokyo (Vampires & Wolves)", "Kyoto"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Shakira Songs",
+        "elements": ["Hips Don't Lie", "Whenever, Wherever", "She Wolf", "Waka Waka"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from \"Unwritten\"",
+        "elements": ["Something in the Distance", "Feel the Rain", "On Your Skin", "Let It In"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs From Disney Kids",
+        "elements": ["vampire", "Same Old Love", "Party in the U.S.A.", "Cool For The Summer"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
