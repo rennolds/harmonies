@@ -17934,5 +17934,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/11/2025 ": {
+    "playlist": "https://open.spotify.com/playlist/3Tq5Oz0oOd1gZyIkgrHxO8?si=27fe6dbfc3df4ffa",
+    "gameoverGif": "https://media.tenor.com/4nA0uZxnH4UAAAAM/tick-tock-kesha.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "\"Recession Pop\" Songs",
+        "elements": ["We Found Love", "Tik Tok", "I Gotta Feeling", "Teenage Dream"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs That Were One-Hit Wonders",
+        "elements": ["Cheerleader", "Bad Day", "A Thousand Miles", "Stacy's Mom"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from MCR's \"Welcome to the Black Parade\"",
+        "elements": ["Not a hero", "Do or Die", "Just a Man", "When I was a Young Boy"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Second Word of Lady Gaga’s Hits",
+        "elements": ["Romance", "Face", "Dance", "On"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
