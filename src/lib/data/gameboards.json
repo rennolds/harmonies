@@ -17969,5 +17969,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/7xJMr7KFIVtqBvgWLP5q2u?si=c5e59b2201db4625",
+    "gameoverGif": "https://i.pinimg.com/originals/bc/5a/cf/bc5acfda03e27cd19ba4707548e229e2.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "European Electronic Artists",
+        "elements": ["Avicii","martin garrix","David guetta","daft punk"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "songs from music! by playboi carti",
+        "elements": ["HBA","like weezy","GOOD CREDIT","POP OUT"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "iconic guitar solos",
+        "elements": ["hotel california","stairway to heaven","free bird","wish you were here"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "rock and hiphop artists collabs",
+        "elements": ["FLY","one minute","collision course","walk this way"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@__.fanariwtis.__",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
