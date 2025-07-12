@@ -17981,8 +17981,8 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "songs from music! by playboi carti",
-        "elements": ["HBA","like weezy","GOOD CREDIT","POP OUT"]
+        "name": "songs from \"music\" by playboi carti",
+        "elements": ["RATHER LIE","like weezy","GOOD CREDIT","POP OUT"]
       },
       {
         "color": "#78DAF9",
@@ -17997,6 +17997,41 @@
     ],
     "shoutout": true,
     "shoutout-name": "@__.fanariwtis.__",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "07/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/3IaITSWQJoIVnABOH4k1ek?si=66758094134b4fe3",
+    "gameoverGif": "https://i.makeagif.com/media/6-26-2021/oxDBeD.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Marvin Gaye Songs",
+        "elements": ["Ain't No Mountain High Enough", "What's Going On", "Sexual Healing", "Let's Get It On"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Billboard Hot 100 in 1999",
+        "elements": ["No Scrubs", "Genie in a Bottle", "...Baby One More Time", "Believe"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Made for Movies",
+        "elements": ["Lose Yourself", "Sunflower", "My Heart Will Go On", "Skyfall"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Drake's \"God's Plan\"",
+        "elements": ["Lot of Bad Things", "Wishing on Me", "Do You Love Me?", "Only Partly"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
