@@ -18039,5 +18039,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/14/2025": {
+    "playlist": "https://open.spotify.com/playlist/1L3iSFKVlxLcpHMA8fd4bo?si=67daa37aa5a84d67",
+    "gameoverGif": "https://31.media.tumblr.com/tumblr_m9so3oVFOO1qgcra2o1_r1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Fleetwood Mac Songs",
+        "elements": ["Dreams", "Landslide", "The Chain", "Everywhere"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "J. Cole Albums",
+        "elements": ["Might Delete Later", "The Off-Season", "4 Your Eyez Only", "KOD"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Fictional Bands",
+        "elements": ["School of Rock", "The Blues Brothers", "Spinal Tap", "Sex Bob-Omb"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands Featured in the Soundtrack of \"American Pie\"",
+        "elements": ["blink-182", "Sugar Ray", "Third Eye Blind", "Goldfinger"] 
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
