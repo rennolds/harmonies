@@ -18109,5 +18109,43 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/16/2025": {
+    "playlist": "https://open.spotify.com/playlist/5lJniEaXNyekNCDisBO8dc?si=8e53f2d7419042f8",
+    "gameoverGif": "https://miro.medium.com/v2/resize:fit:1400/1*DjB_N1KhkCg5iO52AXOhkw.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Movies Starring Beyoncé",
+        "elements": ["Austin Powers in Goldmember", "Dreamgirls", "Cadillac Records", "The Lion King"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Movies Starring Lady Gaga",
+        "elements": ["Machete Kills", "A Star is Born", "House of Gucci", "Joker: Folie a Deux"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Movies Starring Frank Sinatra",
+        "elements": ["The Manchurian Candidate", "Ocean’s 11", "The Man with the Golden Arm", "Robin and the 7 Hoods"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Movies Starring Machine Gun Kelly",
+        "elements": ["Bird Box", "The King of Staten Island", "Good Mourning", "Jackpot!"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "pair the movie to the featured artist. i actually really like four of these movies. the rest suck. especially the gold category.",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
   }
 }
