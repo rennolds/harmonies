@@ -18074,5 +18074,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/6WE78WhfZoQVXB5ccaQrVi?si=bc25bbba780a48e6",
+    "gameoverGif": "https://media4.giphy.com/media/4YlufGwWuLHpu/200w.gif?cid=6c09b9524ae10nfrxyeaymbwu1tuiyij2g3sw8znj9m9mpam&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Usher Songs",
+        "elements": ["O.M.G.", "Confessions Pt. II", "Yeah!", "My Boo"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs About The Club",
+        "elements": ["Love in This Club", "In Da Club", "Club classics", "Club Can't Handle Me"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 in 2012",
+        "elements": ["Somebody That I Used To Know", "We Are Young", "Call Me Maybe", "Payphone"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Rebellion",
+        "elements": ["Smells Like Teen Spirit", "We're Not Gonna Take It", "American Idiot", "Fat Lip"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
