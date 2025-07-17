@@ -18147,5 +18147,42 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
     "letterboxd": ""
+  },
+  "07/17/2025": {
+    "playlist": "https://open.spotify.com/playlist/6plRPedn73RMH718m9Gn2e?si=f99b84e5a2b14930",
+    "gameoverGif": "https://media.tenor.com/NtoGoMw1rm4AAAAM/eurovision-dance.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "ABBA Hits",
+        "elements": ["Dancing Queen", "Gimme! Gimme! Gimme!", "SOS", "Waterloo"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "1972 Hits",
+        "elements": ["With or Without You", "Brandy", "Rocket Man", "American Pie"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "KISS Members",
+        "elements": ["Peter", "Paul", "Gene", "Ace"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums From 1976",
+        "elements": ["Jailbreak", "Songs in the Key of Life", "Rock and Roll Over", "A Night at the Opera"]
+      }
+    ],
+    "shoutout": false,
+    "special-message": true,
+    "message-content": "swingin' seventies",
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
