@@ -18221,5 +18221,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/19/2025": {
+    "playlist": "https://open.spotify.com/playlist/6MNm4o5emhYgPmjs2ekTDR?si=c41168c6ec7b457c",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3RNRFZVJHZz5jNLbVkMBMvVgUZjKNzmLX3Q&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Highest Rated Grunge Bands",
+        "elements": ["Nirvana", "Alice In Chains", "Stone Temple Pilots", "Pearl Jam"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rap Album of the Year Winners",
+        "elements": ["Tyler, The Creator", "Nas", "Lil Wayne", "Drake"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Feature on Travis Scott's \"Rodeo\"",
+        "elements": ["ScHoolboy Q", "Future", "Young Thug", "Kanye West"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Involving Chris Cornell",
+        "elements": ["Audioslave", "Soundgarden", "Temple of the Dog", "Mad Season"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "special-message": true,
+    "message-content": "hip hop & grunge",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
