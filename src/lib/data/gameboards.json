@@ -18184,5 +18184,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/18/2025": {
+    "playlist": "https://open.spotify.com/playlist/1WSLTUBfHVZPNAbJL0Kiqt?si=7e77498f2a554729",
+    "gameoverGif": "https://64.media.tumblr.com/tumblr_m8i1uir9TI1r30wq7o1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "MGMT Songs",
+        "elements": ["Electric Feel", "Kids", "Time to Pretend", "Little Dark Age"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Death Cab For Cutie's \"Plans\"",
+        "elements": ["I Will Follow You Into the Dark", "Soul Meets Body", "Crooked Teeth", "Marching Bands of Manhattan"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Cage the Elephant's \"Ain't No Rest for the Wicked\"",
+        "elements": ["Pretty Little Thing", "Shadow of a Man", "Preacher Man in Cuffs", "Close Our Eyes For Good"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2020's Indie Songs",
+        "elements": ["I Know The End", "The Adults Are Talking", "HOT TO GO!", "Cloud 9"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
