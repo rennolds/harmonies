@@ -18258,5 +18258,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/20/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/LJQyac6tF7MAAAAM/dancing-grooving.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Jay-Z Songs",
+        "elements": ["4:44", "Otis", "99 Problems", "Izzo (H.O.V.A.)"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with 'Heart' in the Title",
+        "elements": ["Heart of Gold", "jar of hearts", "Heartless", "Total Eclipse of the Heart"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Recorded on Ukulele",
+        "elements": ["House of Gold", "Riptide", "Hey, Soul Sister", "The Judge"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Rap Verse, Pop Girl Chorus",
+        "elements": ["Empire State of Mind", "Love The Way You Lie", "Glorious", "I Need A Doctor"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
