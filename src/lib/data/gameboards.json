@@ -18293,5 +18293,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/6cPZhL5SDqTVg9PUOJ4tNH?si=0a4ecbd97fee485f",
+    "gameoverGif": "https://media.tenor.com/LJQyac6tF7MAAAAM/dancing-grooving.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs Named After Movies",
+        "elements": ["Kill Bill", "Dirty Harry", "Iron Man", "Godzilla"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Descriptors in Eminem's \"Lose Yourself\"",
+        "elements": ["Sweaty Palms", "Weak Knees", "Heavy Arms", "Ruined Sweater"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "1D Deep Cuts",
+        "elements": ["Home", "Wolves", "Na na na", "Olivia"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "A Boogie Wit da Hoodie Albums",
+        "elements": ["Me vs. Myself", "Better off alone", "Hoodie szn", "The bigger artist"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
