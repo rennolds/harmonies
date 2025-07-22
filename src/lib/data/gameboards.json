@@ -18311,7 +18311,7 @@
       {
         "color": "#78DAF9",
         "name": "1D Deep Cuts",
-        "elements": ["Home", "Wolves", "Na na na", "Olivia"]
+        "elements": ["Kiss You", "Wolves", "History", "Olivia"]
       },
       {
         "color": "#FFBC21",
@@ -18328,5 +18328,32 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/04ZVxfOjANDjpTGScoU3wQ?si=d32758938d544023",
+    "gameoverGif": "https://media.tenor.com/6P0iZYDjBQIAAAAM/dasq.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists with Acronym Names",
+        "elements": ["ABBA", "TLC", "REM", "NSYNC"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Label Acronyms",
+        "elements": ["RCA", "WMG", "BMG", "EMI"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Common Acronyms for Albums",
+        "elements": ["MBDTF", "TKOL", "MPP", "CMIYGL"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Major Chord Notes",
+        "elements": ["CEG", "GBD", "FAC", "BbDF"]
+      }
+    ],
+    "shoutout": false
   }
 }
