@@ -18355,5 +18355,43 @@
       }
     ],
     "shoutout": false
+  },
+  "07/23/2025": {
+    "playlist": "https://open.spotify.com/playlist/2bE1lKx6LNCVEFq0JACASE?si=be9d0d68a30247a7",
+    "gameoverGif": "https://64.media.tumblr.com/34f65bf5c1b241063a920e863ebfe6d9/tumblr_mwjkj7MuvG1qc41wuo9_r2_250.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Indie rock bands asking questions",
+        "elements": ["Where Is My Mind?", "Do I Wanna Know?", "Are You Gonna Be My Girl", "Why Won’t They Talk To Me?"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "R&B stars asking questions",
+        "elements": ["Where Have You Been", "How Does It Feel?", "Are You That Somebody?", "Are We Still Friends?"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Marvin Gaye is confused",
+        "elements": ["What’s Going On", "Where Are We Going?", "What Kind of Fool Am I", "When Did You Stop Loving Me, When Did I Stop Loving You?"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Four of 50 Cent’s \"21 Questions\"",
+        "elements": ["Would you still have love for me?"  , "would you be down to ride?", "If I wrote you a love letter, would you write back?", "Would you love me in a Bentley?"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "jeopardy",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
   }
 }
