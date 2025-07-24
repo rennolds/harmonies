@@ -18393,5 +18393,34 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
     "letterboxd": ""
+  },
+  "07/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/1VA2jsjvepqvFnoyqj54pO?si=dcf0dfa79f934e10",
+    "gameoverGif": "https://media.tenor.com/6P0iZYDjBQIAAAAM/dasq.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Famous Rock Artist Last Names",
+        "elements": ["Plant", "Lennon", "Clapton", "Gilmour"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Metallica Members (1983–1986)",
+        "elements": ["Cliff", "Kirk", "Lars", "James"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by Nirvana",
+        "elements": ["Lithium", "Polly", "Breed", "Dumb"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "First Word of Queen Songs",
+        "elements": ["Bohemian", "Killer", "Under", "Another"]
+      }
+    ],
+    "shoutout": false,
+    "special-message": true,
+    "message-content": "rock & metal"
   }
 }
