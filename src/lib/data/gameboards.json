@@ -18424,7 +18424,7 @@
     "message-content": "rock & metal"
   },
   "07/25/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/7qpR2oolHiD1eDYgzCjRZc?si=022d875b86d14697",
     "gameoverGif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI3eDg2NjUzdnh5M29nNnN6aGVyMWk0b3JiMWFjdGM3aWV0ZGt6eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/G8rcbSPfCgs3VDrWi5/giphy.gif",
     "categories": [
       {
@@ -18465,6 +18465,84 @@
           "Go Your Own Way",
           "No One Noticed",
           "Don't Speak"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "special-message": false,
+    "message-content": ""
+  },
+  "07/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/16Q0sDLx3ijBF7hIEw5W6T?si=9d78447572034258",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsM3idtwOXl5CrufoMtiIzw62IQbexUydoew&s",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "2010s Internet Earworms",
+        "elements": ["Friday", "Call Me Maybe", "Gangnam Style", "TiK ToK"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Dreamworks Movie Tie-Ins",
+        "elements": ["Happy", "Shine Your Way", "Dancing In The Dark", "True Colors"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Justin Timberlake's \"Rock Your Body\"",
+        "elements": ["Don't be so quick", "to walk away", "dance with me", "'til the break of day"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Cheaters (Offender or Otherwise)",
+        "elements": ["Denial is a River", "How Long", "Scotty Doesn't Know", "10 Things I Hate About You"]
+      }
+    ],
+    "shoutout": false,
+    "special-message": false,
+    "message-content": ""
+  },
+  "07/27/2025": {
+    "playlist": "https://open.spotify.com/playlist/1xbe0aFZFTlpStnaajXKdB?si=b815ca165c61455c",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFE8mnw_Jbz9OFgRCkrmZAtVn3pNQUYLYKcQ&s",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Panic! At The Disco Song Titles",
+        "elements": [
+          "Victorious",
+          "Death of a Bachelor",
+          "High Hopes",
+          "I Write Sins Not Tragedies"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "SOMBR Song Titles",
+        "elements": [
+          "Undressed",
+          "Would've Been You",
+          "Back to Friends",
+          "do i ever cross your mind"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Twenty One Pilots \"Ride\" Lyrics",
+        "elements": [
+          "better sounds no one's ever heard",
+          "My name's Blurryfacek",
+          "Taking my time",
+          "I'm falling"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Fall Out Boy's \"Sugar, We're Goin Down\" ",
+        "elements": [
+          "more than you bargained for",
+          "number one with a bullet",
+          "Loaded God complex",
+          "Cock it and pull it"
         ]
       }
     ],
