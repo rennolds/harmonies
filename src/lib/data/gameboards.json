@@ -18422,5 +18422,54 @@
     "shoutout": false,
     "special-message": true,
     "message-content": "rock & metal"
+  },
+  "07/25/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemI3eDg2NjUzdnh5M29nNnN6aGVyMWk0b3JiMWFjdGM3aWV0ZGt6eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/G8rcbSPfCgs3VDrWi5/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Lyrics from \"Don't Stop Believin\"",
+        "elements": [
+          "Hold on to that feelin",
+          "streetlight people",
+          "Small town girl",
+          "Midnight train goin anywhere"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Ariana Grande Features",
+        "elements": [
+          "My Favorite Part",
+          "Bed",
+          "Rain On Me",
+          "I Don't Do Drugs"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2014 Billboard Hits",
+        "elements": [
+          "Happy",
+          "Dark Horse",
+          "All of Me",
+          "Fancy"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Fellow Bandmates",
+        "elements": [
+          "Silver Springs",
+          "Go Your Own Way",
+          "No One Noticed",
+          "Don't Speak"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "special-message": false,
+    "message-content": ""
   }
 }
