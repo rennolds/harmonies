@@ -18578,5 +18578,126 @@
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false
+  },
+  "07/29/2025": {
+    "playlist": "https://open.spotify.com/playlist/7cLW79iUWWiF22Eqv5DeMK?si=97f094f11da84a69",
+    "gameoverGif": "https://i.pinimg.com/originals/97/fd/4f/97fd4fa30915ce82ffe2143169160c32.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Photo ID Covers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273696b4e67423edd64784bfbb4",
+            "alt": "Call Me If You Get Lost"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e02aeb2911c7be74a3b1e39dd85",
+            "alt": "Veteran: Director's Cut "
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e0207e4d2a3ec42810ee7705fd0",
+            "alt": "Stacy"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739511e3a2fc113eae0dd111dd",
+            "alt": "Resident Alien"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Fall Out Boy Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27371565eda831124be86c603d5",
+            "alt": "from under the cork tree"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739dea43e1ba135094aae5a600",
+            "alt": "Folie à Deux"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2733cf1c1dbcfa3f1ab7282719b",
+            "alt": "American Beauty/American Psycho"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273da071ae7564949fbbfc6904d",
+            "alt": "Infinity On High"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rock Operas",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnlv2jgjF0J_SGUht3ZaO_8n7uASmjts5cA&s",
+            "alt": "The Black Parade"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvspuGANBsUWISiLpzf5JRmxBPz76NO8HcIA&s",
+            "alt": "The Wall"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ33MFksvfSo03r3ZK5r0Qm3xWN_1m2WjlNw&s",
+            "alt": "American Idiot"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27374ecb94bc3e5d851a39a0334",
+            "alt": "Tommy"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cad190f1a73c024e5a40dddd",
+            "alt": "Donda"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cc57e9b00b87dd0f6e868347",
+            "alt": "Whitney"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27382ce5c15eb33e743565982c8",
+            "alt": "Joanne"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e020f4f19f09818756f25916e45",
+            "alt": "Amala"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
