@@ -18699,5 +18699,80 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "07/30/2025": {
+    "playlist": "https://open.spotify.com/playlist/5ocPgS4AshvGILyZyGMTc2?si=55f7e05347c2466a",
+    "gameoverGif": "https://media.tenor.com/Dv2QVPKQtnMAAAAM/lil-uzi-vert-shoulder.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Big Artists",
+        "elements": ["BigXThaPlug", "Big Pun", "Fatman Scoop", "Fat Joe"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Gun Artists",
+        "elements": ["Lil Uzi Vert", "Machine Gun Kelly", "NLE Choppa", "Tech N9ne"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "$$$ Artists",
+        "elements": ["Moneybagg Yo", "50 Cent", "Flipp Dinero", "Ty Dolla $ign"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Honorific Artists",
+        "elements": ["Sir Mix-A-Lot", "Dr. Dre", "Ms. Lauryn Hill", "Mr. Fantastik"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "jeopardy",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
+  "07/31/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [
+
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [
+
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [
+
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [
+
+        ]
+      }
+    ],
+    "shoutout": false,
+    "special-message": false,
+    "message-content": ""
   }
 }
