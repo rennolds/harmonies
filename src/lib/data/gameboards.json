@@ -18384,8 +18384,8 @@
     "shoutout": "true",
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
-    "special-message": true,
-    "message-content": "jeopardy",
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
@@ -18767,7 +18767,10 @@
         "color": "#FFBC21",
         "name": "",
         "elements": [
-
+            "Ye & Daft Punk",
+            "Eminem & Dido",
+            "Nicki Minaj & Sir Mix‑a‑Lot",
+            "Vanilla Ice & Queen",
         ]
       }
     ],
