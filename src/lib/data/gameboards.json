@@ -18786,5 +18786,54 @@
     "shoutout": false,
     "special-message": false,
     "message-content": ""
+  },
+  "08/01/2025": {
+    "playlist": "https://open.spotify.com/playlist/4HxUrsR7BDhxHpxqSbVbD5?si=cf94d8c099094c44",
+    "gameoverGif": "https://media2.giphy.com/media/igziZGqzOLRwdvM8zf/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Super Bass Lyrics",
+        "elements": [
+          "Top down AC",
+          "Got stacks on deck",
+          "He never fly coach",
+          "Kiss him on the lip"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hamilton Songs",
+        "elements": [
+          "My Shot",
+          "Non-Stop",
+          "You'll Be Back",
+          "Satisfied"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "K-Pop Demon Hunter Songs",
+        "elements": [
+          "Soda Pop",
+          "Free",
+          "Golden",
+          "Your Idol"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Who Collab with Taylor Swift",
+        "elements": [
+          "The Chicks",
+          "Florence + The Machine",
+          "Bon Iver",
+          "Ed Sheeran"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "special-message": true,
+    "message-content": "for the teenage girls"
   }
 }
