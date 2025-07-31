@@ -18739,33 +18739,42 @@
     "letterboxd": ""
   },
   "07/31/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/52klmEHQ3DSc7jfAeFjrlq?si=2f47cef4e0244468",
+    "gameoverGif": "https://hips.hearstapps.com/hmg-prod/images/giphy-1549873883.gif?crop=1xw:1xh;center,top&resize=980:*",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
+        "name": "Producer-Singer Combos",
         "elements": [
-
+          "Mark Ronson & Bruno Mars",
+          "Calvin Harris & Rihanna",
+          "David Guetta & Sia",
+          "Kygo & Selena Gomez"
         ]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
+        "name": "Country Couple Collaborations",
         "elements": [
-
+          "Kenny Rogers & Dolly Parton",
+          "Tim McGraw & Faith Hill",
+          "Brad Paisley & Carrie Underwood",
+          "Blake Shelton & Gwen Stefani"
         ]
       },
       {
         "color": "#78DAF9",
-        "name": "",
+        "name": "Artist Beefs",
         "elements": [
-
+          "Eminem & MGK",
+          "50 Cent & Ja Rule",
+          "Taylor Swift & Ye",
+          "Kendrick Lamar & Drake"
         ]
       },
       {
         "color": "#FFBC21",
-        "name": "",
+        "name": "Rappers And an Artist They Sampled",
         "elements": [
             "Ye & Daft Punk",
             "Eminem & Dido",
