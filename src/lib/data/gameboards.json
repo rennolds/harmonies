@@ -18835,5 +18835,43 @@
     "shoutout": false,
     "special-message": true,
     "message-content": "for the teenage girls"
+  },
+  "08/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/7d2fx4Jx2HsUs0QWLJ0z0A?si=8a396dca9c844425",
+    "gameoverGif": "https://tenor.com/view/un-beso-kiss-coqueto-phil-collins-genesis-gif-2253462808194792020",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Legendary Rock Drummers",
+        "elements": ["Peart", "Bonham", "Baker", "Collins"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Movie Composers",
+        "elements": ["Zimmer", "Silvestri", "Morricone", "Williams"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands with Somebody's Name in it",
+        "elements": ["Franz Ferdinand", "The Smiths", "Pink Floyd", "Alice in Chains"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists with a song called \"Stay\"",
+        "elements": ["Rihanna", "Post Malone", "Zedd", "The Kid LAROI"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "abby.colton424",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://instagram.com/abby.colton424",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
   }
 }
