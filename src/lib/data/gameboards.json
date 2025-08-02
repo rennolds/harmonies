@@ -18873,5 +18873,424 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  }, 
+  "08/03/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUycHAyMG5qemYwbWhwbjAxNmVicm03NHVyNHpubG9sa3dvOW81cXV5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l7NmjbPTKpkpByddoa/giphy-downsized.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Weezer",
+        "elements": ["Beverly Hills", "Island in the Sun", "Say It Ain’t So", "Buddy Holly"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Female-Led Rock Bands",
+        "elements": ["Paramore", "No Doubt", "The Cranberries", "Evanescence"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Ladies of the 80's Hits",
+        "elements": ["How Will I Know", "Like a Virgin", "Time After Time", "What's Love Got to Do with It"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands That Reunited In the 2020's",
+        "elements": ["Oasis", "blink-182", "*NSYNC", "My Chemical Romance"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/04/2025": {
+    "playlist": "",
+    "gameoverGif": "https://pyxis.nymag.com/v1/imgs/0c2/228/dc3776d36a1a756bf0a4fe92a59d02719a-downtown-fingerwag.w710.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Macklemore & Ryan Lewis Songs",
+        "elements": ["Downtown", "Same Love", "Thrift Shop", "Can’t Hold Us"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "If Metro don’t trust you i’ma shoot you",
+        "elements": ["Mask Off", "Jumpman", "Creepin’", "Like That"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Duet Love Songs",
+        "elements": ["Dilemma", "Shallow", "My Boo", "Endless Love"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "____ Girl",
+        "elements": ["Galway", "Rich", "Uptown", "Material"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  }, 
+  "08/05/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/EX93PqH1T50AAAAM/mtv-unplugged-nirvana.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers With Skylines",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27378425bdddbcb0e2726f14bf2",
+            "alt": "Sonic Highways"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273045fc920ecf4f8094888ec26",
+            "alt": "Illmatic"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273ba30ca94ee44e9bbdbfb2548",
+            "alt": "Come On Feel the Illinoise!"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c",
+            "alt": "Views"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Released in 2004",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cab7ae4868e9f9ce6bdfdf43  ",
+            "alt": "Three Cheers for Sweet Revenge"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d",
+            "alt": "Hot Fuss"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78",
+            "alt": "The College Dropout"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273365b3fb800c19f7ff72602da",
+            "alt": "Confessions"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Live at [Famous Venue] Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+            "alt": "Unplugged in New York"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734a04593b7c149dc7b725683e",
+            "alt": "At Folsom Prison"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c44b4edcddfb5e0de5a7165e",
+            "alt": "Live at Red Rocks"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2737194162099bd1c1be244de6e",
+            "alt": "Live at the Apollo"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums Named After Virtues",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273b7a9a6a2bf311630d3fc6956",
+            "alt": "Faith"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27320348cbe8085fd2d310e2d74",
+            "alt": "Gratitude"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+            "alt": "Justice"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734dad5a0b9134614386f6cb81",
+            "alt": "Truth"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/06/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/JmG_JF452LsAAAAM/billy-joel.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Billy Joel Songs",
+        "elements": ["Vienna", "Goodbye Saigon", "Say Goodbye to Hollywood", "New York State of Mind"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs Referencing the Middle East",
+        "elements": ["B.O.B (Bombs Over Baghdad)", "Arab Money", "Walk Like An Egyptian", "Istanbul (Not Constantinople)"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by Asian Artists",
+        "elements": ["Gangnam Style", "For Lovers", "Di Na Muli", "Stacks From All Sides"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs in Italian (Surprisingly)",
+        "elements": ["We No Speak Americano", "Time To Say Goodbye", "Prisencolinensinainciusol", "Bella Ciao"]
+      }
+    ],
+    "shoutout": "true",
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
+  "08/07/2025": {
+    "playlist": "",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo5kcxXJem-uiH4hr4Vipcsz_7aSKlxsiltg&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Hozier Songs",
+        "elements": ["Take Me to Church", "Work Song", "Someone New", "Too Sweet"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Billy Joel Albums",
+        "elements": ["Streetlife Serenade", "Glass Houses", "The Stranger", "An Innocent Man"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Kendrick Lamar's \"HUMBLE.\"",
+        "elements": ["syrup sandwiches", "crime allowances", "somethin' natural", "sick of the photoshop"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Top Fleetwood Mac Songs",
+        "elements": ["Dreams", "The Chain", "Everywhere", "Go Your Own Way"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "shoutout to my dad",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "08/08/2025": {
+    "playlist": "",
+    "gameoverGif": "https://giphy.com/gifs/music-video-britney-spears-toxic-l41YaEfCkjCyHl1Oo",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Famous Lyrics From Britney Spears' \"...Baby One More Time\"",
+        "elements": [
+          "How was I supposed to know?",
+          "'cause I need to know now",
+          "Give me a sign",
+          "My loneliness is killin' me"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "First Lines of Ariana Grande Songs",
+        "elements": [
+          "thought I'd end up with Sean",
+          "I didn't think you'd understand me",
+          "Breakfast at Tiffany's",
+          "I'm so into you"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Last Lines of Chappell Roan Songs",
+        "elements": [
+          "Okay it's hot, I'll call the cab",
+          "Fall right into me",
+          "I'm gonna keep on dancing",
+          "stop the world just to stop the feeling"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "First Line of the Second Verse of Taylor Swift Songs",
+        "elements": [
+          "I never miss a beat",
+          "Cherry lips, crystal skies",
+          "I'm really gonna miss you picking fights",
+          "Sometimes I feel like everybody is a sexy baby"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "lyrics from pop divas",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "08/09/2025": {
+    "playlist": "",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDVP86H8Xipe_dZPYcfA0ImUUK-8xReREsUQ&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2000's Country Tracks",
+        "elements": ["Chicken Fried", "Life is a Highway", "Beer for My Horses", "Whiskey Lullaby"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Food Inclusive Artists",
+        "elements": ["Red Hot Chili Peppers", "Black Eyed Peas", "Peach Pit", "Blue Öyster Cult"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Young/Yung Artists",
+        "elements": ["Lean", "Gravy", "Thug", "Dolph"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Tracks from MF DOOM's \"MM..FOOD\"",
+        "elements": ["Beef Rap", "Hoe Cakes", "One Beer", "Rapp Snitch Knishes"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "michael gagin",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/user/gagimic?si=bb9e939cb9f1465a"
+  },
+  "08/10/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/6RA06Rd_SwQAAAAM/thank-you-youre-welcome.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Justin Timberlake Features",
+        "elements": [
+          "Where is the love",
+          "4 Minutes",
+          "Dead and Gone",
+          "Holy Grail"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Glee Couple Ships",
+        "elements": [
+          "Brittana",
+          "Klaine",
+          "Finchel",
+          "Tike"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Musicians Who Were Knighted",
+        "elements": [
+          "Paul McCartney",
+          "Elton John",
+          "Tom Jones",
+          "Bono"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "From Aerosmith's \"I Don't Want to Miss a Thing\"",
+        "elements": [
+          "Miss one kiss",
+          "Close my eyes",
+          "Fall asleep",
+          "Miss a thing"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "michael gagin",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "https://open.spotify.com/user/gagimic?si=bb9e939cb9f1465a"
   }
 }
