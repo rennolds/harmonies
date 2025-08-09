@@ -2272,7 +2272,6 @@
         "color": "#FAA3FF",
         "name": "Country Artists",
         "elements": ["Tim McGraw", "Luke Combs", "Garth Brooks", "Toby Keith"]
-
       },
       {
         "color": "#78DAF9",
@@ -19239,7 +19238,7 @@
     "spotify": "https://open.spotify.com/user/gagimic?si=bb9e939cb9f1465a"
   },
   "08/10/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/6OpQAzr6na6Ply4UzKhbw0?si=2c13bcc83c874a6e",
     "gameoverGif": "https://media.tenor.com/6RA06Rd_SwQAAAAM/thank-you-youre-welcome.gif",
     "categories": [
       {
@@ -19283,14 +19282,369 @@
         ]
       }
     ],
-    "shoutout": true,
-    "shoutout-name": "michael gagin",
-    "shoutout-socials": true,
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
     "twitter": "",
     "spotify": "https://open.spotify.com/user/gagimic?si=bb9e939cb9f1465a"
+  },
+  "08/11/2025": {
+    "playlist": "https://open.spotify.com/playlist/3pa5qTYTdvfsowmZrZUXPh?si=63bf23e813704d86",
+    "gameoverGif": "https://media4.giphy.com/media/lXCLl5mExlNbG/giphy.gif?cid=6c09b9527y6nbcj4vbdpsthanv975tly86vozifeu6chtq7g&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Katy Perry Tracks",
+        "elements": ["Firework", "Roar", "Peacock", "Smile"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Girl Group Songs",
+        "elements": ["Waterfalls", "Survivor", "Wannabe", "Pink Venom"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Audio Effects",
+        "elements": ["Reverb", "Delay", "Chorus", "Distortion"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "From Mulan's \"I'll Make a Man Out of You\"",
+        "elements": ["River", "Typhoon", "Fire", "Moon"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/0dJr1ZNtriR4h0TkrNi4p9?si=1bad72b9010f4f5f",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Masks & Helmets on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937", "alt": "Random Access Memories" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47", "alt": "Madvillainy" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27391f5ee49ad8fa5da6f4bcfcf", "alt": "Theater of Pain" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27381e0d9617e70d75e7ae11fa6", "alt": "Slipknot" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Won \"Best Rap Album\" Grammy in 2016-2019",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1", "alt": "To Pimp a Butterfly" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e71dd15fc5bdefd5bff70452", "alt": "Coloring Book" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699", "alt": "DAMN." },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a0caffda54afd0a65995bbab", "alt": "Invasion of Privacy" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Collaboration Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27373304ce0653c7758dd94b259", "alt": "No.6 Collaborations" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27359a1132f3cab22f80b2d2777", "alt": "Hell: The Sequel" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d0bbd3ea2ec554f17a6603cc", "alt": "An Evening with Silk Sonic" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27352e61456aa4995ba48d94e30", "alt": "Watch the Throne" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums with Roman Numerals in the Title",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27343894b56fe4efc7565918eeb", "alt": "Queen II" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273df8c14c6ac24390cffd9fea4", "alt": "V" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a0597558ceea871c35de00ab", "alt": "III" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd", "alt": "x" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/643OgbUar0yM7TqNyeL4Ze?si=8319d56071134df1",
+    "gameoverGif": "https://i.makeagif.com/media/9-24-2015/1NJvpA.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "White __",
+        "elements": ["Ferrari", "Iverson", "& Nerdy", "Wedding"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Black __",
+        "elements": ["Beatles", "and Yellow", "Velvet", "Bird"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Blue __",
+        "elements": ["Monday", "Hair", "World", "Jeans"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Green __",
+        "elements": ["Eyes", "Light", "Room", "Mile"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
+  "08/14/2025": {
+    "playlist": "https://open.spotify.com/playlist/1LRhfB99KFV8AcHowWFf6V?si=50595a988426437d",
+    "gameoverGif": "https://media.tenor.com/oi7VPVsXM9sAAAAM/linkin-park-in-the-end.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Madonna Songs",
+        "elements": ["4 Minutes", "Vogue", "Material Girl", "Hung Up"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Doja Cat Albums",
+        "elements": ["Planet Her", "Scarlet", "Hot Pink", "Amala"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Don't You ________",
+        "elements": ["Want Me", "Forget About Me", "Worry Child", "Know"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Linkin Park's \"In the End\"",
+        "elements": ["One thing", "I don't know why", "The pendulum swings", "It all fell apart"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "doran",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "08/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/5cathPoKhLfx9oLXFzrIdi?si=1af4556ccb6249c2",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-jBR-V5FPUQ01O4aCmKM9jAu-udngvt-LLQ&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Radiohead Songs",
+        "elements": ["Creep", "No Surprises", "Jigsaw Falling Into Place", "Karma Police"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from The Beatles' \"Come Together\"",
+        "elements": ["Got to be a joker", "he do what he please", "Come together right now", "over me"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Roads",
+        "elements": ["Boulevard of Broken Dreams", "Take Me Home, Country Roads", "Ocean Avenue", "Highway to Hell"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Generational Collabs",
+        "elements": ["Cold Heart", "FourFiveSeconds", "Take What You Want", "Old Town Road - Remix"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "08/16/2025": {
+    "playlist": "https://open.spotify.com/playlist/35pqei0DA07P65b2cDwZpC?si=6c44174453ed469c",
+    "gameoverGif": "https://i.pinimg.com/originals/17/ca/a3/17caa372681a27714b76d2a8aa2358e7.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bruno Mars Songs",
+        "elements": ["The Lazy Song", "It Will Rain", "Gorilla", "That’s What I Like"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lana Del Rey Songs",
+        "elements": ["National Anthem", "The Other Woman", "Mariners Apartment Complex", "Margaret"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Cigarettes After Sex Songs",
+        "elements": ["Nothing’s Gonna Hurt You Baby", "Apocalypse", "Kiss It Off Me", "Holding You, Holding Me"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lucky Daye Songs",
+        "elements": ["How Much Can A Heart Take", "Candy Drip", "HERicane", "That’s You"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "happy 18th birthday chris b-e!",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
+  "08/17/2025": {
+    "playlist": "https://open.spotify.com/playlist/4G4vkac5Y23XRQGoO7rQjU?si=7388d387ac5c4162",
+    "gameoverGif": "https://i.makeagif.com/media/12-02-2015/rd1_cv.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Smashing Pumpkins",
+        "elements": ["1979", "Mayonaise", "Pennies", "Today"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Track 2 From Ariana Grande Albums",
+        "elements": ["Dangerous Woman", "34+35", "Problem", "needy"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from sombr's \"undressed\"",
+        "elements": ["You had a dream", "you wanted better", "holes in your sweater", "don't wanna get undressed"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Cigarettes",
+        "elements": ["Ode to Viceroy", "Cocoa Butter Kisses", "Cigarette Daydreams", "Cigarettes out the Window"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "hbd audrey",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "08/18/2025": {
+    "playlist": "https://open.spotify.com/playlist/1YYy7W6TwqJ1lDO5Q79iT6?si=84780fea0e63486d",
+    "gameoverGif": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fmac-miller-gifs&psig=AOvVaw2mys4xJFU8L-0yZ5VFGG45&ust=1717803949830000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiwoMSUyIYDFQAAAAAdAAAAABAI",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Mac Miller Songs",
+        "elements": ["Small Worlds", "Self Care", "The Spins", "Donald Trump"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Country Artists",
+        "elements": ["Tim McGraw", "Luke Combs", "Garth Brooks", "Toby Keith"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Mark Ronson's \"Uptown Funk\"",
+        "elements": ["Stop", "Wait a Minute", "Michelle Pfeiffer", "White Gold"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Named After Actors",
+        "elements": ["pete davidson", "Clint Eastwood", "Uma Thurman", "Drew Barrymore"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/6hPNgUTie869Bga0odtgkl?si=c0eb272d747f4493",
+    "gameoverGif": "https://media.tenor.com/TtWKWeyJZXAAAAAe/dj-head-bang.png",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "90s Alt Rock",
+        "elements": ["Nirvana", "Radiohead", "Beck", "Smashing Pumpkins"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Musical Duos",
+        "elements": ["Daft Punk", "100 Gecs", "The White Stripes", "Twenty One Pilots"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Supergroups",
+        "elements": ["Audioslave", "Velvet Revolver", "Madvillain", "Boygenius"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands With DJs/Turntablists",
+        "elements": ["Deftones", "Vein.fm", "Linkin Park", "Incubus"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@paige_in_park",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
   }
 }
