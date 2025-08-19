@@ -19609,6 +19609,182 @@
     "twitter": "",
     "spotify": ""
   },
+  "08/19/2025": {
+    "playlist": "https://open.spotify.com/playlist/4XBXh5rd0u1iC0aSEIGlHX?si=591a92e2093b4625",
+    "gameoverGif": "https://media.tenor.com/i-4Vy3nqhGIAAAAM/beachboys-boyband.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Four-Person Bands in Grids",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
+            "alt": "Demon Days"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1",
+            "alt": "Let It Be"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d254ca497999ae980a5a38c5",
+            "alt": "Hot Space"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c44f6a1887cd3e917c53b900",
+            "alt": "Blur: The Best Of"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Named After A Location",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+            "alt": "Abbey Road"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27354cc3c482a2773faa2d2ef67",
+            "alt": "Michigan"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cd9d8bc9ef04014b6e90e182",
+            "alt": "London Calling"
+          },
+          {
+            "type": "image", 
+            "url": "https://i.scdn.co/image/ab67616d0000b2738c1fadcc997a65384f34d694", 
+            "alt": "Boston"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums From Duos",
+        "elements": [
+          {
+            "type": "image", 
+            "url": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937", 
+            "alt": "Random Access Memories"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736caad685af37c08063be928d",
+            "alt": "Vessel"
+          },
+          {
+            "type": "image",
+            "url": "Elephant",
+            "alt": "https://i.scdn.co/image/ab67616d0000b273a740e40ad00eaf662962f91d"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732350e31bc346a6c20e9de166",
+            "alt": "Stankonia"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Non-Debut Self Titled Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27357178878cb8ed2d146080c3e",
+            "alt": "The Beach Boys"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2730538b48c180256e0bdd8363f",
+            "alt": "blink-182"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273dc9d54ec465b4f79df7423d5",
+            "alt": "Genesis"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734baa9746d93e7cc8b3beca61",
+            "alt": "Blur"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "08/20/2025": {
+    "playlist": "https://open.spotify.com/playlist/5IrzFjIPNzgwOiU6Mev4WI?si=ba768624afbe459f",
+    "gameoverGif": "https://media.tenor.com/1cgE5LkiYUAAAAAM/tpain.gif",
+    "categories": [
+        {
+          "color": "#CBFF70",
+          "name": "T-Pain Songs",
+          "elements": [
+            "I’m N Luv (Wit A Stripper)",
+            "Buy U a Drank",
+            "Bartender",
+            "Cyclone"
+          ]
+        },
+        {
+          "color": "#FAA3FF",
+          "name": "Camila Cabello + A Rapper",
+          "elements": [
+            "Havana",
+            "My Oh My",
+            "I LUV IT",
+            "Work From Home"
+          ]
+        },
+        {
+          "color": "#78DAF9",
+          "name": "Lyrics to Fleetwood Mac’s \"Silver Springs\"",
+          "elements": [
+            "Time cast a spell on you", "I know I could have loved you", "Never get away from the sound", "Was I such a fool?"
+          ]
+        },
+        {
+          "color": "#FFBC21",
+          "name": "Songs With Part 1 & Part 2",
+          "elements": [
+            "Another Brick in the Wall",
+            "De Selby",
+            "Boy’s a Liar",
+            "Independent Women"
+          ]
+        }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "happy 18th birthday chris b-e!",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
   "08/21/2025": {
     "playlist": "https://open.spotify.com/playlist/6hPNgUTie869Bga0odtgkl?si=c0eb272d747f4493",
     "gameoverGif": "https://media.tenor.com/TtWKWeyJZXAAAAAe/dj-head-bang.png",
