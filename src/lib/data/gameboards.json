@@ -19822,5 +19822,40 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  },
+  "08/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/1mX1sJj0Jn90ZZLjTeI2hn?si=14c0ae0eab83415f",
+    "gameoverGif": "https://media.tenor.com/22Zg3-2rZE0AAAAM/rapper-hip-hop.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Fleetwood Mac Songs",
+        "elements": ["Dreams", "Landslide", "Gypsy", "Everywhere"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "R&B Songs",
+        "elements": ["Promiscuous", "Dilemma", "Emotions", "Foolish"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Shaboozy's \"Tipsy (A Bar Song)\"",
+        "elements": ["Whiskey", "History", "Street", "Tipsy"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "21 ____",
+        "elements": ["Pilots", "Savage", "Questions", "Guns"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
