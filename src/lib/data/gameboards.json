@@ -19857,5 +19857,60 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
-  }
+  },
+  "08/23/2025": {
+    "playlist": "https://tenor.com/view/nascar-dale-earnhardt-gif-2294839004421961560",
+    "gameoverGif": "https://open.spotify.com/playlist/79q6RHvixc1fRMcSc0ArvH?si=e024387fe5e249c8",
+    "categories": [
+    {
+        "color": "#CBff70",
+        "name": "Amy Winehouse Songs",
+        "elements": [
+          "You Know I'm No Good",
+          "Rehab",
+          "Stronger Than Me",
+          "Back To Black"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Women in Beatles Songs",
+        "elements": [
+          "Lucy",
+          "Valerie",
+          "Eleanor",
+          "Rita"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs From 1972",
+        "elements": [
+          "Without You",
+          "Me & Mrs. Jones",
+          "Highway Star",
+          "Blue Sky"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Racing",
+        "elements": [
+          "The Distance",
+          "Bicycle Race",
+          "Tokyo Drift",
+          "Speed Drive"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "the inverts on spotify",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  }  
 }
