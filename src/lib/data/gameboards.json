@@ -8231,7 +8231,6 @@
         "color": "#78DAF9",
         "name": "Female Rap Alter Egos",
         "elements": ["Chun Li", "Tina Snow", "Scarlet", "Roman Zolanski"]
-
       },
       {
         "color": "#FFBC21",
@@ -20345,5 +20344,444 @@
     "spotify": "",
     "special-message": true,
     "message-content": "band members come and go"
-  } 
+  },
+  "08/31/2025": {
+    "playlist": "https://open.spotify.com/playlist/36suJwnEzsSe48D9RrQHpt?si=3b15f127067e4edd",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyOXFxdjU2enUzZ2RoazIzOGF3ZWd5OTVlbXV4cjN1Y3V5azJmano1OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MCAJOUPffLWg1jZEmG/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Oasis",
+        "elements": ["Wonderwall", "Champagne Supernova", "Don't Look Back in Anger", "Stop Crying Your Heart Out"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2023 Pop Bangers",
+        "elements": ["Red Wine Supernova", "Rush", "vampire", "Speed Drive"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from The Gorillaz \"Feel Good Inc.\"",
+        "elements": ["Laughing Gas", "Hazmats", "Fast Cats", "I Gravitate"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featuring Eminem & 50 Cent",
+        "elements": ["Crack a Bottle", "Gatman and Robbin", "Remember The Name", "Patiently Waiting"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "09/01/2025": {
+    "playlist": "https://open.spotify.com/playlist/20FMKEPfiscaavUbhfYYZX?si=2744ae7e2f9c497c",
+    "gameoverGif": "https://i.makeagif.com/media/4-12-2017/8QA9Kz.gif",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Song Titles Minus \"you\"",
+        "elements": [
+          "Belong with me",
+          "Broke me first",
+          "Close to",
+          "Don't own me"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "I _____",
+        "elements": [
+          "Love it",
+          "Gotta feeling",
+          "Will survive",
+          "Want it that way"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "____ Us",
+        "elements": [
+          "What about",
+          "Can't hold",
+          "Not like",
+          "They don't care about"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "We _____",
+        "elements": [
+          "Will rock you",
+          "Built this city",
+          "Didn't start the fire",
+          "Are young"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "special-message": false
+  },
+  "09/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/4lOCaqA483XlTYCLYwTe96?si=c79d7cc6007c4fc6",
+    "gameoverGif": "https://media.tenor.com/CSIQd7Nq0vcAAAAM/chappell-roan-chappell-roan-carpool-karaoke.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Iconic Street Scene Covers",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2737d214af8499aa95ad220f573", "alt": "The Freewheelin' Bob Dylan" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25", "alt": "Abbey Road" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732f2eeee9b405f4d00428d84c", "alt": "(What's the Story) Morning Glory?" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ce928bc5dc2ed4d8e6d82366", "alt": "The Rise and Fall of Ziggy Stardust..." }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "90's West Coast \"G Funk\" Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d00001e029710731c9d7baec635f1bab1", "alt": "The Chronic" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733d8c2a1fd8e8c2c2d4c844d2", "alt": "Doggystyle" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27396f5bc9411b0037554293f87", "alt": "Regulate... G Funk Era" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273073aebff28f79959d2543596", "alt": "All Eyez on Me" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hotel Album Titles",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27341eb08284b8d4eea7777f0ff", "alt": "Hotel California" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738895ff0f90525f4aa9437c27", "alt": "Tranquility Base Hotel & Casino" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273cfc4b1939aba562fc97159c5", "alt": "Hotel Diablo" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273702f9f060e890217dbe2a724", "alt": "Hotel Paper" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "One-and-Done Studio Albums (For Now, At Least)",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9", "alt": "The Miseducation of Lauryn Hill" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b691fa29c123b5fc4bc5d469", "alt": "Never Mind the Bollocks, Here's the Sex Pistols" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27396fa88fb1789be437d5cb4b6", "alt": "The Rise and Fall of a Midwest Princess" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273df6e579914fc309b0e0bd745", "alt": "Give Up" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "09/03/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "",
+        "elements": [
+          ""
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [
+          ""
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [
+          ""
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [
+          ""
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "09/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/0G4uD5e0QnFkOJolqbNkkC?si=a09a8151958249ce",
+    "gameoverGif": "https://64.media.tumblr.com/15a9533198d81f76bc34c3a6687d8156/6009a7968380f728-9a/s540x810/2e7402e4969983424da66df15ef4d7a7f57b0387.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Charli XCX's \"Apple\"",
+        "elements": ["To the airport", "Symmetrical lines", "Just wanna drive", "Yellow or Green"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "From Artists Who Dated Taylor Swift",
+        "elements": ["Sign of the times", "Cake by the ocean", "Summer", "About you"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Blackpink & American Pop Star Collabs",
+        "elements": ["Kiss and Make Up", "Ice Cream", "Sour Candy", "Bet You Wanna"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Tate McRae's \"Sports Car\"",
+        "elements": ["Boy, don't make me choose", "You ain't got no Mrs", "I think you know what this is", "We can share one seat"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "09/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/3X0yDmk2M49bkUt3YuPqGW?si=ac1dc562ba334840",
+    "gameoverGif": "https://media.tenor.com/lXRSv_6udKwAAAAM/weeknd-lost.gif",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Drake & Rihanna Collaborations",
+        "elements": [
+          "Take Care",
+          "Too Good",
+          "Work",
+          "What’s My Name?"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Kendrick & SZA Collaborations",
+        "elements": [
+          "luther",
+          "gloria",
+          "All The Stars",
+          "30 For 30"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Jay-Z & Beyoncé Collaborations",
+        "elements": [
+          "Drunk In Love",
+          "03’ Bonnie & Clyde",
+          "Crazy In Love",
+          "Family Feud"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "The Weeknd & Lana Del Rey Collaborations",
+        "elements": [
+          "Stargirl Interlude",
+          "Lust For Life",
+          "The Abyss",
+          "Prisoner"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "special-message": true,
+    "message-content": "male + female collaborations"
+  },
+  "09/06/2025": {
+    "playlist": "https://open.spotify.com/playlist/1B3dAJKRcMltYIp6psZtyT?si=1919a98e4a9e4da3",
+    "gameoverGif": "https://i.redd.it/m925crrmt5we1.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Dr. Dre Songs",
+        "elements": ["The Next Episode", "Still D.R.E.", "Nuthin' but a \"G\" Thang", "Stranded on Death Row"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs about medicine/medication",
+        "elements": ["Painkiller", "Morphine", "Bad Medicine", "Medicine Jar"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Song Titles Minus \"Doctor/Dr.\"",
+        "elements": ["Jones", "Feelgood", "Robert", "I Need A"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists with a song named \"Fever\"",
+        "elements": ["Dua Lipa", "Aerosmith", "The Black Keys", "Peggy Lee"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "Instagram @joseignacio.rosales",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "hint": "is anyone a doctor?"
+  },
+  "09/07/2025": {
+    "playlist": "https://open.spotify.com/playlist/5AFmydo9Ib17GiNHKyA8ef?si=114a36e555514574",
+    "gameoverGif": "https://hips.hearstapps.com/popularmechanics/assets/17/39/1506353439-guit.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Grunge Songs",
+        "elements": ["Alive", "Smells Like Teen Spirit", "Black Hole Sun", "Would?"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by Duos",
+        "elements": ["Seven Nation Army", "Lonely Boy", "Ride", "Ms. Jackson"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Guitar Hero III Songs",
+        "elements": ["Paint It Black", "One", "Barracuda", "Through the Fire and Flames"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Welcome To _____",
+        "elements": ["The Black Paraqde", "The Jungle", "My Life", "Paradise"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "goat & the thinker"
+  },
+  "09/08/2025": {
+    "playlist": "https://open.spotify.com/playlist/2Sy0DDDdUEj3LOIjgLdoNG?si=e8497dc46d44477a",
+    "gameoverGif": "https://64.media.tumblr.com/5f023067bc2abab90e2a9073270a2951/6b2548de395514eb-01/s500x750/ab0379ea781c185f8515529fe1f8186837b7dfea.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "One Direction SOngs",
+        "elements": ["18", "Perfect", "Night Changes", "Kiss You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Taylor Swift's \"Red\"",
+        "elements": ["22", "All Too Well", "Everything Has Changed", "Red"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from blink-182's \"What's My Age Again?\"",
+        "elements": ["23", "ADD", "TV shows", "call id"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Grammy Album of the Year Winners 2016-2019",
+        "elements": ["1989", "24K Magic", "25", "Golden Hour"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": ""
+  },
+  "09/11/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media3.giphy.com/media/l1af4p8DgDsRAM0Zka/source.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs about Gambling",
+        "elements": ["Go Down Gambling’", "Nine Ball", "Lady Luck", "Ramblin’ Gamblin’ Man"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs of 2012",
+        "elements": ["Locked out of Heaven", "Call Me Maybe", "Clarity", "Starships"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring: Juice WRLD",
+        "elements": ["Ransom", "Hate Me", "Without Me", "Godzilla"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Noah Kahan Album Names",
+        "elements": ["Stick Season", "Live From Fenway Park", "I Was/ I Am", "Busyhead"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "buryyhannah",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/buryyhannah"
+  },
+  "09/12/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media3.giphy.com/media/b9hUG3cGsZYi8aaKXk/giphy.gif?cid=6c09b952942tm1jb6iy1fa73mi8105xu8qba2phdw82o8bp9&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Morgan Wallen Songs",
+        "elements": ["Last Night", "You Proof", "Wasted On You", "Whiskey Glasses"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by EDM Duos",
+        "elements": ["Get Lucky", "Don't Let Me Down", "Peanut Butter Jelly", "Bonfire"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Gotye's \"Somebody That I Used To Know\"",
+        "elements": ["To Cut Me Off", "Like a stranger", "Feels so rough", "Change your number"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Really Long Songs",
+        "elements": ["All Too Well (10 Minute Version)", "Runaway", "Pyramids", "Purple Rain"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
 }
