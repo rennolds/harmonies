@@ -20494,49 +20494,41 @@
     "spotify": ""
   },
   "09/03/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/6oA1yjURGmMYgilDIwzKwj?si=acae79b2824a47b0",
+    "gameoverGif": "https://media.tenor.com/8ZBU10aIsGkAAAAM/j-cole-jermaine-lamarr-cole.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [
-          ""
-        ]
+        "name": "J. Cole Songs",
+        "elements": ["No Role Modelz", "Wet Dreamz", "Work Out", "MIDDLE CHILD"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [
-          ""
-        ]
+        "name": "Lyrics from Jay-Z's \"99 Problems\"",
+        "elements": ["Girl Problems", "99", "Ain't One", "Hit Me"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [
-          ""
-        ]
+        "name": "Billboard Hot 100 in 2006",
+        "elements": ["Over My Head (Cable Car)", "Chasing Cars", "Hips Don't Lie", "Unwritten"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [
-          ""
-        ]
+        "name": "Rock Duets",
+        "elements": ["Stop Draggin’ My Heart Around", "Under Pressure", "Leather and Lace", "I Got You Babe"]
       }
     ],
-    "shoutout": true,
-    "shoutout-name": "chris b-e",
-    "shoutout-socials": true,
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
     "instagram": "",
-    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "tiktok": "",
     "youtube": "",
     "twitch": "",
-    "twitter": "https://x.com/cmb__e",
-    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+    "twitter": "",
+    "spotify": ""
   },
   "09/04/2025": {
     "playlist": "https://open.spotify.com/playlist/0G4uD5e0QnFkOJolqbNkkC?si=a09a8151958249ce",
@@ -20784,5 +20776,5 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
-}
+  }
 }
