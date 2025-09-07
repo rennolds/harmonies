@@ -802,6 +802,42 @@
     zoomedImage = null;
     zoomedAlt = "";
   }
+
+  // Safely render markdown-style links [text](url) in special messages
+  function escapeHtml(input) {
+    return String(input)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+  }
+
+  function sanitizeUrl(url) {
+    if (typeof url !== "string") return "#";
+    const trimmed = url.trim();
+    if (!/^https?:\/\//i.test(trimmed)) return "#";
+    return trimmed;
+  }
+
+  function renderSpecialMessage(message) {
+    if (!message) return "";
+    const pattern = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+    let result = "";
+    let lastIndex = 0;
+    for (const match of message.matchAll(pattern)) {
+      const index = match.index ?? 0;
+      result += escapeHtml(message.slice(lastIndex, index));
+      const text = match[1];
+      const url = match[2];
+      const safeText = escapeHtml(text);
+      const safeUrl = sanitizeUrl(url);
+      result += `<a class="special-message-link" href="${safeUrl}" target="_blank" rel="noopener noreferrer">${safeText}</a>`;
+      lastIndex = index + match[0].length;
+    }
+    result += escapeHtml(message.slice(lastIndex));
+    return result;
+  }
 </script>
 
 <main>
@@ -1104,7 +1140,9 @@
     {/if}
     {#if specialMessage}
       <div class="special-message">
-        {#if disableHeader}🚨{/if}{messageContent}{#if disableHeader}🚨{/if}
+        {#if disableHeader}🚨{/if}{@html renderSpecialMessage(
+          messageContent
+        )}{#if disableHeader}🚨{/if}
       </div>
     {/if}
     {#if $alertStore.message}
@@ -1941,6 +1979,13 @@
     font-size: 32px;
     cursor: pointer;
     padding: 5px;
+  }
+
+  :global(a.special-message-link),
+  :global(a.special-message-link:visited),
+  :global(a.special-message-link:hover),
+  :global(a.special-message-link:active) {
+    color: #ff6b00;
   }
 
   /* Only show zoom button on desktop */

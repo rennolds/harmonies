@@ -20712,8 +20712,110 @@
     "shoutout": false,
     "shoutout-name": ""
   },
+  "09/09/2025": {
+    "playlist": "https://open.spotify.com/playlist/3WPhxGaf80CRvpZqldn7u5?si=dcc5d74e3d394d1f ",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZW0xcG02bGFtdnMzNTdmaDNqY2I2cG4wbjAyamszcWdwOWgxNng0ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/9ascgzEIpAtS8/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers With a Drawing of the Artist",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27328b8b9b46428896e6491e97a", "alt": "Revolver" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27375083e2519d18ee196df3558", "alt": "Melodrama" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273cf0f0affd0138a7442f13706", "alt": "KOD" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f72f1e38e9bd48f18a17ed9b", "alt": "Goodbye Yellow Brick Road" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2010–2015 Indie-Rock Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273532391d63cfd6d32677f7af6", "alt": "The Suburbs" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736a21b97de47168df4f0c1993", "alt": "El Camino" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163", "alt": "AM" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79", "alt": "Currents" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Alter Ego in the Title",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739bef45ee387f274ea3198c55", "alt": "The Slim Shady LP" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273801c4d205accdba0a468a10b", "alt": "I Am... Sasha Fierce" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27385235715597dcd07bb9e0f84", "alt": "Pink Friday ... Roman Reloaded" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/GarthBrooksintheLifeofChrisGaines.jpg/318px-GarthBrooksintheLifeofChrisGaines.jpg", "alt": "Garth Brooks in... The Life of Chris Gaines" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Produced by Max Martin",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732fb00760cb64fc7271c28f79", "alt": "...Baby One More Time" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2730a77b78669d5d5d2f67f8873", "alt": "Millennium" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d20c38f295039520d688a888", "alt": "Teenage Dream" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148", "alt": "1989" }
+        ]
+      }
+    ]
+  },
+  "09/10/2025": {
+    "playlist": "https://open.spotify.com/playlist/29pQ3Sa6EuJV1OWQGc7kDg?si=b5113b120b774111",
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyZTQ5dTU1YjQ1ZDcwOHUwZm1wejFxa2prZHQ2a3E2aTFwanl1aGIyYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3orieXpGEQYMhTVwsM/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "B**ch __",
+        "elements": [
+          "Don't Kill My Vibe",
+          "Better Have My Money",
+          "I'm Madonna",
+          "From Da Souf"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "__ B**ch",
+        "elements": [
+          "Bubblegum",
+          "Move",
+          "Crazy",
+          "Work"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "F**k __",
+        "elements": [
+          "You",
+          "Tha Police",
+          "Up Some Commas",
+          "Up The World"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "__ S**t",
+        "elements": [
+          "Thot",
+          "Type",
+          "Vigilante",
+          "Fine"
+        ]
+      }
+    ],
+      "shoutout": true,
+      "shoutout-name": "chris b-e",
+      "shoutout-socials": true,
+      "special-message": true,
+      "message-content": "[7 dirty words](https://youtu.be/vbZhpf3sQxQ?si=nRBaXU-YOT1Qo_pu) (language warning)",
+      "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+      "youtube": "",
+      "twitch": "",
+      "twitter": "https://x.com/cmb__e",
+      "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+    },  
   "09/11/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/39GBDmo2H1zUn2KxpbfIY0?si=e627147657114c5c",
     "gameoverGif": "https://media3.giphy.com/media/l1af4p8DgDsRAM0Zka/source.gif",
     "categories": [
       {
@@ -20734,7 +20836,7 @@
       {
         "color": "#FFBC21",
         "name": "Noah Kahan Album Names",
-        "elements": ["Stick Season", "Live From Fenway Park", "I Was/ I Am", "Busyhead"]
+        "elements": ["Stick Season", "Live From Fenway Park", "I Was / I Am", "Busyhead"]
       }
     ],
     "shoutout": true,
@@ -20743,7 +20845,7 @@
     "instagram": "https://www.instagram.com/buryyhannah"
   },
   "09/12/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/53e3hQ5byMWoBOZXb8jiLT?si=4d44156a21694df3",
     "gameoverGif": "https://media3.giphy.com/media/b9hUG3cGsZYi8aaKXk/giphy.gif?cid=6c09b952942tm1jb6iy1fa73mi8105xu8qba2phdw82o8bp9&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
     "categories": [
       {
@@ -20776,5 +20878,197 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "09/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/5E4PWbtTZsraBHxUsTuV2Q?si=efbe934cd54f48b4",
+    "gameoverGif": "https://media3.giphy.com/media/h9kIkkg94mJ59CVRuH/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sabrina Carpenter - \"Taste\"",
+        "elements": ["Jenna Ortega", "Shotgun", "Chainsaw", "Boyfriend"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Justin Bieber - \"Baby\"",
+        "elements": ["Bowling alley", "Ludacris", "Pool table", "Dance-off"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Eminem - \"Without Me\"",
+        "elements": ["Comic books", "Dr. Dre", "Robin", "Scaling a building"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "A-ha - \"Take On Me\"",
+        "elements": ["Pencil-sketch animation", "Diner", "Hand reaching out", "Hallway chase"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: music video associations III",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "09/14/2025": {
+    "playlist": "https://open.spotify.com/playlist/0TNpR7EdAOKiKAxVspgkFm?si=a79a2fcfe37048f7",
+    "gameoverGif": "https://assets.teenvogue.com/photos/58973178bb02f4c766313afa/master/w_320%2Cc_limit/01.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Groups that feature siblings",
+        "elements": ["Oasis", "The Proclaimers", "The Bee Gees", "Haim"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Nepo Baby Artists",
+        "elements": ["Wilson Phillips", "Gracie Abrams", "Enrique Iglesias", "Willow Smith"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists whose stage name isn’t their real name",
+        "elements": ["Elton John", "Travis Scott", "Calvin Harris", "Bruno Mars"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Singers who have also had acting careers",
+        "elements": ["Lady Gaga", "Harry Styles", "Justin Timberlake", "Elvis Presley"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "beth w",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "09/18/2025": {
+    "playlist": "",
+    "gameoverGif": "https://tenor.com/view/yes-emo-goth-dance-hair-flip-gif-15779062",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Fall Out Boy",
+        "elements": [
+          "We're falling apart to half time",
+          "We're going down swinging",
+          "One night and one more time",
+          "Some legends are told"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Panic! At The Disco",
+        "elements": [
+          "What a beautiful wedding",
+          "but I always had a vision",
+          "If you love me, let me go",
+          "Baby, we built this house"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from My Chemical Romance",
+        "elements": [
+          "When I was a young boy",
+          "gonna clean up your looks",
+          "Well, if you wanted honesty",
+          "You're never gonna fit in much, kid"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Twenty One Pilots",
+        "elements": [
+          "Wish we could turn back time",
+          "taking my time on my ride",
+          "all my friends are heathens",
+          "I've been thinking too much"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the lyric to the emo great",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "09/21/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/MUTrnewPpf4AAAAM/new-york-the-big-apple.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs without 'New York'",
+        "elements": [
+          "Welcome To",
+          "I Love You, But You’re Bringing Me Down",
+          "State of Mind",
+          "City Cops"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs without 'California'",
+        "elements": [
+          "Gurls",
+          "Dreamin’",
+          "Love",
+          "Hotel"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs without 'London'",
+        "elements": [
+          "Boy",
+          "Bridge",
+          "Calling",
+          "Werewolves of"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs without 'Detroit'",
+        "elements": [
+          "Welcome 2",
+          "Rock City",
+          "Panic In",
+          "vs. Everybody"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@banzer.films",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
   }
 }
