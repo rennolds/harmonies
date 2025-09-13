@@ -20955,8 +20955,121 @@
     "spotify": "",
     "letterboxd": ""
   },
+  "09/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/0nclC2HvzVNPY5AlHldHGu?si=61d8fc610fa744e8",
+    "gameoverGif": "https://media.tenor.com/lk2pkzBdcVkAAAAM/yes-please-yup.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Maroon 5 Songs",
+        "elements": ["Maps", "Sugar", "Wait", "Sunday Morning"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2019 Billboard Hits",
+        "elements": ["Sunflower", "Sunday Best", "Wow", "Shallow"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from The Cure's \"Friday I'm in Love\"",
+        "elements": ["Monday's Blue", "Tuesday's Grey", "It's Friday", "I'm in Love"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Last ____",
+        "elements": ["Nite", "Resort", "Friday Night", "Christmas"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false
+  },
+  "09/16/2025": {
+    "playlist": "https://open.spotify.com/playlist/4XEqnLlgxCZv4o4xMcySjd?si=5ed510b0ba3d4988",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyeDdxOTNwMG82ZDhjODBmaHB5cXl3ajlpd2E2NXVkdHRsMjFiZWRzMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/64uE0t19VPBRvhtY6S/source.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Cars on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a2b4f98f60e3cacf3866b2e3", "alt": "Eliminator" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736a21b97de47168df4f0c1993", "alt": "El Camino" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273496350f69b912f18beec3eb2", "alt": "All The Right Reasons" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739bef45ee387f274ea3198c55", "alt": "The Slim Shady LP" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Solo Albums by Ex Boy/Girl Band Members",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273632e4eafb2ffba59a2ae4500", "alt": "B'Day" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273346a5742374ab4cf9ed32dee", "alt": "Justified" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a", "alt": "Fine Line" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736eb0b9e73adcf04e4ed3eca4", "alt": "Camila" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums From Metal's Big Four",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27342be808911785ceb13140edc", "alt": "Rust in Peace" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739ad3e9959f48d513886b8933", "alt": "Ride the Lightning" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e9b8858884043f3471fd21ba", "alt": "Sound of White Noise" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273be6cd303480daecede21c92d", "alt": "Seasons in the Abyss" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums Named After Their Own Hit Song",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97", "alt": "Thriller" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778", "alt": "Hotel California" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b", "alt": "American Idiot" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8", "alt": "thank u, next" }
+        ]
+      }
+    ]
+  },
+  "09/17/2025": {
+    "playlist": "https://open.spotify.com/playlist/3te5vf83wQZvYsEcpP0Jui?si=90eb8ef7da66420d",
+    "gameoverGif": "https://media.tenor.com/NyhYYxpnkdYAAAAM/kpop-kpop-happy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Taylor Swift Song Abbreviations",
+        "elements": ["ATW10MVTVFTV", "LWYMMD", "MA&THP", "IIONTVFTV"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "K-Pop Groups",
+        "elements": ["BTS", "TWICE", "EXO", "HUNTR/X"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Kanye West Album Acronyms",
+        "elements": ["JIK", "MBDTF", "TLOP", "TCD"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Hip-Hop Collectives",
+        "elements": ["YBN", "A$AP", "YSL", "OFWGKTA"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "letterboxd": ""
+  },
   "09/18/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/1eBCtwHGmSaeB2RThBAP7v?si=e810faabf48a41e8",
     "gameoverGif": "https://tenor.com/view/yes-emo-goth-dance-hair-flip-gif-15779062",
     "categories": [
       {
@@ -21004,7 +21117,7 @@
     "shoutout-name": "",
     "shoutout-socials": false,
     "special-message": true,
-    "message-content": "pair the lyric to the emo great",
+    "message-content": "pair the lyric to the emo band",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -21013,8 +21126,81 @@
     "spotify": "",
     "letterboxd": ""
   },
+  "09/19/2025": {
+    "playlist": "https://open.spotify.com/playlist/2F356mCnsa4XPYRHxMiBRX?si=f753e3bfd3c84299",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUydXdiYjd3czlwcnFhMTd6d2VyZTJtMmozaHdjNTE2MjA4b2xtcHJ3ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3kCZUPb1YNAxQQ3bej/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Things mentioned in “Party In The U.S.A”",
+        "elements": ["Taxi Cab", "Jay-Z Song", "LAX", "Butterflies"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs From “Barbie The Album”",
+        "elements": ["Pink", "Dance The Night", "Barbie World", "What Was I Made For?"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Ariana Grande & Nicki Minaj Collabs",
+        "elements": ["Side To Side", "the light is coming", "Bed", "Get On Your Knees"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by Australians",
+        "elements": ["Chandelier", "Fancy", "The Less I Know The Better", "Can’t Get You Out Of My Head"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "preston carr",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://instagram.com/ppcarrio",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "09/20/2025": {
+    "playlist": "https://open.spotify.com/playlist/5PacOA3h0hRwH8XhPVXrn0?si=d5b71a1d034e4f39",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyaXlpZm01ajR2djhicW1wbnJpbmNxdWszZDBvOHZ6NGcwNTB4MWw0OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sS2REqknR8s5G/200.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "The Notorious B.I.G. Songs",
+        "elements": ["Juicy", "Hypnotize", "Big Poppa", "Who Shot Ya?"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Kendrick Songs from good kid, m.A.A.d city",
+        "elements": ["B***h Don't Kill My Vibe", "m.A.A.d city", "Money Trees", "Poetic Justice"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Icona Pop's 'I Don't Care'",
+        "elements": ["I Got This Feeling", "Summer Day", "Let it Burn", "Crashed My Car"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Broke Guys",
+        "elements": ["Bills, Bills, Bills", "No Scrubs", "Ain't Sh*t", "Why Don't You Get a Job"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "09/21/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/396ySmQOWfdb60uZlrt3wT?si=8c4fb8b27f674b8e",
     "gameoverGif": "https://media.tenor.com/MUTrnewPpf4AAAAM/new-york-the-big-apple.gif",
     "categories": [
       {

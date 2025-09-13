@@ -1398,6 +1398,8 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     padding-top: 250px; /* Default padding for mobile (ad + navbar) */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   @media (min-width: 768px) {
@@ -1421,6 +1423,9 @@
     max-width: 420px;
     padding: 0 10px;
     box-sizing: border-box;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
   }
   .gameover-overlay {
     position: absolute;
@@ -1555,6 +1560,8 @@
     text-transform: uppercase;
     margin-bottom: 3px;
     box-sizing: border-box;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .grid-item {
