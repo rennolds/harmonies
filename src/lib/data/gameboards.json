@@ -4952,6 +4952,8 @@
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the song to the decade",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -21256,5 +21258,271 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  },
+  "09/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/7aBVZAUaNc1Qey06On36HS?si=7edd3ac9ed5d4a58",
+    "gameoverGif": "https://i.pinimg.com/originals/ad/c3/94/adc39467284cd90a9eb3322fee1190af.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Olivia Rodrigo Songs",
+        "elements": ["vampire", "traitor", "deja bu", "drivers license"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drum Kit Pieces",
+        "elements": ["Tom", "Pedal", "Snare", "Crash"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from ABBA's \"Dancing Queen\"",
+        "elements": ["Seventeen", "Jive", "Tambourine", "That Scene"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Song Titles Without \"Sweet\"",
+        "elements": ["Too", "The Escape", "Disposition", "Caroline"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "09/23/2025": {
+    "playlist": "https://open.spotify.com/playlist/048iMhV8ixlLKpI3meRVuZ?si=eac1961f61fb4890",
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyeXhjMHlscTd6NHp0dHJkMDV2ZnI2OWg4NXp3N29zZW5zZGJpZzV3biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT0GqI9onaEe1Cspfq/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Backs Turned on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a7865e686c36a4adda6c9978", "alt": "Born in the U.S.A." },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732f2eeee9b405f4d00428d84c", "alt": "(What's The Story) Morning Glory?" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27325751b4b32829d6bbfe6be7f", "alt": "evermore" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738fc4b0dcfb9509553f195c85", "alt": "Sublime" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "MTV Unplugged Classics",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246", "alt": "MTV Unplugged in New York" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732e195935baff4d0e37da1f68", "alt": "Unplugged" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27365b823986e4409a84a67c96f", "alt": "MTV Unplugged No. 2.0" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d00001e02d4e37aea3a3b84f8da20a59f", "alt": "MTV Unplugged" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums Named After Fictional Places",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273661d019f34569f79eae9e985", "alt": "Plastic Beach" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27329c44676782c0b6864131161", "alt": "El Dorado" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734a495fbfb6a483f1b27b338f", "alt": "Atlantis" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738895ff0f90525f4aa9437c27", "alt": "Tranquility Base Hotel & Casino" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous Artists’ Sophomore Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf", "alt": "Nevermind" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732118bf9b198b05a95ded6300", "alt": "21" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273428d2255141c2119409a31b2", "alt": "Late Registration" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d20c38f295039520d688a888", "alt": "Teenage Dream" }
+        ]
+      }
+    ]
+  },
+  "09/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/4djq38TTWibYgBoK3pMxIL?si=916e9b2447d54f71",
+    "gameoverGif": "https://i.makeagif.com/media/12-20-2016/binExa.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs About Calling",
+        "elements": [
+          "Call Me Maybe",
+          "Hotline Bling",
+          "Kiss Me Thru the Phone",
+          "Telephone"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Song Titles with a Music Genre",
+        "elements": [
+          "Country Girl (Shake It For Me)",
+          "I Love Rock and Roll",
+          "Rap God",
+          "Pop Muzik"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Remixes That Are More Popular Than the Original",
+        "elements": [
+          "Ignition",
+          "Despacito",
+          "I Took a Pill in Ibiza",
+          "Old Town Road"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Stalker songs mistaken for love songs",
+        "elements": [
+          "Every Breath You Take",
+          "One Way or Another",
+          "You’re Beautiful",
+          "Crash Into Me"
+        ]
+      }
+    ],
+      "shoutout": true,
+      "shoutout-name": "chris b-e",
+      "shoutout-socials": true,
+      "special-message": false,
+      "message-content": "",
+      "instagram": "",
+      "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+      "youtube": "",
+      "twitch": "",
+      "twitter": "https://x.com/cmb__e",
+      "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "09/25/2025": {
+    "playlist": "https://open.spotify.com/playlist/43umHAUFSBCgsrOSYsAKqX?si=ec0f7b8337ee45f0",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpOGm1C87L_4OLGPSY0X2Sk20v0qqoJBv8OA&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs With a Color in the Title",
+        "elements": ["Band of Gold", "Grey Street", "Paint It, Black", "Brown Eyed Girl"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs About Dancing",
+        "elements": ["Shut Up and Dance", "Hips Don't Lie", "Dancing in the Moonlight", "Blame It on the Boogie"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Featuring a Harmonica",
+        "elements": ["Piano Man", "Run-Around", "What I Like About You", "Mary Jane's Last Dance"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by Groups With Three Members",
+        "elements": ["Message in a Bottle", "No Scrubs", "Burnin' Up", "Say My Name"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "rachel hopson",
+    "shoutout-socials": false
+  },
+  "09/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/24oEZAJ3Zfn65gctVgthrj?si=10bc5cfd1bd9485d",
+    "gameoverGif": "https://64.media.tumblr.com/tumblr_lxz5yoPxpF1qa53f4o1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Hits of the 60's",
+        "elements": ["Wouldn't It Be Nice", "I Want You Back", "Like a Rolling Stone", "Paint It Black"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hits of the 70's",
+        "elements": ["Stayin' Alive", "Bohemian Rhapsody", "Dancing Queen", "Superstition"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hits of the 80's",
+        "elements": ["Billie Jean", "Running Up That Hill", "Straight Outta Compton", "Welcome to the Jungle"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Hits of the 90's",
+        "elements": ["Say It Ain't So", "Juicy", "Smells Like Teen Spirit", "Around the World"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the song to the decade",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "09/28/2025": {
+    "playlist": "https://open.spotify.com/playlist/60IDgnMcYvjKrgyUvI5pTd?si=1f5dcb096d4447a5",
+    "gameoverGif": "https://media.tenor.com/HJbjRvWJN04AAAAM/sum41.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Verb + Noun Band Names",
+        "elements": ["The Smashing Pumpkins", "The Rolling Stones", "Talking Heads", "Bowling for Soup"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Noun + Number Band Names",
+        "elements": ["Matchbox Twenty", "Maroon 5", "Sum 41", "Eve 6"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Plural-Noun Band Names",
+        "elements": ["The Beatles", "The Ramones", "The Strokes", "The Killers"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Named After Cities",
+        "elements": ["Boston", "Chicago", "Berlin", "Beirut"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "buryyhannah",
+    "shoutout-socials": true,
+    "instagram": "https://www.instagram.com/buryyhannah"
+  },
+  "10/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/3hwP7GT3iFe7hRvy1bugvM?si=60bf44f239794dbe",
+    "gameoverGif": "https://media.tenor.com/4EElxXeHiZwAAAAM/forrest-gump-wave.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs About London",
+        "elements": ["London Calling", "Waterloo Sunset", "Streets of London", "The Guns of Brixton"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Fleetwood Mac Songs",
+        "elements": ["The Chain", "Go Your Own Way", "Dreams", "Silver Springs"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "60's Songs",
+        "elements": ["Paint It, Black", "Fortunate Son", "Gimme Shelter", "Light My Fire"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Musicals",
+        "elements": ["One Day More", "All That Jazz", "Non-Stop", "Memory"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false
   }
 }
