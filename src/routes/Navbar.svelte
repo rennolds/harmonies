@@ -99,7 +99,11 @@
 
     <!-- Add archive mode indicator with clickable behavior -->
     {#if isArchiveMode}
-      <div class="archive-indicator" on:click={goToTodaysGame}>
+      <button
+        class="archive-indicator"
+        on:click={goToTodaysGame}
+        aria-label="Return to today's game"
+      >
         <div class="archive-indicator-content">
           <span class="date-text">
             {$page.url.pathname === "/archives"
@@ -110,7 +114,7 @@
           </span>
           <span class="back-to-today">Today</span>
         </div>
-      </div>
+      </button>
     {/if}
 
     <div class="navbar-right">
@@ -121,10 +125,16 @@
           on:click={toggleStatsModal}
           aria-label="View Statistics"
         >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 12H6V22H2V12Z" fill="white"/>
-            <path d="M10 8H14V22H10V8Z" fill="white"/>
-            <path d="M18 3H22V22H18V3Z" fill="white"/>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M2 12H6V22H2V12Z" fill="white" />
+            <path d="M10 8H14V22H10V8Z" fill="white" />
+            <path d="M18 3H22V22H18V3Z" fill="white" />
           </svg>
         </button>
 
@@ -178,7 +188,9 @@
     position: fixed;
     top: 50px; /* Default position below ad for mobile */
     left: 0;
+    right: 0;
     width: 100%;
+    min-width: 100%;
     z-index: 1001; /* Higher than the slide menu */
     background: #202020;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -196,6 +208,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 10px;
+    width: 100%;
     max-width: 400px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -232,6 +245,8 @@
 
   /* Archive mode indicator */
   .archive-indicator {
+    background: none;
+    border: none;
     font-size: 14px;
     margin-right: 100px;
     color: #ba81c2;
@@ -262,58 +277,6 @@
     margin-right: 2px;
   }
 
-  .date-text {
-    /* Keeps the date text properly styled */
-  }
-
-  .mobile-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 200px;
-    background-color: rgba(30, 30, 30, 0.9);
-    border-radius: 0 0 8px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    transform: translateX(-100%);
-    transition:
-      transform 0.3s ease,
-      opacity 0.3s ease;
-    z-index: 1000;
-  }
-
-  .mobile-menu.active {
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  .mobile-menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .mobile-menu li {
-    padding: 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .mobile-menu li:last-child {
-    border-bottom: none;
-  }
-
-  .mobile-menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    display: block;
-    transition: color 0.2s;
-  }
-
-  .mobile-menu a:hover {
-    color: #ba81c2;
-  }
-
   .icon-button {
     margin-left: 14px;
     display: flex;
@@ -337,8 +300,17 @@
   }
 
   @media (max-width: 600px) {
-    .navbar-title h1 {
-      font-size: 16px;
+    .navbar-wrapper {
+      left: 0;
+      right: 0;
+      width: 100vw;
+      min-width: 100vw;
+    }
+
+    .navbar {
+      padding: 6px 8px;
+      width: 100%;
+      min-width: 100%;
     }
 
     .icon-button svg {
@@ -347,10 +319,6 @@
 
     .icon-button:first-child svg {
       height: 20px;
-    }
-
-    .navbar {
-      padding: 6px 8px;
     }
 
     .archive-indicator {
@@ -388,6 +356,24 @@
   .menu-button svg {
     height: 26px; /* Increased from 23px */
     width: 26px;
+  }
+
+  /* Additional mobile fixes for very small screens */
+  @media (max-width: 480px) {
+    .navbar-wrapper {
+      left: 0;
+      right: 0;
+      width: 100vw;
+      min-width: 100vw;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .navbar {
+      width: 100%;
+      min-width: 100%;
+      padding: 6px 5px;
+    }
   }
 
   /* Make sure mobile still looks good */
