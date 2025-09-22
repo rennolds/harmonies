@@ -18,8 +18,7 @@ body {
   margin: 0;
   min-width: 340px;
   min-height: 100vh;
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
   position: relative;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -40,6 +39,8 @@ html, body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: dark) {

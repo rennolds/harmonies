@@ -15,6 +15,10 @@
   class="slide-menu-overlay"
   class:active={isOpen}
   on:click={closeMenu}
+  on:keydown={(e) => e.key === "Escape" && closeMenu()}
+  role="button"
+  tabindex="-1"
+  aria-label="Close menu"
 ></div>
 <div class="slide-menu" class:active={isOpen}>
   <!-- Wrap main content in a div so the footer can be pushed to the bottom -->
@@ -67,8 +71,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 998;
     opacity: 0;
@@ -87,8 +93,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(145deg, #2a1e2d, #1a141d);
     color: white;
     z-index: 999;
@@ -105,7 +112,9 @@
 
   @media (max-width: 600px) {
     .slide-menu {
-      width: 100%;
+      width: 100vw;
+      left: 0;
+      right: 0;
     }
   }
 
