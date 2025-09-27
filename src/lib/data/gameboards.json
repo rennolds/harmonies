@@ -2589,7 +2589,6 @@
         "color": "#FAA3FF",
         "name": "Breakout Debut Singles",
         "elements": ["...Baby One More Time", "Just Dance", "Old Town Road", "Creep"]
-
       },
       {
         "color": "#78DAF9",
@@ -2765,7 +2764,6 @@
         "color": "#FAA3FF",
         "name": "Rhyming Song Titles",
         "elements": ["Helter Skelter", "Hells Bells", "Super Trouper", "My Guy"]
-
       },
       {
         "color": "#78DAF9",
@@ -21391,8 +21389,8 @@
       "shoutout": true,
       "shoutout-name": "chris b-e",
       "shoutout-socials": true,
-      "special-message": true,
-      "message-content": "[help chris with survey for college](https://docs.google.com/forms/d/e/1FAIpQLSdH2_1xsDZV6197bOKrLbq3OBAg_CF3iaY1qfM7YCab0He7HQ/viewform)",
+      "special-message": false,
+      "message-content": "",
       "instagram": "",
       "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
       "youtube": "",
@@ -21466,45 +21464,8 @@
     "twitter": "",
     "spotify": ""
   },
-  "11/01/2025": {
-    "playlist": "",
-    "gameoverGif": "",
-    "categories": [
-      {
-        "color": "#CBFF70",
-        "name": "Fetty Wap 2015 Hits",
-        "elements": ["679", "Again", "Trap Queen", "My Way"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "Drake Hits",
-        "elements": ["Way 2 Sexy", "0 to 100", "Hotline Bling", "Nice For What"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Songs With Phone Numbers In Them",
-        "elements": ["Kiss Kiss", "Kiss Me Thru The Phone", "865", "867-5309"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Area Codes Mentioned in Ludacris’ “Area Codes”",
-        "elements": ["901", "305", "313", "770"]
-      }
-    ],
-    "shoutout": true,
-    "shoutout-name": "jengus roundstone",
-    "shoutout-socials": false,
-    "instagram": "",
-    "tiktok": "",
-    "youtube": "",
-    "twitch": "",
-    "twitter": "",
-    "spotify": "",
-    "special-message": false,
-    "message-content": ""
-  }, 
   "09/27/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/1gg0CTXTtAwsASK8Q736xn?si=e30e22ba3b2d4fdf",
     "gameoverGif": "https://c.tenor.com/NWQzO0j3Ut4AAAAC/tenor.gif",
     "categories": [
       {
@@ -21571,8 +21532,8 @@
     "instagram": "https://www.instagram.com/buryyhannah"
   },
   "09/29/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3hwP7GT3iFe7hRvy1bugvM?si=c67fb38c1c914bad",
+    "gameoverGif": "https://media.tenor.com/nUwO1oMm7uwAAAAM/im-cute.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -21609,8 +21570,8 @@
     "letterboxd": ""
   },
   "09/30/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0gJi9bulIe1Bv9Dh4ke3xc?si=f621cf32316249f2",
+    "gameoverGif": "https://i.pinimg.com/originals/58/a3/a8/58a3a85b3419b9a789948b1d60387626.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -21628,7 +21589,7 @@
         "elements": [
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27343f5bd543a2a1ab37fb40a8b", "alt": "Brothers" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a2b1d3e73c66663c01351bcf", "alt": "Father of the Bride" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b065002ec760593ec9dbe305", "alt": "Son of a Son of a Sailor" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d00001e0279ac84696fa8624e97684d27", "alt": "Mother's Milk" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27378de8b28de36a74afc0348b5", "alt": "good kid, m.A.A.d city" }
         ]
       },
@@ -21649,7 +21610,7 @@
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2735f8e44135375d0ee4e136dd8", "alt": "Tickets to My Downfall" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27354a8f4f9158546472fbb7280", "alt": "Take Off Your Pants and Jacket" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739072c6063895e22441a451f1", "alt": "When Your Heart Stops Beating" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736da502e35a7a3e48de2b0f74", "alt": "Enema of the State" }
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273dcb20af72a164e4b265cf89b", "alt": "Love Sux" }
         ]
       }
     ],
@@ -21666,8 +21627,8 @@
     "spotify": ""
   },
   "10/01/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/37cbpWHKfew6DYD6dtK34D?si=7a8077f76ada44c3",
+    "gameoverGif": "https://giffiles.alphacoders.com/269/26922.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -21713,8 +21674,8 @@
     "shoutout": true,
     "shoutout-name": "chris b-e",
     "shoutout-socials": true,
-    "special-message": true,
-    "message-content": "[help chris with survey for college](https://docs.google.com/forms/d/e/1FAIpQLSdH2_1xsDZV6197bOKrLbq3OBAg_CF3iaY1qfM7YCab0He7HQ/viewform)",
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
     "youtube": "",
@@ -21723,28 +21684,28 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "10/02/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/0js8sSxyxGyikbIcY8Vq1C?si=c6f922103d2842b4",
+    "gameoverGif": "https://media.tenor.com/_tMnIMMdbIQAAAAM/wild-halsey.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Rolling Stones Songs",
-        "elements": ["Paint It Black", "(I Can't Get No) Satisfaction", "Gimme Shelter", "Sympathy for the Devil"]
+        "name": "Halsey Songs",
+        "elements": ["Without Me", "Bad at Love", "Closer", "Eastside"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Bands Formed in London",
-        "elements": ["Fleetwood Mac", "Coldplay", "The Clash", "Blur"]
+        "name": "Best Original Song Oscar Winners",
+        "elements": ["Lose Yourself", "Skyfall", "Shallow", "No Time To Die"]
       },
       {
         "color": "#78DAF9",
-        "name": "Lyrics to Dr. Dre's \"Still D.R.E.\"",
-        "elements": ["Not Loving Police", "Taking My Time", "Perfect The Beat", "Love for the Streets"]
+        "name": "Riri Features",
+        "elements": ["All of the Lights", "Run This Town", "Love the Way You Lie", "Wild Thoughts"]
       },
       {
         "color": "#FFBC21",
-        "name": "’80s Rock Trios",
-        "elements": ["Rush", "ZZ Top", "Genesis", "The Police"]
+        "name": "Songs Featuring Children's Rhymes",
+        "elements": ["Eenie Meenie", "Chain Hang Low", "Mockingbird", "abcdefu"]
       }
     ],
     "shoutout": false,
@@ -21756,37 +21717,35 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
-  },  
+  },
   "10/03/2025": {
     "playlist": "",
-    "gameoverGif": "https://64.media.tumblr.com/tumblr_lxz5yoPxpF1qa53f4o1_500.gif",
+    "gameoverGif": "",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Hits of the 2020's",
-        "elements": ["Flowers", "As It Was", "good 4 u", "WAP"]
+        "name": "",
+        "elements": [""]
       },
       {
         "color": "#FAA3FF",
-        "name": "Hits of the 2010's",
-        "elements": ["Circles", "Royals", "Somebody That I Used to Know", "One Dance"]
+        "name": "Classic Showgirls",
+        "elements": ["Marilyn Monroe", "Cher", "Rita Hayworth", "Tina Turner"]
       },
       {
         "color": "#78DAF9",
-        "name": "Hits of the 2000's",
-        "elements": ["Empire State of Mind", "Poker Face", "Ms. Jackson", "Gold Digger"]
+        "name": "",
+        "elements": [""]
       },
       {
         "color": "#FFBC21",
-        "name": "Hits of the 1990's",
-        "elements": ["All the Small Things", "Juicy", "Around the World", "...Baby One More Time"]
+        "name": "Famous People Referenced in Taylor Swift Songs",
+        "elements": ["James Dean", "Clara Bow", "Tim McGraw", "Leonardo DiCaprio"]
       }
     ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": true,
-    "message-content": "pair the song to the decade it released in II",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -21823,9 +21782,82 @@
     "shoutout-name": "",
     "shoutout-socials": false
   },
+  "10/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/5UIuR5yv1SJTiMQUEiiPQY?si=f790026ba0f14df4",
+    "gameoverGif": "https://media.tenor.com/1XECEOdtpnEAAAAe/unwritten-the-hills.png",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Adele Songs",
+        "elements": ["Set Fire to the Rain", "Chasing Pavements", "When We Were Young", "Someone Like You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Natasha Bedingfield's \"Unwritten\"",
+        "elements": ["Feel the Rain", "Your Skin", "Let it In", "No one Else"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Toto's \"Africa\"",
+        "elements": ["Bless the Rains", "Forgotten Words", "Drag Me Away", "Quiet Conversation"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Drugs",
+        "elements": ["Your Love Is My Drug", "Acid Rain", "Can't Feel My Face", "I Took a Pill in Ibiza"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "10/06/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4TzlamvHl7PjEtV4RM9NIs?si=a7fb2c0397ed4cb8",
+    "gameoverGif": "https://i.makeagif.com/media/2-17-2017/BZqinF.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Guitar Amp Controls",
+        "elements": ["Gain", "Bass", "Treble", "Master"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The Beatles's \"While My Guitar Gently Weeps\"",
+        "elements": ["While", "My Guitar", "Gently", "Weeps"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rock Songs by Female Led Bands",
+        "elements": ["Don't Speak", "Decode", "Linger", "Landslide"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Song Titles Without the Body Part",
+        "elements": ["Poker", "Ocean", "Tied", "Don't Lie"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "10/07/2025": {
+    "playlist": "https://open.spotify.com/playlist/08TeV0o3r05mwBtzuCh6jX?si=44c1e7fc71a9484e",
+    "gameoverGif": "https://open.spotify.com/playlist/08TeV0o3r05mwBtzuCh6jX?si=e43c9f1f52e347e7",
     "categories": [
       {
         "color": "#CBff70",
@@ -21854,7 +21886,7 @@
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273700f7bf79c9f063ad0362bdf", "alt": "emails i can't send" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732abcc266597eb46f897a8666", "alt": "Rare" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27304f9e911ac6be9d53fa91c17", "alt": "Bangerz" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731beb69a81a1e66afbe5bbf75", "alt": "Zendaya" }
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273de1a3a5eaa0c75bb18e7b597", "alt": "Happiness Begins" }
         ]
       },
       {
@@ -21880,9 +21912,9 @@
     "twitter": "",
     "spotify": ""
   },
-  "10/07/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+  "10/08/2025": {
+    "playlist": "https://open.spotify.com/playlist/1aGurcLeQdqSOiYNiG5eTw?si=2ee1f55743e74f48",
+    "gameoverGif": "https://i.makeagif.com/media/10-10-2017/GV16P2.gif",
     "categories": [
       {
         "color": "#CBFF70",
@@ -21902,7 +21934,7 @@
       {
         "color": "#B5E48C",
         "name": "Artists with a Song titled \"I Love It\"",
-        "elements": ["Icona Pop", "Kanye West", "PSY", "Camila Cabello"]
+        "elements": ["Charli XCX", "Kanye West", "PSY", "Camila Cabello"]
       }
     ],
     "shoutout": true,
@@ -21918,8 +21950,8 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   },
   "10/09/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3oh0P8fDTyXYehISbC0Ktq?si=887bb8194a264797",
+    "gameoverGif": "https://media2.giphy.com/media/KCEt0DyLv3WrF8ryRG/giphy.gif",
     "categories": [
         {
           "color": "#CBff70",
@@ -21948,9 +21980,46 @@
     "special-message": false,
     "message-content": ""
   },
+  "10/10/2025": {
+    "playlist": "https://open.spotify.com/playlist/16gu99i6LqqMdeDkSuIyG2?si=bffca2f7e3a64ae1",
+    "gameoverGif": "https://64.media.tumblr.com/tumblr_lxz5yoPxpF1qa53f4o1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Hits of the 2020's",
+        "elements": ["Flowers", "As It Was", "good 4 u", "WAP"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hits of the 2010's",
+        "elements": ["Circles", "Royals", "Somebody That I Used to Know", "One Dance"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hits of the 2000's",
+        "elements": ["Empire State of Mind", "Poker Face", "Ms. Jackson", "Gold Digger"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Hits of the 1990's",
+        "elements": ["All the Small Things", "Juicy", "Around the World", "...Baby One More Time"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the song to the decade it released in II",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "10/11/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1bMirzQxe1g3niqIZKfgto?si=4560ffd0ed7b4718",
+    "gameoverGif": "https://media.tenor.com/Lg2jP6Rh4CcAAAAM/bowie.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -21974,12 +22043,12 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Songs made for Films",
+        "name": "Songs Made for Films",
         "elements": [
           "Dance The Night",
           "Footloose",
-          "The Son of Flynn",
-          "Spectre"
+          "Sunflower",
+          "Writing's on the Wall"
         ]
       },
       {
@@ -21993,10 +22062,106 @@
         ]
       }
     ]
-  },  
+  },
+  "10/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/1qb1s1gtJd0A194Eta051k?si=c59713cfd0ef4d9b",
+    "gameoverGif": "https://miro.medium.com/v2/resize:fit:960/1*MujtAsGIgVHib98IYAfQ_Q.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Drink Song Titles",
+        "elements": [
+          "Diet Mountain Dew",
+          "Bluebery Faygo",
+          "Diet Pepsi",
+          "Lemonade"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs about American Locations",
+        "elements": [
+          "Paris, Texas",
+          "Atlantic City",
+          "Graceland",
+          "Graceland Too"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs about Famous Feuds",
+        "elements": [
+          "Bad Blood",
+          "RAP DEVIL",
+          "because i liked a boy",
+          "Not Like Us"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "One-Word Titles with Double ",
+        "elements": [
+          "Espresso",
+          "Blessed",
+          "Obsessed",
+          "Passionfruit"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@victorswrld",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/VictorsWrld/",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "10/13/2025": {
+    "playlist": "https://open.spotify.com/playlist/4j5sgRRESNpzd5sEPm0fKI?si=1a05764dd2c74c79",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyYmFocHNrdGQ4ZmxnM21rNjdneXpzeXJicmxycGsxdXR5dW1tdGVreCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bVjmhHny7MVxK/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Clef Types",
+        "elements": ["Treble", "Bass", "Alto", "Tenor"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs on Arctic Monkeys' \"AM\"",
+        "elements": ["Arabella", "R U Mine?", "Fireside", "Knee Socks"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Queen’s \"Bohemian Rhapsody\"",
+        "elements": ["Figaro", "Galileo", "Fandango", "Mama"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Latin in Classical Works",
+        "elements": ["Gloria", "Requiem", "Magnificat", "Ave Maria"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
   "10/14/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5htFuhYnz3xRERqH7Fnd5M?si=52c67cfc31854a7b",
+    "gameoverGif": "https://i.gifer.com/97RS.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -22014,7 +22179,7 @@
         "elements": [
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c17570626959bfa6c2435925", "alt": "Pink Friday" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739da93c573c5ce2d9deb98e4f", "alt": "M!ssundaztood" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27312e36c27d935e955b44c6581", "alt": "Heaven Knows" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273dd4912edb4982f53a381b98e", "alt": "Fancy That" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f14aa81116510d3a6df8432b", "alt": "Hot Pink" }
         ]
       },
@@ -22052,8 +22217,8 @@
     "spotify": ""
   },
   "10/16/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7himHSOGLxbgerw2vetCcX?si=95f2fc7caa7d4484",
+    "gameoverGif": "https://thefader-res.cloudinary.com/private_images/w_640,c_limit/9_id9kit/ariana-grande-thank-u-next-gifs.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -22082,9 +22247,118 @@
     "special-message": true,
     "message-content": "bands, breakups, and broadcasts"
   },
+  "10/17/2025": {
+    "playlist": "https://open.spotify.com/playlist/4RiqhLO4pUnfIM4FDq94A2?si=9a7a7c5ef0e24d01",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUycnAybWdtbzg1NHA5a281ZGZzNW1xN3dydnhvYnY5Y3RmYW5ubWgwbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6Zt0GuNWX7wNEzyE/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rolling Stones Songs",
+        "elements": ["Paint It Black", "(I Can't Get No) Satisfaction", "Gimme Shelter", "Sympathy for the Devil"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bands Formed in London",
+        "elements": ["Fleetwood Mac", "Coldplay", "The Clash", "Blur"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Dr. Dre's \"Still D.R.E.\"",
+        "elements": ["Not Loving Police", "Taking My Time", "Perfect The Beat", "Love for the Streets"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "’80s Rock Trios",
+        "elements": ["Rush", "ZZ Top", "Genesis", "The Police"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/18/2025": {
+    "playlist": "https://open.spotify.com/playlist/4RqUtxxmax0w1n1aGBc4ei?si=310eae1ba6cb4fbb",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyaDU1MjdoYjV4MXE1em4xMHp4dG5id29pdTV0Z3Z3dmtxeThrczVicSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YmQMcfkRuDgscU/200w.gif",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Fetty Wap 2015 Hits",
+        "elements": ["679", "Again", "Trap Queen", "My Way"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drake Hits",
+        "elements": ["Way 2 Sexy", "0 to 100", "Hotline Bling", "Nice For What"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs With Phone Numbers In Them",
+        "elements": ["Kiss Kiss", "Kiss Me Thru The Phone", "6060-842", "867-5309"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Area Codes Mentioned in Ludacris’ “Area Codes”",
+        "elements": ["901", "305", "313", "770"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "special-message": false,
+    "message-content": ""
+  },
+  "10/19/2025": {
+    "playlist": "https://open.spotify.com/playlist/1BnrcoCE93KAgYmZxLQ9b4?si=e1ea69bb7c7f4d0c",
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUydzNoMHQwcjl6a2dyNXk0eXRxcjFiY2gyYzJ1YTRwOWtyY3FuOWRjaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/eg5vsXryi8X96/200.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by The Beatles missing the colour in the title",
+        "elements": ["Slumbers", "Submarine", "Bird", "Jay Way"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by The Beatles missing the number in the title",
+        "elements": ["Of Us", "Days a Week", "When I’m", "For no"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by The Beatles missing the name in the title",
+        "elements": ["In the sky with diamonds", "Hey", "Rigby", "Lovely"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Song by The Beatles missing the animal in the title",
+        "elements": ["Garden", "And Your Can Sing", "I am the", "Rocky"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "bw",
+    "shoutout-socials": false,
+    "special-message": "true",
+    "message-content": "the beatles minus something",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "10/23/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/18pyr7FUBFtolDdje5kv2D?si=17488d2c915a4baa",
+    "gameoverGif": "https://i.makeagif.com/media/5-11-2020/A4sGvg.gif",
     "categories": [
       {
         "color": "#CBFF70",
@@ -22139,34 +22413,105 @@
     "special-message": true,
     "message-content": "somebody turn his tv off"
   },
-  "10/25/2025": {
-    "playlist": "",
-    "gameoverGif": "https://www.icegif.com/wp-content/uploads/2023/02/icegif-48.gif",
+  "10/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/6zbFfLNyWjt3GhTJZl4HKR?si=2328677294ae4fe1",
+    "gameoverGif": "https://gifdb.com/images/high/girl-power-beyonce-knowles-music-video-rq2840pesgxd3hyb.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Songs From Beyonce's \"4\" Album",
-        "elements": ["Love On Top", "Run The World (Girls)", "I Care", "Countdown"]
+        "name": "Girls Singing about New York",
+        "elements": [
+          "Brooklyn Baby",
+          "New York",
+          "Empire State of Mind",
+          "Welcome to New York"
+        ]
       },
       {
         "color": "#FAA3FF",
-        "name": "Lyrics to Nickelback's \"How You Remind Me\"",
-        "elements": ["Wise Man", "Poor Man", "Blind Man", "Sense of Feeling"]
+        "name": "Songs From Charli XCX's \"brat\"",
+        "elements": [
+          "360",
+          "Apple",
+          "B2B",
+          "Mean Girls"
+        ]
       },
       {
         "color": "#78DAF9",
-        "name": "Songs About Lying",
-        "elements": ["Rumor Has It", "Tonight", "You Know I'm No Good", "Little Lies"]
+        "name": "Girl Group Anthems",
+        "elements": [
+          "Wannabe",
+          "No Scrubs",
+          "Work from Home",
+          "Shout Out to My Ex"
+        ]
       },
       {
         "color": "#FFBC21",
-        "name": "Songs Featured in Shrek Movies",
-        "elements": ["All Star", "Hallelujah", "Bad Reputation", "Best Years of Our Lives"]
+        "name": "Pop Girly Movie Songs",
+        "elements": [
+          "Just Keep Watching",
+          "What Is This Feeling?",
+          "Dance The Night",
+          "What Was I Made For?"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "special-message": true,
+    "message-content": "female power"
+  },
+  "10/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/5KmmIxNh1qkQAxjIIeQfCu?si=73f8f7914add4b78",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQylqPdp6YwnzIhBXNzh_jiQUXX7KteWEBQFg&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs in Movies",
+        "elements": [
+          "Don't You (Forget About Me)",
+          "My Heart Will Go On",
+          "Ghostbusters",
+          "Sunflower"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs in TV Shows",
+        "elements": [
+          "I'll Be There for You",
+          "The Fresh Prince of Bel-Air",
+          "Everywhere You Look",
+          "Bad Boys"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from Video Games",
+        "elements": [
+          "One-Winged Angel",
+          "Halo",
+          "Zelda's Lullaby",
+          "Still Alive"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs in Anime",
+        "elements": [
+          "A Cruel Angel's Thesis",
+          "Blue Bird",
+          "Unravel",
+          "Gurenge"
+        ]
       }
     ],
     "shoutout": true,
-    "shoutout-name": "hailey pursifull",
+    "shoutout-name": "anna & ellie",
     "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "songs from different forms of media",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -22175,8 +22520,8 @@
     "spotify": ""
   },
   "10/31/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/6zCnpszswgKV9QNRlGOMDs?si=ea5db1376e5045db",
+    "gameoverGif": "https://media.tenor.com/rOwPtxO-3GYAAAAM/song-and.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -22185,13 +22530,13 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Witchy & Spell Songs",
+        "name": "Witchy Songs",
         "elements": ["I Put a Spell on You", "My Girlfriend is a Witch", "Witchy Woman", "Black Magic Woman"]
       },
       {
         "color": "#78DAF9",
-        "name": "Creatures of the Night",
-        "elements": ["Werewolves of London", "Zombie", "Vampire", "Dragula"]
+        "name": "Creatures of the Night Song Titles",
+        "elements": ["Werewolves of London", "Zombie", "Vampire", "Dracula"]
       },
       {
         "color": "#FFBC21",
