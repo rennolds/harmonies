@@ -21266,7 +21266,7 @@
       {
         "color": "#CBff70",
         "name": "Olivia Rodrigo Songs",
-        "elements": ["vampire", "traitor", "deja bu", "drivers license"]
+        "elements": ["vampire", "traitor", "deja vu", "drivers license"]
       },
       {
         "color": "#FAA3FF",
@@ -21466,6 +21466,80 @@
     "twitter": "",
     "spotify": ""
   },
+  "11/01/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Fetty Wap 2015 Hits",
+        "elements": ["679", "Again", "Trap Queen", "My Way"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drake Hits",
+        "elements": ["Way 2 Sexy", "0 to 100", "Hotline Bling", "Nice For What"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs With Phone Numbers In Them",
+        "elements": ["Kiss Kiss", "Kiss Me Thru The Phone", "865", "867-5309"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Area Codes Mentioned in Ludacris’ “Area Codes”",
+        "elements": ["901", "305", "313", "770"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "special-message": false,
+    "message-content": ""
+  }, 
+  "09/27/2025": {
+    "playlist": "",
+    "gameoverGif": "https://c.tenor.com/NWQzO0j3Ut4AAAAC/tenor.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Opposites from Katy Perry's \"Hot N Cold\"",
+        "elements": ["Hot", "Cold", "Yes", "No"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Opposites from Taylor Swifts \"You Belong With Me\"",
+        "elements": ["T-Shirts", "Short Skirts", "Cheer Captain", "On the Bleachers"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Opposites from The Beatles \"Hello, Goodbye\"",
+        "elements": ["High", "Low", "Hello", "Good Bye"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Opposites from Avril Lavigne's \"Sk8er Boi\"",
+        "elements": ["Girl", "Boy", "Punk", "Ballet"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  }, 
   "09/28/2025": {
     "playlist": "https://open.spotify.com/playlist/60IDgnMcYvjKrgyUvI5pTd?si=1f5dcb096d4447a5",
     "gameoverGif": "https://media.tenor.com/HJbjRvWJN04AAAAM/sum41.gif",
@@ -21496,6 +21570,230 @@
     "shoutout-socials": true,
     "instagram": "https://www.instagram.com/buryyhannah"
   },
+  "09/29/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rihanna Songs",
+        "elements": ["Umbrella", "Stay", "Work", "Diamonds"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Song Titles Not Repeating",
+        "elements": ["Please", "Bills", "Bye", "Money"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2015 Songs",
+        "elements": ["Hello", "Sorry", "Ride", "Alright"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Heart ___ Songs",
+        "elements": ["Less", "Attack", "Beat", "Shaped Box"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "09/30/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Statue/Sculpture on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273678bfbaf23b8dfa454017b0b", "alt": "Reflektor" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27316667761b90f600c1d7b08e6", "alt": "Magna Carta… Holy Grail" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27320f1b622906331b00adb9ea8", "alt": "Technique" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2737da123c944790bfab54b2522", "alt": "ARTPOP" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Family Roles in Album Titles",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27343f5bd543a2a1ab37fb40a8b", "alt": "Brothers" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a2b1d3e73c66663c01351bcf", "alt": "Father of the Bride" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b065002ec760593ec9dbe305", "alt": "Son of a Son of a Sailor" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27378de8b28de36a74afc0348b5", "alt": "good kid, m.A.A.d city" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums By Bands from Manchester",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27327cc8b0ed297111f53009772", "alt": "Unknown Pleasures" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ada101c2e9e97feb8fae37a9", "alt": "The Queen Is Dead" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732f2eeee9b405f4d00428d84c", "alt": "(What's the Story) Morning Glory?" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ebcc3ef64dbef8acb47e2960", "alt": "The 1975" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "On the Drums: Travis Barker",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2735f8e44135375d0ee4e136dd8", "alt": "Tickets to My Downfall" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27354a8f4f9158546472fbb7280", "alt": "Take Off Your Pants and Jacket" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739072c6063895e22441a451f1", "alt": "When Your Heart Stops Beating" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736da502e35a7a3e48de2b0f74", "alt": "Enema of the State" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/01/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers With Someone Eating",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799", "alt": "MM..FOOD" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ac4ebd092fa2cf210e4c8023", "alt": "Atlanta Millionaires Club" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2737a9214e709915022f75a9044", "alt": "Rooty" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732018e8c7b1afffd34c930147", "alt": "Chicken-N-Beer" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums Named After Food",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734cb949e9f103f12d96797121", "alt": "Chocolate Factory" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f6465d4b8cdd34ed4d7853e2", "alt": "Brown Sugar" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734a31b146c7cf07705d912efe", "alt": "Chocolate Starfish and the Hot Dog Flavored Water" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a", "alt": "Sgt. Pepper's Lonely Hearts Club Band" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums Named After Drinks",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273901587f58ae6ebfd97fa99c0", "alt": "Whiskey Bent And Hell Bound" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273409b4acd6ef9f8f05a41466c", "alt": "Tea For The Tillerman" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268", "alt": "Beerbongs And Bentleys" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27389992f4d7d4ab94937bf9e23", "alt": "Lemonade" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums by Artists Named After Food",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a496dc8c33ca6d10668b3157", "alt": "Berry Is On Top" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273fdbcee40748537ff80a7af70", "alt": "By The Way" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733065c0b927648e9845280532", "alt": "Everybody Else Is Doing It, So Why Can't We?" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f9b3ece3271d3a5fa73d3759", "alt": "A Hangover You Don't Deserve" }
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "[help chris with survey for college](https://docs.google.com/forms/d/e/1FAIpQLSdH2_1xsDZV6197bOKrLbq3OBAg_CF3iaY1qfM7YCab0He7HQ/viewform)",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "10/02/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rolling Stones Songs",
+        "elements": ["Paint It Black", "(I Can't Get No) Satisfaction", "Gimme Shelter", "Sympathy for the Devil"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bands Formed in London",
+        "elements": ["Fleetwood Mac", "Coldplay", "The Clash", "Blur"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Dr. Dre's \"Still D.R.E.\"",
+        "elements": ["Not Loving Police", "Taking My Time", "Perfect The Beat", "Love for the Streets"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "’80s Rock Trios",
+        "elements": ["Rush", "ZZ Top", "Genesis", "The Police"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },  
+  "10/03/2025": {
+    "playlist": "",
+    "gameoverGif": "https://64.media.tumblr.com/tumblr_lxz5yoPxpF1qa53f4o1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Hits of the 2020's",
+        "elements": ["Flowers", "As It Was", "good 4 u", "WAP"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hits of the 2010's",
+        "elements": ["Circles", "Royals", "Somebody That I Used to Know", "One Dance"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hits of the 2000's",
+        "elements": ["Empire State of Mind", "Poker Face", "Ms. Jackson", "Gold Digger"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Hits of the 1990's",
+        "elements": ["All the Small Things", "Juicy", "Around the World", "...Baby One More Time"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the song to the decade it released in II",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "10/04/2025": {
     "playlist": "https://open.spotify.com/playlist/3hwP7GT3iFe7hRvy1bugvM?si=60bf44f239794dbe",
     "gameoverGif": "https://media.tenor.com/4EElxXeHiZwAAAAM/forrest-gump-wave.gif",
@@ -21524,5 +21822,393 @@
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false
+  },
+  "10/06/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Jerseys on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://media.pitchfork.com/photos/638902d5f777c8e284615da3/1:1/w_1500,h_1500,c_limit/SZA.jpg", "alt": "SOS" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8", "alt": "Forest Hills Drive" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f9aefc986924f7e9e5e71b74", "alt": "Jackpot" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e247c9467d2e4f4f80a57d43", "alt": "What's On My Mind" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Divorced Dad Rock Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f8f048a5f4749c970078a4fb", "alt": "Human Clay" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27378b8f078a525a01a6c556145", "alt": "Silver Side Up" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273985bf5ede2fe4a048ee85f28", "alt": "Infest" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2735d4bd2c345c95e847b586403", "alt": "Three Days Grace" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Ex-Disney Star Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273700f7bf79c9f063ad0362bdf", "alt": "emails i can't send" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732abcc266597eb46f897a8666", "alt": "Rare" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27304f9e911ac6be9d53fa91c17", "alt": "Bangerz" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731beb69a81a1e66afbe5bbf75", "alt": "Zendaya" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Titles Stylized in ALL CAPS",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c5c6772d1d98b2d0f3a69e37", "alt": "BRAT" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce", "alt": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3", "alt": "ASTROWORLD" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57", "alt": "IGOR" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/07/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Songs off Justice’s \"Cross\"",
+        "elements": ["Genesis", "D.A.N.C.E.", "Phantom", "Stress"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Ke$ha's \"TiK ToK\"",
+        "elements": ["P. Diddy", "Mick Jagger", "Party Don't Stop", "Bottle of Jack"]
+      },
+      {
+        "color": "#9EE7FF",
+        "name": "Songs Performed by Actors",
+        "elements": ["Redbone", "Shallow", "The Greatest Show", "Miami"]
+      },
+      {
+        "color": "#B5E48C",
+        "name": "Artists with a Song titled \"I Love It\"",
+        "elements": ["Icona Pop", "Kanye West", "PSY", "Camila Cabello"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
+  },
+  "10/09/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+        {
+          "color": "#CBff70",
+          "name": "Pop Punk Bands",
+          "elements": ["Sum 41", "+44", "All Time Low", "New Found Glory"]
+        },
+        {
+          "color": "#FAA3FF",
+          "name": "Songs off of Silk Sonic",
+          "elements": ["777", "Smokin Out The Window", "Leave the Door Open", "After Last Night"]
+        },
+        {
+          "color": "#78DAF9",
+          "name": "Rap Rock Bands",
+          "elements": ["Limp Bizkit", "Run-DMC", "Beastie Boys", "Rage Against the Machine"]
+        },
+        {
+          "color": "#FFBC21",
+          "name": "Everybody ___",
+          "elements": ["Wants to Rule the World", "(Backstreet's Back)", "Talks", "Dance Now"]
+        }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": ""
+  },
+  "10/11/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs Named After Real People",
+        "elements": [
+          "Clint Eastwood",
+          "BILLIE EILISH",
+          "Buddy Holly",
+          "Genghis Khan"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "David Bowie Songs",
+        "elements": [
+          "Life On Mars?",
+          "Heroes",
+          "John, I'm Only Dancing",
+          "Let's Dance"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs made for Films",
+        "elements": [
+          "Dance The Night",
+          "Footloose",
+          "The Son of Flynn",
+          "Spectre"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous Covers",
+        "elements": [
+          "Hurt",
+          "Hallelujah",
+          "All Along the Watchtower",
+          "I Will Always Love You"
+        ]
+      }
+    ]
+  },  
+  "10/14/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums/Soundtracks Made for Movies",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c027ad28821777b00dcaa888", "alt": "Black Panther: The Album" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e2e352d89826aef6dbd5ff8f", "alt": "Spider-Man: Across the Spider-Verse" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273cb4ec52c48a6b071ed2ab6bc", "alt": "Suicide Squad: The Album" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c7eafe9a0cc85b65f05d94ca", "alt": "The Hunger Games: Catching Fire" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "\"Pink\" Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c17570626959bfa6c2435925", "alt": "Pink Friday" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739da93c573c5ce2d9deb98e4f", "alt": "M!ssundaztood" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27312e36c27d935e955b44c6581", "alt": "Heaven Knows" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f14aa81116510d3a6df8432b", "alt": "Hot Pink" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums That Share Their Artist's Name",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e40520dc70c64426d25e820a", "alt": "Usher" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732341c852b4db72824c0e3185", "alt": "Chris Brown" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273039b95b846d039d78a2ca6a1", "alt": "Prince" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732d1ec7f50bcb8be7b9746d10", "alt": "Aaliyah" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artist Debut Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27345680a4a57c97894490a01c1", "alt": "Dangerously in Love" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b21609e1a2d7c1b7ba8efae2", "alt": "Music of the Sun" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273346a5742374ab4cf9ed32dee", "alt": "Justified" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273eddb2639b74ac6c202032ebe", "alt": "Section.80" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/16/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Ariana Grande Exes in \"thank u, next\"",
+        "elements": ["Mac Miller", "Big Sean", "Pete Davidson", "Ricky Alvarez"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Boy Band Alumni",
+        "elements": ["Nick Jonas", "Zayn Malik", "Nick Carter", "Justin Timberlake"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Musicians on Reality TV",
+        "elements": ["Kevin Jonas", "Gene Simmons", "Ozzy Osbourne", "Travis Barker"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Musicians in Multiple Successful Bands",
+        "elements": ["Jack White", "Dave Grohl", "Slash", "Eric Clapton"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@scammerpayback",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "bands, breakups, and broadcasts"
+  },
+  "10/23/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "American Idol Original Judges & Host",
+        "elements": [
+          "Simon Cowell",
+          "Paula Abdul",
+          "Randy Jackson",
+          "Ryan Seacrest"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The Voice Original Coaches",
+        "elements": [
+          "Adam Levine",
+          "Christina Aguilera",
+          "Blake Shelton",
+          "Cee Lo Green"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "American Idol Stars",
+        "elements": [
+          "Benson Boone",
+          "Carrie Underwood",
+          "Chris Daughtry",
+          "Kelly Clarkson"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous X Factor UK Contestants",
+        "elements": [
+          "Leona Lewis",
+          "One Direction",
+          "James Arthur",
+          "Little Mix"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "special-message": true,
+    "message-content": "somebody turn his tv off"
+  },
+  "10/25/2025": {
+    "playlist": "",
+    "gameoverGif": "https://www.icegif.com/wp-content/uploads/2023/02/icegif-48.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs From Beyonce's \"4\" Album",
+        "elements": ["Love On Top", "Run The World (Girls)", "I Care", "Countdown"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Nickelback's \"How You Remind Me\"",
+        "elements": ["Wise Man", "Poor Man", "Blind Man", "Sense of Feeling"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Lying",
+        "elements": ["Rumor Has It", "Tonight", "You Know I'm No Good", "Little Lies"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Featured in Shrek Movies",
+        "elements": ["All Star", "Hallelujah", "Bad Reputation", "Best Years of Our Lives"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "hailey pursifull",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/31/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Halloween Party Staples",
+        "elements": ["Monster Mash", "Disturbia", "Somebody's Watching Me", "Ghostbusters"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Witchy & Spell Songs",
+        "elements": ["I Put a Spell on You", "My Girlfriend is a Witch", "Witchy Woman", "Black Magic Woman"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Creatures of the Night",
+        "elements": ["Werewolves of London", "Zombie", "Vampire", "Dragula"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Michael Jackson’s \"Thriller\"",
+        "elements": ["Close to Midnight", "Under the moonlight", "Try to scream", "Stops your Heart"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "happy halloween!",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
