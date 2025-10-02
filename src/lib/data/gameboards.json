@@ -21719,13 +21719,13 @@
     "spotify": ""
   },
   "10/03/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7xxUebBzWYaiAyDwM0Nt4r?si=872d51c03dce407d",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyaWlxcTc2OTI0ajl5a3Q2eDQ5MHIyeGE1dHdoNHRjbTRoOHBmY3NiNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aTLA1EP9nbAeuZi/giphy.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [""]
+        "name": "Mononym Pop Icons",
+        "elements": ["Madonna", "Prince", "Beyoncé", "Shakira"]
       },
       {
         "color": "#FAA3FF",
@@ -21734,8 +21734,8 @@
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [""]
+        "name": "Cast of \"Mean Girls\"",
+        "elements": ["Lindsay Lohan", "Rachel McAdams", "Tina Fey", "Amy Poehler"]
       },
       {
         "color": "#FFBC21",
