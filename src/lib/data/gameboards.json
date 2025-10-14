@@ -21883,7 +21883,7 @@
         "color": "#78DAF9",
         "name": "Ex-Disney Star Albums",
         "elements": [
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273700f7bf79c9f063ad0362bdf", "alt": "emails i can't send" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626", "alt": "Short N' Sweet" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732abcc266597eb46f897a8666", "alt": "Rare" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27304f9e911ac6be9d53fa91c17", "alt": "Bangerz" },
           { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273de1a3a5eaa0c75bb18e7b597", "alt": "Happiness Begins" }
@@ -22216,6 +22216,63 @@
     "twitter": "",
     "spotify": ""
   },
+  "10/15/2025": {
+    "playlist": "https://open.spotify.com/playlist/12tUaAKcZeEPorbjqRwz8h?si=3dab4ff97ba142da",
+    "gameoverGif": "https://media.tenor.com/yj1_1bREw5gAAAAM/drake-hotlingbling.gif",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "One ____ Songs",
+        "elements": [
+          "Way Or Another",
+          "Last Breath",
+          "Of Your Girls",
+          "Dance"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Two/2 ____ Songs",
+        "elements": [
+          "Phones",
+          "Birds",
+          "4K Magic",
+          "12"
+        ]
+      },
+      {
+        "color": "#9EE7FF",
+        "name": "3/Three ____ Songs",
+        "elements": [
+          "Is A Magic Number",
+          "Little Birds",
+          "Times A Lady",
+          "D"
+        ]
+      },
+      {
+        "color": "#B5E48C",
+        "name": "4/Four ____ Songs",
+        "elements": [
+          "Your Eyez Only",
+          "Minutes",
+          "FiveSeconds",
+          "K"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
   "10/16/2025": {
     "playlist": "https://open.spotify.com/playlist/7himHSOGLxbgerw2vetCcX?si=95f2fc7caa7d4484",
     "gameoverGif": "https://thefader-res.cloudinary.com/private_images/w_640,c_limit/9_id9kit/ariana-grande-thank-u-next-gifs.gif",
@@ -22356,6 +22413,120 @@
     "twitter": "",
     "spotify": ""
   },
+  "10/20/2025": {
+    "playlist": "https://open.spotify.com/playlist/2hcL1dCA07blmdCAa9Dmjv?si=4758089615f04a7c",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyOTM2Y2N4aTQyY2ZkeTUzNGx5dGMydzVpcm1tNGVnNnQwNXJsem1kYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SA9pJ3EVZZNJe/source.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Clothing from Taylor Swift's \"You Belong With Me\"",
+        "elements": [
+          "Short Skirts",
+          "T-Shirts",
+          "Sneakers",
+          "High Heels"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Clothing From Flo Rida's \"Low\"",
+        "elements": [
+          "Baggy Sweat Pants",
+          "Reeboks With the Straps",
+          "Boots with the Fur",
+          "Apple Bottom Jeans"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Clothing From Macklemore's \"Thrift Shop\"",
+        "elements": [
+          "Gator Shoes",
+          "Velour jumpsuit",
+          "Plaid Button Up Shirt",
+          "Big Ass Coat",
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Clothing From ZZ Top's \"Sharp Dressed Man\"",
+        "elements": [
+          "Clean Shirt",
+          "New Shoes",
+          "Silk Suit",
+          "Black Tie"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/4xan3HSpHfmlX1yIKixSHB?si=74633bed21c0421c",
+    "gameoverGif": "https://i.pinimg.com/originals/47/d9/17/47d91798492bc209f264e96b872225fa.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums With Actors on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b68df485f3304211904548a8", "alt": "Grease Soundtrack" },
+          { "type": "image", "url": "https://external-preview.redd.it/FSvEjItTm3BhW2MO80C5UgdRLoPRqnhDZ0gwJtVkXl0.jpg?auto=webp&s=f09cd1b95ea04cacda36389add01fdd428f767e0", "alt": "DiCaprio 2" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731beb69a81a1e66afbe5bbf75", "alt": "Zendaya" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f45cec7e72b9dec993c18872", "alt": "Elvis Presley" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "\"Comeback\" Album Titles",
+        "elements": [
+          { "type": "image", "url": "https://youngentertainmentmag.com/wp-content/uploads/2015/10/860979COZ5bBUwAInslyjpglarge.png", "alt": "Revival" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c08d5fa5c0f1a834acef5100", "alt": "Recovery" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27337311a3d837d4511354275d1", "alt": "Rebirth" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273afe3412dd6b40dc661fe3820", "alt": "Resurrection" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Blog Era Indie Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27301e2ebfbf4f8147621c8a866", "alt": "Vampire Weekend" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738b32b139981e79f2ebe005eb", "alt": "Oracular Spectacular" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273869df273a6f34f759b426ace", "alt": "Wolfgang Amadeus Phoenix" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733437e8bbed340ca556c42c04", "alt": "Manners" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums from 2005",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273428d2255141c2119409a31b2", "alt": "Late Registration" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf", "alt": "Demon Days" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734e0362c225863f6ae2432651", "alt": "X&Y" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bee754528c08d5ff6799a1eb", "alt": "Riot!" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "10/23/2025": {
     "playlist": "https://open.spotify.com/playlist/18pyr7FUBFtolDdje5kv2D?si=17488d2c915a4baa",
     "gameoverGif": "https://i.makeagif.com/media/5-11-2020/A4sGvg.gif",
@@ -22462,6 +22633,63 @@
     "special-message": true,
     "message-content": "female power"
   },
+  "10/25/2025": {
+    "playlist": "https://open.spotify.com/playlist/2UTyJ3XZERk6QM6ififtX1?si=c4d8fa2919964cce",
+    "gameoverGif": "https://64.media.tumblr.com/tumblr_l8lpsfswIC1qzij94o1_400.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "____________ Road",
+        "elements": [
+          "Old Town",
+          "Goodbye Yellow Brick",
+          "One for the",
+          "End of the"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Beatles Songs sang by Paul McCartney",
+        "elements": [
+          "The Long and Winding Road",
+          "Penny Lane",
+          "Eleanor Rigby",
+          "And I Love Her"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Jazz Classics",
+        "elements": [
+          "Hit the Road Jack",
+          "The Girl from Ipanema",
+          "What a Wonderful World",
+          "I Fall in Love Too Easily"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Sufjan Stevens Songs",
+        "elements": [
+          "John Wayne Gacy, Jr.",
+          "Chicago",
+          "Should Have Known Better",
+          "Will Anybody Ever Love Me?"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/wenkorang",
+    "spotify": ""
+  },
   "10/26/2025": {
     "playlist": "https://open.spotify.com/playlist/5KmmIxNh1qkQAxjIIeQfCu?si=73f8f7914add4b78",
     "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQylqPdp6YwnzIhBXNzh_jiQUXX7KteWEBQFg&s",
@@ -22512,6 +22740,63 @@
     "shoutout-socials": false,
     "special-message": true,
     "message-content": "songs from different forms of media",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/27/2025": {
+    "playlist": "https://open.spotify.com/playlist/5a41NyGw693yHJUoJW4Vex?si=68b51005ec934c25",
+    "gameoverGif": "https://media.tenor.com/aOSPektsXmcAAAAM/avril-lavigne-%EC%97%90%EC%9D%B4%EB%B8%8C%EB%A6%B4.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "____ Girl(s)",
+        "elements": [
+          "Uptown",
+          "Only",
+          "Material",
+          "Beautiful"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Girl(s) ____",
+        "elements": [
+          "On Fire",
+          "Like You",
+          "So Confusing",
+          "Chase Boys"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Boy(s) ____",
+        "elements": [
+          "Don't Cry",
+          "In-The-Hood",
+          "in Luv",
+          "a liar Pt. 2"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "____ Boy",
+        "elements": [
+          "Sk8er",
+          "American",
+          "Lost",
+          "Star"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
