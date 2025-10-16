@@ -1429,62 +1429,64 @@
   }
   .gameover-overlay {
     position: absolute;
-    top: 44.5%; /* Position at the vertical center */
+    top: 50%; /* Position at the vertical center */
     left: 50%; /* Position at the horizontal center */
     transform: translate(-50%, -50%); /* Center the element */
     background-color: white; /* Semi-transparent black overlay */
     width: 300px; /* Cover the entire parent */
     height: auto; /* Let height adjust based on content */
-    max-height: calc(100vh - 20px); /* Limit height to viewport height */
+    max-height: calc(
+      100vh - 40px
+    ); /* Limit height to viewport height with more margin */
     overflow-y: auto; /* Enable vertical scrolling if content overflows */
     z-index: 9999; /* Ensure the overlay appears on top */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px; /* Add padding for spacing */
+    padding: 8px; /* Add padding for spacing */
     border-radius: 10px;
   }
 
   .gameover-gif img {
-    width: 230px;
-    height: 230px;
+    width: 180px;
+    height: 180px;
     border-radius: 5px;
   }
 
   .gameover-overlay h1 {
     color: #000;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
-    margin: 10px 0;
-    margin-top: -10px;
+    margin: 6px 0;
+    margin-top: 0px;
     text-align: center;
   }
 
   .gameover-overlay h2,
   .timer {
     color: #000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin: 10px 0;
+    margin: 6px 0;
     text-align: center;
   }
 
   .timer {
-    margin-top: -7.5px;
-    margin-bottom: 15px;
+    margin-top: -4px;
+    margin-bottom: 8px;
   }
 
   .results-button {
-    height: 40px !important;
-    width: 180px !important;
-    font-size: 15px;
+    height: 38px !important;
+    width: 170px !important;
+    font-size: 14px;
     text-align: center;
     line-height: normal;
     color: #fff;
     border-style: none;
-    width: 176px;
-    height: 52px;
-    margin-bottom: 10px;
+    width: 170px;
+    height: 38px;
+    margin-bottom: 8px;
     border-radius: 100px;
     cursor: pointer;
   }
