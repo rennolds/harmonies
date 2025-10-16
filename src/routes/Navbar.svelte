@@ -303,14 +303,15 @@
     .navbar-wrapper {
       left: 0;
       right: 0;
-      width: 100vw;
-      min-width: 100vw;
+      width: 100%;
+      min-width: 100%;
     }
 
     .navbar {
       padding: 6px 8px;
       width: 100%;
       min-width: 100%;
+      box-sizing: border-box;
     }
 
     .icon-button svg {
@@ -363,16 +364,18 @@
     .navbar-wrapper {
       left: 0;
       right: 0;
-      width: 100vw;
-      min-width: 100vw;
+      width: 100%;
+      min-width: 100%;
       margin-left: 0;
       margin-right: 0;
+      box-sizing: border-box;
     }
 
     .navbar {
       width: 100%;
       min-width: 100%;
       padding: 6px 5px;
+      box-sizing: border-box;
     }
   }
 

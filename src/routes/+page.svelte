@@ -1428,7 +1428,7 @@
     touch-action: pan-x;
   }
   .gameover-overlay {
-    position: absolute;
+    position: fixed;
     top: 50%; /* Position at the vertical center */
     left: 50%; /* Position at the horizontal center */
     transform: translate(-50%, -50%); /* Center the element */
@@ -1439,7 +1439,7 @@
       100vh - 40px
     ); /* Limit height to viewport height with more margin */
     overflow-y: auto; /* Enable vertical scrolling if content overflows */
-    z-index: 9999; /* Ensure the overlay appears on top */
+    z-index: 1000; /* Below navbar (1001) but above other content */
     display: flex;
     flex-direction: column;
     align-items: center;
