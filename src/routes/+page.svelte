@@ -840,6 +840,9 @@
   }
 </script>
 
+<!-- Navbar outside of main to avoid stacking context issues -->
+<Navbar {toggleHelpOverlay} {playlist} {isArchiveMode} />
+
 <main>
   <!-- <TopAdBanner /> -->
   <!-- <Ramp PUB_ID={PUB_ID} WEBSITE_ID={WEBSITE_ID} /> -->
@@ -895,8 +898,6 @@
     <HelpOverlay onClose={toggleHelpOverlay} />
   {/if}
   <div class="container game-container">
-    <Navbar {toggleHelpOverlay} {playlist} {isArchiveMode} />
-
     {#if !shoutout && !disableHeader}
       <h2 class="header-msg">
         <!-- check out our new game, <a
