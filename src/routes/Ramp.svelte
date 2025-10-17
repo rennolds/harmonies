@@ -70,7 +70,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    right: 0;
+    z-index: 10000; /* Just below navbar */
+    overflow: hidden; /* Prevent content from extending beyond container */
   }
 
   .ad-content {

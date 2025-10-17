@@ -149,7 +149,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 9999; /* Higher than navbar and slide menu */
+    z-index: 10002; /* Above navbar for full-screen modal */
   }
 
   .help-overlay {

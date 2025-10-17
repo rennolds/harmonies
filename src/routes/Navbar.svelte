@@ -191,7 +191,7 @@
     right: 0;
     width: 100%;
     min-width: 100%;
-    z-index: 1001; /* Higher than the slide menu */
+    z-index: 10001; /* Much higher to ensure it's always on top */
     background: #202020;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
