@@ -1448,6 +1448,14 @@
     border-radius: 10px;
   }
 
+  /* Mobile adjustments for gameover overlay to avoid navbar */
+  @media (max-width: 767px) {
+    .gameover-overlay {
+      top: calc(50% + 25px); /* Shift down to account for navbar */
+      max-height: calc(100vh - 120px); /* Account for navbar + ad space */
+    }
+  }
+
   .gameover-gif img {
     width: 180px;
     height: 180px;
