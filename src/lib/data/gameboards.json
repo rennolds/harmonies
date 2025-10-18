@@ -22486,13 +22486,13 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "\"Comeback\" Album Titles",
-        "elements": [
-          { "type": "image", "url": "https://youngentertainmentmag.com/wp-content/uploads/2015/10/860979COZ5bBUwAInslyjpglarge.png", "alt": "Revival" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c08d5fa5c0f1a834acef5100", "alt": "Recovery" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27337311a3d837d4511354275d1", "alt": "Rebirth" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273afe3412dd6b40dc661fe3820", "alt": "Resurrection" }
-        ]
+          "name": "\"Comeback\" Album Titles",
+          "elements": [
+            { "type": "image", "url": "https://youngentertainmentmag.com/wp-content/uploads/2015/10/860979COZ5bBUwAInslyjpglarge.png", "alt": "Revival" },
+            { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c08d5fa5c0f1a834acef5100", "alt": "Recovery" },
+            { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27337311a3d837d4511354275d1", "alt": "Rebirth" },
+            { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273afe3412dd6b40dc661fe3820", "alt": "Resurrection" }
+          ]
       },
       {
         "color": "#78DAF9",
@@ -22526,6 +22526,52 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "10/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/3JU0xTBacBZQtaNA55W2n7?si=e52288a9d4f64bd1",
+    "gameoverGif": "https://i0.wp.com/media1.giphy.com/media/HFluWmMbkV0Na/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Jimi Hendrix Classics",
+        "elements": [
+          "Purple Haze",
+          "Little Wing",
+          "All Along the Watchtower",
+          "Voodoo Child"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by Seattle Grunge Bands",
+        "elements": [
+          "Even Flow",
+          "Black Hole Sun",
+          "Man in the Box",
+          "Smells Like Teen Spirit"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Macklemore's \"Thrift Shop\"",
+        "elements": [
+          "I'm gonna pop some tags",
+          "Only got twenty dollars in my pocket",
+          "I wear your granddad's clothes",
+          "This is freaking awesome"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Sir Mix-a-Lot Songs",
+        "elements": [
+          "Baby Got Back",
+          "Posse on Broadway",
+          "My Hooptie",
+          "Put 'Em on the Glass"
+        ]
+      }
+    ]
   },
   "10/23/2025": {
     "playlist": "https://open.spotify.com/playlist/18pyr7FUBFtolDdje5kv2D?si=17488d2c915a4baa",
@@ -22794,6 +22840,120 @@
     ],
     "shoutout": false,
     "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/28/2025": {
+    "playlist": "https://open.spotify.com/playlist/05jzxo8daWU7u3MqngO1Mc?si=1f69599eecde478e",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyNzY5ejZ6ZWZuMzRiazNpY3RnanlkNGJ1ZjM5NXByNmphdWZiNjU0NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xUNd9G6IwNp8CsPVlu/200_d.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists on a Bed Covers",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce", "alt": "WHEN WE ALL FALL ASLEEP..." },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273700f7bf79c9f063ad0362bdf", "alt": "emails i can't send" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d00001e0249bdbd5880802dcbe4e0b2dd", "alt": "How I'm Feeling Now" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f8553e18a11209d4becd0336", "alt": "Melodrama" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Travel Methods in Album Titles",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f761183d5e7c7721c0daf87a", "alt": "Sail Away" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d283808926ad3d2220e63c1c", "alt": "Yellow Submarine" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739776cbf7cae87ba91a37e841", "alt": "In the Aeroplane Over the Sea" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739fa8d0e800691182a9d2d60e", "alt": "Rocket to Russia" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Disco Classics",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273605128d275ca60ccc9cd3b6d", "alt": "Saturday Night Fever" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2730c3a44d76807bef665eacfa3", "alt": "Bad Girls" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2735ccd022a69a4da9551efd988", "alt": "I Am" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734b6ae1281200f88b399e0aba", "alt": "C’est Chic" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums with 4+ Top 10 Billboard Hits",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97", "alt": "Thriller" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273937af329667311f4b2831616", "alt": "Teenage Dream" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148", "alt": "1989" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732172b607853fa89cefa2beb4", "alt": "Future Nostalgia" }
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "10/30/2025": {
+    "playlist": "https://open.spotify.com/playlist/1IhrdmgFjnY61PSF6tScwd?si=4f40bfee39754ed2",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyYTFnYWU0dXFlczN2Z3R0YjZjNnZiZjNlb3hueGsyZGpsZjh0ZzF2YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xPyIIEsx2Ixsk/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs About Fire",
+        "elements": [
+          "Ring of Fire",
+          "Smoke on the Water",
+          "Play With Fire",
+          "Burning Love"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Beatles Songs",
+        "elements": [
+          "Hey Jude",
+          "Something",
+          "Two of Us",
+          "Twist and Shout"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs with Girls' Names as the Title",
+        "elements": [
+          "Carrie Ann",
+          "Rhiannon",
+          "Roxanne",
+          "Cecilia"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Based on Real Events",
+        "elements": [
+          "We Didn't Start the Fire",
+          "American Pie",
+          "Hurricane",
+          "The Wreck of the Edmund Fitzgerald"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "audreyc09",
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
