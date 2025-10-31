@@ -8,6 +8,7 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+notebooks/*
 # src/routes/+page.svelte
 # src/routes/test/+page.svelte
 # src/routes/test/ClearedCategory.svelte

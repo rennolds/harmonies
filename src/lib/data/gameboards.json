@@ -23068,5 +23068,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "11/01/2025": {
+    "playlist": "https://open.spotify.com/playlist/7G4WSOkNAjoiwVdKHO1hyK?si=792ade805d5642a0",
+    "gameoverGif": "https://media4.giphy.com/media/BcPzrM02T3dLECIWq4/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Train",
+        "elements": ["Hey, Soul Sister", "Drops of Jupiter (Tell Me)", "50 Ways To Say Goodbye", "Drive By"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to \"Party in the U.S.A.\" by Miley Cyrus",
+        "elements": ["hopped off the plane", "Jumped in the cab", "Get to the club in my taxi cab", "rockin' kicks"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Cars",
+        "elements": ["Getaway Car", "Fast Car", "Chasing Cars", "drivers license"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Reference Trains",
+        "elements": ["Peace Train", "Don't Stop Believin'", "Crazy Train", "Midnight Train to Georgia"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "methods of transit",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
