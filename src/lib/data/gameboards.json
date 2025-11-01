@@ -3779,7 +3779,7 @@
       {
         "color": "#FAA3FF",
         "name": "Lyrics to Panic! At The Disco's \"I Write Sins Not Tragedies\"",
-        "elements": ["Face These Kinds of Things", "Can't Help But To Hear", "Beautiful Wedding", "Poise and Rationality"]
+        "elements": ["These Kinds of Things", "Can't Help But To Hear", "Beautiful Wedding", "Poise and Rationality"]
       },
       {
         "color": "#78DAF9",
@@ -23105,5 +23105,329 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
-  }
+  },
+  "11/02/2025": {
+    "playlist": "https://open.spotify.com/playlist/3HdzhRxM9haGHdge8kya4Q?si=e2e5479c1ae046af",
+    "gameoverGif": "https://media.tenor.com/0vPD34lA3IwAAAAM/selena-gomez-love-you-like-a-love-song.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Ed Sheeran \"Thinking Out Loud\"",
+        "elements": [
+          "when your legs don't work",
+          "sweep you off your feet",
+          "til' we're 70",
+          "mysterious ways"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Bruno Mars \"Just The Way You Are\"",
+        "elements": [
+          "her eyes her eyes",
+          "the whole world",
+          "stops and stares",
+          "when I see your face"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Whitney Houston \"I Will Always Love You\"",
+        "elements": [
+          "bittersweet memories",
+          "so I'll go",
+          "I will always",
+          "I wish you joy"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from The Beach Boys \"God Only Knows\"",
+        "elements": [
+          "long as there are stars",
+          "you never need to doubt it",
+          "God only knows",
+          "what i'd be without you"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "love song lyrics II",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/03/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "The Beatles Songs",
+        "elements": ["Hey Jude", "Blackbird", "And I Love Her", "Yesterday"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2003 Hip Hop Songs",
+        "elements": ["Ignition", "P.I.M.P.", "Hey Ya!", "Superman"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Soulja Boy's \"Kiss Me Thru the Phone\"",
+        "elements": ["678", "Triple Nine", "8212", "I Really Wanna Kiss You"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Song Titles Without the Woman's Name",
+        "elements": [
+          "867-5309",
+          "Sweet",
+          "Hey There",
+          "Come On"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/05/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Jay-Z & Beyoncé Collabs",
+        "elements": [
+          "Drunk in Love",
+          "Crazy in Love",
+          "’03 Bonnie & Clyde",
+          "Family Feud"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Jay-Z & Kanye West Collabs",
+        "elements": [
+          "Monster",
+          "Otis",
+          "N****s in Paris",
+          "Run This Town"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "R&B Hits Featuring Jay-Z",
+        "elements": [
+          "Umbrella",
+          "Biking",
+          "Frontin’",
+          "Suit & Tie"
+        ]
+      },
+      {
+        "color": "#FFC36E",
+        "name": "Jay-Z Solo Songs",
+        "elements": [
+          "4:44",
+          "99 Problems",
+          "Big Pimpin’",
+          "Hard Knock Life"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "should’ve taken the 100K… / all jay-z",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },  
+  "11/06/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "TV Show Bands",
+        "elements": [
+          "Jonas Brothers",
+          "Naked Brothers Band",
+          "Big Time Rush",
+          "The Monkees"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hip-Hop ft. Country",
+        "elements": [
+          "That Should Be Me",
+          "Over and Over",
+          "Old Town Road (Remix)",
+          "Broadway Girls"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "As Heard in Shrek 2",
+        "elements": [
+          "Accidentally In Love",
+          "Funkytown",
+          "Changes",
+          "Holding Out for a Hero"
+        ]
+      },
+      {
+        "color": "#FFC36E",
+        "name": "Songs by a \"Kid\"",
+        "elements": [
+          "Nights Like This",
+          "All Summer Long",
+          "Mr. Rager",
+          "Be Real"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "tcc523",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },  
+  "11/08/2025": {
+    "playlist": "",
+    "gameoverGif": "https://i.makeagif.com/media/7-24-2014/SAu9b0.gif",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Cranberries Songs",
+        "elements": [
+          "Zombie",
+          "Linger",
+          "Dreams",
+          "Just My Imagination"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Fleetwood Mac Songs Led by Buckingham",
+        "elements": [
+          "Go Your Own Way",
+          "Second Hand News",
+          "The Chain",
+          "Big Love"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Ending with Dream(s)",
+        "elements": [
+          "#9 Dream",
+          "Boulevard of Broken Dreams",
+          "Wildest Dreams",
+          "Lucid Dreams"
+        ]
+      },
+      {
+        "color": "#FFC36E",
+        "name": "Songs About Nightmares",
+        "elements": [
+          "Enter Sandman",
+          "The Number of the Beast",
+          "Everything I Wanted",
+          "Black Sabbath"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "dreams and nightmares",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+  },
+  "11/09/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Names Missing a Color",
+        "elements": [
+          "CeeLo",
+          "Jack",
+          "Panthress",
+          "Sexxy"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Stage Names Missing a Single Letter",
+        "elements": [
+          "Carol",
+          "Becky",
+          "Boogie (Wit da Hoodie)",
+          "Pain"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Names Missing a Fashion Brand Word",
+        "elements": [
+          "G",
+          "Mane",
+          "Tomlinson",
+          "The Devil Wears"
+        ]
+      },
+      {
+        "color": "#FFC36E",
+        "name": "Rebranded Stage Names",
+        "elements": [
+          "The Artist Formerly Known as Prince",
+          "Ye",
+          "2 Chainz",
+          "Snoop Lion"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  }  
 }
