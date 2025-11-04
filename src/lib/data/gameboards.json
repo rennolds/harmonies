@@ -23205,6 +23205,63 @@
     "twitter": "",
     "spotify": ""
   },
+  "11/04/2025": {
+    "playlist": "https://open.spotify.com/playlist/1Yjhr7kTZJCIfLgx84zzpV?si=33f49e6ddfc141c7",
+    "gameoverGif": "https://i.pinimg.com/originals/6a/be/81/6abe81a0205795efcf0f1662c03eb562.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Featuring Windows",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f34338e9270f9c0561cf4c7e", "alt": "Lost in the Dream" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273df6e579914fc309b0e0bd745", "alt": "Give Up" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bf7c317a63c4f128b8823406", "alt": "For Emma, Forever Ago" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e2bb936c55fb54b0b9fdc666", "alt": "Darkness on the Edge of Town" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums by Beatles Solo Members",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27399581550ef9746ca582bb3cc", "alt": "Imagine" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738d9b41191b36c9759ba494cb", "alt": "Band on the Run" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273863793947f0c770ba39b6d49", "alt": "All Things Must Pass" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273493bd0f4bc0e1f3732a75c8d", "alt": "Ringo" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Sequel Albums (II)",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b7c45af95aaf599cee3acf08", "alt": "The Blueprint 2" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733c65085a58aae2cccd892cbe ", "alt": "The Marshall Mathers LP 2" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f146c45fb3b6256d4261152b", "alt": "Queen II" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273fd17dfdceeded5de18061f4a", "alt": "Led Zeppelin II" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Nu-Metal Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732cd7568f8895a3c031c2e2fb", "alt": "Hybrid Theory" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27307bc7d2a745636c356b4d0aa", "alt": "Toxicity" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27350d216aebaf98e8ac9947fd5", "alt": "Follow the Leader" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733783782de74f61e36795bf9c", "alt": "Significant Other" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "11/05/2025": {
     "playlist": "",
     "gameoverGif": "",
