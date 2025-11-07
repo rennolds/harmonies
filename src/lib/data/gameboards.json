@@ -23374,7 +23374,42 @@
     "youtube": "",
     "twitch": "",
     "twitter": ""
-  },  
+  },
+  "11/07/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.giphy.com/media/OTbo92zetdsha/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rihanna Songs",
+        "elements": ["Don't Stop The Music", "Diamonds", "Love on the Brain", "Only Girl (In The World)"] 
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2000's R&B Hip Hop",
+        "elements": ["Whatever You Like", "Dilemma", "Slow Jamz", "My Boo"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Jay Sean's \"Down\"",
+        "elements": ["sky is falling", "Like the economy", "You Are My Only", "No Need to Worry"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "James Bond Theme Songs",
+        "elements": ["Diamonds Are Forever", "Skyfall", "You Know My Name", "No Time to Die"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "11/08/2025": {
     "playlist": "",
     "gameoverGif": "https://i.makeagif.com/media/7-24-2014/SAu9b0.gif",
