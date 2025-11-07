@@ -23376,7 +23376,7 @@
     "twitter": ""
   },
   "11/07/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/4dkP4bXZr7VBsy1kjY7BVU?si=7888b03d451f4155",
     "gameoverGif": "https://media.giphy.com/media/OTbo92zetdsha/giphy.gif",
     "categories": [
       {
@@ -23411,7 +23411,7 @@
     "spotify": ""
   },
   "11/08/2025": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/5NRfRMAQnbbgqrOSdSsoSy?si=59f4766c56754e74",
     "gameoverGif": "https://i.makeagif.com/media/7-24-2014/SAu9b0.gif",
     "categories": [
       {
@@ -23436,12 +23436,12 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Songs Ending with Dream(s)",
+        "name": "____ Dream(s)",
         "elements": [
-          "#9 Dream",
-          "Boulevard of Broken Dreams",
-          "Wildest Dreams",
-          "Lucid Dreams"
+          "#9",
+          "Boulevard of Broken",
+          "Wildest",
+          "Lucid"
         ]
       },
       {
