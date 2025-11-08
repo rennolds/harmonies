@@ -23494,7 +23494,7 @@
         "color": "#78DAF9",
         "name": "Names Missing a Fashion Brand",
         "elements": [
-          "G",
+          "Iann",
           "Mane",
           "Tomlinson",
           "The Devil Wears"
@@ -23514,8 +23514,8 @@
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "message-content": "what's missing?",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
