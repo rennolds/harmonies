@@ -23467,8 +23467,8 @@
     "twitter": ""
   },
   "11/09/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/7sVduzLnbZc6QAF8hSoWzh?si=8926b4f8a9f04dc3",
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUydXpxMG92ZGphZ210Z2hqZnM2dGRvMXE5cHY3c3VhZjF3cXhyOTRvOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bVqBIujl83byg/giphy.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -23484,7 +23484,7 @@
         "color": "#FAA3FF",
         "name": "Stage Names Missing a Single Letter",
         "elements": [
-          "Carol",
+          "Karol",
           "Becky",
           "Boogie (Wit da Hoodie)",
           "Pain"
@@ -23492,7 +23492,7 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Names Missing a Fashion Brand Word",
+        "name": "Names Missing a Fashion Brand",
         "elements": [
           "G",
           "Mane",
