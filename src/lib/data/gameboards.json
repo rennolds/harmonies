@@ -23521,5 +23521,136 @@
     "youtube": "",
     "twitch": "",
     "twitter": ""
-  }  
+  },
+  "11/10/2025": {
+    "playlist": "https://open.spotify.com/playlist/2jex2DMN39UbUBSCk4yKru?si=92cd58cb87d24633",
+    "gameoverGif": "https://media.gq.com/photos/56659e0d408d33024d5daad5/master/w_1600%2Cc_limit/tumblr_n7fpywK4Pa1sswehbo1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Featuring: Rihanna",
+        "elements": ["Wild Thoughts", "Run This Town", "Take Care", "Loyalty"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Maroon 5 Songs From \"Overexposed\"",
+        "elements": ["Daylight", "Payphone", "Love Somebody", "One More Night"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "\"Divorced Dad Rock\" Bangers",
+        "elements": ["Higher", "Drive", "Paralyzer", "Photograph"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "____ City",
+        "elements": ["Rack", "Midnight", "m.A.A.d", "Paradise"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/11/2025": {
+    "playlist": "https://open.spotify.com/playlist/2aPKED9zl2fc8LX716o7QS?si=885b92780ad04a69",
+    "gameoverGif": "https://media.tenor.com/3XXf3mtOG-YAAAAM/persevering-face.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artist Sitting in a Chair Covers",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273232711f7d66a1e19e89e28c5", "alt": "24K Magic" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738f52f321140e4a76ea720c52", "alt": "Back To Black" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273863793947f0c770ba39b6d49", "alt": "All Things Must Pass" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246", "alt": "MTV Unplugged in New York" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "David Bowie Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273204f41d52743c6a9efd62985", "alt": "Heroes" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273eb04fc0583396f23a64c69ef", "alt": "Blackstar" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2735ef4c0001dc9628f08bbf277", "alt": "Low" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a41468034fc8bff53dff8a37", "alt": "Aladdin Sane" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums Referencing Times of Day",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5", "alt": "Midnights" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d0bbd3ea2ec554f17a6603cc", "alt": "An Evening with Silk Sonic" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f585024d184f024efbd5d3a1", "alt": "Morning Phase" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163", "alt": "AM" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Surprise Release Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e4073def0c03a91e3fceaf73", "alt": "Kamikaze" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc", "alt": "folklore" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736a26b6ba045caa3b26f8b56e", "alt": "Beyoncé" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732090f4f6cc406e6d3c306733", "alt": "IYRTITL" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/13/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs From Sabrina Carpenter's \"Man's Best Friend\"",
+        "elements": ["Manchild", "Tears", "Nobody's Son", "House Tour"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs Referencing Space",
+        "elements": ["Spaceman", "Rocket Man", "Halley's Comet", "Intergalactic"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Nickelback's \"How You Remind Me\"",
+        "elements": ["Wise Man", "Poor Man", "Blind Man", "Sense of Feeling"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Famously Sampled by in Rap Songs",
+        "elements": ["Mr. Sandman", "Under Pressure", "Super Freak", "Human Nature"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  }
 }
