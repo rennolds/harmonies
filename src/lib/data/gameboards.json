@@ -23616,9 +23616,66 @@
     "twitter": "",
     "spotify": ""
   },
+  "11/12/2025": {
+    "playlist": "https://open.spotify.com/playlist/763wIFnRVAOI7LRAZ0irM2?si=1e6937b165094a41",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrwUp1D-IEDo7AmyrKmzeRQdSKyGvBFmPW3Q&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bands with Numbers in the Name",
+        "elements": [
+          "10cc",
+          "blink-182",
+          "Avenged Sevenfold",
+          "Twenty One Pilots"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bands with Female Lead Singers",
+        "elements": [
+          "The Cranberries",
+          "Evanescence",
+          "Paramore",
+          "Blondie"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "\"Did you know ____ is just one guy?\"",
+        "elements": [
+          "Tame Impala",
+          "Gorillaz",
+          "LCD Soundsystem",
+          "Passion Pit"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands Where Breakups Happened Within the Band",
+        "elements": [
+          "Arcade Fire",
+          "ABBA",
+          "Fleetwood Mac",
+          "The White Stripes"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
   "11/13/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/14nVBdXMDab7Da9g2lW4y1?si=f03f7dbd7ae0446c",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyYWc2YXNzZDdneGw0aDdpZWU3YXNsaXptOGZmc2h3N2J2b3ByZ2VlMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SslOM6oiSkIYBqVcMJ/giphy.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -23652,5 +23709,369 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
-  }
+  },
+  "11/14/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "The Last 4 Rap Album of the Year Winners",
+        "elements": [
+          "Doechii",
+          "Kendrick Lamar",
+          "Killer Mike",
+          "Tyler, The Creator"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "One Hit Wonders of 2016",
+        "elements": [
+          "Desiigner",
+          "Young M.A",
+          "Kyle",
+          "DRAM"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Swedish Artists",
+        "elements": [
+          "Avicii",
+          "Swedish House Mafia",
+          "Tove Lo",
+          "ABBA"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "90s R&B Groups",
+        "elements": [
+          "Boyz II Men",
+          "Jodeci",
+          "Bell Biv DeVoe",
+          "Jagged Edge"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false
+  },
+  "11/15/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "\"I Write Sins Not Tragedies\" Lyrics",
+        "elements": [
+          "beautiful wedding",
+          "what a shame",
+          "well, imagine",
+          "pacing the pews"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs from Paramore’s \"Brand New Eyes\"",
+        "elements": [
+          "Brick by Boring Brick",
+          "All I Wanted",
+          "The Only Exception",
+          "Turn It Off"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Twenty One Pilots Album Names",
+        "elements": [
+          "Vessel",
+          "Clancy",
+          "Trench",
+          "Blurryface"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Fall Out Boy’s First Album",
+        "elements": [
+          "Take",
+          "This To",
+          "Your",
+          "Grave"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "not emo?"
+  },
+  "11/16/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2024 Hits",
+        "elements": ["Espresso", "Not Like Us", "Beautiful Things", "Too Sweet"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Singer Piano Ballads",
+        "elements": ["What Was I Made For?", "All of Me", "Someone Like You", "When I Was Your Man"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Britney Spear's \"Toxic\"",
+        "elements": ["Wear a Warning", "Too High", "Can't Come Down", "Taste of Your Lips"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs With Massively Popular Remixes",
+        "elements": ["I Took a Pill in Ibiza", "Cheerleader", "You Drive Me Crazy", "Summertime Sadness"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/17/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Songs Named After Famous Historical Figures",
+        "elements": [
+          "Diana",
+          "Cleopatra",
+          "Rasputin",
+          "Judas"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "First Names of Fleetwood Mac Members",
+        "elements": [
+          "Stevie",
+          "Lindsey",
+          "Mick",
+          "Christine"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Song Names Missing the First Word",
+        "elements": [
+          "Holly",
+          "Caroline",
+          "O'Riley",
+          "Brown"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Named After Musical Artists",
+        "elements": [
+          "Luther",
+          "Moves Like Jagger",
+          "Ray Charles",
+          "Sir Duke"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "author": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },  
+  "11/18/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums with Kanye West's Dropout Bear on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78", "alt": "The College Dropout" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273428d2255141c2119409a31b2", "alt": "Late Registration" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2735f2235cb0deb07e74bf6a31d", "alt": "Late Orchestration" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8", "alt": "Graduation" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums with Dogs on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ad75fe7b7a35bf519579de17", "alt": "Raditude" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2737f04eef099ddb5c34a1f3afc", "alt": "Parklife" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bdcb34c7c881080832a051e2", "alt": "Alice in Chains" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734a57b8b911a372d77dfc1ba7", "alt": "Working Class Dog" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums with Livestock on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27303e3921ebbf0437d8893507a", "alt": "White Pony" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27350eb0c521d2d3b2f599bff04", "alt": "Pet Sounds" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739d1b7950b0149b98b85143ca", "alt": "Prolonging the Magic" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27321f10739e08acf7cd6b88f5f", "alt": "Atom Heart Mother" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums by Bands with Primate Names",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf", "alt": "Demon Days" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163", "alt": "AM" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2735bca36ab84d94636a7fe1407", "alt": "Composite Truth" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e709502b231cc562a6fc84c1", "alt": "More of the Monkees" }
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@joseignacio.rosales",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  }, 
+  "11/20/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "‘60s Hot 100 #1s",
+        "elements": [
+          "Paint It Black",
+          "Blue Velvet",
+          "Penny Lane",
+          "I’m a Believer"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Good _____ (’60s Songs)",
+        "elements": [
+          "Vibrations",
+          "Day Sunshine",
+          "Morning Good Morning",
+          "Times Bad Times"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to “Stand By Me”",
+        "elements": [
+          "darling, darling",
+          "the mountains should crumble to the sea",
+          "when the night",
+          "I won’t be afraid"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Jimi Hendrix Songs",
+        "elements": [
+          "Purple Haze",
+          "Red House",
+          "Hey Joe",
+          "Little Wing"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "tenkorrang",
+    "shoutout-socials": true,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/tenkorrang",
+    "spotify": ""
+  },  
+  "11/22/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists Known for Their Facial Hair",
+        "elements": [
+          "ZZ Top",
+          "Freddie Mercury",
+          "Benson Boone",
+          "Post Malone"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Famously Bald Artists",
+        "elements": [
+          "Seal",
+          "Moby",
+          "Pitbull",
+          "Sinéad O’Connor"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs from the Musical \"Hair\"",
+        "elements": [
+          "Aquarius",
+          "Let The Sunshine In",
+          "Good Morning Starshine",
+          "Easy To Be Hard"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Little Mix’s \"Hair\"",
+        "elements": [
+          "Switch It Up",
+          "Sitting In This Chair",
+          "Gotta Get Him Out",
+          "Make Him Disappear"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "oren",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "theme: hair",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  }  
 }
