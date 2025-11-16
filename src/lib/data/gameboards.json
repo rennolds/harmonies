@@ -23811,8 +23811,8 @@
     "message-content": "not emo?"
   },
   "11/16/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/6aHrYEHaZBcRpvkE0WfRXk?si=8bb11d4cc0bb40e0",
+    "gameoverGif": "https://media.tenor.com/NfvDWkLlWrUAAAAM/toxic-music-video-britney-spears.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -23846,14 +23846,14 @@
     "spotify": ""
   },
   "11/17/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4VO7YKvMnpqUhD9sySZ1d1?si=cb85aca44ccc4bcc",
+    "gameoverGif": "https://media.tenor.com/JYu6Mstb-2kAAAAM/stevie-nicks-fleetwood-mac.gif",
     "categories": [
       {
         "color": "#CBff70",
         "name": "Songs Named After Famous Historical Figures",
         "elements": [
-          "Diana",
+          "Galileo",
           "Cleopatra",
           "Rasputin",
           "Judas"
@@ -23885,7 +23885,7 @@
         "elements": [
           "Luther",
           "Moves Like Jagger",
-          "Ray Charles",
+          "Dua Lipa",
           "Sir Duke"
         ]
       }
@@ -23904,8 +23904,8 @@
     "spotify": ""
   },  
   "11/18/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/3TFkOznvPyxJ5cegu412xV?si=d95ba8789e9b4dbb",
+    "gameoverGif": "https://media.tenor.com/bZoGnPOXC9EAAAAM/dondhi-spike-alvarez.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -23962,8 +23962,8 @@
     "letterboxd": ""
   }, 
   "11/20/2025": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/1XH82C7QH4j3ILmfezAWfd?si=61b3548692cc47e7",
+    "gameoverGif": "https://media.tenor.com/wv7u0jiSgpgAAAAM/nancy-sinatra-dancing.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -23977,12 +23977,12 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Good _____ (’60s Songs)",
+        "name": "Jimi Hendrix Songs",
         "elements": [
-          "Vibrations",
-          "Day Sunshine",
-          "Morning Good Morning",
-          "Times Bad Times"
+          "Purple Haze",
+          "Voodoo Child",
+          "Hey Joe",
+          "Little Wing"
         ]
       },
       {
@@ -23997,18 +23997,20 @@
       },
       {
         "color": "#FFBC21",
-        "name": "Jimi Hendrix Songs",
+        "name": "Good _____ (’60s Songs)",
         "elements": [
-          "Purple Haze",
-          "Red House",
-          "Hey Joe",
-          "Little Wing"
+          "Vibrations",
+          "Day Sunshine",
+          "Morning Good Morning",
+          "Times Bad Times"
         ]
       }
     ],
     "shoutout": true,
     "shoutout-name": "tenkorrang",
     "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "all ‘60s",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
@@ -24016,12 +24018,67 @@
     "twitter": "https://x.com/tenkorrang",
     "spotify": ""
   },  
-  "11/22/2025": {
-    "playlist": "",
+  "11/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/3hQcwjaBp3wQmNnYUPw7oo?si=65b46b60da7c409es",
     "gameoverGif": "",
     "categories": [
       {
         "color": "#CBff70",
+        "name": "",
+        "elements": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/71Qw8revTdu1wNMM3O3Px0?si=5be888244ffa4614",
+    "gameoverGif": "https://media.tenor.com/ZdMbIunAaOIAAAAM/benson-boone-surprised.gif",
+    "categories": [
+      {
+        "color": "#CBff 70",
         "name": "Artists Known for Their Facial Hair",
         "elements": [
           "ZZ Top",
