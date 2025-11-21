@@ -24077,51 +24077,32 @@
   },  
   "11/21/2025": {
     "playlist": "https://open.spotify.com/playlist/3hQcwjaBp3wQmNnYUPw7oo?si=65b46b60da7c409es",
-    "gameoverGif": "",
+    "gameoverGif": "https://y.yarn.co/ab1ec91c-4326-447f-938b-c693793f5138_text.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
-        "elements": [
-          "",
-          "",
-          "",
-          ""
-        ]
+        "name": "Lyrics to Jay-Z's \"Izzo (H.O.V.A.)\"",
+        "elements": ["Not Guilty", "Y'all Got To Feel Me", "The Game Needs Me", "The Flow of the Century"]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
-        "elements": [
-          "",
-          "",
-          "",
-          ""
-        ]
+        "name": "Songs with U.S. State Titles",
+        "elements": ["Georgia On My Mind", "Sweet Home Alabama", "Dani California", "Ohio Is For Lovers"]
       },
       {
         "color": "#78DAF9",
-        "name": "",
-        "elements": [
-          "",
-          "",
-          "",
-          ""
-        ]
+        "name": "Radio Hits Written for Movie Soundtracks",
+        "elements": ["Lose Yourself", "Heathens", "Barbie World", "Shallow"]
       },
       {
         "color": "#FFBC21",
-        "name": "",
-        "elements": [
-          "",
-          "",
-          "",
-          ""
-        ]
+        "name": "Songs Featuring Spelling",
+        "elements": ["Hollaback Girl", "Respect", "Fergalicious", "HOT TO GO!"]
+
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
+    "shoutout": true,
+    "shoutout-name": "justin makowski",
     "shoutout-socials": false,
     "instagram": "",
     "tiktok": "",
@@ -24187,5 +24168,42 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
-  }  
+  },
+  "11/27/2025": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/TLUVGHciSHUAAAAM/aerosmith-dream-on.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rock Band Lead Singers",
+        "elements": ["Chris Cornell", "Axl Rose", "Freddie Mercury", "Mick Jagger"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Led Zeppelin Songs",
+        "elements": ["Stairway to Heaven", "Whole Lotta Love", "Immigrant Song", "Black Dog"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Aerosmith's \"Dream On\"",
+        "elements": ["good Lord will take you away", "sing for the year", "where it comes", "where it goes"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "90's Rock Songs",
+        "elements": ["Zombie", "Song 2", "Under the Bridge", "Creep"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  }
 }
