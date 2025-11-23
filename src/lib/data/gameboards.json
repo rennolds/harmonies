@@ -24204,8 +24204,158 @@
     "twitter": "",
     "spotify": ""
   },
-  "11/27/2025": {
-    "playlist": "",
+  "11/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/4zZUPCNB9tYX3a3bfyNxvy?si=4e0bffbf931344f5",
+    "gameoverGif": "https://media2.giphy.com/media/p5rBvAhQ54yPK/giphy.gif?cid=6c09b952kfcnhf1h3byekzfzjyluqez4atlo2mitubwth6ix&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2024 Pop Girl Albums",
+        "elements": ["Eternal Sunshine", "Brat", "Radical Optimism", "Hit Me Hard And Soft"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rhyming Song Titles",
+        "elements": ["Helter Skelter", "Hells Bells", "Super Trouper", "My Guy"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 in 1995",
+        "elements": ["Gangsta's Paradise", "Waterfalls", "On Bended Knee", "Fantasy"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Being Unfaithful",
+        "elements": ["Confessions Part II", "Unfaithful", "It Wasn't Me", "Lips of an Angel"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/25/2025": {
+    "playlist": "https://open.spotify.com/playlist/3h2Lz3hmQCfexoTXusreLw?si=33a5058e7fbe4607",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUydGhoNW5ucGtqZ2w0ODB2d3lhY3h3cnBtcmtya2d1M25tZDA2aGE0MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EPEoHM70HZLEc/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Black and White Covers",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27308478de146aa7404e54dbf16", "alt": "Check Your Head" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273654afcab578b93f29ca55a29", "alt": "Modern Vampires of the City" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733935c39bea149ac15c83c41a", "alt": "Ramones" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1", "alt": "To Pimp a Butterfly" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Albums With \"Moon\" in the Title",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456", "alt": "Full Moon Fever" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273aab2c3c3f1f3207137d915c9", "alt": "Man on the Moon: The End of the Day" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6", "alt": "The Dark Side of the Moon" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d828b182ee9b7193a0f8b5d6", "alt": "Moondance" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2016 R&B Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526", "alt": "Blonde" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731c29562d6e8c1f55bb1311d5", "alt": "\"Awaken, My Love!\"" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736be9bac15995f089579074de", "alt": "ANTI" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27389992f4d7d4ab94937bf9e23", "alt": "Lemonade" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums by Mixed-Gender Rock Bands",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273dca40205d34a5975ef2f04ac", "alt": "The Album" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ace2bedb8e6cfa04207d5c0f", "alt": "Parallel Lines" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bee754528c08d5ff6799a1eb", "alt": "Riot!" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27357df7ce0eac715cf70e519a7", "alt": "Rumours" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "11/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/4tQYD4Aqc58OyIp8UJCeFN?si=6584c65ffc594962",
+    "gameoverGif": "https://media3.giphy.com/media/xUNd9BgFOSwAvXDNUk/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Country Artists",
+        "elements": [
+          "Luke Bryan",
+          "Morgan Wallen",
+          "Chris Stapleton",
+          "Shania Twain"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with Horses in the Title",
+        "elements": [
+          "Save a Horse (Ride a Cowboy)",
+          "A Horse with No Name",
+          "Dark Horse",
+          "Goodbye Horses"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Japanese Singers",
+        "elements": [
+          "Mitski",
+          "Joji",
+          "Hikaru Utada",
+          "Hatsune Miku"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs from Videogame OSTs",
+        "elements": [
+          "One-Winged Angel",
+          "Life Will Change",
+          "Subwoofer Lullaby",
+          "Still Alive"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "11/28/2025": {
+    "playlist": "https://open.spotify.com/playlist/2nvP292p0ON7dHQxhOyP3E?si=7a18c6d609d04545",
     "gameoverGif": "https://media.tenor.com/TLUVGHciSHUAAAAM/aerosmith-dream-on.gif",
     "categories": [
       {
@@ -24227,6 +24377,110 @@
         "color": "#FFBC21",
         "name": "90's Rock Songs",
         "elements": ["Zombie", "Song 2", "Under the Bridge", "Creep"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "11/29/2025": {
+    "playlist": "https://open.spotify.com/playlist/1TfNwkLZG9j96rxEDLboss?si=f43e61058c88486e",
+    "gameoverGif": "https://i.makeagif.com/media/8-28-2017/7ZExg0.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Ariana Grande Songs",
+        "elements": ["Break Free", "just like magic", "NASA", "better off"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The Weeknd Albums",
+        "elements": [
+          "The Beauty Behind the Madness",
+          "Dawn FM",
+          "Starboy",
+          "My Dear Melancholy,"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rock Bands Active in the 1980s",
+        "elements": ["AC/DC", "Metallica", "The Rolling Stones", "Tears for Fears"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Deftones' \"Be Quiet and Drive (Far Away)\"",
+        "elements": [
+          "this town don't feel mine",
+          "i'm fast to get away",
+          "i don't care where",
+          "just far"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "ellie",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },  
+  "11/30/2025": {
+    "playlist": "https://open.spotify.com/playlist/3ZMw7rsnMt5Ia3PAW4y7gf?si=1375daf8dd2f4121",
+    "gameoverGif": "https://64.media.tumblr.com/0f987610c97ed523eb65a175c8a3f9d7/tumblr_mn1penf48E1s5b9m4o1_r1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs about USA Locations",
+        "elements": [
+          "California Dreamin'",
+          "Detroit Rock City",
+          "New York State of Mind",
+          "No Sleep Till Brooklyn"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Punk Classics",
+        "elements": [
+          "Blitzkrieg Bop",
+          "Anarchy in the UK",
+          "London Calling",
+          "Basket Case"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Women of Indie Songs",
+        "elements": [
+          "Washing Machine Heart",
+          "Sofia",
+          "Kyoto",
+          "Royals"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs about Criminals",
+        "elements": [
+          "Smooth Criminal",
+          "I Shot the Sheriff",
+          "Night Shift",
+          "Jailhouse Rock"
+        ]
       }
     ],
     "shoutout": false,
