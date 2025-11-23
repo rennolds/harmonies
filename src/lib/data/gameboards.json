@@ -12556,7 +12556,7 @@
     {
       "color": "#FAA3FF",
       "name": "Rappers With Collab Albums",
-      "elements": ["Drake & PartyNextDoor", "JPEGMAFIA & Danny Brown", "Ye & Ty Dolla $ign", "Travis Scott & Quavo "]
+      "elements": ["Drake & PartyNextDoor", "JPEGMAFIA & Danny Brown", "Ye & Ty Dolla $ign", "Travis Scott & Quavo"]
     },
     {
       "color": "#78DAF9",
@@ -24168,6 +24168,41 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  },
+  "11/23/2025": {
+    "playlist": "https://open.spotify.com/playlist/7CfYCzGqxwE7yI3JYsUOdE?si=3eb422d4daca4bdd",
+    "gameoverGif": "https://media4.giphy.com/media/3o6gfThIKcU2pw2M80/200w.gif?cid=6c09b952gyyfonxjpo0knc9q1sv832bx7p9fvl9vbqubo0bj&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rappers With A Collab Album",
+        "elements": ["Freddie Gibbs & Madlib", "MF DOOM & Madlib", "Ye & Kid Cudi", "Drake & 21 Savage"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rap of 2002",
+        "elements": ["Without Me", "03' Bonnie & Clyde", "Air Force Ones", "Work It"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands Featuring a Husband & Wife",
+        "elements": ["The White Stripes", "Sonny & Cher", "Ike & Tina Turner", "Arcade Fire"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Referencing Romeo and Juliet",
+        "elements": ["Love Story", "(Don't Fear) The Reaper", "Check Yes, Juliet", "Romeo and Juliet"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   },
   "11/27/2025": {
     "playlist": "",
