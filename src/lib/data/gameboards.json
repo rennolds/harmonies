@@ -24354,6 +24354,53 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
+  "11/27/2025": {
+    "playlist": "https://open.spotify.com/playlist/6SOvehL40jItUQN9lLMtVu?si=ed07d6dc873e40e2",
+    "gameoverGif": "https://media1.tenor.com/m/dS4yf-2zW_IAAAAC/turkey-happy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs About Food",
+        "elements": ["Banana Pancakes", "Watermelon Sugar", "Pork and Beans", "American Pie"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Song Titles With Family Members",
+        "elements": [
+          "Stacy's Mom",
+          "Hey Brother",
+          "Sister Christian",
+          "Father Stretch My Hands Pt. 1"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Song Titles Featuring NFL Franchises",
+        "elements": ["The Lion Sleeps Tonight", "Fly Like an Eagle", "Save a Horse (Ride a Cowboy)", "Bennie and the Jets"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Sister Sledge's \"We Are Family\"",
+        "elements": [
+          "all my sisters with me",
+          "get up, everybody",
+          "and sing",
+          "like birds of a feather"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "happy thanksgiving!",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "11/28/2025": {
     "playlist": "https://open.spotify.com/playlist/2nvP292p0ON7dHQxhOyP3E?si=7a18c6d609d04545",
     "gameoverGif": "https://media.tenor.com/TLUVGHciSHUAAAAM/aerosmith-dream-on.gif",
