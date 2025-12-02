@@ -24635,6 +24635,63 @@
     "spotify": "",
     "letterboxd": ""
   },
+  "12/03/2025": {
+    "playlist": "https://open.spotify.com/playlist/4D8CW6RsE6Ce7dWxeYCWDJ?si=70860f5360fd46a1",
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDlhZ2tqanNwb2R4MnZpY3I2c3Z1cDZtNjE0djgwd2d1czNrcTNjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U8f0m2abutY8uFigks/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists Names That Start With 1/One",
+        "elements": [
+          "Direction",
+          "Republic",
+          "0cc",
+          "OK Rock"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists Names That Start With 2/Twenty",
+        "elements": [
+          "Chainz",
+          "Pac",
+          "Door Cinema Club",
+          "Pilots"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists Names That Start With 3/Three",
+        "elements": [
+          "Doors Down",
+          "OH!3",
+          "6 Mafia",
+          "Days Grace"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Names That Start With 4/Four'",
+        "elements": [
+          "Non Blondes",
+          "Tops",
+          "Tet",
+          "Of Spades"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
   "12/04/2025": {
     "playlist": "https://open.spotify.com/playlist/0Q6iN2NYyNWAx5h0sWYsQH?si=a6ff0c1eae0c46c8",
     "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybzljZmVzejFvaWxlaHl3MDJrNDgxeHQ1YnI5NDRhODgybjNqeXBnbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/nzlSW0pZYp4m4/200w.gif",
@@ -24682,7 +24739,64 @@
     ],
     "shoutout": true,
     "shoutout-name": "@_oliespositoo",
-    "shoutout-socials": true,
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/05/2025": {
+    "playlist": "https://open.spotify.com/playlist/0gZ4xyY0LckXS7jNZhZ5SN?si=69d99b783b29471f",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUybjNzYTBwZ2xlYnVjaGJ1aTBlYXVyMG50dDJvbTBtZzF4MTVoNXZuayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/y2YOMl6HZHE9q/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Madonna Songs",
+        "elements": [
+          "Material Girl",
+          "Like a Prayer",
+          "Like a Virgin",
+          "La Isla Bonita"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rap Verse, Pop Chorus",
+        "elements": [
+          "Coming Home",
+          "Love the Way You Lie",
+          "Airplanes",
+          "Empire State of Mind"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from The Killer's \"Mr. Brightside\"",
+        "elements": [
+          "coming out",
+          "my cage",
+          "just fine",
+          "end up like this"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from P!nk's \"Get the Party Started\"",
+        "elements": [
+          "coming up",
+          "get this party started",
+          "on a saturday night",
+          "for me to arrive"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
     "instagram": "",
