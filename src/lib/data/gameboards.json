@@ -24970,6 +24970,64 @@
     "twitter": "",
     "spotify": ""
   },
+  "12/09/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Pink Sky Covers",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8", "alt": "Graduation" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273de83ea7c98aacbbe889e8aa7", "alt": "Acid Rap" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647", "alt": "Lover" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c4dae9528b2a8408f463eb17", "alt": "Malibu Nights" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pink Text on the Cover",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273628103d0e62602f00408345d", "alt": "London Calling" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2739fa8d0e800691182a9d2d60e", "alt": "Rocket to Russia" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27343f15453faa4973061411a79", "alt": "Pink Friday" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Doja_Cat_-_Hot_Pink.png", "alt": "Hot Pink" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums By \"Pink\" Artists",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734aeaaeeb0755f1d8a8b51738", "alt": "BORN PINK" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6", "alt": "The Dark Side of the Moon" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f366eba0d5127af7a7acc52a", "alt": "I'm Not Dead" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273dd4912edb4982f53a381b98e", "alt": "Fancy That" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums From Child Actors",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e85259a1cae29a8d91f2093d", "alt": "GUTS" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8", "alt": "thank u, next" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731c8193de8d62b2ffa49a09db", "alt": "When The Sun Goes Down" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b722d4add25425e328237a4e", "alt": "Younger Now" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
   "12/11/2025": {
     "playlist": "https://open.spotify.com/playlist/2KVSgxGW6xDwFY1myT6k6n?si=4191acd9dedd4be3",
     "gameoverGif": "https://i.pinimg.com/originals/7f/d7/a4/7fd7a4a5e1db7eedc99e05dbd4f1b3b5.gif",
@@ -25007,42 +25065,51 @@
   },
   "12/12/2025": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media1.tenor.com/m/es_bKIE-Yv0AAAAd/dave-grohl-davidgrohl.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
+        "name": "\"All _____\" Song Titles",
         "elements": [
-          ""
+          "Star",
+          "Along the Watchtower",
+          "Of Me",
+          "By Myself"
         ]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
+        "name": "Lyrics from Foo Fighters' \"Everlong\"",
         "elements": [
-          ""
+          "I Wonder",
+          "She Sang",
+          "Sing Along",
+          "Anything"
         ]
       },
       {
         "color": "#78DAF9",
-        "name": "",
+        "name": "\"The _____\" Bands",
         "elements": [
-          ""
+          "Killers",
+          "Police",
+          "Doors",
+          "Cure"
         ]
       },
       {
         "color": "#FFBC21",
-        "name": "Song Titles Featuring Keyboard Keys",
+        "name": "Albums Released in 1999",
         "elements": [
-          "Enter Sandman",
-          "Blank Space",
-          "Lose Control",
-          "The Sweet Escape"
+          "Human Clay",
+          "Make Yourself",
+          "Californication",
+          "There Is Nothing Left to Lose"
         ]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
+    "shoutout": true,
+    "shoutout-name": "bryce",
     "shoutout-socials": false,
     "special-message": false,
     "message-content": "",
@@ -25171,23 +25238,32 @@
     "categories": [
       {
         "color": "#CBff70",
-        "name": "",
+        "name": "Doja Cat Songs",
         "elements": [
-          ""
+          "Womam",
+          "Rules",
+          "Juicy",
+          "Candy"
         ]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
+        "name": "2010 Albums",
         "elements": [
-          ""
+          "Recovery",
+          "Loud",
+          "Animal",
+          "Speak Now"
         ]
       },
       {
         "color": "#78DAF9",
-        "name": "",
+        "name": "Song Titles Without \"Car(s)\"",
         "elements": [
-          ""
+          "Fast",
+          "sports",
+          "Radio",
+          "Chasing"
         ]
       },
       {
@@ -25212,5 +25288,116 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
-  }
+  },
+  "12/16/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers Featuring Analog Media",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731cb9b88a3e8d5344a10184bc", "alt": "Radio" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731dacfbc31cc873d132958af9", "alt": "Yeezus" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732af30c881bb23cfb82a8cf99", "alt": "Let It Bleed" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27393bca993965222066dfbf060", "alt": "True Magic" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "",
+        "elements": [
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "",
+        "elements": [
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "",
+        "elements": [
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" },
+          { "type": "image", "url": "", "alt": "" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "12/19/2025": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Kelly Clarkson Songs",
+        "elements": [
+          "Since U Been Gone",
+          "Underneath the Tree",
+          "Stronger",
+          "Breakaway"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Solo Songs by Members of The Beatles",
+        "elements": [
+          "Wodnerful Christmastime",
+          "Imagine",
+          "Got My Mind Set On You",
+          "Happy Xmas (War is Over)"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Song Titles Featuring Keyboard Keys",
+        "elements": [
+          "Enter Sandman",
+          "Blank Space",
+          "Lose Control",
+          "The Sweet Escape"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Reference Their Own Genre",
+        "elements": ["Jingle Bell Rock", "Rap God", "Folsom Prison Blues", "Disco Inferno"]
+
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
 }

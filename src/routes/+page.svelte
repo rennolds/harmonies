@@ -1429,6 +1429,12 @@
     -webkit-overflow-scrolling: touch;
     touch-action: pan-x;
   }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 700px;
+    }
+  }
   .gameover-overlay {
     position: fixed;
     top: 50%; /* Position at the vertical center */
@@ -1677,13 +1683,19 @@
   @media (min-width: 768px) {
     /* Increase container width on desktop */
     .grid-container {
-      max-width: 650px;
+      max-width: 680px;
     }
 
     /* Increase size for grid items containing images on desktop */
     .grid-item.has-image {
-      height: 150px;
-      width: 150px;
+      height: 185px;
+      width: 185px;
+    }
+    
+    /* Scale the mistakes remaining text */
+    .mistakes-remaining-text,
+    .mistakes-remaining-number {
+      font-size: 16px;
     }
   }
   /* --- Desktop adjustments END --- */

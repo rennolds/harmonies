@@ -55,50 +55,60 @@ html, body {
 @media only screen and (min-width: 768px) {
   /* Increase the grid container maximum width */
   .grid-container {
-    max-width: 525px !important; /* Allow space for 4 items of 120px + gaps */
-    min-width: 510px !important; /* Ensure minimum space for items */
+    max-width: 680px !important; /* Allow space for 4 items of 155px + gaps */
+    min-width: 660px !important; /* Ensure minimum space for items */
   }
   
   /* Make grid items larger on desktop */
   .grid-item {
-    height: 80px !important; /* Moderate increase from 80px */
-    width: 120px !important; /* Moderate increase from 90px */
-    font-size: 15px !important; /* Slightly larger font */
-    border-radius: 9px !important; /* Slightly larger border radius */
+    height: 105px !important; /* Increased from 80px (31% larger) */
+    width: 155px !important; /* Increased from 120px (29% larger) */
+    font-size: 16px !important; /* Slightly larger font */
+    border-radius: 10px !important; /* Slightly larger border radius */
+    line-height: 20px !important; /* Better line spacing for larger text */
   }
   
   /* Make sure the full-row cleared categories scale accordingly */
   .full-row {
-    height: 80px !important; /* Match the height of grid items */
+    height: 105px !important; /* Match the height of grid items */
+    line-height: 28px !important; /* Better spacing for larger text */
   }
   
   /* Increase the size of cleared category text */
   .full-row h2 {
-    font-size: 13px !important;
+    font-size: 15px !important;
+    margin-bottom: -10px !important;
   }
   
   .full-row p {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
   
   /* Scale the play button container to match */
   .play-button-container {
-    max-width: 525px !important; /* Match grid container */
+    max-width: 680px !important; /* Match grid container */
   }
   
   /* Scale the mistakes remaining container */
   .mistakes-remaining-container {
-    max-width: 525px !important; /* Match grid container */
+    max-width: 680px !important; /* Match grid container */
+    font-size: 16px !important;
   }
   
   /* Adjust game container */
   .game-container {
-    max-width: 525px !important;
+    max-width: 680px !important;
+  }
+  
+  /* Increase mistakes remaining text size */
+  .mistakes-remaining-text,
+  .mistakes-remaining-number {
+    font-size: 16px !important;
   }
   
   /* Fix navbar positioning to match wider container */
   .navbar {
-    max-width: 475px !important; /* Match the wider container */
+    max-width: 630px !important; /* Match the wider container */
   }
   
   /* Adjust navbar elements to ensure they stay at the edges */
@@ -116,23 +126,23 @@ html, body {
 /* Large desktop screens */
 @media only screen and (min-width: 1200px) {
   .grid-container {
-    max-width: 525px !important;
+    max-width: 680px !important;
   }
   
   .grid-item {
-    height: 80px !important;
-    width: 120px !important;
+    height: 105px !important;
+    width: 155px !important;
   }
   
   .full-row {
-    height: 80px !important;
+    height: 105px !important;
   }
   
   .play-button-container,
   .mistakes-remaining-container,
   .game-container,
   .navbar {
-    max-width: 525px !important;
+    max-width: 680px !important;
   }
 }
 
