@@ -1429,7 +1429,7 @@
     -webkit-overflow-scrolling: touch;
     touch-action: pan-x;
   }
-  
+
   @media (min-width: 768px) {
     .container {
       max-width: 700px;
@@ -1691,7 +1691,7 @@
       height: 185px;
       width: 185px;
     }
-    
+
     /* Scale the mistakes remaining text */
     .mistakes-remaining-text,
     .mistakes-remaining-number {
