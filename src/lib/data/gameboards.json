@@ -25347,6 +25347,43 @@
     "spotify": ""
   },
   "12/16/2025": {
+    "playlist": "https://open.spotify.com/playlist/1CMcDiUtNfK8xXXRc8kkmG?si=5cadb22d508744f0",
+    "gameoverGif": "https://media4.giphy.com/media/3oKIPAT50I1ss7q90Y/200w.gif?cid=6c09b9527vpkuxltzqo9vr9pzustkpp95g8rnhfh101rxsc3&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Solo Acts",
+        "elements": ["Tame Impala", "M83", "DJO", "Beck"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Duo Acts",
+        "elements": ["Twenty One Pilots", "The White Stripes", "Air Supply", "The Black Keys"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Three-Piece Acts",
+        "elements": ["Nirvana", "Rush", "Green Day", "Cream"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Four-Piece Acts",
+        "elements": ["Metallica", "My Chemical Romance", "Weezer", "Queen"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "" 
+  },
+  "12/30/2025": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
