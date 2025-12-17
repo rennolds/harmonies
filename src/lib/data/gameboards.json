@@ -25409,6 +25409,11 @@
       },
       {
         "color": "#78DAF9",
+        "name": "My Chemical Romance Songs",
+        "elements": ["Honey, This Mirror In't Big Enough For The Two of Us", "Na Na Na (Na Na Na Na Na Na Na Na Na)", "You Know What They Do To Guys Like Us In Prison", "The Only Hope For Me Is You"]
+      },
+      {
+        "color": "#FFBC21",
         "name": "Things Meat Loaf Won’t Do For Love in “I Would Do Anything For Love”",
         "elements": [
           "Forget the way you feel right now",
@@ -25416,11 +25421,6 @@
           "Do it better than I do it with you",
           "Stop dreaming of you every night of my life"
         ]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Marvin Gaye Is Confused",
-        "elements": ["What’s Going On", "Where Are We Going?", "What Kind of Fool Am I", "When Did You Stop Loving Me, When Did I Stop Loving You?"]
       }
     ],
     "shoutout": true,
