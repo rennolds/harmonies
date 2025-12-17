@@ -1,6 +1,7 @@
 <script>
   import { fade, fly } from "svelte/transition";
   import { currentStreak, maxStreak, solveList } from "./store.js";
+  import { isAuthenticated, syncStatus } from "$lib/stores/statsStore.js";
 
   // Props
   export let isOpen = false;
@@ -164,6 +165,40 @@
             </div>
           {/each}
         </div>
+      </div>
+
+      <!-- Sync status indicator -->
+      <div class="sync-status">
+        {#if $isAuthenticated}
+          {#if $syncStatus.syncing}
+            <span class="sync-indicator syncing">
+              <span class="sync-dot"></span>
+              Syncing...
+            </span>
+          {:else if $syncStatus.synced}
+            <span class="sync-indicator synced">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#22c55e"/>
+              </svg>
+              Synced to cloud
+            </span>
+          {:else if $syncStatus.lastSyncError}
+            <span class="sync-indicator error">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="#ef4444"/>
+              </svg>
+              Sync error
+            </span>
+          {/if}
+        {:else}
+          <a href="/login" class="sync-indicator not-logged-in">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.5" />
+              <path d="M5 20C5 17.2386 8.13401 15 12 15C15.866 15 19 17.2386 19 20V21H5V20Z" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+            Log in to sync stats
+          </a>
+        {/if}
       </div>
     </div>
   </div>
@@ -366,6 +401,60 @@
 
     .stat-label {
       font-size: 10px;
+    }
+  }
+
+  /* Sync status styles */
+  .sync-status {
+    padding: 12px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+
+  .sync-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .sync-indicator.synced {
+    color: #22c55e;
+  }
+
+  .sync-indicator.syncing {
+    color: #ba81c2;
+  }
+
+  .sync-indicator.error {
+    color: #ef4444;
+  }
+
+  .sync-indicator.not-logged-in {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .sync-indicator.not-logged-in:hover {
+    color: #ba81c2;
+  }
+
+  .sync-dot {
+    width: 8px;
+    height: 8px;
+    background: #ba81c2;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
     }
   }
 </style>
