@@ -257,7 +257,7 @@
 <!-- User dropdown menu - outside navbar for proper z-index -->
 {#if showUserMenu && $isAuthenticated}
   <div class="user-dropdown">
-    <div class="user-email">
+    <div class="user-name">
       {$userProfile?.username || $authUser?.email || "User"}
     </div>
     <button class="dropdown-item" on:click={handleLogOut}> Log Out </button>
@@ -515,7 +515,7 @@
     }
   }
 
-  .user-email {
+  .user-name {
     padding: 12px 16px;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6);

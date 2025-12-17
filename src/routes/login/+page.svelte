@@ -51,7 +51,7 @@
 
   const ALLOWED = [
     "https://harmonies.io",
-    "https://auth.harmonies.io",
+    "https://auth.harmonies.pages.dev",
     "http://localhost:5173",
     "http://localhost:5174",
     "http://localhost:5175",
