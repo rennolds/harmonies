@@ -61,7 +61,7 @@ html, body {
   
   /* Make grid items larger on desktop */
   .grid-item {
-    height: 105px !important; /* Increased from 80px (31% larger) */
+    height: 85px !important; /* Reduced to prevent overlap with bottom ad */
     width: 155px !important; /* Increased from 120px (29% larger) */
     font-size: 16px !important; /* Slightly larger font */
     border-radius: 10px !important; /* Slightly larger border radius */
@@ -70,8 +70,8 @@ html, body {
   
   /* Make sure the full-row cleared categories scale accordingly */
   .full-row {
-    height: 105px !important; /* Match the height of grid items */
-    line-height: 28px !important; /* Better spacing for larger text */
+    height: 85px !important; /* Match the height of grid items */
+    line-height: 24px !important; /* Better spacing for larger text */
   }
   
   /* Increase the size of cleared category text */
@@ -130,12 +130,12 @@ html, body {
   }
   
   .grid-item {
-    height: 105px !important;
+    height: 85px !important;
     width: 155px !important;
   }
   
   .full-row {
-    height: 105px !important;
+    height: 85px !important;
   }
   
   .play-button-container,

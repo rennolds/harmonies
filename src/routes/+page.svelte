@@ -1399,7 +1399,7 @@
     position: absolute;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-    padding-top: 250px; /* Default padding for mobile (ad + navbar) */
+    padding-top: 270px; /* Default padding for mobile (ad + navbar) */
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -1605,11 +1605,10 @@
     overflow-wrap: break-word;
   }
 
-  /* Mobile: handle long text by aligning to top and trailing off at bottom */
+  /* Mobile: handle long text with line-clamp while keeping centered */
   @media (max-width: 767px) {
     .grid-item {
-      align-items: flex-start;
-      padding-top: 8px;
+      align-items: center;
       box-sizing: border-box;
     }
 
@@ -1620,7 +1619,6 @@
       overflow: hidden;
       text-overflow: ellipsis;
       margin: 0;
-      max-height: calc(100% - 4px);
     }
   }
 
@@ -1650,7 +1648,6 @@
       font-size: 11px;
       height: 60px;
       width: 82px;
-      padding-top: 6px;
     }
 
     .grid-item p {
@@ -1668,7 +1665,6 @@
       font-size: 12px;
       height: 68px;
       width: 16.5vw;
-      padding-top: 7px;
     }
 
     .grid-item p {
@@ -1683,7 +1679,6 @@
       font-size: 12px;
       height: 68px;
       width: 20.5vw;
-      padding-top: 7px;
     }
 
     .grid-item p {
@@ -1706,7 +1701,6 @@
       font-size: 14px;
       height: 70px;
       width: 10vw;
-      padding-top: 7px;
     }
 
     .grid-item p {
