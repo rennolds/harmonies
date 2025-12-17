@@ -27,6 +27,7 @@
     completedDays,
     todaysProgressDate,
   } from "./store.js";
+  import { recordGameCompletion } from "$lib/stores/statsStore.js";
 
   const PUB_ID = 1025391;
   const WEBSITE_ID = 75241;
@@ -340,6 +341,24 @@
         $maxStreak = $currentStreak;
       }
     }
+
+    // Sync to cloud if user is authenticated
+    const gameData = {
+      puzzleDate: todaysDate,
+      result: win ? 'WIN' : 'LOSS',
+      guessesCount: guessCount,
+      timeTakenSeconds: null // Could add timer tracking in future
+    };
+
+    const updatedStats = {
+      played: $played,
+      currentStreak: $currentStreak,
+      maxStreak: $maxStreak,
+      solveList: $solveList,
+      completedDays: $completedDays
+    };
+
+    recordGameCompletion(gameData, updatedStats);
   }
 
   function shuffleElements() {

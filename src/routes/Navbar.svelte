@@ -5,6 +5,8 @@
   import { currentGameDate } from "./store";
   import SpotifyModal from "./SpotifyModal.svelte";
   import StatsModal from "./StatsModal.svelte";
+  import { isAuthenticated, authUser, signOut } from "$lib/stores/statsStore.js";
+  import { goto } from "$app/navigation";
 
   export let toggleHelpOverlay;
   export let playlist;
@@ -13,6 +15,7 @@
   let menuOpen = false;
   let spotifyModalOpen = false;
   let statsModalOpen = false;
+  let showUserMenu = false;
 
   function toggleMenu() {
     menuOpen = !menuOpen;
@@ -37,6 +40,25 @@
   // Function to navigate to today's game from the indicator with a hard reload
   function goToTodaysGame() {
     window.location.href = "/"; // Force a complete page reload
+  }
+
+  // User menu functions
+  function handleUserClick() {
+    if ($isAuthenticated) {
+      showUserMenu = !showUserMenu;
+    } else {
+      goto('/login');
+    }
+  }
+
+  async function handleSignOut() {
+    showUserMenu = false;
+    await signOut();
+    window.location.reload();
+  }
+
+  function closeUserMenu() {
+    showUserMenu = false;
   }
 </script>
 
@@ -178,10 +200,67 @@
             />
           </svg>
         </button>
+
+        <!-- User/Login button -->
+        <div class="user-button-container">
+          <button
+            class="icon-button user-btn"
+            on:click={handleUserClick}
+            aria-label={$isAuthenticated ? "Account" : "Login"}
+          >
+            {#if $isAuthenticated}
+              <!-- Logged in user icon (filled) -->
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="8" r="4" fill="#ba81c2" />
+                <path
+                  d="M4 20C4 16.6863 7.58172 14 12 14C16.4183 14 20 16.6863 20 20V21H4V20Z"
+                  fill="#ba81c2"
+                />
+              </svg>
+            {:else}
+              <!-- Logged out user icon (outline) -->
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="8" r="3.5" stroke="white" stroke-width="1.5" />
+                <path
+                  d="M5 20C5 17.2386 8.13401 15 12 15C15.866 15 19 17.2386 19 20V21H5V20Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                />
+              </svg>
+            {/if}
+          </button>
+
+          <!-- User dropdown menu -->
+          {#if showUserMenu && $isAuthenticated}
+            <div class="user-dropdown">
+              <div class="user-email">{$authUser?.email || 'User'}</div>
+              <button class="dropdown-item" on:click={handleSignOut}>
+                Sign Out
+              </button>
+            </div>
+          {/if}
+        </div>
       </div>
     </div>
   </nav>
 </div>
+
+<!-- Click outside to close user menu -->
+{#if showUserMenu}
+  <div class="user-menu-backdrop" on:click={closeUserMenu} on:keydown={(e) => e.key === 'Escape' && closeUserMenu()} role="button" tabindex="-1"></div>
+{/if}
 
 <style>
   .navbar-wrapper {
@@ -393,5 +472,62 @@
       height: 24px;
       width: 24px;
     }
+  }
+
+  /* User button and dropdown styles */
+  .user-button-container {
+    position: relative;
+  }
+
+  .user-btn {
+    position: relative;
+  }
+
+  .user-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+    background: linear-gradient(145deg, #2a1e2d, #1a141d);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    min-width: 180px;
+    z-index: 10003;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .user-email {
+    padding: 12px 16px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    word-break: break-all;
+  }
+
+  .dropdown-item {
+    width: 100%;
+    padding: 12px 16px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .dropdown-item:hover {
+    background: rgba(186, 129, 194, 0.2);
+  }
+
+  .user-menu-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10002;
+    background: transparent;
   }
 </style>
