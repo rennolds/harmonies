@@ -5,12 +5,16 @@
   import { currentGameDate } from "./store";
   import SpotifyModal from "./SpotifyModal.svelte";
   import StatsModal from "./StatsModal.svelte";
-  import { isAuthenticated, authUser, signOut } from "$lib/stores/statsStore.js";
-  import { goto } from "$app/navigation";
+  import {
+    isAuthenticated,
+    authUser,
+    userProfile,
+    signOut,
+  } from "$lib/stores/statsStore.js";
 
   export let toggleHelpOverlay;
   export let playlist;
-  export let isArchiveMode = false; // Add this prop to detect if we're in archive mode or on the archives page
+  export let isArchiveMode = false;
 
   let menuOpen = false;
   let spotifyModalOpen = false;
@@ -25,21 +29,18 @@
     menuOpen = false;
   }
 
-  // Function to toggle the Spotify modal
   function toggleSpotifyModal() {
     if (playlist) {
       spotifyModalOpen = !spotifyModalOpen;
     }
   }
 
-  // Function to toggle the Stats modal
   function toggleStatsModal() {
     statsModalOpen = !statsModalOpen;
   }
 
-  // Function to navigate to today's game from the indicator with a hard reload
   function goToTodaysGame() {
-    window.location.href = "/"; // Force a complete page reload
+    window.location.href = "/";
   }
 
   // User menu functions
@@ -47,14 +48,14 @@
     if ($isAuthenticated) {
       showUserMenu = !showUserMenu;
     } else {
-      goto('/login');
+      window.location.href = "/login";
     }
   }
 
-  async function handleSignOut() {
+  async function handleLogOut() {
     showUserMenu = false;
     await signOut();
-    window.location.reload();
+    window.location.href = "/";
   }
 
   function closeUserMenu() {
@@ -205,7 +206,7 @@
         <div class="user-button-container">
           <button
             class="icon-button user-btn"
-            on:click={handleUserClick}
+            on:click|stopPropagation={handleUserClick}
             aria-label={$isAuthenticated ? "Account" : "Login"}
           >
             {#if $isAuthenticated}
@@ -232,7 +233,13 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="12" cy="8" r="3.5" stroke="white" stroke-width="1.5" />
+                <circle
+                  cx="12"
+                  cy="8"
+                  r="3.5"
+                  stroke="white"
+                  stroke-width="1.5"
+                />
                 <path
                   d="M5 20C5 17.2386 8.13401 15 12 15C15.866 15 19 17.2386 19 20V21H5V20Z"
                   stroke="white"
@@ -241,25 +248,31 @@
               </svg>
             {/if}
           </button>
-
-          <!-- User dropdown menu -->
-          {#if showUserMenu && $isAuthenticated}
-            <div class="user-dropdown">
-              <div class="user-email">{$authUser?.email || 'User'}</div>
-              <button class="dropdown-item" on:click={handleSignOut}>
-                Sign Out
-              </button>
-            </div>
-          {/if}
         </div>
       </div>
     </div>
   </nav>
 </div>
 
+<!-- User dropdown menu - outside navbar for proper z-index -->
+{#if showUserMenu && $isAuthenticated}
+  <div class="user-dropdown">
+    <div class="user-email">
+      {$userProfile?.username || $authUser?.email || "User"}
+    </div>
+    <button class="dropdown-item" on:click={handleLogOut}> Log Out </button>
+  </div>
+{/if}
+
 <!-- Click outside to close user menu -->
 {#if showUserMenu}
-  <div class="user-menu-backdrop" on:click={closeUserMenu} on:keydown={(e) => e.key === 'Escape' && closeUserMenu()} role="button" tabindex="-1"></div>
+  <div
+    class="user-menu-backdrop"
+    on:click={closeUserMenu}
+    on:keydown={(e) => e.key === "Escape" && closeUserMenu()}
+    role="button"
+    tabindex="-1"
+  ></div>
 {/if}
 
 <style>
@@ -484,17 +497,22 @@
   }
 
   .user-dropdown {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    margin-top: 8px;
+    position: fixed;
+    top: 105px;
+    right: 15px;
     background: linear-gradient(145deg, #2a1e2d, #1a141d);
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     min-width: 180px;
-    z-index: 10003;
+    z-index: 10005;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  @media (min-width: 768px) {
+    .user-dropdown {
+      top: 55px;
+    }
   }
 
   .user-email {
@@ -527,7 +545,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 10002;
+    z-index: 10000;
     background: transparent;
   }
 </style>

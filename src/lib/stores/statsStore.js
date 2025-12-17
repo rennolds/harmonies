@@ -4,9 +4,11 @@ import { supabase } from '$lib/supabaseClient';
 import { getUserStats, uploadLocalStats, recordGameResult } from '$lib/db/stats';
 
 /**
- * Auth store - tracks current user session
+ * Auth stores
  */
 export const authUser = writable(null);
+export const user = authUser; // Alias
+export const userProfile = writable(null);
 export const authLoading = writable(true);
 
 /**
@@ -20,39 +22,59 @@ export const syncStatus = writable({
 
 /**
  * Initialize auth listener
- * Call this once in the layout component
  */
 export function initAuthListener() {
   if (!browser) return;
 
   // Get initial session
   supabase.auth.getSession().then(({ data: { session } }) => {
-    authUser.set(session?.user ?? null);
+    const u = session?.user ?? null;
+    authUser.set(u);
     authLoading.set(false);
     
-    if (session?.user) {
-      // User is logged in, sync stats
-      syncStatsOnLogin(session.user.id);
+    if (u) {
+      fetchUserProfile(u.id);
+      syncStatsOnLogin(u.id);
     }
   });
 
   // Listen for auth changes
   const { data: { subscription } } = supabase.auth.onAuthStateChange(
     async (event, session) => {
-      const user = session?.user ?? null;
-      authUser.set(user);
+      const u = session?.user ?? null;
+      authUser.set(u);
       authLoading.set(false);
 
-      if (event === 'SIGNED_IN' && user) {
-        await syncStatsOnLogin(user.id);
+      if (event === 'SIGNED_IN' && u) {
+        await fetchUserProfile(u.id);
+        await syncStatsOnLogin(u.id);
       } else if (event === 'SIGNED_OUT') {
+        authUser.set(null);
+        userProfile.set(null);
         syncStatus.set({ synced: false, syncing: false, lastSyncError: null });
       }
     }
   );
 
-  // Return unsubscribe function
   return () => subscription.unsubscribe();
+}
+
+/**
+ * Fetch user profile from the database
+ */
+async function fetchUserProfile(userId) {
+  try {
+    const { data, error } = await supabase
+      .from('profiles')
+      .select('username')
+      .eq('id', userId)
+      .maybeSingle();
+    
+    if (error) throw error;
+    userProfile.set(data);
+  } catch (err) {
+    console.error('Error fetching user profile:', err);
+  }
 }
 
 /**
@@ -119,13 +141,11 @@ function setLocalStats(stats) {
 
 /**
  * Sync stats when user logs in
- * Implements the merge strategy from the plan
  */
 async function syncStatsOnLogin(userId) {
   syncStatus.set({ synced: false, syncing: true, lastSyncError: null });
 
   try {
-    // Check if user has cloud stats
     const { data: cloudStats, error } = await getUserStats(supabase, userId);
     
     if (error) {
@@ -135,8 +155,6 @@ async function syncStatsOnLogin(userId) {
     const localStats = getLocalStats();
 
     if (cloudStats) {
-      // Case B: Existing cloud user - cloud overwrites local
-      // Convert cloud stats to local format and save
       const solveListFromCloud = buildSolveListFromDistribution(
         cloudStats.win_distribution,
         cloudStats.games_played,
@@ -148,22 +166,9 @@ async function syncStatsOnLogin(userId) {
         currentStreak: cloudStats.current_streak,
         maxStreak: cloudStats.max_streak,
         solveList: solveListFromCloud
-        // Note: completedDays would need to come from game_history, keeping local for now
       });
-
-      console.log('Synced cloud stats to local storage');
     } else if (localStats && localStats.played > 0) {
-      // Case A: Fresh cloud user with local data - upload local to cloud
-      const { error: uploadError } = await uploadLocalStats(supabase, userId, localStats);
-      
-      if (uploadError) {
-        throw uploadError;
-      }
-
-      console.log('Uploaded local stats to cloud');
-    } else {
-      // Case C: New user with no data - nothing to do
-      console.log('New user, no stats to sync');
+      await uploadLocalStats(supabase, userId, localStats);
     }
 
     syncStatus.set({ synced: true, syncing: false, lastSyncError: null });
@@ -175,33 +180,29 @@ async function syncStatsOnLogin(userId) {
 
 /**
  * Build a solveList array from cloud win_distribution
- * This is an approximation since we lose some granularity
  */
 function buildSolveListFromDistribution(winDistribution, gamesPlayed, gamesWon) {
   const solveList = [];
   
   if (!winDistribution || typeof winDistribution !== 'object') {
-    // If no distribution, create placeholder entries
     for (let i = 0; i < gamesWon; i++) {
-      solveList.push(4); // Assume perfect games
+      solveList.push(4);
     }
     const losses = gamesPlayed - gamesWon;
     for (let i = 0; i < losses; i++) {
-      solveList.push(0); // Losses
+      solveList.push(0);
     }
     return solveList;
   }
 
-  // Add wins based on distribution (mistakes: count)
   for (const [mistakes, count] of Object.entries(winDistribution)) {
     const mistakeNum = parseInt(mistakes, 10);
-    const score = 4 + mistakeNum; // Convert back to score format
+    const score = 4 + mistakeNum;
     for (let i = 0; i < count; i++) {
       solveList.push(score);
     }
   }
 
-  // Add losses (score = 0)
   const winsFromDist = Object.values(winDistribution).reduce((a, b) => a + b, 0);
   const losses = gamesPlayed - winsFromDist;
   for (let i = 0; i < losses; i++) {
@@ -212,27 +213,14 @@ function buildSolveListFromDistribution(winDistribution, gamesPlayed, gamesWon) 
 }
 
 /**
- * Record a completed game - updates both local and cloud (if authenticated)
- * This is the main function to call from game logic
+ * Record a completed game
  */
 export async function recordGameCompletion(gameData, updatedStats) {
-  const user = get(authUser);
+  const u = get(authUser);
   
-  if (user) {
-    // User is authenticated - sync to cloud
+  if (u) {
     try {
-      const { success, error } = await recordGameResult(
-        supabase,
-        user.id,
-        gameData,
-        updatedStats
-      );
-      
-      if (!success) {
-        console.error('Failed to sync game to cloud:', error);
-      } else {
-        console.log('Game synced to cloud');
-      }
+      await recordGameResult(supabase, u.id, gameData, updatedStats);
     } catch (err) {
       console.error('Error syncing game:', err);
     }
@@ -240,19 +228,19 @@ export async function recordGameCompletion(gameData, updatedStats) {
 }
 
 /**
- * Sign out the current user
+ * Log out the current user
  */
 export async function signOut() {
-  const { error } = await supabase.auth.signOut();
-  if (error) {
-    console.error('Error signing out:', error);
-    throw error;
-  }
+  // Clear stores immediately for instant UI update
+  authUser.set(null);
+  userProfile.set(null);
+  syncStatus.set({ synced: false, syncing: false, lastSyncError: null });
+  
+  // Call Supabase to clear session
+  await supabase.auth.signOut();
 }
 
 /**
  * Derived store: is user authenticated?
  */
 export const isAuthenticated = derived(authUser, $user => !!$user);
-
-

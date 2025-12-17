@@ -133,11 +133,44 @@
           return;
         }
 
-        // Validate username
+        // Validate username format
         const uname = username.trim().toLowerCase();
         const validationError = validateUsername(uname);
         if (validationError) {
           errorMsg = validationError;
+          loading = false;
+          return;
+        }
+
+        // Check if username is already taken
+        const { data: existingUsername, error: usernameCheckErr } =
+          await supabase
+            .from("profiles")
+            .select("id")
+            .eq("username", uname)
+            .maybeSingle();
+
+        if (usernameCheckErr) {
+          console.error("Username check error:", usernameCheckErr);
+          // Don't block signup if the check fails, just log it
+        } else if (existingUsername) {
+          errorMsg = "That username is taken. Try another.";
+          loading = false;
+          return;
+        }
+
+        // Check if email is already registered
+        const { data: emailExists, error: emailCheckErr } = await supabase.rpc(
+          "email_exists",
+          { check_email: email.trim() }
+        );
+
+        if (emailCheckErr) {
+          console.error("Email check error:", emailCheckErr);
+          // Don't block signup if the check fails, just log it
+        } else if (emailExists) {
+          errorMsg =
+            "An account with this email already exists. Please log in instead.";
           loading = false;
           return;
         }
