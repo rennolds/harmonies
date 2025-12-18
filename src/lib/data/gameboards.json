@@ -7205,7 +7205,7 @@
       }
     ],
     "shoutout": true,
-    "shoutout-name": "Oren",
+    "shoutout-name": "oren",
     "shoutout-socials": false,
     "special-message": true,
     "message-content": "hint: groups of artists who share a song name",
@@ -9213,7 +9213,7 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q" 
   },
-    "12/19/2024": {
+  "12/19/2024": {
     "playlist": "https://open.spotify.com/playlist/344rXgOuFWH5DY9gD9XmKs?si=40f64b8d7353458b",
     "gameoverGif": "https://media4.giphy.com/media/opRWn4M4fuE4CIx1RO/giphy.gif?cid=6c09b952vd3kbhvwpj650wyk30o66zm0t4reg1rmgu40hdwg&ep=v1_gifs_search&rid=giphy.gif&ct=g",
     "categories": [
@@ -25435,7 +25435,774 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
+  "12/18/2025": {
+    "playlist": "https://open.spotify.com/playlist/5RoA2rJ6lcPKY3f1shX8lS?si=d939b790ddec46ad",
+    "gameoverGif": "https://media1.tenor.com/m/oQ5g-31E4noAAAAC/kim-gordon-sonic-youth.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bands Named After The Lead Singer",
+        "elements": [
+          "Marilyn Manson",
+          "Dave Matthews",
+          "Bon Jovi",
+          "Jimi Hendrix"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Iconic Frontwomen",
+        "elements": [
+          "Amy Lee",
+          "Beth Gibbons",
+          "Kim Gordon",
+          "Debbie Harry"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Paint It, Black",
+        "elements": [
+          "Setting Sun",
+          "Line of Cars",
+          "Foresee",
+          "Laugh With Me"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "\"Verb The Noun\" Bands",
+        "elements": [
+          "Pierce The Veil",
+          "Blessthefall",
+          "Hail The Sun",
+          "Foster The People"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "bryce",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/19/2025": {
+    "playlist": "https://open.spotify.com/playlist/6DUaOevWckdiYOzkgbZdSj?si=05e037432dbe462a",
+    "gameoverGif": "https://media.tenor.com/H7t0m0sYmmwAAAAM/kellyclarkson-christmas.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Kelly Clarkson Songs",
+        "elements": [
+          "Since U Been Gone",
+          "Underneath the Tree",
+          "Stronger (What Doesn't Kill You)",
+          "Breakaway"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Solo Songs by Members of The Beatles",
+        "elements": [
+          "Wodnerful Christmastime",
+          "Imagine",
+          "Got My Mind Set On You",
+          "Happy Xmas (War is Over)"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Song Titles Featuring Keyboard Keys",
+        "elements": [
+          "Enter Sandman",
+          "Blank Space",
+          "Lose Control",
+          "The Sweet Escape"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Reference Their Own Genre",
+        "elements": ["Jingle Bell Rock", "Rap God", "Folsom Prison Blues", "Disco Inferno"]
+
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/20/2025": {
+    "playlist": "https://open.spotify.com/playlist/1Dn2E81IWlJBZt3CRKFHJY?si=704dd2e132c94d30",
+    "gameoverGif": "https://media.tenor.com/Y3HzHULcTeEAAAAM/love-you-more-christmas.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Items in Twelve Days of Christmas",
+        "elements": [
+          "turtle doves",
+          "French hens",
+          "golden rings",
+          "ladies dancing"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Items in Ariana Grande's \"7 rings\"",
+        "elements": [
+          "bottles of bubbles",
+          "girls with tattoos",
+          "lashes and diamonds",
+          "ATM machines"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Items in The Sound of Music's \"My Favorite Things\"",
+        "elements": [
+          "raindrops on roses",
+          "warm woolen mittens",
+          "brown paper packages",
+          "cream-colored ponies"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Items in Macklemore's \"Thrift Shop\"",
+        "elements": [
+          "leopard mink",
+          "velour jumpsuit",
+          "granddad's clothes",
+          "fur fox skin"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/21/2025": {
+    "playlist": "https://open.spotify.com/playlist/0tj91VViHe872aTJ09DnQ1?si=e8067bd7286b4b4a",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCjXscLYOiUNc1n4FzNIKOXYbUX27RzVKExg&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sections of a Song",
+        "elements": ["Bridge", "Chorus", "Coda", "Verse"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Musical Notes",
+        "elements": ["Texture", "Timbre", "Pitch", "Rhythm"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Types of Musical Compositions",
+        "elements": ["Symphony", "Concerto", "Rhapsody", "Sonata"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artist Names Without Their Ordinal Numbers",
+        "elements": ["Harmony", "Eye Blind", "Wonder", "Aid Kit"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@tenkorrang",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "Let's go a bit classical, shall we?",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/tenkorrang",
+    "spotify": ""
+  },
+  "12/22/2025": {
+    "playlist": "https://open.spotify.com/playlist/56S7GrptNQDZ6B7qiaaO8G?si=83059d19c98c4dfa",
+    "gameoverGif": "https://64.media.tumblr.com/c13e96f003e0e9f6ae280e388b8d9c42/22227273709f6227-58/s540x810/38f8fc38752db24cee5cf8cdeeba1a7d782fdf51.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Modern Christmas Pop Songs",
+        "elements": ["Snowman", "Mistletoe", "Santa Tell Me", "A Nonsense Christmas"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Things You Shouldn't Do in \"Santa Claus Is Coming To Town\"",
+        "elements": ["Lie", "Shout", "Pout", "Cry"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Gifts Requested in \"Santa Baby\"",
+        "elements": ["Convertible", "Ring", "Sable", "Yacht"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Song Titles Without \"Christmas\"",
+        "elements": ["Blue", "White", "Last", "Holly Jolly"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/23/2025": {
+    "playlist": "https://open.spotify.com/playlist/4HUTy7qUmE2cCes4GGjSR1?si=90d9c602527b440c",
+    "gameoverGif": "https://media.tenor.com/ANAqM3IejsYAAAAM/okay-ok.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Albums Featuring Christmas Trees",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c798254ac294f96f42c16c85", "alt": "Songs for Christmas" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273644aec058f5a108fac6ec0fb", "alt": "A Charlie Brown Christmas" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27308c270b3ef1602ff84ed2c05", "alt": "The Beach Boys Christmas Album" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2733bda6f88e47e64a148c544e1", "alt": "Christmas Eve and Other Stories" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "A Very _____ Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e144496da9fe8e658c85216b", "alt": "A Very Kacey Christmas" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736b15d2ef195bb7f4812c6798", "alt": "A Very She & Him Christmas" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27380292d6dcfe36110906f5f89", "alt": "A Very Backstreet Christmas" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c2a2c62937062eeb9465e3dc", "alt": "A Very Laufey Holiday" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Classic Soul Christmas Albums",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734d7c04bf87dda0b3eef38655", "alt": "The Supremes Christmas" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27308a0fe33e91b991d2c9c9cde", "alt": "The Jackson 5 Christmas Album" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273450239a8d97e638df29a94ed", "alt": "The Temptations' Christmas Card" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2730899a5627109fbfd913f1727", "alt": "A Christmas Gift for You from Phil Spector" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "A Hip Hop Christmas",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273e007267bf6d83766ec933de9", "alt": "Merry Christmas Lil' Mama" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27355c94728f59d5c5c164789db", "alt": "CeeLo's Magic Moment" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2738c75413c7f38b3f512a75b35", "alt": "The Return of East Atlanta Santa" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273940b54f90834834dfbc53da1", "alt": "Dr. Suess' The Grinch" }
+        ]
+      }
+    ]
+  },
+  "12/24/2025": {
+    "playlist": "https://open.spotify.com/playlist/3OnZXUSypd7T234S8a7tIP?si=764f8cfcda794f2d",
+    "gameoverGif": "https://media.tenor.com/yTlWQ4z4mu8AAAAM/santa-baby-eartha-kitt.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from The Ronettes \"Sleigh Ride\"",
+        "elements": ["lovely weather", "sleigh ride together", "sleigh bells jingling", "ring tingle tingling"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Michael Buble's \"Winter Wonderland\"",
+        "elements": ["sleigh bells ring", "are you listening", "in the lane", "snow is glistening"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "In Love With Santa Songs",
+        "elements": ["Santa Baby", "I Saw Mommy Kissing Santa Claus", "Santa Tell Me", "Santa, Can't You Hear Me"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Featured on Mariah Carey's \"Merry Christmas\"",
+        "elements": ["All I Want For Christmas Is You", "Santa Claus is Comin' to Town", "Christmas (Baby Please Come Home)", "O Holy Night"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/25/2025": {
+    "playlist": "https://open.spotify.com/playlist/6xQdWW2eqi5LX1wxATFcno?si=690d2b833bb54350",
+    "gameoverGif": "https://media.tenor.com/wlL074WCmagAAAAM/christmas-charlie-brown-christmas.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Wham!'s \"Last Christmas\"",
+        "elements": [
+          "gave you my heart",
+          "gave it away",
+          "save me from tears",
+          "someone special"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from \"It's Beginning to Look a Lot Like Christmas\"",
+        "elements": [
+          "toys in every store",
+          "the bells will start",
+          "the carol that you sing",
+          "right within your heart"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Mariah Carey's \"All I Want for Christmas Is You\"",
+        "elements": [
+          "want you for my own",
+          "more than you could ever know",
+          "make my wish come true",
+          "won't ask for much"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from \"White Christmas\"",
+        "elements": [
+          "like the ones I used to know",
+          "where the treetops glisten",
+          "children listen",
+          "sleigh bells in the snow"
+        ]
+      }    
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "merry christmas!",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/26/2025": {
+    "playlist": "https://open.spotify.com/playlist/3fij3ihSoqgAInVeIzAnl0?si=1bfc56dceaf943ae",
+    "gameoverGif": "https://i.pinimg.com/originals/b6/1c/7f/b61c7f9dae8d8af6e87ceab0fa6a1513.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "White Stripes Songs",
+        "elements": [
+          "Seven Nation Army",
+          "Fell In Love With A Girl",
+          "Icky Thump",
+          "The Hardest Button To Button"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "White ____ Songs",
+        "elements": ["Flag", "Iverson", "Christmas", "Dress"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With A \"Black Album\"",
+        "elements": ["Metallica", "Weezer", "Nirvana", "Jay-Z"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Featured On The 50 Shades Of Grey Soundtrack",
+        "elements": ["The Weeknd", "Ellie Goulding", "Beyoncé", "Sia"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "shades of gray",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/27/2025": {
+    "playlist": "https://open.spotify.com/playlist/1Asn1S98LLtoclbrXeSw0r?si=5bcb0946849a4ba7",
+    "gameoverGif": "https://media.tenor.com/C3mOBGncrxgAAAAM/we-didnt-start-the-fire-billy-joel.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists Who Are Also Actors",
+        "elements": [
+          "Ariana Grande",
+          "Donald Glover",
+          "Ice Cube",
+          "Sabrina Carpenter"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Gen Z Pop Stars",
+        "elements": [
+          "Billie Eilish",
+          "Lil Nas X",
+          "Tate McRae",
+          "Benson Boone"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "People Mentioned in \"We Didn't Start the Fire\"",
+        "elements": [
+          "Elvis Presley",
+          "Buddy Holly",
+          "Harry Truman",
+          "Doris Day"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists With X in the Name",
+        "elements": [
+          "Xzibit",
+          "DMX",
+          "XXXTENTACION",
+          "Charli XCX"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/28/2025": {
+    "playlist": "https://open.spotify.com/playlist/6SSFTHlvVe2DupPjAgItsW?si=e6138a5c009f47c6",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQdR7aTyuCHgDlOxgrK3aM0ou4HDDC8UEC0g&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Taylor Swift Songs",
+        "elements": ["All Too Well", "The Fate Of Ophelia", "Style", "Blank Space"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Bon Iver Songs",
+        "elements": ["Skinny Love", "Re: Stacks", "Holocene", "For Emma"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "The National Songs",
+        "elements": ["I Need My Girl", "Fake Empires", "Light Years", "About Today"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Swift/National/Bon Iver Collabs",
+        "elements": ["Coney Island", "Exile", "The Alcott", "Renegade"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "oren",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "swift, bon iver, and the national",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/kermit_11",
+    "spotify": ""
+  },  
+  "12/29/2025": {
+    "playlist": "https://open.spotify.com/playlist/3vrAFdAV0aR60qafKYDNEm?si=d315f7055c9c419d",
+    "gameoverGif": "https://i.makeagif.com/media/5-14-2016/jCGZXZ.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Prog Metal Bands",
+        "elements": ["Tool", "Opeth", "Dream Theater", "Queensrÿche"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Last Words of British Metal Band Titles",
+        "elements": ["Sabbath", "Maiden", "Priest", "Leppard"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Cherry _____",
+        "elements": ["Pie", "Waves", "Bomb", "Lips"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Metallica’s \"Master of Puppets\"",
+        "elements": [
+          "Pulling your strings",
+          "More is all you need",
+          "Blinded by me",
+          "Crumbling away"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "12/30/2025": {
+    "playlist": "https://open.spotify.com/playlist/4XkJWCnRpEq5Mk0eEdO2u0?si=bfd246bad03d4807",
+    "gameoverGif": "https://media.tenor.com/ww0m46lg1cIAAAAe/this-is-the-end-this-is.png",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "John Denver Songs",
+        "elements": [
+          "Take Me Home, Country Roads",
+          "Annie's Song",
+          "Rocky Mountain High",
+          "Leaving, On a Jet Plane"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "1960s Love Songs",
+        "elements": [
+          "Can't Help Falling in Love",
+          "Stand by Me",
+          "My Girl",
+          "Can't Take My Eyes Off You"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "James Bond Theme Songs",
+        "elements": [
+          "Goldfinger",
+          "Live and Let Die",
+          "Nobody Does It Better",
+          "Skyfall"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "\"and the _____\" Bands",
+        "elements": [
+          "Supremes",
+          "Four Seasons",
+          "Blowfish",
+          "Lizard Wizard"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "12/31/2025": {
+    "playlist": "https://open.spotify.com/playlist/3tlwG4PkkOpKzLk2bV0GLC?si=2e085453df1140f9",
+    "gameoverGif": "https://media.tenor.com/oHoTBpoYmswAAAAM/shane-boose-sombr.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Debut Studio Albums of 2025",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d2eb391e0b3c3bc21c127db6", "alt": "I Barely Know Her" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c", "alt": "Alter Ego" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273089511953028cbfeb095c593", "alt": "Addison" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27387607b2c8f5f52f1f057be0d", "alt": "Malcolm Todd" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Spotify’s Most-Streamed Albums Globally of 2025",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411", "alt": "Debí Tirar Más Fotos" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734dcb6c5df15cf74596ab25a4", "alt": "KPop Demon Hunters: Music From The Motion Picture" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62", "alt": "Hit Me Hard And Soft" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bb307f61871feef2c5daaaa8", "alt": "SOS Deluxe: LANA" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums That Turned 25 in 2025",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2736c7112082b63beefffe40151", "alt": "Kid A" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273153b3d6495031cb813a7451c", "alt": "Stankonia" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a6cb8fab778e1efc406a5909", "alt": "No Strings Attached" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273dbb3dd82da45b7d7f31b1b42", "alt": "The Marshall Mathers LP" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums from Artists Who Passed Away in 2025",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273f6465d4b8cdd34ed4d7853e2", "alt": "Brown Sugar" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ed5c19fd9206d2d7e73c140c", "alt": "Blizzard of Ozz" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d00001e02bde8dfd1922129f3d9e3732f", "alt": "Pet Sounds" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732557d7b4bf9ca1c289f40e97", "alt": "Connie Francis Sings Second Hand Love" }
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "2025 in review",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9iT9krxD&_r=1",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },
+  "01/03/2026": {
+    "playlist": "https://open.spotify.com/playlist/3hDmyMsQOZYasCuS4G0fjP?si=bc9d402385f440fd",
+    "gameoverGif": "https://i.makeagif.com/media/10-10-2017/GV16P2.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics From Kesha's \"TikTok\"",
+        "elements": [
+          "Hit this city",
+          "Blow my speakers up",
+          "Kick ‘em to the curb",
+          "Put your hands up"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics From Lady Gaga's \"Just Dance\"",
+        "elements": [
+          "Where are my keys",
+          "I love this record baby",
+          "Half psychotic",
+          "Start to rush by"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Ne-Yo's \"Give Me Everything\"",
+        "elements": [
+          "Might not get tomorrow",
+          "Drink a little more than I should",
+          "Grab somebody sexy",
+          "Make you feel right baby"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from LMFAO's \"Party Rock Anthem\"",
+        "elements": [
+          "In the house tonight",
+          "Have a good time",
+          "Lose your mind",
+          "Shake that"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "recession pop classics",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/05/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists Missing \"John\"",
+        "elements": ["Mayer", "Elton", "Lennon", "Denver"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists Missing \"Jimmy/Jimi\"",
+        "elements": ["Page", "Hendrix", "Eat World", "Buffett"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists Missing \"Jack\"",
+        "elements": ["Johnson", "Harlow", "White", "Boys"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Missing \"James\"",
+        "elements": ["Brown", "Taylor", "Rick", "Blunt"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "jengus roundstone",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/06/2026": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
@@ -25493,52 +26260,56 @@
     "spotify": "",
     "letterboxd": ""
   },
-  "12/19/2025": {
+  "01/10/2026": {
     "playlist": "",
     "gameoverGif": "",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Kelly Clarkson Songs",
+        "name": "Solo career after a boyband",
         "elements": [
-          "Since U Been Gone",
-          "Underneath the Tree",
-          "Stronger",
-          "Breakaway"
+          "Robbie Williams",
+          "Ronan Keating",
+          "Harry Styles",
+          "Justin Timberlake"
         ]
       },
       {
         "color": "#FAA3FF",
-        "name": "Solo Songs by Members of The Beatles",
+        "name": "Solo career after being the lead singer in a band",
         "elements": [
-          "Wodnerful Christmastime",
-          "Imagine",
-          "Got My Mind Set On You",
-          "Happy Xmas (War is Over)"
+          "Lionel Richie",
+          "Eric Clapton",
+          "Peter Gabriel",
+          "Sting"
         ]
       },
       {
         "color": "#78DAF9",
-        "name": "Song Titles Featuring Keyboard Keys",
+        "name": "Solo career after being in a duo",
         "elements": [
-          "Enter Sandman",
-          "Blank Space",
-          "Lose Control",
-          "The Sweet Escape"
+          "George Michael",
+          "Cher",
+          "Tina Turner",
+          "Paul Simon"
         ]
       },
       {
         "color": "#FFBC21",
-        "name": "Songs That Reference Their Own Genre",
-        "elements": ["Jingle Bell Rock", "Rap God", "Folsom Prison Blues", "Disco Inferno"]
-
+        "name": "Singing drummers",
+        "elements": [
+          "Phil Collins",
+          "Ringo Starr",
+          "Dave Grohl",
+          "Don Henley"
+        ]
       }
     ],
-    "shoutout": false,
-    "shoutout-name": "",
+    "shoutout": true,
+    "shoutout-name": "@michiel.vanw",
     "shoutout-socials": false,
-    "special-message": false,
-    "message-content": "",
+    "special-message": true,
+    "message-content": "former careers",
     "instagram": "",
     "tiktok": "",
     "youtube": "",
