@@ -2,6 +2,13 @@ import { writable, derived, get } from 'svelte/store';
 import { browser } from '$app/environment';
 import { supabase } from '$lib/supabaseClient';
 import { getUserStats, uploadLocalStats, recordGameResult } from '$lib/db/stats';
+import { 
+  played, 
+  currentStreak, 
+  maxStreak, 
+  solveList, 
+  completedDays 
+} from '../../routes/store.js';
 
 /**
  * Auth stores
@@ -78,65 +85,31 @@ async function fetchUserProfile(userId) {
 }
 
 /**
- * Get current local stats from localStorage
+ * Get current local stats from Svelte stores
  */
 function getLocalStats() {
   if (!browser) return null;
 
-  const played = parseInt(localStorage.getItem('played') || '0', 10);
-  const currentStreak = parseInt(localStorage.getItem('currentStreak') || '0', 10);
-  const maxStreak = parseInt(localStorage.getItem('maxStreak') || '0', 10);
-  
-  let solveList = [];
-  try {
-    const solveListRaw = localStorage.getItem('solveList');
-    if (solveListRaw) {
-      solveList = JSON.parse(solveListRaw);
-    }
-  } catch (e) {
-    console.error('Error parsing solveList:', e);
-  }
-
-  let completedDays = [];
-  try {
-    const completedDaysRaw = localStorage.getItem('completedDays');
-    if (completedDaysRaw) {
-      completedDays = JSON.parse(completedDaysRaw);
-    }
-  } catch (e) {
-    console.error('Error parsing completedDays:', e);
-  }
-
   return {
-    played,
-    currentStreak,
-    maxStreak,
-    solveList,
-    completedDays
+    played: get(played),
+    currentStreak: get(currentStreak),
+    maxStreak: get(maxStreak),
+    solveList: get(solveList),
+    completedDays: get(completedDays)
   };
 }
 
 /**
- * Update local stats in localStorage
+ * Update Svelte stores with new stats
  */
-function setLocalStats(stats) {
+function updateStores(stats) {
   if (!browser) return;
 
-  if (stats.played !== undefined) {
-    localStorage.setItem('played', stats.played.toString());
-  }
-  if (stats.currentStreak !== undefined) {
-    localStorage.setItem('currentStreak', stats.currentStreak.toString());
-  }
-  if (stats.maxStreak !== undefined) {
-    localStorage.setItem('maxStreak', stats.maxStreak.toString());
-  }
-  if (stats.solveList !== undefined) {
-    localStorage.setItem('solveList', JSON.stringify(stats.solveList));
-  }
-  if (stats.completedDays !== undefined) {
-    localStorage.setItem('completedDays', JSON.stringify(stats.completedDays));
-  }
+  if (stats.played !== undefined) played.set(stats.played);
+  if (stats.currentStreak !== undefined) currentStreak.set(stats.currentStreak);
+  if (stats.maxStreak !== undefined) maxStreak.set(stats.maxStreak);
+  if (stats.solveList !== undefined) solveList.set(stats.solveList);
+  if (stats.completedDays !== undefined) completedDays.set(stats.completedDays);
 }
 
 /**
@@ -161,7 +134,7 @@ async function syncStatsOnLogin(userId) {
         cloudStats.games_won
       );
 
-      setLocalStats({
+      updateStores({
         played: cloudStats.games_played,
         currentStreak: cloudStats.current_streak,
         maxStreak: cloudStats.max_streak,
@@ -220,10 +193,26 @@ export async function recordGameCompletion(gameData, updatedStats) {
   
   if (u) {
     try {
-      await recordGameResult(supabase, u.id, gameData, updatedStats);
+      console.log('Attempting to record game completion for user:', u.id);
+      console.log('Game Data:', gameData);
+      
+      // updatedStats can be null for archive games (we don't update aggregates)
+      // but recordGameResult expects it for calculating win distribution if it's there
+      // We'll pass an empty object if null to be safe, or modify recordGameResult to handle it
+      // Let's modify the call to be safe
+      const safeStats = updatedStats || {};
+      
+      const result = await recordGameResult(supabase, u.id, gameData, safeStats);
+      console.log('Record game result:', result);
+      
+      if (result.error) {
+        console.error('Error from recordGameResult:', result.error);
+      }
     } catch (err) {
       console.error('Error syncing game:', err);
     }
+  } else {
+    console.log('User not authenticated, skipping game recording');
   }
 }
 

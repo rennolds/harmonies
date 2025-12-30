@@ -344,7 +344,7 @@
 
     // Sync to cloud if user is authenticated
     const gameData = {
-      puzzleDate: todaysDate,
+      puzzleDate: isArchiveMode ? displayDate : todaysDate,
       result: win ? 'WIN' : 'LOSS',
       guessesCount: guessCount,
       timeTakenSeconds: null // Could add timer tracking in future
@@ -358,7 +358,15 @@
       completedDays: $completedDays
     };
 
-    recordGameCompletion(gameData, updatedStats);
+    // Only update aggregate stats if it's the main game (not archive)
+    // But record history for ALL games
+    if (isArchiveMode) {
+      // For archive mode, we don't update the aggregate stats stores
+      // but we still want to record the game history
+      recordGameCompletion(gameData, null);
+    } else {
+      recordGameCompletion(gameData, updatedStats);
+    }
   }
 
   function shuffleElements() {

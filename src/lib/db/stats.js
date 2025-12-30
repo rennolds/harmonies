@@ -107,56 +107,67 @@ export async function uploadLocalStats(supabase, userId, localStats) {
  * @returns {Promise<{success: boolean, error: Error|null}>}
  */
 export async function recordGameResult(supabase, userId, gameData, newStats) {
+  // Debug log
+  console.log('recordGameResult called with:', { userId, gameData, newStats: !!newStats });
+
   // 1. Insert game history record
+  const historyData = {
+    user_id: userId,
+    puzzle_date: convertDateToDBFormat(gameData.puzzleDate),
+    result: gameData.result, // 'WIN' or 'LOSS'
+    guesses_count: gameData.guessesCount,
+    time_taken_seconds: gameData.timeTakenSeconds || null
+  };
+  
+  console.log('Inserting into harmonies_game_history:', historyData);
+
   const { error: historyError } = await supabase
     .from('harmonies_game_history')
-    .insert({
-      user_id: userId,
-      puzzle_date: convertDateToDBFormat(gameData.puzzleDate),
-      result: gameData.result, // 'WIN' or 'LOSS'
-      guesses_count: gameData.guessesCount,
-      time_taken_seconds: gameData.timeTakenSeconds || null
-    });
+    .insert(historyData);
 
   if (historyError) {
     console.error('Error inserting game history:', historyError);
     return { success: false, error: historyError };
+  } else {
+    console.log('Successfully inserted game history');
   }
 
-  // 2. Update aggregated stats
-  // Build win distribution from solveList
-  const winDistribution = {};
-  if (newStats.solveList && Array.isArray(newStats.solveList)) {
-    for (const score of newStats.solveList) {
-      if (score > 0) {
-        const mistakes = Math.max(0, score - 4);
-        winDistribution[mistakes] = (winDistribution[mistakes] || 0) + 1;
+  // 2. Update aggregated stats (if provided)
+  if (newStats) {
+    // Build win distribution from solveList
+    const winDistribution = {};
+    if (newStats.solveList && Array.isArray(newStats.solveList)) {
+      for (const score of newStats.solveList) {
+        if (score > 0) {
+          const mistakes = Math.max(0, score - 4);
+          winDistribution[mistakes] = (winDistribution[mistakes] || 0) + 1;
+        }
       }
     }
-  }
 
-  const gamesWon = newStats.solveList 
-    ? newStats.solveList.filter(score => score >= 4).length 
-    : 0;
+    const gamesWon = newStats.solveList 
+      ? newStats.solveList.filter(score => score >= 4).length 
+      : 0;
 
-  const { error: statsError } = await supabase
-    .from('harmonies_stats')
-    .upsert({
-      user_id: userId,
-      games_played: newStats.played || 0,
-      games_won: gamesWon,
-      current_streak: newStats.currentStreak || 0,
-      max_streak: newStats.maxStreak || 0,
-      win_distribution: winDistribution,
-      last_played_date: convertDateToDBFormat(gameData.puzzleDate),
-      updated_at: new Date().toISOString()
-    }, {
-      onConflict: 'user_id'
-    });
+    const { error: statsError } = await supabase
+      .from('harmonies_stats')
+      .upsert({
+        user_id: userId,
+        games_played: newStats.played || 0,
+        games_won: gamesWon,
+        current_streak: newStats.currentStreak || 0,
+        max_streak: newStats.maxStreak || 0,
+        win_distribution: winDistribution,
+        last_played_date: convertDateToDBFormat(gameData.puzzleDate),
+        updated_at: new Date().toISOString()
+      }, {
+        onConflict: 'user_id'
+      });
 
-  if (statsError) {
-    console.error('Error updating stats:', statsError);
-    return { success: false, error: statsError };
+    if (statsError) {
+      console.error('Error updating stats:', statsError);
+      return { success: false, error: statsError };
+    }
   }
 
   return { success: true, error: null };
