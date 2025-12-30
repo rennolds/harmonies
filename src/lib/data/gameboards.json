@@ -26108,6 +26108,115 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
+"01/01/2026": {
+    "playlist": "https://open.spotify.com/playlist/3yu0vRyqrscoZmuoURXRVy?si=2946d2e99ab2414e",
+    "gameoverGif": "https://gifsec.com/wp-content/uploads/2022/09/happy-new-year-gif-4.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Natasha Bedingfield's \"Unwritten\"",
+        "elements": [
+          "Feel the rain",
+          "on your skin",
+          "No one else",
+          "Book begins"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "NYC Ball Drop Songs",
+        "elements": [
+          "Auld Lang Syne",
+          "Imagine",
+          "Theme from New York, New York",
+          "What a Wonderful World"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Confidence Anthems",
+        "elements": [
+          "Survivor",
+          "Roar",
+          "Titanium",
+          "Stronger (What Doesn't Kill You)"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands/Groups Named \"New ____\"",
+        "elements": [
+          "Order",
+          "Edition",
+          "Kids on the Block",
+          "Found Glory"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/02/2026": {
+    "playlist": "https://open.spotify.com/playlist/0Av54JEEl1VVyfTWfEwC2j?si=dcaf867aa2804a76",
+    "gameoverGif": "https://media.tenor.com/HIK_49-6xJIAAAAM/daftpunk-harder.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Daft Punk's \"Harder, Better, Faster, Stronger\"",
+        "elements": [
+          "Harder",
+          "Better",
+          "Faster",
+          "Stronger"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by The Smash Mouth",
+        "elements": ["1979", "Today", "Disarm", "Mayonaise"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands Without the Animal in Their Name",
+        "elements": [
+          "Tame",
+          "Modest",
+          "Counting",
+          "Arctic"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Titled Save ____",
+        "elements": [
+          "Me",
+          "Tonight",
+          "Your Tears",
+          "A Horse"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "01/03/2026": {
     "playlist": "https://open.spotify.com/playlist/3hDmyMsQOZYasCuS4G0fjP?si=bc9d402385f440fd",
     "gameoverGif": "https://i.makeagif.com/media/10-10-2017/GV16P2.gif",
@@ -26165,28 +26274,65 @@
     "twitter": "",
     "spotify": ""
   },
-  "01/05/2026": {
-    "playlist": "",
-    "gameoverGif": "",
+  "01/04/2026": {
+    "playlist": "https://open.spotify.com/playlist/1DTgNY7zAiKacs9fIonnXZ?si=0a6eb2185ca64d4b",
+    "gameoverGif": "https://media.tenor.com/uQo0fftwk0EAAAAM/panicatthedisco-brendonurie.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Artists Missing \"John\"",
+        "name": "Panic! At the Disco Songs",
+        "elements": ["I Write Sins Not Tragedies", "Death of a Bachelor", "House of Memories", "High Hopes"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hip Hop Duos",
+        "elements": ["OutKast", "Clipse", "Run the Jewels", "Method Man and Redman"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Eminem Collaborators",
+        "elements": ["50 Cent", "Dr. Dre", "Skylar Grey", "Rihanna"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands With Siblings",
+        "elements": ["The Beach Boys", "Jonas Brothers", "HAIM", "Oasis"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/05/2026": {
+    "playlist": "https://open.spotify.com/playlist/25zm2qJhd9mk6TMl4Xf9cD?si=64f9b79b047148cf",
+    "gameoverGif": "https://media.tenor.com/DEFs2c443pAAAAAM/john-mayer-guitar.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Famous John's",
         "elements": ["Mayer", "Elton", "Lennon", "Denver"]
       },
       {
         "color": "#FAA3FF",
-        "name": "Artists Missing \"Jimmy/Jimi\"",
+        "name": "Famous Jimmies",
         "elements": ["Page", "Hendrix", "Eat World", "Buffett"]
       },
       {
         "color": "#78DAF9",
-        "name": "Artists Missing \"Jack\"",
+        "name": "Famous Jacks",
         "elements": ["Johnson", "Harlow", "White", "Boys"]
       },
       {
         "color": "#FFBC21",
-        "name": "Artists Missing \"James\"",
+        "name": "Famous James",
         "elements": ["Brown", "Taylor", "Rick", "Blunt"]
       }
     ],
@@ -26203,47 +26349,47 @@
     "spotify": ""
   },
   "01/06/2026": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/22Lh8xK6KixZ5DzJFNojk9?si=18e1ff6fdb5a42c2",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyYnZneHJqMzI5cTdmYTlvdmhlajN5YzdoaDA0OTV5MGljcDd5OTFsdSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/fSGV9GtBfaExVJPJlQ/giphy.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Album Covers Featuring Analog Media",
+        "name": "Blue Rock Album Covers",
         "elements": [
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731cb9b88a3e8d5344a10184bc", "alt": "Radio" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731dacfbc31cc873d132958af9", "alt": "Yeezus" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732af30c881bb23cfb82a8cf99", "alt": "Let It Bleed" },
-          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27393bca993965222066dfbf060", "alt": "True Magic" }
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96", "alt": "Weezer (The Blue Album)" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273fdf71af87c2a4f3cbed53d65", "alt": "Nevermind" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d", "alt": "Hot Fuss" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d00001e024c42e40240028664f939f81c", "alt": "Mellon Collie and the Infinite Sadness" }
         ]
       },
       {
         "color": "#FAA3FF",
-        "name": "",
+        "name": "Bands with Colors in the Name",
         "elements": [
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" }
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d", "alt": "Dookie" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273fdbcee40748537ff80a7af70", "alt": "By The Way" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b694e89ba937dd2631ff584c", "alt": "The Wall" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c8ffd97df27b3cecd416121c", "alt": "Black Sabbath" }
         ]
       },
       {
         "color": "#78DAF9",
-        "name": "",
+        "name": "Albums Released in 2025",
         "elements": [
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" }
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273089511953028cbfeb095c593", "alt": "Addison" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b1863bf95557ea7f357c4947", "alt": "Man’s Best Friend" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902", "alt": "The Life of a Showgirl" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273b0860cf0a98e09663c82290c", "alt": "MAYHEM" }
         ]
       },
       {
         "color": "#FFBC21",
-        "name": "",
+        "name": "Recent Album of the Year Winners (Grammys)",
         "elements": [
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" },
-          { "type": "image", "url": "", "alt": "" }
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731572698fff8a1db257a53599", "alt": "Cowboy Carter" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5", "alt": "Midnights" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee", "alt": "Harry’s House" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce", "alt": "When We All Fall Asleep, Where Do We Go?" }
         ]
       }
     ],
@@ -26259,6 +26405,98 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  },
+  "01/08/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs From the Berlin Trilogy",
+        "elements": [
+          "Sound and Vision",
+          "Be My Wife",
+          "\"Heroes\"",
+          "Move On"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Famous David Artists",
+        "elements": [
+          "Bowie",
+          "Guetta",
+          "Byrne",
+          "Gahan"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Major Tom",
+        "elements": [
+          "Space Oddity",
+          "Ashes to Ashes",
+          "Major Tom (Coming Home)",
+          "Terrence Loves You"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists With a Famous David Bowie Cover",
+        "elements": [
+          "Nirvana",
+          "Garbage",
+          "Duran Duran",
+          "Cheap Trick"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@joseignacio.rosales",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "hbd david bowie",
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/09/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/syQVxA7md_0AAAAM/blink182-simpsons.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "blink-182 Songs",
+        "elements": ["Dammit", "First Date", "I Miss You", "All The Small Things"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to The Beastie Boy's \"Sabotage\"",
+        "elements": ["Can't Stand It", "You Planned It", "I'm Out and I'm Gone", "This is Sabotage"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Tracks from Pink Floyd's \"The Wall\"",
+        "elements": ["Another Brick in the Wall, Pt. 2", "Comfortably Numb", "Goodbye Cruel World", "Mother"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Non-Conformity",
+        "elements": ["Fat Lip", "Bad Reputation", "Anarchy in the U.K.", "We’re Not Gonna Take It"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   },
   "01/10/2026": {
     "playlist": "",
@@ -26311,6 +26549,220 @@
     "special-message": true,
     "message-content": "former careers",
     "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/11/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "SONGS TITLED DRINKS",
+        "elements": [
+          "Espresso",
+          "Diet Pepsi",
+          "Red Wine Supernova",
+          "One Beer"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs From Adele's \"21\"",
+        "elements": [
+          "Rumour Has It",
+          "Someone Like You",
+          "Rolling in the Deep",
+          "Set Fire to the Rain"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Death",
+        "elements": [
+          "Tears In Heaven",
+          "Knockin' On Heaven's Door",
+          "See You Again",
+          "If I Die Young"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "THINGS KENDRICK LAMAR HAS IN \"DNA.\"",
+        "elements": [
+          "Loyalty",
+          "Royalty",
+          "Hustle",
+          "Power"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/12/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lorde Songs",
+        "elements": ["Team", "Supercut", "Liability", "Royals"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "The Spice Girls Nicknames",
+        "elements": ["Sporty", "Scary", "Ginger", "Posh"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Things Cardi B Likes in \"I Like It\"",
+        "elements": ["Dollars", "Diamonds", "Stunting", "Shining"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Titled ____ Woman",
+        "elements": [
+          "Dangerous",
+          "Pretty",
+          "Busy",
+          "Witchy"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/13/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers Featuring Analog Media",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731cb9b88a3e8d5344a10184bc", "alt": "Radio" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2731dacfbc31cc873d132958af9", "alt": "Yeezus" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2732af30c881bb23cfb82a8cf99", "alt": "Let It Bleed" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b27393bca993965222066dfbf060", "alt": "True Magic" }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Dance Pop Albums",
+        "elements": [
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Beyonc%C3%A9_-_Renaissance.png/250px-Beyonc%C3%A9_-_Renaissance.png", "alt": "Renaissance" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b2734bc66095f8a70bc4e6593f4f", "alt": "Future Nostalgia" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Bad_Girls_LP.jpg/250px-Bad_Girls_LP.jpg", "alt": "Bad Girls" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273d0a8bfe18f25429d76886b1e", "alt": "Blackout" }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Released in 1997",
+        "elements": [
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856", "alt": "OK Computer" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Daftpunk-homework.jpg", "alt": "Homework" },
+          { "type": "image", "url": "https://i.scdn.co/image/ab67616d0000b273a7ebb8df8edae98f7dd299bd", "alt": "Life After Death" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/d/df/Missy_Elliott_Supa_Dupa_Fly.jpg", "alt": "Supa Dupa Fly" }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Album Titles With Non-Apostrophe Punctuation",
+        "elements": [
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/KendrickGKMC.jpg/250px-KendrickGKMC.jpg", "alt": "good kid, m.A.A.d city" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Thank_U%2C_Next_album_cover.png/250px-Thank_U%2C_Next_album_cover.png", "alt": "thank u, next" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Justin_Timberlake_-_FutureSex_LoveSounds.png/250px-Justin_Timberlake_-_FutureSex_LoveSounds.png", "alt": "FutureSex/LoveSounds" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png/250px-Childish_Gambino_-_Awaken%2C_My_Love%21.png", "alt": "Awaken, My Love!" }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": "",
+    "letterboxd": ""
+  },
+  "01/15/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Backstreet Boys Members",
+        "elements": [
+          "Brian",
+          "AJ",
+          "Nick",
+          "Kevin"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Country Songs About Roads",
+        "elements": [
+          "Old Town Road",
+          "Take Me Home, Country Roads",
+          "On the Road Again",
+          "Six Days on the Road"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Mick Jagger Singing About Streets",
+        "elements": [
+          "Streets of Love",
+          "Dancing in the Street",
+          "Street Fighting Man",
+          "Back Street Girl"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums About Roads",
+        "elements": [
+          "Highway to Hell",
+          "Goodbye Yellow Brick Road",
+          "Ocean Avenue",
+          "Abbey Road"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "@joseignacio.rosales",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "Just can't wait to be on the road again",
+    "instagram": "https://www.instagram.com/joseignacio.rosales",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
