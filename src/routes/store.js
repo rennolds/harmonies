@@ -20,15 +20,30 @@ const getTodayFormatted = () => {
       if (browser) return (localStorage.currentGameDate = val);
 });
 
+const safeJsonParse = (value, fallback) => {
+    if (value == null) return fallback;
+    if (typeof value !== "string") return fallback;
+    const trimmed = value.trim();
+    if (!trimmed) return fallback;
+    try {
+        return JSON.parse(trimmed);
+    } catch {
+        return fallback;
+    }
+};
 
-let parsed = "";
+
+let parsed = [];
 const itemNameGuess = "guessHistory"
 if (browser) {
     const retrieved = localStorage.getItem(itemNameGuess)
     if (retrieved) {
-        parsed = JSON.parse(retrieved);
-        if (typeof(parsed) == "string") {
-            parsed = JSON.parse(parsed);
+        // Support legacy "double-encoded" values while preventing JSON.parse("") crashes
+        const first = safeJsonParse(retrieved, []);
+        if (typeof first === "string") {
+            parsed = safeJsonParse(first, []);
+        } else {
+            parsed = Array.isArray(first) ? first : [];
         }
     }
 }
@@ -39,12 +54,13 @@ guessHistory.subscribe((value) => {
 });
 
 
-parsed = "";
+parsed = [];
 const itemNameCleared = "clearedCategories"
 if (browser) {
     const retrieved = localStorage.getItem(itemNameCleared)
     if (retrieved) {
-        parsed = JSON.parse(retrieved);
+        const parsedValue = safeJsonParse(retrieved, []);
+        parsed = Array.isArray(parsedValue) ? parsedValue : [];
     }
 }
 export const clearedCategories = writable(browser && parsed === null ? [] : parsed)
@@ -115,7 +131,8 @@ const solveListName = "solveList";
 if (browser) {
     const retrieved = localStorage.getItem(solveListName);
     if (retrieved) {
-        solveListParsed = JSON.parse(retrieved);
+        const parsedValue = safeJsonParse(retrieved, []);
+        solveListParsed = Array.isArray(parsedValue) ? parsedValue : [];
     }
 }
 export const solveList = writable(browser && solveListParsed === null ? [] : solveListParsed);
@@ -131,7 +148,8 @@ const completedDaysName = "completedDays";
 if (browser) {
     const retrieved = localStorage.getItem(completedDaysName);
     if (retrieved) {
-        completedDaysParsed = JSON.parse(retrieved);
+        const parsedValue = safeJsonParse(retrieved, []);
+        completedDaysParsed = Array.isArray(parsedValue) ? parsedValue : [];
     }
 }
 export const completedDays = writable(browser && completedDaysParsed === null ? [] : completedDaysParsed);

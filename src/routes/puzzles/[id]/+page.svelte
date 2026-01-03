@@ -81,11 +81,18 @@
     const savedState = localStorage.getItem(STORAGE_KEY_PREFIX + 'state');
     
     if (savedState) {
-      const state = JSON.parse(savedState);
-      mistakesRemaining = state.mistakesRemaining;
-      hasLost = state.hasLost;
-      hasWon = state.hasWon;
-      localClearedCategories = state.clearedCategories;
+      try {
+        const state = JSON.parse(savedState);
+        mistakesRemaining = state?.mistakesRemaining ?? mistakesRemaining;
+        hasLost = !!state?.hasLost;
+        hasWon = !!state?.hasWon;
+        localClearedCategories = Array.isArray(state?.clearedCategories)
+          ? state.clearedCategories
+          : [];
+      } catch (e) {
+        console.warn("Invalid saved state for custom puzzle, clearing:", e);
+        localStorage.removeItem(STORAGE_KEY_PREFIX + 'state');
+      }
       
       // Reconstruct grid items
       // First, get all items
