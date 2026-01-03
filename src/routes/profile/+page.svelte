@@ -21,9 +21,10 @@
   let showCopiedToast = false;
   let copiedToastTimeout = null;
 
-  // Initialize userProfile store with server data if not already set
+  // Sync userProfile store with server data on mount
+  // This ensures the avatar color is always up-to-date
   onMount(() => {
-    if (data.profile && !$userProfile) {
+    if (data.profile) {
       userProfile.set(data.profile);
     }
   });

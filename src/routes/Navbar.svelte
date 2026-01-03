@@ -2,7 +2,6 @@
   import moment from "moment";
   import SlideMenu from "./SlideMenu.svelte";
   import { page } from "$app/stores";
-  import { currentGameDate } from "./store";
   import SpotifyModal from "./SpotifyModal.svelte";
   import StatsModal from "./StatsModal.svelte";
   import { supabase } from "$lib/supabaseClient";
@@ -17,6 +16,7 @@
   export let isArchiveMode = false;
   export let isCustomPuzzle = false;
   export let isProfilePage = false;
+  export let archiveDate = null; // The date of the puzzle being played
 
   let menuOpen = false;
   let spotifyModalOpen = false;
@@ -40,10 +40,6 @@
 
   function toggleStatsModal() {
     statsModalOpen = !statsModalOpen;
-  }
-
-  function goToTodaysGame() {
-    window.location.href = "/";
   }
 
   // User menu functions
@@ -74,7 +70,7 @@
   }
 </script>
 
-<SlideMenu isOpen={menuOpen} {closeMenu} {isArchiveMode} />
+<SlideMenu isOpen={menuOpen} {closeMenu} />
 
 <!-- Add the Spotify Modal component -->
 <SpotifyModal
@@ -129,32 +125,19 @@
           </svg>
         {/if}
       </button>
-    </div>
 
-    <!-- Add archive mode indicator with clickable behavior -->
-    {#if isArchiveMode && !isCustomPuzzle}
-      <button
-        class="archive-indicator"
-        on:click={goToTodaysGame}
-        aria-label="Return to today's game"
-      >
-        <div class="archive-indicator-content">
-          <span class="date-text">
-            {$page.url.pathname === "/archives"
-              ? "Archives"
-              : typeof $currentGameDate === "string"
-                ? moment($currentGameDate).format("MM/DD/YYYY")
-                : $currentGameDate}
-          </span>
-          <span class="back-to-today">Today</span>
-        </div>
-      </button>
-    {/if}
+      <!-- Archive date display - positioned next to menu -->
+      {#if isArchiveMode && !isCustomPuzzle && $page.url.pathname !== "/archives" && archiveDate}
+        <span class="date-text">
+          {moment(archiveDate).format("MM/DD/YYYY")}
+        </span>
+      {/if}
+    </div>
 
     <div class="navbar-right">
       <div class="icon-group">
-        {#if isProfilePage}
-          <!-- Home button (profile page only) -->
+        {#if isProfilePage || isArchiveMode}
+          <!-- Home button -->
           <a
             href="/"
             class="icon-button"
@@ -183,7 +166,8 @@
               />
             </svg>
           </a>
-        {:else}
+        {/if}
+        {#if !isProfilePage}
           <!-- Stats button -->
           <button
             class="icon-button"
@@ -367,38 +351,20 @@
   }
 
   /* Archive mode indicator */
-  .archive-indicator {
-    background: none;
-    border: none;
-    font-size: 14px;
-    margin-right: 100px;
-    color: #ba81c2;
-    font-weight: 600;
-    padding: 4px 8px;
-    cursor: pointer;
-    transition: color 0.2s;
-  }
-
-  .archive-indicator:hover {
-    color: #d9a7e0;
-  }
-
   .archive-indicator-content {
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-left: 12px;
   }
 
-  .back-to-today {
-    font-size: 12px;
+  .date-text {
+    font-size: 14px;
     color: #ba81c2;
-    position: relative;
+    font-weight: 600;
+    margin-left: 12px;
   }
 
-  .back-to-today::before {
-    content: "«";
-    margin-right: 2px;
-  }
 
   .icon-button {
     margin-left: 14px;
@@ -445,7 +411,7 @@
       height: 20px;
     }
 
-    .archive-indicator {
+    .date-text {
       font-size: 12px;
     }
   }

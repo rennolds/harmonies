@@ -1,14 +1,6 @@
 <script>
   export let isOpen = false;
   export let closeMenu;
-  export let isArchiveMode = false; // Add this prop to detect if we're in archive mode or on the archives page
-
-  // Function to handle navigation to today's game with forced reload
-  function goToTodaysGame() {
-    // Use window.location.href to force a complete page reload
-    window.location.href = "/";
-    closeMenu();
-  }
 </script>
 
 <div
@@ -25,13 +17,6 @@
   <div>
     <nav class="menu-navigation">
       <ul>
-        {#if isArchiveMode}
-          <li>
-            <button on:click={goToTodaysGame} class="menu-link"
-              >Today's Harmonies</button
-            >
-          </li>
-        {/if}
         <li><a href="/archives">Archives</a></li>
         <li>
           <a href="/create">Create a board</a>
@@ -145,15 +130,13 @@
       margin-bottom: 4px;
     }
 
-    .menu-navigation a,
-    .menu-navigation .menu-link {
+    .menu-navigation a {
       font-size: 18px;
       padding: 4px 0;
     }
   }
 
-  .menu-navigation a,
-  .menu-navigation .menu-link {
+  .menu-navigation a {
     color: white;
     text-decoration: none;
     font-size: 19px;
@@ -164,18 +147,7 @@
     text-align: left;
   }
 
-  /* Style the button to look like other menu links */
-  .menu-link {
-    background: none;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    padding: 6px 0;
-  }
-
-  .menu-navigation a:hover,
-  .menu-navigation .menu-link:hover {
+  .menu-navigation a:hover {
     color: #ba81c2;
   }
 

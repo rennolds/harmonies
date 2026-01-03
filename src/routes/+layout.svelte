@@ -11,11 +11,12 @@
   
   export let data;
 
-  // Initialize stores with server data immediately
-  $: if (data.profile && !$userProfile) {
+  // Always sync server profile data to the store on each navigation
+  // This ensures the user's chosen color is always displayed
+  $: if (data.profile) {
     userProfile.set(data.profile);
   }
-  $: if (data.user && !$authUser) {
+  $: if (data.user) {
     authUser.set(data.user);
   }
 

@@ -3,6 +3,7 @@
   import { supabase } from "$lib/supabaseClient";
   import Navbar from "../Navbar.svelte";
   import { browser } from "$app/environment";
+  import { validateUsername, containsProfanity } from "$lib/validation.js";
   import "../styles.css";
 
   let mode = "create";
@@ -21,7 +22,7 @@
   let usernameHint = "";
   let usernameValid = true;
 
-  function handleUsernameInput(e) {
+  async function handleUsernameInput(e) {
     const val = e.target.value;
     // Auto-convert to lowercase as user types
     if (val !== val.toLowerCase()) {
@@ -40,6 +41,9 @@
       usernameValid = false;
     } else if (val.length > 24) {
       usernameHint = "Maximum 24 characters";
+      usernameValid = false;
+    } else if (await containsProfanity(val)) {
+      usernameHint = "Username contains inappropriate language";
       usernameValid = false;
     } else {
       usernameHint = "✓ Looks good!";
@@ -103,19 +107,6 @@
     if (n && n.startsWith("/")) nextPath = n;
   });
 
-  function validateUsername(uname) {
-    if (!uname || uname.length < 3) {
-      return "Username must be at least 3 characters";
-    }
-    if (uname.length > 24) {
-      return "Username must be 24 characters or less";
-    }
-    if (!/^[a-z0-9_]+$/.test(uname)) {
-      return "Username can only contain lowercase letters, numbers, and underscores";
-    }
-    return null;
-  }
-
   async function onSubmit(e) {
     e.preventDefault();
     if (!showForm) return;
@@ -139,9 +130,9 @@
           return;
         }
 
-        // Validate username format
+        // Validate username format (includes profanity check)
         const uname = username.trim().toLowerCase();
-        const validationError = validateUsername(uname);
+        const validationError = await validateUsername(uname);
         if (validationError) {
           errorMsg = validationError;
           loading = false;

@@ -212,7 +212,11 @@ async function fetchUserProfile(userId) {
       .maybeSingle();
     
     if (error) throw error;
-    userProfile.set(data);
+    // Only update the store if we got valid profile data
+    // Don't overwrite existing profile with null
+    if (data) {
+      userProfile.set(data);
+    }
   } catch (err) {
     console.error('Error fetching user profile:', err);
   }

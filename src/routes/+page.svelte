@@ -900,7 +900,13 @@
 </script>
 
 <!-- Navbar outside of main to avoid stacking context issues -->
-<Navbar {toggleHelpOverlay} {playlist} {isArchiveMode} {isCustomPuzzle} />
+<Navbar
+  {toggleHelpOverlay}
+  {playlist}
+  {isArchiveMode}
+  {isCustomPuzzle}
+  archiveDate={displayDate}
+/>
 
 <!-- HelpOverlay outside of main so it can appear above navbar -->
 {#if helpOverlay}
