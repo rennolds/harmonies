@@ -78,6 +78,12 @@
     const url = new URL(window.location.href);
     const rRaw = url.searchParams.get("r");
     const n = url.searchParams.get("next");
+    const m = url.searchParams.get("mode");
+
+    // Set mode from query parameter if provided
+    if (m === "create" || m === "login") {
+      mode = m;
+    }
 
     // normalize ALLOWED to origins (no paths)
     const allowed = ALLOWED.map(originOf);

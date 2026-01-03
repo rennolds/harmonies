@@ -5,11 +5,11 @@
   import { currentGameDate } from "./store";
   import SpotifyModal from "./SpotifyModal.svelte";
   import StatsModal from "./StatsModal.svelte";
+  import { supabase } from "$lib/supabaseClient";
   import {
     isAuthenticated,
     authUser,
     userProfile,
-    signOut,
   } from "$lib/stores/statsStore.js";
 
   export let toggleHelpOverlay;
@@ -20,6 +20,7 @@
   let spotifyModalOpen = false;
   let statsModalOpen = false;
   let showUserMenu = false;
+  let showLoginMenu = false;
 
   function toggleMenu() {
     menuOpen = !menuOpen;
@@ -46,20 +47,28 @@
   // User menu functions
   function handleUserClick() {
     if ($isAuthenticated) {
-      showUserMenu = !showUserMenu;
+      // Navigate to profile page
+      window.location.href = "/profile";
     } else {
-      window.location.href = "/login";
+      // Show login dropdown
+      showLoginMenu = !showLoginMenu;
     }
   }
 
   async function handleLogOut() {
     showUserMenu = false;
-    await signOut();
+    await supabase.auth.signOut();
+    authUser.set(null);
+    userProfile.set(null);
     window.location.href = "/";
   }
 
   function closeUserMenu() {
     showUserMenu = false;
+  }
+
+  function closeLoginMenu() {
+    showLoginMenu = false;
   }
 </script>
 
@@ -206,24 +215,14 @@
         <div class="user-button-container">
           <button
             class="icon-button user-btn"
-            on:click|stopPropagation={handleUserClick}
+            on:click={handleUserClick}
             aria-label={$isAuthenticated ? "Account" : "Login"}
           >
             {#if $isAuthenticated}
-              <!-- Logged in user icon (filled) -->
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="12" cy="8" r="4" fill="#ba81c2" />
-                <path
-                  d="M4 20C4 16.6863 7.58172 14 12 14C16.4183 14 20 16.6863 20 20V21H4V20Z"
-                  fill="#ba81c2"
-                />
-              </svg>
+              <!-- Logged in: show avatar with first letter of username -->
+              <div class="user-avatar">
+                {($userProfile?.username || $authUser?.email || "U").charAt(0).toUpperCase()}
+              </div>
             {:else}
               <!-- Logged out user icon (outline) -->
               <svg
@@ -248,28 +247,26 @@
               </svg>
             {/if}
           </button>
+          
+          <!-- Login dropdown menu - positioned relative to button container -->
+          {#if showLoginMenu && !$isAuthenticated}
+            <div class="login-dropdown">
+              <a href="/login?mode=login" class="dropdown-item"> Log In </a>
+              <a href="/login?mode=create" class="dropdown-item"> Create Account </a>
+            </div>
+          {/if}
         </div>
       </div>
     </div>
   </nav>
 </div>
 
-<!-- User dropdown menu - outside navbar for proper z-index -->
-{#if showUserMenu && $isAuthenticated}
-  <div class="user-dropdown">
-    <div class="user-name">
-      {$userProfile?.username || $authUser?.email || "User"}
-    </div>
-    <button class="dropdown-item" on:click={handleLogOut}> Log Out </button>
-  </div>
-{/if}
-
-<!-- Click outside to close user menu -->
-{#if showUserMenu}
+<!-- Click outside to close login menu -->
+{#if showLoginMenu}
   <div
     class="user-menu-backdrop"
-    on:click={closeUserMenu}
-    on:keydown={(e) => e.key === "Escape" && closeUserMenu()}
+    on:click={closeLoginMenu}
+    on:keydown={(e) => e.key === "Escape" && closeLoginMenu()}
     role="button"
     tabindex="-1"
   ></div>
@@ -496,10 +493,38 @@
     position: relative;
   }
 
+  .user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ba81c2, #9b59b6);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(186, 129, 194, 0.4);
+  }
+
   .user-dropdown {
     position: fixed;
     top: 105px;
     right: 15px;
+    background: linear-gradient(145deg, #2a1e2d, #1a141d);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    min-width: 180px;
+    z-index: 10005;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .login-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
     background: linear-gradient(145deg, #2a1e2d, #1a141d);
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
@@ -524,6 +549,7 @@
   }
 
   .dropdown-item {
+    display: block;
     width: 100%;
     padding: 12px 16px;
     background: none;
@@ -533,10 +559,13 @@
     text-align: left;
     cursor: pointer;
     transition: background-color 0.2s;
+    text-decoration: none;
+    box-sizing: border-box;
   }
 
   .dropdown-item:hover {
     background: rgba(186, 129, 194, 0.2);
+    text-decoration: none;
   }
 
   .user-menu-backdrop {

@@ -55,28 +55,23 @@
       return selectedDate;
     }
 
-    const date = new Date();
-    const easternTimeOffset = -4; // Eastern Time is UTC-4 during standard time
-    const utc = date.getTime() + date.getTimezoneOffset() * 60000;
-    const easternTime = new Date(utc + 3600000 * easternTimeOffset);
-    return easternTime.toLocaleDateString("en-US", {
-      timeZone: "America/New_York",
-    });
+    return moment().tz("America/New_York").format("MM/DD/YYYY");
   }
 
   let timeUntilFourAMUTC = 0;
   let timer = null;
 
   function updateTimer() {
-    const now = moment(); // Current time in user's timezone
+    const now = moment().tz("America/New_York"); // Current time in EST
 
-    const fourAMUTC = moment(now).utc().startOf("day").add(4, "hours"); // 4 AM UTC
+    // The game resets at midnight EST? Or 4 AM UTC?
+    // User requested "The entire game operates in EST and new puzzles become available in EST"
+    // So let's align the timer to midnight EST (which is 5 AM UTC or 4 AM UTC depending on DST)
+    
+    // Target: Midnight EST (Start of *next* day)
+    const nextReset = moment().tz("America/New_York").endOf('day').add(1, 'millisecond');
 
-    if (now > fourAMUTC) {
-      fourAMUTC.add(1, "days"); // Increment to next day if already passed
-    }
-
-    timeUntilFourAMUTC = fourAMUTC.diff(now); // Difference in milliseconds
+    timeUntilFourAMUTC = nextReset.diff(now); // Difference in milliseconds
   }
 
   function formatTime(milliseconds) {

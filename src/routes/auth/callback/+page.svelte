@@ -21,7 +21,9 @@
         console.error("Verify OTP error:", error.message);
 
         // Check if session exists despite the error (token may have been consumed already)
-        const { data: { user: existingUser } } = await supabase.auth.getUser();
+        const {
+          data: { user: existingUser },
+        } = await supabase.auth.getUser();
         if (existingUser) {
           goto(next);
           return;
@@ -43,7 +45,9 @@
         console.error("PKCE exchange error:", error.message);
 
         // Check if session exists anyway
-        const { data: { user: existingUser } } = await supabase.auth.getUser();
+        const {
+          data: { user: existingUser },
+        } = await supabase.auth.getUser();
         if (existingUser) {
           goto(next);
           return;
@@ -59,8 +63,11 @@
       }
     }
 
-    // 3. Check if there's already a session
-    const { data: { session: initialSession }, error: sessionError } = await supabase.auth.getSession();
+    // 3. Check if there's already a session (e.g., from hash fragment or existing auth)
+    const {
+      data: { session: initialSession },
+      error: sessionError,
+    } = await supabase.auth.getSession();
 
     if (sessionError) {
       console.error("Session error:", sessionError.message);
@@ -74,13 +81,17 @@
     }
 
     // 4. No session yet: fall back to waiting for auth state change
-    const { data: { user } } = await supabase.auth.getUser();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
 
     if (user) {
       goto(next, { replaceState: true });
     } else {
-      // Listen for the auth event
-      const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      // If no session found immediately, listen for the event
+      const {
+        data: { subscription },
+      } = supabase.auth.onAuthStateChange((event, session) => {
         if (event === "SIGNED_IN" && session) {
           supabase.auth.getUser().then(({ data }) => {
             if (data.user) {
@@ -102,7 +113,10 @@
             const queryErrorDesc = urlParams.get("error_description");
 
             if (queryErrorDesc || hashErrorDesc) {
-              console.error("Auth error from URL:", queryErrorDesc || hashErrorDesc);
+              console.error(
+                "Auth error from URL:",
+                queryErrorDesc || hashErrorDesc
+              );
             }
 
             goto("/auth/auth-code-error");
@@ -151,5 +165,3 @@
     font-size: 16px;
   }
 </style>
-
-

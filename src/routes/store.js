@@ -1,5 +1,6 @@
 import { writable } from "svelte/store";
 import { browser } from "$app/environment";
+import moment from "moment-timezone";
 
 // Add this new store to track whether we're in archive mode
 // export const isArchive = writable(false);
@@ -10,11 +11,7 @@ visited.subscribe((val) => {
 });
 
 const getTodayFormatted = () => {
-    const today = new Date();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    const year = today.getFullYear();
-    return `${month}/${day}/${year}`;
+    return moment().tz("America/New_York").format("MM/DD/YYYY");
   };
   
   // Use formatted string date instead of Date object
