@@ -144,9 +144,15 @@
   }
   let shoutout = board["shoutout"] || false;
   let shoutoutName = board["shoutout-name"] || "";
+  const isAnonymous = board["anonymous"] || false;
 
   // For custom puzzles, fallback to username if no credit name provided
-  if (isCustomPuzzle && !shoutoutName && customPuzzle?.authorUsername) {
+  if (
+    isCustomPuzzle &&
+    !isAnonymous &&
+    !shoutoutName &&
+    customPuzzle?.authorUsername
+  ) {
     shoutout = true;
     shoutoutName = customPuzzle.authorUsername;
   }

@@ -48,7 +48,8 @@ export const actions = {
         
         // New fields
         const dailySubmission = formData.get('daily_submission') === 'on';
-        const creditName = formData.get('credit_name') || null;
+        const creditUsername = formData.get('credit_username') === 'on';
+        const anonymous = !creditUsername; // Inverted: unchecked = anonymous
 
 		const puzzleData = {
 			categories,
@@ -61,17 +62,31 @@ export const actions = {
             puzzleData['message-content'] = formTitle;
         }
 
-        if (creditName) {
-            puzzleData['shoutout'] = true;
-            puzzleData['shoutout-name'] = creditName;
+        // Anonymous credit (respected for daily submissions, too)
+        puzzleData['anonymous'] = anonymous;
+        if (anonymous) {
+            // Don't show shoutout when anonymous
+            puzzleData['shoutout'] = false;
+            puzzleData['shoutout-name'] = '';
+        } else {
+            // Fetch username to credit the creator
+            const { data: profile } = await locals.supabase
+                .from('profiles')
+                .select('username')
+                .eq('id', session.user.id)
+                .maybeSingle();
+            
+            if (profile?.username) {
+                puzzleData['shoutout'] = true;
+                puzzleData['shoutout-name'] = profile.username;
+            }
         }
 
 		const { data, error } = await locals.supabase.from('harmonies_puzzles').insert({
 			user_id: session.user.id,
 			puzzle_data: puzzleData,
             title: title,
-            daily_submission: dailySubmission,
-            credit_name: creditName
+            daily_submission: dailySubmission
 		}).select('id').single();
 
 		if (error) {

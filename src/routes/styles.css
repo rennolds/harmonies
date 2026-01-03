@@ -33,6 +33,16 @@ html, body {
   overflow-x: hidden;
 }
 
+/* Prevent iOS Safari from auto-zooming when focusing form fields.
+   Safari triggers zoom if the computed font-size on inputs is < 16px. */
+@media (max-width: 768px) {
+  input:not([type='checkbox']):not([type='radio']):not([type='range']):not([type='color']),
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
 /* Ensure the container class maintains the layout structure */
 .container {
   display: flex;

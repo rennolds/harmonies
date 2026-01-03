@@ -401,6 +401,7 @@
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 120px; /* Extra space for bottom banner ad */
+    overflow-x: hidden;
   }
 
   .profile-container {
@@ -408,6 +409,8 @@
     max-width: 600px;
     padding: 20px;
     padding-bottom: 80px; /* Additional bottom padding */
+    box-sizing: border-box;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -564,6 +567,7 @@
     border-radius: 12px;
     padding: 20px;
     border: 1px solid #333;
+    box-sizing: border-box;
   }
 
   .section h2 {
@@ -592,6 +596,7 @@
     border-radius: 8px;
     transition: background-color 0.2s;
     gap: 12px;
+    box-sizing: border-box;
   }
 
   .puzzle-row:hover {
@@ -705,9 +710,16 @@
     border-color: rgba(255, 255, 255, 0.3);
   }
 
+  /* Mobile: account for the fixed top ad + navbar and keep equal side padding */
+  @media (max-width: 767px) {
+    .profile-page {
+      padding-top: 120px;
+    }
+  }
+
   @media (max-width: 480px) {
     .profile-page {
-      padding-top: 80px;
+      padding-top: 120px;
     }
 
     .profile-container {

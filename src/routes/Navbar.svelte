@@ -269,8 +269,7 @@
           <!-- Login dropdown menu - positioned relative to button container -->
           {#if showLoginMenu && !$isAuthenticated}
             <div class="login-dropdown">
-              <a href="/login?mode=login" class="dropdown-item"> Log In </a>
-              <a href="/login?mode=create" class="dropdown-item"> Create Account </a>
+              <a href="/login?mode=login" class="dropdown-item"> Login/Sign Up </a>
             </div>
           {/if}
         </div>

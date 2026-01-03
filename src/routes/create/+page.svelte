@@ -25,7 +25,7 @@
   let playlist = "";
   let gameoverGif = "";
   let dailySubmission = false;
-  let creditName = "";
+  let creditUsername = true; // Default to crediting username (not anonymous)
 
   const STORAGE_KEY = "harmonies_draft_puzzle";
 
@@ -45,8 +45,8 @@
       categories,
       playlist,
       gameoverGif,
+      creditUsername,
       dailySubmission,
-      creditName,
       savedAt: Date.now(),
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
@@ -72,8 +72,15 @@
       categories = formData.categories || categories;
       playlist = formData.playlist || "";
       gameoverGif = formData.gameoverGif || "";
+      // Handle both old (anonymous) and new (creditUsername) format
+      if (formData.creditUsername !== undefined) {
+        creditUsername = formData.creditUsername;
+      } else if (formData.anonymous !== undefined) {
+        creditUsername = !formData.anonymous; // Convert old format
+      } else {
+        creditUsername = true; // Default
+      }
       dailySubmission = formData.dailySubmission || false;
-      creditName = formData.creditName || "";
       return true;
     } catch (e) {
       console.error("Error loading saved form:", e);
@@ -143,8 +150,8 @@
     ];
     playlist = "";
     gameoverGif = "";
+    creditUsername = true;
     dailySubmission = false;
-    creditName = "";
     // Clear the form response by reloading
     window.location.href = "/create";
   }
@@ -319,6 +326,18 @@
               bind:value={gameoverGif}
             />
           </div>
+
+          <div class="form-group">
+            <label for="credit_username" class="checkbox-label-inline">
+              <input
+                type="checkbox"
+                id="credit_username"
+                name="credit_username"
+                bind:checked={creditUsername}
+              />
+              Credit my username (uncheck if you want this puzzle to be anonymous)
+            </label>
+          </div>
         </div>
 
         <div class="submission-section">
@@ -338,20 +357,6 @@
                 consistency.
               </span>
             </label>
-          </div>
-
-          <div class="form-group">
-            <label for="credit_name">Credit Name (Optional)</label>
-            <input
-              type="text"
-              id="credit_name"
-              name="credit_name"
-              placeholder="e.g. Your Name or @handle (leave blank for anonymous)"
-              bind:value={creditName}
-            />
-            <p class="help-text">
-              How you would like to be credited if your puzzle is chosen.
-            </p>
           </div>
         </div>
 
@@ -383,6 +388,13 @@
     padding-top: 60px; /* Space for navbar */
     padding-bottom: 120px; /* Extra space for bottom banner ad */
     position: relative;
+  }
+
+  /* Mobile: account for the fixed top ad + navbar so headings don't feel cramped */
+  @media (max-width: 767px) {
+    .page-container {
+      padding-top: 120px;
+    }
   }
 
   .content {
@@ -530,6 +542,23 @@
     margin-bottom: 0;
   }
 
+  .checkbox-label-inline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+
+  .checkbox-label-inline input[type="checkbox"] {
+    margin-top: 2.5px;
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+  }
+
   .subtext {
     display: block;
     font-weight: 400;
@@ -537,13 +566,6 @@
     color: #888;
     margin-top: 4px;
     line-height: 1.4;
-  }
-
-  .help-text {
-    font-size: 12px;
-    color: #888;
-    margin-top: 6px;
-    margin-bottom: 0;
   }
 
   .actions {
@@ -619,13 +641,6 @@
     font-size: 24px;
     font-weight: 700;
     color: #fff;
-    margin: 0;
-  }
-
-  .success-note {
-    color: rgba(255, 255, 255, 0.4);
-    font-size: 12px;
-    font-style: italic;
     margin: 0;
   }
 
