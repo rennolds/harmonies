@@ -6,6 +6,7 @@
   // Props
   export let isOpen = false;
   export let onClose = () => {};
+  export let inline = false; // When true, renders without modal backdrop
 
   // Calculate statistics directly from solveList
   $: allGames = $solveList || [];
@@ -82,45 +83,9 @@
 <svelte:window on:keydown={handleKeydown} />
 
 {#if isOpen}
-  <div
-    class="modal-backdrop"
-    on:click={handleBackdropClick}
-    in:fade={{ duration: 200 }}
-    out:fade={{ duration: 150 }}
-  >
-    <div
-      class="modal-content"
-      in:fly={{ y: 20, duration: 250 }}
-      out:fly={{ y: 20, duration: 200 }}
-    >
-      <div class="modal-header">
-        <h2>Statistics</h2>
-        <button class="close-button" on:click={onClose}>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18 6L6 18"
-              stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M6 6L18 18"
-              stroke="white"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
-      </div>
-
+  {#if inline}
+    <!-- Inline mode: just render the content without modal backdrop -->
+    <div class="inline-stats">
       <div class="stats-summary">
         <div class="stat-box">
           <div class="stat-value">{totalPlayed}</div>
@@ -166,42 +131,130 @@
           {/each}
         </div>
       </div>
-
-      <!-- Sync status indicator -->
-      <div class="sync-status">
-        {#if $isAuthenticated}
-          {#if $syncStatus.syncing}
-            <span class="sync-indicator syncing">
-              <span class="sync-dot"></span>
-              Syncing...
-            </span>
-          {:else if $syncStatus.synced}
-            <span class="sync-indicator synced">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#22c55e"/>
-              </svg>
-              Synced to cloud
-            </span>
-          {:else if $syncStatus.lastSyncError}
-            <span class="sync-indicator error">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="#ef4444"/>
-              </svg>
-              Sync error
-            </span>
-          {/if}
-        {:else}
-          <a href="/login" class="sync-indicator not-logged-in">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.5" />
-              <path d="M5 20C5 17.2386 8.13401 15 12 15C15.866 15 19 17.2386 19 20V21H5V20Z" stroke="currentColor" stroke-width="1.5" />
+    </div>
+  {:else}
+    <!-- Modal mode: render with backdrop -->
+    <div
+      class="modal-backdrop"
+      on:click={handleBackdropClick}
+      in:fade={{ duration: 200 }}
+      out:fade={{ duration: 150 }}
+    >
+      <div
+        class="modal-content"
+        in:fly={{ y: 20, duration: 250 }}
+        out:fly={{ y: 20, duration: 200 }}
+      >
+        <div class="modal-header">
+          <h2>Statistics</h2>
+          <button class="close-button" on:click={onClose}>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 6L6 18"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6 6L18 18"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
-            Log in to sync stats
-          </a>
-        {/if}
+          </button>
+        </div>
+
+        <div class="stats-summary">
+          <div class="stat-box">
+            <div class="stat-value">{totalPlayed}</div>
+            <div class="stat-label">Played</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">{winPercentage}%</div>
+            <div class="stat-label">Win %</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">{$currentStreak}</div>
+            <div class="stat-label">Current Streak</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">{$maxStreak}</div>
+            <div class="stat-label">Max Streak</div>
+          </div>
+        </div>
+
+        <div class="perfect-games-row">
+          <div class="perfect-label">Perfect Games</div>
+          <div class="perfect-value">{perfectGames}</div>
+        </div>
+
+        <div class="mistake-distribution">
+          <h3>Mistake Distribution</h3>
+
+          <div class="distribution-chart">
+            {#each Object.entries(mistakeDistribution) as [mistakes, count], i}
+              <div class="chart-row">
+                <div class="label">{mistakes}</div>
+                <div class="bar-container">
+                  <div
+                    class="bar"
+                    style="width: {count > 0
+                      ? (count / maxDistributionValue) * 100
+                      : 0}%"
+                  >
+                    {count > 0 ? count : ""}
+                  </div>
+                </div>
+              </div>
+            {/each}
+          </div>
+        </div>
+
+        <!-- Sync status indicator -->
+        <div class="sync-status">
+          {#if $isAuthenticated}
+            {#if $syncStatus.syncing}
+              <span class="sync-indicator syncing">
+                <span class="sync-dot"></span>
+                Syncing...
+              </span>
+            {:else if $syncStatus.synced}
+              <span class="sync-indicator synced">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#22c55e"/>
+                </svg>
+                Synced to cloud
+              </span>
+            {:else if $syncStatus.lastSyncError}
+              <span class="sync-indicator error">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="#ef4444"/>
+                </svg>
+                Sync error
+              </span>
+            {/if}
+          {:else}
+            <a href="/login" class="sync-indicator not-logged-in">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.5" />
+                <path d="M5 20C5 17.2386 8.13401 15 12 15C15.866 15 19 17.2386 19 20V21H5V20Z" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+              Log in to sync stats
+            </a>
+          {/if}
+        </div>
       </div>
     </div>
-  </div>
+  {/if}
 {/if}
 
 <style>
@@ -456,5 +509,27 @@
     50% {
       opacity: 0.4;
     }
+  }
+
+  /* Inline stats styles */
+  .inline-stats {
+    width: 100%;
+  }
+
+  .inline-stats .stats-summary {
+    border-bottom: none;
+    padding: 10px 0;
+  }
+
+  .inline-stats .perfect-games-row {
+    padding: 15px 0;
+  }
+
+  .inline-stats .mistake-distribution {
+    padding: 20px 0;
+  }
+
+  .inline-stats .sync-status {
+    padding: 12px 0;
   }
 </style>

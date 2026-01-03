@@ -3,7 +3,7 @@
   import Ramp from './Ramp.svelte';
   import { onMount } from 'svelte';
   import { browser } from '$app/environment';
-  import { initAuthListener } from '$lib/stores/statsStore.js';
+  import { initAuthListener, handleVisibilityChange, userProfile, authUser } from '$lib/stores/statsStore.js';
   
   // Define constants for Ramp
   const PUB_ID = 1025391;
@@ -11,12 +11,25 @@
   
   export let data;
 
-  // Initialize auth listener on mount
+  // Initialize stores with server data immediately
+  $: if (data.profile && !$userProfile) {
+    userProfile.set(data.profile);
+  }
+  $: if (data.user && !$authUser) {
+    authUser.set(data.user);
+  }
+
+  // Initialize auth listener and visibility change handler on mount
   onMount(() => {
     if (browser) {
       const unsubscribe = initAuthListener();
+      
+      // Refresh session when tab becomes visible (handles stale sessions)
+      document.addEventListener('visibilitychange', handleVisibilityChange);
+      
       return () => {
         if (unsubscribe) unsubscribe();
+        document.removeEventListener('visibilitychange', handleVisibilityChange);
       };
     }
   });

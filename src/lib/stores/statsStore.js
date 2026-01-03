@@ -54,30 +54,97 @@ function removeFromOfflineQueue(timestamp) {
 }
 
 /**
+ * Ensure we have a valid session by verifying with Supabase server.
+ * Uses getUser() which validates the JWT server-side (more secure than getSession()).
+ * @returns {Promise<{valid: boolean, userId: string|null}>}
+ */
+export async function ensureValidSession() {
+  try {
+    // First check if we have a session
+    const { data: { session }, error: sessionError } = await supabase.auth.getSession();
+    
+    if (sessionError || !session) {
+      return { valid: false, userId: null };
+    }
+    
+    // Verify the session is actually valid by calling getUser() 
+    // This makes a server call to validate the JWT
+    const { data: { user }, error: userError } = await supabase.auth.getUser();
+    
+    if (userError || !user) {
+      // Session exists but is invalid - try to refresh
+      const { data: refreshData, error: refreshError } = await supabase.auth.refreshSession();
+      
+      if (refreshError || !refreshData.session) {
+        console.warn('Session refresh failed:', refreshError?.message);
+        return { valid: false, userId: null };
+      }
+      
+      // Update the auth store with refreshed user
+      authUser.set(refreshData.session.user);
+      return { valid: true, userId: refreshData.session.user.id };
+    }
+    
+    return { valid: true, userId: user.id };
+  } catch (err) {
+    console.error('Error validating session:', err);
+    return { valid: false, userId: null };
+  }
+}
+
+/**
+ * Handle visibility change - refresh session and process offline queue when tab becomes active
+ */
+export async function handleVisibilityChange() {
+  if (!browser || document.visibilityState !== 'visible') return;
+  
+  console.log('Tab became visible, checking session...');
+  
+  const { valid, userId } = await ensureValidSession();
+  
+  if (valid && userId) {
+    // Process any pending offline queue items
+    await processOfflineQueue(userId);
+  }
+}
+
+/**
  * Initialize auth listener
  */
 export function initAuthListener() {
   if (!browser) return;
 
-  // Get initial session
-  supabase.auth.getSession().then(({ data: { session }, error }) => {
+  // Get initial session and verify with getUser()
+  supabase.auth.getSession().then(async ({ data: { session }, error }) => {
     if (error) {
       console.warn('Session error (clearing local state):', error.message);
-      // Clear any stale local state
       authUser.set(null);
       authLoading.set(false);
       return;
     }
     
-    const u = session?.user ?? null;
-    authUser.set(u);
+    if (!session) {
+      authUser.set(null);
+      authLoading.set(false);
+      return;
+    }
+    
+    // Verify session is valid with server-side check
+    const { data: { user }, error: userError } = await supabase.auth.getUser();
+    
+    if (userError || !user) {
+      console.warn('Session invalid:', userError?.message);
+      authUser.set(null);
+      authLoading.set(false);
+      return;
+    }
+    
+    authUser.set(user);
     authLoading.set(false);
     
-    if (u) {
-      fetchUserProfile(u.id);
-      syncStatsOnLogin(u.id);
-      processOfflineQueue(u.id); // Try to flush queue on login
-    }
+    fetchUserProfile(user.id);
+    syncStatsOnLogin(user.id);
+    processOfflineQueue(user.id);
   }).catch(err => {
     console.warn('Failed to get session:', err.message);
     authUser.set(null);
@@ -140,7 +207,7 @@ async function fetchUserProfile(userId) {
   try {
     const { data, error } = await supabase
       .from('profiles')
-      .select('username')
+      .select('username, avatar_color')
       .eq('id', userId)
       .maybeSingle();
     
@@ -326,40 +393,56 @@ function buildSolveListFromDistribution(winDistribution, gamesPlayed, gamesWon) 
 
 /**
  * Record a completed game
+ * Validates session before attempting DB write to avoid stale auth errors.
  */
 export async function recordGameCompletion(gameData, updatedStats) {
-  const u = get(authUser);
+  const cachedUser = get(authUser);
   
-  if (u) {
-    try {
-      console.log('Attempting to record game completion for user:', u.id);
-      
-      const safeStats = updatedStats || {};
-      
-      const result = await recordGameResult(supabase, u.id, gameData, safeStats);
-      
-      if (!result.success) {
-        console.error('Error from recordGameResult, adding to offline queue:', result.error);
-        // Add to offline queue on failure
-        addToOfflineQueue({
-            type: 'game_completion',
-            payload: { gameData, updatedStats: safeStats }
-        });
-        syncStatus.set({ synced: false, syncing: false, lastSyncError: 'Saved locally (offline)' });
-      } else {
-        syncStatus.set({ synced: true, syncing: false, lastSyncError: null });
-      }
-    } catch (err) {
-      console.error('Error syncing game, adding to offline queue:', err);
-      // Add to offline queue on exception
+  // Quick check: if no cached user, skip entirely
+  if (!cachedUser) {
+    console.log('User not authenticated, skipping game recording');
+    return;
+  }
+  
+  // Validate session is still valid before DB write (uses getUser() for server verification)
+  const { valid, userId } = await ensureValidSession();
+  
+  if (!valid || !userId) {
+    console.log('Session expired or invalid, adding to offline queue');
+    addToOfflineQueue({
+      type: 'game_completion',
+      payload: { gameData, updatedStats: updatedStats || {} }
+    });
+    syncStatus.set({ synced: false, syncing: false, lastSyncError: 'Session expired - saved locally' });
+    return;
+  }
+  
+  try {
+    console.log('Attempting to record game completion for user:', userId);
+    
+    const safeStats = updatedStats || {};
+    
+    const result = await recordGameResult(supabase, userId, gameData, safeStats);
+    
+    if (!result.success) {
+      console.error('Error from recordGameResult, adding to offline queue:', result.error);
+      // Add to offline queue on failure
       addToOfflineQueue({
-        type: 'game_completion',
-        payload: { gameData, updatedStats: updatedStats || {} }
+          type: 'game_completion',
+          payload: { gameData, updatedStats: safeStats }
       });
       syncStatus.set({ synced: false, syncing: false, lastSyncError: 'Saved locally (offline)' });
+    } else {
+      syncStatus.set({ synced: true, syncing: false, lastSyncError: null });
     }
-  } else {
-    console.log('User not authenticated, skipping game recording');
+  } catch (err) {
+    console.error('Error syncing game, adding to offline queue:', err);
+    // Add to offline queue on exception
+    addToOfflineQueue({
+      type: 'game_completion',
+      payload: { gameData, updatedStats: updatedStats || {} }
+    });
+    syncStatus.set({ synced: false, syncing: false, lastSyncError: 'Saved locally (offline)' });
   }
 }
 

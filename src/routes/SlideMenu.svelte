@@ -34,7 +34,7 @@
         {/if}
         <li><a href="/archives">Archives</a></li>
         <li>
-          <a href="https://form.jotform.com/250716973857067">Submit a board</a>
+          <a href="/create">Create a board</a>
         </li>
         <li>
           <a href="https://twitter.com/Spotle_io" target="_blank">Follow us</a>
