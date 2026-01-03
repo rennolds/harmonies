@@ -26768,5 +26768,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "1/17/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "elements": ["bad guy", "when the party's over", "bury a friend", "you should see me in a crown"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with abbreviations",
+        "elements": ["FML", "XO", "IDGAF", "NDA"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "I love _____",
+        "elements": ["You", "It", "You, I'm Sorry", "Rock 'n' Roll"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Biggest songs of 2025",
+        "elements": ["Ordinary", "Die with a Smile", "APT", "Birds of a Feather"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
