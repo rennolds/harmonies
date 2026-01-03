@@ -110,10 +110,13 @@
     }
   }
 
-  // Generated puzzle URL
+  // Generated puzzle URL for sharing/copying
   $: puzzleUrl = form?.puzzleId
     ? `https://harmonies.io/puzzles/${form.puzzleId}`
     : "";
+
+  // Play link (uses query parameter like profile page)
+  $: playLink = form?.puzzleId ? `/?puzzle=${form.puzzleId}` : "";
 
   // Copy link state
   let copied = false;
@@ -182,7 +185,7 @@
           </div>
 
           <div class="success-actions">
-            <a href={puzzleUrl} class="play-now-btn">Play Now</a>
+            <a href={playLink} class="play-now-btn">Play Now</a>
             <button type="button" class="copy-btn" on:click={copyLink}>
               {#if copied}
                 <svg
