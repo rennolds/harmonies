@@ -26108,7 +26108,11 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
+<<<<<<< HEAD
   "01/01/2026": {
+=======
+"01/01/2026": {
+>>>>>>> main
     "playlist": "https://open.spotify.com/playlist/3yu0vRyqrscoZmuoURXRVy?si=2946d2e99ab2414e",
     "gameoverGif": "https://gifsec.com/wp-content/uploads/2022/09/happy-new-year-gif-4.gif",
     "categories": [
@@ -26181,7 +26185,11 @@
       },
       {
         "color": "#FAA3FF",
+<<<<<<< HEAD
         "name": "Songs by The Smash Mouth",
+=======
+        "name": "Songs by The Smashing Pumpkins",
+>>>>>>> main
         "elements": ["1979", "Today", "Disarm", "Mayonaise"]
       },
       {
@@ -26763,6 +26771,43 @@
     "special-message": true,
     "message-content": "Just can't wait to be on the road again",
     "instagram": "https://www.instagram.com/joseignacio.rosales",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "1/17/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "elements": ["bad guy", "when the party's over", "bury a friend", "you should see me in a crown"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with abbreviations",
+        "elements": ["FML", "XO", "IDGAF", "NDA"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "I love _____",
+        "elements": ["You", "It", "You, I'm Sorry", "Rock 'n' Roll"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Biggest songs of 2025",
+        "elements": ["Ordinary", "Die with a Smile", "APT", "Birds of a Feather"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
     "tiktok": "",
     "youtube": "",
     "twitch": "",
