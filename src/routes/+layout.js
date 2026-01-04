@@ -1,7 +1,6 @@
 export const load = ({ url }) => {
-    // Check the current path
-    const path = url.pathname;
-    const isMainGame = path === '/' || path.includes('/?date=');
+    // Query params are not part of pathname; main game is always `/`
+    const isMainGame = url.pathname === '/';
     
     return {
       isMainGame

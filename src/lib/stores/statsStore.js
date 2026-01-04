@@ -1,7 +1,7 @@
 import { writable, derived, get } from 'svelte/store';
 import { browser } from '$app/environment';
 import { supabase } from '$lib/supabaseClient';
-import { getUserStats, uploadLocalStats, recordGameResult, getCompletedDays, convertDateFromDBFormat, getTodayEST } from '$lib/db/stats';
+import { getUserStats, uploadLocalStats, recordGameResult, getCompletedDays } from '$lib/db/stats';
 import { 
   played, 
   currentStreak, 
@@ -28,29 +28,45 @@ export const syncStatus = writable({
 });
 
 // Offline Queue Store
-const QUEUE_KEY = 'harmonies_offline_queue';
-function getOfflineQueue() {
-  if (!browser) return [];
+// IMPORTANT: this must be scoped per-user to prevent cross-user leakage on shared devices.
+const QUEUE_PREFIX = 'harmonies_offline_queue:';
+const LEGACY_QUEUE_KEY = 'harmonies_offline_queue';
+
+function queueKeyForUser(userId) {
+  return `${QUEUE_PREFIX}${userId}`;
+}
+
+function getOfflineQueue(userId) {
+  if (!browser || !userId) return [];
   try {
-    const q = localStorage.getItem(QUEUE_KEY);
+    const q = localStorage.getItem(queueKeyForUser(userId));
     return q ? JSON.parse(q) : [];
-  } catch (e) {
+  } catch {
     return [];
   }
 }
 
-function addToOfflineQueue(item) {
-  if (!browser) return;
-  const q = getOfflineQueue();
-  q.push({ ...item, timestamp: Date.now() });
-  localStorage.setItem(QUEUE_KEY, JSON.stringify(q));
+function setOfflineQueue(userId, queue) {
+  if (!browser || !userId) return;
+  localStorage.setItem(queueKeyForUser(userId), JSON.stringify(queue));
 }
 
-function removeFromOfflineQueue(timestamp) {
-  if (!browser) return;
-  let q = getOfflineQueue();
-  q = q.filter(item => item.timestamp !== timestamp);
-  localStorage.setItem(QUEUE_KEY, JSON.stringify(q));
+function addToOfflineQueue(userId, item) {
+  if (!browser || !userId) return;
+  const q = getOfflineQueue(userId);
+  q.push({ ...item, timestamp: Date.now() });
+  setOfflineQueue(userId, q);
+}
+
+function removeFromOfflineQueue(userId, timestamp) {
+  if (!browser || !userId) return;
+  const q = getOfflineQueue(userId).filter(item => item.timestamp !== timestamp);
+  setOfflineQueue(userId, q);
+}
+
+function clearOfflineQueue(userId) {
+  if (!browser || !userId) return;
+  localStorage.removeItem(queueKeyForUser(userId));
 }
 
 /**
@@ -93,91 +109,10 @@ export async function ensureValidSession() {
 }
 
 /**
- * Handle visibility change - refresh session and process offline queue when tab becomes active
- */
-export async function handleVisibilityChange() {
-  if (!browser || document.visibilityState !== 'visible') return;
-  
-  console.log('Tab became visible, checking session...');
-  
-  const { valid, userId } = await ensureValidSession();
-  
-  if (valid && userId) {
-    // Process any pending offline queue items
-    await processOfflineQueue(userId);
-  }
-}
-
-/**
- * Initialize auth listener
- */
-export function initAuthListener() {
-  if (!browser) return;
-
-  // Get initial session and verify with getUser()
-  supabase.auth.getSession().then(async ({ data: { session }, error }) => {
-    if (error) {
-      console.warn('Session error (clearing local state):', error.message);
-      authUser.set(null);
-      authLoading.set(false);
-      return;
-    }
-    
-    if (!session) {
-      authUser.set(null);
-      authLoading.set(false);
-      return;
-    }
-    
-    // Verify session is valid with server-side check
-    const { data: { user }, error: userError } = await supabase.auth.getUser();
-    
-    if (userError || !user) {
-      console.warn('Session invalid:', userError?.message);
-      authUser.set(null);
-      authLoading.set(false);
-      return;
-    }
-    
-    authUser.set(user);
-    authLoading.set(false);
-    
-    fetchUserProfile(user.id);
-    syncStatsOnLogin(user.id);
-    processOfflineQueue(user.id);
-  }).catch(err => {
-    console.warn('Failed to get session:', err.message);
-    authUser.set(null);
-    authLoading.set(false);
-  });
-
-  // Listen for auth changes
-  const { data: { subscription } } = supabase.auth.onAuthStateChange(
-    async (event, session) => {
-      const u = session?.user ?? null;
-      authUser.set(u);
-      authLoading.set(false);
-
-      if (event === 'SIGNED_IN' && u) {
-        await fetchUserProfile(u.id);
-        await syncStatsOnLogin(u.id);
-        await processOfflineQueue(u.id);
-      } else if (event === 'SIGNED_OUT') {
-        authUser.set(null);
-        userProfile.set(null);
-        syncStatus.set({ synced: false, syncing: false, lastSyncError: null });
-      }
-    }
-  );
-
-  return () => subscription.unsubscribe();
-}
-
-/**
  * Process offline queue
  */
 async function processOfflineQueue(userId) {
-  const queue = getOfflineQueue();
+  const queue = getOfflineQueue(userId);
   if (queue.length === 0) return;
 
   console.log(`Processing ${queue.length} offline items...`);
@@ -187,9 +122,9 @@ async function processOfflineQueue(userId) {
         // If it's a game completion
         if (item.type === 'game_completion') {
            const { gameData, updatedStats } = item.payload;
-           const result = await recordGameResult(supabase, userId, gameData, updatedStats);
+           const result = await recordGameResult(supabase, userId, gameData, updatedStats ?? null);
            if (result.success) {
-               removeFromOfflineQueue(item.timestamp);
+               removeFromOfflineQueue(userId, item.timestamp);
            } else {
                console.error('Failed to process offline item:', result.error);
            }
@@ -197,28 +132,6 @@ async function processOfflineQueue(userId) {
     } catch (err) {
         console.error('Error processing offline queue item:', err);
     }
-  }
-}
-
-/**
- * Fetch user profile from the database
- */
-async function fetchUserProfile(userId) {
-  try {
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('username, avatar_color')
-      .eq('id', userId)
-      .maybeSingle();
-    
-    if (error) throw error;
-    // Only update the store if we got valid profile data
-    // Don't overwrite existing profile with null
-    if (data) {
-      userProfile.set(data);
-    }
-  } catch (err) {
-    console.error('Error fetching user profile:', err);
   }
 }
 
@@ -396,6 +309,39 @@ function buildSolveListFromDistribution(winDistribution, gamesPlayed, gamesWon) 
 }
 
 /**
+ * SSR hydration is the source of truth for auth + profile.
+ * This function should be called from `src/routes/+layout.svelte` whenever `data.user/profile` changes.
+ */
+let lastHydratedUserId = null;
+export async function applyHydratedAuth({ user, profile }) {
+  authUser.set(user ?? null);
+  userProfile.set(profile ?? null);
+  authLoading.set(false);
+
+  if (!browser) return;
+
+  // Remove legacy global queue to prevent cross-user leakage.
+  // (We don't attempt migration because we can't attribute those items safely.)
+  try {
+    localStorage.removeItem(LEGACY_QUEUE_KEY);
+  } catch {
+    // ignore
+  }
+
+  if (!user?.id) {
+    lastHydratedUserId = null;
+    return;
+  }
+
+  // Only do expensive sync/queue processing when the user actually changes.
+  if (user.id === lastHydratedUserId) return;
+  lastHydratedUserId = user.id;
+
+  await syncStatsOnLogin(user.id);
+  await processOfflineQueue(user.id);
+}
+
+/**
  * Record a completed game
  * Validates session before attempting DB write to avoid stale auth errors.
  */
@@ -403,19 +349,22 @@ export async function recordGameCompletion(gameData, updatedStats) {
   const cachedUser = get(authUser);
   
   // Quick check: if no cached user, skip entirely
-  if (!cachedUser) {
+  if (!cachedUser?.id) {
     console.log('User not authenticated, skipping game recording');
     return;
   }
   
   // Validate session is still valid before DB write (uses getUser() for server verification)
   const { valid, userId } = await ensureValidSession();
+
+  // IMPORTANT: preserve `null` to mean "history only" (archive/custom games)
+  const statsOrNull = updatedStats ?? null;
   
   if (!valid || !userId) {
     console.log('Session expired or invalid, adding to offline queue');
-    addToOfflineQueue({
+    addToOfflineQueue(cachedUser.id, {
       type: 'game_completion',
-      payload: { gameData, updatedStats: updatedStats || {} }
+      payload: { gameData, updatedStats: statsOrNull }
     });
     syncStatus.set({ synced: false, syncing: false, lastSyncError: 'Session expired - saved locally' });
     return;
@@ -423,17 +372,15 @@ export async function recordGameCompletion(gameData, updatedStats) {
   
   try {
     console.log('Attempting to record game completion for user:', userId);
-    
-    const safeStats = updatedStats || {};
-    
-    const result = await recordGameResult(supabase, userId, gameData, safeStats);
+
+    const result = await recordGameResult(supabase, userId, gameData, statsOrNull);
     
     if (!result.success) {
       console.error('Error from recordGameResult, adding to offline queue:', result.error);
       // Add to offline queue on failure
-      addToOfflineQueue({
+      addToOfflineQueue(userId, {
           type: 'game_completion',
-          payload: { gameData, updatedStats: safeStats }
+          payload: { gameData, updatedStats: statsOrNull }
       });
       syncStatus.set({ synced: false, syncing: false, lastSyncError: 'Saved locally (offline)' });
     } else {
@@ -442,9 +389,9 @@ export async function recordGameCompletion(gameData, updatedStats) {
   } catch (err) {
     console.error('Error syncing game, adding to offline queue:', err);
     // Add to offline queue on exception
-    addToOfflineQueue({
+    addToOfflineQueue(userId, {
       type: 'game_completion',
-      payload: { gameData, updatedStats: updatedStats || {} }
+      payload: { gameData, updatedStats: statsOrNull }
     });
     syncStatus.set({ synced: false, syncing: false, lastSyncError: 'Saved locally (offline)' });
   }
@@ -456,6 +403,8 @@ export async function recordGameCompletion(gameData, updatedStats) {
  */
 export async function signOut() {
   if (!browser) return;
+
+  const currentUserId = get(authUser)?.id ?? null;
   
   try {
     // Call server-side logout endpoint which has proper cookie access
@@ -478,6 +427,21 @@ export async function signOut() {
     ]);
   } catch (err) {
     // Continue with local cleanup
+  }
+
+  // Clear any offline queue items for the current (and any previous) user(s)
+  if (currentUserId) clearOfflineQueue(currentUserId);
+  try {
+    localStorage.removeItem(LEGACY_QUEUE_KEY);
+    // Also remove any stray per-user queue keys
+    const keysToRemove = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(QUEUE_PREFIX)) keysToRemove.push(key);
+    }
+    keysToRemove.forEach(k => localStorage.removeItem(k));
+  } catch {
+    // ignore
   }
   
   // Clear stores
