@@ -19,6 +19,9 @@
   export let isProfilePage = false;
   export let archiveDate = null; // The date of the puzzle being played
 
+  // Check if we are on the login page
+  $: isLoginPage = $page.url.pathname.startsWith("/login");
+
   let menuOpen = false;
   let spotifyModalOpen = false;
   let statsModalOpen = false;
@@ -139,13 +142,9 @@
 
     <div class="navbar-right">
       <div class="icon-group">
-        {#if isProfilePage || isArchiveMode}
+        {#if isProfilePage || isArchiveMode || isLoginPage}
           <!-- Home button -->
-          <a
-            href="/"
-            class="icon-button"
-            aria-label="Home"
-          >
+          <a href="/" class="icon-button" aria-label="Home">
             <svg
               width="24"
               height="24"
@@ -170,7 +169,7 @@
             </svg>
           </a>
         {/if}
-        {#if !isProfilePage}
+        {#if !isProfilePage && !isLoginPage}
           <!-- Stats button -->
           <button
             class="icon-button"
@@ -241,8 +240,13 @@
           >
             {#if $isAuthenticated}
               <!-- Logged in: show avatar with first letter of username -->
-              <div class="user-avatar" style:background={$userProfile?.avatar_color || '#ba81c2'}>
-                {($userProfile?.username || $authUser?.email || "U").charAt(0).toUpperCase()}
+              <div
+                class="user-avatar"
+                style:background={$userProfile?.avatar_color || "#ba81c2"}
+              >
+                {($userProfile?.username || $authUser?.email || "U")
+                  .charAt(0)
+                  .toUpperCase()}
               </div>
             {:else}
               <!-- Logged out user icon (outline) -->
@@ -268,11 +272,13 @@
               </svg>
             {/if}
           </button>
-          
+
           <!-- Login dropdown menu - positioned relative to button container -->
           {#if showLoginMenu && !$isAuthenticated}
             <div class="login-dropdown">
-              <a href="/login?mode=login" class="dropdown-item"> Login/Sign Up </a>
+              <a href="/login?mode=login" class="dropdown-item">
+                Login/Sign Up
+              </a>
             </div>
           {/if}
         </div>
@@ -366,7 +372,6 @@
     font-weight: 600;
     margin-left: 12px;
   }
-
 
   .icon-button {
     margin-left: 14px;
