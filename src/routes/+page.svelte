@@ -955,6 +955,9 @@
     gridItems.forEach((item) => {
       // Get the paragraph element within the grid item
       const paragraph = item.querySelector("p");
+
+      if (!paragraph) return;
+
       // Get the text content of the paragraph
       const text = paragraph.textContent.trim();
 
