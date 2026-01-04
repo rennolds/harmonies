@@ -366,13 +366,19 @@
               {submitting ? "Creating..." : "Create Puzzle"}
             </button>
           {:else}
-            <button
-              type="button"
-              class="login-to-create"
-              on:click={handleLoginToCreate}
-            >
-              Login to Create
-            </button>
+            <div class="login-action-wrapper">
+              <button
+                type="button"
+                class="login-to-create"
+                on:click={handleLoginToCreate}
+              >
+                Login to Create
+              </button>
+              <p class="login-hint">
+                After logging in, come back to this page and your puzzle will be
+                saved.
+              </p>
+            </div>
           {/if}
         </div>
       {/if}
@@ -619,6 +625,22 @@
   .login-to-create:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(186, 129, 194, 0.4);
+  }
+
+  .login-action-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .login-hint {
+    margin: 12px 0 0 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 1.4;
   }
 
   /* Success Container Styles */
