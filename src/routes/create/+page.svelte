@@ -199,7 +199,6 @@
         if (isAuthenticated) {
           const { valid } = await ensureValidSession();
           if (!valid) {
-            console.error("Session invalid, cannot create puzzle");
             submitting = false;
             cancel();
             return;

@@ -21,12 +21,9 @@
   onMount(() => {
     const handleVisibilityChange = async () => {
       if (document.visibilityState === 'visible' && data.user) {
-        console.log('Tab visible: checking session validity...');
         const result = await ensureValidSession();
-        console.log('Session check result:', result);
         
         if (!result.valid) {
-           console.log('Session invalid, reloading app data...');
            await invalidateAll();
         }
       }
