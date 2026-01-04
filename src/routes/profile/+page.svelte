@@ -49,8 +49,13 @@
   function toggleHelpOverlay() {}
 
   async function handleLogOut() {
-    await supabase.auth.signOut();
-    // Clear stores after signOut completes
+    try {
+      await supabase.auth.signOut();
+    } catch (err) {
+      console.error("Sign out error:", err);
+      // Continue with local cleanup even if signOut fails
+    }
+    // Clear stores after signOut
     authUser.set(null);
     userProfile.set(null);
     // Redirect to home
@@ -402,6 +407,8 @@
     padding-top: 100px;
     padding-bottom: 120px; /* Extra space for bottom banner ad */
     overflow-x: hidden;
+    position: relative;
+    z-index: 1; /* Create stacking context above ads */
   }
 
   .profile-container {
@@ -414,6 +421,8 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    position: relative;
+    z-index: 10; /* Ensure content is above ad overlays */
   }
 
   /* Profile Header */
@@ -703,11 +712,19 @@
     transition: all 0.2s ease;
     width: auto;
     align-self: flex-start;
+    position: relative;
+    z-index: 100; /* Ensure button is above any ad overlays */
+    -webkit-tap-highlight-color: transparent; /* Better mobile touch feedback */
   }
 
   .logout-btn:hover {
     background: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .logout-btn:active {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(0.98);
   }
 
   /* Mobile: account for the fixed top ad + navbar and keep equal side padding */

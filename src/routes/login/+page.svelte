@@ -696,12 +696,14 @@
     padding: 20px;
   }
 
-  /* Mobile adjustments */
-  @media (max-width: 480px) {
+  /* Mobile adjustments - account for fixed ad (50px) + navbar (50px) */
+  @media (max-width: 767px) {
     main {
-      padding-top: 56px;
+      padding-top: 110px;
     }
+  }
 
+  @media (max-width: 480px) {
     .login-outer {
       padding: 12px;
     }
@@ -716,12 +718,4 @@
     }
   }
 
-  /* Login page only: remove the reserved top ad bar + pull navbar to top */
-  :global(.top-ad-container) {
-    display: none !important;
-  }
-
-  :global(.navbar-wrapper) {
-    top: 0 !important;
-  }
 </style>
