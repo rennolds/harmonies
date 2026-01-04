@@ -3,7 +3,7 @@
   import Navbar from "../Navbar.svelte";
   import StatsModal from "../StatsModal.svelte";
   import { supabase } from "$lib/supabaseClient";
-  import { authUser, userProfile, signOut as storeSignOut } from "$lib/stores/statsStore.js";
+  import { authUser, userProfile, signOut as storeSignOut, ensureValidSession } from "$lib/stores/statsStore.js";
   import { validateUsername } from "$lib/validation.js";
   import { browser } from "$app/environment";
   import moment from "moment";
@@ -127,6 +127,13 @@
   async function saveUsername() {
     const userId = $authUser?.id || data?.user?.id;
     if (!userId) return;
+
+    // Ensure valid session before saving
+    const { valid } = await ensureValidSession();
+    if (!valid) {
+      usernameError = "Session expired. Please refresh the page.";
+      return;
+    }
 
     usernameError = "";
 

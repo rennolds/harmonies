@@ -657,7 +657,7 @@
   /* Submit Button */
   .login-btn {
     display: block;
-    width: 70%;
+    width: 50%;
     max-width: 280px;
     margin: 22px auto 0;
     background: #ba81c2;

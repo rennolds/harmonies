@@ -4,6 +4,7 @@
   import { browser } from "$app/environment";
   import { goto } from "$app/navigation";
   import Navbar from "../Navbar.svelte";
+  import { ensureValidSession } from "$lib/stores/statsStore.js";
 
   export let form;
   export let data;
@@ -191,8 +192,20 @@
       bind:this={formElement}
       method="POST"
       on:input={saveFormToStorage}
-      use:enhance={() => {
+      use:enhance={async ({ cancel }) => {
         submitting = true;
+
+        // Ensure valid session before submitting
+        if (isAuthenticated) {
+          const { valid } = await ensureValidSession();
+          if (!valid) {
+            console.error("Session invalid, cannot create puzzle");
+            submitting = false;
+            cancel();
+            return;
+          }
+        }
+
         return async ({ update }) => {
           submitting = false;
           update();
@@ -625,7 +638,7 @@
     background-color: #ba81c2;
     color: white;
     border: none;
-    padding: 12px 60px;
+    padding: 12px;
     border-radius: 25px;
     font-size: 16px;
     font-weight: 600;
@@ -634,7 +647,7 @@
       transform 0.2s,
       background-color 0.2s;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
   }
 
   button[type="submit"]:hover {

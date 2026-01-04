@@ -5,7 +5,7 @@
   import { invalidateAll } from '$app/navigation';
   import { supabase } from '$lib/supabaseClient';
   import { browser } from '$app/environment';
-  import { applyHydratedAuth } from '$lib/stores/statsStore.js';
+  import { applyHydratedAuth, ensureValidSession } from '$lib/stores/statsStore.js';
   import { 
     played, currentStreak, maxStreak, solveList, completedDays,
     guessHistory, mistakeCount, todaysProgressDate, currentGameDate
@@ -19,6 +19,21 @@
   export let data;
 
   onMount(() => {
+    const handleVisibilityChange = async () => {
+      if (document.visibilityState === 'visible' && data.user) {
+        console.log('Tab visible: checking session validity...');
+        const result = await ensureValidSession();
+        console.log('Session check result:', result);
+        
+        if (!result.valid) {
+           console.log('Session invalid, reloading app data...');
+           await invalidateAll();
+        }
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
       if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED' || event === 'SIGNED_OUT') {
         const currentUserId = data.user?.id;
@@ -39,6 +54,7 @@
 
     return () => {
       subscription.unsubscribe();
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
   });
 
@@ -54,6 +70,9 @@
 
   async function syncAndLoadStats() {
     try {
+      // Ensure valid session before syncing
+      await ensureValidSession();
+
       // 1. Try to get DB stats
       const res = await fetch('/api/stats');
       const { stats, todaysGame } = await res.json();
