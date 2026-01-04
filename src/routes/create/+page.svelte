@@ -129,6 +129,40 @@
   // Copy link state
   let copied = false;
   let playlistError = "";
+  let duplicateItemsError = "";
+
+  // Check for duplicate items across all categories
+  function validateDuplicateItems() {
+    const allItems = [];
+    for (const category of categories) {
+      for (const item of category.items) {
+        const trimmed = item.trim().toLowerCase();
+        if (trimmed) {
+          allItems.push(trimmed);
+        }
+      }
+    }
+
+    const seen = new Set();
+    const duplicates = [];
+    for (const item of allItems) {
+      if (seen.has(item)) {
+        if (!duplicates.includes(item)) {
+          duplicates.push(item);
+        }
+      } else {
+        seen.add(item);
+      }
+    }
+
+    if (duplicates.length > 0) {
+      duplicateItemsError = `Duplicate items are not allowed: "${duplicates.join('", "')}"`;
+      return false;
+    }
+
+    duplicateItemsError = "";
+    return true;
+  }
 
   function validatePlaylist() {
     if (!playlist) {
@@ -191,8 +225,17 @@
     <form
       bind:this={formElement}
       method="POST"
-      on:input={saveFormToStorage}
+      on:input={() => {
+        saveFormToStorage();
+        validateDuplicateItems();
+      }}
       use:enhance={async ({ cancel }) => {
+        // Validate no duplicate items before submitting
+        if (!validateDuplicateItems()) {
+          cancel();
+          return;
+        }
+
         submitting = true;
 
         // Ensure valid session before submitting
@@ -213,6 +256,10 @@
     >
       {#if form?.error}
         <div class="error">{form.error}</div>
+      {/if}
+
+      {#if duplicateItemsError}
+        <div class="error">{duplicateItemsError}</div>
       {/if}
 
       {#if form?.success}
@@ -404,7 +451,10 @@
 
         <div class="actions">
           {#if isAuthenticated}
-            <button type="submit" disabled={submitting || !!playlistError}>
+            <button
+              type="submit"
+              disabled={submitting || !!playlistError || !!duplicateItemsError}
+            >
               {submitting ? "Creating..." : "Create Puzzle"}
             </button>
           {:else}

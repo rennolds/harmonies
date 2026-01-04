@@ -23,6 +23,9 @@ export const actions = {
         // Fixed colors in difficulty order
         const COLORS = ['#CBff70', '#FAA3FF', '#78DAF9', '#FFBC21'];
 
+			// Collect all items for duplicate checking
+		const allItems = [];
+
 		for (let i = 0; i < 4; i++) {
 			const name = formData.get(`category_${i}_name`);
 			// Use fixed color instead of form input
@@ -38,7 +41,29 @@ export const actions = {
 				return fail(400, { error: 'All category fields are required' });
 			}
 
+			// Collect items for duplicate check (case-insensitive)
+			for (const item of items) {
+				allItems.push(item.trim().toLowerCase());
+			}
+
 			categories.push({ name, color, elements: items });
+		}
+
+		// Check for duplicate items across all categories
+		const seen = new Set();
+		const duplicates = [];
+		for (const item of allItems) {
+			if (seen.has(item)) {
+				if (!duplicates.includes(item)) {
+					duplicates.push(item);
+				}
+			} else {
+				seen.add(item);
+			}
+		}
+		
+		if (duplicates.length > 0) {
+			return fail(400, { error: `Duplicate items are not allowed: "${duplicates.join('", "')}"` });
 		}
 
 		const playlist = formData.get('playlist');

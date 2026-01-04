@@ -10,6 +10,8 @@ export async function POST({ request, locals }) {
     guessesCount, 
     mistakeCount, 
     guessHistory,
+    clearedCategories,
+    missedCategories,
     // Current aggregates to update:
     newPlayed,
     newCurrentStreak,
@@ -27,7 +29,9 @@ export async function POST({ request, locals }) {
       win,
       guesses_count: guessesCount,
       mistake_count: mistakeCount,
-      guess_history: guessHistory
+      guess_history: guessHistory,
+      cleared_categories: clearedCategories,
+      missed_categories: missedCategories
     });
 
   if (historyError) {

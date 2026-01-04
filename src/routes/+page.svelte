@@ -495,6 +495,11 @@
       // Check if session is valid/refreshable before request
       const { valid } = await ensureValidSession();
 
+      const clearedNames = $clearedCategories.map((c) => c.name);
+      const missedNames = categories
+        .filter((c) => !clearedNames.includes(c.name))
+        .map((c) => c.name);
+
       if (valid) {
         try {
           await fetch("/api/stats/record", {
@@ -505,6 +510,8 @@
               guessesCount: guessCount,
               mistakeCount: $mistakeCount,
               guessHistory: $guessHistory, // Send the game details
+              clearedCategories: clearedNames,
+              missedCategories: missedNames,
               // Send the NEW updated aggregate values from your stores
               newPlayed: $played,
               newCurrentStreak: $currentStreak,
@@ -518,6 +525,51 @@
         }
       } else {
         console.warn("Session expired. Stats saved locally but not synced.");
+      }
+    }
+  }
+
+  async function handleArchiveStats(win) {
+    // Don't save stats for custom puzzles
+    if (isCustomPuzzle) return;
+
+    // Record this date as completed
+    if (!$completedDays.includes(todaysDate)) {
+      $completedDays = [...$completedDays, todaysDate];
+    }
+
+    // Sync to cloud if user is authenticated
+    if ($page.data.user) {
+      const { valid } = await ensureValidSession();
+
+      const clearedNames = localClearedCategories.map((c) => c.name);
+      const missedNames = categories
+        .filter((c) => !clearedNames.includes(c.name))
+        .map((c) => c.name);
+
+      if (valid) {
+        try {
+          await fetch("/api/stats/record", {
+            method: "POST",
+            body: JSON.stringify({
+              puzzleDate: todaysDate,
+              win: win,
+              guessesCount: localGuessHistory.length,
+              mistakeCount: localMistakeCount,
+              guessHistory: localGuessHistory,
+              clearedCategories: clearedNames,
+              missedCategories: missedNames,
+              // Send current aggregate values (unchanged)
+              newPlayed: $played,
+              newCurrentStreak: $currentStreak,
+              newMaxStreak: $maxStreak,
+              newSolveList: $solveList,
+              newCompletedDays: $completedDays,
+            }),
+          });
+        } catch (err) {
+          console.error("Failed to sync archive stats:", err);
+        }
       }
     }
   }
@@ -698,10 +750,8 @@
           }
 
           if (localClearedCategories.length == 4) {
-            // Mark this archive puzzle as completed
-            if (!$completedDays.includes(displayDate)) {
-              $completedDays = [...$completedDays, displayDate];
-            }
+            // Mark this archive puzzle as completed and sync
+            handleArchiveStats(true);
 
             setTimeout(() => {
               gameoverStore.set({
@@ -777,10 +827,8 @@
       playbackWidth = calculatePlaybackWidth(localMistakeCount);
 
       if (localMistakeCount == 4) {
-        // Mark this archive puzzle as completed
-        if (!$completedDays.includes(displayDate)) {
-          $completedDays = [...$completedDays, displayDate];
-        }
+        // Mark this archive puzzle as completed and sync
+        handleArchiveStats(false);
 
         setTimeout(() => {
           const remainingCategories = categories.filter(
