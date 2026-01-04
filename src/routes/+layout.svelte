@@ -1,10 +1,14 @@
 <script>
   import './styles.css';
   import Ramp from './Ramp.svelte';
+  import { onMount } from 'svelte';
+  import { invalidateAll } from '$app/navigation';
+  import { supabase } from '$lib/supabaseClient';
   import { browser } from '$app/environment';
   import { applyHydratedAuth } from '$lib/stores/statsStore.js';
   import { 
-    played, currentStreak, maxStreak, solveList, completedDays 
+    played, currentStreak, maxStreak, solveList, completedDays,
+    guessHistory, mistakeCount, todaysProgressDate, currentGameDate
   } from './store.js';
   import { get } from 'svelte/store';
   
@@ -13,6 +17,30 @@
   const WEBSITE_ID = 75241;
   
   export let data;
+
+  onMount(() => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
+      if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED' || event === 'SIGNED_OUT') {
+        const currentUserId = data.user?.id;
+        const newUserId = session?.user?.id;
+        
+        // If the user ID changed, or we have a session but data doesn't reflect it yet
+        if (newUserId !== currentUserId) {
+           await invalidateAll();
+           
+           // If we have a user now, immediately update store for UI feedback
+           // (Profile will come in after invalidateAll completes)
+           if (session?.user && !currentUserId) {
+             applyHydratedAuth({ user: session.user, profile: data?.profile }); 
+           }
+        }
+      }
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  });
 
   // SSR hydration is the source of truth for auth + profile.
   // On client navigations, SvelteKit updates `data.*` and we re-apply it here.
@@ -28,7 +56,7 @@
     try {
       // 1. Try to get DB stats
       const res = await fetch('/api/stats');
-      const { stats } = await res.json();
+      const { stats, todaysGame } = await res.json();
 
       if (stats) {
         // CASE A: User has stats in DB -> Load them into stores
@@ -52,6 +80,19 @@
           })
         });
         // No need to re-fetch; local stats are already correct
+      }
+
+      // 2. Restore today's game state if exists
+      if (todaysGame) {
+        // Mark today as progressed/finished
+        todaysProgressDate.set(todaysGame.puzzle_date);
+        currentGameDate.set(todaysGame.puzzle_date);
+        
+        // Restore game specific state
+        guessHistory.set(todaysGame.guess_history);
+        mistakeCount.set(todaysGame.mistake_count);
+        // Note: clearedCategories logic is handled in +page.svelte 
+        // by detecting that the game is "completed" based on completedDays
       }
     } catch (err) {
       console.error("Stats sync failed", err);

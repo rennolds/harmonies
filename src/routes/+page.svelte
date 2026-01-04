@@ -258,8 +258,38 @@
   } else {
     // We're playing today's puzzle
 
+    // 1. Check if today is completed (from DB sync or local)
+    const isTodayCompleted = $completedDays.includes(todaysDate);
+
+    if (isTodayCompleted) {
+      // Game is over! Restore state to show results.
+      gameoverStore.set({
+        isOver: true,
+        headerMessage:
+          $solveList[$solveList.length - 1] === 0
+            ? "Better luck tmr..."
+            : "Incredible!",
+      });
+
+      // If we won, we should ideally show the cleared categories.
+      // But we might not have them populated if it's a fresh load.
+      // We can rely on the "View Results" button to show the grid.
+      if (
+        $clearedCategories.length < 4 &&
+        $solveList[$solveList.length - 1] > 0
+      ) {
+        // It was a win, but clearedCategories is empty (fresh load).
+        // Force populate clearedCategories from gameBoards to reveal the board.
+        const correctCategories = gameBoards[todaysDate]?.categories || [];
+        if (correctCategories.length === 4) {
+          $clearedCategories = correctCategories;
+          remainingElements = [];
+        }
+      }
+    }
+
     // Check if this is our first time playing today
-    if ($todaysProgressDate !== actualToday) {
+    if ($todaysProgressDate !== actualToday && !isTodayCompleted) {
       // First time today, reset the state
       playbackWidth = calculatePlaybackWidth($mistakeCount);
       $todaysProgressDate = actualToday;
