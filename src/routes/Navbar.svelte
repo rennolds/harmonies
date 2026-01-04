@@ -9,6 +9,7 @@
     isAuthenticated,
     authUser,
     userProfile,
+    signOut as storeSignOut,
   } from "$lib/stores/statsStore.js";
 
   export let toggleHelpOverlay;
@@ -55,9 +56,11 @@
 
   async function handleLogOut() {
     showUserMenu = false;
-    await supabase.auth.signOut();
-    authUser.set(null);
-    userProfile.set(null);
+    try {
+      await storeSignOut();
+    } catch (err) {
+      // Continue with redirect even if signOut fails
+    }
     window.location.href = "/";
   }
 

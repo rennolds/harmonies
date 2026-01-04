@@ -3,7 +3,7 @@
   import Navbar from "../Navbar.svelte";
   import StatsModal from "../StatsModal.svelte";
   import { supabase } from "$lib/supabaseClient";
-  import { authUser, userProfile } from "$lib/stores/statsStore.js";
+  import { authUser, userProfile, signOut as storeSignOut } from "$lib/stores/statsStore.js";
   import { validateUsername } from "$lib/validation.js";
   import { browser } from "$app/environment";
   import moment from "moment";
@@ -16,6 +16,9 @@
   let newUsername = "";
   let usernameError = "";
   let isSavingUsername = false;
+
+  // Logout state
+  let isLoggingOut = false;
 
   // Toast notification state
   let showCopiedToast = false;
@@ -49,16 +52,16 @@
   function toggleHelpOverlay() {}
 
   async function handleLogOut() {
+    if (isLoggingOut) return;
+    isLoggingOut = true;
+    
     try {
-      await supabase.auth.signOut();
+      await storeSignOut();
     } catch (err) {
-      console.error("Sign out error:", err);
-      // Continue with local cleanup even if signOut fails
+      // Force local cleanup even if signOut fails
+      authUser.set(null);
+      userProfile.set(null);
     }
-    // Clear stores after signOut
-    authUser.set(null);
-    userProfile.set(null);
-    // Redirect to home
     window.location.href = "/";
   }
 
@@ -389,7 +392,9 @@
     </div>
 
     <!-- Logout Button -->
-    <button class="logout-btn" on:click={handleLogOut}> Log Out </button>
+    <button class="logout-btn" on:click={handleLogOut} disabled={isLoggingOut}>
+      {isLoggingOut ? "Logging out..." : "Log Out"}
+    </button>
   </div>
 </main>
 

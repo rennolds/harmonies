@@ -452,15 +452,48 @@ export async function recordGameCompletion(gameData, updatedStats) {
 
 /**
  * Log out the current user
+ * Uses a server-side endpoint to properly clear cookies
  */
 export async function signOut() {
-  // Call Supabase to clear session
-  await supabase.auth.signOut();
+  if (!browser) return;
   
-  // Clear stores after signOut completes
+  try {
+    // Call server-side logout endpoint which has proper cookie access
+    await fetch('/api/logout', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    });
+  } catch (err) {
+    // Continue with local cleanup even if server call fails
+  }
+  
+  // Also try client-side signOut (with timeout to prevent hanging)
+  try {
+    const timeoutPromise = new Promise((_, reject) => {
+      setTimeout(() => reject(new Error('Timeout')), 2000);
+    });
+    await Promise.race([
+      supabase.auth.signOut({ scope: 'local' }),
+      timeoutPromise
+    ]);
+  } catch (err) {
+    // Continue with local cleanup
+  }
+  
+  // Clear stores
   authUser.set(null);
   userProfile.set(null);
   syncStatus.set({ synced: false, syncing: false, lastSyncError: null });
+  
+  // Clear localStorage
+  const keysToRemove = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && (key.startsWith('sb-') || key.includes('supabase'))) {
+      keysToRemove.push(key);
+    }
+  }
+  keysToRemove.forEach(key => localStorage.removeItem(key));
 }
 
 /**
