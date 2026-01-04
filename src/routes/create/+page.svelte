@@ -127,6 +127,28 @@
 
   // Copy link state
   let copied = false;
+  let playlistError = "";
+
+  function validatePlaylist() {
+    if (!playlist) {
+      playlistError = "";
+      return;
+    }
+
+    // Check if it's a valid URL first
+    try {
+      new URL(playlist);
+    } catch {
+      playlistError = "Please enter a valid URL";
+      return;
+    }
+
+    if (!playlist.includes("open.spotify.com")) {
+      playlistError = "Only Spotify links are allowed";
+    } else {
+      playlistError = "";
+    }
+  }
 
   async function copyLink() {
     if (!puzzleUrl) return;
@@ -251,7 +273,7 @@
             type="text"
             id="title"
             name="title"
-            placeholder="e.g. My Favorite Things"
+            placeholder="My Favorite Things..."
             bind:value={title}
           />
         </div>
@@ -313,7 +335,15 @@
               name="playlist"
               placeholder="https://open.spotify.com/..."
               bind:value={playlist}
+              on:input={() => {
+                validatePlaylist();
+                saveFormToStorage();
+              }}
+              class:input-error={playlistError}
             />
+            {#if playlistError}
+              <div class="field-error">{playlistError}</div>
+            {/if}
           </div>
 
           <div class="form-group">
@@ -362,7 +392,7 @@
 
         <div class="actions">
           {#if isAuthenticated}
-            <button type="submit" disabled={submitting}>
+            <button type="submit" disabled={submitting || !!playlistError}>
               {submitting ? "Creating..." : "Create Puzzle"}
             </button>
           {:else}
@@ -459,6 +489,17 @@
     font-size: 14px;
     box-sizing: border-box;
     transition: border-color 0.2s;
+  }
+
+  input.input-error {
+    border-color: #ff4444 !important;
+  }
+
+  .field-error {
+    color: #ff4444;
+    font-size: 13px;
+    margin-top: 6px;
+    text-align: left;
   }
 
   input[type="text"]:focus,
