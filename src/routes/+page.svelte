@@ -28,6 +28,7 @@
     completedDays,
     todaysProgressDate,
   } from "./store.js";
+  import { ensureValidSession } from "$lib/stores/statsStore";
 
   const PUB_ID = 1025391;
   const WEBSITE_ID = 75241;
@@ -379,7 +380,7 @@
     }
   }
 
-  function handleStats(guessCount, win) {
+  async function handleStats(guessCount, win) {
     $played = $played + 1;
 
     // Record this date as completed regardless of win/loss
@@ -404,22 +405,33 @@
 
     // Sync to cloud if user is authenticated
     if ($page.data.user) {
-      fetch("/api/stats/record", {
-        method: "POST",
-        body: JSON.stringify({
-          puzzleDate: todaysDate,
-          win: win,
-          guessesCount: guessCount,
-          mistakeCount: $mistakeCount,
-          guessHistory: $guessHistory, // Send the game details
-          // Send the NEW updated aggregate values from your stores
-          newPlayed: $played,
-          newCurrentStreak: $currentStreak,
-          newMaxStreak: $maxStreak,
-          newSolveList: $solveList,
-          newCompletedDays: $completedDays,
-        }),
-      });
+      // Check if session is valid/refreshable before request
+      const { valid } = await ensureValidSession();
+
+      if (valid) {
+        try {
+          await fetch("/api/stats/record", {
+            method: "POST",
+            body: JSON.stringify({
+              puzzleDate: todaysDate,
+              win: win,
+              guessesCount: guessCount,
+              mistakeCount: $mistakeCount,
+              guessHistory: $guessHistory, // Send the game details
+              // Send the NEW updated aggregate values from your stores
+              newPlayed: $played,
+              newCurrentStreak: $currentStreak,
+              newMaxStreak: $maxStreak,
+              newSolveList: $solveList,
+              newCompletedDays: $completedDays,
+            }),
+          });
+        } catch (err) {
+          console.error("Failed to sync stats:", err);
+        }
+      } else {
+        console.warn("Session expired. Stats saved locally but not synced.");
+      }
     }
   }
 
