@@ -7,6 +7,7 @@
   import { onMount } from "svelte";
   import { browser } from "$app/environment";
   import { goto } from "$app/navigation";
+  import { page } from "$app/stores";
   import ClearedCategory from "./ClearedCategory.svelte";
   import HelpOverlay from "./HelpOverlay.svelte";
   import Navbar from "./Navbar.svelte";
@@ -27,7 +28,6 @@
     completedDays,
     todaysProgressDate,
   } from "./store.js";
-  import { recordGameCompletion } from "$lib/stores/statsStore.js";
 
   const PUB_ID = 1025391;
   const WEBSITE_ID = 75241;
@@ -373,29 +373,23 @@
     }
 
     // Sync to cloud if user is authenticated
-    const gameData = {
-      puzzleDate: isArchiveMode ? displayDate : todaysDate,
-      result: win ? "WIN" : "LOSS",
-      guessesCount: guessCount,
-      timeTakenSeconds: null, // Could add timer tracking in future
-    };
-
-    const updatedStats = {
-      played: $played,
-      currentStreak: $currentStreak,
-      maxStreak: $maxStreak,
-      solveList: $solveList,
-      completedDays: $completedDays,
-    };
-
-    // Only update aggregate stats if it's the main game (not archive)
-    // But record history for ALL games
-    if (isArchiveMode) {
-      // For archive mode, we don't update the aggregate stats stores
-      // but we still want to record the game history
-      recordGameCompletion(gameData, null);
-    } else {
-      recordGameCompletion(gameData, updatedStats);
+    if ($page.data.user) {
+      fetch("/api/stats/record", {
+        method: "POST",
+        body: JSON.stringify({
+          puzzleDate: todaysDate,
+          win: win,
+          guessesCount: guessCount,
+          mistakeCount: $mistakeCount,
+          guessHistory: $guessHistory, // Send the game details
+          // Send the NEW updated aggregate values from your stores
+          newPlayed: $played,
+          newCurrentStreak: $currentStreak,
+          newMaxStreak: $maxStreak,
+          newSolveList: $solveList,
+          newCompletedDays: $completedDays,
+        }),
+      });
     }
   }
 
