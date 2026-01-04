@@ -10,6 +10,17 @@
     const type = urlParams.get("type") || "email";
     const next = urlParams.get("next") || "/";
 
+    const checkSessionAndRedirect = async () => {
+      const {
+        data: { user: existingUser },
+      } = await supabase.auth.getUser();
+      if (existingUser) {
+        goto(next);
+        return true;
+      }
+      return false;
+    };
+
     // 1. Handle Magic Link (token_hash) - non-PKCE flow
     if (tokenHash) {
       const { data, error } = await supabase.auth.verifyOtp({
@@ -18,17 +29,7 @@
       });
 
       if (error) {
-        console.error("Verify OTP error:", error.message);
-
-        // Check if session exists despite the error (token may have been consumed already)
-        const {
-          data: { user: existingUser },
-        } = await supabase.auth.getUser();
-        if (existingUser) {
-          goto(next);
-          return;
-        }
-
+        if (await checkSessionAndRedirect()) return;
         goto("/auth/auth-code-error");
       } else {
         goto(next);
@@ -42,17 +43,7 @@
       const { data, error } = await supabase.auth.exchangeCodeForSession(code);
 
       if (error) {
-        console.error("PKCE exchange error:", error.message);
-
-        // Check if session exists anyway
-        const {
-          data: { user: existingUser },
-        } = await supabase.auth.getUser();
-        if (existingUser) {
-          goto(next);
-          return;
-        }
-
+        if (await checkSessionAndRedirect()) return;
         goto("/auth/auth-code-error");
         return;
       }

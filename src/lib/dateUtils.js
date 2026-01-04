@@ -1,13 +1,19 @@
 /**
- * Database service for Harmonies stats sync
- * NOTE: DB sync functionality has been removed. This file only contains date utility functions.
+ * Date utility functions
  */
 import moment from 'moment-timezone';
 
 const TIMEZONE = 'America/New_York';
 
 /**
- * Get current date in EST as YYYY-MM-DD
+ * Get current date in EST as MM/DD/YYYY (Client/JSON format)
+ */
+export function getTodayUS() {
+  return moment().tz(TIMEZONE).format('MM/DD/YYYY');
+}
+
+/**
+ * Get current date in EST as YYYY-MM-DD (DB format)
  */
 export function getTodayEST() {
   return moment().tz(TIMEZONE).format('YYYY-MM-DD');

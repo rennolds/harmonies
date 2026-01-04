@@ -1,5 +1,5 @@
 import { json } from '@sveltejs/kit';
-import moment from 'moment-timezone';
+import { getTodayUS } from '$lib/dateUtils';
 
 export async function GET({ locals }) {
   const { session, user } = await locals.safeGetSession();
@@ -17,7 +17,7 @@ export async function GET({ locals }) {
   }
 
   // 2. Check if played today
-  const today = moment().tz("America/New_York").format("MM/DD/YYYY");
+  const today = getTodayUS();
   
   const { data: todaysGame } = await locals.supabase
     .from('harmonies_game_history')

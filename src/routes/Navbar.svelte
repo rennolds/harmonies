@@ -49,11 +49,13 @@
   // User menu functions
   function handleUserClick() {
     if ($isAuthenticated) {
-      // Navigate to profile page
-      window.location.href = "/profile";
+      // Toggle user menu instead of navigating
+      showUserMenu = !showUserMenu;
+      showLoginMenu = false;
     } else {
       // Show login dropdown
       showLoginMenu = !showLoginMenu;
+      showUserMenu = false;
     }
   }
 
@@ -281,18 +283,41 @@
               </a>
             </div>
           {/if}
+
+          <!-- User dropdown menu - for authenticated users -->
+          {#if showUserMenu && $isAuthenticated}
+            <div class="user-dropdown">
+              <div class="user-name">
+                {$userProfile?.username || $authUser?.email || "User"}
+              </div>
+              <a href="/profile" class="dropdown-item" on:click={closeUserMenu}>
+                Profile
+              </a>
+              <button class="dropdown-item" on:click={handleLogOut}>
+                Log Out
+              </button>
+            </div>
+          {/if}
         </div>
       </div>
     </div>
   </nav>
 </div>
 
-<!-- Click outside to close login menu -->
-{#if showLoginMenu}
+<!-- Click outside to close menus -->
+{#if showLoginMenu || showUserMenu}
   <div
     class="user-menu-backdrop"
-    on:click={closeLoginMenu}
-    on:keydown={(e) => e.key === "Escape" && closeLoginMenu()}
+    on:click={() => {
+      closeLoginMenu();
+      closeUserMenu();
+    }}
+    on:keydown={(e) => {
+      if (e.key === "Escape") {
+        closeLoginMenu();
+        closeUserMenu();
+      }
+    }}
     role="button"
     tabindex="-1"
   ></div>
@@ -515,19 +540,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
 
-  .user-dropdown {
-    position: fixed;
-    top: 105px;
-    right: 15px;
-    background: linear-gradient(145deg, #2a1e2d, #1a141d);
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    min-width: 180px;
-    z-index: 10005;
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
+  .user-dropdown,
   .login-dropdown {
     position: absolute;
     top: calc(100% + 8px);
@@ -539,12 +552,6 @@
     z-index: 10005;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  @media (min-width: 768px) {
-    .user-dropdown {
-      top: 55px;
-    }
   }
 
   .user-name {

@@ -1,6 +1,6 @@
 import { writable } from "svelte/store";
 import { browser } from "$app/environment";
-import moment from "moment-timezone";
+import { getTodayUS } from "$lib/dateUtils";
 
 // Add this new store to track whether we're in archive mode
 // export const isArchive = writable(false);
@@ -9,13 +9,9 @@ export const visited = writable(browser && localStorage.getItem("visited") || fa
 visited.subscribe((val) => {
     if (browser) return (localStorage.visited = val);
 });
-
-const getTodayFormatted = () => {
-    return moment().tz("America/New_York").format("MM/DD/YYYY");
-  };
   
   // Use formatted string date instead of Date object
-  export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || getTodayFormatted())
+  export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || getTodayUS())
   currentGameDate.subscribe((val) => {
       if (browser) return (localStorage.currentGameDate = val);
 });

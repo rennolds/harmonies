@@ -215,6 +215,14 @@
     }, 3000);
   }
 
+  // Helper function to get a unique identifier for an element
+  function getElementKey(element) {
+    if (typeof element === "object" && element.type === "image") {
+      return `image:${element.url}`; // Use URL as unique identifier for images
+    }
+    return element; // For non-image elements, use the element itself
+  }
+
   // Initialize local variables for archive mode
   let localMistakeCount = 0;
   let localClearedCategories = [];
@@ -229,12 +237,68 @@
     return Math.min(5 + mistakes * 20, 80);
   }
 
-  let playbackWidth = isArchiveMode
+  // Reactive width calculation
+  $: playbackWidth = isArchiveMode
     ? calculatePlaybackWidth(localMistakeCount)
     : calculatePlaybackWidth($mistakeCount);
 
   let helpOverlay = false;
   const today = getEasternTimeDate();
+
+  // Reactive game state checks
+  $: isTodayCompleted =
+    !isArchiveMode && !isCustomPuzzle && $completedDays.includes(todaysDate);
+
+  // Reactive clearedCategories reconstruction from guessHistory (for mid-game sync)
+  $: if (
+    browser &&
+    !isArchiveMode &&
+    !isCustomPuzzle &&
+    $guessHistory.length > 0
+  ) {
+    $guessHistory.forEach((guess) => {
+      if (guess.length === 4) {
+        // Check if all elements in this guess have the same color (meaning it was a cleared category)
+        const firstColor = guess[0].color;
+        if (guess.every((g) => g.color === firstColor)) {
+          const category = categories.find((c) => c.color === firstColor);
+          if (
+            category &&
+            !$clearedCategories.some((cc) => cc.color === firstColor)
+          ) {
+            $clearedCategories = [...$clearedCategories, category];
+          }
+        }
+      }
+    });
+  }
+
+  // Reactive remainingElements filtering based on clearedCategories
+  $: if (
+    browser &&
+    (isArchiveMode || isCustomPuzzle
+      ? localClearedCategories.length > 0
+      : $clearedCategories.length > 0)
+  ) {
+    const allClearedElements = (
+      isArchiveMode || isCustomPuzzle
+        ? localClearedCategories
+        : $clearedCategories
+    )
+      .map((category) => category.elements)
+      .flat();
+
+    const clearedElementsMap = new Map();
+    allClearedElements.forEach((element) => {
+      const key = getElementKey(element);
+      clearedElementsMap.set(key, true);
+    });
+
+    remainingElements = remainingElements.filter(
+      (remainingElement) =>
+        !clearedElementsMap.has(getElementKey(remainingElement))
+    );
+  }
 
   // Game state initialization
   // Custom puzzles should be treated like archive mode (local state, no persistence)
@@ -259,9 +323,7 @@
   } else {
     // We're playing today's puzzle
 
-    // 1. Check if today is completed (from DB sync or local)
-    const isTodayCompleted = $completedDays.includes(todaysDate);
-
+    // 1. Initial check (non-reactive for first load)
     if (isTodayCompleted) {
       // Game is over! Restore state to show results.
       gameoverStore.set({
@@ -346,14 +408,6 @@
           .map((category) => category.elements)
           .flat();
 
-        // Helper function to get a unique identifier for an element
-        function getElementKey(element) {
-          if (typeof element === "object" && element.type === "image") {
-            return `image:${element.url}`; // Use URL as unique identifier for images
-          }
-          return element; // For non-image elements, use the element itself
-        }
-
         // Create a map of cleared elements for faster lookup
         const clearedElementsMap = new Map();
         allClearedElements.forEach((element) => {
@@ -365,6 +419,39 @@
           (remainingElement) =>
             !clearedElementsMap.has(getElementKey(remainingElement))
         );
+      }
+    }
+  }
+
+  // Reactive state restoration (for when stats sync from cloud after mount)
+  $: if (browser && !isArchiveMode && !isCustomPuzzle && isTodayCompleted) {
+    if (!$gameoverStore.isOver) {
+      // Game is completed in DB but not yet reflected in UI state
+      gameoverStore.set({
+        isOver: true,
+        headerMessage:
+          $solveList[$solveList.length - 1] === 0
+            ? "Better luck tmr..."
+            : "Incredible!",
+      });
+
+      // Restore clearedCategories for the UI reveal
+      if (
+        $clearedCategories.length < 4 &&
+        $solveList[$solveList.length - 1] > 0
+      ) {
+        const correctCategories = gameBoards[todaysDate]?.categories || [];
+        if (correctCategories.length === 4) {
+          $clearedCategories = correctCategories;
+          remainingElements = [];
+        }
+      } else if ($solveList[$solveList.length - 1] === 0) {
+        // If lost, show the board reveal too
+        const correctCategories = gameBoards[todaysDate]?.categories || [];
+        if (correctCategories.length === 4) {
+          $clearedCategories = correctCategories;
+          remainingElements = [];
+        }
       }
     }
   }
@@ -460,14 +547,6 @@
     let count = 0;
     const map = new Map();
 
-    // Helper function to get a unique identifier for an element
-    function getElementKey(element) {
-      if (typeof element === "object" && element.type === "image") {
-        return `image:${element.url}`; // Use URL as unique identifier for images
-      }
-      return element; // For non-image elements, use the element itself
-    }
-
     // Count occurrences of items in list1
     for (const item of list1) {
       const key = getElementKey(item);
@@ -554,14 +633,6 @@
               const existingElements = existingCategory.elements;
               const newElements = categories[i].elements;
 
-              // Helper function to get a unique identifier for an element
-              function getElementKey(element) {
-                if (typeof element === "object" && element.type === "image") {
-                  return `image:${element.url}`; // Use URL as unique identifier for images
-                }
-                return element; // For non-image elements, use the element itself
-              }
-
               // Create maps for faster lookup
               const existingMap = new Map();
               existingElements.forEach((element) => {
@@ -604,14 +675,6 @@
               // Compare elements using the same logic as countSimilarItems
               const existingElements = existingCategory.elements;
               const newElements = categories[i].elements;
-
-              // Helper function to get a unique identifier for an element
-              function getElementKey(element) {
-                if (typeof element === "object" && element.type === "image") {
-                  return `image:${element.url}`; // Use URL as unique identifier for images
-                }
-                return element; // For non-image elements, use the element itself
-              }
 
               // Create maps for faster lookup
               const existingMap = new Map();

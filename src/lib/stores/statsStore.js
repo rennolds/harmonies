@@ -1,6 +1,11 @@
 import { writable, derived, get } from 'svelte/store';
 import { browser } from '$app/environment';
 import { supabase } from '$lib/supabaseClient';
+import { 
+  played, currentStreak, maxStreak, solveList, completedDays,
+  guessHistory, mistakeCount, todaysProgressDate, currentGameDate,
+  clearedCategories
+} from '../../routes/store.js';
 
 /**
  * Auth stores
@@ -68,6 +73,13 @@ export async function applyHydratedAuth({ user, profile }) {
   authLoading.set(false);
 }
 
+// Game stats keys in localStorage
+export const GAME_KEYS = [
+  'played', 'currentStreak', 'maxStreak', 'solveList', 
+  'completedDays', 'guessHistory', 'mistakeCount', 
+  'clearedCategories', 'todaysProgressDate', 'currentGameDate'
+];
+
 /**
  * Log out the current user
  * Uses a server-side endpoint to properly clear cookies
@@ -103,6 +115,20 @@ export async function signOut() {
   userProfile.set(null);
   syncStatus.set({ synced: false, syncing: false, lastSyncError: null });
   
+  // Clear game stats stores
+  played.set(0);
+  currentStreak.set(0);
+  maxStreak.set(0);
+  solveList.set([]);
+  completedDays.set([]);
+  guessHistory.set([]);
+  mistakeCount.set(0);
+  clearedCategories.set([]);
+  todaysProgressDate.set("");
+  // Reset currentGameDate to today
+  const today = new Date().toLocaleDateString("en-US", { timeZone: "America/New_York" });
+  currentGameDate.set(today);
+  
   // Clear Supabase-related localStorage items
   if (browser) {
     const keysToRemove = [];
@@ -113,6 +139,9 @@ export async function signOut() {
       }
     }
     keysToRemove.forEach(key => localStorage.removeItem(key));
+    
+    // Also explicitly clear game stat keys from localStorage
+    GAME_KEYS.forEach(key => localStorage.removeItem(key));
   }
 }
 
