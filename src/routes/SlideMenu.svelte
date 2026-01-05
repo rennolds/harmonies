@@ -107,7 +107,8 @@
     .slide-menu {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
+      padding-top: 80px;
     }
   }
 
@@ -230,7 +231,7 @@
     text-align: left;
     color: #fff;
     padding: 10px 0;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
   /* Style for company name */
