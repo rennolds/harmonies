@@ -30,7 +30,11 @@ export async function POST({ request }) {
       ]
     };
 
-    await axios.post(DISCORD_WEBHOOK_URL, discordMessage);
+    if (DISCORD_WEBHOOK_URL) {
+      await axios.post(DISCORD_WEBHOOK_URL, discordMessage);
+    } else {
+      console.warn('DISCORD_WEBHOOK_URL is not defined. Error report not sent to Discord:', errorData.message);
+    }
 
     return json({ status: 201 });
   } catch (error) {

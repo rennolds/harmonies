@@ -1,5 +1,6 @@
 import { writable } from "svelte/store";
 import { browser } from "$app/environment";
+import { getTodayUS } from "$lib/dateUtils";
 
 // Add this new store to track whether we're in archive mode
 // export const isArchive = writable(false);
@@ -8,30 +9,37 @@ export const visited = writable(browser && localStorage.getItem("visited") || fa
 visited.subscribe((val) => {
     if (browser) return (localStorage.visited = val);
 });
-
-const getTodayFormatted = () => {
-    const today = new Date();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    const year = today.getFullYear();
-    return `${month}/${day}/${year}`;
-  };
   
   // Use formatted string date instead of Date object
-  export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || getTodayFormatted())
+  export const currentGameDate = writable(browser && localStorage.getItem("currentGameDate") || getTodayUS())
   currentGameDate.subscribe((val) => {
       if (browser) return (localStorage.currentGameDate = val);
 });
 
+const safeJsonParse = (value, fallback) => {
+    if (value == null) return fallback;
+    if (typeof value !== "string") return fallback;
+    const trimmed = value.trim();
+    if (!trimmed) return fallback;
+    try {
+        return JSON.parse(trimmed);
+    } catch {
+        return fallback;
+    }
+};
 
-let parsed = "";
+
+let parsed = [];
 const itemNameGuess = "guessHistory"
 if (browser) {
     const retrieved = localStorage.getItem(itemNameGuess)
     if (retrieved) {
-        parsed = JSON.parse(retrieved);
-        if (typeof(parsed) == "string") {
-            parsed = JSON.parse(parsed);
+        // Support legacy "double-encoded" values while preventing JSON.parse("") crashes
+        const first = safeJsonParse(retrieved, []);
+        if (typeof first === "string") {
+            parsed = safeJsonParse(first, []);
+        } else {
+            parsed = Array.isArray(first) ? first : [];
         }
     }
 }
@@ -42,12 +50,13 @@ guessHistory.subscribe((value) => {
 });
 
 
-parsed = "";
+parsed = [];
 const itemNameCleared = "clearedCategories"
 if (browser) {
     const retrieved = localStorage.getItem(itemNameCleared)
     if (retrieved) {
-        parsed = JSON.parse(retrieved);
+        const parsedValue = safeJsonParse(retrieved, []);
+        parsed = Array.isArray(parsedValue) ? parsedValue : [];
     }
 }
 export const clearedCategories = writable(browser && parsed === null ? [] : parsed)
@@ -118,7 +127,8 @@ const solveListName = "solveList";
 if (browser) {
     const retrieved = localStorage.getItem(solveListName);
     if (retrieved) {
-        solveListParsed = JSON.parse(retrieved);
+        const parsedValue = safeJsonParse(retrieved, []);
+        solveListParsed = Array.isArray(parsedValue) ? parsedValue : [];
     }
 }
 export const solveList = writable(browser && solveListParsed === null ? [] : solveListParsed);
@@ -134,7 +144,8 @@ const completedDaysName = "completedDays";
 if (browser) {
     const retrieved = localStorage.getItem(completedDaysName);
     if (retrieved) {
-        completedDaysParsed = JSON.parse(retrieved);
+        const parsedValue = safeJsonParse(retrieved, []);
+        completedDaysParsed = Array.isArray(parsedValue) ? parsedValue : [];
     }
 }
 export const completedDays = writable(browser && completedDaysParsed === null ? [] : completedDaysParsed);
