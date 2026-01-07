@@ -3187,7 +3187,7 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Bands Featuring a Husband & Wife",
+        "name": "Bands That Featured a Husband & Wife",
         "elements": ["The White Stripes", "Sonny & Cher", "Ike & Tina Turner", "Arcade Fire"]
       },
       {
@@ -26405,6 +26405,44 @@
     "twitter": "",
     "spotify": "",
     "letterboxd": ""
+  },
+  "01/07/2026": {
+    "playlist": "https://open.spotify.com/playlist/54mlK6KHSBJ5qohLJJX4yW?si=a5fdbc2d81b74ef0",
+    "gameoverGif": "https://gifdb.com/images/high/dakota-johnson-nepotism-truce-x6f74ll0i45etd94.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Musical Instrument Families",
+        "elements": ["Brass", "Woodwind", "Percussion", "Strings"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Singers With Famous Parents",
+        "elements": ["Gracie Abrams", "Lily Allen", "Miley Cyrus", "Willow Smith"]
+
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands Featuring a Husband & Wife",
+        "elements": ["The White Stripes", "Sonny & Cher", "Ike & Tina Turner", "ABBA"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Rappers Who Are Cousins of Other Rappers",
+        "elements": ["Young Nudy", "Baby Keem", "Nate Dogg", "RZA"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "[nepotism](https://open.spotify.com/track/5IKLwqBQG6KU6MP2zP80Nu?si=de6Wqf4iSBeGkjFVdUa-PA) (We Are Family sample)",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },
   "01/08/2026": {
     "playlist": "",
