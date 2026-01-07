@@ -24,7 +24,7 @@
         <li>
           <a href="https://twitter.com/Spotle_io" target="_blank">Follow us</a>
         </li>
-        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="https://spotle.io/privacy" target="_blank">Privacy</a></li>
       </ul>
     </nav>
 

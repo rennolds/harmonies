@@ -259,7 +259,9 @@
       </div>
 
       <!-- Tagline -->
-      <p class="tagline">Join the community and "play" your music, everyday</p>
+      {#if mode === "create"}
+        <p class="tagline">Join the community and "play" your music, everyday</p>
+      {/if}
 
       <!-- Notifications -->
       {#if sent}
@@ -346,7 +348,7 @@
                 />
                 <span class="checkbox-text">
                   I am at least 13 years old and I agree to the
-                  <a href="/privacy" target="_blank" class="terms-link"
+                  <a href="https://spotle.io/privacy" target="_blank" class="terms-link"
                     >terms of service & privacy policy</a
                   >
                 </span>
@@ -377,10 +379,12 @@
                 : "Send Login Link"}
           </button>
 
-          <p class="branding-text">
-            Your Flatwhite Games account will work across Spotle, Harmonies,
-            Crosstune and all the new fun things coming soon™
-          </p>
+          {#if mode === "create"}
+            <p class="branding-text">
+              Your Flatwhite Games account will work across Spotle, Harmonies,
+              Crosstune and all the new fun things coming soon™
+            </p>
+          {/if}
         </form>
       {:else}
         <div class="error-message">
@@ -699,7 +703,7 @@
   /* Mobile adjustments - account for fixed ad (50px) + navbar (50px) */
   @media (max-width: 767px) {
     main {
-      padding-top: 110px;
+      padding-top: 70px;
     }
   }
 
