@@ -26502,7 +26502,7 @@
     "spotify": ""
   },
   "01/09/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/51QsjtynUjuaVnGav0lxI7?si=cedb3e9aea1d4231",
     "gameoverGif": "https://media.tenor.com/syQVxA7md_0AAAAM/blink182-simpsons.gif",
     "categories": [
       {
@@ -26537,15 +26537,15 @@
     "spotify": ""
   },
   "01/10/2026": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/6tiRtppyu5fqwM8vx1NrJe?si=8e72ee9eb29a4be8",
+    "gameoverGif": "https://media2.giphy.com/media/RlNAr0o5jXLFk2HVRE/giphy-downsized.gif",
     "categories": [
       {
         "color": "#CBff70",
         "name": "Solo career after a boyband",
         "elements": [
           "Robbie Williams",
-          "Ronan Keating",
+          "Nick Jonas",
           "Harry Styles",
           "Justin Timberlake"
         ]
