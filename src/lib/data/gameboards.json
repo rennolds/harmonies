@@ -26595,11 +26595,11 @@
   },
   "01/11/2026": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/zlubD5qfD14AAAAM/hereformsminaj-adele.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "SONGS TITLED DRINKS",
+        "name": "Drink Song Titles",
         "elements": [
           "Espresso",
           "Diet Pepsi",
@@ -26652,7 +26652,7 @@
   },
   "01/12/2026": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/L7zOG6gZ5YgAAAAM/spicegirls-spice.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -26693,8 +26693,8 @@
     "spotify": ""
   },
   "01/13/2026": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/4UU7Rcnf0dsnL8YgTFZGaj?si=7f80df3eed52495a",
+    "gameoverGif": "https://media.tenor.com/VO6yc7Zdca4AAAAM/dance-chicago-dance-crash.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -26728,12 +26728,12 @@
       },
       {
         "color": "#FFBC21",
-        "name": "Album Titles With Non-Apostrophe Punctuation",
+        "name": "Album Titles With a Year",
         "elements": [
-          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/KendrickGKMC.jpg/250px-KendrickGKMC.jpg", "alt": "good kid, m.A.A.d city" },
-          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Thank_U%2C_Next_album_cover.png/250px-Thank_U%2C_Next_album_cover.png", "alt": "thank u, next" },
-          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Justin_Timberlake_-_FutureSex_LoveSounds.png/250px-Justin_Timberlake_-_FutureSex_LoveSounds.png", "alt": "FutureSex/LoveSounds" },
-          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png/250px-Childish_Gambino_-_Awaken%2C_My_Love%21.png", "alt": "Awaken, My Love!" }
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Taylor_Swift_-_1989.png/250px-Taylor_Swift_-_1989.png", "alt": "1989" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Prince_-1999.jpg/250px-Prince_-1999.jpg", "alt": "1999" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DrDre-2001.jpg/250px-DrDre-2001.jpg", "alt": "2001" },
+          { "type": "image", "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/2014ForestHillsDrive.jpg/250px-2014ForestHillsDrive.jpg", "alt": "2014 Forest Hills Drive" }
         ]
       }
     ],
@@ -26799,7 +26799,7 @@
     "shoutout-name": "@joseignacio.rosales",
     "shoutout-socials": true,
     "special-message": true,
-    "message-content": "Just can't wait to be on the road again",
+    "message-content": "can't wait to be on the road again",
     "instagram": "https://www.instagram.com/joseignacio.rosales",
     "tiktok": "",
     "youtube": "",
