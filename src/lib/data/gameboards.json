@@ -26750,6 +26750,48 @@
     "spotify": "",
     "letterboxd": ""
   },
+  "01/14/2026": {
+    "playlist": "https://open.spotify.com/playlist/75rbQjfyCKmqksCy4LxJgR?si=41c57515266d470a",
+    "gameoverGif": "https://media.tenor.com/X8Y0OidrLvAAAAAM/key-and-peele-insubordinate.gif",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "Artists Performing Under Their Real Name",
+        "elements": ["Dua Lipa", "Kanye West", "Johnny Cash", "Taylor Swift"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Full Names of Mononymous Artists",
+        "elements": [
+          "Prince Rogers Nelson",
+          "Beyoncé Knowles",
+          "Andrew Hozier-Byrne",
+          "Aaliyah Haughton"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Rappers' Real Names",
+        "elements": ["Shawn Carter", "Jermaine Cole", "Marshall Mathers III", "Aubrey Graham"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artist Names That Sound Like Other Famous People",
+        "elements": ["Chet Faker", "Buckcherry", "Ritt Momney", "Bob Vylan"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "[key and peele - substitute teacher](https://www.youtube.com/watch?si=ak1TcPsZpwUz50Zb&v=Dd7FixvoKBw&feature=youtu.be)",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },  
   "01/15/2026": {
     "playlist": "",
     "gameoverGif": "",
