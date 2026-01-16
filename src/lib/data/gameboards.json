@@ -26849,9 +26849,44 @@
     "twitter": "",
     "spotify": ""
   },
-  "1/17/2026": {
+  "01/16/2026": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media2.giphy.com/media/EZGmC8rAY7z6U/200w.gif?cid=6c09b952frwdg3cerbcfs2ino1g1u5mcakfgr2zrcqyho7kg&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "My Chemical Romance Songs",
+        "elements": ["Welcome to the Black Parade", "I'm Not Okay (I Promise)", "Teenagers", "Famous Last Words"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from Gotye's \"Somebody That I Used To Know\"",
+        "elements": ["Didn't have to cut me off", "Like a stranger", "That feels so rough", "Change your number"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Justin Bieber Songs",
+        "elements": ["My mama don't like you", "missing more than just your body", "You know you love me", "keep an eye out for Selener"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Murder",
+        "elements": ["Murder on My Mind", "Kill Bill", "no body, no crime", "Jenny Was a Friend of Mine"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "1/17/2026": {
+    "playlist": "https://open.spotify.com/playlist/6ExR2A78PgNgOe3rFeLCvN?si=0380582bc7ad48b0",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyanprenVlNmU4ZGJyeDdtbTUwM2xnNjNsaGZibXY3bWR6d3VobXdyayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3IEgZaMApMxxRrKobS/giphy.gif",
     "categories": [
       {
         "color": "#CBff70",
@@ -26860,7 +26895,7 @@
       },
       {
         "color": "#FAA3FF",
-        "name": "Songs with abbreviations",
+        "name": "Songs That Are Abbreviated",
         "elements": ["FML", "XO", "IDGAF", "NDA"]
       },
       {
@@ -26871,7 +26906,44 @@
       {
         "color": "#FFBC21",
         "name": "Biggest songs of 2025",
-        "elements": ["Ordinary", "Die with a Smile", "APT", "Birds of a Feather"]
+        "elements": ["Ordinary", "Die with a Smile", "APT.", "Birds of a Feather"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/19/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybTNod25vb3EydDgwNHh0MXJsdXhzb3FzaDFjMnlpNDJzMmR5Y3p6ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zVjZpYhBUKRYdRDdKM/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Coldplay Songs",
+        "elements": ["Yellow", "Paradise", "Clocks", "Sparks"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Subgenres of Jazz",
+        "elements": ["Swing", "Blues", "Bepop", "Funk"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Michael Jackson Albums",
+        "elements": ["Bad", "Thriller", "Invincible", "Dangerous"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Descriptors in Megan Thee Stallion's \"Savage\"",
+        "elements": ["Classy", "Ratchet", "Nasty", "Moody"]
       }
     ],
     "shoutout": false,
