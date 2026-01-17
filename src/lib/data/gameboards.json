@@ -1017,7 +1017,7 @@
       {
         "color": "#CBff70",
         "name": "Sabrina Carpenter Songs",
-        "elements": ["Nonsense", "because I liked a boy", "emails i can't send", "Espresso"]
+        "elements": ["Nonsense", "Tears", "Feather", "Espresso"]
       },
       {
         "color": "#FAA3FF",
@@ -26884,7 +26884,7 @@
     "twitter": "",
     "spotify": ""
   },
-  "1/17/2026": {
+  "01/17/2026": {
     "playlist": "https://open.spotify.com/playlist/6ExR2A78PgNgOe3rFeLCvN?si=0380582bc7ad48b0",
     "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyanprenVlNmU4ZGJyeDdtbTUwM2xnNjNsaGZibXY3bWR6d3VobXdyayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3IEgZaMApMxxRrKobS/giphy.gif",
     "categories": [
@@ -26921,8 +26921,42 @@
     "twitter": "",
     "spotify": ""
   },
+  "01/18/2026": {
+    "playlist": "https://open.spotify.com/playlist/29R9XFyroR1TazdcshO7eR?si=b1b827817f8f4c78",
+    "gameoverGif": "https://media1.giphy.com/media/4pKDYAWeZ8fHa/200w.gif?cid=6c09b952k8ktdhq7sr4pl4wkgp9my3a4tq4c19wpdylmz163&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Sabrina Carpenter Songs",
+        "elements": ["Nonsense", "Tears", "Feather", "Espresso"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "T-Pain Songs & Features",
+        "elements": ["Low", "Bartender", "Good Life", "I’m Sprung"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Snoop Dogg & Dr. Dre Songs",
+        "elements": ["Still D.R.E.", "The Next Episode", "Nuthin' But A \"G\" Thang", "ETA"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Hip Hop Songs Named after Movie Characters",
+        "elements": ["Superman", "Jack Sparrow", "Sky Walker", "RoboCop"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
+  },
   "01/19/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/2bIRJZzzNI6MjfxBpHHkdl?si=c95d2757ca3a4712",
     "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybTNod25vb3EydDgwNHh0MXJsdXhzb3FzaDFjMnlpNDJzMmR5Y3p6ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zVjZpYhBUKRYdRDdKM/giphy.gif",
     "categories": [
       {
