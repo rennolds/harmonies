@@ -26991,5 +26991,126 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "01/20/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers With the American Flag",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27324c8b45ce8333c35a01c5de1",
+            "alt": "Stankonia"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27376fd3e8196fbf4a1ff08a845",
+            "alt": "Pink Tape"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2731572698fff8a1db257a53599",
+            "alt": "Cowboy Carter"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a7865e686c36a4adda6c9978",
+            "alt": "Born in the U.S.A."
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "From Boy Bands",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734e31e0d38b89b8fb239d4fbf",
+            "alt": "Take Me Home"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732160c02bc56f192df0f4986b",
+            "alt": "Millennium"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e02a6cb8fab778e1efc406a5909",
+            "alt": "*NSYNC"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27341aa6776dc15fbd71a2b4557",
+            "alt": "Youngblood"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Released in 2016",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_%28Official_Album_Cover%29.png",
+            "alt": "Lemonade"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/3/32/Rihanna_-_Anti.png",
+            "alt": "ANTI"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/id/a/af/Drake_-_Views_cover.jpg",
+            "alt": "Views"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/4/4d/The_life_of_pablo_alternate.jpg",
+            "alt": "The Life of Pablo"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Famous Concept Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ33MFksvfSo03r3ZK5r0Qm3xWN_1m2WjlNw&s",
+            "alt": "American Idiot"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnlv2jgjF0J_SGUht3ZaO_8n7uASmjts5cA&s",
+            "alt": "The Black Parade"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecWfMh1nWaiZGoMeu7OIAwnQfFsdmoFEZHw&s",
+            "alt": "To Pimp a Butterfly"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvspuGANBsUWISiLpzf5JRmxBPz76NO8HcIA&s",
+            "alt": "The Wall"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
