@@ -27163,5 +27163,40 @@
     "shoutout-socials": false,
     "special-message": true,
     "message-content": "welcome to derry"
+  },
+  "01/22/2026": {
+    "playlist": "https://open.spotify.com/playlist/0FJkbk87ldhiMTwJFQEjI4?si=54082ad15c1e4451",
+    "gameoverGif": "https://media.tenor.com/lk2pkzBdcVkAAAAM/yes-please-yup.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs from Maroon 5's \"Songs About Jane\"",
+        "elements": ["She Will Be Loved", "Sunday Morning", "This Love", "Harder To Breathe"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Bon Iver's \"Skinny Love\"",
+        "elements": ["To Be Patient", "To Be Kind", "Who Will Love You", "Who Will Fight"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs about Fridays",
+        "elements": ["Friday I'm in Love", "Last Friday Night (T.G.I.F.)", "Freaky Friday", "Friday"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Indie Pop Radio Hits",
+        "elements": ["Shut Up and Dance", "Sunday Best", "Heatwaves", "Pumped Up Kicks"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
