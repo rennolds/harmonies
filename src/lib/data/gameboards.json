@@ -27113,57 +27113,55 @@
     "twitter": "",
     "spotify": ""
   },
-  {
-    "01/21/2026": {
-      "playlist": "https://open.spotify.com/playlist/4lGOR1Cz1qelA78GmJwywt?si=0ffa2834e12d47a0",
-      "gameoverGif": "https://64.media.tumblr.com/edd1f837427476a00d7f7dc230b64eb7/d1b21549d89f4282-4b/s540x810/957a8b5b1db771d80fe381ec8e81d19aa81928c2.gif",
-      "categories": [
-        {
-          "color": "#CBff70",
-          "name": "2000's Rap Songs",
-          "elements": [
-            "Hate It Or Love It",
-            "Drop It Like It’s Hot",
-            "Run It",
-            "Give It To Me"
-          ]
-        },
-        {
-          "color": "#FAA3FF",
-          "name": "80's Classics",
-          "elements": [
-            "Is It A Crime?",
-            "Beat It",
-            "It’s Tricky",
-            "The Winner Takes It All"
-          ]
-        },
-        {
-          "color": "#78DAF9",
-          "name": "Lyrics to Cranberries Songs",
-          "elements": [
-            "Don’t let it burn, don’t let it fade",
-            "Do you have to let it linger?",
-            "It’s the same old theme since 1916",
-            "My dreams, it’s never quite as it seems"
-          ]
-        },
-        {
-          "color": "#FFBC21",
-          "name": "Things Charli XCX & Billie Eilish Suggest in \"Guess\"",
-          "elements": [
-            "Pull it to the side",
-            "Get all up in it",
-            "Send it to The Dare",
-            "Call me if you’re with it"
-          ]
-        }
-      ],
-      "shoutout": true,
-      "shoutout-name": "chris b-e",
-      "shoutout-socials": false,
-      "special-message": true,
-      "message-content": "welcome to derry"
-    }
-  }  
+  "01/21/2026": {
+    "playlist": "https://open.spotify.com/playlist/4lGOR1Cz1qelA78GmJwywt?si=0ffa2834e12d47a0",
+    "gameoverGif": "https://64.media.tumblr.com/edd1f837427476a00d7f7dc230b64eb7/d1b21549d89f4282-4b/s540x810/957a8b5b1db771d80fe381ec8e81d19aa81928c2.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2000's Rap Songs",
+        "elements": [
+          "Hate It Or Love It",
+          "Drop It Like It’s Hot",
+          "Run It",
+          "Give It To Me"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "80's Classics",
+        "elements": [
+          "Is It A Crime?",
+          "Beat It",
+          "It’s Tricky",
+          "The Winner Takes It All"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Cranberries Songs",
+        "elements": [
+          "Don’t let it burn, don’t let it fade",
+          "Do you have to let it linger?",
+          "It’s the same old theme since 1916",
+          "My dreams, it’s never quite as it seems"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Things Charli XCX & Billie Eilish Suggest in \"Guess\"",
+        "elements": [
+          "Pull it to the side",
+          "Get all up in it",
+          "Send it to The Dare",
+          "Call me if you’re with it"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "welcome to derry"
+  }
 }
