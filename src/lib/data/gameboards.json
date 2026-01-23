@@ -27198,5 +27198,39 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "01/23/2026": {
+    "playlist": "",
+    "gameoverGif": "https://25.media.tumblr.com/4b7a96354a1497e4a3e84df7d9c7c9b6/tumblr_muw9n0K7Zk1sk9772o1_500.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Hozier Songs",
+        "elements": ["Take Me To Church", "Someone New", "Too Sweet", "Work Song"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Australian Artists",
+        "elements": ["Sia", "Iggy Azalea", "Troye Sivan", "AC/DC"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Elemental Song Titles",
+        "elements": ["Gold Dust Woman",	"Helium",	"Silver Springs",	"Lithium"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Who Won a Grammy Before 18",
+        "elements": ["Luis Miguel", "Lorde", "Billie Eilish", "Daya"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
   }
 }
