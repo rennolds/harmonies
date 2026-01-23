@@ -27232,5 +27232,39 @@
     "youtube": "",
     "twitch": "",
     "twitter": ""
+  },
+  "01/24/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media0.giphy.com/media/l0HlGVD6AsbobSTe0/200w.gif?cid=6c09b952yunv1tnona74weill3ki2evazn52ds0i7l831p30&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "DJ Khaled Songs",
+        "elements": ["I'm The One", "Wild Thoughts", "POPSTAR", "All I Do Is Win"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Justin Bieber Features",
+        "elements": ["Cold Water", "10,000 Hours", "Eenie Meenie", "Let Me Love You"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs About Being Cheated On",
+        "elements": ["I'm Not The Only One", "Mr. Brightside", "It's Not Right But It's Okay", "Cry Me a River"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics to Nelly's \"Dilemma\"",
+        "elements": ["No matter what I do", "all I think about is you", "crazy over you", "I love you"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": ""
   }
 }
