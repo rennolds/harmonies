@@ -27324,6 +27324,41 @@
     "twitter": "",
     "spotify": ""
   },
+  "01/26/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/4gPD1ccxrVgAAAAM/rick-ashley-dance.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Whitney Houston Songs",
+        "elements": ["I Wanna Dance With Somebody", "How Will I Know", "I Will Always Love You", "Saving All My Love for You"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Disco Songs",
+        "elements": ["Let's Groove", "Rock With You", "Get Down On It", "Night Fever"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Rick Astley's \"Never Gonna Give You Up\"",
+        "elements": ["strangers to love", "know the rules", "how I'm feeling", "make you understand"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Songs",
+        "elements": ["Best Song Ever", "Love Song", "Piano Man", "Favorite Song"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "01/27/2026": {
     "playlist": "",
     "gameoverGif": "",
