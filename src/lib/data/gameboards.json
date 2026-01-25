@@ -9124,7 +9124,7 @@
       {
         "color": "#FFBC21",
         "name": "Songs About Shawty",
-        "elements": ["Fire Burning", "Replay", "Eenie Meenie", "Mistletoe"]
+        "elements": ["Fire Burning", "Replay", "Eenie Meenie", ""]
       }
     ],
     "shoutout": false,
@@ -27266,5 +27266,472 @@
     "youtube": "",
     "twitch": "",
     "twitter": ""
+  },
+  "01/25/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUycGk5bnB1b2Y0NHZ0Ym00NW9vaDBsOWcyd3dxY3k4bXZtdTBvNjZ5NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3orieTQZvJhK7UQZ4k/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Hits of the 60's",
+        "elements": [
+          "Respect",
+          "My Girl",
+          "California Dreamin'",
+          "House of the Rising Sun"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Hits of the 70's",
+        "elements": [
+          "Hotel California",
+          "Take Me Home, Country Roads",
+          "Imagine",
+          "Dream On"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Hits of the 80's",
+        "elements": [
+          "Take On Me",
+          "Sweet Child O' Mine",
+          "Livin' on a Prayer",
+          "Every Breath You Take"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Hits of the 90's",
+        "elements": [
+          "Wonderwall",
+          "No Scrubs",
+          "Creep",
+          "Baby One More Time"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "pair the song to the decade",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "01/27/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "name": "Lyrics to Lil Wayne’s \"6 Foot 7 Foot\"",
+        "color": "#CBff70",
+        "elements": [
+          "Six-foot, seven-foot, eight-foot bunch",
+          "Excuse my charisma, vodka with a spritzer",
+          "Young Money, Cash Money",
+          "Real Gs move in silence like lasagna"
+        ]
+      },
+      {
+        "name": "Songs with a 6 or 7",
+        "color": "#FAA3FF",
+        "elements": [
+          "Seven Nation Army",
+          "7 rings",
+          "Six Feet Under",
+          "679"
+        ]
+      },
+      {
+        "name": "Songs from 1967",
+        "color": "#78DAF9",
+        "elements": [
+          "All You Need Is Love",
+          "Can't Take My Eyes Off You",
+          "Respect",
+          "Ruby Tuesday"
+        ]
+      },
+      {
+        "name": "Lyrics to Skrilla’s \"Doot Doot (6 7)\"",
+        "color": "#FFBC21",
+        "elements": [
+          "Shades on, I’m Boul Wit Da Glasses",
+          "So many dead opps, so many ashes",
+          "The way that switch brr, I know he died",
+          "6-7"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "special-message": true,
+    "message-content": "happy board no. 670 (i’m sorry)",
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
+  },  
+  "01/29/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media3.giphy.com/media/xT0xesnEoAudufnufK/giphy.gif",
+    "categories": [
+      {
+        "name": "Big 4 Grunge Bands",
+        "color": "#CBff70",
+        "elements": [
+          "Soundgarden",
+          "Alice In Chains",
+          "Pearl Jam",
+          "Nirvana"
+        ]
+      },
+      {
+        "name": "One Word Nirvana Songs",
+        "color": "#FAA3FF",
+        "elements": [
+          "Lithium",
+          "Sliver",
+          "Dumb",
+          "Breed"
+        ]
+      },
+      {
+        "name": "Criminial Songs",
+        "color": "#78DAF9",
+        "elements": [
+          "Smooth Criminal",
+          "I Fought the Law",
+          "Jailhouse Rock",
+          "Bad Boys"
+        ]
+      },
+      {
+        "name": "Songs About Losing Your Mind",
+        "color": "#FFBC21",
+        "elements": [
+          "Lose Control",
+          "Crazy",
+          "Basket Case",
+          "Insane in the Membrane"
+        ]
+      }
+    ],
+    "shoutout": false
+  },  
+  "01/30/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Emotions in songs",
+        "color": "#CBff70",
+        "elements": [
+          "Happier",
+          "Summertime Sadness",
+          "Are you ready for love?",
+          "Don't Look Back in Anger"
+        ]
+      },
+      {
+        "name": "Songs that topped the charts for more than 10 weeks",
+        "color": "#FAA3FF",
+        "elements": [
+          "Butter",
+          "Easy on me",
+          "All I want for christmas is you",
+          "Despacito"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Neil Diamond's \"Sweet Caroline\"",
+        "elements": [
+          "Where it began",
+          "Touching hands",
+          "Reaching out",
+          "So good, so good"
+        ]
+      },
+      {
+        "name": "Banned And Censored Songs",
+        "color": "#FFBC21",
+        "elements": [
+          "Like a Prayer",
+          "God Save The Queen",
+          "Fuck Tha Police",
+          "Lucy In The Sky With Diamonds"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media1.tenor.com/m/N8pPc1dM3GYAAAAd/charlie-kirk-eeffoc.gif",
+    "shoutout-name": "mixunity"
+  },
+  "02/01/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "name": "Songs From Kanye West's \"Graduation\" Album",
+        "color": "#CBff70",
+        "elements": [
+          "Stronger ",
+          "I Wonder",
+          "Good Life",
+          "Barry Bonds"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics From John Denver's \"Take Me Home, Country Roads\"",
+        "elements": [
+          "West Virginia ",
+          "Take me home",
+          "To the place I belong",
+          "Almost heaven"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featuring: Snoop Dogg",
+        "elements": [
+          "Still DRE",
+          "The next Episode ",
+          "California girls",
+          "All the time"
+        ]
+      },
+      {
+        "name": "Lose ____ Songs",
+        "color": "#FFBC21",
+        "elements": [
+          "yourself",
+          "Control",
+          "My mind",
+          "It"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "njboss017"
+  },
+  "02/04/2026": {
+      "playlist": "",
+      "gameoverGif": "",
+      "categories": [
+        {
+          "name": "Lyrics from Jay-Z’s \"Empire State of Mind\"",
+          "color": "#CBff70",
+          "elements": [
+            "Yeah, I’m out that Brooklyn",
+            "But I’ll be hood forever",
+            "Big lights will inspire you",
+            "There’s nothin’ you can’t do"
+          ]
+        },
+        {
+          "name": "Lyrics from Frank Sinatra’s \"Theme from New York, New York\"",
+          "color": "#FAA3FF",
+          "elements": [
+            "Start spreadin’ the news",
+            "In a city that doesn’t sleep",
+            "If I can make it there, I’ll make it anywhere",
+            "It’s up to you, New York, New York"
+          ]
+        },
+        {
+          "name": "Lyrics from Lana Del Rey’s \"Brooklyn Baby\"",
+          "color": "#78DAF9",
+          "elements": [
+            "I’m too young to love you",
+            "My boyfriend’s in a band",
+            "Plays guitar while I sing Lou Reed",
+            "Judge me like a picture book"
+          ]
+        },
+        {
+          "name": "Lyrics from Lou Reed’s \"Walk on the Wild Side\"",
+          "color": "#FFBC21",
+          "elements": [
+            "Holly came from Miami, FLA",
+            "In the backroom, she was everybody’s darling",
+            "Sugar plum fairy came and hit the streets",
+            "Thought she was James Dean for a day"
+          ]
+        }
+      ],
+      "shoutout": true,
+      "shoutout-name": "chris b-e",
+      "shoutout-socials": true,
+      "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+      "twitter": "https://x.com/cmb__e",
+      "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+      "special-message": true,
+      "message-content": "chris + friends went to ny (was fun)"
+  },  
+  "02/05/2026": {
+    "playlist": "",
+    "gameoverGif": "https://giphy.com/gifs/RespectiveCollective-lollapalooza-lolla-music-festival-yR3XItjqThBn7JSYIa",
+    "categories": [
+      {
+        "name": "Artists with numbers in their name",
+        "color": "#CBff70",
+        "elements": [
+          "Twenty One Pilots",
+          "The Four Seasons",
+          "U2",
+          "Maroon 5"
+        ]
+      },
+      {
+        "name": "Artists from Columbia",
+        "color": "#FAA3FF",
+        "elements": [
+          "Shakira",
+          "J Balvin",
+          "Karol G",
+          "Maluma"
+        ]
+      },
+      {
+        "name": "Sibling Duos",
+        "color": "#78DAF9",
+        "elements": [
+          "The Carpenters",
+          "The Veronicas",
+          "Tegan and Sara",
+          "The Everly Brothers"
+        ]
+      },
+      {
+        "name": "Name contains an animal",
+        "color": "#FFBC21",
+        "elements": [
+          "Doechii",
+          "Bad Bunny",
+          "Miranda Lambert",
+          "PinkPantheress"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "0dderpaws"
+  },
+  "02/10/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers With a Microphone",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Jeff_Buckley_grace.jpg/250px-Jeff_Buckley_grace.jpg",
+            "alt": "Grace"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/The_Eminem_Show.jpg/250px-The_Eminem_Show.jpg",
+            "alt": "The Eminem Show"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/A_Night_to_Remember_%28album_cover%29.jpg/250px-A_Night_to_Remember_%28album_cover%29.jpg",
+            "alt": "A Night to Remember"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/James_Brown-Live_at_the_Apollo_%28album_cover%29.jpg/250px-James_Brown-Live_at_the_Apollo_%28album_cover%29.jpg",
+            "alt": "Live at the Apollo"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums Named After Emotions",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Metallica_-_St._Anger_cover.jpg/250px-Metallica_-_St._Anger_cover.jpg",
+            "alt": "St. Anger"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Billie_Eilish_-_Happier_Than_Ever.png/250px-Billie_Eilish_-_Happier_Than_Ever.png",
+            "alt": "Happier Than Ever"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Taylor_Swift_-_Fearless.png/250px-Taylor_Swift_-_Fearless.png",
+            "alt": "Fearless"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/NF_-_Hope.png/250px-NF_-_Hope.png",
+            "alt": "Hope"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "90s R&B Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/TLC_-_CrazySexyCool_album_cover.png/250px-TLC_-_CrazySexyCool_album_cover.png",
+            "alt": "CrazySexyCool"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Mary_J_Blige_album_cover_My_Life.jpg/250px-Mary_J_Blige_album_cover_My_Life.jpg",
+            "alt": "My Life"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/The_Writing%27s_on_the_Wall.png/250px-The_Writing%27s_on_the_Wall.png",
+            "alt": "The Writing's on the Wall"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/BoyzIIMen-II-Cover.jpg",
+            "alt": "II"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Albums by Artists With a “Band Name” but It’s One Person",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Tame_Impala_-_Currents.png/250px-Tame_Impala_-_Currents.png",
+            "alt": "Currents"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Owl-city-ocean-eyes-2009.jpg/250px-Owl-city-ocean-eyes-2009.jpg",
+            "alt": "Ocean Eyes"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Mannersalbum.jpg/250px-Mannersalbum.jpg",
+            "alt": "Manners"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Gorillaz_Demon_Days.PNG/250px-Gorillaz_Demon_Days.PNG",
+            "alt": "Demon Days"
+          }
+        ]
+      }
+    ],
+    "shoutout": false
   }
 }
