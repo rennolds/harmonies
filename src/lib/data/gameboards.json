@@ -27413,7 +27413,7 @@
     "twitter": "https://x.com/cmb__e",
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q"
   },  
-    "01/28/2026": {
+  "01/28/2026": {
     "playlist": "https://open.spotify.com/playlist/5cQEodpo4DwI7UuVqYtcpr?si=9b24a712a49845bf",
     "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWE4OHJhMm9uNGNqNzVsMzBlbm1kcXU2YmU2MnhpdDdqendxN3J0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lqG1NSFMNXsu9UCjzY/giphy.gif",
     "categories": [
@@ -27430,7 +27430,7 @@
       {
         "color": "#78DAF9",
         "name": "Famous Franks",
-        "elements": ["Sinatra", "Ocean”, "Valli", "Ruiz"]
+        "elements": ["Sinatra", "Ocean", "Valli", "Ruiz"]
       },
       {
         "color": "#FFBC21",
