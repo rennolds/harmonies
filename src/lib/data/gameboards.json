@@ -27638,6 +27638,143 @@
     "shoutout": true,
     "shoutout-name": "njboss017"
   },
+  "02/02/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2025 Pop Hits",
+        "elements": ["Tears", "Undressed", "Messy", "Daisies"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Early 2000s Rap Songs",
+        "elements": ["Roses", "Stan", "P.I.M.P.", "Dilemma"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs Made for Movies",
+        "elements": ["Sunflower", "Shallow", "Footloose", "Skyfall"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Slow ____ Songs",
+        "elements": ["Jamz", "Hands", "Down", "Dancing in the Dark"]
+      }
+    ],
+    "shotuout": false
+  },
+  "02/03/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBFF70",
+        "name": "A Crown on the Cover",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Michaelalbumcover.jpg/250px-Michaelalbumcover.jpg",
+            "alt": "Michael"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Duets-_The_Final_Chapter.jpg/250px-Duets-_The_Final_Chapter.jpg",
+            "alt": "Duets: The Final Chapter"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Rihanna_-_Anti.png/250px-Rihanna_-_Anti.png",
+            "alt": "ANTi"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Jason_Derulo_-_Nu_King.png/250px-Jason_Derulo_-_Nu_King.png",
+            "alt": "Nu King"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Street-Named Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Ocean_Avenue_-_Yellowcard.jpg/250px-Ocean_Avenue_-_Yellowcard.jpg",
+            "alt": "Ocean Avenue"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Beatles_Abbey_Road_album_cover.jpg/250px-The_Beatles_Abbey_Road_album_cover.jpg",
+            "alt": "Abbey Road"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Acdc_Highway_to_Hell.JPG/250px-Acdc_Highway_to_Hell.JPG",
+            "alt": "Highway to Hell"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Rick_James_-_Street_Songs.jpg/250px-Rick_James_-_Street_Songs.jpg",
+            "alt": "Street Songs"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2000s Emo Staples",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/BlackParadeCover.jpg/250px-BlackParadeCover.jpg",
+            "alt": "The Black Parade"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/5/53/Mpalircover.jpg",
+            "alt": "A Lesson in Romantics"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Fall_Out_Boy_-_From_Under_the_Cork_Tree.png/250px-Fall_Out_Boy_-_From_Under_the_Cork_Tree.png",
+            "alt": "From Under the Cork Tree"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/PanicAtTheDisco-FeverCover.jpg/250px-PanicAtTheDisco-FeverCover.jpg",
+            "alt": "A Fever You Can't Sweat Out"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Greatest Hits Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Queen_Greatest_Hits.png/250px-Queen_Greatest_Hits.png",
+            "alt": "Greatest Hits — Queen"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/ABBA_Gold_cover.png/250px-ABBA_Gold_cover.png",
+            "alt": "ABBA Gold: Greatest Hits — ABBA"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Eagles_-_Their_Greatest_Hits_%281971-1975%29.jpg/250px-Eagles_-_Their_Greatest_Hits_%281971-1975%29.jpg",
+            "alt": "Their Greatest Hits (1971–1975) — Eagles"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/BobMarley-Legend.jpg/250px-BobMarley-Legend.jpg",
+            "alt": "Legend — Bob Marley and the Wailers"
+          }
+        ]
+      }
+    ]
+  },
   "02/04/2026": {
       "playlist": "",
       "gameoverGif": "",
@@ -27727,7 +27864,7 @@
         ]
       },
       {
-        "name": "Name contains an animal",
+        "name": "Artist Name contains an animal",
         "color": "#FFBC21",
         "elements": [
           "Doechii",
@@ -27739,6 +27876,129 @@
     ],
     "shoutout": true,
     "shoutout-name": "0dderpaws"
+  },
+  "02/06/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Lyrics from Outkast's \"Hey Ya!\"",
+        "elements": ["Hey Ya", "Uh oh", "Shake it", "Like a polaroid picture"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics from The Ramone's \"Blitzkrieg Bop\"",
+        "elements": ["Hey ho", "Let's go", "Forming in a straight line", "Piling in the backseat"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Train's \"Hey, Soul Sister\"",
+        "elements": ["Hey", "soul sister", "ain't that Mr. Mister", "on the radio"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from The Lumineers \"Ho Hey\"",
+        "elements": ["Ho! Hey!", "I belong with you", "you belong with me", "you're my sweetheart"]
+      }
+    ],
+    "shotuout": false
+  },
+  "02/07/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Pop Albums",
+        "elements": [
+          "Baby One More Time",
+          "Britney",
+          "1989",
+          "Short n' Sweet"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "1999 Hip Hop Albums",
+        "elements": [
+          "Things Fall Apart ",
+          "Black on Both Sides ",
+          "Slim Shady LP",
+          "Operation Doomsday"
+        ]
+      },
+      {
+        "name": "Songs Named After Royalty",
+        "color": "#78DAF9",
+        "elements": [
+          "Your Love is King",
+          "Dancing Queen",
+          "Joker",
+          "Sir Duke"
+        ]
+      },
+      {
+        "name": "Artists or Bands Named After Objects",
+        "color": "#FFBC21",
+        "elements": [
+          "Guns n’ Roses",
+          "The Animals",
+          "The Doors",
+          "Nine Inch Nails"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "mibob2"
+  },
+  "02/08/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "New York Rappers",
+        "color": "#CBff70",
+        "elements": [
+          "French Montana",
+          "A$AP Rocky",
+          "Jadakiss",
+          "Fat Joe"
+        ]
+      },
+      {
+        "name": "Green Day Albums",
+        "color": "#FAA3FF",
+        "elements": [
+          "American Idiot ",
+          "Dookie",
+          "21st Century Breakdown",
+          "Nimrod"
+        ]
+      },
+      {
+        "name": "Lyrics from Lady GaGa's \"Poker Face\"",
+        "color": "#78DAF9",
+        "elements": [
+          "Russian Roulette",
+          "Without a gun",
+          "When It’s Love",
+          "It Isn’t Fun"
+        ]
+      },
+      {
+        "name": "Lil Uzi Vert Songs",
+        "color": "#FFBC21",
+        "elements": [
+          "Canadian Goose",
+          "Money Longer",
+          "The Way Life Goes",
+          "XO Tour Llif3"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "jengus roundstone"
   },
   "02/10/2026": {
     "playlist": "",
@@ -27772,7 +28032,7 @@
       },
       {
         "color": "#78DAF9",
-        "name": "Albums Named After Emotions",
+        "name": "Albums With Emotions in the Title",
         "elements": [
           {
             "type": "image",
@@ -27850,5 +28110,89 @@
       }
     ],
     "shoutout": false
+  },
+  "02/11/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Members of One Direction",
+        "elements": ["Harry Styles", "Zayn Malik", "Niall Horan", "Louis Tomlinson"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Leaders of UK Rock Bands",
+        "elements": ["Alex Turner", "Liam Gallagher", "Freddie Mercury", "Chris Martin"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "London Singers",
+        "elements": ["Adele", "Dua Lipa", "David Bowie", "Amy Winehouse"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Liverpool Artists",
+        "elements": ["EsDeeKid", "Paul McCartney", "John Lennon", "The La's"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "special-message": true,
+    "message-content": "it's called football not soccer (for lux)"
+  },
+  "02/12/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "The Greatest Showman Soundtrack",
+        "color": "#CBff70",
+        "elements": [
+          "Tightrope",
+          "Come Alive",
+          "A Million Dreams",
+          "Rewrite The Stars"
+        ]
+      },
+      {
+        "name": "Guardians of the Galaxy Soundtrack",
+        "color": "#FAA3FF",
+        "elements": [
+          "Hooked on a Feeling",
+          "Cherry Bomb",
+          "Spirit in the Sky",
+          "Ain't No Mountain High Enough"
+        ]
+      },
+      {
+        "name": "Mamma Mia! Soundtrack",
+        "color": "#78DAF9",
+        "elements": [
+          "Dancing Queen",
+          "Money, Money, Money",
+          "Lay All Your Love on Me",
+          "S.O.S."
+        ]
+      },
+      {
+        "name": "Shrek Soundtrack",
+        "color": "#FFBC21",
+        "elements": [
+          "I'm a Believer",
+          "All Star",
+          "Hallelujah",
+          "Bad Reputation"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "",
+    "message-content": "pair the songs to the movie soundtrack",
+    "special-message": true
   }
 }
