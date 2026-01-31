@@ -27543,6 +27543,53 @@
     "gameoverGif": "https://media1.tenor.com/m/N8pPc1dM3GYAAAAd/charlie-kirk-eeffoc.gif",
     "shoutout-name": "mixunity"
   },
+  "01/31/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "Red Hot Chili Peppers Songs",
+        "color": "#CBff70",
+        "elements": [
+          "Can't Stop",
+          "Snow (Hey Oh)",
+          "Under the Bridge",
+          "Dani California"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs Featuring Both JAY-Z and Beyoncé",
+        "elements": [
+          "Drunk in Love",
+          "SUMMER",
+          "03 Bonnie & Clyde",
+          "Deja Vu"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Top 4 Songs on Billboard's Year-End Hot 100 (2007)",
+        "elements": [
+          "Irreplaceable",
+          "The Sweet Escape",
+          "Umbrella",
+          "Big Girls Don't Cry"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs That Got Sampled Into Bigger Hits",
+        "elements": [
+          "Under Pressure",
+          "Harder, Better, Faster, Stronger",
+          "Super Freak",
+          "Gimme! Gimme! Gimme! (A Man After Midnight)"
+        ]
+      }
+    ],
+    "gameoverGif": ""
+  },
   "02/01/2026": {
     "playlist": "",
     "gameoverGif": "",
