@@ -27667,7 +27667,7 @@
   },
   "02/03/2026": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/FYku6l4S7JcAAAAM/or-yehuda-edgy.gif",
     "categories": [
       {
         "color": "#CBFF70",
@@ -27727,7 +27727,7 @@
         "elements": [
           {
             "type": "image",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/BlackParadeCover.jpg/250px-BlackParadeCover.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/en/e/ea/Blackparadecover.jpg",
             "alt": "The Black Parade"
           },
           {
@@ -27737,12 +27737,12 @@
           },
           {
             "type": "image",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Fall_Out_Boy_-_From_Under_the_Cork_Tree.png/250px-Fall_Out_Boy_-_From_Under_the_Cork_Tree.png",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/FUtCT_BCaU.jpg/250px-FUtCT_BCaU.jpg",
             "alt": "From Under the Cork Tree"
           },
           {
             "type": "image",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/PanicAtTheDisco-FeverCover.jpg/250px-PanicAtTheDisco-FeverCover.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/PanicAtTheDisco-FeverCover.jpg/250px-PanicAtTheDisco-FeverCover.jpg",
             "alt": "A Fever You Can't Sweat Out"
           }
         ]
