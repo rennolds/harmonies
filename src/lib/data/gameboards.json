@@ -27670,7 +27670,7 @@
     "gameoverGif": "https://media.tenor.com/FYku6l4S7JcAAAAM/or-yehuda-edgy.gif",
     "categories": [
       {
-        "color": "#CBFF70",
+        "color": "#CBff70",
         "name": "A Crown on the Cover",
         "elements": [
           {
@@ -28000,6 +28000,33 @@
     "gameoverGif": "https://media.tenor.com/6npGbxp_CWMAAAAM/straight-face-smile.gif",
     "shoutout-name": "jengus roundstone"
   },
+  "02/09/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/Y72azub_8UYAAAAM/beyonce-onikaski.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Beyonce Songs & Features",
+        "elements": ["Formation", "Diva", "Halo", "Partition"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Subgenres",
+        "elements": ["Hyper", "Dance", "Bubblegum", "Art"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Billboard Hot 100 in 2014",
+        "elements": ["Rude", "Happy", "Timber", "Royals"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Song Titles Without the Brand Name",
+        "elements": ["On the Floor", "Gang", "White", "Diet"]
+      }
+    ],
+    "shoutout": false
+  },
   "02/10/2026": {
     "playlist": "",
     "gameoverGif": "https://media.tenor.com/3rvkPXf3UMsAAAAM/tame-impala-kevin-parker.gif",
@@ -28194,5 +28221,54 @@
     "shoutout-name": "",
     "message-content": "pair the songs to the movie soundtrack",
     "special-message": true
+  },
+  "02/14/2026":{
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Artists with Numbers",
+        "elements": [
+          "21 Savage",
+          "Twenty One Pilots",
+          "5 Seconds of Summer",
+          "2 Chainz"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "U.K. Artists",
+        "elements": [
+          "Central Cee",
+          "Queen",
+          "One Direction",
+          "Adele"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Canadian Artists",
+        "elements": [
+          "Shawn Mendes",
+          "Drake",
+          "The Weeknd",
+          "Justin Bieber"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "90's Rap Artists",
+        "elements": [
+          "Snoop Dog",
+          "Eminem",
+          "Notorious B.I.G",
+          "Jay-Z"
+        ]
+
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "milliebrown"
   }
 }
