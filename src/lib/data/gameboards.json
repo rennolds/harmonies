@@ -28222,7 +28222,71 @@
     "message-content": "pair the songs to the movie soundtrack",
     "special-message": true
   },
-  "02/14/2026":{
+  "02/13/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Bands with colors in the name",
+        "color": "#CBff70",
+        "elements": ["Green Day", "Blue October", "Red Hot Chili Peppers", "Yellowcard"]
+      },
+      {
+        "name": "Doja Cat songs",
+        "color": "#FAA3FF",
+        "elements": ["Kiss Me More", "Say So", "Streets", "Woman"]
+      },
+      {
+        "name": "Ariana Grande albums",
+        "color": "#78DAF9",
+        "elements": ["Yours Truly", "My Everything", "Dangerous Woman", "Sweetener"]
+      },
+      {
+        "name": "Lyrics from The Killer's \"Mr. Brightside\"",
+        "color": "#FFBC21",
+        "elements": [
+          "It was only a kiss",
+          "I just can’t look",
+          "it’s killing me",
+          "Jealousy"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "hello"
+  },
+  "02/14/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/bh4syrAj6JAAAAAM/friends-happy-valentines-day.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Love ____ Songs",
+        "elements": ["Fool", "Story", "Shack", "On The Brain"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists With a Famous Movie Love Song",
+        "elements": ["Céline Dion", "Whitney Houston", "Lady Gaga", "Elton John"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With a Song Titled \"Roses\"",
+        "elements": ["Outkast", "Kanye West", "The Chainsmokers", "Saint Jhn"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Without \"Heart\"",
+        "elements": ["Attack", "Shaped Box", "Of Glass", "Less"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": "happy valentines from harmonies"
+  },
+  "02/15/2026": { 
     "playlist": "",
     "shoutout": true,
     "categories": [
@@ -28268,7 +28332,7 @@
 
       }
     ],
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/LroSxanGU0YAAAAM/notorious-big-biggie.gif",
     "shoutout-name": "milliebrown"
   }
 }
