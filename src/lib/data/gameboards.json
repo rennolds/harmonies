@@ -28257,35 +28257,51 @@
   },
   "02/14/2026": {
     "playlist": "",
-    "gameoverGif": "https://media.tenor.com/bh4syrAj6JAAAAAM/friends-happy-valentines-day.gif",
+    "shoutout": true,
+    "message-content": "happy valentines",
     "categories": [
       {
+        "name": "Famous Love Songs",
         "color": "#CBff70",
-        "name": "Love ____ Songs",
-        "elements": ["Fool", "Story", "Shack", "On The Brain"]
+        "elements": [
+          "I Will Always Love You",
+          "Thinking Out Loud",
+          "Love Me Tender",
+          "Lost in Love"
+        ]
       },
       {
+        "name": "Songs That Came Out in 2011",
         "color": "#FAA3FF",
-        "name": "Artists With a Famous Movie Love Song",
-        "elements": ["Céline Dion", "Whitney Houston", "Lady Gaga", "Elton John"]
+        "elements": [
+          "Rolling in the Deep",
+          "Party Rock Anthem",
+          "Firework",
+          "Moves Like Jagger"
+        ]
       },
       {
+        "name": "Female Rappers",
         "color": "#78DAF9",
-        "name": "Artists With a Song Titled \"Roses\"",
-        "elements": ["Outkast", "Kanye West", "The Chainsmokers", "Saint Jhn"]
+        "elements": [
+          "Doechii",
+          "Ice Spice",
+          "Nicki Minaj",
+          "Cardi B"
+        ]
       },
       {
+        "name": "Artists from Australia",
         "color": "#FFBC21",
-        "name": "Songs Without \"Heart\"",
-        "elements": ["Attack", "Shaped Box", "Of Glass", "Less"]
+        "elements": [
+          "Air Supply",
+          "Iggy Azalea",
+          "Kylie Minogue",
+          "AC/DC"
+        ]
       }
-    ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
-    "special-message": true,
-    "message-content": "happy valentines from harmonies"
-  },
+    ]
+  },  
   "02/15/2026": { 
     "playlist": "",
     "shoutout": true,
@@ -28334,5 +28350,360 @@
     ],
     "gameoverGif": "https://media.tenor.com/LroSxanGU0YAAAAM/notorious-big-biggie.gif",
     "shoutout-name": "milliebrown"
-  }
+  },
+  "02/16/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Album Covers with a Motel / Hotel",
+        "color": "#CBff70",
+        "elements": [
+          {
+            "name": "Hotel California",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/250px-Hotelcalifornia.jpg"
+          },
+          {
+            "name": "Morrison Hotel",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/The_Doors_-_Morrison_Hotel.jpg/250px-The_Doors_-_Morrison_Hotel.jpg"
+          },
+          {
+            "name": "Dirty Deeds Done Dirt Cheap",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Dirty_Deeds_Done_Dirt_Cheap_%28ACDC_album_-_cover_art0.jpg/250px-Dirty_Deeds_Done_Dirt_Cheap_%28ACDC_album_-_cover_art0.jpg"
+          },
+          {
+            "name": "Homesick Heroes",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/The_Charlie_Daniels_Band_-_Homesick_Heroes_-_Front.jpg/250px-The_Charlie_Daniels_Band_-_Homesick_Heroes_-_Front.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Albums That Start With \"In\"",
+        "color": "#FAA3FF",
+        "elements": [
+          {
+            "name": "In Rainbows",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Inrainbowscover.png/250px-Inrainbowscover.png"
+          },
+          {
+            "name": "In the Lonely Hour",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Sam_Smith_-_In_the_Lonely_Hour_%28Official_Album_Cover%29.png/250px-Sam_Smith_-_In_the_Lonely_Hour_%28Official_Album_Cover%29.png"
+          },
+          {
+            "name": "In the Zone",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/In_the_Zone.png/250px-In_the_Zone.png"
+          },
+          {
+            "name": "In Utero",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/In_Utero_%28Nirvana%29_album_cover.jpg/250px-In_Utero_%28Nirvana%29_album_cover.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Sequel Albums",
+        "color": "#78DAF9",
+        "elements": [
+          {
+            "name": "Tha Carter II",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Tha_Carter_2.jpg/250px-Tha_Carter_2.jpg"
+          },
+          {
+            "name": "The Marshall Mathers LP 2",
+            "image": "https://up  load.wikimedia.org/wikipedia/en/thumb/8/87/The_Marshall_Mathers_LP_2.png/250px-The_Marshall_Mathers_LP_2.png"
+          },
+          {
+            "name": "The Blueprint 2: The Gift & the Curse",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Jay-z-blueprint-2-gift-curse.jpg/250px-Jay-z-blueprint-2-gift-curse.jpg"
+          },
+          {
+            "name": "Led Zeppelin II",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg/250px-Led_Zeppelin_-_Led_Zeppelin_II.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Iconic 90s Hip-Hop Albums",
+        "color": "#FFBC21",
+        "elements": [
+          {
+            "name": "Illmatic",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/IllmaticNas.jpg/250px-IllmaticNas.jpg"
+          },
+          {
+            "name": "The Chronic",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Dr.DreTheChronic.jpg/250px-Dr.DreTheChronic.jpg"
+          },
+          {
+            "name": "All Eyez on Me",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Alleyezonme.jpg/250px-Alleyezonme.jpg"
+          },
+          {
+            "name": "Enter the Wu-Tang (36 Chambers)",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Wu-TangClanEntertheWu-Tangalbumcover.jpg/250px-Wu-TangClanEntertheWu-Tangalbumcover.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "02/17/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/bh4syrAj6JAAAAAM/friends-happy-valentines-day.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Love ____ Songs",
+        "elements": ["Fool", "Story", "Shack", "On The Brain"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists With a Famous Movie Love Song",
+        "elements": ["Céline Dion", "Whitney Houston", "Lady Gaga", "Elton John"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With a Song Titled \"Roses\"",
+        "elements": ["Outkast", "Kanye West", "The Chainsmokers", "Saint Jhn"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Without \"Heart\"",
+        "elements": ["Attack", "Shaped Box", "Of Glass", "Less"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": ""
+  },
+  "02/18/2026": {
+    "playlist": "",
+    "categories": [
+      {
+        "name": "CREED \"HIGHER\" LYRICS",
+        "color": "#CBff70",
+        "elements": [
+          "Guided to another world",
+          "Let’s go there, let’s make our escape",
+          "Can you take me higher?",
+          "To a place where blind men see"
+        ]
+      },
+      {
+        "name": "BOB MARLEY SONGS",
+        "color": "#FAA3FF",
+        "elements": [
+          "Three Little Birds",
+          "Could You Be Loved",
+          "I Shot The Sheriff",
+          "Jamming"
+        ]
+      },
+      {
+        "name": "WEED RAP ANTHEMS",
+        "color": "#78DAF9",
+        "elements": [
+          "I Got 5 On It",
+          "Broccoli",
+          "Young, Wild & Free",
+          "Because I Got High"
+        ]
+      },
+      {
+        "name": "OPENING LINES TO SUBLIME SONGS",
+        "color": "#FFBC21",
+        "elements": [
+          "Annie’s twelve years old",
+          "Mucho gusto, me llamo Bradley",
+          "I don’t practice santeria",
+          "Summertime, and the livin’s easy"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "special-message": true,
+    "message-content": "[dave chappelle - mary in detroit](https://www.youtube.com/watch?v=IY6QhheRiAc)"
+  },  
+  "02/19/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "Taylor Swift's Album of Year Wins",
+        "color": "#CBff70",
+        "elements": [
+          "1989",
+          "Fearless",
+          "folklore",
+          "Midnights"
+        ]
+
+      },
+      {
+        "name": "Most Recent Best New Artist Winners",
+        "color": "#FAA3FF",
+        "elements": [
+          "Chappell Roan",
+          "Olivia Rodrigo",
+          "Samara Joy",
+          "Victoria Monét"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Most Recent Song of the Year Winners",
+        "elements": [
+          "WILDFLOWER",
+          "Not Like Us",
+          "What Was I Made For?",
+          "Just Like That"
+        ]
+      },
+      {
+
+        "name": "Artists With the Most Grammy Nominations",
+        "color": "#FFBC21",
+        "elements": [
+          "Beyoncé",
+          "Jay-Z",
+          "Paul McCartney",
+          "Quincy Jones"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media1.giphy.com/media/3m8S6W0d9VQbkByldn/200.gif",
+    "message-content": "all grammy awards",
+    "special-message": true
+  },
+  "02/20/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Songs From Sabrina Carpenter's \"Man's Best Friend\"",
+        "color": "#CBff70",
+        "elements": [
+          "Manchild",
+          "House Tour",
+          "Tears",
+          "Nobody's Son"
+        ]
+      },
+      {
+        "name": "Lyrics From Wheatus' \"Teenage Dirtbag\"",
+        "color": "#FAA3FF",
+        "elements": [
+          "Two Tickets",
+          "Iron Maiden",
+          "Baby",
+          "Come With Me"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands With Different Lead Singers Over Time",
+        "elements": [
+          "Alice In Chains",
+          "Stone Temple Pilots",
+          "Van Halen",
+          "Linkin Park"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "No ____ Songs",
+        "elements": [
+          "Surprises",
+          "Diggity ",
+          "Scrubs",
+          "Broke Boys"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "kevdawg812"
+  },
+  "02/21/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Red Hot Chili Peppers Members",
+        "color": "#CBff70",
+        "elements": [
+          "Anthony Kiedis",
+          "Flea",
+          "Chad Smith",
+          "John Frusicante"
+        ]
+      },
+      {
+        "name": "Black Eyed Peas Members",
+        "color": "#FAA3FF",
+        "elements": [
+          "willi.i.am",
+          "Fergie",
+          "Taboo",
+          "apl.de.ap"
+        ]
+      },
+      {
+        "name": "Sex Pistols Members",
+        "color": "#78DAF9",
+        "elements": [
+          "Johnny Rotten",
+          "Sid Vicious",
+          "Steve Jones",
+          "Paul Cook"
+        ]
+      },
+      {
+        "name": "Gorillaz Members",
+        "color": "#FFBC21",
+        "elements": [
+          "2-D",
+          "Murdoc Niccals",
+          "Noodle",
+          "Russel Hobbs"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybzFldXJpcG5hcHM5cTI5Z25tZjYyZDZvbnF4M2F5ajJqamp1MG1yOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/39DV0pT9v42Fq/giphy.gif",
+    "shoutout-name": "jengusroundstone",
+    "message-content": "Fearsome Foursomes",
+    "special-message": true
+  },
+  "02/26/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "R&B / SOUL LEGENDS",
+        "color": "#CBff70",
+        "elements": ["HOUSTON", "VANDROSS", "WONDER", "FRANKLIN"]
+      },
+      {
+        "name": "1+ BILLION STREAMED KENDRICK LAMAR SONGS",
+        "color": "#FAA3FF",
+        "elements": ["HUMBLE", "SWIMMING POOLS", "LUTHER", "PRIDE"]
+      },
+      {
+        "name": "\"I...\" RAP SONGS",
+        "color": "#78DAF9",
+        "elements": ["JUST MIGHT", "KNOW ?", "SPY", "RIS"]
+      },
+      {
+        "name": "SONGS MINUS CALIFORNIA",
+        "color": "#FFBC21",
+        "elements": ["LOVE", "HOTEL", "GURLS", "DREAMIN'"]
+      }
+    ],
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnl4NWd4a3cwZTRsOHNlazJ4NWxxamZlanYxbHhpbnA2ZGJ6djdicyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VGsT1jzgSQM5a/giphy.gif",
+    "shoutout-name": "akward"
+  }  
 }
