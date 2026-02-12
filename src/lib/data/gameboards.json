@@ -28223,7 +28223,7 @@
     "special-message": true
   },
   "02/13/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/4FMFy6ZpQQj05AaXlHsxh9?si=0b9775b0ab5e47fe",
     "shoutout": true,
     "categories": [
       {
@@ -28252,11 +28252,11 @@
         ]
       }
     ],
-    "gameoverGif": "",
+    "gameoverGif": "https://64.media.tumblr.com/1cfdda014f4075f05fc03595c8e6399a/2d5c24b6629d34ae-61/s540x810/9d501170c87956717e25e2e20543ed77d269515e.gifv",
     "shoutout-name": "hello"
   },
   "02/14/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/1jE4WWXM79KeTIPCngap7d?si=250b6125e8a1410d",
     "shoutout": false,
     "message-content": "happy valentines",
     "categories": [
@@ -28303,7 +28303,7 @@
     ]
   },  
   "02/15/2026": { 
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/1HVIiigxg2vbvddVTPqX3n?si=871d1f08cabf482e",
     "shoutout": true,
     "categories": [
       {
@@ -28340,7 +28340,7 @@
         "color": "#FFBC21",
         "name": "90's Rap Artists",
         "elements": [
-          "Snoop Dog",
+          "Snoop Dogg",
           "Eminem",
           "Notorious B.I.G",
           "Jay-Z"
@@ -28352,8 +28352,9 @@
     "shoutout-name": "milliebrown"
   },
   "02/16/2026": {
-    "playlist": "",
-    "shoutout": true,
+    "playlist": "https://open.spotify.com/playlist/1TBYBsqKP3FJgIeuHPaVpl?si=64281f3dd1ad45de",
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyYjZvYW1kMDMxajc1MzM5NHltNXkxa2pjaWRkc29kZDU5bDNiMTRvdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ey1K34IQcE2Ry/giphy.gif",
+    "shoutout": false,
     "categories": [
       {
         "name": "Album Covers with a Motel / Hotel",
@@ -28445,37 +28446,7 @@
       }
     ]
   },
-  "02/17/2026": {
-    "playlist": "",
-    "gameoverGif": "https://media.tenor.com/bh4syrAj6JAAAAAM/friends-happy-valentines-day.gif",
-    "categories": [
-      {
-        "color": "#CBff70",
-        "name": "Love ____ Songs",
-        "elements": ["Fool", "Story", "Shack", "On The Brain"]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "Artists With a Famous Movie Love Song",
-        "elements": ["Céline Dion", "Whitney Houston", "Lady Gaga", "Elton John"]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Artists With a Song Titled \"Roses\"",
-        "elements": ["Outkast", "Kanye West", "The Chainsmokers", "Saint Jhn"]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "Songs Without \"Heart\"",
-        "elements": ["Attack", "Shaped Box", "Of Glass", "Less"]
-      }
-    ],
-    "shoutout": false,
-    "shoutout-name": "",
-    "shoutout-socials": false,
-    "special-message": true,
-    "message-content": ""
-  },
+
   "02/18/2026": {
     "playlist": "",
     "categories": [
@@ -28677,6 +28648,37 @@
     "shoutout-name": "jengusroundstone",
     "message-content": "Fearsome Foursomes",
     "special-message": true
+  },
+  "02/23/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/bh4syrAj6JAAAAAM/friends-happy-valentines-day.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Love ____ Songs",
+        "elements": ["Fool", "Story", "Shack", "On The Brain"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists With a Famous Movie Love Song",
+        "elements": ["Céline Dion", "Whitney Houston", "Lady Gaga", "Elton John"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Artists With a Song Titled \"Roses\"",
+        "elements": ["Outkast", "Kanye West", "The Chainsmokers", "Saint Jhn"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Without \"Heart\"",
+        "elements": ["Attack", "Shaped Box", "Of Glass", "Less"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": true,
+    "message-content": ""
   },
   "02/26/2026": {
     "playlist": "",
