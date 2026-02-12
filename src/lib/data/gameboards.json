@@ -28351,7 +28351,7 @@
     "gameoverGif": "https://media.tenor.com/LroSxanGU0YAAAAM/notorious-big-biggie.gif",
     "shoutout-name": "milliebrown"
   },
-  "02/16/2026": {
+  "02/17/2026": {
     "playlist": "https://open.spotify.com/playlist/1TBYBsqKP3FJgIeuHPaVpl?si=64281f3dd1ad45de",
     "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyYjZvYW1kMDMxajc1MzM5NHltNXkxa2pjaWRkc29kZDU5bDNiMTRvdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ey1K34IQcE2Ry/giphy.gif",
     "shoutout": false,
@@ -28446,9 +28446,9 @@
       }
     ]
   },
-
   "02/18/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/0TfuP99HIJa1bglCDvozzu?si=f777b3808995435b",
+    "gameoverGif": "https://media.tenor.com/i84kiW8DN54AAAAM/skip-marley-one-love.gif",
     "categories": [
       {
         "name": "CREED \"HIGHER\" LYRICS",
@@ -28501,8 +28501,7 @@
     "message-content": "[dave chappelle - mary in detroit](https://www.youtube.com/watch?v=IY6QhheRiAc)"
   },  
   "02/19/2026": {
-    "playlist": "",
-    "shoutout": false,
+    "playlist": "https://open.spotify.com/playlist/36OMUZ2XzZteo77myyPssA?si=2a5faf2b8dfd4e25",
     "categories": [
       {
         "name": "Taylor Swift's Album of Year Wins",
@@ -28548,7 +28547,7 @@
       }
     ],
     "gameoverGif": "https://media1.giphy.com/media/3m8S6W0d9VQbkByldn/200.gif",
-    "message-content": "all grammy awards",
+    "message-content": "grammy awards only 🎤",
     "special-message": true
   },
   "02/20/2026": {
@@ -28679,6 +28678,52 @@
     "shoutout-socials": false,
     "special-message": true,
     "message-content": ""
+  },
+  "02/25/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "name": "2020s streaming megahits",
+        "color": "#CBff70",
+        "elements": [
+          "Blinding Lights",
+          "Dance Monkey",
+          "The Box",
+          "Roses (Imanbek Remix)"
+        ]
+      },
+      {
+        "name": "Famous TikTok dance songs",
+        "color": "#FAA3FF",
+        "elements": [
+          "WAP",
+          "Savage",
+          "Adderall (Corvette Corvette)",
+          "Say So"
+        ]
+      },
+      {
+        "name": "Lockdown-era indie rock resurgence",
+        "color": "#78DAF9",
+        "elements": [
+          "Heat Waves",
+          "Little Dark Age",
+          "In a Good Way",
+          "Roddy"
+        ]
+      },
+      {
+        "name": "Lockdown-era hyperpop favorites",
+        "color": "#FFBC21",
+        "elements": [
+          "#BrooklynBloodPop!",
+          "SugarCrash!",
+          "NEVER MET!",
+          "money machine"
+        ]
+      }
+    ]
   },
   "02/26/2026": {
     "playlist": "",
