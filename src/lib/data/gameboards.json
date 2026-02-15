@@ -28345,12 +28345,38 @@
           "Notorious B.I.G",
           "Jay-Z"
         ]
-
       }
     ],
     "gameoverGif": "https://media.tenor.com/LroSxanGU0YAAAAM/notorious-big-biggie.gif",
     "shoutout-name": "milliebrown"
   },
+  "02/16/2026": {
+    "playlist": "https://open.spotify.com/playlist/3YZzkjs8PZ8ygFBy8UUrvh?si=6f067de59455449b",
+    "shotout": "false",
+    "gameoverGif": "https://media.tenor.com/xzoNQHscU2MAAAAM/lil-wayne.gif",
+    "categories": [
+      {
+        "name": "Songs That Are Names",
+        "color": "#CBff70",
+        "elements": ["Jolene", "Roxanne", "Ophelia", "Cecilia"]
+      },
+      {
+        "name": "\"Lil\" Rappers",
+        "color": "#FAA3FF",
+        "elements": ["Mosey", "Jon", "Peep", "Wayne"]
+      },
+      {
+        "name": "Guitar Brands",
+        "color": "#78DAF9",
+        "elements": ["Taylor", "Gibson", "Martin", "Fender"]
+      },
+      {
+        "name": "Artists Named John",
+        "color": "#FFBC21",
+        "elements": ["Lennon", "Mayer", "Legend", "Denver"]
+      }
+    ]
+  },  
   "02/17/2026": {
     "playlist": "https://open.spotify.com/playlist/1TBYBsqKP3FJgIeuHPaVpl?si=64281f3dd1ad45de",
     "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyYjZvYW1kMDMxajc1MzM5NHltNXkxa2pjaWRkc29kZDU5bDNiMTRvdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ey1K34IQcE2Ry/giphy.gif",
@@ -28361,20 +28387,24 @@
         "color": "#CBff70",
         "elements": [
           {
-            "name": "Hotel California",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/250px-Hotelcalifornia.jpg"
+            "type": "image",
+            "alt": "Hotel California",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/250px-Hotelcalifornia.jpg"
           },
           {
-            "name": "Morrison Hotel",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/The_Doors_-_Morrison_Hotel.jpg/250px-The_Doors_-_Morrison_Hotel.jpg"
+            "type": "image",
+            "alt": "Morrison Hotel",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/The_Doors_-_Morrison_Hotel.jpg/250px-The_Doors_-_Morrison_Hotel.jpg"
           },
           {
-            "name": "Dirty Deeds Done Dirt Cheap",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Dirty_Deeds_Done_Dirt_Cheap_%28ACDC_album_-_cover_art0.jpg/250px-Dirty_Deeds_Done_Dirt_Cheap_%28ACDC_album_-_cover_art0.jpg"
+            "type": "image",
+            "alt": "Dirty Deeds Done Dirt Cheap",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Dirty_Deeds_Done_Dirt_Cheap_%28ACDC_album_-_cover_art0.jpg/250px-Dirty_Deeds_Done_Dirt_Cheap_%28ACDC_album_-_cover_art0.jpg"
           },
           {
-            "name": "Homesick Heroes",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/The_Charlie_Daniels_Band_-_Homesick_Heroes_-_Front.jpg/250px-The_Charlie_Daniels_Band_-_Homesick_Heroes_-_Front.jpg"
+            "type": "image",
+            "alt": "Homesick Heroes",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/The_Charlie_Daniels_Band_-_Homesick_Heroes_-_Front.jpg/250px-The_Charlie_Daniels_Band_-_Homesick_Heroes_-_Front.jpg"
           }
         ]
       },
@@ -28383,20 +28413,24 @@
         "color": "#FAA3FF",
         "elements": [
           {
-            "name": "In Rainbows",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Inrainbowscover.png/250px-Inrainbowscover.png"
+            "type": "image",
+            "alt": "In Rainbows",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Inrainbowscover.png/250px-Inrainbowscover.png"
           },
           {
-            "name": "In the Lonely Hour",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Sam_Smith_-_In_the_Lonely_Hour_%28Official_Album_Cover%29.png/250px-Sam_Smith_-_In_the_Lonely_Hour_%28Official_Album_Cover%29.png"
+            "type": "image",
+            "alt": "In the Lonely Hour",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Sam_Smith_-_In_the_Lonely_Hour_%28Official_Album_Cover%29.png/250px-Sam_Smith_-_In_the_Lonely_Hour_%28Official_Album_Cover%29.png"
           },
           {
-            "name": "In the Zone",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/In_the_Zone.png/250px-In_the_Zone.png"
+            "type": "image",
+            "alt": "In the Zone",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/In_the_Zone.png/250px-In_the_Zone.png"
           },
           {
-            "name": "In Utero",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/In_Utero_%28Nirvana%29_album_cover.jpg/250px-In_Utero_%28Nirvana%29_album_cover.jpg"
+            "type": "image",
+            "alt": "In Utero",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/In_Utero_%28Nirvana%29_album_cover.jpg/250px-In_Utero_%28Nirvana%29_album_cover.jpg"
           }
         ]
       },
@@ -28405,20 +28439,24 @@
         "color": "#78DAF9",
         "elements": [
           {
-            "name": "Tha Carter II",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Tha_Carter_2.jpg/250px-Tha_Carter_2.jpg"
+            "type": "image",
+            "alt": "Tha Carter II",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Tha_Carter_2.jpg/250px-Tha_Carter_2.jpg"
           },
           {
-            "name": "The Marshall Mathers LP 2",
-            "image": "https://up  load.wikimedia.org/wikipedia/en/thumb/8/87/The_Marshall_Mathers_LP_2.png/250px-The_Marshall_Mathers_LP_2.png"
+            "type": "image",
+            "alt": "The Marshall Mathers LP 2",
+            "url": "https://up  load.wikimedia.org/wikipedia/en/thumb/8/87/The_Marshall_Mathers_LP_2.png/250px-The_Marshall_Mathers_LP_2.png"
           },
           {
-            "name": "The Blueprint 2: The Gift & the Curse",
+            "type": "image",
+            "alt": "The Blueprint 2: The Gift & the Curse",
             "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Jay-z-blueprint-2-gift-curse.jpg/250px-Jay-z-blueprint-2-gift-curse.jpg"
           },
           {
-            "name": "Led Zeppelin II",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg/250px-Led_Zeppelin_-_Led_Zeppelin_II.jpg"
+            "type": "image",
+            "alt": "Led Zeppelin II",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg/250px-Led_Zeppelin_-_Led_Zeppelin_II.jpg"
           }
         ]
       },
@@ -28427,20 +28465,24 @@
         "color": "#FFBC21",
         "elements": [
           {
-            "name": "Illmatic",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/IllmaticNas.jpg/250px-IllmaticNas.jpg"
+            "type": "image",
+            "alt": "Illmatic",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/IllmaticNas.jpg/250px-IllmaticNas.jpg"
           },
           {
-            "name": "The Chronic",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Dr.DreTheChronic.jpg/250px-Dr.DreTheChronic.jpg"
+            "type": "image",
+            "alt": "The Chronic",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Dr.DreTheChronic.jpg/250px-Dr.DreTheChronic.jpg"
           },
           {
-            "name": "All Eyez on Me",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Alleyezonme.jpg/250px-Alleyezonme.jpg"
+            "type": "image",
+            "alt": "All Eyez on Me",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Alleyezonme.jpg/250px-Alleyezonme.jpg"
           },
           {
-            "name": "Enter the Wu-Tang (36 Chambers)",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Wu-TangClanEntertheWu-Tangalbumcover.jpg/250px-Wu-TangClanEntertheWu-Tangalbumcover.jpg"
+            "type": "image",
+            "alt": "Enter the Wu-Tang (36 Chambers)",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Wu-TangClanEntertheWu-Tangalbumcover.jpg/250px-Wu-TangClanEntertheWu-Tangalbumcover.jpg"
           }
         ]
       }
@@ -28519,7 +28561,7 @@
         "color": "#FAA3FF",
         "elements": [
           "Chappell Roan",
-          "Olivia Rodrigo",
+          "Olivia Dean",
           "Samara Joy",
           "Victoria Monét"
         ]
@@ -28548,10 +28590,12 @@
     ],
     "gameoverGif": "https://media1.giphy.com/media/3m8S6W0d9VQbkByldn/200.gif",
     "message-content": "grammy awards only 🎤",
-    "special-message": true
+    "special-message": true,
+    "shoutout": true,
+    "shoutout-name": "ava polk"
   },
   "02/20/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/0xGW2iyAMnNyh5oYmAmWkD?si=84302744d626464c",
     "shoutout": true,
     "categories": [
       {
@@ -28595,11 +28639,11 @@
         ]
       }
     ],
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/w9-FQbeMhugAAAAe/mans-best-friend-goodbye.png",
     "shoutout-name": "kevdawg812"
   },
   "02/21/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/2G74YZaHw1wT1ba7AFw1Js?si=6c471ed49c414047",
     "shoutout": true,
     "categories": [
       {
@@ -28645,11 +28689,61 @@
     ],
     "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybzFldXJpcG5hcHM5cTI5Z25tZjYyZDZvbnF4M2F5ajJqamp1MG1yOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/39DV0pT9v42Fq/giphy.gif",
     "shoutout-name": "jengusroundstone",
-    "message-content": "Fearsome Foursomes",
+    "message-content": "theme: fearsome foursomes",
     "special-message": true
   },
+  "02/22/2026": {
+    "playlist": "https://open.spotify.com/playlist/3VoJ39Ozjqy10OphDtCx5U?si=45ead744e4224b55",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Lyrics to L-O-V-E",
+        "color": "#CBff70",
+        "elements": [
+          "Two in love can make it",
+          "Love was made for me and you",
+          "Very, very extraordinary",
+          "Take my heart and please don't break it"
+        ]
+      },
+      {
+        "name": "Jazz Standards",
+        "color": "#FAA3FF",
+        "elements": [
+          "So What",
+          "Autumn Leaves",
+          "Fly Me to the Moon",
+          "Take the \"A\" Train"
+        ]
+      },
+      {
+        "name": "Saxophone Types",
+        "color": "#78DAF9",
+        "elements": [
+          "Alto",
+          "Tenor",
+          "Soprano",
+          "Baritone"
+        ]
+      },
+      {
+        "name": "Jazz Musician Nicknames",
+        "color": "#FFBC21",
+        "elements": [
+          "Bird",
+          "Lady Day",
+          "Hawk",
+          "Satchmo"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUydTlycHZmcWoxZm9jeWNocmxldnJsN2kzbXZjY2p6emt5ZGlzdnEyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1ep7zZpTYGcDe/giphy.gif",
+    "shoutout-name": "reagen",
+    "message-content": "feeling jazzy",
+    "special-message": true
+  },  
   "02/23/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/1STnnl1unEpCLIwHz6VIJe?si=edabc6967acb4577",
     "gameoverGif": "https://media.tenor.com/bh4syrAj6JAAAAAM/friends-happy-valentines-day.gif",
     "categories": [
       {
@@ -28679,9 +28773,120 @@
     "special-message": true,
     "message-content": ""
   },
+  "02/24/2026": {
+    "playlist": "https://open.spotify.com/playlist/3VJc9sRtPqlYmRHc2l7l83?si=7165091608d749f1",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSudtVqrBpqf3EuWfB09S_ljFUAZ3muTnEcwg&s",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "Album Covers Featuring Crowds",
+        "color": "#CBff70",
+        "elements": [
+          {
+            "type": "image",
+            "alt": "Sgt. Pepper's Lonely Hearts Club Band",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sgt._Pepper%27s_Lonely_Hearts_Club_Band_album_art.jpg/250px-Sgt._Pepper%27s_Lonely_Hearts_Club_Band_album_art.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "To Pimp a Butterfly",
+            "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png"
+          },
+          {
+            "type": "image",
+            "alt": "Dookie",
+            "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "Woodstock Soundtrack",
+            "url": "https://upload.wikimedia.org/wikipedia/en/8/81/Woodstock_Original_Soundtrack_1970.jpg"
+          }
+        ]
+      },
+      {
+        "name": "90s Alt-Rock Essentials",
+        "color": "#FAA3FF",
+        "elements": [
+          {
+            "type": "image",
+            "alt": "Siamese Dream",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/SmashingPumpkins-SiameseDream.jpg/250px-SmashingPumpkins-SiameseDream.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "OK Computer",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Radioheadokcomputer.png/250px-Radioheadokcomputer.png"
+          },
+          {
+            "type": "image",
+            "alt": "Jagged Little Pill",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg/250px-Alanis_Morissette_-_Jagged_Little_Pill.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "Weezer (Blue Album)",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Weezer_-_Blue_Album.png/250px-Weezer_-_Blue_Album.png"
+          }
+        ]
+      },
+      {
+        "name": "Albums Named After Alter Egos",
+        "color": "#78DAF9",
+        "elements": [
+          {
+            "type": "image",
+            "alt": "The Rise and Fall of Ziggy Stardust...",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/ZiggyStardust.jpg/250px-ZiggyStardust.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "The Slim Shady LP",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Eminem_-_The_Slim_Shady_LP_CD_cover.jpg/250px-Eminem_-_The_Slim_Shady_LP_CD_cover.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "I Am... Sasha Fierce",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/I_Am..._Sasha_Fierce.png/250px-I_Am..._Sasha_Fierce.png"
+          },
+          {
+            "type": "image",
+            "alt": "Pink Friday: Roman Reloaded",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Nicki_Minaj_Pink_Friday_Roman_Reloaded_cover.jpg/250px-Nicki_Minaj_Pink_Friday_Roman_Reloaded_cover.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Albums Released Before the Artist Turned 18",
+        "color": "#FFBC21",
+        "elements": [
+          {
+            "type": "image",
+            "alt": "Pure Heroine",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Lorde_Pure_Heroine.png/250px-Lorde_Pure_Heroine.png"
+          },
+          {
+            "type": "image",
+            "alt": "...Baby One More Time",
+            "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/..._Baby_One_More_Time_%28album%29.png"
+          },
+          {
+            "type": "image",
+            "alt": "When We All Fall Asleep, Where Do We Go?",
+            "url": "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png"
+          },
+          {
+            "type": "image",
+            "alt": "My World 2.0",
+            "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Myworld2.jpg"
+          }
+        ]
+      }
+    ]
+  },
   "02/25/2026": {
-    "playlist": "",
-    "gameoverGif": "",
+    "playlist": "https://open.spotify.com/playlist/5R6CFvjMVCZJcdFDTdrCSR?si=6065d4c8ecb24802",
+    "gameoverGif": "https://media.tenor.com/5MJJzn89g-4AAAAM/say-so-fortnite.gif",
     "categories": [
       {
         "name": "2020s streaming megahits",
@@ -28734,7 +28939,7 @@
     "message-content": "i was in some questionable discord chats during lockdown. i was 13. that was messed up."
   },
   "02/26/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/17QeJMG18hx3BEAND0t4ng?si=096434d385a74888",
     "shoutout": true,
     "categories": [
       {
@@ -28745,10 +28950,10 @@
       {
         "name": "1+ BILLION STREAMED KENDRICK LAMAR SONGS",
         "color": "#FAA3FF",
-        "elements": ["HUMBLE", "SWIMMING POOLS", "LUTHER", "PRIDE"]
+        "elements": ["HUMBLE", "SWIMMING POOLS", "LUTHER", "NOT LIKE US"]
       },
       {
-        "name": "\"I...\" RAP SONGS",
+        "name": "\"I...\" SONGS",
         "color": "#78DAF9",
         "elements": ["JUST MIGHT", "KNOW ?", "SPY", "RIS"]
       },
@@ -28760,5 +28965,104 @@
     ],
     "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnl4NWd4a3cwZTRsOHNlazJ4NWxxamZlanYxbHhpbnA2ZGJ6djdicyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VGsT1jzgSQM5a/giphy.gif",
     "shoutout-name": "akward"
-  }  
+  },
+  "02/27/2026": {
+    "playlist": "https://open.spotify.com/playlist/5Aelpuz0kailMUTzso6Z5I?si=56a11574f4bb45b1",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Travis Scott Albums",
+        "color": "#CBff70",
+        "elements": [
+          "Jackboys 2",
+          "Astroworld",
+          "Rodeo",
+          "Utopia"
+        ]
+      },
+      {
+        "name": "Harry Styles Songs",
+        "color": "#FAA3FF",
+        "elements": [
+          "Kiwi",
+          "Falling",
+          "Matilda",
+          "Aperture"
+        ]
+      },
+      {
+        "name": "Ariana Grande Collaborators",
+        "color": "#78DAF9",
+        "elements": [
+          "Zedd",
+          "Mac Miller",
+          "The Weeknd",
+          "Doja Cat"
+        ]
+      },
+      {
+        "name": "Kehlani Songs",
+        "color": "#FFBC21",
+        "elements": [
+          "Honey",
+          "Folded",
+          "Gangsta",
+          "After Hours"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media.tenor.com/IkxkK4BThwYAAAAM/harry-styles.gif",
+    "shoutout-name": "musicchen",
+    "special-message": false
+  },
+  "02/28/2026": {
+    "playlist": "https://open.spotify.com/playlist/3KKOhoLGUKLs46DYnFYvm5?si=f5279a33b36b41d4",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Jazz Legends",
+        "color": "#CBff70",
+        "elements": [
+          "Nina Simone",
+          "Billie Holiday",
+          "Ella Fitzgerald",
+          "Sarah Vaughan"
+        ]
+      },
+      {
+        "name": "R&B Legends",
+        "color": "#FAA3FF",
+        "elements": [
+          "Al Green",
+          "Stevie Wonder",
+          "Marvin Gaye",
+          "Otis Redding"
+        ]
+      },
+      {
+        "name": "Motown Groups",
+        "color": "#78DAF9",
+        "elements": [
+          "The Temptations",
+          "The Supremes",
+          "The Jackson 5",
+          "The Isley Brothers"
+        ]
+      },
+      {
+        "name": "Hip Hop Pioneers",
+        "color": "#FFBC21",
+        "elements": [
+          "DJ Kool Herc",
+          "Grandmaster Flash",
+          "Grand Wizard Theodore",
+          "DJ Hollywood"
+        ]
+      }
+    ],
+    "gameoverGif": "https://tenor.com/view/the-jackson-5-dancing-machine-i-am-love-michael-jackson-tito-jackson-gif-1868552795689530752",
+    "shoutout-name": "bryce",
+    "message-content": "happy black history month",
+    "special-message": true
+  }
 }
