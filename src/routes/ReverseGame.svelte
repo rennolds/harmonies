@@ -616,7 +616,7 @@
             style="background-color: {cat.color}"
             role="button"
             tabindex="0"
-            on:click={() => handleCategoryAreaTap(catIndex)}
+            on:click|stopPropagation={() => handleCategoryAreaTap(catIndex)}
             on:keydown={(e) =>
               e.key === "Enter" && handleCategoryAreaTap(catIndex)}
           >
@@ -639,7 +639,8 @@
                 data-drop-slot="{catIndex},{slotIndex}"
                 role="button"
                 tabindex="0"
-                on:click={() => handleSlotTap(catIndex, slotIndex)}
+                on:click|stopPropagation={() =>
+                  handleSlotTap(catIndex, slotIndex)}
                 on:keydown={(e) =>
                   e.key === "Enter" && handleSlotTap(catIndex, slotIndex)}
               >
@@ -694,7 +695,7 @@
           role="button"
           tabindex="0"
           on:pointerdown={(e) => startDrag(e, item, "pool")}
-          on:click={() => handlePoolItemTap(item)}
+          on:click|stopPropagation={() => handlePoolItemTap(item)}
           on:keydown={(e) => e.key === "Enter" && handlePoolItemTap(item)}
         >
           {#if typeof item === "object" && item.type === "image"}
