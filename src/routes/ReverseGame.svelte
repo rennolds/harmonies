@@ -91,34 +91,24 @@
 
   // Touch-specific: direction-aware threshold
   // Phase: 'idle' | 'pending' | 'dragging' | 'scrolling'
-  let dragPhase = "idle";
-  let dragTimer = null;
-  let pendingItem = null;
-  let pendingSource = null;
-  let touchStartX = 0;
-  let touchStartY = 0;
-  const DRAG_DELAY_MS = 300;
-  const MOVE_THRESHOLD = 5; // px movement that cancels long-press
+  // let dragPhase = "idle"; // Removed for Tap-Only mode
+  // let dragTimer = null; // Removed for Tap-Only mode
+  // let pendingItem = null; // Removed for Tap-Only mode
+  // let pendingSource = null; // Removed for Tap-Only mode
+  // let touchStartX = 0; // Removed for Tap-Only mode
+  // let touchStartY = 0; // Removed for Tap-Only mode
+  // const DRAG_DELAY_MS = 300; // Removed for Tap-Only mode
+  // const MOVE_THRESHOLD = 5; // px movement that cancels long-press
 
   // ─── Drag Logic ─────────────────────────────────────────────────────────────
   // Mouse: immediate drag (desktop).
-  // Touch: enters "pending" phase. First significant move decides:
-  //   - Vertical → manual scroll (because touch-action:none blocks native scroll)
-  //   - Horizontal → commit to drag, show ghost
-  //   - Tap (no movement) → tap handler
+  // Touch: Tap-only mode. Drag is disabled to allow native scrolling.
 
   function resetDragState() {
     dragItem = null;
     dragSource = null;
     hoveredDrop = null;
     dragHasMoved = false;
-    dragPhase = "idle";
-    pendingItem = null;
-    pendingSource = null;
-    if (dragTimer) {
-      clearTimeout(dragTimer);
-      dragTimer = null;
-    }
   }
 
   function cleanupListeners() {
@@ -132,8 +122,15 @@
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
 
+    // Mobile: Tap-only mode. Drag is disabled.
+    if (event.pointerType === "touch") {
+      // Treat as a tap immediately
+      handleTap(item, source);
+      return;
+    }
+
     // If a previous drag is stuck, force-cancel it
-    if (dragPhase !== "idle") {
+    if (dragItem) {
       cleanupListeners();
       resetDragState();
     }
@@ -148,37 +145,10 @@
     ghostX = rect.left;
     ghostY = rect.top;
 
-    if (event.pointerType === "touch") {
-      // Touch: enter pending phase. Wait for long-press to start drag.
-      dragPhase = "pending";
-      pendingItem = item;
-      pendingSource = source;
-      touchStartX = event.clientX;
-      touchStartY = event.clientY;
-
-      // Start long-press timer
-      dragTimer = setTimeout(() => {
-        // Long press confirmed!
-        if (dragPhase === "pending") {
-          // Haptic feedback if available
-          if (navigator.vibrate) navigator.vibrate(50);
-
-          dragPhase = "dragging";
-          dragItem = pendingItem;
-          dragSource = pendingSource;
-          dragHasMoved = true; // treat as moved so tap doesn't fire on release
-          pendingItem = null;
-          pendingSource = null;
-          dragTimer = null;
-        }
-      }, DRAG_DELAY_MS);
-    } else {
-      // Mouse: immediate drag
-      dragPhase = "dragging";
-      dragItem = item;
-      dragSource = source;
-      dragHasMoved = false;
-    }
+    // Mouse: immediate drag
+    dragItem = item;
+    dragSource = source;
+    dragHasMoved = false;
 
     window.addEventListener("pointermove", handlePointerMove, {
       passive: false,
@@ -189,79 +159,41 @@
   }
 
   function handlePointerMove(event) {
-    if (dragPhase === "pending") {
-      // If user moves finger significantly before timer fires, cancel drag intent
-      const dx = Math.abs(event.clientX - touchStartX);
-      const dy = Math.abs(event.clientY - touchStartY);
+    if (!dragItem) return;
+    event.preventDefault();
 
-      if (dx > MOVE_THRESHOLD || dy > MOVE_THRESHOLD) {
-        // User is scrolling or swiping — cancel drag timer
-        if (dragTimer) {
-          clearTimeout(dragTimer);
-          dragTimer = null;
-        }
-        // Release control so browser can scroll naturally
-        cleanupListeners();
-        resetDragState();
-      }
-      return;
-    }
-
-    // ── DRAGGING phase ──
-    if (dragPhase === "dragging") {
-      if (!dragItem) return;
-      event.preventDefault();
-
-      dragHasMoved = true;
-      ghostX = event.clientX - ghostOffsetX;
-      ghostY = event.clientY - ghostOffsetY;
-      updateHoveredDrop(event.clientX, event.clientY);
-    }
+    dragHasMoved = true;
+    ghostX = event.clientX - ghostOffsetX;
+    ghostY = event.clientY - ghostOffsetY;
+    updateHoveredDrop(event.clientX, event.clientY);
   }
 
   function handlePointerUp() {
-    if (dragPhase === "pending") {
-      // Timer didn't fire yet — treat as normal tap
-      const item = pendingItem;
-      const source = pendingSource;
+    if (!dragItem) {
       cleanupListeners();
       resetDragState();
-      if (item) handleTap(item, source);
       return;
     }
 
-    if (dragPhase === "dragging") {
-      if (!dragItem) {
-        cleanupListeners();
-        resetDragState();
-        return;
-      }
+    const drop = hoveredDrop;
+    const item = dragItem;
+    const source = dragSource;
+    const moved = dragHasMoved;
 
-      const drop = hoveredDrop;
-      const item = dragItem;
-      const source = dragSource;
-      const moved = dragHasMoved;
-
-      cleanupListeners();
-      resetDragState();
-
-      if (!moved) {
-        handleTap(item, source);
-        return;
-      }
-
-      suppressClick = true;
-      setTimeout(() => {
-        suppressClick = false;
-      }, 0);
-
-      performDrop(item, source, drop);
-      return;
-    }
-
-    // Fallback
     cleanupListeners();
     resetDragState();
+
+    if (!moved) {
+      handleTap(item, source);
+      return;
+    }
+
+    suppressClick = true;
+    setTimeout(() => {
+      suppressClick = false;
+    }, 0);
+
+    performDrop(item, source, drop);
   }
 
   function handlePointerCancel() {
@@ -416,10 +348,14 @@
     if (suppressClick) return;
     if (gameOver || showingResult) return;
     if (lockedCategories.has(catIndex)) return;
+
+    // If no item selected, do nothing (or we could highlight the category)
     if (!selectedItem) return;
 
     const newSlots = slots.map((cs) => [...cs]);
     const firstEmpty = newSlots[catIndex].findIndex((s) => !s);
+
+    // If category is full, do nothing
     if (firstEmpty === -1) return;
 
     if (selectedSource !== "pool") {
