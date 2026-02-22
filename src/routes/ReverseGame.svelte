@@ -123,6 +123,9 @@
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
 
+    // Touch devices use tap-to-place only — skip drag so scrolling works
+    if (event.pointerType === "touch") return;
+
     // If a previous drag is stuck, force-cancel it
     if (dragItem) {
       cleanupListeners();
@@ -1240,11 +1243,11 @@
     .zoom-btn {
       display: none;
     }
-    /* Mobile: allow vertical page scrolling over draggable tiles. */
+    /* Mobile: no drag, tap-only — allow full native scrolling */
     .slot-item,
     .pool-item,
     .slot {
-      touch-action: pan-y;
+      touch-action: auto;
     }
   }
 
