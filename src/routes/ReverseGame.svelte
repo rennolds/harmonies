@@ -58,6 +58,11 @@
     const key = getElementKey(item);
     return !lockedItemKeys.has(key) && !slottedItemKeys.has(key);
   });
+  $: redHerringsCategory = {
+    name: "RED HERRINGS",
+    color: "#E07A8A",
+    elements: pool.slice(0, 4),
+  };
 
   $: canSubmit =
     !gameOver &&
@@ -81,33 +86,52 @@
   let ghostOffsetX = 0;
   let ghostOffsetY = 0;
   let dragHasMoved = false;
+  let suppressClick = false;
 
   /** @type {{ type: 'slot', catIndex: number, slotIndex: number } | { type: 'category', catIndex: number } | { type: 'pool' } | null} */
   let hoveredDrop = null;
 
-  let activePointerId = null;
+  // ─── Drag Logic ─────────────────────────────────────────────────────────────
+  // We listen on window for move/up so it doesn't matter if the source DOM
+  // element is removed by Svelte reactivity mid-drag.  No setPointerCapture
+  // is used — that causes lost events when Svelte destroys the captured node.
+
+  function resetDragState() {
+    dragItem = null;
+    dragSource = null;
+    hoveredDrop = null;
+    dragHasMoved = false;
+  }
+
+  function cleanupListeners() {
+    if (typeof window === "undefined") return;
+    window.removeEventListener("pointermove", handlePointerMove);
+    window.removeEventListener("pointerup", handlePointerUp);
+    window.removeEventListener("pointercancel", handlePointerCancel);
+    window.removeEventListener("blur", handlePointerCancel);
+    document.removeEventListener("visibilitychange", handleVisibilityChange);
+  }
+
+  function handleVisibilityChange() {
+    if (typeof document !== "undefined" && document.hidden) {
+      handlePointerCancel();
+    }
+  }
 
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
 
-    // Self-healing: if a drag is already active (stuck state), cancel it first.
+    // If a previous drag is stuck, force-cancel it
     if (dragItem) {
-      cancelDrag();
+      cleanupListeners();
+      resetDragState();
     }
+    // Ensure no stale listeners from any previous cycle
+    cleanupListeners();
 
     dragItem = item;
     dragSource = source;
     dragHasMoved = false;
-    activePointerId = event.pointerId;
-
-    // Capture pointer
-    try {
-      if (event.currentTarget.setPointerCapture) {
-        event.currentTarget.setPointerCapture(event.pointerId);
-      }
-    } catch (e) {
-      console.error("Failed to capture pointer", e);
-    }
 
     const rect = event.currentTarget.getBoundingClientRect();
     ghostW = rect.width;
@@ -117,16 +141,19 @@
     ghostX = rect.left;
     ghostY = rect.top;
 
+    // Listen on window — these fire even if the source element is destroyed
     window.addEventListener("pointermove", handlePointerMove, {
       passive: false,
     });
     window.addEventListener("pointerup", handlePointerUp);
-    window.addEventListener("pointercancel", cancelDrag);
+    window.addEventListener("pointercancel", handlePointerCancel);
+    window.addEventListener("blur", handlePointerCancel);
+    document.addEventListener("visibilitychange", handleVisibilityChange);
   }
 
   function handlePointerMove(event) {
-    if (!dragItem || event.pointerId !== activePointerId) return;
-    event.preventDefault(); // prevent scroll while dragging
+    if (!dragItem) return;
+    event.preventDefault();
 
     dragHasMoved = true;
     ghostX = event.clientX - ghostOffsetX;
@@ -136,51 +163,38 @@
   }
 
   function handlePointerUp(event) {
-    if (!dragItem || event.pointerId !== activePointerId) return;
-
-    cleanupListeners();
+    if (!dragItem) {
+      // Nothing active — just make sure listeners are cleaned up
+      cleanupListeners();
+      return;
+    }
 
     const drop = hoveredDrop;
     const item = dragItem;
     const source = dragSource;
+    const moved = dragHasMoved;
 
-    // Reset drag state first
-    dragItem = null;
-    dragSource = null;
-    hoveredDrop = null;
-    activePointerId = null;
+    // Always clean up first, no matter what
+    cleanupListeners();
+    resetDragState();
 
-    // If barely moved (just a tap), treat as click-to-toggle
-    if (!dragHasMoved) {
+    if (!moved) {
       handleTap(item, source);
       return;
     }
 
+    // Prevent the click event that fires after a drag-drop from mutating state.
+    suppressClick = true;
+    setTimeout(() => {
+      suppressClick = false;
+    }, 0);
+
     performDrop(item, source, drop);
   }
 
-  function cancelDrag(event) {
-    if (
-      event &&
-      event.pointerId &&
-      activePointerId !== null &&
-      event.pointerId !== activePointerId
-    )
-      return;
-
+  function handlePointerCancel() {
     cleanupListeners();
-    dragItem = null;
-    dragSource = null;
-    hoveredDrop = null;
-    activePointerId = null;
-  }
-
-  function cleanupListeners() {
-    if (typeof window !== "undefined") {
-      window.removeEventListener("pointermove", handlePointerMove);
-      window.removeEventListener("pointerup", handlePointerUp);
-      window.removeEventListener("pointercancel", cancelDrag);
-    }
+    resetDragState();
   }
 
   onDestroy(cleanupListeners);
@@ -272,6 +286,7 @@
   }
 
   function handleSlotTap(catIndex, slotIndex) {
+    if (suppressClick) return;
     if (gameOver || showingResult) return;
     if (lockedCategories.has(catIndex)) return;
 
@@ -300,6 +315,7 @@
   }
 
   function handlePoolItemTap(item) {
+    if (suppressClick) return;
     if (gameOver || showingResult) return;
 
     if (
@@ -325,6 +341,7 @@
   }
 
   function handleCategoryAreaTap(catIndex) {
+    if (suppressClick) return;
     if (gameOver || showingResult) return;
     if (lockedCategories.has(catIndex)) return;
     if (!selectedItem) return;
@@ -648,52 +665,58 @@
     {/each}
   </div>
 
-  <!-- ── Item pool ── -->
-  <div class="pool-header">
-    <!-- <span class="pool-title">Item Pool</span>
-    <span class="pool-subtitle">(Contains 4 decoys!)</span> -->
-  </div>
-  <div class="pool-area" data-drop-pool="true">
-    {#each pool as item (getElementKey(item))}
-      <div
-        animate:flip={{ duration: 200 }}
-        class="pool-item"
-        class:is-dragging={isDragging(item)}
-        class:is-selected={isSelected(item)}
-        class:has-image={typeof item === "object" && item.type === "image"}
-        role="button"
-        tabindex="0"
-        on:pointerdown={(e) => startDrag(e, item, "pool")}
-        on:click={() => handlePoolItemTap(item)}
-        on:keydown={(e) => e.key === "Enter" && handlePoolItemTap(item)}
-      >
-        {#if typeof item === "object" && item.type === "image"}
-          <img
-            src={item.url}
-            alt={item.alt || ""}
-            class="item-img"
-            draggable="false"
-          />
-          <button
-            class="zoom-btn"
-            on:click|stopPropagation={() => openZoom(item.url, item.alt)}
-          >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-              <path
-                d="M15 3H21M21 3V9M21 3L14 10M9 21H3M3 21V15M3 21L10 14"
-                stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
-        {:else}
-          <p>{item}</p>
-        {/if}
-      </div>
-    {/each}
-  </div>
+  {#if gameOver && pool.length > 0}
+    <div class="red-herrings-row">
+      <ClearedCategory category={redHerringsCategory} />
+    </div>
+  {:else}
+    <!-- ── Item pool ── -->
+    <div class="pool-header">
+      <!-- <span class="pool-title">Item Pool</span>
+      <span class="pool-subtitle">(Contains 4 decoys!)</span> -->
+    </div>
+    <div class="pool-area" data-drop-pool="true">
+      {#each pool as item (getElementKey(item))}
+        <div
+          animate:flip={{ duration: 200 }}
+          class="pool-item"
+          class:is-dragging={isDragging(item)}
+          class:is-selected={isSelected(item)}
+          class:has-image={typeof item === "object" && item.type === "image"}
+          role="button"
+          tabindex="0"
+          on:pointerdown={(e) => startDrag(e, item, "pool")}
+          on:click={() => handlePoolItemTap(item)}
+          on:keydown={(e) => e.key === "Enter" && handlePoolItemTap(item)}
+        >
+          {#if typeof item === "object" && item.type === "image"}
+            <img
+              src={item.url}
+              alt={item.alt || ""}
+              class="item-img"
+              draggable="false"
+            />
+            <button
+              class="zoom-btn"
+              on:click|stopPropagation={() => openZoom(item.url, item.alt)}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M15 3H21M21 3V9M21 3L14 10M9 21H3M3 21V15M3 21L10 14"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          {:else}
+            <p>{item}</p>
+          {/if}
+        </div>
+      {/each}
+    </div>
+  {/if}
 
   <!-- ── Mistakes bar ── -->
   {#if !gameOver}
@@ -857,6 +880,11 @@
     width: 100%;
   }
 
+  .red-herrings-row {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
   /* ── Buckets wrapper (2 Columns) ── */
   .buckets-wrapper {
     width: 100%;
@@ -946,13 +974,11 @@
     grid-template-columns: 1fr 1fr; /* 2x2 grid */
     gap: 3px; /* Reduced gap */
     padding: 3px; /* Reduced padding */
-    flex-grow: 1;
   }
 
   /* ── Individual slot ── */
   .slot {
-    aspect-ratio: 1 / 1; /* Force square */
-    height: auto; /* Let width dictate height */
+    height: 52px;
     border-radius: 6px;
     border: 1px dashed rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.03);
@@ -1368,6 +1394,9 @@
     /* Desktop adjustments */
     .buckets-wrapper {
       grid-template-columns: repeat(4, 1fr); /* 4 columns on wide screens */
+    }
+    .slot {
+      height: 60px;
     }
     .pool-item {
       height: 70px;
