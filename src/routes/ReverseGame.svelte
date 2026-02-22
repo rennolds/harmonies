@@ -86,23 +86,46 @@
   let ghostOffsetX = 0;
   let ghostOffsetY = 0;
   let dragHasMoved = false;
-  let activePointerType = "mouse";
   let suppressClick = false;
 
   /** @type {{ type: 'slot', catIndex: number, slotIndex: number } | { type: 'category', catIndex: number } | { type: 'pool' } | null} */
   let hoveredDrop = null;
 
   // ─── Drag Logic ─────────────────────────────────────────────────────────────
-  // We listen on window for move/up so it doesn't matter if the source DOM
-  // element is removed by Svelte reactivity mid-drag.  No setPointerCapture
-  // is used — that causes lost events when Svelte destroys the captured node.
+  // Desktop: drag starts immediately on pointerdown.
+  // Mobile (touch): drag starts after a 300ms long-press. If the finger moves
+  // before that, the hold timer is cancelled and the browser scrolls normally.
+  // Tap (short press + release) always goes through the tap-to-place flow.
+
+  const LONG_PRESS_MS = 300;
+  const LONG_PRESS_MOVE_TOLERANCE = 8; // px — cancel hold if finger drifts
+
+  let holdTimer = null;
+  let holdItem = null;
+  let holdSource = null;
+  let holdStartX = 0;
+  let holdStartY = 0;
+  /** @type {EventTarget | null} */
+  let holdTarget = null;
+  let isDragging = false; // true once drag is fully active (ghost visible)
 
   function resetDragState() {
     dragItem = null;
     dragSource = null;
     hoveredDrop = null;
     dragHasMoved = false;
-    activePointerType = "mouse";
+    isDragging = false;
+    clearHoldTimer();
+  }
+
+  function clearHoldTimer() {
+    if (holdTimer) {
+      clearTimeout(holdTimer);
+      holdTimer = null;
+    }
+    holdItem = null;
+    holdSource = null;
+    holdTarget = null;
   }
 
   function cleanupListeners() {
@@ -123,31 +146,69 @@
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
 
-    // Touch devices use tap-to-place only — skip drag so scrolling works
-    if (event.pointerType === "touch") return;
-
     // If a previous drag is stuck, force-cancel it
-    if (dragItem) {
+    if (dragItem || isDragging) {
       cleanupListeners();
       resetDragState();
     }
-    // Ensure no stale listeners from any previous cycle
     cleanupListeners();
+
+    const isTouch = event.pointerType === "touch";
+
+    if (isTouch) {
+      // --- Touch: start a long-press timer ---
+      holdItem = item;
+      holdSource = source;
+      holdStartX = event.clientX;
+      holdStartY = event.clientY;
+      holdTarget = event.currentTarget;
+
+      holdTimer = setTimeout(() => {
+        // Long press succeeded — begin drag
+        activateDrag(holdItem, holdSource, holdTarget, holdStartX, holdStartY);
+        clearHoldTimer();
+      }, LONG_PRESS_MS);
+
+      // Listen for move/up to cancel the hold if needed
+      window.addEventListener("pointermove", handleHoldMove, {
+        passive: true,
+      });
+      window.addEventListener("pointerup", handleHoldUp);
+      window.addEventListener("pointercancel", handleHoldCancel);
+    } else {
+      // --- Mouse: start drag immediately ---
+      activateDrag(
+        item,
+        source,
+        event.currentTarget,
+        event.clientX,
+        event.clientY,
+      );
+    }
+  }
+
+  // Called when a drag actually begins (immediately for mouse, after hold for touch)
+  function activateDrag(item, source, targetEl, clientX, clientY) {
+    if (!targetEl) return;
+    const rect = targetEl.getBoundingClientRect();
 
     dragItem = item;
     dragSource = source;
     dragHasMoved = false;
-    activePointerType = event.pointerType || "mouse";
+    isDragging = true;
 
-    const rect = event.currentTarget.getBoundingClientRect();
     ghostW = rect.width;
     ghostH = rect.height;
-    ghostOffsetX = event.clientX - rect.left;
-    ghostOffsetY = event.clientY - rect.top;
+    ghostOffsetX = clientX - rect.left;
+    ghostOffsetY = clientY - rect.top;
     ghostX = rect.left;
     ghostY = rect.top;
 
-    // Listen on window — these fire even if the source element is destroyed
+    // Clean up hold-phase listeners before adding drag-phase listeners
+    window.removeEventListener("pointermove", handleHoldMove);
+    window.removeEventListener("pointerup", handleHoldUp);
+    window.removeEventListener("pointercancel", handleHoldCancel);
+
     window.addEventListener("pointermove", handlePointerMove, {
       passive: false,
     });
@@ -157,12 +218,43 @@
     document.addEventListener("visibilitychange", handleVisibilityChange);
   }
 
+  // --- Hold-phase handlers (touch only, before drag activates) ---
+
+  function handleHoldMove(event) {
+    if (!holdTimer) return;
+    const dx = event.clientX - holdStartX;
+    const dy = event.clientY - holdStartY;
+    if (
+      Math.abs(dx) > LONG_PRESS_MOVE_TOLERANCE ||
+      Math.abs(dy) > LONG_PRESS_MOVE_TOLERANCE
+    ) {
+      // Finger moved too far — cancel hold, let browser scroll
+      handleHoldCancel();
+    }
+  }
+
+  function handleHoldUp() {
+    // Released before long-press threshold — treat as tap
+    const item = holdItem;
+    const source = holdSource;
+    handleHoldCancel();
+    if (item) {
+      handleTap(item, source);
+    }
+  }
+
+  function handleHoldCancel() {
+    clearHoldTimer();
+    window.removeEventListener("pointermove", handleHoldMove);
+    window.removeEventListener("pointerup", handleHoldUp);
+    window.removeEventListener("pointercancel", handleHoldCancel);
+  }
+
+  // --- Drag-phase handlers (active drag for both mouse and touch) ---
+
   function handlePointerMove(event) {
     if (!dragItem) return;
-    // Let touch gestures keep native vertical scrolling behavior on mobile.
-    if (activePointerType !== "touch") {
-      event.preventDefault();
-    }
+    event.preventDefault(); // lock scroll while actively dragging
 
     dragHasMoved = true;
     ghostX = event.clientX - ghostOffsetX;
@@ -173,7 +265,6 @@
 
   function handlePointerUp(event) {
     if (!dragItem) {
-      // Nothing active — just make sure listeners are cleaned up
       cleanupListeners();
       return;
     }
@@ -183,7 +274,6 @@
     const source = dragSource;
     const moved = dragHasMoved;
 
-    // Always clean up first, no matter what
     cleanupListeners();
     resetDragState();
 
@@ -192,7 +282,6 @@
       return;
     }
 
-    // Prevent the click event that fires after a drag-drop from mutating state.
     suppressClick = true;
     setTimeout(() => {
       suppressClick = false;
@@ -509,7 +598,7 @@
     return r && r.correct && !r.alreadyLocked;
   }
 
-  function isDragging(item) {
+  function isItemDragging(item) {
     return dragItem && getElementKey(dragItem) === getElementKey(item);
   }
   function isSelected(item) {
@@ -557,7 +646,7 @@
 </script>
 
 <!-- ── Ghost element follows pointer ── -->
-{#if dragItem && dragHasMoved}
+{#if isDragging && dragItem && dragHasMoved}
   <div
     class="drag-ghost"
     style="left: {ghostX}px; top: {ghostY}px; width: {ghostW}px; height: {ghostH}px;"
@@ -647,7 +736,7 @@
                 {#if slotItem}
                   <div
                     class="slot-item"
-                    class:is-dragging={isDragging(slotItem)}
+                    class:is-dragging={isItemDragging(slotItem)}
                     class:is-selected={slotHasSelected}
                     class:has-image={typeof slotItem === "object" &&
                       slotItem.type === "image"}
@@ -689,7 +778,7 @@
         <div
           animate:flip={{ duration: 200 }}
           class="pool-item"
-          class:is-dragging={isDragging(item)}
+          class:is-dragging={isItemDragging(item)}
           class:is-selected={isSelected(item)}
           class:has-image={typeof item === "object" && item.type === "image"}
           role="button"
@@ -1243,7 +1332,7 @@
     .zoom-btn {
       display: none;
     }
-    /* Mobile: no drag, tap-only — allow full native scrolling */
+    /* Mobile: allow scrolling by default; long-press drag locks scroll via JS */
     .slot-item,
     .pool-item,
     .slot {
