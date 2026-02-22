@@ -89,20 +89,7 @@
   /** @type {{ type: 'slot', catIndex: number, slotIndex: number } | { type: 'category', catIndex: number } | { type: 'pool' } | null} */
   let hoveredDrop = null;
 
-  // Touch-specific: direction-aware threshold
-  // Phase: 'idle' | 'pending' | 'dragging' | 'scrolling'
-  // let dragPhase = "idle"; // Removed for Tap-Only mode
-  // let dragTimer = null; // Removed for Tap-Only mode
-  // let pendingItem = null; // Removed for Tap-Only mode
-  // let pendingSource = null; // Removed for Tap-Only mode
-  // let touchStartX = 0; // Removed for Tap-Only mode
-  // let touchStartY = 0; // Removed for Tap-Only mode
-  // const DRAG_DELAY_MS = 300; // Removed for Tap-Only mode
-  // const MOVE_THRESHOLD = 5; // px movement that cancels long-press
-
   // ─── Drag Logic ─────────────────────────────────────────────────────────────
-  // Mouse: immediate drag (desktop).
-  // Touch: Tap-only mode. Drag is disabled to allow native scrolling.
 
   function resetDragState() {
     dragItem = null;
@@ -122,13 +109,6 @@
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
 
-    // Mobile: Tap-only mode. Drag is disabled.
-    if (event.pointerType === "touch") {
-      // Treat as a tap immediately
-      handleTap(item, source);
-      return;
-    }
-
     // If a previous drag is stuck, force-cancel it
     if (dragItem) {
       cleanupListeners();
@@ -145,7 +125,7 @@
     ghostX = rect.left;
     ghostY = rect.top;
 
-    // Mouse: immediate drag
+    // Immediate drag (both mouse and touch)
     dragItem = item;
     dragSource = source;
     dragHasMoved = false;
@@ -1237,19 +1217,6 @@
 
   .pool-item:hover .zoom-btn {
     opacity: 1;
-  }
-
-  @media (max-width: 767px) {
-    .zoom-btn {
-      display: none;
-    }
-    /* touch-action:none stays on .pool-item and .slot-item so we get
-       all pointer events.  Our JS handles scroll vs drag detection. */
-    .slot-item,
-    .pool-item,
-    .slot {
-      touch-action: pan-y;
-    }
   }
 
   /* ── Mistakes bar (same as main game) ── */
