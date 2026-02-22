@@ -73,8 +73,6 @@
 
   // ─── Drag State ─────────────────────────────────────────────────────────────
 
-  // ─── Drag State ─────────────────────────────────────────────────────────────
-
   /** @type {any} */
   let dragItem = null;
   /** @type {'pool' | { catIndex: number, slotIndex: number }} */
@@ -91,41 +89,31 @@
   /** @type {{ type: 'slot', catIndex: number, slotIndex: number } | { type: 'category', catIndex: number } | { type: 'pool' } | null} */
   let hoveredDrop = null;
 
+  // Touch-specific: direction-aware threshold
+  // Phase: 'idle' | 'pending' | 'dragging' | 'scrolling'
+  let dragPhase = "idle";
+  let pendingItem = null;
+  let pendingSource = null;
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let lastTouchY = 0;
+  const COMMIT_THRESHOLD = 10; // px before we decide drag vs scroll
+
   // ─── Drag Logic ─────────────────────────────────────────────────────────────
-  // Desktop: drag starts immediately on pointerdown.
-  // Mobile (touch): drag starts after a 300ms long-press. If the finger moves
-  // before that, the hold timer is cancelled and the browser scrolls normally.
-  // Tap (short press + release) always goes through the tap-to-place flow.
-
-  const LONG_PRESS_MS = 300;
-  const LONG_PRESS_MOVE_TOLERANCE = 8; // px — cancel hold if finger drifts
-
-  let holdTimer = null;
-  let holdItem = null;
-  let holdSource = null;
-  let holdStartX = 0;
-  let holdStartY = 0;
-  /** @type {EventTarget | null} */
-  let holdTarget = null;
-  let isDragging = false; // true once drag is fully active (ghost visible)
+  // Mouse: immediate drag (desktop).
+  // Touch: enters "pending" phase. First significant move decides:
+  //   - Vertical → manual scroll (because touch-action:none blocks native scroll)
+  //   - Horizontal → commit to drag, show ghost
+  //   - Tap (no movement) → tap handler
 
   function resetDragState() {
     dragItem = null;
     dragSource = null;
     hoveredDrop = null;
     dragHasMoved = false;
-    isDragging = false;
-    clearHoldTimer();
-  }
-
-  function clearHoldTimer() {
-    if (holdTimer) {
-      clearTimeout(holdTimer);
-      holdTimer = null;
-    }
-    holdItem = null;
-    holdSource = null;
-    holdTarget = null;
+    dragPhase = "idle";
+    pendingItem = null;
+    pendingSource = null;
   }
 
   function cleanupListeners() {
@@ -134,80 +122,42 @@
     window.removeEventListener("pointerup", handlePointerUp);
     window.removeEventListener("pointercancel", handlePointerCancel);
     window.removeEventListener("blur", handlePointerCancel);
-    document.removeEventListener("visibilitychange", handleVisibilityChange);
-  }
-
-  function handleVisibilityChange() {
-    if (typeof document !== "undefined" && document.hidden) {
-      handlePointerCancel();
-    }
   }
 
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
 
     // If a previous drag is stuck, force-cancel it
-    if (dragItem || isDragging) {
+    if (dragPhase !== "idle") {
       cleanupListeners();
       resetDragState();
     }
     cleanupListeners();
 
-    const isTouch = event.pointerType === "touch";
-
-    if (isTouch) {
-      // --- Touch: start a long-press timer ---
-      holdItem = item;
-      holdSource = source;
-      holdStartX = event.clientX;
-      holdStartY = event.clientY;
-      holdTarget = event.currentTarget;
-
-      holdTimer = setTimeout(() => {
-        // Long press succeeded — begin drag
-        activateDrag(holdItem, holdSource, holdTarget, holdStartX, holdStartY);
-        clearHoldTimer();
-      }, LONG_PRESS_MS);
-
-      // Listen for move/up to cancel the hold if needed
-      window.addEventListener("pointermove", handleHoldMove, {
-        passive: true,
-      });
-      window.addEventListener("pointerup", handleHoldUp);
-      window.addEventListener("pointercancel", handleHoldCancel);
-    } else {
-      // --- Mouse: start drag immediately ---
-      activateDrag(
-        item,
-        source,
-        event.currentTarget,
-        event.clientX,
-        event.clientY,
-      );
-    }
-  }
-
-  // Called when a drag actually begins (immediately for mouse, after hold for touch)
-  function activateDrag(item, source, targetEl, clientX, clientY) {
-    if (!targetEl) return;
-    const rect = targetEl.getBoundingClientRect();
-
-    dragItem = item;
-    dragSource = source;
-    dragHasMoved = false;
-    isDragging = true;
-
+    // Pre-calculate ghost dimensions (used for both touch and mouse)
+    const rect = event.currentTarget.getBoundingClientRect();
     ghostW = rect.width;
     ghostH = rect.height;
-    ghostOffsetX = clientX - rect.left;
-    ghostOffsetY = clientY - rect.top;
+    ghostOffsetX = event.clientX - rect.left;
+    ghostOffsetY = event.clientY - rect.top;
     ghostX = rect.left;
     ghostY = rect.top;
 
-    // Clean up hold-phase listeners before adding drag-phase listeners
-    window.removeEventListener("pointermove", handleHoldMove);
-    window.removeEventListener("pointerup", handleHoldUp);
-    window.removeEventListener("pointercancel", handleHoldCancel);
+    if (event.pointerType === "touch") {
+      // Touch: enter pending phase — decide drag vs scroll on first move
+      dragPhase = "pending";
+      pendingItem = item;
+      pendingSource = source;
+      touchStartX = event.clientX;
+      touchStartY = event.clientY;
+      lastTouchY = event.clientY;
+    } else {
+      // Mouse: immediate drag
+      dragPhase = "dragging";
+      dragItem = item;
+      dragSource = source;
+      dragHasMoved = false;
+    }
 
     window.addEventListener("pointermove", handlePointerMove, {
       passive: false,
@@ -215,79 +165,119 @@
     window.addEventListener("pointerup", handlePointerUp);
     window.addEventListener("pointercancel", handlePointerCancel);
     window.addEventListener("blur", handlePointerCancel);
-    document.addEventListener("visibilitychange", handleVisibilityChange);
   }
-
-  // --- Hold-phase handlers (touch only, before drag activates) ---
-
-  function handleHoldMove(event) {
-    if (!holdTimer) return;
-    const dx = event.clientX - holdStartX;
-    const dy = event.clientY - holdStartY;
-    if (
-      Math.abs(dx) > LONG_PRESS_MOVE_TOLERANCE ||
-      Math.abs(dy) > LONG_PRESS_MOVE_TOLERANCE
-    ) {
-      // Finger moved too far — cancel hold, let browser scroll
-      handleHoldCancel();
-    }
-  }
-
-  function handleHoldUp() {
-    // Released before long-press threshold — treat as tap
-    const item = holdItem;
-    const source = holdSource;
-    handleHoldCancel();
-    if (item) {
-      handleTap(item, source);
-    }
-  }
-
-  function handleHoldCancel() {
-    clearHoldTimer();
-    window.removeEventListener("pointermove", handleHoldMove);
-    window.removeEventListener("pointerup", handleHoldUp);
-    window.removeEventListener("pointercancel", handleHoldCancel);
-  }
-
-  // --- Drag-phase handlers (active drag for both mouse and touch) ---
 
   function handlePointerMove(event) {
-    if (!dragItem) return;
-    event.preventDefault(); // lock scroll while actively dragging
+    // ── PENDING phase (touch only): decide direction ──
+    if (dragPhase === "pending") {
+      const dx = Math.abs(event.clientX - touchStartX);
+      const dy = Math.abs(event.clientY - touchStartY);
+      const scrollDelta = lastTouchY - event.clientY;
+      lastTouchY = event.clientY;
 
-    dragHasMoved = true;
-    ghostX = event.clientX - ghostOffsetX;
-    ghostY = event.clientY - ghostOffsetY;
+      if (dx < COMMIT_THRESHOLD && dy < COMMIT_THRESHOLD) {
+        // Not enough movement yet — manually scroll in case it's vertical
+        if (dy > 2) {
+          window.scrollBy(0, scrollDelta);
+        }
+        event.preventDefault();
+        return;
+      }
 
-    updateHoveredDrop(event.clientX, event.clientY);
+      // Enough movement — decide direction
+      if (dy > dx) {
+        // Vertical → scroll mode
+        dragPhase = "scrolling";
+        window.scrollBy(0, scrollDelta);
+        event.preventDefault();
+        return;
+      }
+
+      // Horizontal → commit to drag
+      dragPhase = "dragging";
+      dragItem = pendingItem;
+      dragSource = pendingSource;
+      dragHasMoved = true;
+      pendingItem = null;
+      pendingSource = null;
+
+      ghostX = event.clientX - ghostOffsetX;
+      ghostY = event.clientY - ghostOffsetY;
+      updateHoveredDrop(event.clientX, event.clientY);
+      event.preventDefault();
+      return;
+    }
+
+    // ── SCROLLING phase (touch): keep manually scrolling ──
+    if (dragPhase === "scrolling") {
+      const scrollDelta = lastTouchY - event.clientY;
+      lastTouchY = event.clientY;
+      window.scrollBy(0, scrollDelta);
+      event.preventDefault();
+      return;
+    }
+
+    // ── DRAGGING phase ──
+    if (dragPhase === "dragging") {
+      if (!dragItem) return;
+      event.preventDefault();
+
+      dragHasMoved = true;
+      ghostX = event.clientX - ghostOffsetX;
+      ghostY = event.clientY - ghostOffsetY;
+      updateHoveredDrop(event.clientX, event.clientY);
+    }
   }
 
-  function handlePointerUp(event) {
-    if (!dragItem) {
+  function handlePointerUp() {
+    if (dragPhase === "pending") {
+      // Barely moved — treat as tap
+      const item = pendingItem;
+      const source = pendingSource;
       cleanupListeners();
+      resetDragState();
+      if (item) handleTap(item, source);
       return;
     }
 
-    const drop = hoveredDrop;
-    const item = dragItem;
-    const source = dragSource;
-    const moved = dragHasMoved;
+    if (dragPhase === "scrolling") {
+      cleanupListeners();
+      resetDragState();
+      return;
+    }
 
+    if (dragPhase === "dragging") {
+      if (!dragItem) {
+        cleanupListeners();
+        resetDragState();
+        return;
+      }
+
+      const drop = hoveredDrop;
+      const item = dragItem;
+      const source = dragSource;
+      const moved = dragHasMoved;
+
+      cleanupListeners();
+      resetDragState();
+
+      if (!moved) {
+        handleTap(item, source);
+        return;
+      }
+
+      suppressClick = true;
+      setTimeout(() => {
+        suppressClick = false;
+      }, 0);
+
+      performDrop(item, source, drop);
+      return;
+    }
+
+    // Fallback
     cleanupListeners();
     resetDragState();
-
-    if (!moved) {
-      handleTap(item, source);
-      return;
-    }
-
-    suppressClick = true;
-    setTimeout(() => {
-      suppressClick = false;
-    }, 0);
-
-    performDrop(item, source, drop);
   }
 
   function handlePointerCancel() {
@@ -598,7 +588,7 @@
     return r && r.correct && !r.alreadyLocked;
   }
 
-  function isItemDragging(item) {
+  function isDragging(item) {
     return dragItem && getElementKey(dragItem) === getElementKey(item);
   }
   function isSelected(item) {
@@ -646,7 +636,7 @@
 </script>
 
 <!-- ── Ghost element follows pointer ── -->
-{#if isDragging && dragItem && dragHasMoved}
+{#if dragItem && dragHasMoved}
   <div
     class="drag-ghost"
     style="left: {ghostX}px; top: {ghostY}px; width: {ghostW}px; height: {ghostH}px;"
@@ -736,7 +726,7 @@
                 {#if slotItem}
                   <div
                     class="slot-item"
-                    class:is-dragging={isItemDragging(slotItem)}
+                    class:is-dragging={isDragging(slotItem)}
                     class:is-selected={slotHasSelected}
                     class:has-image={typeof slotItem === "object" &&
                       slotItem.type === "image"}
@@ -778,7 +768,7 @@
         <div
           animate:flip={{ duration: 200 }}
           class="pool-item"
-          class:is-dragging={isItemDragging(item)}
+          class:is-dragging={isDragging(item)}
           class:is-selected={isSelected(item)}
           class:has-image={typeof item === "object" && item.type === "image"}
           role="button"
@@ -1332,12 +1322,8 @@
     .zoom-btn {
       display: none;
     }
-    /* Mobile: allow scrolling by default; long-press drag locks scroll via JS */
-    .slot-item,
-    .pool-item,
-    .slot {
-      touch-action: auto;
-    }
+    /* touch-action:none stays on .pool-item and .slot-item so we get
+       all pointer events.  Our JS handles scroll vs drag detection. */
   }
 
   /* ── Mistakes bar (same as main game) ── */
