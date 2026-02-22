@@ -120,6 +120,8 @@
 
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
+    // On touch devices, favor tap-to-place so the page can scroll vertically.
+    if (event.pointerType === "touch") return;
 
     // If a previous drag is stuck, force-cancel it
     if (dragItem) {
@@ -1233,6 +1235,12 @@
   @media (max-width: 767px) {
     .zoom-btn {
       display: none;
+    }
+    /* Mobile: allow vertical page scrolling over draggable tiles. */
+    .slot-item,
+    .pool-item,
+    .slot {
+      touch-action: pan-y;
     }
   }
 
