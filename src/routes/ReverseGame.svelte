@@ -86,6 +86,7 @@
   let ghostOffsetX = 0;
   let ghostOffsetY = 0;
   let dragHasMoved = false;
+  let activePointerType = "mouse";
   let suppressClick = false;
 
   /** @type {{ type: 'slot', catIndex: number, slotIndex: number } | { type: 'category', catIndex: number } | { type: 'pool' } | null} */
@@ -101,6 +102,7 @@
     dragSource = null;
     hoveredDrop = null;
     dragHasMoved = false;
+    activePointerType = "mouse";
   }
 
   function cleanupListeners() {
@@ -120,8 +122,6 @@
 
   function startDrag(event, item, source) {
     if (gameOver || showingResult) return;
-    // On touch devices, favor tap-to-place so the page can scroll vertically.
-    if (event.pointerType === "touch") return;
 
     // If a previous drag is stuck, force-cancel it
     if (dragItem) {
@@ -134,6 +134,7 @@
     dragItem = item;
     dragSource = source;
     dragHasMoved = false;
+    activePointerType = event.pointerType || "mouse";
 
     const rect = event.currentTarget.getBoundingClientRect();
     ghostW = rect.width;
@@ -155,7 +156,10 @@
 
   function handlePointerMove(event) {
     if (!dragItem) return;
-    event.preventDefault();
+    // Let touch gestures keep native vertical scrolling behavior on mobile.
+    if (activePointerType !== "touch") {
+      event.preventDefault();
+    }
 
     dragHasMoved = true;
     ghostX = event.clientX - ghostOffsetX;
