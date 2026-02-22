@@ -92,12 +92,13 @@
   // Touch-specific: direction-aware threshold
   // Phase: 'idle' | 'pending' | 'dragging' | 'scrolling'
   let dragPhase = "idle";
+  let dragTimer = null;
   let pendingItem = null;
   let pendingSource = null;
   let touchStartX = 0;
   let touchStartY = 0;
-  let lastTouchY = 0;
-  const COMMIT_THRESHOLD = 10; // px before we decide drag vs scroll
+  const DRAG_DELAY_MS = 300;
+  const MOVE_THRESHOLD = 5; // px movement that cancels long-press
 
   // ─── Drag Logic ─────────────────────────────────────────────────────────────
   // Mouse: immediate drag (desktop).
@@ -114,6 +115,10 @@
     dragPhase = "idle";
     pendingItem = null;
     pendingSource = null;
+    if (dragTimer) {
+      clearTimeout(dragTimer);
+      dragTimer = null;
+    }
   }
 
   function cleanupListeners() {
@@ -144,13 +149,29 @@
     ghostY = rect.top;
 
     if (event.pointerType === "touch") {
-      // Touch: enter pending phase — decide drag vs scroll on first move
+      // Touch: enter pending phase. Wait for long-press to start drag.
       dragPhase = "pending";
       pendingItem = item;
       pendingSource = source;
       touchStartX = event.clientX;
       touchStartY = event.clientY;
-      lastTouchY = event.clientY;
+
+      // Start long-press timer
+      dragTimer = setTimeout(() => {
+        // Long press confirmed!
+        if (dragPhase === "pending") {
+          // Haptic feedback if available
+          if (navigator.vibrate) navigator.vibrate(50);
+
+          dragPhase = "dragging";
+          dragItem = pendingItem;
+          dragSource = pendingSource;
+          dragHasMoved = true; // treat as moved so tap doesn't fire on release
+          pendingItem = null;
+          pendingSource = null;
+          dragTimer = null;
+        }
+      }, DRAG_DELAY_MS);
     } else {
       // Mouse: immediate drag
       dragPhase = "dragging";
@@ -168,52 +189,21 @@
   }
 
   function handlePointerMove(event) {
-    // ── PENDING phase (touch only): decide direction ──
     if (dragPhase === "pending") {
+      // If user moves finger significantly before timer fires, cancel drag intent
       const dx = Math.abs(event.clientX - touchStartX);
       const dy = Math.abs(event.clientY - touchStartY);
-      const scrollDelta = lastTouchY - event.clientY;
-      lastTouchY = event.clientY;
 
-      if (dx < COMMIT_THRESHOLD && dy < COMMIT_THRESHOLD) {
-        // Not enough movement yet — manually scroll in case it's vertical
-        if (dy > 2) {
-          window.scrollBy(0, scrollDelta);
+      if (dx > MOVE_THRESHOLD || dy > MOVE_THRESHOLD) {
+        // User is scrolling or swiping — cancel drag timer
+        if (dragTimer) {
+          clearTimeout(dragTimer);
+          dragTimer = null;
         }
-        event.preventDefault();
-        return;
+        // Release control so browser can scroll naturally
+        cleanupListeners();
+        resetDragState();
       }
-
-      // Enough movement — decide direction
-      if (dy > dx) {
-        // Vertical → scroll mode
-        dragPhase = "scrolling";
-        window.scrollBy(0, scrollDelta);
-        event.preventDefault();
-        return;
-      }
-
-      // Horizontal → commit to drag
-      dragPhase = "dragging";
-      dragItem = pendingItem;
-      dragSource = pendingSource;
-      dragHasMoved = true;
-      pendingItem = null;
-      pendingSource = null;
-
-      ghostX = event.clientX - ghostOffsetX;
-      ghostY = event.clientY - ghostOffsetY;
-      updateHoveredDrop(event.clientX, event.clientY);
-      event.preventDefault();
-      return;
-    }
-
-    // ── SCROLLING phase (touch): keep manually scrolling ──
-    if (dragPhase === "scrolling") {
-      const scrollDelta = lastTouchY - event.clientY;
-      lastTouchY = event.clientY;
-      window.scrollBy(0, scrollDelta);
-      event.preventDefault();
       return;
     }
 
@@ -231,18 +221,12 @@
 
   function handlePointerUp() {
     if (dragPhase === "pending") {
-      // Barely moved — treat as tap
+      // Timer didn't fire yet — treat as normal tap
       const item = pendingItem;
       const source = pendingSource;
       cleanupListeners();
       resetDragState();
       if (item) handleTap(item, source);
-      return;
-    }
-
-    if (dragPhase === "scrolling") {
-      cleanupListeners();
-      resetDragState();
       return;
     }
 
@@ -1324,6 +1308,11 @@
     }
     /* touch-action:none stays on .pool-item and .slot-item so we get
        all pointer events.  Our JS handles scroll vs drag detection. */
+    .slot-item,
+    .pool-item,
+    .slot {
+      touch-action: pan-y;
+    }
   }
 
   /* ── Mistakes bar (same as main game) ── */
