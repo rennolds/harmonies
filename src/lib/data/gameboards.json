@@ -29064,5 +29064,58 @@
     "shoutout-name": "bryce",
     "message-content": "happy black history month",
     "special-message": true
+  },
+  "03/02/2026": {
+    "type": "reverse",
+    "playlist": "",
+    "gameoverGif": "https://media.giphy.com/media/g9582DNuQppxC/giphy.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs by Taylor Swift",
+        "elements": [
+          "Shake It Off",
+          "Anti-Hero",
+          "Love Story",
+          "Blank Space"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs by Beyoncé",
+        "elements": [
+          "Halo",
+          "Crazy in Love",
+          "Formation",
+          "Single Ladies"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Songs by Adele",
+        "elements": [
+          "Hello",
+          "Rolling in the Deep",
+          "Someone Like You",
+          "Easy On Me"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs by Ed Sheeran",
+        "elements": [
+          "Shape of You",
+          "Perfect",
+          "Thinking Out Loud",
+          "Bad Habits"
+        ]
+      }
+    ],
+    "decoys": [
+      "Umbrella",
+      "Levitating",
+      "Flowers",
+      "Blinding Lights"
+    ]
   }
 }

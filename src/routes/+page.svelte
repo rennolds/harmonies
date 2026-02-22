@@ -11,6 +11,7 @@
   import ClearedCategory from "./ClearedCategory.svelte";
   import HelpOverlay from "./HelpOverlay.svelte";
   import Navbar from "./Navbar.svelte";
+  import ReverseGame from "./ReverseGame.svelte";
   import gameBoards from "$lib/data/gameboards.json";
   // import TopAdBanner from './old.svelte';
   import Ramp from "./Ramp.svelte";
@@ -136,6 +137,8 @@
   const board = todayBoard || {};
 
   const categories = board.categories || [];
+  const isReverse = board.type === "reverse";
+  const reverseDecoys = board.decoys || [];
 
   if (categories.length != 4 && todayBoard) {
     console.error(`Gameboard is malformed for ${todaysDate}`);
@@ -301,8 +304,13 @@
   }
 
   // Game state initialization
+  // Reverse mode handles its own state in the ReverseGame component
   // Custom puzzles should be treated like archive mode (local state, no persistence)
-  if (isArchiveMode || isCustomPuzzle) {
+  if (isReverse) {
+    // Reverse mode: ReverseGame component handles all game state
+    // Just shuffle remaining elements in case anything references them
+    remainingElements = [];
+  } else if (isArchiveMode || isCustomPuzzle) {
     // We're playing an archived puzzle or custom puzzle
     // Don't update any persistent state, use local variables
 
@@ -949,6 +957,117 @@
     }
   }
 
+  // --- Reverse game state ---
+  let reverseGameRef;
+  let reverseSubmissionHistory = [];
+
+  function handleReverseWin(event) {
+    const { mistakes, submissions } = event.detail;
+    reverseSubmissionHistory = submissions;
+
+    if (!isArchiveMode && !isCustomPuzzle) {
+      $mistakeCount = mistakes;
+      // Mark all categories as cleared
+      $clearedCategories = [...categories];
+      handleStats(submissions.length, true);
+    } else {
+      localMistakeCount = mistakes;
+      localClearedCategories = [...categories];
+      handleArchiveStats(true);
+    }
+
+    setTimeout(() => {
+      gameoverStore.set({ isOver: true, headerMessage: "Incredible!" });
+      toggleOverlay();
+    }, 500);
+  }
+
+  function handleReverseLose(event) {
+    const { mistakes, submissions } = event.detail;
+    reverseSubmissionHistory = submissions;
+
+    if (!isArchiveMode && !isCustomPuzzle) {
+      $mistakeCount = mistakes;
+      $clearedCategories = [...categories];
+      handleStats(submissions.length, false);
+    } else {
+      localMistakeCount = mistakes;
+      localClearedCategories = [...categories];
+      handleArchiveStats(false);
+    }
+
+    setTimeout(() => {
+      gameoverStore.set({
+        isOver: true,
+        headerMessage: "Better luck tmr...",
+      });
+      toggleOverlay();
+    }, 500);
+  }
+
+  function handleReverseMistake(event) {
+    const { count } = event.detail;
+    if (!isArchiveMode && !isCustomPuzzle) {
+      $mistakeCount = count;
+    } else {
+      localMistakeCount = count;
+    }
+    playbackWidth = calculatePlaybackWidth(count);
+  }
+
+  function shareReverseResult() {
+    if (browser) {
+      gtag("event", "shared_result", {
+        guesses: reverseSubmissionHistory.length,
+      });
+    }
+
+    const emoji_mapping = {
+      "#CBff70": "🟩",
+      "#FAA3FF": "🟪",
+      "#78DAF9": "🟦",
+      "#FFBC21": "🟧",
+    };
+
+    var header = isCustomPuzzle
+      ? "reverse harmonies 🎧🔀\n\n"
+      : "reverse harmonies #" + harmonyNumber + " 🎧🔀\n\n";
+
+    let grid = "";
+
+    for (let i = 0; i < reverseSubmissionHistory.length; i++) {
+      const submission = reverseSubmissionHistory[i];
+      let row = "";
+      for (const entry of submission) {
+        if (entry.alreadyLocked) continue;
+        if (entry.correct) {
+          row += emoji_mapping[entry.color] || "✅";
+        } else {
+          row += "❌";
+        }
+      }
+      if (row) grid += row + "\n";
+    }
+
+    const shareLink = isCustomPuzzle
+      ? `harmonies.io/?puzzle=${customPuzzle.id}`
+      : "harmonies.io";
+
+    const result = header + grid + "\n" + shareLink;
+
+    if (navigator.share) {
+      navigator
+        .share({ text: result })
+        .then(() => console.log("Thanks for sharing!"))
+        .catch(console.error);
+    } else {
+      navigator.clipboard
+        .writeText(result)
+        .then(() => console.log("copied"))
+        .catch((error) => alert(`Copy failed! ${error}`));
+    }
+  }
+
   onMount(() => {
     const gridItems = document.querySelectorAll(".grid-item");
     // Loop through each grid item
@@ -1098,7 +1217,7 @@
         </svg>
       </button>
       <h1>{$gameoverStore.headerMessage}</h1>
-      <h2>{isCustomPuzzle ? "Harmonies" : `Harmonies #${harmonyNumber}`}</h2>
+      <h2>{isCustomPuzzle ? "Harmonies" : isReverse ? `Reverse Harmonies #${harmonyNumber}` : `Harmonies #${harmonyNumber}`}</h2>
       <div out:scale class="gameover-gif">
         <img {src} alt="Game over gif" />
       </div>
@@ -1109,7 +1228,7 @@
       {/if}
 
       <button
-        on:click={shareResult}
+        on:click={isReverse ? shareReverseResult : shareResult}
         style="background-color: #BA81C2;"
         class="results-button">SHARE RESULT</button
       >
@@ -1137,14 +1256,8 @@
   {/if}
   {#if !puzzleNotFound}
     <div class="container game-container">
-      {#if !isCustomPuzzle && !shoutout && !disableHeader}
+      {#if !isReverse && !isCustomPuzzle && !shoutout && !disableHeader}
         <h2 class="header-msg">
-          <!-- check out our new game, <a
-          href="https://crosstune.io"
-          target="_blank"
-          style="color: #FF6B00; text-decoration: none;"
-          class="crosstune-link">crosstune.io</a
-        >! -->
           Create groups of four!
         </h2>
       {/if}
@@ -1395,6 +1508,27 @@
         </div>
       {/if}
 
+      {#if isReverse}
+        <!-- Reverse Harmonies game mode -->
+        <ReverseGame
+          {categories}
+          decoys={reverseDecoys}
+          gameOver={$gameoverStore.isOver}
+          on:win={handleReverseWin}
+          on:lose={handleReverseLose}
+          on:mistake={handleReverseMistake}
+          bind:this={reverseGameRef}
+        />
+        {#if $gameoverStore.isOver}
+          <div class="result-button-container">
+            <button
+              on:click={toggleOverlay}
+              style="background-color: #fff; color: black;"
+              class="results-button">VIEW RESULTS</button
+            >
+          </div>
+        {/if}
+      {:else}
       <div class="grid-container">
         {#each [...new Set((useLocalState ? localClearedCategories : $clearedCategories).map( (category) => {
                 // Create a deep copy of the category with consistent element representation
@@ -1625,6 +1759,8 @@
           >
         </div>
       {/if}
+      {/if}
+      <!-- end isReverse conditional -->
 
       <!-- <div class="ad-space">
 </div> -->
