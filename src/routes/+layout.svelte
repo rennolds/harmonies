@@ -126,7 +126,7 @@
   .game-body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
   }
 </style>

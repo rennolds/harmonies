@@ -1643,17 +1643,18 @@
 
 <style>
   main {
-    position: absolute;
+    position: relative;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-    padding-top: 270px; /* Default padding for mobile (ad + navbar) */
-    overflow-x: auto;
+    padding-top: 110px; /* Clear fixed ad (50px) + navbar (50px) + breathing room */
+    overflow-x: hidden;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
 
   @media (min-width: 768px) {
     main {
-      padding-top: 175px; /* Reduced padding for desktop (navbar only) */
+      padding-top: 65px; /* Clear fixed navbar only */
     }
   }
 
@@ -1666,15 +1667,16 @@
     align-self: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: flex-start;
     width: 100%;
     max-width: 420px;
     padding: 0 10px;
+    padding-bottom: 160px;
     box-sizing: border-box;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    touch-action: pan-x;
+    touch-action: pan-x pan-y;
   }
 
   @media (min-width: 768px) {
@@ -1980,6 +1982,21 @@
     }
   }
   /* --- Desktop adjustments END --- */
+
+  /* Scale down image grid items on shorter desktop viewports */
+  @media (min-width: 768px) and (max-height: 900px) {
+    .grid-item.has-image {
+      height: 130px;
+      width: 130px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-height: 750px) {
+    .grid-item.has-image {
+      height: 100px;
+      width: 100px;
+    }
+  }
 
   .selected {
     color: #fff;
