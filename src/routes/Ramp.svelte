@@ -35,7 +35,8 @@
               node.tagName === "LINK" ||
               node.tagName === "STYLE" ||
               node.tagName === "META"
-            ) continue;
+            )
+              continue;
 
             // Cheap pre-check: only proceed if inline position is fixed/absolute
             const inlinePos = node.style?.position;

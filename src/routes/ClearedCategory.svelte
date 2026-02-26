@@ -115,11 +115,13 @@
     font-size: 12px;
     margin-bottom: -12px;
     width: 95%;
+    text-transform: uppercase;
   }
 
   p {
     font-size: 9px;
     width: 95%;
     justify-content: center;
+    text-transform: uppercase;
   }
 </style>
