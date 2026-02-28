@@ -29064,5 +29064,42 @@
     "shoutout-name": "bryce",
     "message-content": "happy black history month",
     "special-message": true
+  },
+  "03/01/2026": {
+    "playlist": "https://open.spotify.com/playlist/4SOuyTnSmYj9WTcjMH9jQZ?si=5c43cde03b4f4944",
+    "gameoverGif": "https://media3.giphy.com/media/3o752fS3HCVCHsLCz6/giphy.gif?cid=6c09b95243mm68cx119wlfky1ktxmok3ole66dog0bdaolon&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "DNCE's \"Cake By The Ocean\"",
+        "elements": ["Cake", "By", "The", "Ocean"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "I Miss The Old Kanye",
+        "elements": ["POWER", "Runaway", "Heartless", "Famous"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bruno Mars Songs",
+        "elements": ["Grenade", "Treasure", "Finesse", "Skate"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs Titles Without the Fruit",
+        "elements": ["Faygo", "Sugar", "Beret", "Bomb"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
