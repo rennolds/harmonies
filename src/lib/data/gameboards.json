@@ -29101,5 +29101,40 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "03/02/2026": {
+    "playlist": "https://open.spotify.com/playlist/1zplnctIpsCy1E0sohrQZO?si=ff1b3b7e374b40da",
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyMzN0bHE4djhzNngydnVmY3ptbnNmYW9mMnloYjVnODI3MWFzNmx5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/8ToWE2pRlrz9K/200w.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bruno Mars Songs",
+        "elements": ["Uptown Funk", "Just the Way You Are", "Locked Out of Heaven", "24K Magic"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Irish Artists",
+        "elements": ["Niall Horan", "Hozier", "The Cranberries", "The Script"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "2017 Hot 100 #1s",
+        "elements": ["HUMBLE.", "Despacito", "Bodak Yellow", "Shape of You"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Artists Who Went Solo",
+        "elements": ["ZAYN", "Beyonce", "Ice Cube", "Justin Timberlake"]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
