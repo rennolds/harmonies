@@ -29136,5 +29136,42 @@
     "twitch": "",
     "twitter": "",
     "spotify": ""
+  },
+  "03/03/2026": {
+    "playlist": "https://open.spotify.com/playlist/6osP7CPyJsVh4yd7kHbfAM?si=18875bbe1045456b",
+    "gameoverGif": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKiMyvp_09QKaHBezmKnHIy22bCjq7FuV4gQ&s",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Rap Groups",
+        "elements": ["Run-DMC", "Beastie Boys", "Migos", "A Tribe Called Quest"]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Seattle Grunge",
+        "elements": ["Soundgarden", "Pearl Jam", "Alice in Chains", "Nirvana"]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands with a Female Lead Singer",
+        "elements": ["No Doubt", "Paramore", "The Cranberries", "Yeah Yeah Yeahs"]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Britpop",
+        "elements": ["Oasis", "Blur", "Pulp", "Suede"]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "edwin t",
+    "shoutout-socials": true,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "https://twitter.com/wenkorang",
+    "spotify": ""
   }
 }
