@@ -29173,5 +29173,59 @@
     "twitch": "",
     "twitter": "https://twitter.com/wenkorang",
     "spotify": ""
+  },
+  "03/04/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/Q6IHokGej1IAAAAM/steve-harvey.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "__ in the __",
+        "elements": [
+          "Killing / Name",
+          "Island / Sun",
+          "Rolling / Deep",
+          "Highest / Room"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "__ is a __",
+        "elements": [
+          "Fame / Gun",
+          "Denial / River",
+          "Sympathy / Knife",
+          "Life / Highway"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "__ Me __",
+        "elements": [
+          "Caress / Down",
+          "Love / Harder",
+          "Tití / Preguntó",
+          "Meet / Halfway"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "__ of __",
+        "elements": [
+          "Master / None",
+          "Heart / Glass",
+          "Drops / Jupiter",
+          "Chamber / Reflection"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "special-message": true,
+    "message-content": "[steve harvey - fill in the blank](youtu.be/_DQv2GxFHt4?si=LS3e0IaELj_mhWLs)"
   }
 }
