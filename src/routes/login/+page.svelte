@@ -74,7 +74,7 @@
 
   onMount(() => {
     // If user is already logged in, redirect to home
-    if (data.session) {
+    if (data.user) {
       window.location.href = "/";
       return;
     }

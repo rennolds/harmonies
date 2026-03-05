@@ -1,5 +1,5 @@
 export const load = async ({ locals }) => {
-  const { session, user } = await locals.safeGetSession();
+  const { user } = await locals.safeGetSession();
   
   let profile = null;
   
@@ -17,7 +17,6 @@ export const load = async ({ locals }) => {
   }
 
   return {
-    session,
     user,
     profile
   };

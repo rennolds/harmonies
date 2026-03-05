@@ -1,10 +1,10 @@
 import { redirect } from '@sveltejs/kit';
 
 export const load = async ({ locals }) => {
-  const { session, user } = await locals.safeGetSession();
+  const { user } = await locals.safeGetSession();
   
   // If user is not logged in, redirect to login
-  if (!session) {
+  if (!user) {
     throw redirect(303, '/login');
   }
 
@@ -31,7 +31,6 @@ export const load = async ({ locals }) => {
   }
 
   return {
-    session,
     user,
     profile: profile || null,
     puzzles: puzzles || []

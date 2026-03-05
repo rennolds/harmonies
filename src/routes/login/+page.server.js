@@ -16,16 +16,15 @@ export const load = async ({ url, locals }) => {
   const allowed = ALLOWED.has(r);
 
   // If user is already logged in, redirect to home immediately
-  const { session } = await locals.safeGetSession();
-  if (session) {
+  const { user } = await locals.safeGetSession();
+  if (user) {
     throw redirect(303, '/');
   }
 
   return {
     allowed,
     returnTo: allowed ? r : 'https://harmonies.io',
-    nextPath: safeNext,
-    session
+    nextPath: safeNext
   };
 };
 

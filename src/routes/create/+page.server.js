@@ -1,19 +1,18 @@
 import { fail } from '@sveltejs/kit';
 
 export const load = async ({ locals }) => {
-	const { session } = await locals.safeGetSession();
+	const { user } = await locals.safeGetSession();
 
 	// Don't redirect - let the page load and show an overlay if not authenticated
 	return {
-		session,
-		isAuthenticated: !!session
+		isAuthenticated: !!user
 	};
 };
 
 export const actions = {
 	default: async ({ request, locals }) => {
-		const { session } = await locals.safeGetSession();
-		if (!session) {
+		const { user } = await locals.safeGetSession();
+		if (!user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
 
@@ -98,7 +97,7 @@ export const actions = {
             const { data: profile } = await locals.supabase
                 .from('profiles')
                 .select('username')
-                .eq('id', session.user.id)
+                .eq('id', user.id)
                 .maybeSingle();
             
             if (profile?.username) {
@@ -108,7 +107,7 @@ export const actions = {
         }
 
 		const { data, error } = await locals.supabase.from('harmonies_puzzles').insert({
-			user_id: session.user.id,
+			user_id: user.id,
 			puzzle_data: puzzleData,
             title: title,
             daily_submission: dailySubmission

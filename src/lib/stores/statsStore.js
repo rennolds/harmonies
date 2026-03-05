@@ -64,10 +64,13 @@ export async function ensureValidSession() {
 }
 
 /**
- * SSR hydration is the source of truth for auth + profile.
+ * Client-side hydration for auth + profile stores.
  * This function should be called from `src/routes/+layout.svelte` whenever `data.user/profile` changes.
+ * Must only be called in the browser — module-level stores are singletons on the server
+ * and writing to them during SSR can leak data between requests.
  */
 export async function applyHydratedAuth({ user, profile }) {
+  if (!browser) return; // Guard: never write to shared stores during SSR
   authUser.set(user ?? null);
   userProfile.set(profile ?? null);
   authLoading.set(false);

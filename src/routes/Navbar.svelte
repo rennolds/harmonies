@@ -244,9 +244,9 @@
               <!-- Logged in: show avatar with first letter of username -->
               <div
                 class="user-avatar"
-                style:background={$userProfile?.avatar_color || "#ba81c2"}
+                style:background={$userProfile?.avatar_color || $page.data?.profile?.avatar_color || "#ba81c2"}
               >
-                {($userProfile?.username || $authUser?.email || "U")
+                {($userProfile?.username || $page.data?.profile?.username || $authUser?.email || "U")
                   .charAt(0)
                   .toUpperCase()}
               </div>
@@ -288,7 +288,7 @@
           {#if showUserMenu && $isAuthenticated}
             <div class="user-dropdown">
               <div class="user-name">
-                {$userProfile?.username || $authUser?.email || "User"}
+                {$userProfile?.username || $page.data?.profile?.username || $authUser?.email || "User"}
               </div>
               <a href="/profile" class="dropdown-item" on:click={closeUserMenu}>
                 Profile
