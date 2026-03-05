@@ -29277,5 +29277,55 @@
     "shoutout-name": "",
     "message-content": "",
     "special-message": false
+  },
+  "03/06/2026": {
+    "playlist": "https://open.spotify.com/playlist/7twhiCCIytb9kz4hUcMPUJ?si=d6b22ea0f6c74bf8",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Bands Named After A Member",
+        "color": "#CBff70",
+        "elements": [
+          "Bon Jovi",
+          "Zac Brown Band",
+          "Florence + The Machine",
+          "Dave Matthews Band"
+        ]
+      },
+      {
+        "name": "Musicians With An Animal in Their Name",
+        "color": "#FAA3FF",
+        "elements": [
+          "Sheryl Crow",
+          "Band of Horses",
+          "King Gizzard and the Lizard Wizard",
+          "Hootie and the Blowfish"
+        ]
+      },
+      {
+        "name": "Musicians With A Food in Their Name",
+        "color": "#78DAF9",
+        "elements": [
+          "Fiona Apple",
+          "The Smashing Pumpkins",
+          "Red Hot Chili Peppers",
+          "Black Eyed Peas"
+        ]
+      },
+      {
+        "name": "Musicians Named After Non-Members",
+        "color": "#FFBC21",
+        "elements": [
+          "Lynyrd Skynyrd",
+          "Jethro Tull",
+          "Rick Ross",
+          "Franz Ferdinand"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyeHRwOXY0MzF3bDBoazY3NTNjMWcyZmQ4NXhubDB6anpvamY5ZzY2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orifaoAxqJqp10Beo/giphy.gif",
+    "shoutout-name": "jengus roundstone",
+    "message-content": "don't think too hard",
+    "special-message": true
   }
 }
