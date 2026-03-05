@@ -29227,5 +29227,55 @@
     "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
     "special-message": true,
     "message-content": "[steve harvey - fill in the blank](https://youtu.be/_DQv2GxFHt4?si=LS3e0IaELj_mhWLs)"
+  },
+  "03/05/2026": {
+    "playlist": "https://open.spotify.com/playlist/13ZBHxv7XRrHhwdZ51aZ9H?si=b147d41a89d64e20",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "Names for Eminem",
+        "color": "#CBff70",
+        "elements": [
+          "Slim Shady",
+          "Marshall",
+          "B-Rabbit",
+          "Eminem"
+        ]
+      },
+      {
+        "name": "Names for Jay-Z",
+        "color": "#FAA3FF",
+        "elements": [
+          "Jay-Z",
+          "Shawn Carter",
+          "Hov",
+          "Jigga"
+        ]
+      },
+      {
+        "name": "Hip-hop albums from the 2000's",
+        "color": "#78DAF9",
+        "elements": [
+          "The Blueprint",
+          "The Carter III",
+          "Stankonia",
+          "The Eminem Show"
+        ]
+      },
+      {
+        "name": "____ Records (Record labels founded by rappers)",
+        "color": "#FFBC21",
+        "elements": [
+          "Death Row",
+          "Cash Money",
+          "Shady",
+          "Dreamville"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "",
+    "message-content": "",
+    "special-message": false
   }
 }
