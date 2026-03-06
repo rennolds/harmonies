@@ -42070,6 +42070,9 @@
     "special-message": true
   },
   "03/09/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyZXlscjgzZHNybjByeHU1d2F3ZXFvOWRzNW83aG8yd2ZtNXdvbjJ3NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11rfWITRL7lAQM/giphy.gif",
+    "shoutout": false,
     "categories": [
       {
         "color": "#CBff70",
