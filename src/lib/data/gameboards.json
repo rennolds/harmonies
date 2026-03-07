@@ -42115,5 +42115,52 @@
         ]
       }
     ]
+  },
+  "03/07/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Charli XCX Songs",
+        "elements": [
+          "360",
+          "Apple",
+          "Guess",
+          "Girl, so confusing"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with Communication/Phone References",
+        "elements": [
+          "Call Me Maybe",
+          "Hotline Bling",
+          "Telephone",
+          "Ring Ring"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featured on Dua Lipa's 'Radical Optimism'",
+        "elements": [
+          "Houdini",
+          "Training Season",
+          "Illusion",
+          "Maria"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Chappell Roan's 'HOT TO GO!'",
+        "elements": [
+          "H-O-T-T-O-G-O",
+          "Snap and clap and touch your toes",
+          "You can take me hot to go",
+          "Dance around to the radio"
+        ]
+      }
+    ],
+    "shoutout": false
   }
 }
