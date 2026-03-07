@@ -42069,6 +42069,108 @@
     "message-content": "don't think too hard",
     "special-message": true
   },
+  "03/07/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/ol6V340j6HwAAAAM/charli-xcx-charli.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Charli XCX Songs",
+        "elements": [
+          "360",
+          "Apple",
+          "Guess",
+          "Girl, so confusing"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs with Communication/Phone References",
+        "elements": [
+          "Call Me Maybe",
+          "Hotline Bling",
+          "Telephone",
+          "Ring Ring"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Featured on Dua Lipa's 'Radical Optimism'",
+        "elements": [
+          "Houdini",
+          "Training Season",
+          "Illusion",
+          "Maria"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Chappell Roan's 'HOT TO GO!'",
+        "elements": [
+          "H-O-T-T-O-G-O",
+          "Snap and clap and touch your toes",
+          "You can take me hot to go",
+          "Dance around to the radio"
+        ]
+      }
+    ],
+    "shoutout": false
+  },
+  "03/08/2026": {
+    "playlist": "https://media.tenor.com/kftrqqGKq0IAAAAM/twenty-one-pilots-tyler-joseph.gif",
+    "gameoverGif": "https://media0.giphy.com/media/Z6EEat7tp3Fy8/giphy.gif?cid=6c09b952tu969gxfm2vpgq9w18pplncsjrx4e80py9wkcair&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Bands with a Color in Their Name",
+        "elements": [
+          "Red Hot Chili Peppers",
+          "Maroon 5",
+          "Black Sabbath",
+          "Green Day"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists from Australia",
+        "elements": [
+          "AC/DC",
+          "INXS",
+          "Tame Impala",
+          "Troye Sivan"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Bands with Numbers in Their Name",
+        "elements": [
+          "Twenty One Pilots",
+          "blink-182",
+          "Matchbox Twenty",
+          "OneRepublic"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Bands Formed in the 1960s",
+        "elements": [
+          "The Beatles",
+          "The Rolling Stones",
+          "The Beach Boys",
+          "The Doors"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "03/09/2026": {
     "playlist": "",
     "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyZXlscjgzZHNybjByeHU1d2F3ZXFvOWRzNW83aG8yd2ZtNXdvbjJ3NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11rfWITRL7lAQM/giphy.gif",
@@ -42116,51 +42218,411 @@
       }
     ]
   },
-  "03/07/2026": {
+  "03/10/2026": {
     "playlist": "",
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/EgL2mWqDfBYAAAAM/bright-side-mr-bright-side.gif",
     "categories": [
       {
         "color": "#CBff70",
-        "name": "Charli XCX Songs",
+        "name": "Floral Covers",
         "elements": [
-          "360",
-          "Apple",
-          "Guess",
-          "Girl, so confusing"
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2730ce29816dc0bf56f52ebde8f",
+            "alt": "Lust for Life"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3",
+            "alt": "Flower Boy"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d00001e02b598ad81e340f28f8b523c41",
+            "alt": "Deeper Well"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a",
+            "alt": "Sgt. Pepper’s Lonely Hearts Club Band"
+          }
         ]
       },
       {
         "color": "#FAA3FF",
-        "name": "Songs with Communication/Phone References",
+        "name": "Dance-Pop Albums",
         "elements": [
-          "Call Me Maybe",
-          "Hotline Bling",
-          "Telephone",
-          "Ring Ring"
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/d/d5/Ariana_Grande_My_Everything_2014_album_artwork.png",
+            "alt": "My Everything"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png",
+            "alt": "Future Nostalgia"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Lady_Gaga_%E2%80%93_The_Fame_album_cover.png/250px-Lady_Gaga_%E2%80%93_The_Fame_album_cover.png",
+            "alt": "The Fame"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Madonna_-_Confessions_on_a_Dance_Floor.png/250px-Madonna_-_Confessions_on_a_Dance_Floor.png",
+            "alt": "Confessions on a Dance Floor"
+          }
         ]
       },
       {
         "color": "#78DAF9",
-        "name": "Featured on Dua Lipa's 'Radical Optimism'",
+        "name": "Albums With People's Names in the Title",
         "elements": [
-          "Houdini",
-          "Training Season",
-          "Illusion",
-          "Maria"
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/f/fd/Lady_Gaga_-_Joanne_%28Official_Album_Cover%29.png",
+            "alt": "Joanne"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Lou_Reed_and_Metallica_-_Lulu.jpg/250px-Lou_Reed_and_Metallica_-_Lulu.jpg",
+            "alt": "Lulu"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/a/ae/The_Marshall_Mathers_LP.jpg",
+            "alt": "The Marshall Mathers LP"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Bon_iver_album_cover.jpg",
+            "alt": "For Emma, Forever Ago"
+          }
+        ]
+      },
+
+      {
+        "color": "#FFBC21",
+        "name": "Alternative / Indie Rock Debut Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/The_Killers_-_Hot_Fuss.png/250px-The_Killers_-_Hot_Fuss.png",
+            "alt": "Hot Fuss"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0jJdFChnXvOuc1K75_3PKLEHnQ7pQe4gYNg&s",
+            "alt": "Is This It"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Coldplay_-_Parachutes.png/250px-Coldplay_-_Parachutes.png",
+            "alt": "Parachutes"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/8/88/Whatever_People_Say_I_Am%2C_That%27s_What_I%27m_Not_%282006_Arctic_Monkeys_album%29.jpg",
+            "alt": "Whatever People Say I Am, That's What I'm Not"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": ""
+  },
+  "03/12/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "SZA Songs",
+        "color": "#CBff70",
+        "elements": [
+          "Love Language",
+          "Hit Different",
+          "Broken Clocks",
+          "Garden"
+        ]
+      },
+      {
+        "name": "Ariana Grande Albums That Are Also A Song Name",
+        "color": "#FAA3FF",
+        "elements": [
+          "Positions",
+          "Sweetener",
+          "Thank U, Next",
+          "Eternal Sunshine"
+        ]
+      },
+      {
+        "name": "Debut Albums by Female Rappers",
+        "color": "#78DAF9",
+        "elements": [
+          "Amala",
+          "Good News",
+          "Pink Friday",
+          "Invasion of Privacy"
+        ]
+      },
+      {
+        "name": "Songs That Got a Popular Collab Remix",
+        "color": "#FFBC21",
+        "elements": [
+          "Never Lose Me",
+          "Savage",
+          "Finesse",
+          "34+35"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGd6bWRvaHB2a2MyYjFodXZjNTlweXg4Z3NrYW95aXNmZzIydml1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U2iWYcAVR3jRgBIN30/giphy.gif",
+    "shoutout-name": "jayla"
+  },
+  "03/13/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "Rihanna Songs",
+        "color": "#CBff70",
+        "elements": [
+          "Love On The Brain",
+          "We Found Love",
+          "Stay",
+          "Pon de Replay"
+        ]
+      },
+      {
+        "name": "Lyrics from Fergie's \"Glamorous\"",
+        "color": "#FAA3FF",
+        "elements": [
+          "Up in the Sky",
+          "Poppin' Champagne",
+          "Fast Lane",
+          "Flossy, Flossy"
+        ]
+      },
+      {
+        "name": "Song Titles Including a Chess Piece",
+        "color": "#78DAF9",
+        "elements": [
+          "Trap Queen",
+          "King Kunta",
+          "Pawn Shop",
+          "Dark Knight Dummo"
+        ]
+      },
+      {
+        "name": "Pop Songs Featuring a Rapper",
+        "color": "#FFBC21",
+        "elements": [
+          "California Gurls",
+          "Bad Blood",
+          "Baby",
+          "American Boy"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media.tenor.com/WK7-HVEH6FwAAAAM/american-boy-estelle.gif",
+    "shoutout-name": "",
+    "message-content": ""
+  },
+  "03/14/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Famous Guitar Riffs",
+        "color": "#CBff70",
+        "elements": [
+          "Smoke on the Water",
+          "Iron Man",
+          "Stairway to Heaven",
+          "Johnny B. Goode"
+        ]
+      },
+      {
+        "name": "Famous Piano Riffs",
+        "color": "#FAA3FF",
+        "elements": [
+          "Clocks",
+          "Bohemian Rhapsody",
+          "Let It Be",
+          "Don't Stop Believing"
+        ]
+      },
+      {
+        "name": "Famous Bass Lines",
+        "color": "#78DAF9",
+        "elements": [
+          "The Less I Know the Better",
+          "The Chain",
+          "Seven Nation Army",
+          "Another One Bites the Dust"
+        ]
+      },
+      {
+        "name": "Famous Drum Beats",
+        "color": "#FFBC21",
+        "elements": [
+          "Billie Jean",
+          "Smells Like Teen Spirit",
+          "Come Together",
+          "We Will Rock You"
+        ]
+      }
+    ],
+    "gameoverGif": "https://i.makeagif.com/media/1-07-2016/mfRYz9.gif",
+    "shoutout-name": "5am15c00l",
+    "special-message": true,
+    "message-content": "pair the song to it's iconic instrument"
+  },
+  "03/15/2026": {
+    "playlist": "https://open.spotify.com/playlist/5Kp3gmy1kya6SMYd6jOCMA?si=WDvo2hAdSdeZSWofFCKglQ&pi=S-xLB3stTMK_5",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Country Songs With A State in the Title",
+        "color": "#CBff70",
+        "elements": [
+          "All My Ex’s Live In Texas",
+          "Tennessee Whiskey",
+          "Sweet Home Alabama",
+          "Heads Carolina, Tails California"
+        ]
+      },
+      {
+        "name": "Rap Songs About A State/State Nickname in the Title",
+        "color": "#FAA3FF",
+        "elements": [
+          "New York State of Mind",
+          "Going Back to Cali",
+          "California Love",
+          "Empire State of Mind"
+        ]
+      },
+      {
+        "name": "Artists With A State in their Name",
+        "color": "#78DAF9",
+        "elements": [
+          "French Montana",
+          "Alabama Shakes",
+          "Flo Rida",
+          "Grover Washington Jr."
+        ]
+      },
+      {
+        "name": "Albums With A State in the Title",
+        "color": "#FFBC21",
+        "elements": [
+          "Hotel California",
+          "Nebraska",
+          "Californication",
+          "Iowa"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUydW5mcXoxNzZmdnluemh5b3FsdW5sNTZnNnk1NXRhdnJva2JlZXRkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VItAKKauQXiAGrpY4H/giphy.gif",
+    "shoutout-name": "jengus roundstone",
+    "message-content": "",
+    "special-message": true
+  },
+  "03/16/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyOHRyMDVrYmp2MTJvdXBrazVmZmlldHo2M25qbGtua2llbGdqdHR6biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2YWCEiqRzdS57W00/giphy.gif",
+    "shoutout": false,
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "K-Pop Hits",
+        "elements": [
+          "Pink Venom",
+          "Dynamite",
+          "Cupid",
+          "Gangnam Style"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Punk Bands",
+        "elements": [
+          "Yellowcard",
+          "Green Day",
+          "New Found Glory",
+          "blink-182"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Coldplays \"Yellow\"",
+        "elements": [
+          "the stars",
+          "they shine for you",
+          "everything you do",
+          "all yellow"
         ]
       },
       {
         "color": "#FFBC21",
-        "name": "Lyrics from Chappell Roan's 'HOT TO GO!'",
+        "name": "Lyrics from Charli XCX's \"Apple\"",
         "elements": [
-          "H-O-T-T-O-G-O",
-          "Snap and clap and touch your toes",
-          "You can take me hot to go",
-          "Dance around to the radio"
+          "rotten right to the core",
+          "yellow or green",
+          "don't fall far from the tree",
+          "the airport"
         ]
       }
-    ],
-    "shoutout": false
+    ]
+  },
+  "03/19/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "gameoverGif": "https://media.tenor.com/AU9e7T7N_HwAAAAM/twoticketstoironmaiden-mena.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs with a Celestial Body",
+        "elements": [
+          "Bad Moon Rising",
+          "Black Hole Sun",
+          "Drops of Jupiter",
+          "Midnight Sun"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Black _____ Bands",
+        "elements": [
+          "Eyed Peas",
+          "Keys",
+          "Sabbath",
+          "Crowes"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Teenage _____ Songs",
+        "elements": [
+          "Dream",
+          "Dirtbag",
+          "Wildlife",
+          "Wasteland"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "One-Word '80s Hits",
+        "elements": [
+          "Jump",
+          "Physical",
+          "Gloria",
+          "Maniac"
+        ]
+      }
+    ]
   }
 }
