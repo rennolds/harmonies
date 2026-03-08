@@ -42481,7 +42481,61 @@
     "special-message": true,
     "message-content": "pair the song to it's iconic instrument"
   },
-
+  "03/15/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media0.giphy.com/media/igziZGqzOLRwdvM8zf/giphy.gif?cid=6c09b9524exb3tcr5zar0n77jp6gfv7450vfnsgiunajvp2q&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "ABBA Songs",
+        "elements": [
+          "Dancing Queen",
+          "Mamma Mia",
+          "Waterloo",
+          "Gimme! Gimme! Gimme!"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Songs From the Kendrick Drake Beef",
+        "elements": [
+          "Taylor Made Freestyle",
+          "Not Like Us",
+          "euphoria",
+          "Family Matters"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "\"Enter the Wu-Tang\" Tracks",
+        "elements": [
+          "C.R.E.A.M.",
+          "Protect Ya Neck",
+          "Bring Da Ruckus",
+          "Method Man"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2010 Rap Hits",
+        "elements": [
+          "Love the Way You Lie",
+          "Black and Yellow",
+          "All of the Lights",
+          "Not Afraid"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "03/16/2026": {
     "playlist": "",
     "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyOHRyMDVrYmp2MTJvdXBrazVmZmlldHo2M25qbGtua2llbGdqdHR6biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2YWCEiqRzdS57W00/giphy.gif",
@@ -42740,6 +42794,56 @@
     "message-content": "",
     "special-message": true
   },
+  "03/21/2026": {
+    "playlist": "https://open.spotify.com/playlist/3yo7EUx798T6rGtonkL7Fr?si=ieQ7mug9QAWjpe0oTNGI-Q",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "2010s",
+        "color": "#CBff70",
+        "elements": [
+          "California Gurls",
+          "Only Girl (In The World)",
+          "This Is America",
+          "Do I Wanna Know?"
+        ]
+      },
+      {
+        "name": "2000s",
+        "color": "#FAA3FF",
+        "elements": [
+          "Yeah!",
+          "American Idiot",
+          "Teenagers",
+          "Promiscuous"
+        ]
+      },
+      {
+        "name": "1990s",
+        "color": "#78DAF9",
+        "elements": [
+          "Lovefool",
+          "I Want It That Way",
+          "When I Come Around",
+          "Groove Is in the Heart"
+        ]
+      },
+      {
+        "name": "1980s",
+        "color": "#FFBC21",
+        "elements": [
+          "Jessie's Girl",
+          "Heaven",
+          "Sweet Child O' Mine",
+          "You Give Love a Bad Name"
+        ]
+      }
+    ],
+    "gameoverGif": "https://i.redd.it/0o1s2m0rz04a1.gif",
+    "shoutout-name": "supernatural_kay",
+    "message-content": "pair the song to the decade",
+    "special-message": true
+  },
   "03/22/2026": {
     "playlist": "https://open.spotify.com/playlist/5Kp3gmy1kya6SMYd6jOCMA?si=WDvo2hAdSdeZSWofFCKglQ&pi=S-xLB3stTMK_5",
     "shoutout": true,
@@ -42829,7 +42933,7 @@
         "color": "#FFBC21",
         "elements": [
           "Thurman",
-          "Ferdinand",
+          "Jean",
           "Eastwood",
           "Lipa"
         ]
