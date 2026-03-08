@@ -42481,7 +42481,266 @@
     "special-message": true,
     "message-content": "pair the song to it's iconic instrument"
   },
-  "03/15/2026": {
+
+  "03/16/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyOHRyMDVrYmp2MTJvdXBrazVmZmlldHo2M25qbGtua2llbGdqdHR6biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2YWCEiqRzdS57W00/giphy.gif",
+    "shoutout": false,
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "K-Pop Hits",
+        "elements": [
+          "Pink Venom",
+          "Dynamite",
+          "Cupid",
+          "Gangnam Style"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Pop Punk Bands",
+        "elements": [
+          "Yellowcard",
+          "Green Day",
+          "New Found Glory",
+          "blink-182"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics from Coldplays \"Yellow\"",
+        "elements": [
+          "the stars",
+          "they shine for you",
+          "everything you do",
+          "all yellow"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Lyrics from Charli XCX's \"Apple\"",
+        "elements": [
+          "rotten right to the core",
+          "yellow or green",
+          "don't fall far from the tree",
+          "the airport"
+        ]
+      }
+    ]
+  },
+  "03/17/2026": {
+    "playlist": "https://open.spotify.com/playlist/4vPmWgFPhjDslE7mCtboPC?si=wK5kJiAGTRSmnvs50fysTA&pi=nv2Th6K6TkSvh",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Albums With Fire on the Cover",
+        "color": "#CBff70",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/fi/thumb/1/10/Woodstockcover.jpg/330px-Woodstockcover.jpg",
+            "alt": "Woodstock"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Led_Zeppelin_-_Led_Zeppelin_cover.jpg/250px-Led_Zeppelin_-_Led_Zeppelin_cover.jpg",
+            "alt": "Led Zeppelin"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Rage_Against_the_Machine_cover.jpg/250px-Rage_Against_the_Machine_cover.jpg",
+            "alt": "Rage Against the Machine"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Green_Day_-_Saviors.png/250px-Green_Day_-_Saviors.png",
+            "alt": "Saviors"
+          }
+        ]
+      },
+      {
+        "name": "Mac Miller Projects",
+        "color": "#FAA3FF",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Mac_Miller_-_Balloonerism.png/250px-Mac_Miller_-_Balloonerism.png",
+            "alt": "Balloonerism"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/MacMillerFaces.jpg/250px-MacMillerFaces.jpg",
+            "alt": "Faces"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Mac_Miller_-_The_Divine_Feminine.png/250px-Mac_Miller_-_The_Divine_Feminine.png",
+            "alt": "The Divine Feminine"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Mac_Miller_GOOD_AM.jpg/250px-Mac_Miller_GOOD_AM.jpg",
+            "alt": "GO:OD AM"
+          }
+        ]
+      },
+      {
+        "name": "Fine Art Paintings Used as Album Covers",
+        "color": "#78DAF9",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Pinkerton_cover.jpg/250px-Pinkerton_cover.jpg",
+            "alt": "Pinkerton"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/The_Strokes_-_The_New_Abnormal.png/250px-The_Strokes_-_The_New_Abnormal.png",
+            "alt": "The New Abnormal"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.png",
+            "alt": "Viva la Vida or Death and All His Friends"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/9/95/Tom_Petty_ITGWO.jpg",
+            "alt": "Into the Great Wide Open"
+          }
+        ]
+      },
+      {
+        "name": "Hip Hop Duo / Collab Albums",
+        "color": "#FFBC21",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://en.wikipedia.org/wiki/Special:FilePath/Watch%20The%20Throne.jpg",
+            "alt": "Watch the Throne"
+          },
+          {
+            "type": "image",
+            "url": "https://en.wikipedia.org/wiki/Special:FilePath/Drake%20and%2021%20Savage%20-%20Her%20Loss.png",
+            "alt": "Her Loss"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/2/20/Run_the_jewels_ep_album_cover.jpg",
+            "alt": "Run the Jewels"
+          },
+          {
+            "type": "image",
+            "url": "https://en.wikipedia.org/wiki/Special:FilePath/Kids%20See%20Ghosts%20Cover.png",
+            "alt": "Kids See Ghosts"
+          }
+        ]
+      }
+    ],
+    "gameoverGif": "https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUydTJkdmt4dzFidzlvNHQwYXVtYmsxdGJ4YzVqZGQxcHZwMnE3M2J5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11BALxdATUV4Q/giphy.gif",
+    "shoutout-name": "jengus roundstone",
+    "message-content": "worth a thousand words",
+    "special-message": true
+  },
+  "03/19/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "gameoverGif": "https://media.tenor.com/AU9e7T7N_HwAAAAM/twoticketstoironmaiden-mena.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Songs with a Celestial Body",
+        "elements": [
+          "Bad Moon Rising",
+          "Black Hole Sun",
+          "Drops of Jupiter",
+          "Midnight Sun"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Black _____ Bands",
+        "elements": [
+          "Eyed Peas",
+          "Keys",
+          "Sabbath",
+          "Crowes"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Teenage _____ Songs",
+        "elements": [
+          "Dream",
+          "Dirtbag",
+          "Wildlife",
+          "Wasteland"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "One-Word '80s Hits",
+        "elements": [
+          "Jump",
+          "Physical",
+          "Gloria",
+          "Maniac"
+        ]
+      }
+    ]
+  },
+  "03/20/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Adele Songs",
+        "color": "#CBff70",
+        "elements": [
+          "Chasing Pavements",
+          "Hello",
+          "Set Fire to the Rain",
+          "Send My Love"
+        ]
+      },
+      {
+        "name": "Weather in Song Titles",
+        "color": "#FAA3FF",
+        "elements": [
+          "Walking on Sunshine",
+          "Snow on The Beach",
+          "November Rain",
+          "Sweater Weather"
+        ]
+      },
+      {
+        "name": "City Life in Song Titles",
+        "color": "#78DAF9",
+        "elements": [
+          "Skyscraper",
+          "The Subway",
+          "Downtown",
+          "Traffic Jam"
+        ]
+      },
+      {
+        "name": "Bands with Five Members",
+        "color": "#FFBC21",
+        "elements": [
+          "The Neighbourhood",
+          "Backstreet Boys",
+          "Train",
+          "Rainbow"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyaXJ1OHM1dncxNWhpbDE4MDI5eDRidHpoN3FwaGo2MmVxMTVobWVwbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qvb3GCJ8ZerF6/200.gif",
+    "shoutout-name": "3mi",
+    "message-content": "",
+    "special-message": true
+  },
+  "03/22/2026": {
     "playlist": "https://open.spotify.com/playlist/5Kp3gmy1kya6SMYd6jOCMA?si=WDvo2hAdSdeZSWofFCKglQ&pi=S-xLB3stTMK_5",
     "shoutout": true,
     "categories": [
@@ -42531,98 +42790,54 @@
     "message-content": "",
     "special-message": true
   },
-  "03/16/2026": {
+  "03/23/2026": {
     "playlist": "",
-    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyOHRyMDVrYmp2MTJvdXBrazVmZmlldHo2M25qbGtua2llbGdqdHR6biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2YWCEiqRzdS57W00/giphy.gif",
     "shoutout": false,
     "categories": [
       {
+        "name": "Songs Named After Women",
         "color": "#CBff70",
-        "name": "K-Pop Hits",
         "elements": [
-          "Pink Venom",
-          "Dynamite",
-          "Cupid",
-          "Gangnam Style"
+          "Barbara Ann",
+          "Lola",
+          "Roxanne",
+          "Angie"
         ]
       },
       {
+        "name": "\"Hey\" ____ Songs",
         "color": "#FAA3FF",
-        "name": "Pop Punk Bands",
         "elements": [
-          "Yellowcard",
-          "Green Day",
-          "New Found Glory",
-          "blink-182"
+          "Mickey",
+          "Jude",
+          "Joe",
+          "There Delilah"
         ]
       },
       {
+        "name": "Women Named in \"Mambo No. 5\"",
         "color": "#78DAF9",
-        "name": "Lyrics from Coldplays \"Yellow\"",
         "elements": [
-          "the stars",
-          "they shine for you",
-          "everything you do",
-          "all yellow"
+          "Monica",
+          "Erica",
+          "Rita",
+          "Tina"
         ]
       },
       {
+        "name": "Famous-Person Song Titles Missing the First Name",
         "color": "#FFBC21",
-        "name": "Lyrics from Charli XCX's \"Apple\"",
         "elements": [
-          "rotten right to the core",
-          "yellow or green",
-          "don't fall far from the tree",
-          "the airport"
+          "Thurman",
+          "Ferdinand",
+          "Eastwood",
+          "Lipa"
         ]
       }
-    ]
-  },
-  "03/19/2026": {
-    "playlist": "",
-    "shoutout": false,
-    "gameoverGif": "https://media.tenor.com/AU9e7T7N_HwAAAAM/twoticketstoironmaiden-mena.gif",
-    "categories": [
-      {
-        "color": "#CBff70",
-        "name": "Songs with a Celestial Body",
-        "elements": [
-          "Bad Moon Rising",
-          "Black Hole Sun",
-          "Drops of Jupiter",
-          "Midnight Sun"
-        ]
-      },
-      {
-        "color": "#FAA3FF",
-        "name": "Black _____ Bands",
-        "elements": [
-          "Eyed Peas",
-          "Keys",
-          "Sabbath",
-          "Crowes"
-        ]
-      },
-      {
-        "color": "#78DAF9",
-        "name": "Teenage _____ Songs",
-        "elements": [
-          "Dream",
-          "Dirtbag",
-          "Wildlife",
-          "Wasteland"
-        ]
-      },
-      {
-        "color": "#FFBC21",
-        "name": "One-Word '80s Hits",
-        "elements": [
-          "Jump",
-          "Physical",
-          "Gloria",
-          "Maniac"
-        ]
-      }
-    ]
+    ],
+    "gameoverGif": "https://media.tenor.com/IUUz47N301EAAAAM/rita-loubega.gif",
+    "shoutout-name": "",
+    "message-content": "names names names!",
+    "special-message": true
   }
 }
