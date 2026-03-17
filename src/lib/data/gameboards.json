@@ -42751,6 +42751,60 @@
     "message-content": "worth a thousand words",
     "special-message": true
   },
+  "03/18/2026": {
+    "playlist": "https://open.spotify.com/playlist/0NRSsVuErCxpbKMMnhu8hL?si=28fb47cf2ff9417b",
+    "gameoverGif": "https://media.tenor.com/OJCHctmKzQ4AAAAM/madonna-madonna-louise.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Madonna Songs",
+        "elements": [
+          "Vogue",
+          "Holiday",
+          "Secret",
+          "Frozen"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Michael Jackson Albums",
+        "elements": [
+          "Thriller",
+          "Bad",
+          "Dangerous",
+          "HIStory"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "'90s Rap Billboard Hits",
+        "elements": [
+          "Juicy",
+          "Changes",
+          "C.R.E.A.M.",
+          "Regulate"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "'90s One-Hit Wonders",
+        "elements": [
+          "Iris",
+          "Tubthumping",
+          "Torn",
+          "Macarena"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "special-message": true,
+    "message-content": "we love the 90s (says the person born in ‘07)"
+  },
   "03/19/2026": {
     "playlist": "https://open.spotify.com/playlist/7jA1zywsKrbtYaiX7C3UAG?si=a74d78cfb198461d",
     "shoutout": false,
@@ -42950,7 +43004,6 @@
   },
   "03/23/2026": {
     "playlist": "https://open.spotify.com/playlist/4hgb12Zutn9TBZZEIld2XV?si=e485b1551868431c",
-    "shoutout": false,
     "categories": [
       {
         "name": "Songs Named After Women",
@@ -42993,8 +43046,9 @@
         ]
       }
     ],
+    "shoutout": true,
     "gameoverGif": "https://media.tenor.com/IUUz47N301EAAAAM/rita-loubega.gif",
-    "shoutout-name": "",
+    "shoutout-name": "anney",
     "message-content": "names names names!",
     "special-message": true
   }
