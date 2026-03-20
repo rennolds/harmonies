@@ -43051,5 +43051,427 @@
     "shoutout-name": "anney",
     "message-content": "names names names!",
     "special-message": true
+  },
+  "03/24/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Cartoon Covers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg",
+            "alt": "Dookie"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8",
+            "alt": "Graduation"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
+            "alt": "Demon Days"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d807dd713cdfbeed142881e2",
+            "alt": "Yellow Submarine"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "2010s Indie / Alternative Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/0/04/Arctic_Monkeys_-_AM.png",
+            "alt": "AM"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe3Aurpmqpct_FXIGWe0nFHjCDzHFg2qrrJA&s",
+            "alt": "Currents"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpGCkIbzO3d7sDCs472__XUdyXSnQhTNKbVw&s",
+            "alt": "Torches"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvuxmCrK40DYQsyrmu0vueNgeo3lZG5xiglg&s",
+            "alt": "Tourist History"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums by Groups With 8+ Members",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/a/a9/All_Hope_is_Gone_%28original%29.jpg",
+            "alt": "All Hope Is Gone"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-pQNCE13Ob_nFwJfE-KXweyxVaq6Y_wWD3g&s",
+            "alt": "I Am"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVOrp6ikZhFtAZKCPAVpPPuucIh_s4TcXIYA&s",
+            "alt": "Saturation"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIvbbWsNU-3N0Rkioqy1WUiHJmmF3DuAhUYw&s",
+            "alt": "Love & Letter"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Self-Titled Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqxvYZhf3Bf-Hs80lxyLTr1_Bw9yGQf7eKXA&s",
+            "alt": "*NSYNC"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQryNksci03DNU3FYRGue7DXuKa4aimB3FZxw&s",
+            "alt": "The 1975"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqWJ8lu1BkSbzns4JDd02jMevpizvbTcv6g&s",
+            "alt": "blink-182"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmlwpKXuRFk8QZqtkIZdS0Ay38R9Ewzha3_g&s",
+            "alt": "Beyoncé"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
+  "03/25/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/Q6IHokGej1IAAAAM/steve-harvey.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "50 Cent Songs",
+        "elements": [
+          "Many Men (Wish Death)",
+          "Candy Shop",
+          "Just A Lil Bit",
+          "P.I.M.P."
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Artists With a Money Term in Their Name",
+        "elements": [
+          "Peso Pluma",
+          "Flipp Dinero",
+          "Eurotripp",
+          "Johnny Cash"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to Bruno Mars’ Chorus in “Billionaire”",
+        "elements": [
+          "Cover of Forbes Magazine",
+          "Oprah and the Queen",
+          "Name in shining lights",
+          "Different city every night"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Billionaires",
+        "elements": [
+          "Paul McCartney",
+          "Jay-Z",
+          "Taylor Swift",
+          "Rihanna"
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "special-message": false,
+    "message-content": "[jim downey - the financier?](youtu.be/GKfHcas_cZg?si=tUIk4mOD9BJMLLJ8)"
+  },
+  "03/26/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Artists With A Letter At The End",
+        "color": "#CBff70",
+        "elements": [
+          "Jay-Z",
+          "Mel B",
+          "Jessie J",
+          "ScHoolboy Q"
+        ]
+      },
+      {
+        "name": "Musicians Named After A Drink",
+        "color": "#FAA3FF",
+        "elements": [
+          "Ice-T",
+          "JuiceWRLD",
+          "Amy Winehouse",
+          "Madison Beer"
+        ]
+      },
+      {
+        "name": "“Face Card” Musician Names",
+        "color": "#78DAF9",
+        "elements": [
+          "Jack Johnson",
+          "Queen",
+          "Ace of Base",
+          "B.B. King"
+        ]
+      },
+      {
+        "name": "Musicians With US State Capital in Their Name",
+        "color": "#FFBC21",
+        "elements": [
+          "Michael Jackson",
+          "John Denver",
+          "Boston",
+          "Rick Springfield"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUybGpsMHp0eW91c3BuZ3M0MW10Y2J5bHh2ODEwbm94eXc3b2owNXUwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tB7gCNjgmaAxy/giphy.gif",
+    "shoutout-name": "jengus roundstone",
+    "message-content": "don't think too hard 2",
+    "special-message": true
+  },
+  "03/28/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "90’s Alternative Rock",
+        "color": "#CBff70",
+        "elements": [
+          "Pearl Jam",
+          "Red Hot Chili Peppers ",
+          "Radiohead",
+          "Foo Fighters"
+        ]
+      },
+      {
+        "name": "Metal Bands",
+        "color": "#FAA3FF",
+        "elements": [
+          "Metallica",
+          "Slipknot",
+          "Pantera",
+          "System of a Down"
+        ]
+      },
+      {
+        "name": "Drummers",
+        "color": "#78DAF9",
+        "elements": [
+          "Danny Carey",
+          "Travis Barker",
+          "Tré Cool",
+          "Dave Grohl"
+        ]
+      },
+      {
+        "name": "The “Chads”",
+        "color": "#FFBC21",
+        "elements": [
+          "Chad Smith",
+          "Chad Kroeger",
+          "Chad Sexton",
+          "Chad Channing"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUycjNncm9iMjBpMGY4cWZ2NHB3ZHphaDQ2Z2o1cTVraHg4bXB1OG95OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dM2xuxnJCg4H6/200.gif",
+    "shoutout-name": "",
+    "message-content": "🤘🤘🤘",
+    "special-message": true
+  },
+  "03/29/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Bands with food in the name",
+        "color": "#CBff70",
+        "elements": [
+          "The Smashing Pumpkins",
+          "Pearl Jam",
+          "Fleetwood Mac",
+          "Red Hot Chili Peppers "
+        ]
+      },
+      {
+        "name": "Billie/Billy’s",
+        "color": "#FAA3FF",
+        "elements": [
+          "Eilish ",
+          "Idol",
+          "Joel",
+          "Jean"
+        ]
+      },
+      {
+        "name": "Songs missing “good”",
+        "color": "#78DAF9",
+        "elements": [
+          "Days",
+          "Life",
+          "Time",
+          "Looking"
+        ]
+      },
+      {
+        "name": "Beatles Songs that Ringo Sang Lead In",
+        "color": "#FFBC21",
+        "elements": [
+          "Octopus’s Garden",
+          "Yellow Submarine",
+          "Matchbox",
+          "What Goes On"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "headphones_on",
+    "message-content": "Iykyk",
+    "special-message": true
+  },
+  "04/02/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Albums by The Weeknd",
+        "color": "#CBff70",
+        "elements": [
+          "Beauty Behind the Madness",
+          "Starboy",
+          "After Hours",
+          "Hurry Up Tomorrow"
+        ]
+      },
+      {
+        "name": "Elvis Hits",
+        "color": "#FAA3FF",
+        "elements": [
+          "Heartbreak Hotel",
+          "Burning Love",
+          "Suspicious Minds",
+          "Blue Suede Shoes"
+        ]
+      },
+      {
+        "name": "______________  Eyes",
+        "color": "#78DAF9",
+        "elements": [
+          "Behind Blue",
+          "Behind These Hazel",
+          "Ocean",
+          "In Your"
+        ]
+      },
+      {
+        "name": "Classic 2001 Albums",
+        "color": "#FFBC21",
+        "elements": [
+          "Is This It",
+          "The Blueprint",
+          "Hybrid Theory",
+          "Toxicity"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyY2Z0cXFic3E1cDUzNmZhNXpsY3luY3p2dWkwc2E2NGpleTlsY3FsbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ev1KF0JQPCNXO/giphy.gif",
+    "shoutout-name": "jengus roundstone"
+  },
+  "04/09/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "anonymous": true,
+    "categories": [
+      {
+        "name": "K-Pop artists",
+        "color": "#CBff70",
+        "elements": [
+          "Rosé",
+          "Jennie",
+          "Jungkook",
+          "IU"
+        ]
+      },
+      {
+        "name": "Artists that have been in a movie musical",
+        "color": "#FAA3FF",
+        "elements": [
+          "Jennifer Hudson",
+          "Ariana Grande",
+          "Camila Cabello",
+          "Olivia Newton-John"
+        ]
+      },
+      {
+        "name": "Artists with debut albums released in 2000",
+        "color": "#78DAF9",
+        "elements": [
+          "P!nk",
+          "Nelly Furtado",
+          "Linkin Park",
+          "Coldplay"
+        ]
+      },
+      {
+        "name": "Artists with songs titled \"Stay\"",
+        "color": "#FFBC21",
+        "elements": [
+          "Rihanna",
+          "Post Malone",
+          "Zedd",
+          "Justin Bieber"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": ""
   }
 }

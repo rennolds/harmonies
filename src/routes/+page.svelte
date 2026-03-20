@@ -11,6 +11,7 @@
   import ClearedCategory from "./ClearedCategory.svelte";
   import HelpOverlay from "./HelpOverlay.svelte";
   import Navbar from "./Navbar.svelte";
+  import ReverseHarmonies from "./ReverseHarmonies.svelte";
   import gameBoards from "$lib/data/gameboards.json";
   // import TopAdBanner from './old.svelte';
   import Ramp from "./Ramp.svelte";
@@ -136,6 +137,7 @@
   const board = todayBoard || {};
 
   const categories = board.categories || [];
+  const isReversePuzzle = board.type === "reverse";
 
   if (categories.length != 4 && todayBoard) {
     console.error(`Gameboard is malformed for ${todaysDate}`);
@@ -574,6 +576,100 @@
     }
   }
 
+  async function handleReverseStats(roundCount, win) {
+    $played = $played + 1;
+    if (!$completedDays.includes(todaysDate)) {
+      $completedDays = [...$completedDays, todaysDate];
+    }
+    if (win) {
+      $currentStreak = $currentStreak + 1;
+      $solveList.push(roundCount);
+      $solveList = $solveList;
+      if ($currentStreak > $maxStreak) {
+        $maxStreak = $currentStreak;
+      }
+    } else {
+      $solveList.push(0);
+      $solveList = $solveList;
+      $currentStreak = 0;
+    }
+
+    if ($page.data.user) {
+      const { valid } = await ensureValidSession();
+      if (valid) {
+        try {
+          await fetch("/api/stats/record", {
+            method: "POST",
+            body: JSON.stringify({
+              puzzleDate: todaysDate,
+              win,
+              guessesCount: roundCount,
+              mistakeCount: 0,
+              guessHistory: [],
+              clearedCategories: win ? categories.map((c) => c.name) : [],
+              missedCategories: win ? [] : categories.map((c) => c.name),
+              newPlayed: $played,
+              newCurrentStreak: $currentStreak,
+              newMaxStreak: $maxStreak,
+              newSolveList: $solveList,
+              newCompletedDays: $completedDays,
+            }),
+          });
+        } catch (err) {
+          console.error("Failed to sync reverse stats:", err);
+        }
+      }
+    }
+  }
+
+  async function handleReverseArchiveStats(win) {
+    if (isCustomPuzzle) return;
+    if (!$completedDays.includes(todaysDate)) {
+      $completedDays = [...$completedDays, todaysDate];
+    }
+    if ($page.data.user) {
+      const { valid } = await ensureValidSession();
+      if (valid) {
+        try {
+          await fetch("/api/stats/record", {
+            method: "POST",
+            body: JSON.stringify({
+              puzzleDate: todaysDate,
+              win,
+              guessesCount: 1,
+              mistakeCount: 0,
+              guessHistory: [],
+              clearedCategories: win ? categories.map((c) => c.name) : [],
+              missedCategories: win ? [] : categories.map((c) => c.name),
+              newPlayed: $played,
+              newCurrentStreak: $currentStreak,
+              newMaxStreak: $maxStreak,
+              newSolveList: $solveList,
+              newCompletedDays: $completedDays,
+            }),
+          });
+        } catch (err) {
+          console.error("Failed to sync reverse archive stats:", err);
+        }
+      }
+    }
+  }
+
+  async function handleReverseComplete(roundCount, win) {
+    if (!isArchiveMode) {
+      await handleReverseStats(roundCount, win);
+    } else {
+      await handleReverseArchiveStats(win);
+    }
+    setTimeout(() => {
+      gameoverStore.set({
+        isOver: true,
+        headerMessage: win ? "Incredible!" : "Better luck tmr...",
+      });
+      toggleOverlay();
+    }, 400);
+  }
+
   function shuffleElements() {
     let currentIndex = remainingElements.length,
       randomIndex;
@@ -891,6 +987,16 @@
   }
 
   function shareResult() {
+    if (isReversePuzzle) {
+      const header = `Reverse Harmonies #${harmonyNumber} 🎧\n\nharmonies.io`;
+      if (navigator.share) {
+        navigator.share({ text: header }).catch(console.error);
+      } else {
+        navigator.clipboard.writeText(header).catch((e) => alert(`Copy failed! ${e}`));
+      }
+      return;
+    }
+
     if (browser) {
       gtag("event", "shared_result", {
         guesses: $guessHistory.length,
@@ -1139,13 +1245,11 @@
     <div class="container game-container">
       {#if !isCustomPuzzle && !shoutout && !disableHeader}
         <h2 class="header-msg">
-          <!-- check out our new game, <a
-          href="https://crosstune.io"
-          target="_blank"
-          style="color: #FF6B00; text-decoration: none;"
-          class="crosstune-link">crosstune.io</a
-        >! -->
-          Create groups of four!
+          {#if isReversePuzzle}
+            reverse harmonies. tap an item and pair it to a category. every friday (maybe?)
+          {:else}
+            Create groups of four!
+          {/if}
         </h2>
       {/if}
       {#if shoutout}
@@ -1395,6 +1499,14 @@
         </div>
       {/if}
 
+      {#if isReversePuzzle}
+        <ReverseHarmonies
+          {categories}
+          {isArchiveMode}
+          isTodayCompleted={isTodayCompleted}
+          onComplete={handleReverseComplete}
+        />
+      {:else}
       <div class="grid-container">
         {#each [...new Set((useLocalState ? localClearedCategories : $clearedCategories).map( (category) => {
                 // Create a deep copy of the category with consistent element representation
@@ -1465,8 +1577,9 @@
           </div>
         {/each}
       </div>
+      {/if}
 
-      {#if !$gameoverStore.isOver}
+      {#if !isReversePuzzle && !$gameoverStore.isOver}
         <div class="mistakes-remaining-container">
           <div class="mistakes-remaining-text-container">
             <div class="mistakes-remaining-text">mistakes remaining:&nbsp;</div>
@@ -1616,7 +1729,7 @@
             <h3>Clear</h3>
           </div>
         </div>
-      {:else}
+      {:else if $gameoverStore.isOver}
         <div class="result-button-container">
           <button
             on:click={toggleOverlay}
