@@ -43232,7 +43232,7 @@
     "shoutout": true,
     "categories": [
       {
-        "name": "Artists With A Letter At The End",
+        "name": "Artists Whose Names End in a Letter",
         "color": "#CBff70",
         "elements": [
           "Jay-Z",
@@ -43252,7 +43252,7 @@
         ]
       },
       {
-        "name": "“Face Card” Musician Names",
+        "name": "\"Face Card\" Musician Names",
         "color": "#78DAF9",
         "elements": [
           "Jack Johnson",
@@ -43262,7 +43262,7 @@
         ]
       },
       {
-        "name": "Musicians With US State Capital in Their Name",
+        "name": "Musicians With a U.S. State Capital in Their Name",
         "color": "#FFBC21",
         "elements": [
           "Michael Jackson",
@@ -43277,18 +43277,66 @@
     "message-content": "don't think too hard 2",
     "special-message": true
   },
+  "03/27/2026": {
+    "type": "reverse",
+    "playlist": "",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "Ariana Grande songs",
+        "color": "#CBff70",
+        "elements": [
+          "thank u, next",
+          "7 rings",
+          "no tears left to cry",
+          "positions"
+        ]
+      },
+      {
+        "name": "iconic '80s pop songs",
+        "color": "#FAA3FF",
+        "elements": [
+          "Take On Me",
+          "Girls Just Want to Have Fun",
+          "Sweet Dreams",
+          "Everybody Wants to Rule the World"
+        ]
+      },
+      {
+        "name": "songs about a specific place",
+        "color": "#78DAF9",
+        "elements": [
+          "Empire State of Mind",
+          "Viva Las Vegas",
+          "Walking in Memphis",
+          "Hotel California"
+        ]
+      },
+      {
+        "name": "written by Diane Warren",
+        "color": "#FFBC21",
+        "elements": [
+          "I Don't Want to Miss a Thing",
+          "If I Could Turn Back Time",
+          "Un-Break My Heart",
+          "Because You Loved Me"
+        ]
+      }
+    ],
+    "gameoverGif": ""
+  },
   "03/28/2026": {
     "playlist": "",
     "shoutout": false,
     "categories": [
       {
-        "name": "90’s Alternative Rock",
+        "name": "The “Chads”",
         "color": "#CBff70",
         "elements": [
-          "Pearl Jam",
-          "Red Hot Chili Peppers ",
-          "Radiohead",
-          "Foo Fighters"
+          "Chad Smith",
+          "Chad Kroeger",
+          "Chad Sexton",
+          "Chad Channing"
         ]
       },
       {
@@ -43302,57 +43350,57 @@
         ]
       },
       {
-        "name": "Drummers",
         "color": "#78DAF9",
+        "name": "’90s Alternative Rock",
+        "elements": [
+          "Pearl Jam",
+          "Red Hot Chili Peppers",
+          "Radiohead",
+          "Foo Fighters"
+        ]
+      },
+      {
+
+        "name": "Drummers",
+        "color": "#FFBC21",
         "elements": [
           "Danny Carey",
           "Travis Barker",
           "Tré Cool",
           "Dave Grohl"
         ]
-      },
-      {
-        "name": "The “Chads”",
-        "color": "#FFBC21",
-        "elements": [
-          "Chad Smith",
-          "Chad Kroeger",
-          "Chad Sexton",
-          "Chad Channing"
-        ]
       }
     ],
     "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUycjNncm9iMjBpMGY4cWZ2NHB3ZHphaDQ2Z2o1cTVraHg4bXB1OG95OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dM2xuxnJCg4H6/200.gif",
     "shoutout-name": "",
-    "message-content": "🤘🤘🤘",
-    "special-message": true
+    "special-message": false
   },
   "03/29/2026": {
     "playlist": "",
     "shoutout": true,
     "categories": [
       {
-        "name": "Bands with food in the name",
+        "name": "Bands With Food in the Name",
         "color": "#CBff70",
         "elements": [
           "The Smashing Pumpkins",
           "Pearl Jam",
           "Fleetwood Mac",
-          "Red Hot Chili Peppers "
+          "Red Hot Chili Peppers"
         ]
       },
       {
-        "name": "Billie/Billy’s",
+        "name": "Famous Billie/Billys",
         "color": "#FAA3FF",
         "elements": [
-          "Eilish ",
+          "Eilish",
           "Idol",
           "Joel",
           "Jean"
         ]
       },
       {
-        "name": "Songs missing “good”",
+        "name": "Songs Missing “Good”",
         "color": "#78DAF9",
         "elements": [
           "Days",
@@ -43362,7 +43410,7 @@
         ]
       },
       {
-        "name": "Beatles Songs that Ringo Sang Lead In",
+        "name": "Beatles Songs Ringo Sang Lead On",
         "color": "#FFBC21",
         "elements": [
           "Octopus’s Garden",
@@ -43373,9 +43421,54 @@
       }
     ],
     "gameoverGif": "",
-    "shoutout-name": "headphones_on",
-    "message-content": "Iykyk",
-    "special-message": true
+    "shoutout-name": "headphones_on"
+  },
+  "03/30/2026": {
+    "playlist": "",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "song titles named after years",
+        "color": "#CBff70",
+        "elements": [
+          "1979",
+          "1985",
+          "3005",
+          "2002"
+        ]
+      },
+      {
+        "name": "adele albums",
+        "color": "#FAA3FF",
+        "elements": [
+          "18",
+          "21",
+          "25",
+          "30"
+        ]
+      },
+      {
+        "name": "famous number bands, but only the number",
+        "color": "#78DAF9",
+        "elements": [
+          "41",
+          "182",
+          "5",
+          "twenty"
+        ]
+      },
+      {
+        "name": "jenny's number",
+        "color": "#FFBC21",
+        "elements": [
+          "867",
+          "53",
+          "0",
+          "9"
+        ]
+      }
+    ],
+    "gameoverGif": ""
   },
   "04/02/2026": {
     "playlist": "",
@@ -43402,7 +43495,7 @@
         ]
       },
       {
-        "name": "______________  Eyes",
+        "name": "____  Eyes",
         "color": "#78DAF9",
         "elements": [
           "Behind Blue",
@@ -43417,13 +43510,113 @@
         "elements": [
           "Is This It",
           "The Blueprint",
-          "Hybrid Theory",
+          "Songs in A Minor",
           "Toxicity"
         ]
       }
     ],
     "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyY2Z0cXFic3E1cDUzNmZhNXpsY3luY3p2dWkwc2E2NGpleTlsY3FsbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ev1KF0JQPCNXO/giphy.gif",
     "shoutout-name": "jengus roundstone"
+  },
+  "04/04/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "anonymous": false,
+    "categories": [
+      {
+        "name": "James Bond songs",
+        "color": "#CBff70",
+        "elements": [
+          "Goldfinger",
+          "Live and Let Die",
+          "Skyfall",
+          "No Time To Die"
+        ]
+      },
+      {
+        "name": "Jim, Jimi, or Jimmy",
+        "color": "#FAA3FF",
+        "elements": [
+          "Croce",
+          "Hendrix",
+          "Eat World",
+          "Morrison"
+        ]
+      },
+      {
+        "name": "Popular songs by famous Jameses",
+        "color": "#78DAF9",
+        "elements": [
+          "You're Beautiful",
+          "Say You Won't Let Go",
+          "I Got You",
+          "Broken Strings"
+        ]
+      },
+      {
+        "name": "Songs mentioning \"James Dean\"",
+        "color": "#FFBC21",
+        "elements": [
+          "Style",
+          "Blue Jeans",
+          "Walk on the Wild Side",
+          "American Pie"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "cindy",
+    "message-content": "jam(e)s",
+    "special-message": true
+  },
+  "04/05/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "anonymous": false,
+    "categories": [
+      {
+        "name": "Groups with 1 girl and 3 guys",
+        "color": "#CBff70",
+        "elements": [
+          "The Cardigans",
+          "No Doubt",
+          "The Cranberries",
+          "Black Eyed Peas"
+        ]
+      },
+      {
+        "name": "Arctic Monkeys albums",
+        "color": "#FAA3FF",
+        "elements": [
+          "Humbug",
+          "Favourite Worst Nightmare",
+          "Whatever People Say I Am, That's What I'm Not",
+          "AM"
+        ]
+      },
+      {
+        "name": "Billboard Hot 100 No. 1s from 2013",
+        "color": "#78DAF9",
+        "elements": [
+          "Thrift Shop",
+          "Blurred Lines",
+          "Radioactive",
+          "Harlem Shake"
+        ]
+      },
+      {
+        "name": "Lyrics from Red Hot Chili Peppers' \"Under the Bridge\"",
+        "color": "#FFBC21",
+        "elements": [
+          "Sometimes I feel like",
+          "The city I live in",
+          "Take me to the place I love",
+          "Under the bridge downtown"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "alexandfuecoco"
   },
   "04/09/2026": {
     "playlist": "",
