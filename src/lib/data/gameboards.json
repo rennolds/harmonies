@@ -43278,7 +43278,6 @@
     "special-message": true
   },
   "03/27/2026": {
-    "type": "reverse",
     "playlist": "",
     "shoutout": false,
     "categories": [
@@ -43313,13 +43312,13 @@
         ]
       },
       {
-        "name": "written by Diane Warren",
+        "name": "Lyrics from Katy Perry's \"California Gurls\"",
         "color": "#FFBC21",
         "elements": [
-          "I Don't Want to Miss a Thing",
-          "If I Could Turn Back Time",
-          "Un-Break My Heart",
-          "Because You Loved Me"
+          "Daisy dukes",
+          "Bikinis on top",
+          "Sun-kissed skin",
+          "Wild wild west coast"
         ]
       }
     ],
