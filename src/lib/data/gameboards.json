@@ -43423,7 +43423,7 @@
     "shoutout-name": "headphones_on"
   },
   "03/30/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/7hggFBSWLbz1y0qIeqFiow?si=06c5c100798b4afb",
     "shoutout": false,
     "categories": [
       {
@@ -43440,7 +43440,7 @@
         "name": "adele albums",
         "color": "#FAA3FF",
         "elements": [
-          "18",
+          "19",
           "21",
           "25",
           "30"
@@ -43467,7 +43467,128 @@
         ]
       }
     ],
-    "gameoverGif": ""
+    "gameoverGif": "https://media.tenor.com/lLuj0lqSHxoAAAAM/adele-reaction-adele-confused.gif"
+  },
+  "03/31/2026": {
+    "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Album Covers Featuring Crowns",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273fee3cf117cef2ae39c10ac4a",
+            "alt": "Duets: The Final Chapter"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2732e02117d76426a08ac7c174f",
+            "alt": "Mr. Morale & the Big Steppers"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a7ef06d1e0bad6fe2ff028f6",
+            "alt": "Michael"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Chertakemehome.jpgx  ",
+            "alt": "Take Me Home"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drake Albums",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273ac0c2daf1867b0d86cca74be",
+            "alt": "Take Care"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a90d170c61fb7d063d47161d",
+            "alt": "Nothing Was the Same"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c",
+            "alt": "Views"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f907de96b9a4fbc04accc0d5",
+            "alt": "Scorpion"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Albums by Mixed-Gender Groups",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736ebd5e789646a833b8f7d4ba",
+            "alt": "Tragic Kingdom"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0",
+            "alt": "Arrival"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2735db09bde92cc685403d7068f",
+            "alt": "Elephunk"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b27357df7ce0eac715cf70e519a7",
+            "alt": "Rumours"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "2010 Albums Whose Lead Single Hit #1",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273d20c38f295039520d688a888",
+            "alt": "Teenage Dream"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273aa16162c83c19d587a3bfa45",
+            "alt": "Loud"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b273c08d5fa5c0f1a834acef5100",
+            "alt": "Recovery"
+          },
+          {
+            "type": "image",
+            "url": "https://i.scdn.co/image/ab67616d0000b2737039c1c841fc3dfa2ad8a0d8",
+            "alt": "Doo-Wops & Hooligans"
+          }
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   },
   "04/02/2026": {
     "playlist": "",
@@ -43516,6 +43637,57 @@
     ],
     "gameoverGif": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyY2Z0cXFic3E1cDUzNmZhNXpsY3luY3p2dWkwc2E2NGpleTlsY3FsbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ev1KF0JQPCNXO/giphy.gif",
     "shoutout-name": "jengus roundstone"
+  },
+  "04/03/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Instruments That Start With The Letter P",
+        "color": "#CBff70",
+        "elements": [
+          "Piano",
+          "Pan Flute",
+          "Pipa",
+          "Piccolo"
+        ]
+      },
+      {
+        "name": "Lady Gaga Songs",
+        "color": "#FAA3FF",
+        "elements": [
+          "Poker Face",
+          "Perfect Illusion",
+          "Paparazzi",
+          "Plastic Doll"
+        ]
+      },
+      {
+        "name": "Rock Bands That Start With P",
+        "color": "#78DAF9",
+        "elements": [
+          "Pulp",
+          "Pixies",
+          "Paramore",
+          "Pearl Jam"
+        ]
+      },
+      {
+        "name": "Things Sinatra says he’s been in \"That's Life\"",
+        "color": "#FFBC21",
+        "elements": [
+          "Puppet",
+          "Pirate",
+          "Pauper",
+          "Poet"
+        ]
+
+      }
+    ],
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnhtN2pyNjkxMjZuMzdoMHZ1a2liMHlzN3gweXkwbDJtdTlyMThleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46CASyudNh8HWmcw/giphy.gif",
+    "shoutout-name": "yvng",
+    "message-content": "oops all p's",
+    "special-message": true
   },
   "04/04/2026": {
     "playlist": "",
@@ -43570,52 +43742,108 @@
   },
   "04/05/2026": {
     "playlist": "",
-    "shoutout": true,
-    "anonymous": false,
+    "shoutout": false,
     "categories": [
       {
-        "name": "Groups with 1 girl and 3 guys",
+        "name": "Songs Referencing Heaven",
         "color": "#CBff70",
         "elements": [
-          "The Cardigans",
-          "No Doubt",
-          "The Cranberries",
-          "Black Eyed Peas"
+          "Heaven Only Knows",
+          "Stairway to Heaven",
+          "Locked out of Heaven",
+          "Just Like Heavn"
         ]
       },
       {
-        "name": "Arctic Monkeys albums",
         "color": "#FAA3FF",
+        "name": "Godly Songs by Ye",
         "elements": [
-          "Humbug",
-          "Favourite Worst Nightmare",
-          "Whatever People Say I Am, That's What I'm Not",
-          "AM"
+          "Jesus Walks",
+          "Ultralight Beam",
+          "Follow God",
+          "God Is"
         ]
       },
       {
-        "name": "Billboard Hot 100 No. 1s from 2013",
+        "name": "Lyrics from Leonard Cohen's \"Hallelujah\"",
         "color": "#78DAF9",
         "elements": [
-          "Thrift Shop",
-          "Blurred Lines",
-          "Radioactive",
-          "Harlem Shake"
+          "It goes like this",
+          "The fourth",
+          "The fifth",
+          "Pleased the Lord"
         ]
       },
       {
-        "name": "Lyrics from Red Hot Chili Peppers' \"Under the Bridge\"",
         "color": "#FFBC21",
+        "name": "Lyrics from Justin Bieber's \"Holy\"",
         "elements": [
-          "Sometimes I feel like",
-          "The city I live in",
-          "Take me to the place I love",
-          "Under the bridge downtown"
+          "runnin' to the altar",
+          "the way you hold me",
+          "feels so holy",
+          "on God"
         ]
       }
     ],
     "gameoverGif": "",
-    "shoutout-name": "alexandfuecoco"
+    "shoutout-name": ""
+  },
+  "04/06/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media2.giphy.com/media/qeAVCeUwLavsP6JD61/giphy.gif?cid=6c09b9527etlypioz0p81k32sh15x38dt737o36z4acqa3gm&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Headphones Brands",
+        "elements": [
+          "Bose",
+          "JBL",
+          "Sennheiser",
+          "Skullcandy"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Drake Songs",
+        "elements": [
+          "Passionfruit",
+          "Nonstop",
+          "Forever",
+          "Jumpman"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Record Labels",
+        "elements": [
+          "Universal",
+          "Sony",
+          "Island",
+          "Interscope"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "____ Album",
+        "elements": [
+          "Concept",
+          "Live",
+          "Double",
+          "Studio"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   },
   "04/09/2026": {
     "playlist": "",
@@ -43665,5 +43893,152 @@
     ],
     "gameoverGif": "",
     "shoutout-name": ""
+  },
+  "04/10/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Rihanna Songs",
+        "color": "#CBff70",
+        "elements": [
+          "Work",
+          "Only Girl",
+          "Disturbia",
+          "SOS"
+        ]
+      },
+      {
+        "name": "Wonderwall Lyrics",
+        "color": "#FAA3FF",
+        "elements": [
+          "So maybe",
+          "And after all",
+          "All the roads that lead you there are winding",
+          "You're my wonderwall"
+        ]
+      },
+      {
+        "name": "Songs Minus Numbers",
+        "color": "#78DAF9",
+        "elements": [
+          "K Magic",
+          "Your Eyez Only",
+          "% TNT",
+          "Years"
+        ]
+      },
+      {
+        "name": "Canadian Artists' Albums",
+        "color": "#FFBC21",
+        "elements": [
+          "Swag",
+          "Take Care",
+          "Starboy",
+          "Let Go"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "kieranwf"
+  },
+  "04/11/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "Lyrics to All the Small Things",
+        "color": "#CBff70",
+        "elements": [
+          "Say it ain't so",
+          "True care, truth brings",
+          "Turn the lights off",
+          "She left me roses by the stairs"
+        ]
+      },
+      {
+        "name": "Lyrics to Dear Maria, Count Me In",
+        "color": "#FAA3FF",
+        "elements": [
+          "I got your picture",
+          "I'm coming with you",
+          "There's a story at the bottom of this bottle",
+          "And I'm the pen"
+        ]
+      },
+      {
+        "name": "Albums released in 2007",
+        "color": "#78DAF9",
+        "elements": [
+          "So Right, It's Wrong",
+          "Riot!",
+          "A Lesson in Romantics",
+          "Infinity on High"
+        ]
+      },
+      {
+        "name": "Bands that lost/changed members",
+        "color": "#FFBC21",
+        "elements": [
+          "Paramore",
+          "blink-182",
+          "Panic! At The Disco",
+          "Sum 41"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUydGI4dDk4dmIwa29vNjB3NXdwMGNrdDFleGloMmljeGF3ZmY0aHgycCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uwcADIFwV4Jna/giphy.gif",
+    "shoutout-name": "spotleyjoe",
+    "message-content": "It's not a phase mom",
+    "special-message": true
+  },
+  "04/12/2026": {
+    "playlist": "",
+    "shoutout": true,
+    "anonymous": false,
+    "categories": [
+      {
+        "name": "Groups with 1 girl and 3 guys",
+        "color": "#CBff70",
+        "elements": [
+          "The Cardigans",
+          "No Doubt",
+          "The Cranberries",
+          "Black Eyed Peas"
+        ]
+      },
+      {
+        "name": "Arctic Monkeys albums",
+        "color": "#FAA3FF",
+        "elements": [
+          "Humbug",
+          "Favourite Worst Nightmare",
+          "Whatever People Say I Am, That's What I'm Not",
+          "AM"
+        ]
+      },
+      {
+        "name": "Billboard Hot 100 No. 1s from 2013",
+        "color": "#78DAF9",
+        "elements": [
+          "Thrift Shop",
+          "Blurred Lines",
+          "Radioactive",
+          "Harlem Shake"
+        ]
+      },
+      {
+        "name": "Lyrics from Red Hot Chili Peppers' \"Under the Bridge\"",
+        "color": "#FFBC21",
+        "elements": [
+          "Sometimes I feel like",
+          "The city I live in",
+          "Take me to the place I love",
+          "Under the bridge downtown"
+        ]
+      }
+    ],
+    "gameoverGif": "",
+    "shoutout-name": "alexandfuecoco"
   }
 }
