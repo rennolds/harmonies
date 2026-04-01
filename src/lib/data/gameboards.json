@@ -43590,6 +43590,60 @@
     "twitter": "",
     "spotify": ""
   },
+  "04/01/2026": {
+    "playlist": "https://open.spotify.com/playlist/0W882jhZjgJCdpsMuzXwdq?si=9483893e64be4ab2",
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "special-message": true,
+    "message-content": "I just call 'april fools day' 'april day', because of how foolish my mind is becoming",
+    "categories": [
+      {
+        "name": "Lyrics to Rebecca Black's \"Friday\"",
+        "color": "#CBff70",
+        "elements": [
+          "Seven AM, waking up in the morning",
+          "Lookin forward to the weekend",
+          "Partying, partying, fun, fun",
+          "Tomorrow is Saturday"
+        ]
+      },
+      {
+        "name": "Lyrics to Jake Paul's \"It's Everyday Bro\"",
+        "color": "#FAA3FF",
+        "elements": [
+          "I'm from Ohio though, white boy",
+          "Disney Channel flow",
+          "England is my city",
+          "Is that your boy's cologne?"
+        ]
+      },
+      {
+        "name": "Lyrics to KSI's \"Thick Of It\"",
+        "color": "#78DAF9",
+        "elements": [
+          "Everybody knows",
+          "How the story goes",
+          "From the screen, to the ring",
+          "Where's my crown?"
+        ]
+      },
+      {
+        "name": "Yuno Miles Songs",
+        "color": "#FFBC21",
+        "elements": [
+          "Martin Luther",
+          "First Day of Christmas",
+          "Sea Lion",
+          "Pirates On A Boat"
+        ]
+      }
+    ],
+    "gameoverGif": ""
+  },
   "04/02/2026": {
     "playlist": "",
     "shoutout": true,
