@@ -1,6 +1,7 @@
 <script>
   import moment from "moment";
   import SlideMenu from "./SlideMenu.svelte";
+  import FeedbackModal from "./FeedbackModal.svelte";
   import { page } from "$app/stores";
   import SpotifyModal from "./SpotifyModal.svelte";
   import StatsModal from "./StatsModal.svelte";
@@ -25,6 +26,7 @@
   let menuOpen = false;
   let spotifyModalOpen = false;
   let statsModalOpen = false;
+  let feedbackOpen = false;
   let showUserMenu = false;
   let showLoginMenu = false;
 
@@ -78,7 +80,9 @@
   }
 </script>
 
-<SlideMenu isOpen={menuOpen} {closeMenu} />
+<SlideMenu isOpen={menuOpen} {closeMenu} onFeedback={() => (feedbackOpen = true)} />
+
+<FeedbackModal isOpen={feedbackOpen} onClose={() => (feedbackOpen = false)} />
 
 <!-- Add the Spotify Modal component -->
 <SpotifyModal

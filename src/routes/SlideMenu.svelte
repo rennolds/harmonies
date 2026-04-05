@@ -1,6 +1,7 @@
 <script>
   export let isOpen = false;
   export let closeMenu;
+  export let onFeedback = () => {};
 </script>
 
 <div
@@ -25,6 +26,7 @@
           <a href="https://twitter.com/Spotle_io" target="_blank">Follow us</a>
         </li>
         <li><a href="https://spotle.io/privacy" target="_blank">Privacy</a></li>
+        <li><button class="feedback-btn" on:click={() => { onFeedback(); closeMenu(); }}>Feedback</button></li>
       </ul>
     </nav>
 
@@ -150,6 +152,31 @@
 
   .menu-navigation a:hover {
     color: #ba81c2;
+  }
+
+  .feedback-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: inherit;
+    display: block;
+    transition: color 0.2s;
+    text-align: left;
+  }
+
+  .feedback-btn:hover {
+    color: #ba81c2;
+  }
+
+  @media (max-width: 600px) {
+    .feedback-btn {
+      font-size: 18px;
+      padding: 4px 0;
+    }
   }
 
   /* Left-align the "Our Games" heading */
