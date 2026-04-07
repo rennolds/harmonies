@@ -44007,8 +44007,7 @@
             }
           ]
         }
-      ]
-    },
+    ],
     "shoutout": false,
     "shoutout-name": "",
     "shoutout-socials": false,
@@ -44024,7 +44023,6 @@
   "04/09/2026": {
     "playlist": "",
     "shoutout": false,
-    "anonymous": true,
     "categories": [
       {
         "name": "K-Pop artists",
