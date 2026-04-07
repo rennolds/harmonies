@@ -43899,6 +43899,128 @@
     "twitter": "",
     "spotify": ""
   },
+  "04/07/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media2.giphy.com/media/qeAVCeUwLavsP6JD61/giphy.gif?cid=6c09b9527etlypioz0p81k32sh15x38dt737o36z4acqa3gm&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "categories": [
+        {
+          "color": "#CBff70",
+          "name": "Albums With Hearts on the Cover",
+          "elements": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/808s_%26_Heartbreak.png/250px-808s_%26_Heartbreak.png",
+              "alt": "808s & Heartbreak"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Green_Day_-_American_Idiot_album_cover.png/250px-Green_Day_-_American_Idiot_album_cover.png",
+              "alt": "American Idiot"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/06/Foo_Fighters_-_One_by_One.jpg",
+              "alt": "One by One"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/85/Heart_-_Dreamboat_Annie_%28album%29.png",
+              "alt": "Dreamboat Annie"
+            }
+          ]
+        },
+        {
+          "color": "#FAA3FF",
+          "name": "Black-and-White Album Covers",
+          "elements": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png",
+              "alt": "21"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
+              "alt": "Rumours"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/bd/The_Weeknd_-_Beauty_Behind_the_Madness.png",
+              "alt": "Beauty Behind the Madness"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/ea/Blackparadecover.jpg",
+              "alt": "The Black Parade"
+            }
+          ]
+        },
+        {
+          "color": "#78DAF9",
+          "name": "2000s Alternative Albums",
+          "elements": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Linkin_Park_Meteora_Album_Cover.jpg",
+              "alt": "Meteora"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/2/25/Evanescence_-_Fallen.png",
+              "alt": "Fallen"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f9/One_X_%28Three_Days_Grace_album_-cover_art%29.png",
+              "alt": "One-X"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Phobia-Breaking_Benjamin_album.jpg",
+              "alt": "Phobia"
+            }
+          ]
+        },
+        {
+          "color": "#FFBC21",
+          "name": "Named After the Artist's First Name",
+          "elements": [
+            {
+              "type": "image",
+              "url": "https://i.scdn.co/image/ab67616d0000b273e63518d50aff63f57d2b8ead",
+              "alt": "janet."
+            },
+            {
+              "type": "image",
+              "url": "https://i.scdn.co/image/ab67616d0000b273cc57e9b00b87dd0f6e868347",
+              "alt": "Whitney"
+            },
+            {
+              "type": "image",
+              "url": "https://i.scdn.co/image/ab67616d0000b27302873b2abb05623569904b55",
+              "alt": "Britney"
+            },
+            {
+              "type": "image",
+              "url": "https://i.scdn.co/image/ab67616d0000b2733e58082f362590e07334fbbd",
+              "alt": "Diana"
+            }
+          ]
+        }
+      ]
+    },
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
+  },
   "04/09/2026": {
     "playlist": "",
     "shoutout": false,
