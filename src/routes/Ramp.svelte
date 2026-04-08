@@ -70,10 +70,41 @@
 
       observer.observe(document.body, { childList: true, subtree: true });
 
+      // Hide bottom banner ads when the mobile keyboard is open so they
+      // don't slide up and cover content / search results.
+      let cleanupKeyboard = () => {};
+      if (window.visualViewport) {
+        const vv = window.visualViewport;
+        const KEYBOARD_THRESHOLD = 150; // px difference that signals keyboard
+
+        const hideBottomAds = (hidden) => {
+          document.querySelectorAll(
+            '[id*="bottom" i], [id*="adhesion" i], [id*="anchor" i], [id*="sticky" i], [data-pw-desk]'
+          ).forEach((el) => {
+            try {
+              const style = window.getComputedStyle(el);
+              if (style.position === "fixed" || style.position === "sticky") {
+                el.style.setProperty("visibility", hidden ? "hidden" : "", "important");
+                el.style.setProperty("pointer-events", hidden ? "none" : "", "important");
+              }
+            } catch (_) {}
+          });
+        };
+
+        const onViewportResize = () => {
+          const isKeyboardOpen =
+            window.innerHeight - vv.height > KEYBOARD_THRESHOLD;
+          hideBottomAds(isKeyboardOpen);
+        };
+
+        vv.addEventListener("resize", onViewportResize);
+        cleanupKeyboard = () => vv.removeEventListener("resize", onViewportResize);
+      }
+
       // Ramp ad SDK initialization
       if (!PUB_ID || !WEBSITE_ID) {
         console.log("Missing Publisher Id and Website Id");
-        return () => observer.disconnect();
+        return () => { observer.disconnect(); cleanupKeyboard(); };
       }
 
       window.ramp = window.ramp || {};
@@ -92,7 +123,7 @@
         });
       };
 
-      return () => observer.disconnect();
+      return () => { observer.disconnect(); cleanupKeyboard(); };
     });
 
     $: if (
