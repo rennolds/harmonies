@@ -44119,11 +44119,11 @@
         ]
       }
     ],
-    "gameoverGif": "",
+    "gameoverGif": "https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUydmJ2ZWV0bHNhcGo1d2R2dDI1bDVhOTc1ZmQ5NTc0eHd0MjQxeXEzbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bVYXlJ0foHZF4IB4mX/giphy.gif",
     "shoutout-name": ""
   },
   "04/10/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/2mQtGewpiDvUrgGdSyZTjF?si=21c38932a4fc4a35",
     "shoutout": true,
     "categories": [
       {
@@ -44152,8 +44152,8 @@
         "elements": [
           "K Magic",
           "Your Eyez Only",
-          "% TNT",
-          "Years"
+          "Luftballons",
+          "99 Problems"
         ]
       },
       {
@@ -44167,11 +44167,11 @@
         ]
       }
     ],
-    "gameoverGif": "",
+    "gameoverGif": "https://media.tenor.com/JneWl7Pn64EAAAAM/avril-lavigne.gif",
     "shoutout-name": "kieranwf"
   },
   "04/11/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/406En590OMyv23m9V8IhIQ?si=956b9ce6767a4b6a",
     "shoutout": true,
     "categories": [
       {
@@ -44198,14 +44198,14 @@
         "name": "Albums released in 2007",
         "color": "#78DAF9",
         "elements": [
-          "So Right, It's Wrong",
+          "So Wrong, It's Right",
           "Riot!",
           "A Lesson in Romantics",
           "Infinity on High"
         ]
       },
       {
-        "name": "Bands that lost/changed members",
+        "name": "Pop Punk Bands Changed Members",
         "color": "#FFBC21",
         "elements": [
           "Paramore",
@@ -44221,9 +44221,8 @@
     "special-message": true
   },
   "04/12/2026": {
-    "playlist": "",
+    "playlist": "https://open.spotify.com/playlist/5jzcUXcHtvZg12fTkqdyym?si=9307c704ae784ac1",
     "shoutout": true,
-    "anonymous": false,
     "categories": [
       {
         "name": "Groups with 1 girl and 3 guys",
@@ -44239,7 +44238,7 @@
         "name": "Arctic Monkeys albums",
         "color": "#FAA3FF",
         "elements": [
-          "Humbug",
+          "Tranquility Base Hotel & Casino",
           "Favourite Worst Nightmare",
           "Whatever People Say I Am, That's What I'm Not",
           "AM"
@@ -44266,7 +44265,160 @@
         ]
       }
     ],
-    "gameoverGif": "",
+    "gameoverGif": "https://media.giphy.com/media/7Ls62nIdYuPTO/giphy.gif",
     "shoutout-name": "alexandfuecoco"
+  },
+  "04/13/2026": {
+    "playlist": "https://open.spotify.com/playlist/43rZEAEFE2mPnrajv8O1sc?si=92a666e2ab164235",
+    "shoutout": false,
+    "categories": [
+      {
+        "name": "Maroon 5 Songs",
+        "color": "#CBff70",
+        "elements": [
+          "Sugar",
+          "Wait",
+          "Sunday Morning",
+          "Maps"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Massive EDM Hits",
+        "elements": [
+          "Levels",
+          "Clarity",
+          "Summer",
+          "Latch"
+        ]
+      },
+      {
+        "name": "2000's R&B Songs",
+        "elements": [
+          "Promiscuous",
+          "Dilemma",
+          "Confessions",
+          "So Sick"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "____ Song",
+        "elements": [
+          "Immigrant",
+          "Space",
+          "Fight",
+          "Love"
+        ]
+      }
+    ],
+    "gameoverGif": ""
+  },
+  "04/14/2026": {
+    "playlist": "https://open.spotify.com/playlist/1iSGvSisDl3AE2tl9yjHmy?si=cey-qxxqTp6PaZ14DjsUHg&pi=1q4ON_mzRA6h5",
+    "shoutout": true,
+    "categories": [
+      {
+        "name": "2020s European Stars",
+        "color": "#CBff70",
+        "elements": [
+          "Laufey",
+          "Lola Young",
+          "Hozier",
+          "Harry Styles"
+        ]
+      },
+      {
+        "name": "Mac Miller Songs",
+        "color": "#FAA3FF",
+        "elements": [
+          "My Favorite Part",
+          "The Spins",
+          "Dang!",
+          "Weekend"
+        ]
+      },
+      {
+        "name": "Songs from Fleetwood Mac’s \"Rumours\"",
+        "color": "#78DAF9",
+        "elements": [
+          "Gold Dust Woman",
+          "Silver Springs",
+          "You Make Loving Fun",
+          "Dreams"
+        ]
+      },
+      {
+        "name": "Billboard Hits From 2025",
+        "color": "#FFBC21",
+        "elements": [
+          "Man I Need",
+          "WHERE IS MY HUSBAND!",
+          "DAISIES",
+          "Luther"
+        ]
+      }
+    ],
+    "gameoverGif": "https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyZjBpcHRvcnZ3c2NmYnZiYmN2cjBzOWh3cm9qaDQ5bG9meWc1Nm5xZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qW5VjC3nxFtius7bYO/giphy.gif",
+    "shoutout-name": "jengusroundstone",
+    "message-content": "for Al 💚",
+    "special-message": true
+  },
+  "04/16/2026": {
+    "playlist": "",
+    "gameoverGif": "https://media.tenor.com/ByxUL0hIzcwAAAAM/jonas-brothers-sos.gif",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "Nelly Songs",
+        "elements": [
+          "Hot In Herre",
+          "Just a Dream",
+          "Ride Wit Me",
+          "Country Grammar"
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Lyrics to Chappell Roan's \"HOT TO GO!\"",
+        "elements": [
+          "Call me hot",
+          "Not pretty",
+          "Do you like this beat?",
+          "99 Degrees"
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "Lyrics to The Jonas Brothers \"Burnin' Up\"",
+        "elements": [
+          "I'm hot",
+          "You're cold",
+          "Who turned the temperature hotter?",
+          "Red dress"
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "Songs About Inappropriate Crushes",
+        "elements": [
+          "Hot For Teacher",
+          "Stacy’s Mom",
+          "Jessie’s Girl",
+          "I'm N Luv (Wit a Stripper)"
+        ]
+      }
+    ],
+    "shoutout": false,
+    "shoutout-name": "",
+    "shoutout-socials": false,
+    "special-message": false,
+    "message-content": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "twitch": "",
+    "twitter": "",
+    "spotify": ""
   }
 }
