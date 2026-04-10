@@ -44364,8 +44364,126 @@
     "message-content": "for Al 💚",
     "special-message": true
   },
-  "04/16/2026": {
+  "04/15/2026": {
     "playlist": "",
+    "gameoverGif": "",
+    "categories": [
+      {
+        "color": "#CBff70",
+        "name": "2010s Pop Stars",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9QFdYfyZn49ukUMTOF5mPKqgilab_xUNPBQ&s",
+            "alt": "Justin Bieber"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJjgRaKvdLJ1AQnl7HPpD2UZzXk9BDu8tiPBZ32pOiZA&s&ec=121630468",
+            "alt": "Justin Timberlake"
+          },
+          {
+            "type": "image",
+            "url": "https://www.sandiegouniontribune.com/wp-content/uploads/migration/2010/09/20/00000169-0ce7-dbbe-a16f-4ee770c50000.jpg?w=535",
+            "alt": "Bruno Mars"
+          },
+          {
+            "type": "image",
+            "url": "https://akns-images.eonline.com/eol_images/Entire_Site/201866/rs_600x600-180706034550-600.chris-brown.7618.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+            "alt": "Chris Brown"
+          }
+        ]
+      },
+      {
+        "color": "#FAA3FF",
+        "name": "Rappers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/1/9b/19b81302-2e69-11e9-8fe2-4381ae3ddc91/5efa2626e6229.preview.png?crop=461%2C461%2C173%2C0&resize=1200%2C1200&order=crop%2Cresize",
+            "alt": "NBA YoungBoy"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/XXXTentacion-MugshotDec2017.jpg/330px-XXXTentacion-MugshotDec2017.jpg",
+            "alt": "XXXTentacion"
+          },
+          {
+            "type": "image",
+            "url": "https://media.pitchfork.com/photos/5931ca72d4294b0bc2dd8300/master/w_1600%2Cc_limit/file",
+            "alt": "Tyler, the Creator"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NLE_Choppa%27s_2021_mugshot.png/500px-NLE_Choppa%27s_2021_mugshot.png",
+            "alt": "NLE Choppa"
+          }
+        ]
+      },
+      {
+        "color": "#78DAF9",
+        "name": "British Rockers",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://cdn8.openculture.com/wp-content/uploads/2013/08/bowie-mug-shot.jpg",
+            "alt": "David Bowie"
+          },
+          {
+            "type": "image",
+            "url": "https://preview.redd.it/liams-mugshot-2002-v0-lnrh939xc30c1.jpg?width=640&crop=smart&auto=webp&s=0ee9cbd41c3acca8e16dbb8f39c94aabb2f7b37a",
+            "alt": "Liam Gallagher"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTexFnEqmU3HYtbp1wpbrqTU8Fjdg1BDgmtKA&s",
+            "alt": "Mick Jagger"
+          },
+          {
+            "type": "image",
+            "url": "https://m.media-amazon.com/images/I/61sIYFDRr2L._AC_UF350,350_QL80_.jpg",
+            "alt": "Keith Richards"
+          }
+        ]
+      },
+      {
+        "color": "#FFBC21",
+        "name": "American Rock Icons",
+        "elements": [
+          {
+            "type": "image",
+            "url": "https://preview.redd.it/kurt-mugshot-from-1986-v0-kru6j75mbwz81.jpg?auto=webp&s=c3e33fd22261b7ee7180e281db42802147448ecc",
+            "alt": "Kurt Cobain"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/d/de/Jimihendrix1969mug.jpg",
+            "alt": "Jimi Hendrix"
+          },
+          {
+            "type": "image",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6IUmaWjDW5khJ9Kq9ON8iBPvrAcrKKITf-Q&s",
+            "alt": "Johnny Cash"
+          },
+          {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Elvis_mugshot.jpg",
+            "alt": "Elvis Presley"
+          }
+        ]
+      }
+    ],
+    "shoutout": true,
+    "shoutout-name": "chris b-e",
+    "shoutout-socials": true,
+    "tiktok": "https://www.tiktok.com/@cmb._.e?_t=8mU9YKPMP02835SLWJI/sparkly-will.gif",
+    "twitter": "https://x.com/cmb__e",
+    "spotify": "https://open.spotify.com/user/jm1au8jz19fr2ay8yl9lmzlea?si=bnrttOZMT7GpDghS3ttJ8Q",
+    "special-message": true,
+    "message-content": "[jim downey & conan o’brien - new york financier](https://www.youtube.com/watch?v=GKfHcas_cZg)"
+  },
+  "04/16/2026": {
+    "playlist": "https://open.spotify.com/playlist/5jgKEYxsAOxrMaHiEB1Jes?si=b72d00de73734c76",
     "gameoverGif": "https://media.tenor.com/ByxUL0hIzcwAAAAM/jonas-brothers-sos.gif",
     "categories": [
       {
