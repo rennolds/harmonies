@@ -9,6 +9,8 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 notebooks/*
+workers/*
+scripts/*
 # src/routes/+page.svelte
 # src/routes/test/+page.svelte
 # src/routes/test/ClearedCategory.svelte
@@ -17,3 +19,4 @@ notebooks/*
 # src/routes/test/ResultGrid.svelte
 # src/routes/test/store.js
 # src/routes/test/styles.css
+
